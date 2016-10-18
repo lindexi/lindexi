@@ -1,0 +1,1486 @@
+/*
+ *                        ___
+ *                       /\_ \
+ *  _____     ___     ___\//\ \      __
+ * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
+ * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
+ *  \ \ ,__/\ \____/\ \____//\____\ \____\
+ *   \ \ \/  \/___/  \/___/ \/____/\/____/
+ *    \ \_\
+ *     \/_/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/poole.
+ */
+
+
+/*
+ * Contents
+ *
+ * Body resets
+ * Custom type
+ * Messages
+ * Container
+ * Masthead
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media (min-width: 38em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+a strong {
+  color: inherit;
+}
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  color: #006699;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fjalla One", "Roboto Condensed", Roboto, sans-serif;
+  margin-top: .8rem;
+  margin-bottom: .6rem;
+  font-weight: normal;
+  line-height: 1.25;
+  letter-spacing: -.03em;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Body text */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+strong {
+  color: #303030;
+}
+
+
+/* Lists */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+/* Misc */
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+/* Code */
+pre {
+  font-family: "Fira Mono", Menlo, Monaco, "Courier New", monospace;
+  overflow: auto;
+  padding: 1em 2.5%;
+}
+code {
+  font-family: "Fira Mono", Menlo, Monaco, "Courier New", monospace;
+  padding: .25em .5em;
+  font-size: 90%;
+  color: #bf616a;
+  background-color: #f3f3f3;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  overflow: auto;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  border-radius: .4em;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Pygments via Jekyll */
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.highlight pre {
+  margin-bottom: 0;
+}
+
+/* Gist via GitHub Pages */
+.gist .gist-file {
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+}
+.gist .markdown-body {
+  padding: 15px;
+}
+.gist pre {
+  padding: 0;
+  background-color: transparent;
+}
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4;
+}
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* Quotes */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+/* Tables */
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+
+/*
+ * Custom type
+ *
+ * Extend paragraphs with `.lead` for larger introductory text.
+ */
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+
+/*
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #717171;
+  background-color: #f9f9f9;
+}
+
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+  max-width: 44rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050;
+}
+.masthead-title a {
+  color: #505050;
+}
+.masthead-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+}
+
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+
+.page,
+.post {
+  margin-bottom: 4em;
+}
+
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+  color: #303030;
+}
+.post-title a:hover, a:focus {
+  color: #006699;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s; }
+
+.page-title,
+.post-title {
+  margin-top: 0;
+}
+
+/* Meta data line below post title */
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+}
+
+/* Related posts */
+.related {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee;
+}
+.related-posts {
+  padding-left: 0;
+  list-style: none;
+}
+.related-posts h3 {
+  margin-top: 0;
+}
+.related-posts li small {
+  font-size: 75%;
+  color: #999;
+}
+.related-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+.related-posts li a:hover small {
+  color: inherit;
+}
+
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin: 3rem 0;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee;
+  float: left;
+  width: 47%;
+}
+
+/* Only provide a hover state for linked pagination items */
+a.pagination-item:hover {
+  background-color: #f5f5f5;
+}
+
+.pagination-item:first-child {
+  margin-bottom: 0;
+  margin-left: 3%;
+  border-top-left-radius:    4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination-item:last-child {
+  margin-left: -1px;
+  margin-right: 3%;
+  border-top-right-radius:    4px;
+  border-bottom-right-radius: 4px;
+}
+
+.highlight .hll { background-color: #ffc; }
+.highlight .c { color: #999; } /* Comment */
+.highlight .err { color: #a00; background-color: #faa } /* Error */
+.highlight .k { color: #069; } /* Keyword */
+.highlight .o { color: #555 } /* Operator */
+.highlight .cm { color: #09f; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #099 } /* Comment.Preproc */
+.highlight .c1 { color: #999; } /* Comment.Single */
+.highlight .cs { color: #999; } /* Comment.Special */
+.highlight .gd { background-color: #fcc; border: 1px solid #c00 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #f00 } /* Generic.Error */
+.highlight .gh { color: #030; } /* Generic.Heading */
+.highlight .gi { background-color: #cfc; border: 1px solid #0c0 } /* Generic.Inserted */
+.highlight .go { color: #aaa } /* Generic.Output */
+.highlight .gp { color: #009; } /* Generic.Prompt */
+.highlight .gs { } /* Generic.Strong */
+.highlight .gu { color: #030; } /* Generic.Subheading */
+.highlight .gt { color: #9c6 } /* Generic.Traceback */
+.highlight .kc { color: #069; } /* Keyword.Constant */
+.highlight .kd { color: #069; } /* Keyword.Declaration */
+.highlight .kn { color: #069; } /* Keyword.Namespace */
+.highlight .kp { color: #069 } /* Keyword.Pseudo */
+.highlight .kr { color: #069; } /* Keyword.Reserved */
+.highlight .kt { color: #078; } /* Keyword.Type */
+.highlight .m { color: #f60 } /* Literal.Number */
+.highlight .s { color: #d44950 } /* Literal.String */
+.highlight .na { color: #4f9fcf } /* Name.Attribute */
+.highlight .nb { color: #366 } /* Name.Builtin */
+.highlight .nc { color: #0a8; } /* Name.Class */
+.highlight .no { color: #360 } /* Name.Constant */
+.highlight .nd { color: #99f } /* Name.Decorator */
+.highlight .ni { color: #999; } /* Name.Entity */
+.highlight .ne { color: #c00; } /* Name.Exception */
+.highlight .nf { color: #c0f } /* Name.Function */
+.highlight .nl { color: #99f } /* Name.Label */
+.highlight .nn { color: #0cf; } /* Name.Namespace */
+.highlight .nt { color: #2f6f9f; } /* Name.Tag */
+.highlight .nv { color: #033 } /* Name.Variable */
+.highlight .ow { color: #000; } /* Operator.Word */
+.highlight .w { color: #bbb } /* Text.Whitespace */
+.highlight .mf { color: #f60 } /* Literal.Number.Float */
+.highlight .mh { color: #f60 } /* Literal.Number.Hex */
+.highlight .mi { color: #f60 } /* Literal.Number.Integer */
+.highlight .mo { color: #f60 } /* Literal.Number.Oct */
+.highlight .sb { color: #c30 } /* Literal.String.Backtick */
+.highlight .sc { color: #c30 } /* Literal.String.Char */
+.highlight .sd { color: #c30; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #c30 } /* Literal.String.Double */
+.highlight .se { color: #c30; } /* Literal.String.Escape */
+.highlight .sh { color: #c30 } /* Literal.String.Heredoc */
+.highlight .si { color: #a00 } /* Literal.String.Interpol */
+.highlight .sx { color: #c30 } /* Literal.String.Other */
+.highlight .sr { color: #3aa } /* Literal.String.Regex */
+.highlight .s1 { color: #c30 } /* Literal.String.Single */
+.highlight .ss { color: #fc3 } /* Literal.String.Symbol */
+.highlight .bp { color: #366 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #033 } /* Name.Variable.Class */
+.highlight .vg { color: #033 } /* Name.Variable.Global */
+.highlight .vi { color: #033 } /* Name.Variable.Instance */
+.highlight .il { color: #f60 } /* Literal.Number.Integer.Long */
+
+.css .o,
+.css .o + .nt,
+.css .nt + .nt { color: #999; }
+
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html {
+  font-family: "Fira Sans", Roboto, Helvetica, Arial, sans-serif;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background: -webkit-linear-gradient(#009688, #00695C);
+  background: -o-linear-gradient(#009688, #00695C);
+  background: -moz-linear-gradient(#009688, #00695C);
+  background: linear-gradient(#009688, #00695C);
+}
+@media (min-width: 48em) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    display: table;
+  }
+}
+
+@media (min-width: 64em) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    width: 20rem;
+    height: 100%;
+    display: table;
+  }
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #fff;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.sidebar-about .logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  margin-bottom: 1rem;
+}
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+  }
+}
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) {
+  .content {
+    margin-left: 30%;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 23rem;
+  }
+}
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+  .layout-reverse .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-reverse .content {
+    margin-left: 2rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-reverse .content {
+    margin-left: 4rem;
+    margin-right: 22rem;
+  }
+}
+
+
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+
+/* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Red */
+.theme-base-08 .sidebar {
+  background-color: #ac4142;
+}
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+  color: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .sidebar {
+  background-color: #d28445;
+}
+.theme-base-09 .content a,
+.theme-base-09 .related-posts li a:hover {
+  color: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .sidebar {
+  background-color: #f4bf75;
+}
+.theme-base-0a .content a,
+.theme-base-0a .related-posts li a:hover {
+  color: #f4bf75;
+}
+
+/* Green */
+.theme-base-0b .sidebar {
+  background-color: #90a959;
+}
+.theme-base-0b .content a,
+.theme-base-0b .related-posts li a:hover {
+  color: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .sidebar {
+  background-color: #75b5aa;
+}
+.theme-base-0c .content a,
+.theme-base-0c .related-posts li a:hover {
+  color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .sidebar {
+  background-color: #6a9fb5;
+}
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .sidebar {
+  background-color: #aa759f;
+}
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+  background-color: #8f5536;
+}
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
+}
+
+.lead {
+  font-size: 0.9rem;
+}
+  
+.icon:before {
+  font-family: "foundation-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit; }
+
+.navigation {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  
+.sidebar-social {
+  margin-bottom: 1rem; }
+  .sidebar-social a {
+      width: 2em;
+      height: 2em; }
+    .sidebar-social a .label {
+      display: none; }
+    .sidebar-social a .icon {
+      display: block;
+      font-size: 1.3em; }
+  
+.social-item {
+  display: inline-block;
+  margin: 1px;
+ }  
+      
+.social-item a {
+  display: block;
+  position: relative;
+  border: 1px solid #BBB;
+  border-radius: 50%;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: none;
+  color: #BBB;
+  -webkit-font-smoothing: antialiased; }
+  .navigation__item a:hover {
+    color: #FFF;
+    border-color: #FFF;
+ }
+
+.logo {
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); }
+  
+.post-comments {
+  border-top: 1px solid #dddddd;
+  padding: 60px 0; }
+
+
+@media (min-width: 48em) {
+  .post-title {
+    font-size: 2.6rem; }
+}
+
+.post-overlay-header {
+  border-radius: 4px;
+  min-height: 190px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: .5rem;
+}
+
+@media (min-width: 48em) {
+  .post-overlay-header {
+    min-height: 300px;
+  }
+}
+
+.post-overlay-header-title {
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 1rem 0 1rem;
+  border-bottom-left-radius: 4px; }
+
+.post-overlay-header a {
+  color: #FFF;
+}
+.post-overlay-header a:hover, a:focus {
+  color: #CCC; }
+
+.post-overlay-header .post-date {
+  color: #DDDDDD;
+}
+
+.twitter a:hover {
+  color: #64B5F6;
+  border-color: #64B5F6; }
+  
+.gplus a:hover {
+  color: #E57373;
+  border-color: #E57373; }
+
+.github a:hover {
+  color: #90A4AE;
+  border-color: #90A4AE; }
+  
+.stackoverflow a:hover {
+  color: #FFD54F;
+  border-color: #FFD54F; }
+  
+.foursquare a:hover {
+  color: #7986CB;
+  border-color: #7986CB; }  
+  
+.linkedin a:hover {
+  color: #64B5F6;
+  border-color: #64B5F6; }    
+
+.mail a:hover {
+  color: #4DB6AC;
+  border-color: #4DB6AC; }  
+
+/* 
+ * Foundation Icons v 3.0
+ * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
+ * MIT License
+ */
+
+@font-face {
+  font-family: "foundation-icons";
+  src: url("//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.eot");
+  src: url("//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.eot?#iefix") format("embedded-opentype"),
+       url("//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.woff") format("woff"),
+       url("//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.ttf") format("truetype"),
+       url("//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fi-address-book:before,
+.fi-alert:before,
+.fi-align-center:before,
+.fi-align-justify:before,
+.fi-align-left:before,
+.fi-align-right:before,
+.fi-anchor:before,
+.fi-annotate:before,
+.fi-archive:before,
+.fi-arrow-down:before,
+.fi-arrow-left:before,
+.fi-arrow-right:before,
+.fi-arrow-up:before,
+.fi-arrows-compress:before,
+.fi-arrows-expand:before,
+.fi-arrows-in:before,
+.fi-arrows-out:before,
+.fi-asl:before,
+.fi-asterisk:before,
+.fi-at-sign:before,
+.fi-background-color:before,
+.fi-battery-empty:before,
+.fi-battery-full:before,
+.fi-battery-half:before,
+.fi-bitcoin-circle:before,
+.fi-bitcoin:before,
+.fi-blind:before,
+.fi-bluetooth:before,
+.fi-bold:before,
+.fi-book-bookmark:before,
+.fi-book:before,
+.fi-bookmark:before,
+.fi-braille:before,
+.fi-burst-new:before,
+.fi-burst-sale:before,
+.fi-burst:before,
+.fi-calendar:before,
+.fi-camera:before,
+.fi-check:before,
+.fi-checkbox:before,
+.fi-clipboard-notes:before,
+.fi-clipboard-pencil:before,
+.fi-clipboard:before,
+.fi-clock:before,
+.fi-closed-caption:before,
+.fi-cloud:before,
+.fi-comment-minus:before,
+.fi-comment-quotes:before,
+.fi-comment-video:before,
+.fi-comment:before,
+.fi-comments:before,
+.fi-compass:before,
+.fi-contrast:before,
+.fi-credit-card:before,
+.fi-crop:before,
+.fi-crown:before,
+.fi-css3:before,
+.fi-database:before,
+.fi-die-five:before,
+.fi-die-four:before,
+.fi-die-one:before,
+.fi-die-six:before,
+.fi-die-three:before,
+.fi-die-two:before,
+.fi-dislike:before,
+.fi-dollar-bill:before,
+.fi-dollar:before,
+.fi-download:before,
+.fi-eject:before,
+.fi-elevator:before,
+.fi-euro:before,
+.fi-eye:before,
+.fi-fast-forward:before,
+.fi-female-symbol:before,
+.fi-female:before,
+.fi-filter:before,
+.fi-first-aid:before,
+.fi-flag:before,
+.fi-folder-add:before,
+.fi-folder-lock:before,
+.fi-folder:before,
+.fi-foot:before,
+.fi-foundation:before,
+.fi-graph-bar:before,
+.fi-graph-horizontal:before,
+.fi-graph-pie:before,
+.fi-graph-trend:before,
+.fi-guide-dog:before,
+.fi-hearing-aid:before,
+.fi-heart:before,
+.fi-home:before,
+.fi-html5:before,
+.fi-indent-less:before,
+.fi-indent-more:before,
+.fi-info:before,
+.fi-italic:before,
+.fi-key:before,
+.fi-laptop:before,
+.fi-layout:before,
+.fi-lightbulb:before,
+.fi-like:before,
+.fi-link:before,
+.fi-list-bullet:before,
+.fi-list-number:before,
+.fi-list-thumbnails:before,
+.fi-list:before,
+.fi-lock:before,
+.fi-loop:before,
+.fi-magnifying-glass:before,
+.fi-mail:before,
+.fi-male-female:before,
+.fi-male-symbol:before,
+.fi-male:before,
+.fi-map:before,
+.fi-marker:before,
+.fi-megaphone:before,
+.fi-microphone:before,
+.fi-minus-circle:before,
+.fi-minus:before,
+.fi-mobile-signal:before,
+.fi-mobile:before,
+.fi-monitor:before,
+.fi-mountains:before,
+.fi-music:before,
+.fi-next:before,
+.fi-no-dogs:before,
+.fi-no-smoking:before,
+.fi-page-add:before,
+.fi-page-copy:before,
+.fi-page-csv:before,
+.fi-page-delete:before,
+.fi-page-doc:before,
+.fi-page-edit:before,
+.fi-page-export-csv:before,
+.fi-page-export-doc:before,
+.fi-page-export-pdf:before,
+.fi-page-export:before,
+.fi-page-filled:before,
+.fi-page-multiple:before,
+.fi-page-pdf:before,
+.fi-page-remove:before,
+.fi-page-search:before,
+.fi-page:before,
+.fi-paint-bucket:before,
+.fi-paperclip:before,
+.fi-pause:before,
+.fi-paw:before,
+.fi-paypal:before,
+.fi-pencil:before,
+.fi-photo:before,
+.fi-play-circle:before,
+.fi-play-video:before,
+.fi-play:before,
+.fi-plus:before,
+.fi-pound:before,
+.fi-power:before,
+.fi-previous:before,
+.fi-price-tag:before,
+.fi-pricetag-multiple:before,
+.fi-print:before,
+.fi-prohibited:before,
+.fi-projection-screen:before,
+.fi-puzzle:before,
+.fi-quote:before,
+.fi-record:before,
+.fi-refresh:before,
+.fi-results-demographics:before,
+.fi-results:before,
+.fi-rewind-ten:before,
+.fi-rewind:before,
+.fi-rss:before,
+.fi-safety-cone:before,
+.fi-save:before,
+.fi-share:before,
+.fi-sheriff-badge:before,
+.fi-shield:before,
+.fi-shopping-bag:before,
+.fi-shopping-cart:before,
+.fi-shuffle:before,
+.fi-skull:before,
+.fi-social-500px:before,
+.fi-social-adobe:before,
+.fi-social-amazon:before,
+.fi-social-android:before,
+.fi-social-apple:before,
+.fi-social-behance:before,
+.fi-social-bing:before,
+.fi-social-blogger:before,
+.fi-social-delicious:before,
+.fi-social-designer-news:before,
+.fi-social-deviant-art:before,
+.fi-social-digg:before,
+.fi-social-dribbble:before,
+.fi-social-drive:before,
+.fi-social-dropbox:before,
+.fi-social-evernote:before,
+.fi-social-facebook:before,
+.fi-social-flickr:before,
+.fi-social-forrst:before,
+.fi-social-foursquare:before,
+.fi-social-game-center:before,
+.fi-social-github:before,
+.fi-social-google-plus:before,
+.fi-social-hacker-news:before,
+.fi-social-hi5:before,
+.fi-social-instagram:before,
+.fi-social-joomla:before,
+.fi-social-lastfm:before,
+.fi-social-linkedin:before,
+.fi-social-medium:before,
+.fi-social-myspace:before,
+.fi-social-orkut:before,
+.fi-social-path:before,
+.fi-social-picasa:before,
+.fi-social-pinterest:before,
+.fi-social-rdio:before,
+.fi-social-reddit:before,
+.fi-social-skillshare:before,
+.fi-social-skype:before,
+.fi-social-smashing-mag:before,
+.fi-social-snapchat:before,
+.fi-social-spotify:before,
+.fi-social-squidoo:before,
+.fi-social-stack-overflow:before,
+.fi-social-steam:before,
+.fi-social-stumbleupon:before,
+.fi-social-treehouse:before,
+.fi-social-tumblr:before,
+.fi-social-twitter:before,
+.fi-social-vimeo:before,
+.fi-social-windows:before,
+.fi-social-xbox:before,
+.fi-social-yahoo:before,
+.fi-social-yelp:before,
+.fi-social-youtube:before,
+.fi-social-zerply:before,
+.fi-social-zurb:before,
+.fi-sound:before,
+.fi-star:before,
+.fi-stop:before,
+.fi-strikethrough:before,
+.fi-subscript:before,
+.fi-superscript:before,
+.fi-tablet-landscape:before,
+.fi-tablet-portrait:before,
+.fi-target-two:before,
+.fi-target:before,
+.fi-telephone-accessible:before,
+.fi-telephone:before,
+.fi-text-color:before,
+.fi-thumbnails:before,
+.fi-ticket:before,
+.fi-torso-business:before,
+.fi-torso-female:before,
+.fi-torso:before,
+.fi-torsos-all-female:before,
+.fi-torsos-all:before,
+.fi-torsos-female-male:before,
+.fi-torsos-male-female:before,
+.fi-torsos:before,
+.fi-trash:before,
+.fi-trees:before,
+.fi-trophy:before,
+.fi-underline:before,
+.fi-universal-access:before,
+.fi-unlink:before,
+.fi-unlock:before,
+.fi-upload-cloud:before,
+.fi-upload:before,
+.fi-usb:before,
+.fi-video:before,
+.fi-volume-none:before,
+.fi-volume-strike:before,
+.fi-volume:before,
+.fi-web:before,
+.fi-wheelchair:before,
+.fi-widget:before,
+.fi-wrench:before,
+.fi-x-circle:before,
+.fi-x:before,
+.fi-yen:before,
+.fi-zoom-in:before,
+.fi-zoom-out:before {
+  font-family: "foundation-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.fi-address-book:before { content: "\f100"; }
+.fi-alert:before { content: "\f101"; }
+.fi-align-center:before { content: "\f102"; }
+.fi-align-justify:before { content: "\f103"; }
+.fi-align-left:before { content: "\f104"; }
+.fi-align-right:before { content: "\f105"; }
+.fi-anchor:before { content: "\f106"; }
+.fi-annotate:before { content: "\f107"; }
+.fi-archive:before { content: "\f108"; }
+.fi-arrow-down:before { content: "\f109"; }
+.fi-arrow-left:before { content: "\f10a"; }
+.fi-arrow-right:before { content: "\f10b"; }
+.fi-arrow-up:before { content: "\f10c"; }
+.fi-arrows-compress:before { content: "\f10d"; }
+.fi-arrows-expand:before { content: "\f10e"; }
+.fi-arrows-in:before { content: "\f10f"; }
+.fi-arrows-out:before { content: "\f110"; }
+.fi-asl:before { content: "\f111"; }
+.fi-asterisk:before { content: "\f112"; }
+.fi-at-sign:before { content: "\f113"; }
+.fi-background-color:before { content: "\f114"; }
+.fi-battery-empty:before { content: "\f115"; }
+.fi-battery-full:before { content: "\f116"; }
+.fi-battery-half:before { content: "\f117"; }
+.fi-bitcoin-circle:before { content: "\f118"; }
+.fi-bitcoin:before { content: "\f119"; }
+.fi-blind:before { content: "\f11a"; }
+.fi-bluetooth:before { content: "\f11b"; }
+.fi-bold:before { content: "\f11c"; }
+.fi-book-bookmark:before { content: "\f11d"; }
+.fi-book:before { content: "\f11e"; }
+.fi-bookmark:before { content: "\f11f"; }
+.fi-braille:before { content: "\f120"; }
+.fi-burst-new:before { content: "\f121"; }
+.fi-burst-sale:before { content: "\f122"; }
+.fi-burst:before { content: "\f123"; }
+.fi-calendar:before { content: "\f124"; }
+.fi-camera:before { content: "\f125"; }
+.fi-check:before { content: "\f126"; }
+.fi-checkbox:before { content: "\f127"; }
+.fi-clipboard-notes:before { content: "\f128"; }
+.fi-clipboard-pencil:before { content: "\f129"; }
+.fi-clipboard:before { content: "\f12a"; }
+.fi-clock:before { content: "\f12b"; }
+.fi-closed-caption:before { content: "\f12c"; }
+.fi-cloud:before { content: "\f12d"; }
+.fi-comment-minus:before { content: "\f12e"; }
+.fi-comment-quotes:before { content: "\f12f"; }
+.fi-comment-video:before { content: "\f130"; }
+.fi-comment:before { content: "\f131"; }
+.fi-comments:before { content: "\f132"; }
+.fi-compass:before { content: "\f133"; }
+.fi-contrast:before { content: "\f134"; }
+.fi-credit-card:before { content: "\f135"; }
+.fi-crop:before { content: "\f136"; }
+.fi-crown:before { content: "\f137"; }
+.fi-css3:before { content: "\f138"; }
+.fi-database:before { content: "\f139"; }
+.fi-die-five:before { content: "\f13a"; }
+.fi-die-four:before { content: "\f13b"; }
+.fi-die-one:before { content: "\f13c"; }
+.fi-die-six:before { content: "\f13d"; }
+.fi-die-three:before { content: "\f13e"; }
+.fi-die-two:before { content: "\f13f"; }
+.fi-dislike:before { content: "\f140"; }
+.fi-dollar-bill:before { content: "\f141"; }
+.fi-dollar:before { content: "\f142"; }
+.fi-download:before { content: "\f143"; }
+.fi-eject:before { content: "\f144"; }
+.fi-elevator:before { content: "\f145"; }
+.fi-euro:before { content: "\f146"; }
+.fi-eye:before { content: "\f147"; }
+.fi-fast-forward:before { content: "\f148"; }
+.fi-female-symbol:before { content: "\f149"; }
+.fi-female:before { content: "\f14a"; }
+.fi-filter:before { content: "\f14b"; }
+.fi-first-aid:before { content: "\f14c"; }
+.fi-flag:before { content: "\f14d"; }
+.fi-folder-add:before { content: "\f14e"; }
+.fi-folder-lock:before { content: "\f14f"; }
+.fi-folder:before { content: "\f150"; }
+.fi-foot:before { content: "\f151"; }
+.fi-foundation:before { content: "\f152"; }
+.fi-graph-bar:before { content: "\f153"; }
+.fi-graph-horizontal:before { content: "\f154"; }
+.fi-graph-pie:before { content: "\f155"; }
+.fi-graph-trend:before { content: "\f156"; }
+.fi-guide-dog:before { content: "\f157"; }
+.fi-hearing-aid:before { content: "\f158"; }
+.fi-heart:before { content: "\f159"; }
+.fi-home:before { content: "\f15a"; }
+.fi-html5:before { content: "\f15b"; }
+.fi-indent-less:before { content: "\f15c"; }
+.fi-indent-more:before { content: "\f15d"; }
+.fi-info:before { content: "\f15e"; }
+.fi-italic:before { content: "\f15f"; }
+.fi-key:before { content: "\f160"; }
+.fi-laptop:before { content: "\f161"; }
+.fi-layout:before { content: "\f162"; }
+.fi-lightbulb:before { content: "\f163"; }
+.fi-like:before { content: "\f164"; }
+.fi-link:before { content: "\f165"; }
+.fi-list-bullet:before { content: "\f166"; }
+.fi-list-number:before { content: "\f167"; }
+.fi-list-thumbnails:before { content: "\f168"; }
+.fi-list:before { content: "\f169"; }
+.fi-lock:before { content: "\f16a"; }
+.fi-loop:before { content: "\f16b"; }
+.fi-magnifying-glass:before { content: "\f16c"; }
+.fi-mail:before { content: "\f16d"; }
+.fi-male-female:before { content: "\f16e"; }
+.fi-male-symbol:before { content: "\f16f"; }
+.fi-male:before { content: "\f170"; }
+.fi-map:before { content: "\f171"; }
+.fi-marker:before { content: "\f172"; }
+.fi-megaphone:before { content: "\f173"; }
+.fi-microphone:before { content: "\f174"; }
+.fi-minus-circle:before { content: "\f175"; }
+.fi-minus:before { content: "\f176"; }
+.fi-mobile-signal:before { content: "\f177"; }
+.fi-mobile:before { content: "\f178"; }
+.fi-monitor:before { content: "\f179"; }
+.fi-mountains:before { content: "\f17a"; }
+.fi-music:before { content: "\f17b"; }
+.fi-next:before { content: "\f17c"; }
+.fi-no-dogs:before { content: "\f17d"; }
+.fi-no-smoking:before { content: "\f17e"; }
+.fi-page-add:before { content: "\f17f"; }
+.fi-page-copy:before { content: "\f180"; }
+.fi-page-csv:before { content: "\f181"; }
+.fi-page-delete:before { content: "\f182"; }
+.fi-page-doc:before { content: "\f183"; }
+.fi-page-edit:before { content: "\f184"; }
+.fi-page-export-csv:before { content: "\f185"; }
+.fi-page-export-doc:before { content: "\f186"; }
+.fi-page-export-pdf:before { content: "\f187"; }
+.fi-page-export:before { content: "\f188"; }
+.fi-page-filled:before { content: "\f189"; }
+.fi-page-multiple:before { content: "\f18a"; }
+.fi-page-pdf:before { content: "\f18b"; }
+.fi-page-remove:before { content: "\f18c"; }
+.fi-page-search:before { content: "\f18d"; }
+.fi-page:before { content: "\f18e"; }
+.fi-paint-bucket:before { content: "\f18f"; }
+.fi-paperclip:before { content: "\f190"; }
+.fi-pause:before { content: "\f191"; }
+.fi-paw:before { content: "\f192"; }
+.fi-paypal:before { content: "\f193"; }
+.fi-pencil:before { content: "\f194"; }
+.fi-photo:before { content: "\f195"; }
+.fi-play-circle:before { content: "\f196"; }
+.fi-play-video:before { content: "\f197"; }
+.fi-play:before { content: "\f198"; }
+.fi-plus:before { content: "\f199"; }
+.fi-pound:before { content: "\f19a"; }
+.fi-power:before { content: "\f19b"; }
+.fi-previous:before { content: "\f19c"; }
+.fi-price-tag:before { content: "\f19d"; }
+.fi-pricetag-multiple:before { content: "\f19e"; }
+.fi-print:before { content: "\f19f"; }
+.fi-prohibited:before { content: "\f1a0"; }
+.fi-projection-screen:before { content: "\f1a1"; }
+.fi-puzzle:before { content: "\f1a2"; }
+.fi-quote:before { content: "\f1a3"; }
+.fi-record:before { content: "\f1a4"; }
+.fi-refresh:before { content: "\f1a5"; }
+.fi-results-demographics:before { content: "\f1a6"; }
+.fi-results:before { content: "\f1a7"; }
+.fi-rewind-ten:before { content: "\f1a8"; }
+.fi-rewind:before { content: "\f1a9"; }
+.fi-rss:before { content: "\f1aa"; }
+.fi-safety-cone:before { content: "\f1ab"; }
+.fi-save:before { content: "\f1ac"; }
+.fi-share:before { content: "\f1ad"; }
+.fi-sheriff-badge:before { content: "\f1ae"; }
+.fi-shield:before { content: "\f1af"; }
+.fi-shopping-bag:before { content: "\f1b0"; }
+.fi-shopping-cart:before { content: "\f1b1"; }
+.fi-shuffle:before { content: "\f1b2"; }
+.fi-skull:before { content: "\f1b3"; }
+.fi-social-500px:before { content: "\f1b4"; }
+.fi-social-adobe:before { content: "\f1b5"; }
+.fi-social-amazon:before { content: "\f1b6"; }
+.fi-social-android:before { content: "\f1b7"; }
+.fi-social-apple:before { content: "\f1b8"; }
+.fi-social-behance:before { content: "\f1b9"; }
+.fi-social-bing:before { content: "\f1ba"; }
+.fi-social-blogger:before { content: "\f1bb"; }
+.fi-social-delicious:before { content: "\f1bc"; }
+.fi-social-designer-news:before { content: "\f1bd"; }
+.fi-social-deviant-art:before { content: "\f1be"; }
+.fi-social-digg:before { content: "\f1bf"; }
+.fi-social-dribbble:before { content: "\f1c0"; }
+.fi-social-drive:before { content: "\f1c1"; }
+.fi-social-dropbox:before { content: "\f1c2"; }
+.fi-social-evernote:before { content: "\f1c3"; }
+.fi-social-facebook:before { content: "\f1c4"; }
+.fi-social-flickr:before { content: "\f1c5"; }
+.fi-social-forrst:before { content: "\f1c6"; }
+.fi-social-foursquare:before { content: "\f1c7"; }
+.fi-social-game-center:before { content: "\f1c8"; }
+.fi-social-github:before { content: "\f1c9"; }
+.fi-social-google-plus:before { content: "\f1ca"; }
+.fi-social-hacker-news:before { content: "\f1cb"; }
+.fi-social-hi5:before { content: "\f1cc"; }
+.fi-social-instagram:before { content: "\f1cd"; }
+.fi-social-joomla:before { content: "\f1ce"; }
+.fi-social-lastfm:before { content: "\f1cf"; }
+.fi-social-linkedin:before { content: "\f1d0"; }
+.fi-social-medium:before { content: "\f1d1"; }
+.fi-social-myspace:before { content: "\f1d2"; }
+.fi-social-orkut:before { content: "\f1d3"; }
+.fi-social-path:before { content: "\f1d4"; }
+.fi-social-picasa:before { content: "\f1d5"; }
+.fi-social-pinterest:before { content: "\f1d6"; }
+.fi-social-rdio:before { content: "\f1d7"; }
+.fi-social-reddit:before { content: "\f1d8"; }
+.fi-social-skillshare:before { content: "\f1d9"; }
+.fi-social-skype:before { content: "\f1da"; }
+.fi-social-smashing-mag:before { content: "\f1db"; }
+.fi-social-snapchat:before { content: "\f1dc"; }
+.fi-social-spotify:before { content: "\f1dd"; }
+.fi-social-squidoo:before { content: "\f1de"; }
+.fi-social-stack-overflow:before { content: "\f1df"; }
+.fi-social-steam:before { content: "\f1e0"; }
+.fi-social-stumbleupon:before { content: "\f1e1"; }
+.fi-social-treehouse:before { content: "\f1e2"; }
+.fi-social-tumblr:before { content: "\f1e3"; }
+.fi-social-twitter:before { content: "\f1e4"; }
+.fi-social-vimeo:before { content: "\f1e5"; }
+.fi-social-windows:before { content: "\f1e6"; }
+.fi-social-xbox:before { content: "\f1e7"; }
+.fi-social-yahoo:before { content: "\f1e8"; }
+.fi-social-yelp:before { content: "\f1e9"; }
+.fi-social-youtube:before { content: "\f1ea"; }
+.fi-social-zerply:before { content: "\f1eb"; }
+.fi-social-zurb:before { content: "\f1ec"; }
+.fi-sound:before { content: "\f1ed"; }
+.fi-star:before { content: "\f1ee"; }
+.fi-stop:before { content: "\f1ef"; }
+.fi-strikethrough:before { content: "\f1f0"; }
+.fi-subscript:before { content: "\f1f1"; }
+.fi-superscript:before { content: "\f1f2"; }
+.fi-tablet-landscape:before { content: "\f1f3"; }
+.fi-tablet-portrait:before { content: "\f1f4"; }
+.fi-target-two:before { content: "\f1f5"; }
+.fi-target:before { content: "\f1f6"; }
+.fi-telephone-accessible:before { content: "\f1f7"; }
+.fi-telephone:before { content: "\f1f8"; }
+.fi-text-color:before { content: "\f1f9"; }
+.fi-thumbnails:before { content: "\f1fa"; }
+.fi-ticket:before { content: "\f1fb"; }
+.fi-torso-business:before { content: "\f1fc"; }
+.fi-torso-female:before { content: "\f1fd"; }
+.fi-torso:before { content: "\f1fe"; }
+.fi-torsos-all-female:before { content: "\f1ff"; }
+.fi-torsos-all:before { content: "\f200"; }
+.fi-torsos-female-male:before { content: "\f201"; }
+.fi-torsos-male-female:before { content: "\f202"; }
+.fi-torsos:before { content: "\f203"; }
+.fi-trash:before { content: "\f204"; }
+.fi-trees:before { content: "\f205"; }
+.fi-trophy:before { content: "\f206"; }
+.fi-underline:before { content: "\f207"; }
+.fi-universal-access:before { content: "\f208"; }
+.fi-unlink:before { content: "\f209"; }
+.fi-unlock:before { content: "\f20a"; }
+.fi-upload-cloud:before { content: "\f20b"; }
+.fi-upload:before { content: "\f20c"; }
+.fi-usb:before { content: "\f20d"; }
+.fi-video:before { content: "\f20e"; }
+.fi-volume-none:before { content: "\f20f"; }
+.fi-volume-strike:before { content: "\f210"; }
+.fi-volume:before { content: "\f211"; }
+.fi-web:before { content: "\f212"; }
+.fi-wheelchair:before { content: "\f213"; }
+.fi-widget:before { content: "\f214"; }
+.fi-wrench:before { content: "\f215"; }
+.fi-x-circle:before { content: "\f216"; }
+.fi-x:before { content: "\f217"; }
+.fi-yen:before { content: "\f218"; }
+.fi-zoom-in:before { content: "\f219"; }
+.fi-zoom-out:before { content: "\f21a"; }
