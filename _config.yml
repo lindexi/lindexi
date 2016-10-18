@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Uncle Chen
+description:      '吃下恶魔果实，我就能变成超级赛亚人.'
+url:              http://unclechen.github.io
+baseurl:          /
+logo:             /content/images/me.jpg
+about:            /about
+
+author:
+  name:           'Uncle Chen'
+  url:            https://github.com/unclechen
+  email: 		  noughtchen2015@gmail.com
+
+paginate:         5
+
+disqus_shortname: unclechen
+
+github:
+  repo:           https://github.com/unclechen/uncleche.github.io
+
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
