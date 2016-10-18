@@ -1,48 +1,15 @@
 ---
 layout: default
-title: Home
+title: A guide to your digital life
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-  
-    {% if post.cover_image %}
-    <div class="post-overlay-header" style="background-image: url({{ post.cover_image }})">
-    <div class="post-overlay-header-title">
-    {% endif %}  
-	
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<div class="listing">
+    {% for post in paginator.posts %}
+    <div class="post other link">
+      <h2><span class="mega-octicon octicon-flame" style="min-width: 32px;"></span><a href="/white-paper{{post.url}}">{{ post.title }}</a></h2>
+      <p class="post-date">{{ post.date | date_to_string }}</p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-	
-	  {% if post.cover_image %}
+      <p>{{ post.excerpt }}</p>
     </div>
-    </div>
-    {% endif %}  
-
-    {{ post.content | strip_html | truncatewords:10 }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">上一页</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">上一页</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">上一页</span>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">下一页</a>
-  {% else %}
-    <span class="pagination-item older">下一页</span>
-  {% endif %}
+    {% endfor %}
 </div>
