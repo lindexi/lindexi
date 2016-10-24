@@ -1,0 +1,51 @@
+- slug: general
+  name: General
+
+- slug: java
+  name: java
+
+- slug: 分布式
+  name: 分布式
+
+- slug: programming
+  name: Programming
+
+- slug: tucao
+  name: 吐嘈
+
+- slug: jekyll
+  name: jekyll
+
+- slug: asm
+  name: asm
+
+- slug: compare
+  name: 比较
+
+- slug: c
+  name: c
+
+- slug: c++
+  name: c++
+
+- slug: book-review
+  name: 书评
+
+- slug: linux
+  name: linux
+
+- slug: mac
+  name: mac
+
+- slug: nginx
+  name: nginx
+
+- slug: arch
+  name: 架构
+
+- slug: js
+  name: javascript
+
+- slug: lua
+  name: lua
+

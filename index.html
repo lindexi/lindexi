@@ -1,15 +1,45 @@
 ---
 layout: default
-title: A guide to your digital life
+title: 极简设计
 ---
-
-<div class="listing">
-    {% for post in paginator.posts %}
-    <div class="post other link">
-      <h2><span class="mega-octicon octicon-flame" style="min-width: 32px;"></span><a href="/white-paper{{post.url}}">{{ post.title }}</a></h2>
-      <p class="post-date">{{ post.date | date_to_string }}</p>
-
-      <p>{{ post.excerpt }}</p>
-    </div>
-    {% endfor %}
-</div>
+<div id="post-content">
+    {% if paginator.posts %}
+        {% for post in paginator.posts %}
+						<h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><small> <span style="float:right;font-size:0.8em;">  {{ post.date | date:"%Y-%m-%d" }}</span> </small></h4>
+		                    		{{ post.excerpt }}
+                 				<p class="more"><a href="{{ site.url }}{{ post.url }}" title="Read More" rel="nofollow"><span>&#10149;</span>Read More</a></p>
+                				<hr/>
+        {% endfor %}
+    {% else %}
+        			<p>No posts found.</p>
+    {% endif %}
+    {% if paginator.total_pages > 1 %}
+        <div class="text-center">
+            <ul class="pagination">
+                {% if paginator.previous_page %}
+                    {% if paginator.previous_page == 1 %}
+                        <li><a href="/blog/">&laquo;</a></li>
+                    {% else %}
+                        <li><a href="{{ site.url }}{{ paginator.previous_page_path }}/">&laquo;</a></li>
+                    {% endif %}
+                {% else %}
+                    <li class="disabled"><span>&laquo;</span></li>
+                {% endif %}
+                {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                        <li class="active"><span>{{ page }}</span></li>
+                    {% elsif page == 1 %}
+                        <li><a href="/blog/">1</a></li>
+                    {% else %}
+                        <li><a href="{{ site.url }}{{ site.paginate_path | replace: ':num', page }}/">{{ page }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% if paginator.next_page %}
+                    <li><a href="{{ site.url }}{{ paginator.next_page_path }}/">&raquo;</a></li>
+                {% else %}
+                    <li class="disabled"><a href="#">&raquo;</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    {% endif %}
+		</div><!--end post-content -->
