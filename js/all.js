@@ -22,6 +22,7 @@ $(document).ready(function(){
 		//$("#useDuoShuo").hide();
 		//disqus
 		$("<span/>").html("<input id='useDisqus' type='button' class='disqus' onclick='$(this).hide();loadDisqis();' value='disqus留言'>").appendTo('#clear');  
+		$("#useDisqus").hide();
 
 	}	
 	
@@ -34,7 +35,7 @@ $(document).ready(function(){
 
 
 //duo shuo
-var duoshuoQuery = {short_name: "ddatsh"};
+var duoshuoQuery = { short_name: "lindexi" };
 var duoshuoURL="http://static.duoshuo.com/embed.js";
 
 function disqus()
