@@ -27,10 +27,19 @@ $(document).ready(function(){
 		var thread = document.URL;
 		var title = document.title;
 
-		var arrUrl = thread.split("//");
 
-		var start = arrUrl[1].indexOf("/");
-		var relUrl = arrUrl[1].substring(start);
+		if (thread.charAt(thread.length - 1) == "/") {
+		    thread = thread.substring(0, thread.length - 1);
+		}
+
+	    var relUrl = thread.substring(thread.lastIndexOf("/"));
+
+	    var arrUrl = thread.substring(0,thread.lastIndexOf("/")-1);
+
+	    if (arrUrl.lastIndexOf("/") != -1) {
+	        relUrl = arrUrl.substring(arrUrl.lastIndexOf("/")) + "/" + relUrl;
+	    }
+
 
 	    thread = relUrl;
 
