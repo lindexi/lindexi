@@ -1,5 +1,4 @@
-markdown: kramdown
-highlighter: pygments
+markdown: rdiscount
 permalink: /post/:title/
 author: lindexi
 url: /lindexi
