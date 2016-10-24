@@ -24,7 +24,16 @@ $(document).ready(function(){
 		$("<span/>").html("<input id='useDisqus' type='button' class='disqus' onclick='$(this).hide();loadDisqis();' value='disqus留言'>").appendTo('#clear');  
 		$("#useDisqus").hide();
 
-		$("<span/>").html("<div class='ds-thread' data-category='<#article/category/id#>' data-thread-key='{{ page.url }}' data-title='{{ page.title }}' data-author-key='<#article/author/id#>'></div>").appendTo('#clear');
+		var thread = "{{ page.url }}";
+	    var title = "{{ page.title }}";
+
+		$("<span/>").html("<div class='ds-thread' " +
+		    "data-category='<#article/category/id#>' " +
+		    "data-thread-key='" +thread+
+		    "' " +
+		    "data-title='" +title+
+		    "' " +
+		    "data-author-key='<#article/author/id#>'></div>").appendTo('#clear');
 		//var duoshuoQuery = { short_name: "lindexi" };
 		//(function () {
 		//    var ds = document.createElement('script');
