@@ -27,6 +27,13 @@ $(document).ready(function(){
 		var thread = document.URL;
 		var title = document.title;
 
+		var arrUrl = thread.split("//");
+
+		var start = arrUrl[1].indexOf("/");
+		var relUrl = arrUrl[1].substring(start);
+
+	    thread = relUrl;
+
 		$("<span/>").html("<div class='ds-thread' " +
 		    "data-category='<#article/category/id#>' " +
 		    "data-thread-key='" +thread+
