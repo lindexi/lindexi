@@ -22,7 +22,7 @@ $(document).ready(function(){
 		//$("#useDuoShuo").hide();
 		//disqus
 		$("<span/>").html("<input id='useDisqus' type='button' class='disqus' onclick='$(this).hide();loadDisqis();' value='disqus留言'>").appendTo('#clear');  
-		$("#useDisqus").hide();
+		//$("#useDisqus").hide();
 
 	}	
 	
