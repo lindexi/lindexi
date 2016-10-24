@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$(window).keypress(function(e){if(((e.which==115)||(e.which==104)||(e.which==112)||(e.which==114)||(e.which==97)||(e.which==110))&&e.ctrlKey){e.preventDefault();}});$(document).bind("contextmenu",function(){return false;});$(document).keydown(function(){return key(arguments[0]);});document.onselectstart=function(){return/input|textarea/i.test(window.event.srcElement.tagName);};function key(e){if(window.event){e=event;e.which=e.keyCode;var code=e.which;var isAlt=e.altKey;var isCtrl=e.ctrlKey;var isShift=e.shiftKey;if(isCtrl){if(code==78||code==80||code==82){event.keyCode=0;event.returnValue=false;}}else if(isAlt){if(code==37||code==39){event.returnValue=false;}else if(code==115){window.showModelessDialog("about:blank","","dialogWidth:1px;dialogheight:1px");return false;}}else if(isShift){if(code==121){event.returnValue=false;}}else if(code==116||code==122){event.keyCode=0;event.returnValue=false;}}}
 	
 		//duo shuo
-		var duoshuoQuery = {short_name: "ddatsh"};
+		var duoshuoQuery = {short_name: "lindexi"};
 		var duoshuoURL="http://static.duoshuo.com/embed.js";
 		
 		loadDuoShuo();
@@ -24,7 +24,18 @@ $(document).ready(function(){
 		$("<span/>").html("<input id='useDisqus' type='button' class='disqus' onclick='$(this).hide();loadDisqis();' value='disqus留言'>").appendTo('#clear');  
 		//$("#useDisqus").hide();
 
-	}	
+		$("<span/>").html("<div class='ds-thread' data-category='<#article/category/id#>' data-thread-key='<#article/id#>' data-title='<#article/title#>' data-author-key='<#article/author/id#>'></div>").appendTo('#clear');
+		var duoshuoQuery = { short_name: "lindexi" };
+		(function () {
+		    var ds = document.createElement('script');
+		    ds.type = 'text/javascript'; ds.async = true;
+		    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		    ds.charset = 'UTF-8';
+		    (document.getElementsByTagName('head')[0]
+             || document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+
+	}
 	
 //console.debug(document.body.style);
 });
@@ -56,12 +67,6 @@ function loadDuoShuo(){
 	if ($("#ds-thread").length > 0){ 
 	}else{
 			jQuery.getScript(duoshuoURL,function() {
-			    var ds = document.createElement('script');
-			    ds.type = 'text/javascript'; ds.async = true;
-			    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-			    ds.charset = 'UTF-8';
-			    (document.getElementsByTagName('head')[0]
-                 || document.getElementsByTagName('body')[0]).appendChild(ds);
 
 			});
 	}
