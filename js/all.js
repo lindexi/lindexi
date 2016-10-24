@@ -24,7 +24,7 @@ $(document).ready(function(){
 		$("<span/>").html("<input id='useDisqus' type='button' class='disqus' onclick='$(this).hide();loadDisqis();' value='disqus留言'>").appendTo('#clear');  
 		$("#useDisqus").hide();
 
-	    var thread = document.url;
+		var thread = document.URL;
 		var title = document.title;
 
 		$("<span/>").html("<div class='ds-thread' " +
