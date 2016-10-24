@@ -55,7 +55,15 @@ function loadDuoShuo(){
 	$("#useDisqus").show();
 	if ($("#ds-thread").length > 0){ 
 	}else{
-			jQuery.getScript(duoshuoURL,function(){});
+			jQuery.getScript(duoshuoURL,function() {
+			    var ds = document.createElement('script');
+			    ds.type = 'text/javascript'; ds.async = true;
+			    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+			    ds.charset = 'UTF-8';
+			    (document.getElementsByTagName('head')[0]
+                 || document.getElementsByTagName('body')[0]).appendChild(ds);
+
+			});
 	}
 }
 function loadDisqis(){
