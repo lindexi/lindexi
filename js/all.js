@@ -32,12 +32,12 @@ $(document).ready(function(){
 		    thread = thread.substring(0, thread.length - 1);
 		}
 
-	    var relUrl = thread.substring(thread.lastIndexOf("/"));
+	    var relUrl = thread.substring(thread.lastIndexOf("/")+1);
 
-	    var arrUrl = thread.substring(0,thread.lastIndexOf("/")-1);
+	    var arrUrl = thread.substring(0,thread.lastIndexOf("/"));
 
 	    if (arrUrl.lastIndexOf("/") != -1) {
-	        relUrl = arrUrl.substring(arrUrl.lastIndexOf("/")) + "/" + relUrl;
+	        relUrl = arrUrl.substring(arrUrl.lastIndexOf("/")+1)+"/" + relUrl;
 	    }
 
 
