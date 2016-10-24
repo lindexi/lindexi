@@ -19,10 +19,10 @@ $(document).ready(function(){
 		loadDuoShuo();
 		
 		$("<span/>").html("<input id='useDuoShuo' type='button' class='duoshuo' onclick='$(this).hide();loadDuoShuo();' value='多说留言'>").appendTo('#clear');  
-		//$("#useDuoShuo").hide();
+		$("#useDuoShuo").hide();
 		//disqus
 		$("<span/>").html("<input id='useDisqus' type='button' class='disqus' onclick='$(this).hide();loadDisqis();' value='disqus留言'>").appendTo('#clear');  
-		//$("#useDisqus").hide();
+		$("#useDisqus").hide();
 
 		$("<span/>").html("<div class='ds-thread' data-category='<#article/category/id#>' data-thread-key='<#article/id#>' data-title='<#article/title#>' data-author-key='<#article/author/id#>'></div>").appendTo('#clear');
 		var duoshuoQuery = { short_name: "lindexi" };
