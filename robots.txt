@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://ddatsh.com/blog/sitemap.xml
+Sitemap: https://lindexi.github.io/lindexi/sitemap.xml
