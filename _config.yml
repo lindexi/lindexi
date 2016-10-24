@@ -1,7 +1,7 @@
 markdown: rdiscount
 permalink: /post/:title/
 author: lindexi
-url: 
+url: /lindexi
 paginate: 30
 gems: [jekyll-paginate]
 excerpt_separator: "<!--more-->"
