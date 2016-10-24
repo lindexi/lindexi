@@ -1,9 +1,9 @@
 markdown: rdiscount
 permalink: /post/:title/
-author: ddatsh
-url: /blog
+author: lindexi
+url: 
 paginate: 30
 gems: [jekyll-paginate]
 excerpt_separator: "<!--more-->"
 author:
-    name: Peter Zhang
+    name: lindexi
