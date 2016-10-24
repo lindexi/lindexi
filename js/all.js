@@ -19,7 +19,7 @@ $(document).ready(function(){
 		loadDuoShuo();
 		
 		$("<span/>").html("<input id='useDuoShuo' type='button' class='duoshuo' onclick='$(this).hide();loadDuoShuo();' value='多说留言'>").appendTo('#clear');  
-		$("#useDuoShuo").hide();
+		//$("#useDuoShuo").hide();
 		//disqus
 		$("<span/>").html("<input id='useDisqus' type='button' class='disqus' onclick='$(this).hide();loadDisqis();' value='disqus留言'>").appendTo('#clear');  
 
