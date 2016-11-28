@@ -5,7 +5,8 @@ title: 林德熙
 <div id="post-content">
     {% if paginator.posts %}
         {% for post in paginator.posts %}
-						<h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><small> <span style="float:right;font-size:0.8em;">  {{ post.date | date:"%Y-%m-%d" }}</span> </small></h4>
+						<h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><!--<small> <span style="float:right;font-size:0.8em;">  {{ post.date | date:"%Y-%m-%d" }}</span> </small>-->
+                        </h4>
 		                    		{{ post.excerpt }}
                  				<p class="more"><a href="{{ site.url }}{{ post.url }}" title="Read More" rel="nofollow"><span>&#10149;</span>Read More</a></p>
                 				<hr/>
