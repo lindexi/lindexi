@@ -1,17 +1,21 @@
-# win10 uwp App-to-app communication 应用通信
+---
+layout: post
+title: win10 uwp App-to-app communication 应用通信
+---
 
 这篇文章都是乱说的，如果觉得有不好的，可以发我邮箱
 
-应用之间需要相互的发送信息，就是我们经常用的分享
-
+本文主要讲如何让两个应用之间传输消息，也就是我们经常用的分享。我们可以使用的有剪辑版、UWP分享、Uri启动应用多个方式。
 
 ![这里写图片描述](http://img.blog.csdn.net/20160404102715815)
 
-有个人看到一个网页很好，于是就希望把这个网页发送到邮件，那么这样的话就是使用应用通信。
+如果有个人看到一个网页很好，于是就希望把这个网页发送到邮件，那么这样的话就是使用应用通信。
 
 因为每个应用都是不能访问其他应用数据，所以需要通信可以使用启动内置应用，文件关联应用。
 
-##发送数据
+<!--more-->
+
+## 发送数据
 
 创建一个event 可以在用户发送，共享发送
 
@@ -190,7 +194,7 @@ ApplicationLink是`new Uri("ms-sdk-sharesourcecs:navigate?page=" + 页面名);`
             };
             share_operation.ReportCompleted(quickLinkInfo);
 ```
-##文件启动
+## 文件启动
 
 我们需要关联
 ![这里写图片描述](http://img.blog.csdn.net/20160405185522977)
@@ -208,4 +212,4 @@ Files包含文件可以拿来
 
 原文：https://msdn.microsoft.com/en-us/windows/uwp/app-to-app/index
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。欢迎转载、使用、重新发布，但务必保留文章署名[林德熙](http://blog.csdn.net/lindexi_gd)(包含链接:http://blog.csdn.net/lindexi_gd )，不得用于商业目的，基于本文修改后的作品务必以相同的许可发布。如有任何疑问，请与我[联系](mailto:lindexi_gd@163.com)。
+本作品采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可。欢迎转载、使用、重新发布，但务必保留文章署名[林德熙](http://blog.csdn.net/lindexi_gd)(包含链接:http://blog.csdn.net/lindexi_gd )，不得用于商业目的，基于本文修改后的作品务必以相同的许可发布。如有任何疑问，请与我[联系](mailto:lindexi_gd@163.com)。
