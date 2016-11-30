@@ -30,7 +30,7 @@ layout: default
 			
         		{{ content }}
 
-        	<p>原文：{{}}<br>字数：{{ page.content | number_of_words }}</p>	
+        	<p>原文：{{ page.url }}<br>字数：{{ page.content | number_of_words }}</p>	
 
         		{% include license.html %}
 
