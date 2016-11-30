@@ -30,6 +30,10 @@ layout: default
 			
         		{{ content }}
 
+        	<p>原文：{{}}<br>字数：{{ page.content | number_of_words }}</p>	
+
+        		{% include license.html %}
+
         {% if post.category %}
             {% for site_category in site.data.categories %}
                 {% if site_category.slug == post.category %}
@@ -60,6 +64,7 @@ layout: default
             {% assign tags_content = '' %}
         {% endif %}
 
+        
         <!--<p id="post-meta">{{ category_content }}{{ tags_content }}</p>-->
         
         		<div id="page-navigation2">

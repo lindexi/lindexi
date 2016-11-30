@@ -211,5 +211,3 @@ Files包含文件可以拿来
 博客：http://blog.csdn.net/lindexi_gd
 
 原文：https://msdn.microsoft.com/en-us/windows/uwp/app-to-app/index
-
-本作品采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可。欢迎转载、使用、重新发布，但务必保留文章署名[林德熙](http://blog.csdn.net/lindexi_gd)(包含链接:http://blog.csdn.net/lindexi_gd )，不得用于商业目的，基于本文修改后的作品务必以相同的许可发布。如有任何疑问，请与我[联系](mailto:lindexi_gd@163.com)。
