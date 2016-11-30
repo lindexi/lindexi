@@ -1,6 +1,10 @@
-#win10 uwp如何使用DataTemplate
+---
+layout: post
+title: win10 uwp如何使用DataTemplate
+tags: uwp
+---
 
-【】
+<!--more-->
 
 这是数据模板，一般用在数组的绑定，显示数组中的元素。
 
