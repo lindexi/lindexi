@@ -7,6 +7,8 @@ tags: 技术,Resharper,代码片
 Resharper的代码预知和VisualStudio的代码片相似，但是他可以知道当前输入
 是变量还是属性，这样就比原来的好用。
 
+<!--more-->
+
 安装了Resharper 2016.2会隐藏VisualStudio的代码片。
 
 resharper提供了很有用的代码片，但是我们还是觉得不够，这时我们需要自己编辑Resharper代码片。
