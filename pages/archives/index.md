@@ -3,18 +3,8 @@ layout: post
 title: Archive
 categories:
 ---
-{% for post in site.posts %}
- 
-    </dt>
-		<dd>
-			<div class="posts">
-				<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				<!-- <span style="float:right">{{ post.date | date:"%Y-%m-%d" }}</span> -->
-				<div/><br />
-			</div>
-		</dd>
- 
-{% endfor %}
+
+{% include archive.html %}
 
 <!-- <h2>Archives</h2>
 <ul>
