@@ -3,7 +3,20 @@ layout: post
 title: Archive
 categories:
 ---
-<h2>Archives</h2>
+{% for post in site.posts %}
+ 
+    </dt>
+		<dd>
+			<div class="posts">
+				<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				<!-- <span style="float:right">{{ post.date | date:"%Y-%m-%d" }}</span> -->
+				<div/><br />
+			</div>
+		</dd>
+ 
+{% endfor %}
+
+<!-- <h2>Archives</h2>
 <ul>
 {% for post in site.posts %}
 {% capture the_year %}
@@ -25,4 +38,4 @@ categories:
 {% endfor %}
 
 <li><a href="{{ site.url }}/pages/archives/all/">all</a></li>
-</ul>
+</ul> -->
