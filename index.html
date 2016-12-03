@@ -19,7 +19,7 @@ title: 林德熙
             <ul class="pagination">
                 {% if paginator.previous_page %}
                     {% if paginator.previous_page == 1 %}
-                        <li><a href="/{{site.url}}/">&laquo;</a></li>
+                        <li><a href="{{ site.url }}/">&laquo;</a></li>
                     {% else %}
                         <li><a href="{{ site.url }}{{ paginator.previous_page_path }}/">&laquo;</a></li>
                     {% endif %}
