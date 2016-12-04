@@ -4,10 +4,20 @@ title: resharper 自定义代码片
 tags: 技术,Resharper,代码片
 ---
 
+我们在做一件事前，需要先做工具，工具好，最后我们做事也快。
+
+我们在C#下使用的工具，有一个神器，Resharper，他可以帮修改代码、重构，做很多重复的事。
+
+而Resharper还不能全和我们需要的一样，如代码片，他自带的代码片叫Live Template.
+
 Resharper的代码预知和VisualStudio的代码片相似，但是他可以知道当前输入
 是变量还是属性，这样就比原来的好用。
 
+本文主要：如何修改Resharper代码片，自定义代码片
+
 <!--more-->
+
+原本我的VisualStudio也是可以自定义代码片，在工具选择代码片，导入自己写的代码片。
 
 安装了Resharper 2016.2会隐藏VisualStudio的代码片。
 
@@ -27,12 +37,12 @@ resharper提供了很有用的代码片，但是我们还是觉得不够，这�
 
 可以添加新的代码片，我们新建一个
 
-和vs的一样，我们需要代换的变量用`$变量$`，相同的会代换为输入的单词，可以按Enter跳到下一个，当然一旦按Enter就是确定这个单词。
+和vs的一样，除了不变的文字，对于需要改变的变量，使用用`$变量$`，对于变量相同，会在输入换为相同单词，而不同的变量，可以按Enter跳到下一个，当然一旦按Enter就是确定这个单词。
 
 例如我们想写一个
 
 ```
-       public string Url
+        public string Url
         {
             set
             {
@@ -48,6 +58,9 @@ resharper提供了很有用的代码片，但是我们还是觉得不够，这�
         private string _url;
 
 ```
+
+其中所有的属性`public`是固定的，但是类型不是，我们给类型一个变量`$string$`，
+可以看到Url是变量名，不同的，我们给一个变量，$name$
 
 可以看到，这变量，有Url需要我们写三遍，而且还需要写set、get，所以我们需要写一个简单的模板，直接使用。
 
@@ -72,6 +85,10 @@ private $string$ _$name$$END$;
 ```
 
 所有输入的`$string$`都会代换为一个单词，`$name$`也代换为一个单词，这个单词就是用户输入
+
+写完我们设置按键
+
+![](http://7xqpl8.com1.z0.glb.clouddn.com/136fe646-e19f-446e-99e9-0159fa8e5fca2016123193729.jpg)
 
 这一个就是在代码按ps就会使用属性加上`OnPropertyChanged();`
 
