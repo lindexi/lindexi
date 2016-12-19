@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Latex 论文elsevier，手把手如何用Latex写论 
+title: Latex 论文elsevier，手把手如何用Latex写论文 
 category: 技术 
 ---
 这几天在开始写论文，准备发的是elsevier，这个网站的instruction有问题，下载的东西基本上好多的错误，所以我就写博客记录。

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp App-to-app communic 
+title:  win10 uwp App-to-app communication 应用通信 
 category: uwp 
 ---
 

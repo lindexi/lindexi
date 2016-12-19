@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  visual studio 2015 warning MS 
+title:  visual studio 2015 warning MSB3246 
 category: 技术 
 ---
 

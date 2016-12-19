@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 读取保存WriteableBitmap 
+title:  win10 uwp 读取保存WriteableBitmap 、BitmapImage 
 category: uwp 
 ---
 

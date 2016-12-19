@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 UWP MessageDialog 和 Con 
+title:  win10 UWP MessageDialog 和 ContentDialog 
 category: uwp 
 ---
 
