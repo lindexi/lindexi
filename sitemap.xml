@@ -6,10 +6,10 @@
     <url><loc>{{ site.url }}</loc></url>
 
     {% for post in site.posts %}
-        <url><loc>{{ site.url }}{{ post.url }}</loc></url>
+        <url><loc>http://lindexi.oschina.io{{ site.url }}{{ post.url }}</loc></url>
     {% endfor %}
 
-    <url><loc>{{ site.url }}/blog/</loc></url>
+ <!--    <url><loc>{{ site.url }}/blog/</loc></url>
 
     {% for category in site.data.categories %}
         <url><loc>{{ site.url }}/category/{{ category.slug }}/</loc></url>
@@ -17,5 +17,5 @@
 
     {% for tag in site.data.tags %}
         <url><loc>{{ site.url }}/tag/{{ tag.slug }}/</loc></url>
-    {% endfor %}
+    {% endfor %} -->
 </urlset>
