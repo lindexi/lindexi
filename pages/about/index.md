@@ -6,3 +6,7 @@ layout: post
 Email:[lindexi_gd@163.com](mailto:lindexi_gd@163.com)
 
 [blog](http://blog.csdn.net/lindexi_gd/) | [Github](http://github.com/lindexi/) 
+
+## 友情链接
+
+[追梦园](http://www.zmy123.cn)
