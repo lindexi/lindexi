@@ -2,9 +2,9 @@ markdown: kramdown
 permalink: /post/:title/
 author: lindexi
 url: /lindexi
+highlighter:rouge
 paginate: 30
 gems: [jekyll-paginate]
-rouge: true 
 excerpt_separator: "<!--more-->"
 author:
     name: lindexi
