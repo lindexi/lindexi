@@ -4,6 +4,7 @@ author: lindexi
 url: /lindexi
 paginate: 30
 gems: [jekyll-paginate]
+pygments: true 
 excerpt_separator: "<!--more-->"
 author:
     name: lindexi
