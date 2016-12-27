@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 permalink: /post/:title/
 author: lindexi
 url: /lindexi
