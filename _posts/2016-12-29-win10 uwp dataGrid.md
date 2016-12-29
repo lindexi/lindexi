@@ -10,7 +10,7 @@ category: uwp
  
  本文有大量都是抄袭他的代码
 <!--more-->
-
+<!-- csdn -->
 ## 表格控件
 
 我们先要知道我说的是哪个？
@@ -44,6 +44,6 @@ category: uwp
  
  国外 https://liftcodeplay.com/2015/10/24/datagrid-alternatives-in-uwp/
  
- 需要钱：https://www.syncfusion.com/products/uwp/sfdatagrid
+ 需要钱的：https://www.syncfusion.com/products/uwp/sfdatagrid
  
  

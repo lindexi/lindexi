@@ -6,15 +6,16 @@ category: uwp
 
 
 本文主要是因为汉堡菜单里面列出的菜单很多重复的图标和文字，我把它作为控件，因为是随便写，可能存在错误，如果发现了，请和我说或关掉浏览器，请不要发不良言论。
+
 <!--more-->
 
 我们使用汉堡菜单，经常需要一个
 ![这里写图片描述](http://img.blog.csdn.net/20160624111821645)
 需要一个图标和一个文字
 
-我开始写
+我开始写一个TextBlock做图标，一个写文字
 
-```
+```xml
                             <ListViewItem.Content>
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Margin="10,10,10,10" FontFamily="Segoe MDL2 Assets"
@@ -24,15 +25,15 @@ category: uwp
                             </ListViewItem.Content>
 ```
 
-因为需要写3个，我觉得复制不好，因为我还有很多软件，如果每个都这样，那么在TextBlock使用
+因为需要写3个地方是不一样，一个是文字、一个图标还有一次复制，我觉得复制不好，因为我还有很多软件，如果每个都这样，那么在TextBlock使用
 ![这里写图片描述](http://img.blog.csdn.net/20160624112019381)
 很多都是一样的
 
-自己创建控件，右击添加控件
+一个方法是自己创建控件，我们右击View文件夹添加控件
 
-在控件
+在控件写两个TextBlock，一个做图标，一个写文字
 
-```
+```xml
     <Grid>
         <StackPanel Orientation="Horizontal">
             <TextBlock Margin="10,10,10,10" FontFamily="Segoe MDL2 Assets"
@@ -78,7 +79,7 @@ category: uwp
         }
 ```
 
-我把SplitViewItem扔View文件夹，在使用
+我把SplitViewItem扔View文件夹，在命名空间使用`EncryptionSyncFolder.View`
 
 `    xmlns:view="using:EncryptionSyncFolder.View"`
 
@@ -93,5 +94,11 @@ category: uwp
                             </ListViewItem.Content>
                         </ListViewItem>
 ```
+
+## SplitView 从右划出
+
+修改PanelPlacement。
+
+多谢[Script](http://i.hexun.com/bzlbsd/default.html)
 
 
