@@ -157,3 +157,5 @@ https://www.jetbrains.com/help/resharper/2016.2/Templates__Creating_and_Editing_
 
 
 
+
+
