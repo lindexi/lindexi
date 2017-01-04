@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  win10 uwp 右击选择GridViewItem 
+title:  win10 uwp 右击选择 GridViewItem  
 category: uwp 
 ---
 
-有时候我们需要选择一个GridView的一项，通过我们右击。
+有时候我们需要选择一个 GridView 的一项，通过我们右击。
 
 
 <!--more-->
 
-于是我们需要在GridView的SelectionMode为Single，IsRightTapEnabled为True
+于是我们需要在 GridView 的 SelectionMode 为 Single ，IsRightTapEnabled 为True
 
-假如我们给的ItemsSource的类型是`List<Student>`，那我们可以通过简单方法得到右击的Student。
+假如我们给的 ItemSsource  的类型是`List<Student>`，那我们可以通过简单方法得到右击的 Student 。
 
-我们需要使用RightTapped
+我们需要使用 RightTapped 
 
 		
 
@@ -34,7 +34,7 @@ category: uwp
 
 ```
 
-注意DataTemplate的是TextBlock
+注意 DataTemplate 的是 TexTblock 
 
 我们通过
 		
@@ -47,15 +47,15 @@ category: uwp
 
 ```
 
-就可以得到Student
+就可以得到 Student
 
-注意`e.OriginalSource`就是我们刚才使用的DateTemplate的TextBlock，我们在DateTemplate使用类型Type，那么OriginalSource就可以使用Type。拿到后，他的DataContext就是我们选择的。
+注意`e.OriginalSource`就是我们刚才使用的 DatEtemplate 的 TexTblock ，我们在 DateTemplate 使用类型 Type ，那么 OriginalSource 就可以使用 Type 。拿到后，他的 DataContext 就是我们选择的。
 
-如果使用个人控件（UserControl），那么请要有DataContext，不要覆盖。
+如果使用个人控件（UserControl），那么请要有 DataContext ，不要覆盖。
 
-这样我们就可以得到GridViewItem
+这样我们就可以得到 GridViewItem 
 
-但有时候，OriginalSource是ListViewItemPresenter，我们可以用一个简单方法，使用FrameworkElement
+但有时候， OriginalSource 是 ListViewItemPresenter ，我们可以用一个简单方法，使用 FrameworkElement 
 
 我们修改代码
         
@@ -65,7 +65,7 @@ category: uwp
 
 ```
 
-这样我们就可以得到，不需要去看DataTemplate
+这样我们就可以得到，不需要去看 DataTemplate 
 
  
 
