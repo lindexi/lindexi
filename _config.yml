@@ -1,6 +1,7 @@
 markdown: kramdown
 permalink: /post/:title/
 author: lindexi
+description: If you have any language confusion,please talk me lindexi_gd@163.com.
 url: /lindexi
 highlighter: rouge
 paginate: 30
