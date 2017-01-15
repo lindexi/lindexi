@@ -4,6 +4,7 @@ title:  win10 UWP MvvmLight入门
 category: uwp 
 ---
 <!--more-->
+<!-- csdn -->
 
 ## 安装MvvmLight
 
