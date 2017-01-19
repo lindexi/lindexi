@@ -4,8 +4,9 @@ title:  win10 uwp 读取保存WriteableBitmap 、BitmapImage
 category: uwp 
 ---
 
+我们在UWP，经常使用的图片，数据结构就是 BitmapImage 和 WriteableBitmap。关于 BitmapImage 和 WriteableBitmap 区别，我就不在这里说。主要说的是 BitmapImage 和 WriteableBitmap 、二进制 byte 的互转。
+
 <!--more-->
-<!-- csdn -->
 
 我们先写一个简单的xaml
 
@@ -18,6 +19,8 @@ category: uwp
 ```
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/fc7733af-8526-44d2-84b9-99b41ef99f4a2016121293717.jpg)
+
+用到的图片是我新建自带的。
 
 ## 保存 WriteableBitmap 到文件
 
@@ -279,8 +282,11 @@ UWP的 BitmapImage 不能转换为 byte[] 或 WriteableBitmap 。这句话是错
  -->
 代码：https://github.com/lindexi/UWP/tree/master/uwp/src/ImageMoseClick
 
-## Dpi
+## 获取Dpi
 
+可以使用下面代码获取图片DPI。
+
+我的图片从解决方案获得，大家可以从任意的位置获取，只要可以转换为 IRandomAccessStream 
         
 ```csharp
 var file = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///Assets/lindexi.png"));
@@ -300,6 +306,8 @@ var file = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///
 http://www.cnblogs.com/yuanforprogram/p/4819307.html
 
 http://stackoverflow.com/questions/41439543/how-can-i-get-the-pixel-color-of-an-image-at-the-current-pointer-position-in-a-u
+
+http://www.cnblogs.com/mqxs/p/5707620.html
 
 
 
