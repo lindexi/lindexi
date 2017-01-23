@@ -7,6 +7,19 @@ category: uwp
 
 <!--more-->
 
+## HttpClient 使用 Cookie
+
+我们可以使用下面代码让 HttpClient 使用 Cookie
+
+
+```csharp
+            CookieContainer cookies = new CookieContainer();
+
+            HttpClientHandler handler = new HttpClientHandler();
+            handler.CookieContainer = cookies;
+            HttpClient http = new HttpClient(handler);
+```
+
 
 
 ```csharp
