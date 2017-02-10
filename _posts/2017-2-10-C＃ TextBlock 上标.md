@@ -45,12 +45,14 @@ category: 技术
             textBlock.Inlines.Add(run);
 ```
 
+![](http://7xqpl8.com1.z0.glb.clouddn.com/7abeb606-6faa-4f1e-ae7d-e19918db24e1QQ截图201702101503252017210152621.jpg)
+
 代码一样，但是写的地方不一样，可以看到现在的上标就好看了。
 
 这个问题暂时还没找到是为什么，但一定是垃圾WR弄的，于是我又可以去喷他了。如果有时间我去测下 UWP 的看是不是这样。
 
 我把他传上 csdn ，大家可以下载来验证。
 
-代码：http://download.csdn.net/detail/lindexi_gd/9751879
+代码：[http://download.csdn.net/detail/lindexi_gd/9751879](http://download.csdn.net/detail/lindexi_gd/9751879)
 
   
