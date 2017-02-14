@@ -15,7 +15,7 @@
     {% for post in site.posts limit:10 %}
         <entry>
             <title type="html">{{ post.title | xml_escape }}</title>
-            <link href="https://ddatsh.com/blog/{{ post.url }}"/>
+            <link href="http://lindexi.oschina.io/lindexi/post/{{ post.url }}"/>
             <published>{{ post.date | date_to_xmlschema }}</published>
             <id>{{ site.url }}{{ post.id }}</id>
             <content type="html">{{ post.content | xml_escape }}</content>
