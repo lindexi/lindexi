@@ -71,4 +71,8 @@ UWP 上标也一样。为什么写在 Xaml 间隔会那么大，是不是WR弄�
 
 代码：[http://download.csdn.net/detail/lindexi_gd/9751879](http://download.csdn.net/detail/lindexi_gd/9751879)
 
+<script type="text/javascript"
+ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
   
