@@ -1,7 +1,7 @@
 .highlight pre { background-color: #222222 }
 .highlight .hll { background-color: #222222 }
 .highlight .c { color: #000080 } /* Comment */
-.highlight .err { color: #cccccc; border: 1px solid #FF0000 } /* Error */
+.highlight .err { color: #cccccc; } /* Error */
 .highlight .g { color: #cccccc } /* Generic */
 .highlight .k { color: #cdcd00 } /* Keyword */
 .highlight .l { color: #cccccc } /* Literal */
