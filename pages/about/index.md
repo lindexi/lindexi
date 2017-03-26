@@ -18,3 +18,8 @@ My passions are software development, science and learning in general.
 [win10 参考](http://lindexi.oschina.io/lindexi/post/win10-uwp-%E5%8F%82%E8%80%83/)
 
 [吾勇士](http://wuyongshi.top/pages/1479085886341.html)
+
+[Leonn](https://liyuans.com)
+
+[](https://i.shojo.cc)
+
