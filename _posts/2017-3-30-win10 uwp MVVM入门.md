@@ -1345,6 +1345,8 @@ https://github.com/lindexi/UWP/tree/master/uwp/src/Framework/Framework
 参考：
 http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html
 
+关于 MVC 和 MVVM 区别，参见：http://www.cnblogs.com/indream/p/3602348.html
+
 <!-- ([a-z|A-Z]+)([^\x00-\xff]) -->
 
   
