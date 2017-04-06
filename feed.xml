@@ -5,8 +5,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ site.domain | xml_escape }}</title>
-    <link rel="self" href="https://ddatsh.com/blog/feed.xml"/>
-    <link rel="alternate" type="text/html" href="https://ddatsh.com/blog"/>
+    <link rel="self" href="http://lindexi.oschina.io/lindexi/feed.xml"/>
+    <link rel="alternate" type="text/html" href="http://lindexi.oschina.io"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{ site.url }}</id>
     <author>
