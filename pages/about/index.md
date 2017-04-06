@@ -21,5 +21,7 @@ My passions are software development, science and learning in general.
 
 [Leonn](https://liyuans.com)
 
+[](https://kljzndx.github.io/My-Blog/)
+
 [](https://i.shojo.cc)
 
