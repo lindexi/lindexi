@@ -4,6 +4,8 @@ title:  win10 UWP ListView
 category: uwp 
 ---
 
+<!--more-->
+
 ## 横向布局
 
 默认 ListView 是垂直，那么如何让 ListView 水平？
