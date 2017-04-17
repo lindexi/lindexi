@@ -7,8 +7,6 @@ category: uwp
 # 需求分析
 <!--more-->
 
-<div id="toc"></div>
-
 ## 输入需求
 
 ### 用户可以输入标题

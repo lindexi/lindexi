@@ -4,7 +4,7 @@ title:  win10 UWP 剪贴板 Clipboard
 category: uwp 
 ---
 
-win10 UWP 剪贴板 Clipboard使用Windows.ApplicationModel.DataTransfer.Clipboard
+win10 UWP 剪贴板 Clipboard使用`Windows.ApplicationModel.DataTransfer.Clipboard`
 <!--more-->
 
 <div id="toc"></div>
@@ -88,7 +88,7 @@ IStorageItem 转 StorageFile
 ```csharp
                      if (t.IsOfType(StorageItemTypes.File))
                     {
-                        StorageFile storageFile = storageItem as StorageFile;
+                        StorageFile storageFile = storageItem as StorageFile;  
                     }
 ```
 

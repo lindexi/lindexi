@@ -11,7 +11,7 @@ category: uwp
 
 在Metro程序中，没有传统的窗口，当我们要用需要交互的消息提示时，在Win8时代，引入了一个MessageDialog来取代常用的MessageBox。
 
-我在MainPage，挂起`App.Current.Suspending += suspend;`
+我在MainPage，挂起`App.Current.Suspending += suspend;`添加通知用户
 
 ```csharp
         private async void suspend(object sender, Windows.ApplicationModel.SuspendingEventArgs e)
@@ -124,5 +124,6 @@ MessageDialog.CancelCommandIndex按enter按钮
 
 参见：
 http://www.cnblogs.com/TianFang/p/4857205.html
+
 
 
