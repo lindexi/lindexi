@@ -21,6 +21,8 @@ My passions are software development, science and learning in general.
 
 [Leonn](https://liyuans.com)
 
+[songshizhao](www.songshizhao.com)
+
 [](https://kljzndx.github.io/My-Blog/)
 
 [](https://i.shojo.cc)
