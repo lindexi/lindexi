@@ -101,11 +101,4 @@ StrokeStartLineCap="Triangle"
 
 线段两头尖的画法就是在设置后面的`StrokeEndLineCap`
 
- 
-
-
-
-
-
-
 
