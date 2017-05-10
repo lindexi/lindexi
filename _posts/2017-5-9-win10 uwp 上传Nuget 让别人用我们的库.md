@@ -211,5 +211,7 @@ nuget pack smms.csproj
 
 参见：https://docs.nuget.org/consume/command-line-reference
 
+[[.Net] 手把手带你将自己打造的类库丢到 NuGet 上 - 反骨仔（二五仔） - 博客园](http://www.cnblogs.com/liqingwen/p/5859236.html)
+
 
 
