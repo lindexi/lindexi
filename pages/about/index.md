@@ -7,6 +7,11 @@ Email:[lindexi_gd@163.com](mailto:lindexi_gd@163.com)
 
 [blog](http://blog.csdn.net/lindexi_gd/) | [Github](http://github.com/lindexi/)
 
+
+<a href="http://stackoverflow.com/users/6116637/lindexi">
+<img src="http://stackoverflow.com/users/flair/6116637.png" width="208" height="58" alt="profile for lindexi at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for lindexi at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+
 My passions are software development, science and learning in general.
 
 ## 友情链接
@@ -27,3 +32,4 @@ My passions are software development, science and learning in general.
 
 [](https://i.shojo.cc)
 
+[李继龙](https://kljzndx.github.io/My-Blog/)
