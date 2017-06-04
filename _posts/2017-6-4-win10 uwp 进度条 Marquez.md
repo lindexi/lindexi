@@ -188,6 +188,8 @@ category: uwp
 
 总的代码放在github：https://github.com/lindexi/UWP/tree/master/uwp/control/Progress
 
+如果 想写一个控件，建议先在我的库找找，可能我做了，所以可以让你省点时间。
+
 
 
 
