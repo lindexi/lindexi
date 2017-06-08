@@ -213,5 +213,7 @@ nuget pack smms.csproj
 
 [[.Net] 手把手带你将自己打造的类库丢到 NuGet 上 - 反骨仔（二五仔） - 博客园](http://www.cnblogs.com/liqingwen/p/5859236.html)
 
+还可以使用比较快的镜像 [NuGet镜像上线试运行 - 博客园团队 - 博客园](http://www.cnblogs.com/cmt/p/nuget-mirror.html)
+
 
 
