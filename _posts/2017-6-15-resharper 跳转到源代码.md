@@ -25,4 +25,4 @@ resharper 可以使用 ctrl+b 跳转到源代码，但是如果使用库的源�
 
 [Resharper 如何把类里的类移动到其他文件](http://lindexi.oschina.io/lindexi//post/Resharper-%E5%A6%82%E4%BD%95%E6%8A%8A%E7%B1%BB%E9%87%8C%E7%9A%84%E7%B1%BB%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6/)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。欢迎转载、使用、重新发布，但务必保留文章署名[林德熙](http://blog.csdn.net/lindexi_gd)(包含链接:http://blog.csdn.net/lindexi_gd )，不得用于商业目的，基于本文修改后的作品务必以相同的许可发布。如有任何疑问，请与我[联系](mailto:lindexi_gd@163.com)。
+
