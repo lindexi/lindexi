@@ -8,8 +8,6 @@ category: uwp
 
 <!--more-->
 
-<!-- csdn -->
-
 ## 安装 Behaviors
 
 请使用 Nuget 安装，可以输入下面的代码进行安装
