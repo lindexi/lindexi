@@ -353,4 +353,6 @@ win2d 毛玻璃：[win10 uwp 毛玻璃](http://lindexi.oschina.io/lindexi//post/
 
 [win2d 画出好看的图形](http://lindexi.oschina.io/lindexi/post/win2d-%E7%94%BB%E5%87%BA%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9B%BE%E5%BD%A2/)
 
+![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017888552.jpg)
+
 
