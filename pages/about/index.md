@@ -28,7 +28,7 @@ My passions are software development, science and learning in general.
 
 [songshizhao](www.songshizhao.com)
 
-[](https://kljzndx.github.io/My-Blog/)
+[泰琪](http://gandalfliang.me/)
 
 [](https://i.shojo.cc)
 
