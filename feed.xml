@@ -7,7 +7,7 @@
     <title>{{ site.domain | xml_escape }}</title>
     <link rel="self" href="http://lindexi.oschina.io/lindexi/feed.xml"/>
     <link rel="alternate" type="text/html" href="http://lindexi.oschina.io"/>
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <updated>{{ site.time }}</updated>
     <id>{{ site.url }}</id>
     <author>
         <name>{{ site.author.name }}</name>
@@ -16,7 +16,7 @@
         <entry>
             <title type="html">{{ post.title | xml_escape }}</title>
             <link href="{{site.url}}{{ post.url }}"/>
-            <published>{{ post.excerpt | date_to_xmlschema }}</published>
+            <published>{{ post.excerpt }}</published>
             <id>{{ site.url }}{{ post.id }}</id>
             <content type="html">{{ post.content | xml_escape }}</content>
             <author>
