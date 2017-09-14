@@ -30,7 +30,7 @@ layout: default
 			
         		{{ content }}
 
-                <p>本文会经常更新，请到原文：<a href="{{ page.url }}">{{ page.url }}</a>,避免陈旧错误知识的误导，同时有更好的阅读体验。</p>
+                <p>本文会经常更新，请到原文：<a href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a>,避免陈旧错误知识的误导，同时有更好的阅读体验。</p>
         	<!-- <br>字数：{{ page.content | number_of_words }} -->
 
         		{% include license.html %}
