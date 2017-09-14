@@ -30,16 +30,10 @@ layout: default
 			
         		{{ content }}
 
-        	<div id="url"></div>
+                <p>本文会经常更新，请到原文：<a href="{{ page.url }}">{{ page.url }}</a>,避免陈旧错误知识的误导，同时有更好的阅读体验。</p>
         	<!-- <br>字数：{{ page.content | number_of_words }} -->
 
         		{% include license.html %}
-
-        	<script type="text/javascript">        	     
-        	     document.getElementById("url").innerHTML = 
-        	     "<p>本文会经常更新，请到原文："+window.location.href+
-        	     ",避免陈旧错误知识的误导，同时有更好的阅读体验。</p>"        	     ;
-        	</script>
 
         	<script src="https://s95.cnzz.com/z_stat.php?id=1261039464&web_id=1261039464" language="JavaScript"></script>
 
