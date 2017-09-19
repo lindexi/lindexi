@@ -34,4 +34,6 @@ category: 技术
 
 不要打我，答案是 1256， AddRange 添加数组的末尾。
 
+![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017917111552.jpg)
+
  
