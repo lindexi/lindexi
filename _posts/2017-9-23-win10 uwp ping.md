@@ -37,4 +37,6 @@ category: uwp
 
 参见：http://stackoverflow.com/questions/37300532/ping-class-not-available-in-uwp
 
+![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201792392937.jpg)
+
  
