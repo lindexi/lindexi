@@ -11,7 +11,7 @@ category: uwp
 <div id="toc"></div>
 <!-- csdn -->
 
-可以使用简单获取` ApplicationView applicationView = ApplicationView.GetForCurrentView();` ，注意，他是不能构造创建
+可以使用简单获取`ApplicationView applicationView = ApplicationView.GetForCurrentView();` ，注意，他是不能构造创建
 
 先从属性开始
 
