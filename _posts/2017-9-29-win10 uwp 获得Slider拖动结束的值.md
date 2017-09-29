@@ -9,7 +9,6 @@ category: uwp
 <!--more-->
 
 <div id="toc"></div>
-<!-- csdn -->
 
 在WPF，我们可以使用`Thumb.DragCompleted`，连接：[http://stackoverflow.com/questions/723502/wpf-slider-with-an-event-that-triggers-after-a-user-drags](http://stackoverflow.com/questions/723502/wpf-slider-with-an-event-that-triggers-after-a-user-drags)，这个在UWP没有，所以我们没法使用这个。
 
@@ -45,3 +44,5 @@ category: uwp
 参见：[UWP开发大坑之---路由事件 - 快乐 就在你的心 的博客](https://kljzndx.github.io/My-Blog/2017/05/04/UWP%E5%BC%80%E5%8F%91%E5%A4%A7%E5%9D%91%E4%B9%8B-%E8%B7%AF%E7%94%B1%E4%BA%8B%E4%BB%B6/)
 
 源代码：[[免费]SlideMove 1.0-CSDN下载](http://download.csdn.net/download/lindexi_gd/9979362)
+
+
