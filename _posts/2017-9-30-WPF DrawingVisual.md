@@ -8,11 +8,11 @@ category: wpf
 
 本文不会讲 DrawingVisual 是什么，只会告诉简单方法画图。
 
-为何需要学这个，如果需要画出图形，对性能有要求，了解WPF如何画图，就需要知道这个。
+为何需要学这个？如果需要画出图形，对性能有要求，或者需要了解WPF如何画图，就需要知道这个。
 
 先创建最简单使用，就是显示文字或显示点。
 
-我觉得显示文字简单，于是开始写代码，先不要去想做什么
+我觉得显示文字简单，于是开始写代码，先不要去想做什么，代码需要一个控件和一个画出文字的类。
 
 首先新建一个控件，他是可以让 DrawingVisual 显示。
 
@@ -23,18 +23,18 @@ category: wpf
 
 这是很基础一个类，几乎没有什么功能。
 
-于是新建一个  FrameworkElement  需要添加 一些方法
+于是新建一个  FrameworkElement  需要添加 一些方法，这是默认的，只需要自动创建就好。
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323102952.jpg)
 
-这个类不是主要的，他是让DrawingVisual显示，在构造函数写
+这个类不是主要的，他是让DrawingVisual显示，在构造函数写下面的代码
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323103719.jpg)
 
 
 这就是可以让 他可以显示。为何这样可以，参见：http://blog.csdn.net/changtianshuiyue/article/details/26981797
 
-主要的类StrokeVisual，其实很简单
+主要的类StrokeVisual，其实很简单，他可以在上面的类显示文字
 
 
 ```csharp
@@ -47,7 +47,7 @@ category: wpf
 
 这样就可以画出文字。
 
-需要在xaml添加
+需要在xaml添加下面代码，就可以显示出来
 
 
 ```csharp
@@ -70,14 +70,14 @@ category: wpf
 
 首先对代码做修改，在 Windows 的MouseMove 调用 StrokeVisual 的 Add 方法和 画出来
 
-需要获得鼠标的位置
+需要获得鼠标的位置，获得方法很简单，在 MouseMove 函数写下面的代码，其中 e 就是参数
 
 
 ```csharp
     p=e.GetPosition(this);
 ```
 
-传入 StrokeVisual 
+传入 StrokeVisual 调用他的 Draw 可以看到他画出来了
 
 
 ```csharp
@@ -85,6 +85,7 @@ category: wpf
             _s.Draw();
 ```
 
+那么需要看下添加的函数如何写，下面代码就是整个 StrokeVisual 的代码。
 
 ```csharp
         public StrokeVisual()
@@ -105,7 +106,7 @@ category: wpf
 ```
 那么如何从 Stroke 画出？
 
-可以使用
+可以使用 Stroke 传入 dc 就可以画出来。
 
 
 ```csharp
@@ -115,6 +116,6 @@ category: wpf
             }
 ```
 
-Stroke 传入 dc 就可以画出来。
+代码很简单，建议自己去写，我就不把代码给你。如果自己无法写，需要代码，那么[联系](mailto:lindexi_gd@163.com)我发代码给你。
 
  

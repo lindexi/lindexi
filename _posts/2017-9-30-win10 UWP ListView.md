@@ -173,4 +173,40 @@ category: uwp
 
 参见：http://stackoverflow.com/questions/43461819/the-listviewitem-style-cant-trigger-unselected
 
+## ListViewItem 默认
+
+ <Style
+            TargetType="ListViewItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListViewItem">
+                        <ListViewItemPresenter
+                            ContentTransitions="{TemplateBinding ContentTransitions}"
+                            SelectionCheckMarkVisualEnabled="True"
+                            CheckBrush="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"
+                            CheckBoxBrush="{ThemeResource SystemControlForegroundBaseMediumHighBrush}"
+                            DragBackground="{ThemeResource ListViewItemDragBackgroundThemeBrush}"
+                            DragForeground="{ThemeResource ListViewItemDragForegroundThemeBrush}"
+                            FocusBorderBrush="{ThemeResource SystemControlForegroundAltHighBrush}"
+                            FocusSecondaryBorderBrush="{ThemeResource SystemControlForegroundBaseHighBrush}"
+                            PlaceholderBackground="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}"
+                            PointerOverBackground="{ThemeResource SystemControlHighlightListLowBrush}"
+                            PointerOverForeground="{ThemeResource SystemControlHighlightAltBaseHighBrush}"
+                            SelectedBackground="{ThemeResource SystemControlHighlightListAccentLowBrush}"
+                            SelectedForeground="{ThemeResource SystemControlHighlightAltBaseHighBrush}"
+                            SelectedPointerOverBackground="{ThemeResource SystemControlHighlightListAccentMediumBrush}"
+                            PressedBackground="{ThemeResource SystemControlHighlightListMediumBrush}"
+                            SelectedPressedBackground="{ThemeResource SystemControlHighlightListAccentHighBrush}"
+                            DisabledOpacity="{ThemeResource ListViewItemDisabledThemeOpacity}"
+                            DragOpacity="{ThemeResource ListViewItemDragThemeOpacity}"
+                            ReorderHintOffset="{ThemeResource ListViewItemReorderHintThemeOffset}"
+                            HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                            VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
+                            ContentMargin="{TemplateBinding Padding}"
+                            CheckMode="Inline"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
 
