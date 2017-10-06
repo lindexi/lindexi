@@ -30,7 +30,7 @@ layout: default
 			
         		{{ content }}
 
-                <p>本文会经常更新，请到原文：<a href="https://lindexi.github.io{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a>,避免陈旧错误知识的误导，同时有更好的阅读体验。</p>
+                <p>本文会经常更新，请到原文：<a href="https://lindexi.github.io{{ site.url }}{{ page.url }}">https://lindexi.github.io{{ site.url }}{{ page.url }}</a>,避免陈旧错误知识的误导，同时有更好的阅读体验。</p>
         	<!-- <br>字数：{{ page.content | number_of_words }} -->
 
         		{% include license.html %}
@@ -91,7 +91,10 @@ layout: default
 		        </div>
 
 		        <div id="clear"  style="clear:both"><br/></div>		   
-		         <div class="bdsharebuttonbox" style="float::bottom"><a href="#" class="bds_more" data-cmd="more">分享到：</a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a></div>
+		         <div class="bdsharebuttonbox" style="float::bottom"><a href="#" class="bds_more" data-cmd="more">分享到：</a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
+                    <a href="https://twitter.com/share" target="_blank" data-url="${{ site.url }}{{page.url}}" data-text="" data-via=""   title="分享到Twitter"
+        data-lang="zh">Twitter</a>  
+                </div>
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>     
 				<div class="comment">
 				    <div id="disqus_thread"></div>
@@ -123,8 +126,6 @@ layout: default
                           $('#toc').toc();
                       });
                       </script>
-                      <div id="plus"></div>
-                      <script src="https://qingqing.com/static/js/plus.js"></script>
          		</div>
          </div> 
   </div>
