@@ -16,6 +16,8 @@ My passions are software development, science and learning in general.
 
 ## 友情链接
 
+[walterlv](https://walterlv.github.io/ )
+
 [追梦园](http://www.zmy123.cn)
 
 [wblearn](https://wblearn.github.io/)
@@ -33,3 +35,5 @@ My passions are software development, science and learning in general.
 [](https://i.shojo.cc)
 
 [李继龙](https://kljzndx.github.io/My-Blog/)
+
+[谙忆-学不止步,梦不停歇(learning nonstop, dream nonstop) _ 陈浩翔](http://chenhaoxiang.cn/ )
