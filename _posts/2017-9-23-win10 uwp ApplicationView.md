@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp ApplicationView 
 category: uwp 
+stickie: False
 ---
 
 本文和大家介绍一个重要的类，他可以用来设置窗口，如设置启动大小，设置是否允许截图，是否进入全屏，所有和窗口有关的，都可以在他这里设置。

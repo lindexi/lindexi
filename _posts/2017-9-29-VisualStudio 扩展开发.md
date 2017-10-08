@@ -2,6 +2,7 @@
 layout: post
 title:  VisualStudio 扩展开发 
 category: 技术 
+stickie: False
 ---
 
 本文主要：如何开发一个 visual Studio 扩展，其实扩展也叫插件。

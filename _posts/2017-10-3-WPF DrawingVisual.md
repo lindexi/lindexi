@@ -2,6 +2,7 @@
 layout: post
 title:  WPF DrawingVisual 
 category: wpf 
+stickie: False
 ---
 
 本文：如何自定义控件用 DrawingVisual 画图

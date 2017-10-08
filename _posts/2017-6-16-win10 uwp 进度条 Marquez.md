@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 进度条 Marquez  
 category: uwp 
+stickie: False
 ---
 
 本文将告诉大家，如何做一个带文字的进度条，这个进度条可以用在游戏，现在我做的挂机游戏就使用了他。

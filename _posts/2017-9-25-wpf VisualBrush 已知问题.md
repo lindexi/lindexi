@@ -2,6 +2,7 @@
 layout: post
 title:  wpf VisualBrush 已知问题 
 category: wpf 
+stickie: False
 ---
 
 本文告诉大家，visualBrush 已知 bug ，希望大家使用 VisualBrush 时可以知道

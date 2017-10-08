@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 简单MasterDetail 
 category: uwp 
+stickie: False
 ---
 
 # 中文

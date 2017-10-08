@@ -2,6 +2,7 @@
 layout: post
 title:  WPF 拖动时出现 Invalid FORMATETC structure 
 category: wpf 
+stickie: False
 ---
 
 如果在 WPF 需要支持一个东西可以拖动，那么可以使用 DragDrop ，但是使用这个之后就出现了异常

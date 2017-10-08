@@ -2,6 +2,7 @@
 layout: post
 title:  使用 ahk 让普通键盘变为Dvorak键盘 
 category: 技术 
+stickie: False
 ---
 
 本文告诉大家，如何使用软件做出Dvorak键盘。

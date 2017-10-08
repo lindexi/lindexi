@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp x:Bind 无法获得资源 
 category: uwp 
+stickie: False
 ---
 
 本文告诉大家，如果在 使用 x:Bind 转换器写在资源，而运行出现找不到资源的错误，如果解决。

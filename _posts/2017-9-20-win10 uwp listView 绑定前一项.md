@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp listView 绑定前一项 
 category: uwp 
+stickie: False
 ---
 
 大神问，如何在 ListView 绑定前一项，于是我下面告诉大家如何在 ListView 绑定前一项

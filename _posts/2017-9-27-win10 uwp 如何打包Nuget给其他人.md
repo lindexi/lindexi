@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 如何打包Nuget给其他人 
 category: uwp 
+stickie: False
 ---
 
 本文告诉大家，如果自己有做一些好用的库，如何使用 Nuget 打包之后上传，分享给大家。

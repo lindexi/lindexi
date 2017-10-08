@@ -2,6 +2,7 @@
 layout: post
 title: win10 uwp 修改CalendarDatePicker图标颜色 
 category: uwp 
+stickie: False
 ---
 CalendarDatePicker 是一个好用的东西，但是我发现想要修改他右边的那个图标，显示日历的图标颜色，没有这个选项。
 

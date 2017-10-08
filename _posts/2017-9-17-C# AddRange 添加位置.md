@@ -2,6 +2,7 @@
 layout: post
 title:  C# AddRange 添加位置 
 category: 技术 
+stickie: False
 ---
 
 有没人想知道， AddRange 添加位置 是哪？

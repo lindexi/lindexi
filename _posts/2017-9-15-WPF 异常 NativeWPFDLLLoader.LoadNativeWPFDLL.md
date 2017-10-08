@@ -2,6 +2,7 @@
 layout: post
 title:  WPF 异常 NativeWPFDLLLoader.LoadNativeWPFDLL 
 category: wpf 
+stickie: False
 ---
 
 如果发现出现下面异常，可以尝试重装 .net Framework

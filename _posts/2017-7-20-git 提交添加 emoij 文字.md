@@ -2,6 +2,7 @@
 layout: post
 title:  git 提交添加 emoij 文字 
 category: 技术 
+stickie: False
 ---
 
 可能看到 git 提交是文本，就认为他无法使用表情图片，实际上 git 提交是可以添加表情。

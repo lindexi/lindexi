@@ -2,6 +2,7 @@
 layout: post
 title:  win10 UWP 用Path画图 
 category: uwp 
+stickie: False
 ---
 
 本文将使用 Path 画一个聊天气泡。

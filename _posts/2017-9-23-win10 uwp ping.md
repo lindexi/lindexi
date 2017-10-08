@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp ping 
 category: uwp 
+stickie: False
 ---
 
 有时需要进行 ping ，但是ms没有给一个类可以进行 ping

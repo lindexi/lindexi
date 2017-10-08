@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 进度条 WaveProgressControl 
 category: uwp 
+stickie: False
 ---
 
 昨天看到了有个大神做出好看的进度条样式，于是我就去抄袭他的代码，但是发现看不懂，于是本文主要翻译就是大神说这个控件如何做。

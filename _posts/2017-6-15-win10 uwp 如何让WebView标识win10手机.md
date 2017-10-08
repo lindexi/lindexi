@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 如何让WebView标识win10手机 
 category: uwp 
+stickie: False
 ---
 
 本文主要：如何让WebView访问的网页识别为手机.

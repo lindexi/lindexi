@@ -2,6 +2,7 @@
 layout: post
 title:  C＃ TextBlock 上标 
 category: 技术 
+stickie: False
 ---
 
 我需要做一个函数，显示 $x^2$ ，但是看起来用 TextBlock 做的不好看。

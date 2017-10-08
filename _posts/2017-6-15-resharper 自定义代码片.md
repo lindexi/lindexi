@@ -2,6 +2,7 @@
 layout: post
 title:  resharper 自定义代码片 
 category: 技术 
+stickie: False
 ---
 
 我们在做一件事前，需要先做工具，工具好，最后我们做事也快。这个过程需要的时间也是值得的。
