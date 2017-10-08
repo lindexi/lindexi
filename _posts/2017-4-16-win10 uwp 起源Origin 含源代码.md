@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 起源Origin 含源代码 
 category: uwp 
+stickie: False
 ---
 
 这是一个自动机，在1940年提出，也是我们世界的Bug。

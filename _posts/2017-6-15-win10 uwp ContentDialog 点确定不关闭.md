@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp ContentDialog 点确定不关闭 
 category: uwp 
+stickie: False
 ---
 
 

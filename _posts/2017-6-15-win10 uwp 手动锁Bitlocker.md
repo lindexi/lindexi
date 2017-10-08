@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 手动锁Bitlocker 
 category: uwp 
+stickie: False
 ---
 
 

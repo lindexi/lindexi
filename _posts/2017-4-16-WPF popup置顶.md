@@ -2,6 +2,7 @@
 layout: post
 title: WPF popup置顶 
 category: 技术 
+stickie: False
 ---
 在程序写一个popup发现他会在置顶，在网上找了两大神代码http://www.cnblogs.com/Leaco/p/3164394.html
 

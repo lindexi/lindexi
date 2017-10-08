@@ -2,6 +2,7 @@
 layout: post
 title:  visual Studio 无法调试，提示程序跟踪已退出 
 category: 技术 
+stickie: False
 ---
 
 今天在打码出现了vs无法调试，我在网上查了很久没有发现一个方法。

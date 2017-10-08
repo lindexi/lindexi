@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 从Type使用构造 
 category: uwp 
+stickie: False
 ---
 
 本文主要：如何从 Type new一个对象

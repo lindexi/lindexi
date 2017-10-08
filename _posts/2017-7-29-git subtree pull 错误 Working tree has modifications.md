@@ -2,6 +2,7 @@
 layout: post
 title:  git subtree pull 错误 Working tree has modifications 
 category: 技术 
+stickie: False
 ---
 
 git subtree 是不错的东西，用于 git 管理子项目。

@@ -2,6 +2,7 @@
 layout: post
 title:  win10 UWP 剪贴板 Clipboard 
 category: uwp 
+stickie: False
 ---
 
 win10 UWP 剪贴板 Clipboard使用`Windows.ApplicationModel.DataTransfer.Clipboard`

@@ -2,6 +2,7 @@
 layout: post
 title:  git cannot lock ref 
 category: 技术 
+stickie: False
 ---
 
 如果在 git 准备下载仓库的时候，出现下面的错误

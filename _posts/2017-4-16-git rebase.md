@@ -2,6 +2,7 @@
 layout: post
 title: git rebase 
 category: 技术 
+stickie: False
 ---
 rebase可以修改记录，我总是做小更改就提交，仓库有好多看起来很乱的
 

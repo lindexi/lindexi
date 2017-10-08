@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp MVVM入门 
 category: uwp 
+stickie: False
 ---
 
 MVVM 是一个强大的架构，基本从 WPF 开始，wr（我说的就是微软）就提倡使用 MVVM。它可以将界面和后台分离，让开发人员可以不关心界面是怎样，全心投入到后台代码编写中。

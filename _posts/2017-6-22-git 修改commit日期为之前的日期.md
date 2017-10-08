@@ -2,6 +2,7 @@
 layout: post
 title:  git 修改commit日期为之前的日期 
 category: 技术 
+stickie: False
 ---
 
 我在之前修改了一个文件，但是没有commit，现在我想要commit，日期为那天的日期

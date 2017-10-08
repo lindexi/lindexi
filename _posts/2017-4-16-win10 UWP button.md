@@ -2,6 +2,7 @@
 layout: post
 title:  win10 UWP button 
 category: uwp 
+stickie: False
 ---
 
 Button是一个常用控件，有很多和wpf一样，可以看《深入浅出WPF》，但还有一些虽然常用，但是可能大家不知道的功能

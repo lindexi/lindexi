@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp Markdown 
 category: uwp 
+stickie: False
 ---
 
 # 需求分析

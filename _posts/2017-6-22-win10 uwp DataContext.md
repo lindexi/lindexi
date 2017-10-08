@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp DataContext  
 category: uwp 
+stickie: False
 ---
 
 本文告诉大家DataContext的多种绑法。
