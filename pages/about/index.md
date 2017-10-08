@@ -33,3 +33,5 @@ My passions are software development, science and learning in general.
 [](https://i.shojo.cc)
 
 [李继龙](https://kljzndx.github.io/My-Blog/)
+
+[陈浩翔](http://chenhaoxiang.cn/ )
