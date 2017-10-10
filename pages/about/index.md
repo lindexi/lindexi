@@ -36,4 +36,5 @@ My passions are software development, science and learning in general.
 
 [李继龙](https://kljzndx.github.io/My-Blog/)
 
-[谙忆-学不止步,梦不停歇(learning nonstop, dream nonstop) _ 陈浩翔](http://chenhaoxiang.cn/ )
+[陈浩翔](http://chenhaoxiang.cn/ )
+
