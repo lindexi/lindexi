@@ -24,8 +24,8 @@ enableTags: true
 tagarray: []
 
 excerpt_separator: "<!--more-->"
-paginate: 15
-per_page: 15
+paginate: 30
+per_page: 30
 paginate_path: "/blog/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
