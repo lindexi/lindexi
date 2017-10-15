@@ -1,6 +1,6 @@
 ---
-layout: blog_by_category
-title: 'Articles by category: jekyll'
-category: jekyll
-permalink: /category/jekyll/
+layout: posts_by_category
+categories: jekyll
+title: Jekyll
+permalink: /category/jekyll
 ---

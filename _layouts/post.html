@@ -1,133 +1,51 @@
 ---
 layout: default
 ---
-{% assign post = page %}
-
-<article>
-	<div id="page-navigation">
-		        <div style="float:left">
-		        {% if page.previous.url %}
-		                <a href="{{ site.url }}{{page.previous.url}}" 
-		                	title="Previous Post:{{page.previous.title}}">☜
-		                 {{page.previous.title}}
-		                </a>
-		        {% endif %}
-		        </div>
-
-		        <div style="float:right">
-		        {% if page.next.url %}
-		                <a href="{{ site.url }}{{page.next.url}}" 
-		                	title="next Post:{{page.next.title}}">
-		                {{page.next.title}} ☞ 
-		                </a>
-		        {% endif %}
-		        </div>
-		        <div style="clear:both"></div>
-		</div> 
-		
-    <div id="post-content">
-    		<center><h2>{{ page.title }}</h2></center>
-			
-        		{{ content }}
-
-                <p>本文会经常更新，请到原文：<a href="https://lindexi.github.io{{ site.url }}{{ page.url }}">https://lindexi.github.io{{ site.url }}{{ page.url }}</a>,避免陈旧错误知识的误导，同时有更好的阅读体验。</p>
-        	<!-- <br>字数：{{ page.content | number_of_words }} -->
-
-        		{% include license.html %}
-
-        	<script src="https://s95.cnzz.com/z_stat.php?id=1261039464&web_id=1261039464" language="JavaScript"></script>
-
-        {% if post.category %}
-            {% for site_category in site.data.categories %}
-                {% if site_category.slug == post.category %}
-                    {% assign category = site_category %}
-                {% endif %}
-            {% endfor %}
-            {% if category %}
-                {% capture category_content %} in <span class="label" ><a href="/blog/category/{{ category.slug }}/">{{ category.name }}</a></span>{% endcapture %}
-            {% endif %}
-        {% else %}
-            {% assign category_content = '' %}
-        {% endif %}
-
-        {% if post.tags.size > 0 %}
-            {% capture tags_content %} with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
-            {% for post_tag in post.tags %}
-                {% for data_tag in site.data.tags %}
-                    {% if data_tag.slug == post_tag %}
-                        {% assign tag = data_tag %}
-                    {% endif %}
-                {% endfor %}
-                {% if tag %}
-                    {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug |strip_html  }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
-                    {% assign tags_content = tags_content_temp %}
-                {% endif %}
-            {% endfor %}
-        {% else %}
-            {% assign tags_content = '' %}
-        {% endif %}
-
-        
-        <!--<p id="post-meta">{{ category_content }}{{ tags_content }}</p>-->
-        
-        <div id="page-navigation2">
-		        <div class="clear">&nbsp;</div>
-		        <div style="float:left">
-		        {% if page.previous.url %}
-		                <a href="{{ site.url }}{{page.previous.url}}" 
-		                	title="Previous Post:{{page.previous.title}}">☜
-		                 {{page.previous.title}}
-		                </a>
-		        {% endif %}
-		        </div>
-
-		        <div style="float:right">
-		        {% if page.next.url %}
-		                <a href="{{ site.url }}{{page.next.url}}" 
-		                	title="next Post:{{page.next.title}}">
-		                {{page.next.title}} ☞
-		                </a>
-		        {% endif %}
-		        </div>
-
-		        <div id="clear"  style="clear:both"><br/></div>		   
-		         <div class="bdsharebuttonbox" style="float::bottom"><a href="#" class="bds_more" data-cmd="more">分享到：</a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
-                    <a href="https://twitter.com/share" target="_blank" data-url="${{ site.url }}{{page.url}}" data-text="" data-via=""   title="分享到Twitter"
-        data-lang="zh">Twitter</a>  
-                </div>
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>     
-				<div class="comment">
-				    <div id="disqus_thread"></div>
-				    
-                    <script>
-
-                        /**
-                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                        /*
-                        var disqus_config = function () {
-                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                        };
-                        */
-                        (function () { // DON'T EDIT BELOW THIS LINE
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://lindexi.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                    <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
-
-                      <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-                      <script src="{{site.url}}/js/toc.js" language="JavaScript"></script>
-                      <script type="text/javascript">
-                      $(document).ready(function() {
-                          $('#toc').toc();
-                      });
-                      </script>
-         		</div>
-         </div> 
-  </div>
+<div class="post-content well">
+<article class="content">
+    <div class="post">{{ content }}</div>
+    <hr />
+    {% include license.html %}
 </article>
+{% include share-page.html %}
+<hr />
 
+{% assign hasSimilar = '' %}
+{% for post in site.posts  %}
+    {% assign postHasSimilar = false %}
+    {% for tag in post.categories %}
+        {% for thisTag in page.categories %}
+            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+                {% if hasSimilar.size == 0 %}
+                <div class="panel-body">
+                <h4>相关文章</h4>
+                <ul>
+                {% endif %}
+                <li class="relatedPost">
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    {% if post.categories %}
+                        <small>({% for category in post.categories %}<a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %})</small>
+                    {% endif %}
+                </li>
+                {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                {% assign postHasSimilar = true %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+    </ul>
+    </div>
+{% endif %}
+
+<div class="PageNavigation">
+    {% if page.previous.url %}
+        <a class="prev pull-left" href="{{ site.baseurl }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next.url %}
+        <a class="next pull-right" href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+    {% endif %}
+</div>
+
+{% include comment.html %}
+</div>

@@ -1,5 +1,3 @@
-.DS_Store
-/_site/
-/lindexi.sln
-/.vs/lindexi/v14/.suo
-/serve
+Gemfile.lock
+_site/
+.sass-cache/

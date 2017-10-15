@@ -1,71 +1,16 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-cn">
-<head>
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include meta.html %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/feed.xml">
+    <script type="text/javascript">window.baseurl = '{{ site.url }}';</script>
+    {% include css.html %}
+    {% include analytics.html %}
+  </head>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="author" content="{{ site.author.name }}">{% if page.description %}
-    <meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Baiduspider" content="nofollow"> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="cache-control" content="max-age=7200" />
-
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
-
-
-    <title>{{ page.title }}</title>
-    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
-    <!--[if lte IE 7]><style>* {display:none}</style><![endif]-->
-    <link rel="stylesheet" href="{{ site.url }}/css/style.css">
-    <link href="{{ site.url }}/css/syntax.css" rel="stylesheet">
-    <script src="{{ site.url }}/js/all.js"></script>
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "//hm.baidu.com/hm.js?1a1232de604d1609be82f3811e6832e2";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-
-</head>
-
-<body>
-    <div id="container">
-        <a href="https://github.com/lindexi"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
-        <div id="main">
-            <header><h1 class="head">林德熙</h1></header>
-            <header><h5>If you have any language confusion,please talk to me lindexi_gd@163.com.</h5></header>
-            <div class="nav">
-                <a title="home page" class="" href="{{ site.url }}/">Index</a>
-                <!--<a title="tags" class="" href="{{ site.url }}/pages/tags/">Tags</a>-->
-                <a title="archives" class="" href="{{ site.url }}/pages/archives/">Archives</a>
-                <a title="about" class="" href="{{ site.url }}/pages/about/">About</a>
-                <a title="about" class="" href="https://twitter.com/lindexi_gd">twitter</a>
-                <a title="about" class="" href="{{ site.url }}/feed.xml">Rss</a>
-                <div align="center">欢迎第<img border="0" src="http://cc.amazingcounters.com/counter.php?i=3213064&c=9639505" alt="lindexi.com">位朋友!</div>
-                <!--  <a title="about" href="{{ site.url }}/projects/"><span style="color:#666666">projects</span></a>
-                 -->
-            </div>
-            <div class="content">
-                <div class="post">
-                    {{ content }}
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="footer-table">
-            <div class="footer-cell">
-                All content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">BY-NC-SA 3.0</a>
-                <br />
-                Power by <a href="https://ddatsh.com/">ddatsh.com</a>  <a href="https://github.com/mojombo/jekyll">Jekyll</a>
-
-            </div>
-   
-        </div>
-        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261039464'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1261039464%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
-    </footer>
-</body>
+  <body class="home overflow-hidden">
+    {% include header.html %}
+    {% include main.html %}
+    {% include js.html %}
+  </body>
 </html>
