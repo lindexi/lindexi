@@ -214,6 +214,7 @@ ul.pager {
 .searchcontrol {
     margin-top: 35px;
     margin-bottom: 0;
+    width: 100%;
 }
 @media (max-width: 767px) {
     .searchcontrol {

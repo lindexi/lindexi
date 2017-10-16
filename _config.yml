@@ -9,7 +9,7 @@ about: Windows 10 Developer
 baseurl: "/lindexi"
 url: "https://lindexi.gitee.io"
 
-allowsearch: true
+allowsearch: false
 
 analytics:
   google: UA-108101550-1
