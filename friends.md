@@ -114,3 +114,4 @@ permalink: /friends/
  - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/ )
  - [CodeS-SourceS - CCM](http://codes-sources.commentcamarche.net/ )
  - [Igor Kulman](https://blog.kulman.sk/ )
+ - http://juniperphoton.net/
