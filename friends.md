@@ -22,6 +22,8 @@ permalink: /friends/
 
    这是我所在的组织
 
+ - [晒太阳的猫](http://jasongrass.gitee.io/ ) 
+
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
 
  - [编程新手的小站 http://17i648w554.iask.in/wordpress/](http://17i648w554.iask.in/wordpress/)
