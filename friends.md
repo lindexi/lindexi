@@ -4,37 +4,62 @@ title: 朋友和收藏
 permalink: /friends/
 ---
 
-- [walterlv](https://walterlv.github.io/ )
-- [追梦园](http://www.zmy123.cn)
-- [wblearn](https://wblearn.github.io/)
-- [win10 参考](http://lindexi.oschina.io/lindexi/post/win10-uwp-%E5%8F%82%E8%80%83/)
-- [吾勇士](http://wuyongshi.top/pages/1479085886341.html)
-- [Leonn](https://liyuans.com)
-- [songshizhao](www.songshizhao.com)
-- [泰琪](http://gandalfliang.me/)
-- [李继龙](https://kljzndx.github.io/My-Blog/)
-- [陈浩翔](http://chenhaoxiang.cn/ )
-- [IIP.Easi](https://iip-easi.github.io/)
-- [梁泰琪 - gandalfliang](http://gandalfliang.me/)
-- [杨宇杰](https://okcthouder.github.io/)
-- [编程新手的小站](http://17i648w554.iask.in/wordpress/)
-- [极简天气UWP开发者博客](http://fionlen.azurewebsites.net/)
-- [张高兴 UWP IOT 大神 - 博客园](http://www.cnblogs.com/zhanggaoxing/default.html?page=1)
+ - [walterlv](https://walterlv.github.io/ ) 
+
+   这是我师傅
+
+ - [泰琪](http://gandalfliang.me/)
+
+   对d3d有很深的研究
+
+ - [李继龙](https://kljzndx.github.io/My-Blog/)
+
+   传说中的开心开发者
+
+ - [陈浩翔](http://chenhaoxiang.cn/ )
+
+ - [IIP.Easi](https://iip-easi.github.io/)
+
+   这是我所在的组织
+
+ - [杨宇杰](https://okcthouder.github.io/)
+
+ - [编程新手的小站](http://17i648w554.iask.in/wordpress/)
+
+ - [极简天气UWP开发者博客](http://fionlen.azurewebsites.net/)
+
+ - [张高兴 UWP IOT 大神 - 博客园](http://www.cnblogs.com/zhanggaoxing/default.html?page=1)
+
+ - [追梦园](http://www.zmy123.cn)
+
+ - [wblearn](https://wblearn.github.io/)
+
+ - [吾勇士](http://wuyongshi.top/pages/1479085886341.html)
+
+ - [Leonn](https://liyuans.com)
+
+ - [songshizhao](www.songshizhao.com)
 
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
 
  - [vscode使用笔记 - 木杉的博客](http://mushanshitiancai.github.io/2017/01/07/tools/vscode%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/)
+
  - [东邪独孤 - 博客园](http://www.cnblogs.com/tcjiaan/ ) 
    
    老周，买了他的《Windows 10 应用开发实战》写的很好，入门使用这本书对我帮助很大。只是代码没用，因为是代码是uap的，不过修改难度小。老周在极客学院上录制了 Windows10 应用开发的教学视频：http://my.jikexueyuan.com/1795437896/record/ 他的视频也是国内仅有的几个最好的。我很多博客都是参考老周的。
 
  - [六兆煮橙不会写代码 - CSDN博客](http://blog.csdn.net/lzl1918 )
+
  - [怪咖先森的博客 - 博客频道 - CSDN.NET](http://blog.csdn.net/u011033906?viewmode=contents)
+
  - [☜ 我追求的天空 ☞┅┅┅┅┅﹣·☆ - CSDN博客](http://blog.csdn.net/xuzhongxuan )
+
  - [C_Li_的博客 - CSDN博客](http://blog.csdn.net/github_36704374?viewmode=contents )
+
  - [hystar - 博客园](http://www.cnblogs.com/lsxqw2004 )
+ 
  - [周永恒 - 博客园](http://www.cnblogs.com/Zhouyongh )
 
  - [MS-UAP - 博客园](http://www.cnblogs.com/ms-uap/ )
