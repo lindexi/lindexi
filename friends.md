@@ -4,41 +4,43 @@ title: 朋友和收藏
 permalink: /friends/
 ---
 
- - [walterlv](https://walterlv.github.io/ ) 
+ - [walterlv https://walterlv.github.io/](https://walterlv.github.io/ ) 
 
    这是我师傅
 
- - [泰琪](http://gandalfliang.me/)
+ - [泰琪 http://gandalfliang.me/](http://gandalfliang.me/)
 
    对d3d有很深的研究
 
- - [李继龙](https://kljzndx.github.io/My-Blog/)
+ - [李继龙 https://kljzndx.github.io/My-Blog/](https://kljzndx.github.io/My-Blog/)
 
    传说中的开心开发者
 
- - [陈浩翔](http://chenhaoxiang.cn/ )
+ - [陈浩翔 http://chenhaoxiang.cn/](http://chenhaoxiang.cn/ )
 
  - [IIP.Easi](https://iip-easi.github.io/)
 
    这是我所在的组织
 
- - [杨宇杰](https://okcthouder.github.io/)
+ - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
 
- - [编程新手的小站](http://17i648w554.iask.in/wordpress/)
+ - [编程新手的小站 http://17i648w554.iask.in/wordpress/](http://17i648w554.iask.in/wordpress/)
 
- - [极简天气UWP开发者博客](http://fionlen.azurewebsites.net/)
+ - [极简天气UWP开发者博客 http://fionlen.azurewebsites.net/](http://fionlen.azurewebsites.net/)
 
- - [张高兴 UWP IOT 大神 - 博客园](http://www.cnblogs.com/zhanggaoxing/default.html?page=1)
+ - [张高兴  http://www.cnblogs.com/zhanggaoxing/default.html](http://www.cnblogs.com/zhanggaoxing/default.html?page=1)
 
- - [追梦园](http://www.zmy123.cn)
+   UWP IOT 大神
 
- - [wblearn](https://wblearn.github.io/)
+ - [追梦园 http://www.zmy123.cn](http://www.zmy123.cn)
 
- - [吾勇士](http://wuyongshi.top/pages/1479085886341.html)
+ - [wblearn https://wblearn.github.io/](https://wblearn.github.io/)
 
- - [Leonn](https://liyuans.com)
+ - [吾勇士 http://wuyongshi.top/pages/1479085886341.html](http://wuyongshi.top/pages/1479085886341.html)
 
- - [songshizhao](www.songshizhao.com)
+ - [Leonn https://liyuans.com](https://liyuans.com)
+
+ - [songshizhao www.songshizhao.com](www.songshizhao.com)
 
 ## 国内博客
 
@@ -109,24 +111,38 @@ permalink: /friends/
  - [姜晔的技术专栏 - CSDN博客](http://blog.csdn.net/ioio_jy?viewmode=contents )
 
  - [E不小心 - 博客园](http://www.cnblogs.com/gaoshang212 )
+
  - [durow - 博客园](http://www.cnblogs.com/durow/ )
+
  - [法的空间 - 博客园](http://www.cnblogs.com/FaDeKongJian )
+
  - [浅蓝 - 博客园](http://www.cnblogs.com/qianblue )
+
  - [youngytj - 博客园](http://www.cnblogs.com/youngytj )
+
  - [时嬴政 - 博客园](http://www.cnblogs.com/shiyingzheng )
- - [UWPBOX | WIN10开发类容分享](http://uwpbox.com/ ) C++ uwp 大神
+
+ - [UWPBOX | WIN10开发类容分享](http://uwpbox.com/ )
+
+   C++ uwp 大神
+
  - [bomo - 博客园](http://www.cnblogs.com/bomo )
+
  - [LH806732的专栏 - CSDN博客](http://blog.csdn.net/LH806732 )
+
  - [Berumotto - 博客园](http://www.cnblogs.com/KudouShinichi/ )
+
  - [Edi Wang](http://edi.wang/ ) 国内.net 的大神，有很多的文章，有WPF、UWP还有其他的linux……
+
  - [尽管扯淡](http://jameszhan.github.io/ ) 写了很多数学
+
  - [怪咖先森的博客 - CSDN博客](http://blog.csdn.net/u011033906 )
+
  - [丁校长 - 博客园](http://www.cnblogs.com/dingdaheng )
- 
 
 ## 国外博客
 
- - [Font Awesome Icons](http://fontawesome.io/icons/)
+ - [Font Awesome Icons](http://fontawesome .io/icons/)
  - [Josh Smith](https://joshsmithonwpf.wordpress.com/ )
  - [Dr. WPF](http://drwpf.com/blog/ )
  - http://xamlnative.com/
