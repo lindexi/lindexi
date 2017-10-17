@@ -6,6 +6,9 @@
         padding: 0 8px;
     }
 }
+code {
+    word-break: break-word;
+}
 .header-panel.shadow-z-2 {
     background-color: #4267b2;
     padding: 50px 0 15px 0;

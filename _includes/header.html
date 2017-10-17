@@ -47,9 +47,10 @@
             {% endif %}
             </div>
             <p class="info">
-              {% if page.date %}
+              <!-- {% if page.date %}
                 <span class="time">{{ page.date | date: "%Y-%m-%d %H:%M" }}</span>
-              {% endif %}
+              {% endif %} -->
+              <span class="categories">分类 </span>
               {% if page.categories.size > 0 %}
                 <span class="categories">
                   {% for category in page.categories %}

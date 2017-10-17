@@ -116,6 +116,10 @@ permalink: /friends/
 
  - [E不小心 - 博客园](http://www.cnblogs.com/gaoshang212 )
 
+ - [叛逆者](https://www.zhihu.com/people/minmin.gong/activities)
+
+   Microsoft Senior SDE（微软高级软件工程师），KlayGE开源游戏引擎创始人
+
  - [durow - 博客园](http://www.cnblogs.com/durow/ )
 
  - [法的空间 - 博客园](http://www.cnblogs.com/FaDeKongJian )
@@ -144,6 +148,10 @@ permalink: /friends/
 
  - [丁校长 - 博客园](http://www.cnblogs.com/dingdaheng )
 
+ - [dino.c](http://www.cnblogs.com/dino623/ ) 写了很多动画
+
+ - [火火](http://www.cnblogs.com/blue-fire/ ) 在有了 Composition API 就很少使用 StoryBoard 的大神
+
 ## 国外博客
 
  - [Font Awesome Icons](http://fontawesome .io/icons/)
@@ -160,3 +168,4 @@ permalink: /friends/
  - [CodeS-SourceS - CCM](http://codes-sources.commentcamarche.net/ )
  - [Igor Kulman](https://blog.kulman.sk/ )
  - http://juniperphoton.net/
+ - [justinxinliu](https://stackoverflow.com/users/231837/justin-xl) 堆栈网25k大神
