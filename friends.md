@@ -18,7 +18,7 @@ permalink: /friends/
 
  - [陈浩翔 http://chenhaoxiang.cn/](http://chenhaoxiang.cn/ )
 
- - [IIP.Easi](https://iip-easi.github.io/)
+ - [easiwin](https://easiwin.github.io/)
 
    这是我所在的组织
 
