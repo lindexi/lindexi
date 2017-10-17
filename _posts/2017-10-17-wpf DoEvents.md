@@ -129,7 +129,7 @@ stickie: False
 
 复现步骤：
 
-修改上面呆磨代码，加上`OnLoaded`，里面使用`Dispatcher.Invoke`，然后运行拖动窗口，这时窗口卡死 
+修改上面呆磨代码，加上`OnLoaded`，里面使用`Dispatcher.Invoke`或`DoEvents`，然后运行拖动窗口，这时窗口卡死 
 
 ```csharp
         public MainWindow()
@@ -147,6 +147,56 @@ stickie: False
 ```
 
 但是这时使用 Alt+Tab 到其他窗口，然后回来，可以看到窗口正常
+
+实际上尝试改变窗口大小也会让窗口卡死，请看[WPF application intermittently hangs when using Dispatcher.Invoke and/or Dispatcher.PushFrame while user is resizing or draging window ](https://connect.microsoft.com/VisualStudio/feedback/details/807292/wpf-application-intermittently-hangs-when-using-dispatcher-invoke-and-or-dispatcher-pushframe-while-user-is-resizing-or-draging-window )
+
+### OnLoad 上其他坑
+
+我必须说，不仅是 OnLoad 会出现这些坑，在很多情况也会，但是我还不知道条件。
+
+请把`await Task.Delay(2000)`换为`Foo(10);`进行一些计算，这时在软件启动的时候，尝试拖动窗口，可以看到窗口是没有显示内容，但是鼠标放开的时候，就可以看到界面显示。
+
+```csharp
+        private void OnLoaded(object sender, RoutedEventArgs e)
+        {
+            Foo(10);
+
+            Dispatcher.Invoke(() =>
+            {
+            }, DispatcherPriority.Background);
+        }
+```
+
+接着把`Invoke`换为`DoEvents`，结果相同，在启动拖动窗口，窗口没有内容。
+
+### 使用 DispatcherTimer 出现窗口冻结
+
+下面的代码是创建一个 time 不停在里面使用`Dispatcher.Invoke`
+
+```csharp
+        public MainWindow()
+        {
+            InitializeComponent();
+            DataContext = this;
+            Loaded += OnLoaded;
+
+            DispatcherTimer time = new DispatcherTimer();
+
+            time.Interval = new TimeSpan(0, 0, 1);
+            time.Tick += Time_Tick;
+            time.Start();
+        }
+
+        private void Time_Tick(object sender, EventArgs e)
+        {
+            Foo(10);
+            Dispatcher.Invoke(() => { }, DispatcherPriority.Background);
+        }
+```
+
+这时拖动窗口会出现冻结，和上面一样。
+
+实际把上面代码的运算去掉也会冻住，但是我尝试10次，有2次在放开的时候才冻住。
 
 ## 推荐方法
 
@@ -184,8 +234,35 @@ stickie: False
         }
 ```
 
-需要添加`async`和直接使用`Dispatcher.Yield`
+最后的方法是在UI主线程执行的函数上添加`async`和直接使用`Dispatcher.Yield`就可以在循环中让UI响应。不会在循环中让UI卡住。
 
 建议使用最后的方法，因为这个方法可以解决坑，而且使用简单
+
+实际的方法不会让界面一直都不会卡住，下面写一个呆磨就可以知道。在上面的界面添加下面的代码，不停做动画。
+
+```csharp
+        <Grid>
+            <Grid.Triggers>
+
+                <EventTrigger RoutedEvent="Grid.Loaded">
+
+                    <BeginStoryboard>
+
+                        <Storyboard RepeatBehavior="Forever">
+                            <DoubleAnimation Storyboard.TargetName="T" Storyboard.TargetProperty="Angle" From="0" To="360" Duration="0:0:1"></DoubleAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Grid.Triggers>
+            <Grid x:Name="G" Background="#565656" Width="200" Height="200" 
+                  HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Grid.RenderTransform>
+                    <RotateTransform x:Name="T" CenterX="100" CenterY="100" Angle="0"></RotateTransform>
+                </Grid.RenderTransform>
+            </Grid>
+        </Grid>
+```
+
+这时点击按钮，可以看到动画有些卡，点击窗口拖动就可以看到动画正常。
 
 
