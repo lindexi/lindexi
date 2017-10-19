@@ -24,6 +24,12 @@ permalink: /friends/
 
  - [晒太阳的猫](http://jasongrass.gitee.io/ ) 
 
+   WPF开发大神
+
+ - [niuyanjie's blog](http://niuyanjie.gitee.io/blog/ ) 
+
+   WPF开发大神
+
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
 
  - [编程新手的小站 http://17i648w554.iask.in/wordpress/](http://17i648w554.iask.in/wordpress/)
