@@ -14,6 +14,8 @@ stickie: False
 
 <!-- csdn -->
 
+<!-- 标签: wpf,doevents,性能优化 -->
+
 先做一个例子让大家知道`DoEvents`的作用，使用的呆磨很简单，请看代码
 
 ```csharp

@@ -3,7 +3,7 @@
 }
 @media (max-width: 767px) {
     .main.outer {
-        padding: 0 8px;
+        padding: 0 2px;
     }
 }
 code {
@@ -27,6 +27,13 @@ code {
     text-align: center;
     margin-top: 10px;
     letter-spacing: 2px;
+}
+row
+{
+    margin-right: -5;
+    margin-left: -15;
+    padding-right: 0px;
+    margin-right: -15;
 }
 .row-content{
     vertical-align: top;
@@ -186,7 +193,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     }
     .navbar-toggle {
         margin: 0;
-        margin-right: -15px;
+        margin-right: 0px;
     }
 }
 footer {

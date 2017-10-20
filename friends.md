@@ -22,11 +22,11 @@ permalink: /friends/
 
    这是我所在的组织
 
- - [晒太阳的猫](http://jasongrass.gitee.io/ ) 
+ - [晒太阳的猫 http://jasongrass.gitee.io/ ](http://jasongrass.gitee.io/ ) 
 
    WPF开发大神
 
- - [niuyanjie's blog](http://niuyanjie.gitee.io/blog/ ) 
+ - [niuyanjie's blog 一个菜鸟的成长历程](http://niuyanjie.gitee.io/blog/ ) 
 
    WPF开发大神
 
