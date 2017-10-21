@@ -42,6 +42,8 @@ permalink: /friends/
 
  - [追梦园 http://www.zmy123.cn](http://www.zmy123.cn)
 
+   里面有很多uwp的博客
+
  - [wblearn https://wblearn.github.io/](https://wblearn.github.io/)
 
  - [吾勇士 http://wuyongshi.top/pages/1479085886341.html](http://wuyongshi.top/pages/1479085886341.html)
@@ -51,6 +53,10 @@ permalink: /friends/
  - [Leonn https://liyuans.com](https://liyuans.com)
 
  - [songshizhao www.songshizhao.com](www.songshizhao.com)
+
+ - [(/≧▽≦/)咦！又好了！ Dreamwings – 继续踏上旅途，在没有你的春天……](https://www.dreamwings.cn/ )
+
+   千千，一个可爱的蓝孩子
 
 ## 国内博客
 
