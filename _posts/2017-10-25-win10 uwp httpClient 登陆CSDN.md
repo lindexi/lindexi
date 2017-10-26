@@ -140,4 +140,39 @@ stickie: False
         }
 ```
 
+### 使用 WebView 模拟登陆 csdn
+
+下面给大家一个叫简单方法模拟登陆csdn
+
+```csharp
+          GeekWebView.Navigate(new Uri("http://passport.csdn.net/"));
+
+            GeekWebView.NavigationCompleted += OnNavigationCompleted;
+
+
+            F = async () =>
+            {
+
+                var functionString = string.Format(@"document.getElementsByName('username')[0].value='{0}';", "lindexi_gd@163.com");
+                await GeekWebView.InvokeScriptAsync("eval", new string[] { functionString });
+                functionString = string.Format(@"document.getElementsByName('password')[0].value='{0}';", "密码");
+                await GeekWebView.InvokeScriptAsync("eval", new string[] { functionString });
+
+                functionString = string.Format(@"document.getElementsByClassName('logging')[0].click();");
+                await GeekWebView.InvokeScriptAsync("eval", new string[] { functionString });
+            };
+
+        private Action F { set; get; }
+
+        private void OnNavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs args)
+        {
+            F();
+        }
+```
+
+请把密码修改为自己的密码
+
+
+
+
  
