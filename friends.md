@@ -34,13 +34,17 @@ permalink: /friends/
 
    有很多单元测试博客
 
+ - [Miss_Bread的博客 - CSDN博客](http://blog.csdn.net/miss_bread )
+
+   我们组的女装程序员  
+
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
 
  - [编程新手的小站 http://17i648w554.iask.in/wordpress/](http://17i648w554.iask.in/wordpress/)
 
  - [极简天气UWP开发者博客 http://fionlen.azurewebsites.net/](http://fionlen.azurewebsites.net/)
 
- - [张高兴  http://www.cnblogs.com/zhanggaoxing/default.html](http://www.cnblogs.com/zhanggaoxing/default.html?page=1)
+ - [张高兴 http://www.cnblogs.com/zhanggaoxing/default.html](http://www.cnblogs.com/zhanggaoxing/default.html?page=1)
 
    UWP IOT 大神
 
