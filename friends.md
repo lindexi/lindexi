@@ -38,6 +38,10 @@ permalink: /friends/
 
    我们组的女装程序员  
 
+ - [The Terminal - 博客园](http://www.cnblogs.com/pengzhong )
+ 
+   驸马爷，一个做前端的wpf大神  
+
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
 
  - [编程新手的小站 http://17i648w554.iask.in/wordpress/](http://17i648w554.iask.in/wordpress/)
