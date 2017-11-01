@@ -30,6 +30,10 @@ permalink: /friends/
 
    WPF开发大神
 
+ - [Nero\`s Blog](http://erdao123.gitee.io/nero/ )  
+
+   有很多单元测试博客
+
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
 
  - [编程新手的小站 http://17i648w554.iask.in/wordpress/](http://17i648w554.iask.in/wordpress/)
