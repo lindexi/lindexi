@@ -48,8 +48,6 @@ stickie: False
         appKey:'App Key',
         notify:true,
         path: '{{ page.url }}',
-        guest_info:['nick'],
-        
     })
 </script>
 ```
@@ -58,3 +56,7 @@ stickie: False
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112610743.jpg)
 
+
+[Valine -- 一款极简的评论系统 ](https://ioliu.cn/2017/add-valine-comments-to-your-blog/ )
+
+  

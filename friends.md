@@ -68,7 +68,7 @@ permalink: /friends/
 
  - [Leonn https://liyuans.com](https://liyuans.com)
 
- - [songshizhao www.songshizhao.com](www.songshizhao.com)
+ - [songshizhao www.songshizhao.com](https://www.songshizhao.com)
 
  - [(/≧▽≦/)咦！又好了！ Dreamwings – 继续踏上旅途，在没有你的春天……](https://www.dreamwings.cn/ )
 
