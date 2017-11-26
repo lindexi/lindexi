@@ -20,7 +20,9 @@
 
     <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    <div id="comment"></div>
+    <div id="comment" style="
+    margin-top: 100px;
+"></div>
     <script>
     var valine = new Valine();
     valine.init({
@@ -29,5 +31,7 @@
         appKey:'BKyVe2VPNHY46SRNkXqJOpyE',
         notify:true,
         path: '{{ page.url }}',
+        guest_info:['nick'],
+        placeholder:'写下你的评论，这里不受监管'
     })
     </script>
