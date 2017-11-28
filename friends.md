@@ -46,6 +46,8 @@ permalink: /friends/
 
    头像大神，wpf大神
 
+ - [Nullptr](http://blog.nullptr.top/ )  
+
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
 
  - [编程新手的小站 http://17i648w554.iask.in/wordpress/](http://17i648w554.iask.in/wordpress/)
@@ -77,6 +79,8 @@ permalink: /friends/
  - [YOYOFx](http://dotnet.ren/ ) 
 
    Asp大神，研究.net core
+
+ - [迪莫的小站](http://www.dimojang.com/ )  
 
 ## 国内博客
 
