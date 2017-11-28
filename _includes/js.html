@@ -72,7 +72,7 @@
 		var cd = document.getElementsByClassName("flow");
 		for (var i = 0; i < cd.length; i++) 
 		{
-			var t = cd[i].getElementsByClassName("flowcode")[0];
+			var t = cd[i].getElementsByClassName("flowcode")[0].value;
 			var canvas = "canvas" + i;
 			cd[i].innerHTML = "<div id=\"" + canvas + "\"></div>"
 			flow(canvas, t);
