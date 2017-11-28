@@ -27,8 +27,8 @@
                     var chart = flowchart.parse(f);
                     chart.drawSVG(name, 
                     {
-                      // 'x': 30,
-                      // 'y': 50,
+                       'x': 30,
+                       'y': 50,
                       'line-width': 3,
                       'maxWidth': 3,//ensures the flowcharts fits within a certian width
                       'line-length': 50,
@@ -72,7 +72,7 @@
 		var cd = document.getElementsByClassName("flow");
 		for (var i = 0; i < cd.length; i++) 
 		{
-			var t = cd[i].innerText;
+			var t = cd[i].getElementsByClassName("flowcode")[0];
 			var canvas = "canvas" + i;
 			cd[i].innerHTML = "<div id=\"" + canvas + "\"></div>"
 			flow(canvas, t);
