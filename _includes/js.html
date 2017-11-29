@@ -9,7 +9,7 @@
 <script src="{{ site.baseurl }}/static/js/toc.js"></script>
 <script>
   // 判断非本机且未使用 https 时，强制重定向到 https。
-  if ((!window.location.host.startsWith("localhost")) && (window.location.protocol != "https:"))
+  if (((!window.location.host.startsWith("localhost")) && (!window.location.host.startsWith("127.0.0.1"))) && (window.location.protocol != "https:"))
     window.location = window.location.toString().replace(/^http:/, "https:");
 </script>
 
