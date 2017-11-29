@@ -1,5 +1,5 @@
-<div class="disqus-comments">
-    <!-- Disqus Comment -->
+<!-- <div class="disqus-comments">
+   
     <div id="disqus_thread"></div>
     <script>
     var disqus_config = function () {
@@ -14,5 +14,24 @@
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <!-- End Disqus Comment -->
-</div>
+    
+</div> -->
+
+
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <div id="comment" style="
+    margin-top: 100px;
+"></div>
+    <script>
+    var valine = new Valine();
+    valine.init({
+        el:'#comment',
+        appId:'BuRiBtuvByVafaziP4gqmd9D-gzGzoHsz',
+        appKey:'BKyVe2VPNHY46SRNkXqJOpyE',
+        notify:true,
+        path: '{{ page.url }}',
+        placeholder:'写下你的评论，这里不受监管',
+        verify: false,
+    })
+    </script>

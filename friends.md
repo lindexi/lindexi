@@ -40,7 +40,13 @@ permalink: /friends/
 
  - [The Terminal - 博客园](http://www.cnblogs.com/pengzhong )
  
-   驸马爷，一个做前端的wpf大神  
+   驸马爷，一个做前端的wpf大神
+
+ - [黄腾霄 ](https://huangtengxiao.gitee.io/ )    
+
+   头像大神，wpf大神
+
+ - [Nullptr](http://blog.nullptr.top/ )  
 
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
 
@@ -64,7 +70,7 @@ permalink: /friends/
 
  - [Leonn https://liyuans.com](https://liyuans.com)
 
- - [songshizhao www.songshizhao.com](www.songshizhao.com)
+ - [songshizhao www.songshizhao.com](https://www.songshizhao.com)
 
  - [(/≧▽≦/)咦！又好了！ Dreamwings – 继续踏上旅途，在没有你的春天……](https://www.dreamwings.cn/ )
 
@@ -73,6 +79,8 @@ permalink: /friends/
  - [YOYOFx](http://dotnet.ren/ ) 
 
    Asp大神，研究.net core
+
+ - [迪莫的小站](http://www.dimojang.com/ )  
 
 ## 国内博客
 
