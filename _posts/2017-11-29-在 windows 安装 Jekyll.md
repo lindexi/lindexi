@@ -10,8 +10,6 @@ stickie: False
 <!--more-->
 <div id="toc"></div>
 
-<!-- csdn -->
-
 ## 下载 ps1 文件
 
 首先需要安装 Chocolatey ，这个工具可以快速安装 Jekyll
