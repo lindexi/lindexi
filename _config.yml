@@ -29,7 +29,11 @@ paginate: 30
 per_page: 30
 paginate_path: "/blog/page:num/"
 markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+kramdown:
+   input: GFM
+   hard_wrap: false
+   math_engine: mathjax
+gems: [jekyll-paginate, jekyll-gist, jekyll-coffeescript]
 
 # Content Collection
 collections:
