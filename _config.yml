@@ -33,7 +33,7 @@ kramdown:
    input: GFM
    hard_wrap: false
    math_engine: mathjax
-gems: [jekyll-paginate, jekyll-gist, jekyll-coffeescript]
+gems: [jekyll-paginate, jekyll-gist]
 
 # Content Collection
 collections:
