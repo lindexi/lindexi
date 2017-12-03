@@ -186,3 +186,11 @@ function doDecode() {
 		document.getElementById('dest').value = utf8to16(base64decode(src));
 	}
 }
+
+       $(document).ready(function() 
+       {
+             var src = document.getElementById('src').innerText;
+             document.getElementById('src').innerHTML = utf8to16(base64decode(src));
+                  });
+
+
