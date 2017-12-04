@@ -192,11 +192,9 @@ function doDecode() {
              var src = document.getElementsByClassName('src');
              for (var i = 0; i < src.length; i++) 
              {
-                 src[i].innerHTML = utf8to16(base64decode(src[i]));
+                 src[i].innerHTML = utf8to16(base64decode(src[i].innerText));
                  src[i].style.display = "inline";
              }
-             var src = document.getElementById('src').innerText;
-             document.getElementById('src').innerHTML = utf8to16(base64decode(src));
          });
 
 
