@@ -2,7 +2,6 @@
 layout: post
 title:  如何在 UWP 使用 wpf 的 Trigger  
 category: uwp 
-stickie: False
 ---
 
 本文需要告诉大家，如何使用 Behaviors 做出 WPF 的 Trigger ，需要知道 UWP 不支持 WPF 的 Trigger 。

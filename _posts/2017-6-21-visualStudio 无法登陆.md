@@ -2,7 +2,6 @@
 layout: post
 title:  visualStudio 无法登陆 
 category: 技术 
-stickie: False
 ---
 
 如果遇到 visualStudio 无法登陆，可以看下我的方法，可能有用。

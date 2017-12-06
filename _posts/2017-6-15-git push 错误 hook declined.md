@@ -2,7 +2,6 @@
 layout: post
 title:  git push 错误 hook declined  
 category: 技术 
-stickie: False
 ---
 
 我把仓库上传到 gogs 出现错误，提示如下 `remote: hooks/update: line 2: E:/gogs/gogs.exe: No such file or directory`

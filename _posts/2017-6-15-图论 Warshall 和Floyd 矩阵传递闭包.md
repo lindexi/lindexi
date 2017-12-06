@@ -2,7 +2,6 @@
 layout: post
 title: 图论 Warshall 和Floyd 矩阵传递闭包 
 category: 技术 
-stickie: False
 ---
 首先我们先说下图论，一般图存储可以使用邻接矩阵，或邻接表，一般使用邻接矩阵在稠密图比较省空间。
 

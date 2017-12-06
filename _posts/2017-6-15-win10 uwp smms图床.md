@@ -2,7 +2,6 @@
 layout: post
 title:  win10 uwp smms图床 
 category: uwp 
-stickie: False
 ---
 
 本文，如何使用smms图床上传图片，用到win10 uwp post文件，因为我是渣渣，如果本文有错的，请和我说，在本文评论，或发给我邮箱，请不要发不良言论

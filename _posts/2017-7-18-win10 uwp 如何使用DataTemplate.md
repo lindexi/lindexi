@@ -2,7 +2,6 @@
 layout: post
 title:  win10 uwp 如何使用DataTemplate 
 category: uwp 
-stickie: False
 ---
 
 这是数据模板，一般用在数组的绑定，显示数组中的元素。

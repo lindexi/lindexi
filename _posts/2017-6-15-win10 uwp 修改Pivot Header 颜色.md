@@ -2,7 +2,6 @@
 layout: post
 title:  win10 uwp 修改Pivot Header 颜色 
 category: uwp 
-stickie: False
 ---
 
 

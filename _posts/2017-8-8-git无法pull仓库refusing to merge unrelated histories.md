@@ -2,7 +2,6 @@
 layout: post
 title:  git无法pull仓库refusing to merge unrelated histories 
 category: 技术 
-stickie: False
 ---
 
 本文讲的是把git在最新2.9.2，合并pull两个不同的项目，出现的问题

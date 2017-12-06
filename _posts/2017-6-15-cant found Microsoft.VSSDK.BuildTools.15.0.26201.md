@@ -2,7 +2,6 @@
 layout: post
 title:  cant found Microsoft.VSSDK.BuildTools.15.0.26201 
 category: 技术 
-stickie: False
 ---
 
 如果在vs扩展开发中出现

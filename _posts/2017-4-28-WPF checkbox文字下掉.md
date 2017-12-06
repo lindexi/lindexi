@@ -2,7 +2,6 @@
 layout: post
 title:  WPF checkbox文字下掉 
 category: wpf 
-stickie: False
 ---
 
 <!--more-->

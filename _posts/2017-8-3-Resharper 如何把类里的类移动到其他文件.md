@@ -2,7 +2,6 @@
 layout: post
 title:  Resharper 如何把类里的类移动到其他文件 
 category: 技术 
-stickie: False
 ---
 
 有时候，看到一个类里有很多类，需要把他移动其他文件

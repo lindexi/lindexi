@@ -2,7 +2,6 @@
 layout: post
 title:  win10 uwp 右击选择 GridViewItem  
 category: uwp 
-stickie: False
 ---
 
 有时候我们需要选择一个 GridView 的一项，通过我们右击。

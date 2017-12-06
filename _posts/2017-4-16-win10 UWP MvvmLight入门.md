@@ -2,7 +2,6 @@
 layout: post
 title:  win10 UWP MvvmLight入门 
 category: uwp 
-stickie: False
 ---
 <!--more-->
 

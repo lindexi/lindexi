@@ -2,7 +2,6 @@
 layout: post
 title:  WPF 如何调试 binding 
 category: wpf 
-stickie: False
 ---
 
 如果是写在 xaml 的绑定，很难看到是那里出错

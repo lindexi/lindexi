@@ -2,7 +2,6 @@
 layout: post
 title:  win10 uwp 无法附加到CoreCLR 
 category: uwp 
-stickie: False
 ---
 
 

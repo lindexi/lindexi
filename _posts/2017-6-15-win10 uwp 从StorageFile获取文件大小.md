@@ -2,7 +2,6 @@
 layout: post
 title:  win10 uwp 从StorageFile获取文件大小 
 category: uwp 
-stickie: False
 ---
 
 本文主要：获取文件大小

@@ -2,7 +2,6 @@
 layout: post
 title:  win10 uwp unix timestamp 时间戳 转 DateTime 
 category: uwp 
-stickie: False
 ---
 
 有时候需要把网络的  unix timestamp 转为 C# 的 DateTime ，在 UWP 可以如何转换？

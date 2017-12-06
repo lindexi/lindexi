@@ -2,7 +2,6 @@
 layout: post
 title:  win10 UWP ListView 模仿开始菜单 
 category: uwp 
-stickie: False
 ---
 
 

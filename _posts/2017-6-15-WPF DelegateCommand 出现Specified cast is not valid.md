@@ -2,7 +2,6 @@
 layout: post
 title:  WPF DelegateCommand 出现Specified cast is not valid 
 category: wpf 
-stickie: False
 ---
 
 使用 DelegateCommand 出现 Specified cast is not valid

@@ -2,7 +2,6 @@
 layout: post
 title:  Visual Studio 自定义项目模板 
 category: 技术 
-stickie: False
 ---
 
 经常需要新建一个项目，项目有很多重复的东西，如然后新建View文件夹，ViewModel文件夹，Model文件夹，还有把我们的ViewModelBase放入ViewModel，如果还用框架，还需要加上好多。

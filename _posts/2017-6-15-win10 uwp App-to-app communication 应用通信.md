@@ -2,7 +2,6 @@
 layout: post
 title:  win10 uwp App-to-app communication 应用通信 
 category: uwp 
-stickie: False
 ---
 
 这篇文章都是乱说的，如果觉得有不好的，可以发我邮箱

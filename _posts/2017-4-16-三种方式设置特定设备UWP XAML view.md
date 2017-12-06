@@ -2,7 +2,6 @@
 layout: post
 title:  三种方式设置特定设备UWP XAML view 
 category: uwp 
-stickie: False
 ---
 
 开发者可以设置UWP特定设备xaml view，在桌面，手机，Iot，这个对于设置对不同设备的不同屏幕有用。我们可以使用RelativePanel，VisualStateTriggers，但是这样我们的xaml很大，我们在弄的时候觉得想修改一个东西会让我们把全部删了。

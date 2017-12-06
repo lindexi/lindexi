@@ -2,7 +2,6 @@
 layout: post
 title:  VisualStudio 合并代码文件 
 category: 技术 
-stickie: False
 ---
 
 如果有相同的类，一般可以使用 partial 让他写在多个文件，那么如何把多个文件合并？请看 MainWindow.xaml 和 MainWindow.xaml.cs 其中 代码文件被折叠，那么如何做代码的折叠

@@ -2,7 +2,6 @@
 layout: post
 title:  win10 UWP Controls by function 
 category: uwp 
-stickie: False
 ---
 
 Windows的XAML UI框架提供了很多控件，支持用户界面开发库。其中一些有可视化，一些布局。

@@ -2,7 +2,6 @@
 layout: post
 title:  Xamarin Forms 进度条控件 
 category: 技术 
-stickie: False
 ---
 
 本文翻译：http://xamlnative.com/2016/04/14/xamarin-forms-a-simple-circular-progress-control/ 里面都是胡说的，如果看不懂可以联系邮箱
