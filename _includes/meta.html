@@ -3,7 +3,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="shortcut icon" href="{{ site.baseurl }}/static/img/avatar.png" />
+        <link rel="shortcut icon" href="{{ site.baseurl }}/img/avatar.png" />
         <title>{{ page.title }} - {{ site.title }}</title>
         <meta name="author" content="{{ site.author }}" />
         <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
@@ -34,9 +34,9 @@
           <meta content="{{ site.baseurl }}/about/" property="article:author">
         {% endif %}
         {% if page.image %}
-          <meta content="{{ site.baseurl }}/static/img/posts/{{ page.image }}" property="og:image">
+          <meta content="{{ site.baseurl }}/img/posts/{{ page.image }}" property="og:image">
         {% else %}
-          <meta content="{{ site.baseurl }}/static/img/logo-high-resolution.png" property="og:image">
+          <meta content="{{ site.baseurl }}/img/logo-high-resolution.png" property="og:image">
         {% endif %}
         {% if page.categories %}
           {% for category in page.categories limit:1 %}

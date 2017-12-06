@@ -2,7 +2,7 @@ title: 林德熙
 description: Windows 10 Developer
 author: lindexi
 post_author: 林德熙
-logo: /lindexi/static/img/avatar.png
+logo: /lindexi/img/avatar.png
 github: https://github.com/lindexi
 about: Windows 10 Developer
 mail: "lindexi_gd@outlook.com"
@@ -33,7 +33,7 @@ kramdown:
    input: GFM
    hard_wrap: false
    math_engine: mathjax
-gems: [jekyll-paginate, jekyll-gist, jekyll-coffeescript]
+gems: [jekyll-paginate, jekyll-gist]
 
 # Content Collection
 collections:
