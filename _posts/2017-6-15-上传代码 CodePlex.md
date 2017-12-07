@@ -2,6 +2,7 @@
 layout: post
 title:  上传代码 CodePlex 
 category: 技术 
+stickie: False
 ---
 
 CodePlex是微软开源项目网站，有很多人都在上面传代码，我们也可以上传自己的代码

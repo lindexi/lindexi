@@ -2,6 +2,7 @@
 layout: post
 title:  win10 uwp 如何拖动一个TextBlock的文字到另一个TextBlock  
 category: uwp 
+stickie: False
 ---
 
 

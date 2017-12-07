@@ -2,6 +2,7 @@
 layout: post
 title:  win10 UWP Hmac 
 category: uwp 
+stickie: False
 ---
 
 HMAC是密钥相关的哈希运算消息认证码，输入密钥和信息。
