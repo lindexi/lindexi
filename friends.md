@@ -80,6 +80,10 @@ permalink: /friends/
 
    Asp大神，研究.net core
 
+ - [XNA(MonoGame)游戏开发 – 用C#开发跨平台游戏](https://www.xnadevelop.com/ )
+
+   大王，不解释他是谁
+
  - [迪莫的小站](http://www.dimojang.com/ )  
 
 ## 国内博客
