@@ -193,4 +193,15 @@ Bitmap 的数据类型可以是任意，因为只是把他的数据转换到 Wri
                 }
 ```
 
+实际上微软已经提供了不安全代码的转换，请看下面代码
+
+```csharp
+bitmapImage.WritePixels(new Int32Rect(0, 0, 宽度, 高度), 图片数据, stride, 0)
+```
+
+stride 一般就是 `4*宽度` 因为一个像素使用4个byte
+
+
+
+
  
