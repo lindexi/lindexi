@@ -56,4 +56,6 @@ public static TSource FirstOrDefault<TSource>(this IEnumerable<TSource> source, 
 
 参见：https://stackoverflow.com/a/365658/6116637
 
+[真的要比较 for 和 foreach 的性能吗？（内附性能比较的实测数据） - walterlv](https://walterlv.github.io/post/for-vs-foreach.html )
+
   
