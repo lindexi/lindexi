@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp url encode 
+title: win10 uwp url encode 
 category: uwp 
 stickie: False
 ---

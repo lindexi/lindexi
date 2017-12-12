@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 从Type使用构造 
+title: win10 uwp 从Type使用构造 
 category: uwp 
 stickie: False
 ---

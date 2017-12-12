@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 UWP 剪贴板 Clipboard 
+title: win10 UWP 剪贴板 Clipboard 
 category: uwp 
 stickie: False
 ---

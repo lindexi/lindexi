@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git subtree pull 错误 Working tree has modifications 
+title: git subtree pull 错误 Working tree has modifications 
 category: 技术 
 stickie: False
 ---

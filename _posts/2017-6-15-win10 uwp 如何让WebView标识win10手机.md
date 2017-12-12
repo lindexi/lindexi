@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 如何让WebView标识win10手机 
+title: win10 uwp 如何让WebView标识win10手机 
 category: uwp 
 stickie: False
 ---

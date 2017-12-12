@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  sublime Text 正则替换 
+title: sublime Text 正则替换 
 category: 技术 
 stickie: False
 ---

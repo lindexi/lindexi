@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  resharper 跳转到源代码 
+title: resharper 跳转到源代码 
 category: 技术 
 stickie: False
 ---

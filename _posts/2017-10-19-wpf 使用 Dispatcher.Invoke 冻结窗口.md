@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  wpf 使用 Dispatcher.Invoke 冻结窗口 
-category: wpf 
+title: wpf 使用 Dispatcher.Invoke 冻结窗口 
+category: 技术 
 stickie: False
 ---
 

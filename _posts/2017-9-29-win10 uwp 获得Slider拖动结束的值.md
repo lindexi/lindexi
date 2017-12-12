@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 获得Slider拖动结束的值 
+title: win10 uwp 获得Slider拖动结束的值 
 category: uwp 
 stickie: False
 ---

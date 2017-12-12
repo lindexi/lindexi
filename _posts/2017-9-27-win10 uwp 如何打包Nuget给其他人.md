@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 如何打包Nuget给其他人 
+title: win10 uwp 如何打包Nuget给其他人 
 category: uwp 
 stickie: False
 ---

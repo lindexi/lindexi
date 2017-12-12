@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp DataContext  
+title: win10 uwp DataContext  
 category: uwp 
 stickie: False
 ---

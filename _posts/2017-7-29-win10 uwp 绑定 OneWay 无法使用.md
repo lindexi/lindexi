@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 绑定 OneWay 无法使用 
+title: win10 uwp 绑定 OneWay 无法使用 
 category: uwp 
 stickie: False
 ---

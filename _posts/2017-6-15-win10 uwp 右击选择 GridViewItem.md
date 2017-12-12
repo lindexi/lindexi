@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 右击选择 GridViewItem  
+title: win10 uwp 右击选择 GridViewItem  
 category: uwp 
 stickie: False
 ---

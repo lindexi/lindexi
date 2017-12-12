@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp MVVM 轻量框架 
+title: win10 uwp MVVM 轻量框架 
 category: uwp 
 stickie: False
 ---

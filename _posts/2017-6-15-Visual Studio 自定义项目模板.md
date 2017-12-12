@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Visual Studio 自定义项目模板 
+title: Visual Studio 自定义项目模板 
 category: 技术 
 stickie: False
 ---

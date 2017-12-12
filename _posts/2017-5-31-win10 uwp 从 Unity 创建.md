@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 从 Unity 创建 
+title: win10 uwp 从 Unity 创建 
 category: uwp 
 stickie: False
 ---

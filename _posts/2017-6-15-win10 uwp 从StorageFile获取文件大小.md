@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 从StorageFile获取文件大小 
+title: win10 uwp 从StorageFile获取文件大小 
 category: uwp 
 stickie: False
 ---

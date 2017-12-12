@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VisualStudio 合并代码文件 
+title: VisualStudio 合并代码文件 
 category: 技术 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 使用动画修改 Grid column 的宽度 
+title: win10 uwp 使用动画修改 Grid column 的宽度 
 category: uwp 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  visual Studio 无法调试，提示程序跟踪已退出 
+title: visual Studio 无法调试，提示程序跟踪已退出 
 category: 技术 
 stickie: False
 ---

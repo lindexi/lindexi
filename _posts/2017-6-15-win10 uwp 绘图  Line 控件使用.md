@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 绘图  Line 控件使用 
+title: win10 uwp 绘图  Line 控件使用 
 category: uwp 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 进度条 Marquez  
+title: win10 uwp 进度条 Marquez  
 category: uwp 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 UWP Controls by function 
+title: win10 UWP Controls by function 
 category: uwp 
 stickie: False
 ---

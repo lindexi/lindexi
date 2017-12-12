@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp ping 
+title: win10 uwp ping 
 category: uwp 
 stickie: False
 ---

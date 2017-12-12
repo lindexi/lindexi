@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Visual studio C# 代码使用 NotNull 
+title: Visual studio C# 代码使用 NotNull 
 category: 技术 
 stickie: False
 ---

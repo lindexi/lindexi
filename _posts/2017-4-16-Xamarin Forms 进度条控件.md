@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Xamarin Forms 进度条控件 
+title: Xamarin Forms 进度条控件 
 category: 技术 
 stickie: False
 ---

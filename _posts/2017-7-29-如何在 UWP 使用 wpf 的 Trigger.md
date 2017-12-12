@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  如何在 UWP 使用 wpf 的 Trigger  
+title: 如何在 UWP 使用 wpf 的 Trigger  
 category: uwp 
 stickie: False
 ---

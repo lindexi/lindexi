@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF checkbox文字下掉 
-category: wpf 
+title: WPF checkbox文字下掉 
+category: 技术 
 stickie: False
 ---
 

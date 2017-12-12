@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF 解决 ViewBox  不显示线的问题 
-category: wpf 
+title: WPF 解决 ViewBox  不显示线的问题 
+category: 技术 
 stickie: False
 ---
 

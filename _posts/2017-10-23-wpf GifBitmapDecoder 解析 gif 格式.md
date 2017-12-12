@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  wpf GifBitmapDecoder 解析 gif 格式 
-category: wpf 
+title: wpf GifBitmapDecoder 解析 gif 格式 
+category: 技术 
 stickie: False
 ---
 

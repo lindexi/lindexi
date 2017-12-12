@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  解决 VS 跳转定义和 Resharper 重复 
+title: 解决 VS 跳转定义和 Resharper 重复 
 category: 技术 
 stickie: False
 ---

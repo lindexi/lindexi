@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 UWP Markdown 含源代码 
+title: win10 UWP Markdown 含源代码 
 category: uwp 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 UWP ListView  
+title: win10 UWP ListView  
 category: uwp 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git cannot lock ref 
+title: git cannot lock ref 
 category: 技术 
 stickie: False
 ---

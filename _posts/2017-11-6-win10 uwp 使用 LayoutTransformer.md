@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 使用 LayoutTransformer 
+title: win10 uwp 使用 LayoutTransformer 
 category: uwp 
 stickie: False
 ---

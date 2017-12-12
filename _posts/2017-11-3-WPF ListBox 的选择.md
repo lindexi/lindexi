@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF ListBox 的选择 
-category: wpf 
+title: WPF ListBox 的选择 
+category: 技术 
 stickie: False
 ---
 

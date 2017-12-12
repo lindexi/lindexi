@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  wpf DoEvents  
-category: wpf 
+title: wpf DoEvents  
+category: 技术 
 stickie: False
 ---
 

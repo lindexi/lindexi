@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git push 错误 hook declined  
+title: git push 错误 hook declined  
 category: 技术 
 stickie: False
 ---

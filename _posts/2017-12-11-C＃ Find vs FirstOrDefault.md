@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C＃ Find vs FirstOrDefault 
+title: C＃ Find vs FirstOrDefault 
 category: 技术 
 stickie: False
 ---

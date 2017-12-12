@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Resharper 如何把类里的类移动到其他文件 
+title: Resharper 如何把类里的类移动到其他文件 
 category: 技术 
 stickie: False
 ---

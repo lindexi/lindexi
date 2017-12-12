@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF 拖动时出现 Invalid FORMATETC structure 
-category: wpf 
+title: WPF 拖动时出现 Invalid FORMATETC structure 
+category: 技术 
 stickie: False
 ---
 

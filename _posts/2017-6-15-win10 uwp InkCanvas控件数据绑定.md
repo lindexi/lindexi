@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp InkCanvas控件数据绑定 
+title: win10 uwp InkCanvas控件数据绑定 
 category: uwp 
 stickie: False
 ---

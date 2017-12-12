@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  jekyll 添加 Valine 评论 
+title: jekyll 添加 Valine 评论 
 category: 技术 
 stickie: False
 ---

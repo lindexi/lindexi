@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp smms图床 
+title: win10 uwp smms图床 
 category: uwp 
 stickie: False
 ---

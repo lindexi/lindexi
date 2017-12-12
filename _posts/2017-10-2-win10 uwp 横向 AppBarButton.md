@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 横向 AppBarButton 
+title: win10 uwp 横向 AppBarButton 
 category: uwp 
 stickie: False
 ---

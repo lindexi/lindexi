@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 UWP Hmac 
+title: win10 UWP Hmac 
 category: uwp 
 stickie: False
 ---

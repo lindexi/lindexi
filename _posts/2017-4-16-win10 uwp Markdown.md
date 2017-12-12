@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp Markdown 
+title: win10 uwp Markdown 
 category: uwp 
 stickie: False
 ---

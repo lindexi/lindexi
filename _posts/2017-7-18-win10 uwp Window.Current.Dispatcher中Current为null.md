@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp Window.Current.Dispatcher中Current为null 
+title: win10 uwp Window.Current.Dispatcher中Current为null 
 category: uwp 
 stickie: False
 ---

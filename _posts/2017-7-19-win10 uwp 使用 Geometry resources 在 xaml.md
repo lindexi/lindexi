@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 使用 Geometry resources 在 xaml 
+title: win10 uwp 使用 Geometry resources 在 xaml 
 category: uwp 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 非ui线程访问 ui  
+title: win10 uwp 非ui线程访问 ui  
 category: uwp 
 stickie: False
 ---

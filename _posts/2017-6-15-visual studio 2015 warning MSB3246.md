@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  visual studio 2015 warning MSB3246 
+title: visual studio 2015 warning MSB3246 
 category: 技术 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  三种方式设置特定设备UWP XAML view 
+title: 三种方式设置特定设备UWP XAML view 
 category: uwp 
 stickie: False
 ---

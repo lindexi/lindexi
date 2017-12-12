@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  wpf 绑定 DataGridTextColumn  
-category: wpf 
+title: wpf 绑定 DataGridTextColumn  
+category: 技术 
 stickie: False
 ---
 

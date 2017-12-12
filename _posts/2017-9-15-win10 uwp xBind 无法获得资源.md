@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp x:Bind 无法获得资源 
+title: win10 uwp x:Bind 无法获得资源 
 category: uwp 
 stickie: False
 ---

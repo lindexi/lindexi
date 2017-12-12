@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  wpf 如何使用 Magick.NET 播放 gif 图片 
-category: wpf 
+title: wpf 如何使用 Magick.NET 播放 gif 图片 
+category: 技术 
 stickie: False
 ---
 

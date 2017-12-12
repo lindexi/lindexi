@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  resharper 自定义代码片 
+title: resharper 自定义代码片 
 category: 技术 
 stickie: False
 ---

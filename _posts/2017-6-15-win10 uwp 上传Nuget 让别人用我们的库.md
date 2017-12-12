@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 上传Nuget 让别人用我们的库 
+title: win10 uwp 上传Nuget 让别人用我们的库 
 category: uwp 
 stickie: False
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF 弹出 popup 里面的 TextBox 无法输入汉字 
-category: wpf 
+title: WPF 弹出 popup 里面的 TextBox 无法输入汉字 
+category: 技术 
 stickie: False
 ---
 

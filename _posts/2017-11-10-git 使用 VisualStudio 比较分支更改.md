@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git 使用 VisualStudio 比较分支更改 
+title: git 使用 VisualStudio 比较分支更改 
 category: 技术 
 stickie: False
 ---

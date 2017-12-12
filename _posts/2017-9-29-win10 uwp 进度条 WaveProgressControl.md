@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 进度条 WaveProgressControl 
+title: win10 uwp 进度条 WaveProgressControl 
 category: uwp 
 stickie: False
 ---

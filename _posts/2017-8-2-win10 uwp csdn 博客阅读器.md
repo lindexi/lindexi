@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp csdn 博客阅读器 
+title: win10 uwp csdn 博客阅读器 
 category: uwp 
 stickie: False
 ---

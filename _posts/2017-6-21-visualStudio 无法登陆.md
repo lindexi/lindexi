@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  visualStudio 无法登陆 
+title: visualStudio 无法登陆 
 category: 技术 
 stickie: False
 ---

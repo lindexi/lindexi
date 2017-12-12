@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Win10 UWP Intro to controls and events 
+title: Win10 UWP Intro to controls and events 
 category: uwp 
 stickie: False
 ---

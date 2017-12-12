@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF 使用不安全代码快速从数组转 WriteableBitmap 
-category: wpf 
+title: WPF 使用不安全代码快速从数组转 WriteableBitmap 
+category: 技术 
 stickie: False
 ---
 

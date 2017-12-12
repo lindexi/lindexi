@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 让焦点在点击在页面空白处时回到textbox中 
+title: win10 uwp 让焦点在点击在页面空白处时回到textbox中 
 category: uwp 
 stickie: False
 ---

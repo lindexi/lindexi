@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  在 windows 安装 Jekyll 
+title: 在 windows 安装 Jekyll 
 category: 技术 
 stickie: False
 ---

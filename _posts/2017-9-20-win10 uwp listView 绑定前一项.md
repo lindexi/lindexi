@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp listView 绑定前一项 
+title: win10 uwp listView 绑定前一项 
 category: uwp 
 stickie: False
 ---

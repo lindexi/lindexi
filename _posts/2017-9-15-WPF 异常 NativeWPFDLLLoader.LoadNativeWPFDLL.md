@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF 异常 NativeWPFDLLLoader.LoadNativeWPFDLL 
-category: wpf 
+title: WPF 异常 NativeWPFDLLLoader.LoadNativeWPFDLL 
+category: 技术 
 stickie: False
 ---
 

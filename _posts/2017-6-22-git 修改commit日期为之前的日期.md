@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git 修改commit日期为之前的日期 
+title: git 修改commit日期为之前的日期 
 category: 技术 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp ApplicationView 
+title: win10 uwp ApplicationView 
 category: uwp 
 stickie: False
 ---

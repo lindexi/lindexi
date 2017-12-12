@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  使用 ahk 让普通键盘变为Dvorak键盘 
+title: 使用 ahk 让普通键盘变为Dvorak键盘 
 category: 技术 
 stickie: False
 ---

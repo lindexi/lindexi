@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VisualStudio 扩展开发 
+title: VisualStudio 扩展开发 
 category: 技术 
 stickie: False
 ---

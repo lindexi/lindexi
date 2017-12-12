@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  上传代码 CodePlex 
+title: 上传代码 CodePlex 
 category: 技术 
 stickie: False
 ---

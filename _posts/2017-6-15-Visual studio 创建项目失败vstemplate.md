@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Visual studio 创建项目失败vstemplate 
+title: Visual studio 创建项目失败vstemplate 
 category: 技术 
 stickie: False
 ---

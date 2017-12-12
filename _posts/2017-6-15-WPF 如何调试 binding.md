@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF 如何调试 binding 
-category: wpf 
+title: WPF 如何调试 binding 
+category: 技术 
 stickie: False
 ---
 

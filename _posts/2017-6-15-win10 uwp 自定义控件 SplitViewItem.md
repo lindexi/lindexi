@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 自定义控件 SplitViewItem 
+title: win10 uwp 自定义控件 SplitViewItem 
 category: uwp 
 stickie: False
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 UWP 用Path画图 
+title: win10 UWP 用Path画图 
 category: uwp 
 stickie: False
 ---

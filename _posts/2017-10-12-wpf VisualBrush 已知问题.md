@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  wpf VisualBrush 已知问题 
-category: wpf 
+title: wpf VisualBrush 已知问题 
+category: 技术 
 stickie: False
 ---
 

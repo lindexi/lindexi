@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git无法pull仓库refusing to merge unrelated histories 
+title: git无法pull仓库refusing to merge unrelated histories 
 category: 技术 
 stickie: False
 ---

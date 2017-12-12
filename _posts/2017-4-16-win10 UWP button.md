@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 UWP button 
+title: win10 UWP button 
 category: uwp 
 stickie: False
 ---

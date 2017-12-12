@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp 如何使用DataTemplate 
+title: win10 uwp 如何使用DataTemplate 
 category: uwp 
 stickie: False
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  wpf PreviewTextInput 在鼠标输入获得 \u0003 
-category: wpf 
+title: wpf PreviewTextInput 在鼠标输入获得 \u0003 
+category: 技术 
 stickie: False
 ---
 

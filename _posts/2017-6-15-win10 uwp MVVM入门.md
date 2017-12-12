@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  win10 uwp MVVM入门 
+title: win10 uwp MVVM入门 
 category: uwp 
 stickie: False
 ---

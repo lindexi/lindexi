@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C# AddRange 添加位置 
+title: C# AddRange 添加位置 
 category: 技术 
 stickie: False
 ---

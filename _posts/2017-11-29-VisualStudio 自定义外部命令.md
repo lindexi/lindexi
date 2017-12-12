@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  VisualStudio 自定义外部命令 
+title: VisualStudio 自定义外部命令 
 category: 技术 
 stickie: False
 ---

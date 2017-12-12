@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  WPF DrawingVisual 
-category: wpf 
+title: WPF DrawingVisual 
+category: 技术 
 stickie: False
 ---
 

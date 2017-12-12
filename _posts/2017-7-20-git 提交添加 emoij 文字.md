@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  git 提交添加 emoij 文字 
+title: git 提交添加 emoij 文字 
 category: 技术 
 stickie: False
 ---

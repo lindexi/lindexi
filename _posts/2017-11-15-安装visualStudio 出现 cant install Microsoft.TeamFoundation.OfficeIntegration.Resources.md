@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  安装visualStudio 出现 cant install Microsoft.TeamFoundation.OfficeIntegration.Resources 
+title: 安装visualStudio 出现 cant install Microsoft.TeamFoundation.OfficeIntegration.Resources 
 category: 技术 
 stickie: False
 ---

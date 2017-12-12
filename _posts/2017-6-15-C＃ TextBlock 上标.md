@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C＃ TextBlock 上标 
+title: C＃ TextBlock 上标 
 category: 技术 
 stickie: False
 ---
