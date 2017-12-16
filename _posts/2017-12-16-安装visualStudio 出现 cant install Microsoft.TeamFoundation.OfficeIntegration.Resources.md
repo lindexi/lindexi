@@ -8,7 +8,6 @@ stickie: False
 本文告诉大家在安装 VisualStudio 时出现`cant install Microsoft.TeamFoundation.OfficeIntegration.Resources`如何安装
 
 <!-- csdn -->
-<!--more-->
 
 <div id="toc"></div>
 
@@ -32,4 +31,5 @@ Setup.ForcedUninstall.exe
 然后程序就会开始，需要按`y`，接着他就会卸载，完成就可以安装新的vs
 
 如果以前安装的是 VisualStudio 2017 ，可以使用`C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe` 卸载，需要使用管理员的命令行打开
+
 
