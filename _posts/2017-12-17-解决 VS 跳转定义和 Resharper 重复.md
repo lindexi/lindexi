@@ -24,3 +24,4 @@ Resharper 的设置在 Environment->Editor->search & Navigation 里的 Rich mous
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017117185240.jpg)
 
   
+ 
