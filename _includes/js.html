@@ -1,5 +1,9 @@
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/js/thickbox-compressed.js"></script>
@@ -82,4 +86,20 @@
 	}
 
 
+</script>
+
+<script src="{{ site.baseurl }}/js/eyh/waifu-tips.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/live2d.min.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/Live2DFramework.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/MatrixStack.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/ModelSettingJson.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/LAppDefine.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/LAppLive2DManager.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/LAppModel.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/main.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/PlatformManager.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/waifu-tips.js"></script>
+<script src="{{ site.baseurl }}/js/eyh/webglcontext.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "{{ site.baseurl }}/js/eyh/Pio/model.json");
 </script>
