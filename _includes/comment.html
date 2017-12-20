@@ -18,6 +18,26 @@
 </div> -->
 
 
+
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment(
+  {
+    id: '{{page.url}}', // 可选。默认为 location.href
+    owner: 'lindexi',
+    repo: 'lindexi',
+    oauth: 
+    {
+      client_id: '507fbf76bc9ed48ab9d6',
+      client_secret: 'd02744d5de2daa8657ebfbb6d693276a37301efc',
+    },
+})
+gitment.render('container')
+</script>
+
+
     <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <div id="comment" style="
