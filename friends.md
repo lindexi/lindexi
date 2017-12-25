@@ -213,3 +213,5 @@ permalink: /friends/
  - [Igor Kulman](https://blog.kulman.sk/ )
  - http://juniperphoton.net/
  - [justinxinliu](https://stackoverflow.com/users/231837/justin-xl) 堆栈网25k大神
+ - [Ben Cull's Blog](http://benjii.me/ ) asp 大神
+ 
