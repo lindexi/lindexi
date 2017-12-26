@@ -90,6 +90,8 @@ permalink: /friends/
 
  - [小文's blog - 小文的个人博客](https://www.qcgzxw.cn/ )
 
+ - [.NET Core Microservices](http://blog.microservice4.net/ )
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
