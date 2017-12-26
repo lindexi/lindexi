@@ -76,7 +76,7 @@ permalink: /friends/
 
    千千，一个可爱的蓝孩子
 
- - [YOYOFx](http://dotnet.ren/ ) 
+ - [YOYOFx](http://blog.microservice4.net/  ) 
 
    Asp大神，研究.net core
 
@@ -89,8 +89,6 @@ permalink: /friends/
  - [五斤](https://www.chairyfish.com/ )
 
  - [小文's blog - 小文的个人博客](https://www.qcgzxw.cn/ )
-
- - [.NET Core Microservices](http://blog.microservice4.net/ )
 
 ## 国内博客
 
