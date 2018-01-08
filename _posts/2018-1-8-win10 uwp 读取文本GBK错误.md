@@ -38,15 +38,23 @@ stickie: False
 
  
 
-其实不知道垃圾wr怎么想，现在没法读ASCII，官方给的，直接错
+其实不知道垃圾wr怎么想，现在没法读ASCII，把文本用文本编辑器打开，另存为的时候保存为 ASCII 格式，使用官方给的代码，直接错。
 
-用了nos大神的代码http://blog.csdn.net/nomasp/article/details/50310357，也是报错
+用了nos大神的代码[http://blog.csdn.net/nomasp/article/details/50310357](http://blog.csdn.net/nomasp/article/details/50310357 )，也是报错
 
-用了我csdn博客置顶代码，就直接乱码 所有中文代为 "?" 
+用了我csdn博客置顶代码，就直接乱码 所有中文为 "?" ，但是我以前就是这样写，可以读取到？原因是因为文本保存为
 
-查了一下WPF使用默认可以读，也就是我们保存时GBK，查询到Encoding没有GBK，没有默认的，所以看起来这个问题不是简单就可以通过。
+查了一下WPF使用默认可以读，原因是默认的 WPF 的编码读取是 GBK 所以这时就可以读取，但是在 UWP 是没有 GBK 的，默认也不是。因为 UWP 是 .net core 程序，.net core 没有默认支持 GBK ，因为 .net core 是最小化的，
 
-于是我就在网上找，很久没找到，但是找到http://www.cnblogs.com/yffswyf/p/4826207.html，写到一半我就不想写，好难
+从[微软](https://docs.microsoft.com/en-us/dotnet/standard/base-types/character-encoding )的文档可以看到下面的说明
+
+> By default, .NET Core does not make available any code page encodings other than code page 28591 and the Unicode encodings, such as UTF-8 and UTF-16. However, you can add the code page encodings found in standard Windows apps that target .NET to your app. For complete information, see the CodePagesEncodingProvider topic.
+
+> 默认.net core 不包含除了 代码页为 28591 和 Unicode(utf-8,utf-16) 之外的其他编码，但是标准的 .net Framework 开发的程序中使用其他的编码，而且可以在标准的 windows 程序支持其他编码，详细请看[CodePagesEncodingProvider](https://msdn.microsoft.com/en-us/library/mt643901(v=vs.110).aspx)
+
+也就是我们保存时GBK，查询到Encoding没有GBK，没有默认的，所以看起来这个问题不是简单就可以通过。
+
+于是我就在网上找，很久没找到，但是找到 [http://www.cnblogs.com/yffswyf/p/4826207.html](http://www.cnblogs.com/yffswyf/p/4826207.html )，写到一半我就不想写，好难
 
 在网上看到Encoding.GetEncoding（0）就是默认编码，于是我找了 GetEncoding，原来有string，那么`Encoding gbk = Encoding.GetEncoding("GBK");`是否就是可以，运行代码
 
@@ -64,6 +72,8 @@ Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 //注册GBK编码
 Encoding encodingGbk =Encoding.GetEncoding("GBK");
 ```
+
+如果找不到 CodePagesEncodingProvider ，请在nuget搜索`System.Text.Encoding.CodePages`，如果找不到 GBK ，那么请使用 GB3212 代替。
 
 我们在读取之前判断文件的编码，按照不同编码进行不同编码的读取，这个简单判断可以使用这段代码判断
 
@@ -164,14 +174,11 @@ Encoding encodingGbk =Encoding.GetEncoding("GBK");
 
 http://www.cnblogs.com/loyieking/p/5617508.html
 
+[难道.NET Core到R2连中文编码都不支持吗？ - Artech - 博客园](http://www.cnblogs.com/artech/p/encoding-registeration-4-net-core.html )
+
 文本还有一个坑，我们如何在文本追加？uwp追加文本其实换了类，在FileIO。
 
 对于一个需要追加的文件，UWP追加文件写入其实可以使用`await FileIO.AppendTextAsync(StorageFile,"追加文本");`
 
-
-
-
-
-        
         
 
