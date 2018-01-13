@@ -178,7 +178,7 @@ permalink: /friends/
 
  - [时嬴政 - 博客园](http://www.cnblogs.com/shiyingzheng )
 
- - [UWPBOX | WIN10开发类容分享](http://uwpbox.com/ )
+ - [UWPBOX WIN10开发类容分享](http://uwpbox.com/ )
 
    C++ uwp 大神
 
