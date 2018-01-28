@@ -226,4 +226,24 @@ stickie: False
             </Setter>
         </Style>
 
+## WPF ListView 宽度
+
+使用下面的代码可以让 WPF 的 ListView 的 Item 宽度和他一样
+
+```csharp
+HorizontalContentAlignment="Stretch"
+```
+
+或 
+
+```csharp
+<ListBox.ItemContainerStyle> 
+    <Style TargetType="ListBoxItem"> 
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter> 
+    </Style> 
+</ListBox.ItemContainerStyle> 
+```
+
+[ How to get a ListBox ItemTemplate to stretch horizontally the full width of the ListBox? - Stack Overflow](https://stackoverflow.com/questions/838828/how-to-get-a-listbox-itemtemplate-to-stretch-horizontally-the-full-width-of-the )
+
 
