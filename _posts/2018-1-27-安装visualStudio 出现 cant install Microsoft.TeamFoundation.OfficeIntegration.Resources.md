@@ -7,7 +7,7 @@ stickie: False
 
 本文告诉大家在安装 VisualStudio 时出现`cant install Microsoft.TeamFoundation.OfficeIntegration.Resources`如何安装
 
-<!-- csdn -->
+<!--more-->
 
 <div id="toc"></div>
 
