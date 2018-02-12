@@ -211,7 +211,7 @@ button可以设置属性，使用资源
     </Page.Resources>
 ```
 
-在` <VisualState x:Name="Pressed">`可以把里面写成这个状态的样子，按钮有正常，按下，鼠标在按钮上，可以对每个修改
+在`<VisualState x:Name="Pressed">`可以把里面写成这个状态的样子，按钮有正常，按下，鼠标在按钮上，可以对每个修改
 
 ![这里写图片描述](image/QQ截图20160103093039.png)
 
@@ -243,15 +243,10 @@ button可以设置属性，使用资源
 
 ![](image/QQ截图20160103094007.png)
 
-点播放可以看到我们做出来的
+点播放可以看到我们做出来的按钮，可以运行。移动到button显示文字
 
-可以运行
-
-
-移动到button显示文字
-
-在装机必备移动到搜狐显示搜狐
-参考：http://blog.csdn.net/lindexi_gd/article/details/50166161
+在装机必备移动到搜狐显示搜狐，具体代码
+参考：[http://blog.csdn.net/lindexi_gd/article/details/50166161](http://blog.csdn.net/lindexi_gd/article/details/50166161)
 
 ```xml
                         <Button Click="souhu_Click" ToolTipService.ToolTip="搜狐视频" Padding="0" >
@@ -300,3 +295,10 @@ button可以设置属性，使用资源
 
 https://github.com/lindexi/uwp/tree/master/uwp/control/Button
 
+## 大神写的按钮
+
+ - [UWP：使用Behavior实现Button点击动态效果 - 叫我蓝火火 - 博客园](http://www.cnblogs.com/blue-fire/p/7237158.html )
+
+   ![](https://images2017.cnblogs.com/blog/1179189/201707/1179189-20170725222230185-1476172220.gif)
+
+  
