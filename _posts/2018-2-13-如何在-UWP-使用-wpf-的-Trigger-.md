@@ -3,7 +3,7 @@ title: "如何在 UWP 使用 wpf 的 Trigger "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: WPF,UWP
+categories: WPF, UWP
 ---
 
 本文需要告诉大家，如何使用 Behaviors 做出 WPF 的 Trigger ，需要知道 UWP 不支持 WPF 的 Trigger 。

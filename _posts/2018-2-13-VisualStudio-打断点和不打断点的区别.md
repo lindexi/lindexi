@@ -3,7 +3,7 @@ title: "VisualStudio 打断点和不打断点的区别"
 author: lindexi
 date: 2018-2-13 17:42:30 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: VisualStudio,调试
+categories: VisualStudio, 调试
 ---
 
 因为小伙伴告诉我他的代码在打断点的时候可以运行，但是在不打的时候出现异常。我去他那里看到，真的是这样，最后发现原来是代码写错了。本文来告诉大家，如果遇到了进入断点和没有进入有区别，可能的问题。

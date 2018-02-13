@@ -3,7 +3,7 @@ title: "win10 uwp 如何打包Nuget给其他人"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: Win10,UWP
+categories: Win10, UWP
 ---
 
 本文告诉大家，如果自己有做一些好用的库，如何使用 Nuget 打包之后上传，分享给大家。

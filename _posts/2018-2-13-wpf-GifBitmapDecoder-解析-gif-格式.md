@@ -3,7 +3,7 @@ title: "wpf GifBitmapDecoder 解析 gif 格式"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: WPF,gif
+categories: WPF, gif
 ---
 
 在网上有很多图片都是gif，那么如何在 wpf 解析 gif？

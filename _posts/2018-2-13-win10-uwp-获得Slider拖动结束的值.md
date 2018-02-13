@@ -3,7 +3,7 @@ title: "win10 uwp 获得Slider拖动结束的值"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: Win10,UWP
+categories: Win10, UWP
 ---
 
 本文讲的是如何获得Slider移动结束的值，也就是触发移动后的值。如果我们监听ValueChanged，在我们鼠标放开之前，只要拖动不放，那么就不停触发，而我们可能要得到事件是拖动结束后，那么我们如何获得。

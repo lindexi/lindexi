@@ -46,6 +46,8 @@ permalink: /friends/
 
    头像大神，wpf大神
 
+ - [wolfleave ](https://wolfleave.github.io/ )
+
  - [Nullptr](http://blog.nullptr.top/ )  
 
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)

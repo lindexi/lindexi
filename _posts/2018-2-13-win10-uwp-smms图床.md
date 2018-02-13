@@ -3,7 +3,7 @@ title: "win10 uwp smms图床"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: Win10,UWP
+categories: Win10, UWP
 ---
 
 本文，如何使用smms图床上传图片，用到win10 uwp post文件，因为我是渣渣，如果本文有错的，请和我说，在本文评论，或发给我邮箱，请不要发不良言论

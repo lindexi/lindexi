@@ -3,7 +3,7 @@ title: "win10 uwp 自定义控件 SplitViewItem"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: Win10,UWP
+categories: Win10, UWP
 ---
 
 本文主要是因为汉堡菜单里面列出的菜单很多重复的图标和文字，我把它作为控件，因为是随便写，可能存在错误，如果发现了，请和我说或关掉浏览器，请不要发不良言论。

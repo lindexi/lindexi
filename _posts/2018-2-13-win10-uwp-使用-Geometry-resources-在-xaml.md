@@ -3,7 +3,7 @@ title: "win10 uwp 使用 Geometry resources 在 xaml"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: Win10,UWP
+categories: Win10, UWP
 ---
 
 经常会遇到在 xaml 使用矢量图，对于 svg 的矢量图，一般都可以拿出来写在 Path 的 Data ，所以可以写为资源，但是写出来的是字符串，如何绑定 Geometry 到字符串资源？

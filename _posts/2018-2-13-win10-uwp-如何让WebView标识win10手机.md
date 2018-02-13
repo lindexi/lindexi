@@ -3,7 +3,7 @@ title: "win10 uwp 如何让WebView标识win10手机"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: Win10,UWP
+categories: Win10, UWP
 ---
 
 本文主要：如何让WebView访问的网页识别为手机.

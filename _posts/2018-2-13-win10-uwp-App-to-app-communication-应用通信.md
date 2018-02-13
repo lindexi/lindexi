@@ -3,7 +3,7 @@ title: "win10 uwp App-to-app communication 应用通信"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: Win10,UWP
+categories: Win10, UWP
 ---
 
 这篇文章都是乱说的，如果觉得有不好的，可以发我邮箱

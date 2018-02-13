@@ -3,7 +3,7 @@ title: "win10 uwp 让焦点在点击在页面空白处时回到textbox中"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 19:0:3 +0800
-categories: Win10,UWP
+categories: Win10, UWP
 ---
 
 在[网上](http://ask.csdn.net/questions/673861 ) 有一个大神问我这样的问题：在做UWP的项目，怎么能让焦点在点击在页面空白处时回到textbox中？
