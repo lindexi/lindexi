@@ -3,7 +3,7 @@ title: "win10 uwp 起源Origin 含源代码"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:58 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 这是一个自动机，在1940年提出，也是我们世界的Bug。

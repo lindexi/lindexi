@@ -3,7 +3,7 @@ title: "win10 uwp Fluent Design System 实践"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:57 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 本文告诉大家我收集的一些 Fluent Design System 设计，希望能给大家一些帮助。

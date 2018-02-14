@@ -3,7 +3,7 @@ title: "win10 uwp ContentDialog 点确定不关闭"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:58 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 微软的ContentDialog不是一直有，而是UWP新的，可以使用Content放用户控件，使用很好，但是一点不好的是，默认的一点击下面按钮就会退出。

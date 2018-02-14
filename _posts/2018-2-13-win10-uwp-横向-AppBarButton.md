@@ -3,7 +3,7 @@ title: "win10 uwp 横向 AppBarButton"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:58 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 一般看到的 AppBarButton 都是图片在上面，文字在下面，是否可以更改让文字在和图片相同的位置？本文告诉大家如何做出横向的 AppBarButton 把图标和文本放在一起。

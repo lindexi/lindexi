@@ -3,7 +3,7 @@ title: "wpf DoEvents "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:58 +0800
-categories: wpf, doevents, 性能优化
+categories: wpf doevents 性能优化
 ---
 
 如果在执行一段卡UI的代码，这时如何让UI响应。如果存在代码需要获得依赖属性，那么代码就需要在UI线程执行，但是这时就会卡UI，为了让UI响应，所以就需要使用`DoEvents`来让UI响应。

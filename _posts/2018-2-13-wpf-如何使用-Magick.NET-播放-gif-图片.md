@@ -3,7 +3,7 @@ title: "wpf 如何使用 Magick.NET 播放 gif 图片"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:58 +0800
-categories: WPF, gif
+categories: WPF gif
 ---
 
 本文告诉大家使用 Magick.NET 的方法播放 gif 图片。

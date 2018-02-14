@@ -3,7 +3,7 @@ title: "MobaXterm 使用代理"
 author: lindexi
 date: 2018-2-13 17:35:47 +0800
 CreateTime: 2018-2-14 10:5:57 +0800
-categories: MobaXterm, 代理, ssh, vps, 代理服务器
+categories: MobaXterm 代理 ssh vps 代理服务器
 ---
 
 经常需要连接服务器，但是有时候服务器需要代理才可以连接，所以本文告诉大家如何使用MobaXterm 代理，进行ssh代理连接

@@ -3,7 +3,7 @@ title: "win10 uwp 进度条 WaveProgressControl"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:58 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 昨天看到了有个大神做出好看的进度条样式，于是我就去抄袭他的代码，但是发现看不懂，于是本文主要翻译就是大神说这个控件如何做。

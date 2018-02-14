@@ -3,7 +3,7 @@ title: "win10 UWP Hmac"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:58 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 HMAC是密钥相关的哈希运算消息认证码，输入密钥和信息。

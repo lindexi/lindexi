@@ -3,7 +3,7 @@ title: "win10 uwp MVVM 轻量框架"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:57 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 如果在开发过程，遇到多个页面之间，需要传输信息，那么可能遇到设计的问题。如果因为一个页面内包含多个子页面和多个子页面之间的通信问题找不到一个好的解决方法，那么请看本文。如果因为ViewModel代码越来越多烦恼，请试试本文提供的框架。

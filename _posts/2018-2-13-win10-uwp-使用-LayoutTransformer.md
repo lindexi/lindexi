@@ -3,7 +3,7 @@ title: "win10 uwp 使用 LayoutTransformer"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:57 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 如果需要使用旋转，那么很容易把图片旋转的布局被裁剪。如果需要旋转的控件还在指定的 Grid 内，就需要使用布局的旋转。本文告诉大家如何使用 LayoutTransformer。需要知道，uwp是没有 LayoutTransformer ，这个类是仿照 wpf 的 LayoutTransformer 写的。

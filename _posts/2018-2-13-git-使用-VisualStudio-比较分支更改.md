@@ -3,7 +3,7 @@ title: "git 使用 VisualStudio 比较分支更改"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:57 +0800
-categories: VisualStudio, git
+categories: VisualStudio git
 ---
 
 有时候需要比较两个分支的不同，这时如果提交到 github ，那么默认就可以看到。但是这时因为没有ide的高亮或者其他的功能，看起来觉得不好。

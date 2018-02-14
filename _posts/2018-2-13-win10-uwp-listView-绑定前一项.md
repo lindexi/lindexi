@@ -3,7 +3,7 @@ title: "win10 uwp listView 绑定前一项"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-14 10:5:58 +0800
-categories: Win10, UWP
+categories: Win10 UWP
 ---
 
 大神问，如何在 ListView 绑定前一项，于是我下面告诉大家如何在 ListView 绑定前一项
