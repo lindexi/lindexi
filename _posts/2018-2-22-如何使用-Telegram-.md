@@ -1,13 +1,13 @@
 ---
 title: "如何使用 Telegram "
 author: lindexi
-date: 2018-2-21 13:10:37 +0800
-CreateTime: 2018-2-21 17:10:40 +0800
-categories: 软件 Telegram 聊天软件-->
+date: 2018-2-22 11:37:5 +0800
+CreateTime: 2018-2-21 11:13:48 +0800
+categories: 软件 Telegram 聊天软件
 ---
 
 Telegram是一款加密的实时通讯软件，本文告诉大家如何使用 这个软件。
-<!-- 标签 ：软件，Telegram，聊天软件-->
+<!-- 标签 ：软件，Telegram，聊天软件 -->
 <!-- csdn -->
 
 <!--more-->

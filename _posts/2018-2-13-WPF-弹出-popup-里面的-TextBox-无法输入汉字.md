@@ -2,7 +2,7 @@
 title: "WPF 弹出 popup 里面的 TextBox 无法输入汉字"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
-CreateTime: 2018-2-21 17:10:40 +0800
+CreateTime: 2018-2-13 17:23:3 +0800
 categories: WPF
 ---
 

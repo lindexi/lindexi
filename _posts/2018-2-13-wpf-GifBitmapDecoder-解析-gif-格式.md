@@ -2,7 +2,7 @@
 title: "wpf GifBitmapDecoder 解析 gif 格式"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
-CreateTime: 2018-2-21 17:10:40 +0800
+CreateTime: 2018-2-13 17:23:3 +0800
 categories: WPF gif
 ---
 

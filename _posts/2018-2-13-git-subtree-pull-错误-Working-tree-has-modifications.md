@@ -2,7 +2,7 @@
 title: "git subtree pull 错误 Working tree has modifications"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
-CreateTime: 2018-2-21 17:10:38 +0800
+CreateTime: 2018-2-13 17:23:3 +0800
 categories: git
 ---
 
