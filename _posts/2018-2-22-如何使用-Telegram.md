@@ -1,7 +1,7 @@
 ---
-title: "如何使用 Telegram "
+title: "如何使用 Telegram"
 author: lindexi
-date: 2018-2-22 11:37:5 +0800
+date: 2018-2-22 14:38:17 +0800
 CreateTime: 2018-2-21 11:13:48 +0800
 categories: 软件 Telegram 聊天软件
 ---
