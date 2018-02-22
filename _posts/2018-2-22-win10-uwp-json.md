@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp json"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-2-22 14:31:7 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
@@ -312,6 +312,26 @@ for (uint i = 0; i < root.Count; i++) {
 
 参见：[http://blog.csdn.net/lovegonghui/article/details/50248455](http://blog.csdn.net/lovegonghui/article/details/50248455 )
 
+## 换行输出
+
+默认的 SerializeObject 输出的字符串是不换行的。例如我序列化了下面的类
+
+![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018222142547.jpg)
+
+结果拿到的数据是：
+
+![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018222142719.jpg)
+
+通过下面的代码就可以让 json 在转换的时候换行
+
+```csharp
+   var jsonSerializerSettings = new JsonSerializerSettings();
+                jsonSerializerSettings.Formatting = Formatting.Indented;
+
+                string str = JsonConvert.SerializeObject(obj, jsonSerializerSettings);
+```
+
+![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018222143058.jpg)
 
 
 
