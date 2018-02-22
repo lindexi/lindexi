@@ -3,7 +3,7 @@ title: "git rebase"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: git
+categories: 
 ---
 
 git没有可以把最后一个提交提交到服务器的能力，可以用rebase

@@ -3,7 +3,7 @@ title: "C# AddRange 添加位置"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: C#
+categories: 
 ---
 
 有没人想知道， AddRange 添加位置 是哪？

@@ -3,7 +3,7 @@ title: "win10 uwp ping"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 有时需要进行 ping ，但是ms没有给一个类可以进行 ping

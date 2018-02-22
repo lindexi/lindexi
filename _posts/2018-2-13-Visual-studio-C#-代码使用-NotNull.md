@@ -3,7 +3,7 @@ title: "Visual studio C# 代码使用 NotNull"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: C#
+categories: 
 ---
 
 我们经常看到有代码使用 NotNull 特性，这时如果我们输入可空参数，Resharper 就会告诉我们，输入了空参数。

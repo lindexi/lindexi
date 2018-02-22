@@ -3,7 +3,7 @@ title: "win10 uwp 右击选择 GridViewItem "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 有时候我们需要选择一个 GridView 的一项，通过我们右击。

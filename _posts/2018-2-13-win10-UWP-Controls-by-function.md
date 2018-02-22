@@ -3,7 +3,7 @@ title: "win10 UWP Controls by function"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 Windows的XAML UI框架提供了很多控件，支持用户界面开发库。其中一些有可视化，一些布局。

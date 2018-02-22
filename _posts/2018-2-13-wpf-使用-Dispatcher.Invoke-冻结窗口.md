@@ -3,7 +3,7 @@ title: "wpf 使用 Dispatcher.Invoke 冻结窗口"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: wpf 性能优化
+categories: WPF 性能优化
 ---
 
 如果使用`Dispatcher.Invoke`实际上会有一个坑，在执行`Dispatcher.Invoke`刚好拖动窗口就会出现窗口冻结，这时使用 Alt+Tab 可以解决。
