@@ -1,9 +1,9 @@
 ---
 title: "C# ValueTuple 原理"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-2-24 12:57:26 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: C# 原理
 ---
 
 本文告诉大家一些 ValueTuple 的原理，避免在使用出现和期望不相同的值。ValueTuple 是 C# 7 的语法糖，如果使用的 .net Framework 是 4.7 以前，那么需要使用 Nuget 安装`System.ValueTuple`
@@ -13,6 +13,8 @@ categories:
 
 <!-- csdn -->
 <div id="toc"></div>
+
+<!-- 标签：C#，原理 -->
 
 虽然 ValueTuple 的很好用，但是需要知道他有两个地方都是在用的时候需要知道他原理。
 
