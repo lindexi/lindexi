@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 起源Origin 含源代码"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-2-28 14:13:49 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: 
 ---
@@ -15,6 +15,8 @@ categories:
 
 <div id="toc"></div>
 <!-- csdn -->
+
+<!-- 草稿 -->
 
 我们来说下我们的游戏，游戏每个方格就是一个人，他有8个邻居。方格的人不是存活就是死亡。
 

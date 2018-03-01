@@ -1,7 +1,7 @@
 ---
 title: "cant found Microsoft.VSSDK.BuildTools.15.0.26201"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-2-28 14:10:59 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: 
 ---
@@ -15,8 +15,6 @@ categories:
 <!--more-->
 
 
-
-<!-- csdn -->
 
 找不到一个 packages 的文件，或程序集，那么一般就是 nuget 的坑。
 

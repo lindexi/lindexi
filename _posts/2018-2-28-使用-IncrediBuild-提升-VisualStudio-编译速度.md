@@ -1,9 +1,9 @@
 ---
 title: "使用 IncrediBuild 提升 VisualStudio 编译速度"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-2-28 13:54:50 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: VisualStudio 软件
 ---
 
 我现在有一个 100M 的代码，需要快速去编译他，我寻找了很多方法，本文记录我找到的 IncrediBuild 用于提交编译速度。
@@ -11,7 +11,8 @@ categories:
 <!--more-->
 
 
-<!-- csdn -->
+<div id="toc"></div>
+<!-- 标签：VisualStudio，软件 -->
 
 如果一个项目存在很多不相互依赖的项目，那么使用 IncrediBuild 可以提高一些性能，而且他可以利用局域网其他机器，使用他们来帮助编译。
 
