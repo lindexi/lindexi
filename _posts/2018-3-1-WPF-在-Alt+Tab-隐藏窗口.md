@@ -1,7 +1,7 @@
 ---
 title: "WPF 在 Alt+Tab 隐藏窗口"
 author: lindexi
-date: 2018-3-1 15:36:48 +0800
+date: 2018-3-1 15:42:46 +0800
 CreateTime: 2018-3-1 11:32:9 +0800
 categories: 
 ---
@@ -14,6 +14,8 @@ categories:
 <!-- csdn -->
 
 因为只要设置窗口是`WS_EX_TOOLWINDOW`就不会在切换窗口显示，所以需要使用一些特殊的代码。
+
+在切换窗口不显示窗口要求窗口是：`WS_EX_TOOLWINDOW` 或其他窗口的子窗口，但是可以看到 Toast 不是其他窗口的子窗口，所以只能设置窗口。
 
 首先在窗口的 Load 之后拿到窗口句柄
 
