@@ -3,7 +3,7 @@ title: "VisualStudio 修改配色"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: VisualStudio
 ---
 
 如果觉得 VisualStudio 的配色不好看，那么可以到[这个网站](https://studiostyl.es/)下载其他的配色。

@@ -3,7 +3,7 @@ title: "WPF 编译为 AnyCPU 和 x86 有什么区别"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: WPF
 ---
 
 本文告诉大家，编译为 AnyCpu 和 AnyCPU（Prefer 32-bit）和 x86 有什么区别

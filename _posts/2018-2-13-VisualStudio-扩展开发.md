@@ -3,7 +3,7 @@ title: "VisualStudio 扩展开发"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: VisualStudio
 ---
 
 本文主要：如何开发一个 visual Studio 扩展，其实扩展也叫插件。

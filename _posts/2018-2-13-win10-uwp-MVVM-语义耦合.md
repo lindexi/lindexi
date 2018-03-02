@@ -3,7 +3,7 @@ title: "win10 uwp MVVM 语义耦合"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Win10 UWP
 ---
 
 最近在我写的框架，小伙伴告诉我，可能有语义耦合，那么本文就来告诉大家，为什么会出现语言耦合

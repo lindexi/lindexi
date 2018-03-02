@@ -3,7 +3,7 @@ title: "C＃ BBcode 转 Markdown"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: C#
 ---
 
 本文告诉大家一个简单的方法从 BBcode 转为 Markdown

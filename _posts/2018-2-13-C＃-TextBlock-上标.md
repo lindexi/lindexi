@@ -3,7 +3,7 @@ title: "C＃ TextBlock 上标"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: C#
 ---
 
 我需要做一个函数，显示 $x^2$ ，但是看起来用 TextBlock 做的不好看。

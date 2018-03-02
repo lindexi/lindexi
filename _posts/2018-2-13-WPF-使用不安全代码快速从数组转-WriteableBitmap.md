@@ -3,7 +3,7 @@ title: "WPF 使用不安全代码快速从数组转 WriteableBitmap"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: WPF
 ---
 
 本文告诉大家一个快速的方法，直接把数组转 WriteableBitmap 
