@@ -3,7 +3,7 @@ title: "win10 uwp 使用动画修改 Grid column 的宽度"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 今天 wurstmitbrot 问如何通过动画修改 Grid 的 column ，虽然 column 是一个依赖属性，可以绑定，但是做出动画还是比较难的。

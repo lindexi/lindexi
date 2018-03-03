@@ -3,7 +3,7 @@ title: "win10 uwp 从Type使用构造"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 本文主要：如何从 Type new一个对象

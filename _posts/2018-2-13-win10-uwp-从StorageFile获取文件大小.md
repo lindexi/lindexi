@@ -3,7 +3,7 @@ title: "win10 uwp 从StorageFile获取文件大小"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 本文主要：获取文件大小

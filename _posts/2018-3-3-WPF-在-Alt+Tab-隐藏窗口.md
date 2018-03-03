@@ -1,9 +1,9 @@
 ---
 title: "WPF 在 Alt+Tab 隐藏窗口"
 author: lindexi
-date: 2018-3-1 15:42:46 +0800
+date: 2018-3-3 10:0:30 +0800
 CreateTime: 2018-3-1 11:32:9 +0800
-categories: WPF
+categories: 
 ---
 
 最近在开发一个 Toast 窗口，因为这个窗口不能在显示之后关闭，因为可能用户会不停让窗口显示，所以只能 Hide 。但是这样会在 切换窗口看到这个窗口，所以我找到了一个方法来让 WPF 窗口不在切换窗口显示。
@@ -13,11 +13,19 @@ categories: WPF
 
 <!-- csdn -->
 
+现在的 WPF 程序只要设置了不在任务栏显示，而且设置窗口`Visibility="Hidden"`就可以不在切换窗口显示窗口。设置方法可以是在 xaml 添加下面代码
+
+```csharp
+ShowInTaskbar="False" Visibility="Hidden"
+```
+
+但是如大家见到，如果存在 BitmapCache 和 一个隐藏的窗口，那么就会在锁屏之后软件无法渲染，请看[github](https://github.com/easiwin/wpf-issues/tree/master/BitmapCache) ，所以不要使用这个方法。那么除了这个方法外还有什么方法？
+
+实际上在切换窗口不显示窗口要求窗口是：`WS_EX_TOOLWINDOW` 或其他窗口的子窗口，但是可以看到 Toast 不是其他窗口的子窗口，所以只能设置窗口。
+
 因为只要设置窗口是`WS_EX_TOOLWINDOW`就不会在切换窗口显示，所以需要使用一些特殊的代码。
 
-在切换窗口不显示窗口要求窗口是：`WS_EX_TOOLWINDOW` 或其他窗口的子窗口，但是可以看到 Toast 不是其他窗口的子窗口，所以只能设置窗口。
-
-首先在窗口的 Load 之后拿到窗口句柄
+首先在窗口的 Load 之后拿到窗口句柄，注意不是在 SourceInitialized 之后添加的
 
 ```csharp
         public ToastWindow()
@@ -107,10 +115,4 @@ categories: WPF
 ```
 
 参见：[https://stackoverflow.com/a/551847/6116637](https://stackoverflow.com/a/551847/6116637 )
-
-如果需要在任务栏不显示，那么可以使用下面代码
-
-```csharp
-ShowInTaskbar = false
-```
 

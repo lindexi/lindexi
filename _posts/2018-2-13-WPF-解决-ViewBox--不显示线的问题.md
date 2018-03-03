@@ -3,7 +3,7 @@ title: "WPF 解决 ViewBox  不显示线的问题"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: WPF
+categories: 
 ---
 
 ViewBox 是一个好用的东西，但是在他缩小的时候，可能有一些线无法显示。

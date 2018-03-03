@@ -3,7 +3,7 @@ title: "win10 uwp 绑定 OneWay 无法使用"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 有时候使用绑定的 OneWay 方法无法使用，而使用 TwoWay 的方法就可以使用，但是在调试把 OneWay 做了修改又可以使用，那么请看本文。

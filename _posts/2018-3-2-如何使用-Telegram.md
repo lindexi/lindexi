@@ -1,7 +1,7 @@
 ---
 title: "如何使用 Telegram"
 author: lindexi
-date: 2018-2-28 13:58:1 +0800
+date: 2018-3-2 21:11:20 +0800
 CreateTime: 2018-2-21 11:13:48 +0800
 categories: 软件 Telegram 聊天软件
 ---
@@ -34,4 +34,6 @@ Telegram是一款加密的实时通讯软件，本文告诉大家如何使用 �
 注册这个软件很简单，需要输入手机然后点击获取验证码，界面都是英文不过相信大家很容易就注册
 
 如果实在找不到梯子，那么请联系我，我可以给你一个梯子
+
+欢迎大家参加 UWP 开发的组 [https://t.me/joinchat/ILgVXw88t3d0VxrpHG6pZA](https://t.me/joinchat/ILgVXw88t3d0VxrpHG6pZA)
 
