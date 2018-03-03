@@ -3,7 +3,7 @@ title: "win10 uwp xaml 绑定接口"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Win10 UWP
 ---
 
 本文告诉大家如何在 xaml 绑定属性使用显式继承接口。

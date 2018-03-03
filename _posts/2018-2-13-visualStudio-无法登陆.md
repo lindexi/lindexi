@@ -3,7 +3,7 @@ title: "visualStudio 无法登陆"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: VisualStudio
 ---
 
 如果遇到 visualStudio 无法登陆，可以看下我的方法，可能有用。

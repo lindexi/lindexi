@@ -3,7 +3,7 @@ title: "jekyll 添加 Valine 评论"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: jekyll
 ---
 
 本文告诉大家如何在自己搭建的静态博客添加 Valine 评论。在这前，我基本都是使用 多说，但是多说gg啦，所以就在找一个可以替换的评论。

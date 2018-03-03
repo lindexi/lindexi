@@ -3,7 +3,7 @@ title: "win10 uwp DataContext "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Win10 UWP
 ---
 
 本文告诉大家DataContext的多种绑法。
