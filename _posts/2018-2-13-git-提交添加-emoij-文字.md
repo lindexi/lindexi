@@ -3,7 +3,7 @@ title: "git 提交添加 emoij 文字"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: git
+categories: 
 ---
 
 可能看到 git 提交是文本，就认为他无法使用表情图片，实际上 git 提交是可以添加表情。

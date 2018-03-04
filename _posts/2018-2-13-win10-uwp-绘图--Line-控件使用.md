@@ -3,7 +3,7 @@ title: "win10 uwp 绘图  Line 控件使用"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 本文主要讲一个在绘图中，我们会有一个基础的控件，Line。控件的基本使用和他能做出的我们很多时候需要的界面。

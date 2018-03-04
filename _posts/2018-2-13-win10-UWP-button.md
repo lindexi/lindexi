@@ -3,7 +3,7 @@ title: "win10 UWP button"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 Button是一个常用控件，有很多和wpf一样，可以看《深入浅出WPF》，但还有一些虽然常用，但是可能大家不知道的功能

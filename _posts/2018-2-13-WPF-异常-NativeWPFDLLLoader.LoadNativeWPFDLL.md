@@ -3,7 +3,7 @@ title: "WPF 异常 NativeWPFDLLLoader.LoadNativeWPFDLL"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: WPF
+categories: 
 ---
 
 如果发现出现下面异常，可以尝试重装 .net Framework
