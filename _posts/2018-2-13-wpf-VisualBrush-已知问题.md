@@ -3,7 +3,7 @@ title: "wpf VisualBrush 已知问题"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: WPF
 ---
 
 本文告诉大家，visualBrush 已知 bug ，希望大家使用 VisualBrush 时可以知道

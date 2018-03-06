@@ -3,7 +3,7 @@ title: "WPF checkbox文字下掉"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: WPF
 ---
 
 

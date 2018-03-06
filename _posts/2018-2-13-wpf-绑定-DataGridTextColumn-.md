@@ -3,7 +3,7 @@ title: "wpf 绑定 DataGridTextColumn "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: WPF
 ---
 
 本文告诉大家如何在 DataGridTextColumn 使用绑定，因为很容易绑定就找不到数据。

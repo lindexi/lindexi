@@ -3,7 +3,7 @@ title: "win10 uwp x:Bind 无法获得资源"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Win10 UWP
 ---
 
 本文告诉大家，如果在 使用 x:Bind 转换器写在资源，而运行出现找不到资源的错误，如果解决。

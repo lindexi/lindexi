@@ -3,7 +3,7 @@ title: "win10 uwp 如何拖动一个TextBlock的文字到另一个TextBlock "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Win10 UWP
 ---
 
 我在堆栈网看到有人问 如何拖动一个TextBlock的文字到另一个TextBlock 于是看到一个大神给出的方法，下面我就来和大家说下如何拖动

@@ -3,7 +3,7 @@ title: "win10 uwp url encode"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Win10 UWP
 ---
 
 开发中，经常遇到使用中文无法作为 URL 传输的情况，如果想把 中文作为 URL 传输，那么需要对中文进行转换。
