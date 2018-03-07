@@ -3,7 +3,7 @@ title: "VisualStudio 自定义外部命令"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: VisualStudio
 ---
 
 通过自定义命令，可以在 VisualStudio 加上一些自定义命令，可以快速启动 git 或者做其他的事情

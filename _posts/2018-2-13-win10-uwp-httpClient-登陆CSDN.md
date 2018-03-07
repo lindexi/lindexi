@@ -3,7 +3,7 @@ title: "win10 uwp httpClient 登陆CSDN"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Win10 UWP
 ---
 
 本文告诉大家如何模拟登陆csdn，这个方法可以用于模拟登陆其他网站。
