@@ -3,7 +3,7 @@ title: "win10 uwp 读取保存WriteableBitmap 、BitmapImage"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 我们在UWP，经常使用的图片，数据结构就是 BitmapImage 和 WriteableBitmap。关于 BitmapImage 和 WriteableBitmap 区别，我就不在这里说。主要说的是 BitmapImage 和 WriteableBitmap 、二进制 byte 的互转。

@@ -3,7 +3,7 @@ title: "wpf 绑定 TextLength "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: WPF
+categories: 
 ---
 
 我看到朋友的代码出现绑定了 一个 TextBlock 的 Text 的 length ，那时候我觉得 length 不是依赖属性，绑定了是无法通知的。最后我做了实验才发现，原因有 Text 可以通知。

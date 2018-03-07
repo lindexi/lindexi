@@ -3,7 +3,7 @@ title: "win10 UWP MessageDialog 和 ContentDialog"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 我之前开发一个软件 winMarkdown，这个软件在关闭需要提示用户还没有保存东西，需要保存，如果用户选择退出，那么把数据存放。

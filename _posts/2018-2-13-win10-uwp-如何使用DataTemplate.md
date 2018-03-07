@@ -3,7 +3,7 @@ title: "win10 uwp 如何使用DataTemplate"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 这是数据模板，一般用在数组的绑定，显示数组中的元素。

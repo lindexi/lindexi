@@ -3,7 +3,7 @@ title: "WPF DrawingVisual"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: WPF
+categories: 
 ---
 
 本文：如何自定义控件用 DrawingVisual 画图
