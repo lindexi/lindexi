@@ -1,7 +1,7 @@
 ---
 title: "win10 UWP 用Path画图"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-3-14 20:25:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
@@ -19,7 +19,7 @@ categories: Win10 UWP
 
 直接使用图片
 
-![](http://images2015.cnblogs.com/blog/918258/201606/918258-20160622230949985-738039663.png)
+![](http://7xqpl8.com1.z0.glb.clouddn.com/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018314202433.jpg)
 
 我们写上所有点。写在折线，在UWP，还是存在和 WPF 做法有些修改，却没有修改什么。
 
@@ -88,3 +88,4 @@ categories: Win10 UWP
 [http://www.cnblogs.com/tsliwei/p/5609035.html](http://www.cnblogs.com/tsliwei/p/5609035.html )
 
 [http://www.cnblogs.com/xpvincent/p/3830108.html](http://www.cnblogs.com/xpvincent/p/3830108.html )
+
