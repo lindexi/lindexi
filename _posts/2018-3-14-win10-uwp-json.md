@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp json"
 author: lindexi
-date: 2018-2-22 14:31:7 +0800
+date: 2018-3-14 8:35:28 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
@@ -18,13 +18,13 @@ categories: Win10 UWP
 
 如果我们拿到一段json，想要把它变为我们C艹艹可以用的，我们需要先对json的类进行转换，其实很简单，我们在复制一段json
 
-不需要我们对这json打，因为我们有vs，在我们的编辑，可以看到
+不需要我们对这json转换为类，如果需要手动写很容易写错。因为我们有vs，在我们的编辑，可以看到粘贴为类，这个功能在 VisualStudio 2017 是没有的，需要安装插件。
 
 ![这里写图片描述](http://img.blog.csdn.net/20160607111953153)
 
-我们复制完一段json，然后点击粘贴，就好了，自动生成
+我们复制完一段json，然后点击粘贴，就好了，自动生成对应的类，不过类的命名有些奇怪。
 
-如果我们拿到一段json
+如果我们拿到一段json，请看下面
 
 ```csharp
 {
@@ -70,7 +70,7 @@ categories: Win10 UWP
 }
 ```
 
-我们弄个新的类，粘贴
+如果需要转换这个类，那么就需要在编辑让VisualStudio自动把 json 转类。
 
 ```csharp
     public class Thinw
@@ -118,15 +118,15 @@ categories: Win10 UWP
 
 很快我们就得到了我们需要序列的类
 
-接着我们使用Nuget
+接着我们使用Nuget安装一下插件
 
 ![这里写图片描述](http://img.blog.csdn.net/20160607112008346)
 
 当然我还加上九幽的插件，九幽有几个插件可以获得我们应用数据，我们启动我们关闭，还有广告很好用
 
-我们使用 Nuget 主要下载 Newtonsoft.Json
+我们使用 Nuget 主要下载 Newtonsoft.Json ，这是一个很好用的、性能很高的序列化和反序列。
 
-我们转序可以使用
+我们转序可以使用下面代码，实际上只是传入一个泛型而已，反序列的代码实际上可以一句话来写。
 
 ```csharp
         public void Unencoding(string str)
@@ -136,7 +136,7 @@ categories: Win10 UWP
         }
 ```
 
-如果我们需要把我们的类转为json
+如果我们需要把我们的类转为json，这叫序列化，可以尝试使用下面的代码
 
 ```csharp
             var file = await ApplicationData.Current.LocalFolder.CreateFileAsync("data", CreationCollisionOption.ReplaceExisting);
@@ -146,11 +146,11 @@ categories: Win10 UWP
             }
 ```
 
-这样把我们的类保存在文件
+这样把我们的类保存在文件，上面用到 UWP 文件读写。
 
-如果觉得我做的简单，想要使用微软的Windows.Data.Json ，其实使用Newtosoft的才好
+如果觉得我做的简单，想要使用微软的`Windows.Data.Json` ，其实使用`Newtosoft`的才好
 
-如果使用Windows.Data.Json
+如果使用`Windows.Data.Json`，那么需要这样写
 
 ```csharp
 JsonArray root = JsonValue.Parse(jsonString).GetArray();  
@@ -170,7 +170,7 @@ for (uint i = 0; i < root.Count; i++) {
 
 如果属性多，基本上很多人会容易就打错，当然，可以先实例一个RootObject，然后使用新关键字，name去得到实例属性名称当然在我们使用Json会遇到一些属性我们不要的，那么如何json忽略属性，其实很简单，在Newtosoft可以在属性加[JsonIgnore]，因为这些比较乱，所以也不打算在这里说。
 
-首先是我们的类，
+首先是我们的类，任意的定义
 
 ```csharp
   public class Thine
@@ -180,7 +180,7 @@ for (uint i = 0; i < root.Count; i++) {
   }
 ```
 
-我们要把Property包含，但是不包含Ignore，简单的
+我们要把Property包含，但是不包含Ignore，简单的代码是添加`JsonIgnore`告诉序列化不要序列化这个属性。
 
 ```csharp
   public class Thine
@@ -205,11 +205,9 @@ for (uint i = 0; i < root.Count; i++) {
   }
 ```
 
+在反序列化时需要注意，不是所有的类都可以反序列化，必须类的属性最后都是基础类型，必须类有默认构造函数没有参数。所以 StorageFile 等就是无法反序列化的，需要使用[这篇文章](./win10-uwp-%E4%BF%9D%E5%AD%98%E7%94%A8%E6%88%B7%E9%80%89%E6%8B%A9%E6%96%87%E4%BB%B6%E5%A4%B9.html )的方法保存用户选择的文件。
 
 ## 序列枚举
-
-对于枚举的序列化和一般的变量不同，当前 StorageFile 也是不可以转换的。
-
 
 例如有一个枚举
 
@@ -225,7 +223,7 @@ for (uint i = 0; i < root.Count; i++) {
     }
 ```
 
-进行序列
+进行序列，可以使用下面代码
 
 
 ```csharp
@@ -239,14 +237,14 @@ for (uint i = 0; i < root.Count; i++) {
 ```
 
 
-结果是 
+结果是
 
 
 ```csharp
     [0,2]
 ```
 
-那么进行反序列会出现和原先一样的结果
+如果对上面的进行反序列会出现和原先一样的结果
 
 但是如果尝试使用其他的枚举，不会出现错误，枚举的数量比原先多的一般就不会出现
 
@@ -332,7 +330,4 @@ for (uint i = 0; i < root.Count; i++) {
 ```
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018222143058.jpg)
-
-
-
 
