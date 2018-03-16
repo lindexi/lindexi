@@ -3,7 +3,7 @@ title: "win10 uwp 进度条 Marquez "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: Win10 UWP
+categories: 
 ---
 
 本文将告诉大家，如何做一个带文字的进度条，这个进度条可以用在游戏，现在我做的挂机游戏就使用了他。

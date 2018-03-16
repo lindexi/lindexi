@@ -3,7 +3,7 @@ title: "WPF DelegateCommand 出现Specified cast is not valid"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: WPF
+categories: 
 ---
 
 使用 DelegateCommand 出现 Specified cast is not valid

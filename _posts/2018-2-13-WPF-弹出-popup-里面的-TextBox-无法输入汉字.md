@@ -3,7 +3,7 @@ title: "WPF 弹出 popup 里面的 TextBox 无法输入汉字"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: WPF
+categories: 
 ---
 
 这是一个 wpf 的bug，在弹出Popup之后，如果 Popup 里面有 TextBox ，这时无法在里面输入文字。

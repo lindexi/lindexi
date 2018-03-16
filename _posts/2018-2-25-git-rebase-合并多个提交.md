@@ -3,7 +3,7 @@ title: "git rebase 合并多个提交"
 author: lindexi
 date: 2018-2-25 11:41:26 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: git
+categories: 
 ---
 
 rebase可以修改记录，我总是做小更改就提交，仓库有好多看起来很乱的

@@ -3,7 +3,7 @@ title: "WPF 如何调试 binding"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: WPF
+categories: 
 ---
 
 如果是写在 xaml 的绑定，很难看到是那里出错

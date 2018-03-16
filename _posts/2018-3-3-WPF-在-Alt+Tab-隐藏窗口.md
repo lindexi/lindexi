@@ -3,7 +3,7 @@ title: "WPF 在 Alt+Tab 隐藏窗口"
 author: lindexi
 date: 2018-3-3 10:0:30 +0800
 CreateTime: 2018-3-1 11:32:9 +0800
-categories: WPF
+categories: 
 ---
 
 最近在开发一个 Toast 窗口，因为这个窗口不能在显示之后关闭，因为可能用户会不停让窗口显示，所以只能 Hide 。但是这样会在 切换窗口看到这个窗口，所以我找到了一个方法来让 WPF 窗口不在切换窗口显示。

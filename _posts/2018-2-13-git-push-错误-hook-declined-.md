@@ -3,7 +3,7 @@ title: "git push 错误 hook declined "
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: git
+categories: 
 ---
 
 我把仓库上传到 gogs 出现错误，提示如下 `remote: hooks/update: line 2: E:/gogs/gogs.exe: No such file or directory`
