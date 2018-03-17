@@ -3,7 +3,7 @@ title: "WPF 拖动时出现 Invalid FORMATETC structure"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: WPF
 ---
 
 如果在 WPF 需要支持一个东西可以拖动，那么可以使用 DragDrop ，但是使用这个之后就出现了异常

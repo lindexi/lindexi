@@ -3,7 +3,7 @@ title: "wpf PreviewTextInput 在鼠标输入获得 \u0003"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: WPF
 ---
 
 我的小伙伴在写一个功能，需要获得输入的时候，判断是键盘输入或鼠标输入，通过 PreviewTextInput 获得键盘输入就做一些输出。

@@ -3,7 +3,7 @@ title: "C＃ Find vs FirstOrDefault"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: C#
 ---
 
 本文告诉大家，在获得数组第一个元素时，使用哪个方法性能更高。

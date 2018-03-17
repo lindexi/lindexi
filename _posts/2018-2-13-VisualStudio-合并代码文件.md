@@ -3,7 +3,7 @@ title: "VisualStudio 合并代码文件"
 author: lindexi
 date: 2018-2-13 17:23:3 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: VisualStudio
 ---
 
 如果有相同的类，一般可以使用 partial 让他写在多个文件，那么如何把多个文件合并？请看 MainWindow.xaml 和 MainWindow.xaml.cs 其中 代码文件被折叠，那么如何做代码的折叠
