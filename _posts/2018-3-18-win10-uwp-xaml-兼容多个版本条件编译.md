@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp xaml 兼容多个版本条件编译"
 author: lindexi
-date: 2018-3-18 16:14:26 +0800
+date: 2018-3-18 16:45:9 +0800
 CreateTime: 2018-3-18 15:37:54 +0800
 categories: Win10 UWP
 ---
@@ -146,6 +146,8 @@ IsApiContractPresent 是在当前系统和低于当前系统返回 true ，IsApi
 这样在新的系统就会使用 ColorPicker ，在以前的系统就会使用 ComboBox
 
 如果在一个绑定一个使用了 contract5Present 的控件，那么在绑定的属性需要使用 contract5Present 不然微软的 VisualStudio 不然让你使用。
+
+需要告诉大家，感觉说的 VisualStudio 在 Xaml 报告的错误，实际上这是Resharper的
 
 参见
 
