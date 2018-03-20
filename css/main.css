@@ -282,3 +282,89 @@ ul.pager {
 {
     display: none;
 }
+
+
+.box-item .box-body .categories a {
+    height: 1.25rem;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    color: #107a9b;
+    background: white;
+    padding: 0 .625rem;
+    display: inline-block;
+    margin: 0 .125rem .625rem 0;
+    z-index: 50;
+}
+
+.box-item .box-body .categories a:hover {
+    color: #141414;
+    background: #fff;
+    border-color: #fff
+}
+
+
+.post-content .category-title {
+    font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.375rem;
+    margin-top: 3.75rem;
+    width: auto;
+    max-width: 50rem;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.post-content .category-title::after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+
+@media only screen and (max-width:37.5rem) {
+    .post-content .category-title {
+        font-size: 1.875rem;
+        margin-top: 1.25rem;
+        padding: 0 1.25rem
+    }
+}
+
+.post-content .post-list {
+    list-style: none;
+    margin: 1.563rem auto;
+}
+
+@media only screen and (max-width:37.5rem) {
+    .post-content .post-list {
+        padding: 0 1.25rem
+    }
+}
+
+.post-content .post-list a {
+    display: block;
+    border-bottom: 1px solid #dadada;
+    padding: .625rem 0;
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    font-size: 1.125rem;
+}
+
+.post-content .post-list a:hover {
+    border-bottom: 1px solid #107a9b
+}
+
+.post-content .post-list .entry-date {
+    float: right;
+}
+
+@media only screen and (max-width:37.5rem) {
+    .post-content .post-list .entry-date {
+        display: none
+    }
+}
