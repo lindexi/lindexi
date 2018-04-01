@@ -1,7 +1,7 @@
 ---
 title: "安装 wordpress 出现 抱歉，我不能写入wp-config.php文件"
 author: lindexi
-date: 2018-3-2 14:27:35 +0800
+date: 2018-3-31 21:8:43 +0800
 CreateTime: 2018-3-2 12:54:7 +0800
 categories: 
 ---
@@ -11,7 +11,6 @@ categories:
 <!--more-->
 
 
-<!-- csdn -->
 
 ## 下载 wordpress
 

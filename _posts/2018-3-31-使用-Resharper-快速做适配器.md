@@ -1,7 +1,7 @@
 ---
 title: "使用 Resharper 快速做适配器"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-3-31 21:7:33 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Resharper
 ---
@@ -11,7 +11,6 @@ categories: Resharper
 <!--more-->
 
 
-<!-- csdn -->
 
 <!-- 标签：Resharper -->
 

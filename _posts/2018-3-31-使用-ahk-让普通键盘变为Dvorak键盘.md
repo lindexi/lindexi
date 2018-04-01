@@ -1,7 +1,7 @@
 ---
 title: "使用 ahk 让普通键盘变为Dvorak键盘"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-3-31 20:56:47 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: 
 ---
@@ -13,7 +13,6 @@ categories:
 <!--more-->
 
 
-<!-- csdn -->
 
 首先需要下载 ahk ，可以通过[AutoHotkey](https://autohotkey.com/)下载。
 
