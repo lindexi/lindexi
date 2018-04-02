@@ -48,6 +48,8 @@ permalink: /friends/
 
  - [wolfleave ](https://wolfleave.github.io/ )
 
+   传说的幸斌师兄
+
  - [Nullptr](http://blog.nullptr.top/ )  
 
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
