@@ -296,6 +296,37 @@ ul.pager {
     z-index: 50;
 }
 
+.categoriesa 
+{
+    font-size: .875rem;
+    color: white;
+    display: inline-block;
+    padding: 0 1.2rem;
+    margin-right: .25rem;
+    background: #107a9b;
+    line-height: 2rem;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.categorytitle
+{
+    font-family: 'Titillium Web','Helvetica Neue',Helvetica,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.375rem;
+    margin-top: 3.75rem;
+    width: auto;
+    max-width: 50rem;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .box-item .box-body .categories a:hover {
     color: #141414;
     background: #fff;

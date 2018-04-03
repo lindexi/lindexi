@@ -7,18 +7,18 @@ title: 按类别查找博客
 {% assign category_list = site.categories %}
   {% if category_list.first[0] == null %}
     {% for category in category_list %}
-        <a href="#{{ category | slugify }}">{{ category }}</a>
+        <a class="categoriesa" href="#{{ category | slugify }}">{{ category }}</a>
     {% endfor %}
   {% else %}
     {% for category in category_list %}
-        <a href="#{{ category[0] | slugify }}">{{ category[0] }}</a>
+        <a class="categoriesa" href="#{{ category[0] | slugify }}">{{ category[0] }}</a>
     {% endfor %}
   {% endif %}
 {% assign category_list = nil %}
 </div>
 
 {% for category in site.categories  %}
-    <span class="category-title" id="{{ category[0] | slugify }}">{{ category[0] }}</span>
+    <span class="categorytitle" id="{{ category[0] | slugify }}">{{ category[0] }}</span>
     <ul class="post-list">
         {% assign pages_list = category[1] %}
         {% for post in pages_list reversed %}
