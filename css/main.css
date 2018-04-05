@@ -310,6 +310,13 @@ ul.pager {
     transition: all .3s;
 }
 
+.categoriesa a:hover 
+{
+    color: #141414;
+    background: #fff;
+    border-color: #fff
+}
+
 .categorytitle
 {
     font-family: 'Titillium Web','Helvetica Neue',Helvetica,sans-serif;
