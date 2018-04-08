@@ -1,7 +1,7 @@
 ---
 title: "C＃ BBcode 转 Markdown"
 author: lindexi
-date: 2018-3-31 21:18:55 +0800
+date: 2018-4-8 19:47:36 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: C#
 ---
@@ -81,4 +81,6 @@ categories: C#
 转换其他的代码上传到 github ，如果是在我博客可以直接看到
 
 <script src="https://gist.github.com/lindexi/3ba74c909b23d6426c779d0a8eb435c3.js"></script>
+
+![](https://i.loli.net/2018/04/08/5ac9ffc7abb33.jpg)
 

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp release 因为 Entry Point Not Found 无法启动"
 author: lindexi
-date: 2018-4-7 14:27:41 +0800
+date: 2018-4-8 19:44:20 +0800
 CreateTime: 2018-4-6 11:47:31 +0800
 categories: Win10 UWP
 ---
@@ -41,4 +41,6 @@ categories: Win10 UWP
 但是如果不加上Release的本机工具那么就无法把包上传到商店，所以我还是更新了 VisualStudio 2017 15.6.5 然后重新创建一个空白工程，把图床的所有类放进去，居然重新生成就可以了。
 
 我对比了文件的不同，也没有找到哪个地方会编译不通过。所以建议大家升级 VisualStudio ，如果还是无法使用，就重新创建一个空白项目，如果空白项目可以使用。那么继续把类放进来。
+
+![](https://i.loli.net/2018/04/08/5ac9ff7657fb2.jpg)
 

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp xaml 兼容多个版本条件编译"
 author: lindexi
-date: 2018-3-18 16:45:9 +0800
+date: 2018-4-8 19:48:0 +0800
 CreateTime: 2018-3-18 15:37:54 +0800
 categories: Win10 UWP
 ---
@@ -154,4 +154,6 @@ IsApiContractPresent 是在当前系统和低于当前系统返回 true ，IsApi
 [Conditional XAML](https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/conditional-xaml )
 
 [UWP 判断系统版本](http://www.cnblogs.com/hupo376787/p/7766139.html )
+
+![](https://i.loli.net/2018/04/08/5ac9ffd774738.jpg)
 
