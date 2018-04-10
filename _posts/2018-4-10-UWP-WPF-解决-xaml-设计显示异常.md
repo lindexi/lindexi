@@ -1,7 +1,7 @@
 ---
 title: "UWP WPF 解决 xaml 设计显示异常"
 author: lindexi
-date: 2018-3-15 8:59:17 +0800
+date: 2018-4-10 19:7:24 +0800
 CreateTime: 2018-3-14 11:17:49 +0800
 categories: WPF UWP
 ---
@@ -21,7 +21,7 @@ categories: WPF UWP
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F201831585054.jpg)
 
-简单的方法是禁用项目代码，在左下角可以找到这个按钮
+简单的方法是禁用项目代码，在左下角可以找到这个按钮 禁用代码
 
 另一个方法是设置判断当前是否在设计，如果是就直接返回，一般写在构造函数
 
