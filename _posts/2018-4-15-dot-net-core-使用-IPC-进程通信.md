@@ -1,9 +1,9 @@
 ---
 title: "dot net core 使用 IPC 进程通信"
 author: lindexi
-date: 2018-4-11 9:36:25 +0800
+date: 2018-4-15 8:56:43 +0800
 CreateTime: 2018-4-11 8:22:12 +0800
-categories: 
+categories: dot net core 进程通信 IPC pipe-->
 ---
 
 本文告诉大家如何使用dot net core 和其他进程进行通信。
@@ -11,8 +11,7 @@ categories:
 <!--more-->
 
 
-<!-- csdn -->
-<!-- 标签 dot net core , 进程通信，IPC，pipe-->
+<!-- 标签: dot net core , 进程通信，IPC，pipe-->
 
 一般都是使用 WCF 或 remoting 做远程通信，但是 dot net core 不支持 WCF 所以暂时我就只能使用 管道通信。
 

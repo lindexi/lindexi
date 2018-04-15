@@ -1,7 +1,7 @@
 ---
 title: "WPF 在 Alt+Tab 隐藏窗口"
 author: lindexi
-date: 2018-3-3 10:0:30 +0800
+date: 2018-4-15 10:13:40 +0800
 CreateTime: 2018-3-1 11:32:9 +0800
 categories: WPF
 ---
@@ -19,7 +19,7 @@ categories: WPF
 ShowInTaskbar="False" Visibility="Hidden"
 ```
 
-但是如大家见到，如果存在 BitmapCache 和 一个隐藏的窗口，那么就会在锁屏之后软件无法渲染，请看[github](https://github.com/easiwin/wpf-issues/tree/master/BitmapCache) ，所以不要使用这个方法。那么除了这个方法外还有什么方法？
+但是如大家见到，如果存在 BitmapCache 和 一个隐藏的窗口，那么就会在锁屏之后软件无法渲染，请看[github](https://github.com/dotnet-campus/wpf-issues/tree/master/BitmapCache) ，所以不要使用这个方法。那么除了这个方法外还有什么方法？
 
 实际上在切换窗口不显示窗口要求窗口是：`WS_EX_TOOLWINDOW` 或其他窗口的子窗口，但是可以看到 Toast 不是其他窗口的子窗口，所以只能设置窗口。
 

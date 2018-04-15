@@ -1,9 +1,9 @@
 ---
 title: "dot net core 使用 usb"
 author: lindexi
-date: 2018-4-14 16:0:57 +0800
+date: 2018-4-14 16:37:35 +0800
 CreateTime: 2018-4-14 15:22:47 +0800
-categories: dot-net-core usb
+categories: dot-net-core usb dotnet
 ---
 
 本文告诉大家如何在 dot net core 使用 usb
@@ -12,7 +12,7 @@ categories: dot-net-core usb
 
 
 <!-- csdn -->
-<!-- 标签：dot-net-core,usb -->
+<!-- 标签：dot-net-core,usb,dotnet -->
 <div id="toc"></div>
 
 首先需要打开 Nuget 安装 CoreCompat.LibUsbDotNet ，这是一个usb连接的库。
