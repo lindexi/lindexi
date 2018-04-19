@@ -1,7 +1,7 @@
 ---
-title: "WPF 使用 Direct2D1 画图"
+title: "WPF 使用 Direct2D1 画图入门"
 author: lindexi
-date: 2018-4-19 9:10:30 +0800
+date: 2018-4-19 9:40:43 +0800
 CreateTime: 2018-4-18 20:46:45 +0800
 categories: WPF D2D DirectX
 ---
@@ -12,6 +12,7 @@ categories: WPF D2D DirectX
 
 
 <!-- csdn -->
+<div id="toc"></div>
 <!-- 标签：WPF，D2D,DirectX -->
 
 ## 什么是 D2D
