@@ -1,7 +1,7 @@
 ---
 title: "dot net core 使用 IPC 进程通信"
 author: lindexi
-date: 2018-4-15 8:56:43 +0800
+date: 2018-4-20 8:45:49 +0800
 CreateTime: 2018-4-11 8:22:12 +0800
 categories: dot net core 进程通信 IPC pipe-->
 ---
@@ -224,4 +224,6 @@ Serializer.Serialize(pipe, 实例);
             Console.Read();
         }
 ```
+
+如果使用 wcf 请看 [.NET Core调用WCF的最佳实践](https://www.cnblogs.com/lishilei0523/archive/2018/04/19/8886483.html )
 
