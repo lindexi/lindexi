@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Direct2D1 画图入门"
 author: lindexi
-date: 2018-4-19 9:40:43 +0800
+date: 2018-4-20 10:53:2 +0800
 CreateTime: 2018-4-18 20:46:45 +0800
 categories: WPF D2D DirectX
 ---
@@ -14,6 +14,14 @@ categories: WPF D2D DirectX
 <!-- csdn -->
 <div id="toc"></div>
 <!-- 标签：WPF，D2D,DirectX -->
+
+本文是一个系列
+
+ - [WPF 使用 Direct2D1 画图入门](https://lindexi.oschina.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8-Direct2D1-%E7%94%BB%E5%9B%BE%E5%85%A5%E9%97%A8.html )
+
+ - [WPF 使用 Direct2D1 画图 绘制基本图形](https://lindexi.oschina.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8-Direct2D1-%E7%94%BB%E5%9B%BE-%E7%BB%98%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%9B%BE%E5%BD%A2.html )
+
+ - [WPF 使用 SharpDX](https://lindexi.oschina.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8-SharpDX.html )
 
 ## 什么是 D2D
 
