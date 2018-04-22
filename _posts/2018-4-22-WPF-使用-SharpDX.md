@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDX"
 author: lindexi
-date: 2018-4-20 10:52:13 +0800
+date: 2018-4-22 9:36:13 +0800
 CreateTime: 2018-4-20 9:17:0 +0800
 categories: WPF D2D DirectX SharpDX
 ---
@@ -22,6 +22,8 @@ categories: WPF D2D DirectX SharpDX
  - [WPF 使用 Direct2D1 画图 绘制基本图形](https://lindexi.oschina.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8-Direct2D1-%E7%94%BB%E5%9B%BE-%E7%BB%98%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%9B%BE%E5%BD%A2.html )
 
  - [WPF 使用 SharpDX](https://lindexi.oschina.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8-SharpDX.html )
+
+ - [WPF 使用 SharpDX 在 D3DImage 显示](https://lindexi.gitee.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8-SharpDX-%E5%9C%A8-D3DImage-%E6%98%BE%E7%A4%BA.html )  
 
 先介绍一下 SharpDx ，一个底层封装的 DirectX 库，支持 AnyCpu ，支持 Direct3D9, Direct3D11, Direct3D12，Direct2D1。支持 win32 程序和商店程序。
 
