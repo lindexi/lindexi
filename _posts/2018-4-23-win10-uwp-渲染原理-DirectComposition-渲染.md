@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 渲染原理 DirectComposition 渲染"
 author: lindexi
-date: 2018-4-23 8:43:3 +0800
+date: 2018-4-23 14:1:27 +0800
 CreateTime: 2018-4-16 11:38:37 +0800
 categories: UWP DirectComposition win2d
 ---
@@ -30,7 +30,7 @@ categories: UWP DirectComposition win2d
 
 在 UWP 可以通过下面几个方式显示界面
 
- - 通过 xaml 或者后台新建控件显示。这是最推荐的方法，本文下面的方法是不推荐的，但是可以让大家知道原理。使用 xaml 显示的元素一般都是继承 UIElement ，创建买的元素可以带交互。
+ - 通过 xaml 或者后台新建控件显示。这是最推荐的方法，本文下面的方法是不推荐的，但是可以让大家知道原理。使用 xaml 显示的元素一般都是继承 UIElement ，创建出来的元素可以带交互。
 
  - 如果需要高性能的画图，通过 win2d 是一个很好的方法。大家也知道创建的win2d只是显示，不会有交互，如果需要交互需要自己写。虽然写一个交互很简单，但是如果没有使用框架，重复代码很多。
 

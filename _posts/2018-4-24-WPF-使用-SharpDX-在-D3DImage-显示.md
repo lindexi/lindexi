@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDX 在 D3DImage 显示"
 author: lindexi
-date: 2018-4-22 9:36:54 +0800
+date: 2018-4-24 8:53:29 +0800
 CreateTime: 2018-4-21 16:36:20 +0800
 categories: WPF D2D DirectX SharpDX
 ---
@@ -304,6 +304,29 @@ using D3D9 = SharpDX.Direct3D9;
 建议复制一下我的代码，在自己的vs粘贴，尝试跑一下，然后继续看博客。
 
 所有代码
+
+前台界面只有一个控件
+
+```csharp
+        xmlns:interop="clr-namespace:System.Windows.Interop;assembly=PresentationCore"
+        
+            <Image x:Name="DcwtTmmwvcr">
+                <Image.Source>
+                    <interop:D3DImage x:Name="KsyosqStmckfy"></interop:D3DImage>
+                </Image.Source>
+            </Image>
+```
+
+先添加 引用
+
+```csharp
+using D2D = SharpDX.Direct2D1;
+using SharpDX.Direct3D;
+using SharpDX.Mathematics.Interop;
+using DXGI = SharpDX.DXGI;
+using D3D11 = SharpDX.Direct3D11;
+using D3D9 = SharpDX.Direct3D9;
+```
 
 ```csharp
     public partial class MainWindow : Window
