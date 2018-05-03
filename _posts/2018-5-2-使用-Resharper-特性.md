@@ -1,7 +1,7 @@
 ---
 title: "使用 Resharper 特性"
 author: lindexi
-date: 2018-4-26 9:25:1 +0800
+date: 2018-5-2 14:8:18 +0800
 CreateTime: 2018-4-25 11:28:2 +0800
 categories: resharper
 ---
@@ -84,9 +84,17 @@ categories: resharper
 
 如果使用这个参数写了 `{0}` 就会告诉你需要参数，如果写的数值很多，那么就会告诉你需要写多少输入。
 
+## UsedImplicitlyAttribute
+
+表示一个函数、属性是不被显式使用，如反射或其他方式使用，标记了这个特性就不会说接口没有被使用。
+
+## MeansImplicitUseAttribute
+
+让一个函数、属性不会被认为没有 unused ，标记了就会因为不被使用警告。这个特性效果和 UsedImplicitlyAttribute 差不多。
+
 ## NotifyPropertyChangedInvocatorAttribute
 
-这个用在 WPF 的通知，表示一个函数是用来通知值更新的。一般用在 OnPropertyChanged ，自动帮你添加。
+这个用在 WPF 的通知，表示一个函数是用来通知值更新的。这个特性用在 OnPropertyChanged ，自动帮你添加。
 
 ## ValueProviderAttribute
 

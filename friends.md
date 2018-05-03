@@ -8,7 +8,7 @@ permalink: /friends/
 
    这是我师傅
 
- - [泰琪 http://gandalfliang.me/](http://gandalfliang.me/)
+ - [泰琪 https://gandalfliang.github.io/](https://gandalfliang.github.io/)
 
    对d3d有很深的研究
 
@@ -18,7 +18,7 @@ permalink: /friends/
 
  - [陈浩翔 http://chenhaoxiang.cn/](http://chenhaoxiang.cn/ )
 
- - [easiwin](https://easiwin.github.io/)
+ - [dotnet职业技术学院](https://dotnet-campus.github.io/)
 
    这是我所在的组织
 
@@ -99,6 +99,10 @@ permalink: /friends/
  - [Moe](https://sunnycase.moe/ ) 
 
    WPF 大神
+
+ - [陈计节的博客](https://blog.jijiechen.com/post/ ) 
+ 
+   dotnet core 大神 
 
 ## 国内博客
 
@@ -208,6 +212,8 @@ permalink: /friends/
 
  - [珂珂的个人博客 - 一个程序猿的个人网站](http://kecq.com/)
 
+ - [毛利的技术小站](https://mourinaruto.github.io/?file=Home ) C++ 大神研究 windows 原理
+
 ## 国外博客
 
  - [Font Awesome Icons](http://fontawesome .io/icons/)
@@ -226,4 +232,4 @@ permalink: /friends/
  - http://juniperphoton.net/
  - [justinxinliu](https://stackoverflow.com/users/231837/justin-xl) 堆栈网25k大神
  - [Ben Cull's Blog](http://benjii.me/ ) asp 大神
- 
+ - [Kenny Kerr ](https://kennykerr.ca/ ) C++ WINRT 加拿大微软团队

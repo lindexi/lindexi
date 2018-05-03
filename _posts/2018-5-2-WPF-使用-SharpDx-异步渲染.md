@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDx 异步渲染"
 author: lindexi
-date: 2018-5-1 21:16:26 +0800
+date: 2018-5-2 16:5:33 +0800
 CreateTime: 2018-5-1 20:33:10 +0800
 categories: WPF D2D DirectX SharpDX
 ---
@@ -492,6 +492,14 @@ protected abstract void OnRender(SharpDX.Direct2D1.RenderTarget renderTarget);
     }
 
 ```
+
+特别感谢 
+
+[Direct2D - 随笔分类 - 万仓一黍 - 博客园](http://www.cnblogs.com/grenet/category/507059.html )
+
+[Direct2D - 随笔分类 - 万一 - 博客园](http://www.cnblogs.com/del/category/290814.html )
+
+[Direct2D - 随笔分类 - zdd - 博客园](http://www.cnblogs.com/graphics/category/412802.html )
 
 
 

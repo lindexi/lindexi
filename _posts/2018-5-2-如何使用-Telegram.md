@@ -1,7 +1,7 @@
 ---
 title: "如何使用 Telegram"
 author: lindexi
-date: 2018-4-5 10:28:47 +0800
+date: 2018-5-2 14:48:2 +0800
 CreateTime: 2018-2-21 11:13:48 +0800
 categories: 软件 Telegram 聊天软件
 ---
@@ -40,4 +40,10 @@ Telegram是一款加密的实时通讯软件，本文告诉大家如何使用 �
 或者直接复制下面的代码：[tg://socks?server=tg1.ssrr.cloud&port=80&user=user&pass=passwd](tg://socks?server=tg1.ssrr.cloud&port=80&user=user&pass=passwd) 发送到 Telegram 然后点击这个链接 
 
 欢迎大家参加 UWP 开发的组 [https://t.me/joinchat/ILgVXw88t3d0VxrpHG6pZA](https://t.me/joinchat/ILgVXw88t3d0VxrpHG6pZA)
+
+直接点击下面链接可以设置 Telegram ，如果发现无法设置，请告诉我
+
+[tg://socks?server=139.199.3.190&port=23333&user=playssr.tk&pass=playssr.tk](tg://socks?server=139.199.3.190&port=23333&user=playssr.tk&pass=playssr.tk)
+
+[tg://socks?server=140.82.3.212&port=998&user=dogess.xyz&pass=free](tg://socks?server=140.82.3.212&port=998&user=dogess.xyz&pass=free)
 
