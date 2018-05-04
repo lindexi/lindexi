@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDX 在 D3DImage 显示"
 author: lindexi
-date: 2018-4-24 11:7:42 +0800
+date: 2018-5-4 21:34:29 +0800
 CreateTime: 2018-4-21 16:36:20 +0800
 categories: WPF D2D DirectX SharpDX
 ---
@@ -26,6 +26,8 @@ categories: WPF D2D DirectX SharpDX
  - [WPF 使用 SharpDX 在 D3DImage 显示](https://lindexi.gitee.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8-SharpDX-%E5%9C%A8-D3DImage-%E6%98%BE%E7%A4%BA.html ) 
 
  - [WPF 使用封装的 SharpDx 控件](https://lindexi.oschina.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8%E5%B0%81%E8%A3%85%E7%9A%84-SharpDx-%E6%8E%A7%E4%BB%B6.html )
+
+ - [WPF 使用 SharpDx 异步渲染](https://lindexi.oschina.io/lindexi/post/WPF-%E4%BD%BF%E7%94%A8-SharpDx-%E5%BC%82%E6%AD%A5%E6%B8%B2%E6%9F%93.html )
 
 如果只是使用 SharpDX 使用窗口渲染，就无法使用其它的 WPF 控件，实际使用经常只是使用 SharpDX 加快一些渲染，很多元素都是不需要。
 
