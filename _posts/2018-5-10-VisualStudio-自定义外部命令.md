@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 自定义外部命令"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-5-10 10:12:25 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: VisualStudio
 ---
@@ -28,7 +28,7 @@ categories: VisualStudio
 |des|Title|Command|Arguments|Initial directory|
 |--|--|--|--|
 |在此仓库运行| Git Bash|	`C:\Program Files\Git\git-bash.exe`|	`"--cd=$(SolutionDir)/.."`|	`"$(SolutionDir)/.."`|
-|在资源管理器中打开仓库|	`C:\Windows\explorer.exe`	|`/select,"$(SolutionDir)\.."`|	`"$(SolutionDir)\.."`|
+|在资源管理器中打开仓库|	`C:\Windows\explorer.exe`	|`/select,"$(SolutionDir)\."`|	`"$(SolutionDir)\."`|
 |追溯这个文件|	`C:\Program Files\TortoiseGit\bin\TortoiseGitBlame.exe`|	`"$(ItemPath)"` |`/line:$(CurLine)`	|`"$(ItemDir)"`|
 |显示此文件的日志|	`C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe`|	`/command:log /path:"$(ItemPath)"`	|`"$(ItemDir)"`|
 
