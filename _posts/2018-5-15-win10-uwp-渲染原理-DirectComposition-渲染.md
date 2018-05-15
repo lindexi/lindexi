@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 渲染原理 DirectComposition 渲染"
 author: lindexi
-date: 2018-4-23 14:1:27 +0800
+date: 2018-5-15 14:29:19 +0800
 CreateTime: 2018-4-16 11:38:37 +0800
 categories: UWP DirectComposition win2d
 ---
@@ -14,7 +14,7 @@ categories: UWP DirectComposition win2d
 <!-- csdn -->
 <div id="toc"></div>
 
-<!-- 标签：uwp,DirectComposition，win2d, -->
+<!-- 标签：uwp,DirectComposition，win2d -->
 
 在 Windows  Vista 就引入了一个服务，桌面窗口管理器[Desktop Window Manager](https://msdn.microsoft.com/en-us/library/windows/desktop/aa969540(v=vs.85).aspx )，虽然从[借助 C++ 进行 Windows 开发](https://msdn.microsoft.com/magazine/dn745861 )博客可以看到 DWM 不是一个好的方法，但是比之前好。
 
