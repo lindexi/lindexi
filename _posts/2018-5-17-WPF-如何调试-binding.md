@@ -1,13 +1,13 @@
 ---
 title: "WPF 如何调试 binding"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-5-17 15:44:51 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: WPF
+categories: WPF WPF调试 调试
 ---
 
 如果是写在 xaml 的绑定，很难看到是那里出错
-如何做vs 调试 binding？
+如何做 vs 调试 binding？
 
 <!--more-->
 
@@ -16,9 +16,11 @@ categories: WPF
 <div id="toc"></div>
 <!-- csdn -->
 
+<!-- 标签：WPF，WPF调试，调试 -->
+
 如果界面很简单，当时忽然就和想的不一样，无论如何做都不会反应，但是难以知道是在哪写错，输出也没有显示，那么这时需要如何做？
 
-可以在 binding 输出很多关于他如何做的 
+可以在 binding 输出很多关于他如何做的，如何寻找绑定的数据，绑定是如何创建的
 
 首先引用
 
@@ -27,7 +29,7 @@ categories: WPF
 
 ```
 
-然后在binding里写 trace:PresentationTraceSources.TraceLevel=High
+然后在binding里写 `trace:PresentationTraceSources.TraceLevel=High`
 
 我在一个复杂的界面，很难知道是不是在哪写错，于是代码如下
 
@@ -38,9 +40,17 @@ categories: WPF
                    
 ```
 
+如果这个 binding 是在后台代码创建，那么请使用下面代码，这里 BakooteZuroolu 是一个 TextBlock ，把他的 Text 绑定到  KasxoujarGayher ，可以看到代码很少。
 
+```csharp
+            var binding = new Binding(nameof(ViewModel.KasxoujarGayher));
 
-就可以看到
+            PresentationTraceSources.SetTraceLevel(binding, PresentationTraceLevel.High);
+
+            BindingOperations.SetBinding(BakooteZuroolu, TextBlock.TextProperty, binding);
+```
+
+运行打开就可以看到输出这些代码
 
 
 ```csharp
