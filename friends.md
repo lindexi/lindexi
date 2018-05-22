@@ -104,6 +104,10 @@ permalink: /friends/
  
    dotnet core 大神 
 
+ - [一起帮](http://17bang.ren/ )  
+
+   一对一远程互助平台，有什么问题可以在这里问
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
