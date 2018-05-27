@@ -1,7 +1,7 @@
 ---
 title: "WPF 封装 dotnet remoting 调用其他进程"
 author: lindexi
-date: 2018-5-19 15:21:29 +0800
+date: 2018-5-26 16:52:22 +0800
 CreateTime: 2018-5-19 8:57:17 +0800
 categories: WPF dotnetremoting rpc
 ---
@@ -273,6 +273,8 @@ categories: WPF dotnetremoting rpc
 ```
 
 注意现在的代码存在很多类没有引用
+
+从上面代码可以看到，这里使用的连接是 IPC ，因为调用其他进程是在同一个电脑，所以这时使用 IPC 的效率会比 http 和 tcp 高。原因是 IPC 是进程间通信，效率和内存共享差不多。而使用 http 或 tcp 需要把信息发送给本地巡回，然后再返回。而且使用 http 需要做额外的过程，需要走 http 的协议。使用 tcp 需要使用握手，性能都比 IPC 差。
 
 ## 运行的类
 

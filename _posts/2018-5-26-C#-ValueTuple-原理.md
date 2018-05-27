@@ -1,7 +1,7 @@
 ---
 title: "C# ValueTuple 原理"
 author: lindexi
-date: 2018-2-24 12:57:26 +0800
+date: 2018-5-26 16:42:39 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: C# 原理
 ---
@@ -11,12 +11,11 @@ categories: C# 原理
 <!--more-->
 
 
-<!-- csdn -->
 <div id="toc"></div>
 
 <!-- 标签：C#，原理 -->
 
-虽然 ValueTuple 的很好用，但是需要知道他有两个地方都是在用的时候需要知道他原理。
+虽然 ValueTuple 的很好用，但是需要知道他有两个地方都是在用的时候需要知道他原理。如果不知道原理，可能就发现代码和预期不相同
 
 ## json 转换
 
@@ -55,7 +54,7 @@ categories: C# 原理
 
 不需要安装反编译软件，可以使用这个[网站](https://sharplab.io/)拿到反编译
 
-可以看到Foo被编译
+可以看到Foo被编译为 TupleElementNames 特性的两个字符串
 
 ```csharp
     [return: TupleElementNames(new string[]
@@ -69,7 +68,7 @@ categories: C# 原理
     }
 ```
 
-所以实际上代码是 `ValueTuple<string, string> ` 不是刚才定义的，只是通过 TupleElementNames 让编译器知道值
+所以实际上代码是 `ValueTuple<string, string> ` 不是刚才定义的代码，只是通过 TupleElementNames 让编译器知道值，所以是语法糖。
 
 IL 代码是 
 
@@ -129,7 +128,7 @@ private hidebysig static valuetype [mscorlib]System.ValueTuple`2<string, string>
 
 运行出现 RuntimeBinderException 异常，因为没有发现 `name` 属性
 
-实际上对比下面
+实际上对比下面匿名类，也就是很差不多写法。
 
 ```csharp
         dynamic foo = new { name = "lindexi", site = "blog.csdn.net/lindexi_gd" };
@@ -150,7 +149,7 @@ private hidebysig static valuetype [mscorlib]System.ValueTuple`2<string, string>
 
 但是这个值，在看的时候，几乎说不出他的属性
 
-第二个需要知道的，ValueTuple 是值类型，所以他的默认值不是 null 而是 `default(xx)`，在C# 7.2 支持使用关键字，所以不需要去写 xx
+第二个需要知道的，ValueTuple 是值类型，所以他的默认值不是 null 而是 `default(xx)`，在C# 7.2 支持使用关键字，所以不需要去写 `defalut(xx,xx)`
 
 关于 ValueTuple 变量名的定义也是很难说的，有的小伙伴觉得需要使用 Axx 的方式命名，但是很多小伙伴觉得使用 aaBa 的命名更好，所以暂时对于他的命名，大家觉得什么方式好请告诉我
 
