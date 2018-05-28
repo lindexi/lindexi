@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp dataGrid"
 author: lindexi
-date: 2018-5-27 19:53:12 +0800
+date: 2018-5-27 19:53:37 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
@@ -173,7 +173,7 @@ xaml：
 
 请看：[DataGrid XAML Control - Windows Community Toolkit](https://docs.microsoft.com/en-us/windows/uwpcommunitytoolkit/controls/datagrid )
 
-
+[DataGrid](https://docs.microsoft.com/en-us/previous-versions/windows/silverlight/dotnet-windows-silverlight/cc189753(v=vs.95) )
 
 ## 表格控件
 
