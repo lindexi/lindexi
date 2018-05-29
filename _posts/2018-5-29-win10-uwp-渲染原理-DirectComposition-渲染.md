@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 渲染原理 DirectComposition 渲染"
 author: lindexi
-date: 2018-5-15 14:29:19 +0800
+date: 2018-5-29 8:48:32 +0800
 CreateTime: 2018-4-16 11:38:37 +0800
 categories: UWP DirectComposition win2d
 ---
@@ -11,7 +11,6 @@ categories: UWP DirectComposition win2d
 <!--more-->
 
 
-<!-- csdn -->
 <div id="toc"></div>
 
 <!-- 标签：uwp,DirectComposition，win2d -->
