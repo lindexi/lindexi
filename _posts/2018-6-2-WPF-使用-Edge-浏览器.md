@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Edge 浏览器"
 author: lindexi
-date: 2018-6-2 11:4:56 +0800
+date: 2018-6-2 11:18:49 +0800
 CreateTime: 2018-6-1 17:45:34 +0800
 categories: WPF
 ---
@@ -188,6 +188,23 @@ categories: WPF
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/lindexi%2F20186211323328)
 
 我尝试使用 `Panel.ZIndex` 但是无法修改顺序
+
+最简单的方法是对比一下原来的浏览器和新的浏览器
+
+```csharp
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="337*" />
+            <ColumnDefinition Width="456*" />
+        </Grid.ColumnDefinitions>
+
+        <wpf:WebView x:Name="WebView" Grid.Column="0" Source="https://lindexi.gitee.io" />
+
+        <WebBrowser Grid.Column="1" Source="https://huangtengxiao.gitee.io/" />
+    </Grid>
+```
+
+可以看到新的浏览器还是比以前的好很多
 
 参见：[Windows Community Toolkit 3.0 新功能 在WinForms 和 WPF 使用 UWP 控件 - CSDN博客](https://blog.csdn.net/lindexi_gd/article/details/80533053 )
 
