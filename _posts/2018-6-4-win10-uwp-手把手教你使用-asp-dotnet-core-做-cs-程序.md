@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 手把手教你使用 asp dotnet core 做 cs 程序"
 author: lindexi
-date: 2018-6-3 15:57:16 +0800
+date: 2018-6-4 16:12:11 +0800
 CreateTime: 2018-6-3 9:51:33 +0800
 categories: Win10 UWP dotnet
 ---
@@ -41,6 +41,8 @@ categories: Win10 UWP dotnet
 <!-- ![](image/win10 uwp 手把手教你使用 asp dotnet core 做 cs 程序/win10 uwp 手把手教你使用 asp dotnet core 做 cs 程序4.png) -->
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/lindexi%2F201863101016355)
+
+如果完全没有开发过 UWP 程序，那么请看[win10 uwp 如何开始写 uwp 程序 - CSDN博客](https://blog.csdn.net/lindexi_gd/article/details/80373159 )
 
 ### dotnet standard 
 
