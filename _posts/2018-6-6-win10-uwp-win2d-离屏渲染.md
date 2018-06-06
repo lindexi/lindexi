@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp win2d 离屏渲染"
 author: lindexi
-date: 2018-6-5 9:3:24 +0800
+date: 2018-6-6 16:54:28 +0800
 CreateTime: 2018-5-29 11:6:30 +0800
 categories: UWP win2d
 ---
@@ -188,4 +188,6 @@ categories: UWP win2d
 注意，暗影吉他手告诉我，在 Button_OnClick 的第一句话`CanvasDevice device = CanvasDevice.GetSharedDevice();`，使用 `CanvasDevice.GetSharedDevice()` 是错误写法。在`CanvasControl_OnDraw`里面使用用这个device创建的 CanvasRenderTarget 会弹 `0x88990012` 异常(Objects used together must be created from the same factory instance)。应该在CreateResources里面得到device。在我的设备上面的代码是可以运行，所以暂时不修改。
 
 多谢暗影吉他手发现问题
+
+参见：[Win2D 官方文章系列翻译 - 幕后绘制 - void² - 博客园](https://www.cnblogs.com/validvoid/p/win2d-offscreen-drawing.html )
 

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp win2d 入门 看这一篇就够了"
 author: lindexi
-date: 2018-6-3 9:46:28 +0800
+date: 2018-6-6 17:0:52 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: UWP win2d
 ---
@@ -402,6 +402,8 @@ draw.DrawLine（x1，y1，x2，y2，颜色）
 
 建议使用这个方法创建资源，在加载图片的时候使用这个方法，而不是上面的等待。
 
+资源的创建会发生的另一个触发是丢失设备，关于丢失设备请看[Win2D 官方文章系列翻译 - 处理设备丢失 - void² - 博客园](https://www.cnblogs.com/validvoid/p/win2d-handling-device-lost.html )
+
 ## 设置 win2d 背景
 
 win2d 会忽略在 xaml 设置的背景，如果使用 Background = xx 的方法设置背景，会在 win2d 忽略
@@ -426,6 +428,8 @@ win2d 会忽略在 xaml 设置的背景，如果使用 Background = xx 的方法
             sender.ClearColor = Colors.White;
 
 ```
+
+关于 Alpha 请看 [Win2D 官方文章系列翻译 - 预乘 Alpha - void² - 博客园](https://www.cnblogs.com/validvoid/p/win2d-premultiplied-alpha.html )
 
 ## 特效
 
@@ -577,6 +581,8 @@ win2d 会忽略在 xaml 设置的背景，如果使用 Background = xx 的方法
 ## 其他博客
 
 [鱼哥的 win2d 知乎专栏](https://zhuanlan.zhihu.com/p/37101680 )
+
+[void](https://validvoid.net/ )
 
 win2d 毛玻璃：[win10 uwp 毛玻璃](https://lindexi.gitee.io/post/win10-uwp-%E6%AF%9B%E7%8E%BB%E7%92%83.html )
 
