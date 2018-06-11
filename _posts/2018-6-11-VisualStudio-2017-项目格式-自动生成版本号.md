@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 2017 项目格式 自动生成版本号"
 author: lindexi
-date: 2018-6-11 20:28:58 +0800
+date: 2018-6-11 20:43:17 +0800
 CreateTime: 2018-6-10 11:33:35 +0800
 categories: VisualStudio
 ---
@@ -64,6 +64,14 @@ categories: VisualStudio
     <PackageReference Include="MSBuild.Sdk.Extras" Version="1.5.4" />
   </ItemGroup>
 </Project>
+```
+
+因为 `bin\$(Configuration)\$(TargetFramework)` 可以使用 `$(OutputPath)` 替换，上面的代码可以修改为
+
+```csharp
+   <PropertyGroup>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
 ```
 
 ## 防止警告生成的文件
