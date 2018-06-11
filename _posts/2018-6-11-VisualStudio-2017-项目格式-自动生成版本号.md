@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 2017 项目格式 自动生成版本号"
 author: lindexi
-date: 2018-6-11 8:54:31 +0800
+date: 2018-6-11 20:28:58 +0800
 CreateTime: 2018-6-10 11:33:35 +0800
 categories: VisualStudio
 ---
@@ -112,5 +112,5 @@ categories: VisualStudio
 
 参见：[Roland Weigelt - How to Disable Warnings in Generated C# Files of UWP Apps](https://weblogs.asp.net/rweigelt/disable-warnings-in-generated-c-files-of-uwp-app )
 
-
+![](http://7xqpl8.com1.z0.glb.clouddn.com/lindexi%2F20186112028468851.jpg)
 
