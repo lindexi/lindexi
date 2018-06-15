@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp json"
 author: lindexi
-date: 2018-3-14 8:35:28 +0800
+date: 2018-6-15 16:55:19 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
@@ -26,10 +26,13 @@ categories: Win10 UWP
 
 如果我们拿到一段json，请看下面
 
-```csharp
+```json
 {
-  "results": [{
-    "location": {
+  "results": 
+  [
+  {
+    "location": 
+    {
       "id": "WX4FBXXFKE4F",
       "name": "北京",
       "country": "CN",
@@ -37,7 +40,9 @@ categories: Win10 UWP
       "timezone": "Asia/Shanghai",
       "timezone_offset": "+08:00"
     },
-    "daily": [{      
+    "daily": 
+    [
+    {      
       "date": "2015-09-20",           
       "text_day": "多云",              
       "code_day": "4",                 
@@ -50,7 +55,8 @@ categories: Win10 UWP
       "wind_direction_degree": "255",   
       "wind_speed": "9.66",            
       "wind_scale": ""                 
-    }, {
+    },
+     {
       "date": "2015-09-21",
       "text_day": "晴",
       "code_day": "0",
@@ -63,9 +69,8 @@ categories: Win10 UWP
       "wind_direction_degree": "157",
       "wind_speed": "17.7",
       "wind_scale": "3"
-    }, {
-    }],
-    "last_update": "2015-09-20T18:00:00+08:00" 
+    }, 
+    "last_update": "2015-09-20T18:00:00+08:00"
   }]
 }
 ```
@@ -154,17 +159,23 @@ categories: Win10 UWP
 
 ```csharp
 JsonArray root = JsonValue.Parse(jsonString).GetArray();  
-for (uint i = 0; i < root.Count; i++) {  
+for (uint i = 0; i < root.Count; i++) 
+{  
     string name1 = root.GetObjectAt(i).GetNamedString("name");  
     string description1 = root.GetObjectAt(i).GetNamedString("description");  
     string link1 = root.GetObjectAt(i).GetNamedString("link");  
     string cat1 = root.GetObjectAt(i).GetNamedString("cat");  
     string image1 = root.GetObjectAt(i).GetNamedString("image");  
-    var chan = new RootObject {  
-        name = name1, cat = cat1, description = description1, image = image1, link = link1  
+    var chan = new RootObject 
+    {  
+        name = name1, 
+        cat = cat1, 
+        description = description1, 
+        image = image1, 
+        link = link1  
     };  
     obs_channels.Add(chan);  
-}); 
+}
 
 ```
 
