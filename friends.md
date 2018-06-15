@@ -74,8 +74,6 @@ permalink: /friends/
 
  - [Leonn https://liyuans.com](https://liyuans.com)
 
- - [songshizhao www.songshizhao.com](http://www.songshizhao.com)
-
  - [(/≧▽≦/)咦！又好了！ Dreamwings – 继续踏上旅途，在没有你的春天……](https://www.dreamwings.cn/ )
 
   - [老李拉面馆](http://wicrosoft.ml/ ) UWP 大神
@@ -107,6 +105,8 @@ permalink: /friends/
  - [一起帮](http://17bang.ren/ )  
 
    一对一远程互助平台，有什么问题可以在这里问
+
+ - [我是卧底](https://www.songshizhao.com/blog/blogPage/507.html )  
 
 ## 国内博客
 
