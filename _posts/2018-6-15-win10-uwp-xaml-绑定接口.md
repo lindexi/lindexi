@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp xaml 绑定接口"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-6-15 21:7:19 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
@@ -11,7 +11,6 @@ categories: Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
 
 早上[快乐 就在你的心](https://kljzndx.github.io/My-Blog/ )问了我一个问题，他使用的属性是显式继承，但是无法在xaml绑定
 
