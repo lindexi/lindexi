@@ -1,7 +1,7 @@
 ---
 title: "git 使用 VisualStudio 比较分支更改"
 author: lindexi
-date: 2018-4-29 9:50:53 +0800
+date: 2018-6-17 17:51:19 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: git
 ---
@@ -71,6 +71,10 @@ git config --global merge.tool visualstudio
 ```
 
 需要修改自己的文件所在，一般可以搜索找到。
+
+如果想使用一个简单的方法，可以打开 VisualStudio 团队设置，然后设置使用 VisualStudio 
+
+![](http://7xqpl8.com1.z0.glb.clouddn.com/623b6fff-6d11-0112-9b3c-6b76f86a3bea%2F2017111423046.jpg)
 
 ## 忽略对比的文件夹
 
