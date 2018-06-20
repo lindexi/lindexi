@@ -1,7 +1,7 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 控制台创建 Sharpdx 窗口"
 author: lindexi
-date: 2018-6-20 8:39:1 +0800
+date: 2018-6-20 15:2:36 +0800
 CreateTime: 2018-6-18 21:16:2 +0800
 categories: D2D DirectX SharpDX
 ---
@@ -172,6 +172,8 @@ using SharpDX.Windows;
     }
 
 ```
+
+虽然已经创建窗口，但是现在还没有内容，在下一篇，我将会告诉大家如何在这个窗口修改颜色。更多SharpDx博客请到[SharpDX 系列](https://lindexi.github.io/lindexi/post/sharpdx.html )
 
 参见：[SharpDX Beginners Tutorial Part 1: Setting up a SharpDX project in Visual Studio 2013 - Johan Falk](http://www.johanfalk.eu/blog/sharpdx-tutorial-part-1-setting-up-a-sharpdx-project-in-visual-studio-2013 )
 
