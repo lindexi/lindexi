@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: SharpDX
+categories: sharpdx
 title: SharpDX 系列
-permalink: /posts/SharpDX
+permalink: /post/SharpDx.html
 ---
