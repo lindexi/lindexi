@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 手把手教你使用 asp dotnet core 做 cs 程序"
 author: lindexi
-date: 2018-6-4 16:12:11 +0800
+date: 2018-6-19 14:14:39 +0800
 CreateTime: 2018-6-3 9:51:33 +0800
 categories: Win10 UWP dotnet
 ---
@@ -12,7 +12,6 @@ categories: Win10 UWP dotnet
 <!--more-->
 
 
-<!-- csdn -->
 
 <div id="toc"></div>
 

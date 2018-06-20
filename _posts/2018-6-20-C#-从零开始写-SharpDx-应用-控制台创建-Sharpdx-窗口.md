@@ -1,7 +1,7 @@
 ---
-title: "C# 控制台创建 Sharpdx 窗口"
+title: "C# 从零开始写 SharpDx 应用 控制台创建 Sharpdx 窗口"
 author: lindexi
-date: 2018-6-18 21:29:49 +0800
+date: 2018-6-20 8:39:1 +0800
 CreateTime: 2018-6-18 21:16:2 +0800
 categories: D2D DirectX SharpDX
 ---
