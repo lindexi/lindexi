@@ -22,7 +22,7 @@ layout: default
         <p>There are no posts in this categories. {{ page.categories }}</p>
         <p></p>
         {% for category in site.categories %}
-           <p>{{ category }}</p>
+           <p>{{ category.title }}</p>
         {% endfor %}
     {% endif %}
 </div>
