@@ -20,6 +20,10 @@ layout: default
     </div>
     {% else %}
         <p>There are no posts in this categories. {{ page.categories }}</p>
+        <p></p>
+        {% for category in site.categories %}
+           <p>{{ category }}</p>
+        {% endfor %}
     {% endif %}
 </div>
 </div>
