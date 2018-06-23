@@ -1,9 +1,9 @@
 ---
 title: "How to parse version range"
 author: lindexi
-date: 2018-6-22 9:56:31 +0800
+date: 2018-6-23 11:20:55 +0800
 CreateTime: 2018-6-22 9:41:56 +0800
-categories: C# dotnetcore-->
+categories: C# dotnetcore
 ---
 
 Now we are making a solution that has to get the package reference. But the version of package reference is a range and the default version parser need input a version but not a version range.
@@ -13,7 +13,7 @@ This post will tell you how to parse the version range string to reference versi
 
 
 <!-- csdn -->
-<!-- 标签：C# ，dotnetcore-->
+<!-- 标签：C# ，dotnetcore -->
 
 The format for reference version is like this
 
