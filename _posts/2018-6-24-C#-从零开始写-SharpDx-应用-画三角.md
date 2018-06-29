@@ -1,7 +1,7 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 画三角"
 author: lindexi
-date: 2018-6-24 10:52:36 +0800
+date: 2018-6-24 15:5:55 +0800
 CreateTime: 2018-6-23 15:55:27 +0800
 categories: D2D DirectX SharpDX
 ---
@@ -14,6 +14,8 @@ categories: D2D DirectX SharpDX
 <!-- csdn -->
 <!-- 标签：D2D,DirectX,SharpDX -->
 <div id="toc"></div>
+
+<!-- math -->
 
 本文是 SharpDX 系列博客，更多博客请点击[SharpDX 系列](https://lindexi.github.io/lindexi/post/sharpdx.html )
 
@@ -310,7 +312,65 @@ private D3D11.InputElement[] _inputElements = new D3D11.InputElement[]
         }
 ```
 
+## 设置 ViewPort 
+
+在开始画之前需要先设置 ViewPort ，在 DirectX 使用的坐标是 Normalized Device Coordinates 左上角是 $-1,-1$，右下角是 $1,1$ ，创建私有变量用来放 ViewPort 代码
+
+```csharp
+      private Viewport _viewport;
+
+        private void InitializeDeviceResources()
+        {
+           // 其他被忽略的代码
+
+            _viewport = new Viewport(0, 0, Width, Height);
+            _d3DDeviceContext.Rasterizer.SetViewport(_viewport);
+        }
+```
+
+## 画出顶点
+
+在 Draw 画出顶点
+
+```csharp
+        private void Draw()
+        {
+            _d3DDeviceContext.OutputMerger.SetRenderTargets(_renderTargetView);
+            _d3DDeviceContext.ClearRenderTargetView(_renderTargetView, ColorToRaw4(Color.Coral));
+
+            _d3DDeviceContext.InputAssembler.SetVertexBuffers(0,
+                new D3D11.VertexBufferBinding(_triangleVertexBuffer, Utilities.SizeOf<Vector3>(), 0));
+            _d3DDeviceContext.Draw(_vertices.Length, 0);
+
+            _swapChain.Present(1, PresentFlags.None);
+
+            RawColor4 ColorToRaw4(Color color)
+            {
+                const float n = 255f;
+                return new RawColor4(color.R / n, color.G / n, color.B / n, color.A / n);
+            }
+        }
+```
+
+上面代码 SetVertexBuffers 是告诉 `_d3DDeviceContext` 使用顶点缓存，第二个参数就是告诉每个顶点的长度
+
+使用 `_d3DDeviceContext.Draw` 可以从顶点缓存画出，第二个参数就是指定画出的偏移，从那个顶点开始画，第一个参数是画多少个。如输入 `3,2` 就是从第2个开始画三个
+
+运行代码
+
 参见：[SharpDX Beginners Tutorial Part 4: Drawing a triangle - Johan Falk](http://www.johanfalk.eu/blog/sharpdx-beginners-tutorial-part-4-drawing-a-triangle )
 
 更多博客请看 [SharpDX 系列](https://lindexi.github.io/lindexi/post/sharpdx.html )
 
+![](https://i.loli.net/2018/06/24/5b2f3cb357b4a.jpg)
+
+感谢[三千](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=62951506)提供图片
+
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
