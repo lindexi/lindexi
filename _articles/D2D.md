@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-category: SharpDX
+category: d2d
 title: 渲染相关
-permalink: /post/d2d
+permalink: /post/D2D.html
 ---
