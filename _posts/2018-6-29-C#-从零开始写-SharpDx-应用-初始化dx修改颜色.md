@@ -1,9 +1,9 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 初始化dx修改颜色"
 author: lindexi
-date: 2018-6-20 21:24:53 +0800
+date: 2018-6-29 16:31:37 +0800
 CreateTime: 2018-6-20 8:39:31 +0800
-categories: D2D DirectX SharpDX
+categories: C# D2D DirectX SharpDX Direct2D
 ---
 
 本文来告诉大家如何在上一篇博客创建的窗口里面使用 Sharpdx 初始化，然后设置窗口颜色。
@@ -12,7 +12,7 @@ categories: D2D DirectX SharpDX
 
 
 <!-- csdn -->
-<!-- 标签：D2D,DirectX,SharpDX -->
+<!-- 标签：C#,D2D,DirectX,SharpDX,Direct2D, -->
 <div id="toc"></div>
 
 本文是 SharpDX 系列博客，更多博客请点击[SharpDX 系列](https://lindexi.github.io/lindexi/post/sharpdx.html )

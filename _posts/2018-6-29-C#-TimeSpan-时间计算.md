@@ -1,7 +1,7 @@
 ---
 title: "C# TimeSpan 时间计算"
 author: lindexi
-date: 2018-6-12 9:35:55 +0800
+date: 2018-6-29 15:23:2 +0800
 CreateTime: 2018-6-11 10:48:30 +0800
 categories: C# C#入门
 ---
@@ -11,7 +11,6 @@ categories: C# C#入门
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：C#，C#入门 -->
 
 实际上使用 TimeSpan 可以做到让代码比较好懂，而代码很简单。
