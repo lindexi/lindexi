@@ -1,7 +1,7 @@
 ---
 title: "UWP WPF 解决 xaml 设计显示异常"
 author: lindexi
-date: 2018-4-10 19:7:24 +0800
+date: 2018-7-1 10:8:4 +0800
 CreateTime: 2018-3-14 11:17:49 +0800
 categories: WPF UWP
 ---
@@ -72,4 +72,6 @@ categories: WPF UWP
 ```
 
 上面的代码需要在所有的引用控件加上，一般的微软控件不需要，因为他里面有加上
+
+![](https://i.loli.net/2018/07/01/5b3837806dddf.jpg)
 
