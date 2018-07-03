@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDX"
 author: lindexi
-date: 2018-5-4 21:34:38 +0800
+date: 2018-7-2 16:22:50 +0800
 CreateTime: 2018-4-20 9:17:0 +0800
 categories: WPF D2D DirectX SharpDX
 ---
@@ -118,6 +118,18 @@ RenderTargetProperties 需要的参数是 RenderTargetType ，PixelFormat，dpiX
 
         private D2D.RenderTarget _renderTarget;
 ```
+
+这里的 PixelFormat 使用 B8G8R8A8_UNorm 的意思是每个元素包含4个8位无符号分量，分量的取值范围在[0,1]区间内的浮点数，因为不是任何类型的数据都能存储到纹理中的，纹理只支持特定格式的数据存储。这里的 BGRA 的意思分别是 蓝色（Blue）、绿色（Green）、红色（Red）和 alpha（透明度），其他可以选的格式
+
+ - DXGI_FORMAT_R32G32B32_FLOAT：每个元素包含3个32位浮点分量。 
+ - DXGI_FORMAT_R16G16B16A16_UNORM：每个元素包含4个16位分量，分量的取值范围在[0,1]区间内。 
+ - DXGI_FORMAT_R32G32_UINT：每个元素包含两个32位无符号整数分量。 
+ - DXGI_FORMAT_R8G8B8A8_UNORM：每个元素包含4个8位无符号分量，分量的取值范围在[0,1]区间内的浮点数。 
+ - DXGI_FORMAT_R8G8B8A8_SNORM：每个元素包含4个8位有符号分量，分量的取值范围在[−1,1] 区间内的浮点数。 
+ - DXGI_FORMAT_R8G8B8A8_SINT：每个元素包含4个8位有符号整数分量，分量的取值范围在[−128, 127] 区间内的整数。 
+ - DXGI_FORMAT_R8G8B8A8_UINT：每个元素包含4个8位无符号整数分量，分量的取值范围在[0, 255]区间内的整数
+
+更多概念请看[DirectX11 Direct3D基本概念 - CSDN博客](https://blog.csdn.net/sinat_24229853/article/details/48768829 )
 
 ## 画圈
 
