@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 VisualStudio 2017 项目文件"
 author: lindexi
-date: 2018-7-5 8:52:46 +0800
+date: 2018-7-5 14:3:56 +0800
 CreateTime: 2018-5-31 18:56:11 +0800
 categories: VisualStudio WPF
 ---
@@ -88,6 +88,8 @@ categories: VisualStudio WPF
 ```
 
 参见：[Pack URIs in WPF ](https://docs.microsoft.com/en-us/dotnet/framework/wpf/app-development/pack-uris-in-wpf )
+
+[win10 uwp 访问解决方案文件](https://blog.csdn.net/lindexi_gd/article/details/52639803 )
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/lindexi%2F20186121956141913.jpg)
 
