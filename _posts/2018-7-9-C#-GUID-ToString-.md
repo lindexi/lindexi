@@ -1,7 +1,7 @@
 ---
 title: "C# GUID ToString "
 author: lindexi
-date: 2018-4-1 10:41:3 +0800
+date: 2018-7-9 19:52:14 +0800
 CreateTime: 2018-4-1 10:16:6 +0800
 categories: C#
 ---
@@ -48,6 +48,32 @@ System.Console.WriteLine(Guid.NewGuid().ToString("P"));
 ```csharp
    Console.WriteLine(Guid.NewGuid().ToString("X"));
   {0xd3f51d9d,0x31b3,0x45f6,{0x9b,0x7c,0x89,0x1d,0xa5,0x6a,0xa3,0x43}}
+```
+
+## GUID 转 int 
+
+一个 GUID 需要 16 个 byte 也就是 4 个 int ，可以使用下面的方法转换
+
+```csharp
+      public static int[] Guid2Int(Guid value)
+        {
+            byte[] b = value.ToByteArray();
+            int bint = BitConverter.ToInt32(b, 0);
+            var bint1 = BitConverter.ToInt32(b, 4);
+            var bint2 = BitConverter.ToInt32(b, 8);
+            var bint3 = BitConverter.ToInt32(b, 12);
+            return new[] {bint, bint1, bint2, bint3};
+        }
+
+        public static Guid Int2Guid(int value, int value1, int value2, int value3)
+        {
+            byte[] bytes = new byte[16];
+            BitConverter.GetBytes(value).CopyTo(bytes, 0);
+            BitConverter.GetBytes(value1).CopyTo(bytes, 4);
+            BitConverter.GetBytes(value2).CopyTo(bytes, 8);
+            BitConverter.GetBytes(value3).CopyTo(bytes, 12);
+            return new Guid(bytes);
+        }
 ```
 
 参见：[全局唯一标识符 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E5%85%A8%E5%B1%80%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86%E7%AC%A6 )
