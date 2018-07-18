@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp win2d 使用 Path 绘制界面"
 author: lindexi
-date: 2018-6-21 9:15:40 +0800
+date: 2018-7-17 19:51:48 +0800
 CreateTime: 2018-6-6 8:57:28 +0800
 categories: Win10 UWP win2d
 ---
@@ -146,4 +146,6 @@ categories: Win10 UWP win2d
 <!-- ![](image/win10 uwp win2d 使用 Path 绘制界面/win10 uwp win2d 使用 Path 绘制界面0.png) -->
 
 ![](http://7xqpl8.com1.z0.glb.clouddn.com/lindexi%2F201866856257482.jpg)
+
+参见：[第四章(图形篇2) 几何图形CanvasGeometry](https://zhuanlan.zhihu.com/p/39906163 )
 
