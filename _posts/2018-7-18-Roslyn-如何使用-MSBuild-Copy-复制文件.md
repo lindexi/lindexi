@@ -1,9 +1,9 @@
 ---
-title: "Rosyln 如何使用 MSBuild Copy 复制文件"
+title: "Roslyn 如何使用 MSBuild Copy 复制文件"
 author: lindexi
-date: 2018-7-10 16:32:38 +0800
+date: 2018-7-18 11:31:31 +0800
 CreateTime: 2018-7-10 10:23:15 +0800
-categories: Rosyln MSBuild 编译器
+categories: Roslyn MSBuild 编译器
 ---
 
 本文告诉大家如何在 MSBuild 里使用 Copy 复制文件
@@ -12,7 +12,7 @@ categories: Rosyln MSBuild 编译器
 
 
 <!-- csdn -->
-<!-- 标签：Rosyln,MSBuild,编译器 -->
+<!-- 标签：Roslyn,MSBuild,编译器 -->
 
 需要知道 Rosyln 是 MSBuild 的 dotnet core 版本。
 

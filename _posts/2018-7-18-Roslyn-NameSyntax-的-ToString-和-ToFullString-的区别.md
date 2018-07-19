@@ -1,9 +1,9 @@
 ---
 title: "Roslyn NameSyntax 的 ToString 和 ToFullString 的区别"
 author: lindexi
-date: 2018-7-15 9:11:59 +0800
+date: 2018-7-18 11:31:17 +0800
 CreateTime: 2018-7-14 9:28:1 +0800
-categories: Rosyln MSBuild 编译器
+categories: Roslyn MSBuild 编译器
 ---
 
 本文告诉大家经常使用的 NameSyntax 拿到值的 ToString 和 ToFullString 方法的区别
@@ -12,7 +12,7 @@ categories: Rosyln MSBuild 编译器
 
 
 <!-- csdn -->
-<!-- 标签：Rosyln,MSBuild,编译器 -->
+<!-- 标签：Roslyn,MSBuild,编译器 -->
 
 从代码可以看到 NameSyntax 的 ToString 和 ToFullString 方法是调用 Green 的 ToString 和 ToFullString ，所以具体还需要进入 Green 看是如何写
 
