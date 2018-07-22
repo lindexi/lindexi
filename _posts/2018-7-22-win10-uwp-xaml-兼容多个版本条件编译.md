@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp xaml 兼容多个版本条件编译"
 author: lindexi
-date: 2018-4-8 19:48:0 +0800
+date: 2018-7-22 16:30:38 +0800
 CreateTime: 2018-3-18 15:37:54 +0800
 categories: Win10 UWP
 ---
@@ -148,6 +148,8 @@ IsApiContractPresent 是在当前系统和低于当前系统返回 true ，IsApi
 如果在一个绑定一个使用了 contract5Present 的控件，那么在绑定的属性需要使用 contract5Present 不然微软的 VisualStudio 不然让你使用。
 
 需要告诉大家，感觉说的 VisualStudio 在 Xaml 报告的错误，实际上这是Resharper的
+
+如果觉得自己需要写的软件的版本比支持条件编译的版本还低，而且也不想写太多条件编译，请看[使用 Microsoft.UI.Xaml 解决 UWP 控件和对老版本 Windows 10 的兼容性问题 - walterlv](https://walterlv.github.io/post/getting-started-with-microsoft-ui-xaml.html )
 
 参见
 
