@@ -1,9 +1,9 @@
 ---
 title: "WPF 使用 Direct2D1 画图入门"
 author: lindexi
-date: 2018-5-21 8:55:3 +0800
+date: 2018-7-24 18:43:34 +0800
 CreateTime: 2018-4-18 20:46:45 +0800
-categories: WPF D2D DirectX
+categories: WPF D2D DirectX 渲染
 ---
 
 本文来告诉大家如何在 WPF 使用 D2D 画图。
@@ -12,7 +12,7 @@ categories: WPF D2D DirectX
 
 
 <div id="toc"></div>
-<!-- 标签：WPF，D2D,DirectX -->
+<!-- 标签：WPF，D2D,DirectX，渲染 -->
 
 本文是一个系列
 

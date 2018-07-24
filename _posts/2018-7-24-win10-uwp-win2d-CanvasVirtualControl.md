@@ -1,9 +1,9 @@
 ---
 title: "win10 uwp win2d CanvasVirtualControl"
 author: lindexi
-date: 2018-4-30 16:40:46 +0800
+date: 2018-7-24 18:44:12 +0800
 CreateTime: 2018-4-30 16:15:53 +0800
-categories: UWP win2d
+categories: UWP win2d 渲染
 ---
 
 本文来告诉大家 CanvasVirtualControl ，在什么时候使用这个控件。
@@ -14,7 +14,7 @@ categories: UWP win2d
 <!-- csdn -->
 
 <!-- <div id="toc"></div> -->
-<!-- 标签：uwp,win2d -->
+<!-- 标签：uwp,win2d,渲染 -->
 
 在之前的入门教程[win10 uwp win2d](https://lindexi.gitee.io/post/win10-uwp-win2d.html )我直接用的是`CanvasControl`，实际上可以使用的画布还有下面两个
 

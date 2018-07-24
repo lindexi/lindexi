@@ -1,9 +1,9 @@
 ---
 title: "WPF 使用 Direct2D1 画图 绘制基本图形"
 author: lindexi
-date: 2018-4-20 10:52:23 +0800
+date: 2018-7-24 18:43:46 +0800
 CreateTime: 2018-4-19 9:41:10 +0800
-categories: WPF D2D DirectX
+categories: WPF D2D DirectX 渲染
 ---
 
 本文来告诉大家如何在 Direct2D1 绘制基本图形，包括线段、矩形、椭圆
@@ -12,7 +12,7 @@ categories: WPF D2D DirectX
 
 
 <div id="toc"></div>
-<!-- 标签：WPF，D2D,DirectX -->
+<!-- 标签：WPF，D2D,DirectX,渲染 -->
 
 本文是一个系列
 

@@ -1,9 +1,9 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 画三角"
 author: lindexi
-date: 2018-6-29 16:43:50 +0800
+date: 2018-7-24 18:43:15 +0800
 CreateTime: 2018-6-23 15:55:27 +0800
-categories: C# D2D DirectX SharpDX Direct2D
+categories: C# D2D DirectX SharpDX Direct2D 渲染
 ---
 
 在当前的画面都是使用三角形，在开始就告诉大家如何画三角，本文告诉大家如何用像素著色器画
@@ -12,7 +12,7 @@ categories: C# D2D DirectX SharpDX Direct2D
 
 
 <!-- csdn -->
-<!-- 标签：C#,D2D,DirectX,SharpDX,Direct2D, -->
+<!-- 标签：C#,D2D,DirectX,SharpDX,Direct2D,渲染 -->
 <div id="toc"></div>
 
 <!-- math -->

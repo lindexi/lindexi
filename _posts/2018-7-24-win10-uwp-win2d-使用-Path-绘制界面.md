@@ -1,9 +1,9 @@
 ---
 title: "win10 uwp win2d 使用 Path 绘制界面"
 author: lindexi
-date: 2018-7-17 19:51:48 +0800
+date: 2018-7-24 18:44:3 +0800
 CreateTime: 2018-6-6 8:57:28 +0800
-categories: Win10 UWP win2d
+categories: win2d UWP 渲染
 ---
 
 本文告诉大家如何在 Win2d 使用 Path 路径绘图
@@ -13,6 +13,8 @@ categories: Win10 UWP win2d
 
 <!-- csdn -->
 <div id="toc"></div>
+
+<!-- 标签：win2d,uwp,渲染 -->
 
 ## CanvasGeometry
 

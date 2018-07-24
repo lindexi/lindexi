@@ -1,9 +1,9 @@
 ---
 title: "WPF 使用 SharpDX"
 author: lindexi
-date: 2018-7-2 16:22:50 +0800
+date: 2018-7-24 18:42:37 +0800
 CreateTime: 2018-4-20 9:17:0 +0800
-categories: WPF D2D DirectX SharpDX
+categories: WPF D2D DirectX SharpDX 渲染
 ---
 
 本文告诉大家如何在 WPF 使用 SharpDX ，只是入门。
@@ -13,7 +13,7 @@ categories: WPF D2D DirectX SharpDX
 
 <!-- csdn -->
 <div id="toc"></div>
-<!-- 标签：WPF,D2D,DirectX,SharpDX -->
+<!-- 标签：WPF,D2D,DirectX,SharpDX,渲染 -->
 
 本文是一个系列
 

@@ -1,9 +1,9 @@
 ---
 title: "WPF 使用 SharpDx 异步渲染"
 author: lindexi
-date: 2018-5-4 21:34:20 +0800
+date: 2018-7-24 18:43:1 +0800
 CreateTime: 2018-5-1 20:33:10 +0800
-categories: WPF D2D DirectX SharpDX
+categories: WPF D2D DirectX SharpDX 渲染
 ---
 
 本文告诉大家如何通过 SharpDx 进行异步渲染，但是因为在 WPF 是需要使用 D3DImage 画出来，所以渲染只是画出图片，最后的显示还是需要 WPF 在他自己的主线程渲染。
@@ -13,7 +13,7 @@ categories: WPF D2D DirectX SharpDX
 
 <!-- csdn -->
 <div id="toc"></div>
-<!-- 标签：WPF,D2D,DirectX,SharpDX -->
+<!-- 标签：WPF,D2D,DirectX,SharpDX,渲染 -->
 
 本文是一个系列，希望大家从第一篇开始看
 

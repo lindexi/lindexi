@@ -1,9 +1,9 @@
 ---
 title: "WPF 使用封装的 SharpDx 控件"
 author: lindexi
-date: 2018-4-24 11:7:26 +0800
+date: 2018-7-24 18:43:21 +0800
 CreateTime: 2018-4-24 10:46:1 +0800
-categories: WPF D2D DirectX SharpDX
+categories: WPF D2D DirectX SharpDX 渲染
 ---
 
 上一篇告诉大家如何在 WPF 使用 SharpDx ，看起来代码比较复杂，所以本文告诉大家如何使用我封装的控件。
@@ -13,7 +13,7 @@ categories: WPF D2D DirectX SharpDX
 
 <!-- csdn -->
 <div id="toc"></div>
-<!-- 标签：WPF,D2D,DirectX,SharpDX -->
+<!-- 标签：WPF,D2D,DirectX,SharpDX,渲染 -->
 
 本文是一个系列，希望大家从第一篇开始看
 
