@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 节点的 Span 和  FullSpan 有什么区别"
 author: lindexi
-date: 2018-7-22 20:0:39 +0800
+date: 2018-7-23 8:55:5 +0800
 CreateTime: 2018-7-22 17:1:20 +0800
 categories: Roslyn MSBuild 编译器
 ---
@@ -189,6 +189,8 @@ Console.WriteLine(NawraSaw);
 用一句话来说明就是 Span 就只包括代码，而 FullSpan 包括了代码和代码附近的注释。
 
 对于不同的结点的 Span 是不会存在值的冲突，但是对于 FullSpan 是存在多个节点的覆盖。
+
+实际上使用 Span 转换字符串和使用 FullSpan 转换字符串的方法就和使用 ToString 差不多，请看 [Roslyn NameSyntax 的 ToString 和 ToFullString 的区别](https://lindexi.github.io/lindexi/post/Roslyn-NameSyntax-%E7%9A%84-ToString-%E5%92%8C-ToFullString-%E7%9A%84%E5%8C%BA%E5%88%AB.html )
 
 参见：[Use the .NET Compiler Platform SDK syntax model](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/work-with-syntax )
 

@@ -1,7 +1,7 @@
 ---
 title: "Roslyn NameSyntax 的 ToString 和 ToFullString 的区别"
 author: lindexi
-date: 2018-7-18 11:31:17 +0800
+date: 2018-7-23 8:56:55 +0800
 CreateTime: 2018-7-14 9:28:1 +0800
 categories: Roslyn MSBuild 编译器
 ---
@@ -49,4 +49,6 @@ categories: Roslyn MSBuild 编译器
 <!-- ![](image/Roslyn NameSyntax 的 ToString 和 ToFullString 的区别/Roslyn NameSyntax 的 ToString 和 ToFullString 的区别5.png) -->
 
 所以 ToFullString 拿到的变量使用 Trim 就是 ToString 拿到的变量
+
+如果好奇本文开始说的  Green 是什么，请看 [理解 Roslyn 中的红绿树（Red-Green Trees） - walterlv](https://walterlv.github.io/post/the-red-green-tree-of-roslyn.html )
 
