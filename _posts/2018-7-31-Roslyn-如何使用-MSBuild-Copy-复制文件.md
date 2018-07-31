@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何使用 MSBuild Copy 复制文件"
 author: lindexi
-date: 2018-7-18 11:31:31 +0800
+date: 2018-7-31 14:37:7 +0800
 CreateTime: 2018-7-10 10:23:15 +0800
 categories: Roslyn MSBuild 编译器
 ---
@@ -85,7 +85,7 @@ error MSB3030: 无法复制文件“lindexi.txt”，原因是找不到该文件
 
 下面复制 `lindexi.txt` 和 `lindexi.gitee.io.txt` 到 `LetirNuhe` 文件夹下
 
-```csharp
+```
   <Target Name="Copy" BeforeTargets="CoreCompile">
     <Copy SourceFiles="lindexi.txt;lindexi.gitee.io.txt" DestinationFiles="LetirNuhe\lindexi.txt;LetirNuhe\lindexi.gitee.io.txt"></Copy>
   </Target>
@@ -99,7 +99,7 @@ error MSB3030: 无法复制文件“lindexi.txt”，原因是找不到该文件
 
 如果需要把文件都复制到相同的文件夹，可以使用下面代码
 
-```csharp
+```
   <Target Name="Copy" BeforeTargets="CoreCompile">
     <Copy SourceFiles="lindexi.txt;lindexi.gitee.io.txt" DestinationFolder="LetirNuhe\"></Copy>
   </Target>
