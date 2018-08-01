@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用三个方法启动最新 C# 功能"
 author: lindexi
-date: 2018-7-18 9:48:54 +0800
+date: 2018-8-1 19:3:26 +0800
 CreateTime: 2018-7-16 20:34:46 +0800
 categories: VisualStudio
 ---
@@ -38,13 +38,13 @@ categories: VisualStudio
 
 打开项目的 csproj 文件，在一个`PropertyGroup`随便一个地方添加下面代码
 
-```csharp
+```
 <LangVersion>latest</LangVersion>
 ```
 
 看起来的代码就是
 
-```csharp
+```
  <PropertyGroup>
     <TargetFrameworks>netcoreapp2.0;net47</TargetFrameworks>
     <LangVersion>latest</LangVersion>
