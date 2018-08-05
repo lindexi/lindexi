@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 2.1 使用阶梯编译"
 author: lindexi
-date: 2018-8-4 14:54:1 +0800
+date: 2018-8-4 15:10:43 +0800
 CreateTime: 2018-8-4 14:44:4 +0800
 categories: dotnetcore
 ---
@@ -36,7 +36,7 @@ categories: dotnetcore
 ```diff
   {
 +      "runtimeOptions": 
-+     {
++      {
 +        "configProperties": 
 +        {
 +          "System.Runtime.TieredCompilation": true
