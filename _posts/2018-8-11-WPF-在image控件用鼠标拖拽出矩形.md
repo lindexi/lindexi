@@ -1,7 +1,7 @@
 ---
 title: "WPF 在image控件用鼠标拖拽出矩形"
 author: lindexi
-date: 2018-8-11 15:27:30 +0800
+date: 2018-8-11 15:41:8 +0800
 CreateTime: 2018-8-11 15:22:29 +0800
 categories: WPF
 ---
@@ -24,7 +24,7 @@ categories: WPF
 
 <!-- ![](image/WPF 在image控件用鼠标拖拽出矩形/WPF 在image控件用鼠标拖拽出矩形0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018811152235554)
+![](http://image.acmx.xyz/lindexi%2F201881115410158)
 
 先在界面使用一个图片和一个矩形
 
