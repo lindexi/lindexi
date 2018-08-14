@@ -1,9 +1,9 @@
 ---
 title: "解决 VS 跳转定义和 Resharper 重复"
 author: lindexi
-date: 2018-8-10 19:17:19 +0800
+date: 2018-8-14 17:35:6 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Resharper
 ---
 
 在大约一周之前，Visual Studio 进行了一项更新，增加了 Ctrl+Click 点击跳转到定义的功能。这项功能与 ReSharper 重复了。
@@ -11,6 +11,8 @@ categories:
 <!--more-->
 
 
+
+<!-- 标签：Resharper -->
 
 于是可以通过关闭其中一个跳转定义可以使用。
 

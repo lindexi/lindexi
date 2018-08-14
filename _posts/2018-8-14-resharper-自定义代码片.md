@@ -1,9 +1,9 @@
 ---
 title: "resharper 自定义代码片"
 author: lindexi
-date: 2018-8-10 19:16:52 +0800
+date: 2018-8-14 17:34:51 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Resharper
 ---
 
 我们在做一件事前，需要先做工具，工具好，最后我们做事也快。这个过程需要的时间也是值得的。
@@ -18,6 +18,8 @@ Resharper的代码预知和 VisualStudio 的代码片相似，但是他可以知
 
 
 <div id="toc"></div>
+
+<!-- 标签：Resharper -->
 
 原本我的 VisualStudio 也是可以自定义代码片，在工具选择代码片，导入自己写的代码片。
 

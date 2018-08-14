@@ -1,9 +1,9 @@
 ---
 title: "Resharper 如何把类里的类移动到其他文件"
 author: lindexi
-date: 2018-8-10 19:16:52 +0800
+date: 2018-8-14 17:34:39 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
-categories: 
+categories: Resharper
 ---
 
 有时候，看到一个类里有很多类，需要把他移动其他文件
@@ -13,6 +13,8 @@ categories:
 
 
 <div id="toc"></div>
+
+<!-- 标签：Resharper -->
 
 假如有一个类
 
