@@ -1,7 +1,7 @@
 ---
 title: "WPF 在image控件用鼠标拖拽出矩形"
 author: lindexi
-date: 2018-8-11 15:41:8 +0800
+date: 2018-8-13 8:45:57 +0800
 CreateTime: 2018-8-11 15:22:29 +0800
 categories: WPF
 ---
@@ -91,4 +91,6 @@ categories: WPF
 代码就是这么简单，通过修改 `Margin` 的方法修改矩形
 
 如果对于高手，我建议使用 `RenderTransform` 的方式而不是使用 `Margin` 这里使用这个方法只是看起来简单
+
+因为性能最差 Canvas.SetLeft Canvas.SetTop，性能中等 Margin，性能最好 RenderTransform 当然使用 RenderTransform 的方法没有使用 Margin 那样容易了解
 
