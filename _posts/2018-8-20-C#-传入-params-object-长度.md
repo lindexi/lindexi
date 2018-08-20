@@ -1,12 +1,12 @@
 ---
 title: "C# 传入 params object 长度"
 author: lindexi
-date: 2018-8-20 19:33:38 +0800
+date: 2018-8-20 19:40:24 +0800
 CreateTime: 2018-8-20 19:26:7 +0800
 categories: C#
 ---
 
-刚刚 LiesAuer 大神问了一个问题，如果在 params object 传入 object 数组，那么拿到的值是的长度是多少
+刚刚 [LiesAuer](www.liesauer.net) 大神问了一个问题，如果在 params object 传入 object 数组，那么拿到的值是的长度是多少
 我做了测试在传入不同的值可能拿到不同的长度
 
 <!--more-->
