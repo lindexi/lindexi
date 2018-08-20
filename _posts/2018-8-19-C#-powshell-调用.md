@@ -1,7 +1,7 @@
 ---
 title: "C# powshell 调用"
 author: lindexi
-date: 2018-6-18 20:41:19 +0800
+date: 2018-8-19 10:4:24 +0800
 CreateTime: 2018-6-18 20:24:15 +0800
 categories: C#
 ---
@@ -123,5 +123,7 @@ Set-ExecutionPolicy RemoteSigned
 参见：
 
 [PowerShell入门（八）：函数、脚本、作用域 - Luke Zhang - 博客园](https://www.cnblogs.com/ceachy/archive/2013/02/26/PoweShell_Function_Script_Scope.html )
+
+![](https://i.loli.net/2018/08/19/5b78d02917a19.jpg)
 
 
