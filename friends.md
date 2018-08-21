@@ -98,6 +98,8 @@ permalink: /friends/
 
    WPF 大神
 
+ - [LiesAuer](http://www.liesauer.net/blog/page/1/ )  
+
  - [陈计节的博客](https://blog.jijiechen.com/post/ ) 
  
    dotnet core 大神 
