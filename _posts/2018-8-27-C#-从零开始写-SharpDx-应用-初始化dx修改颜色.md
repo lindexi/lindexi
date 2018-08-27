@@ -1,7 +1,7 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 初始化dx修改颜色"
 author: lindexi
-date: 2018-8-17 9:24:50 +0800
+date: 2018-8-27 16:24:39 +0800
 CreateTime: 2018-6-20 8:39:31 +0800
 categories: C# D2D DirectX SharpDX Direct2D
 ---
@@ -11,7 +11,6 @@ categories: C# D2D DirectX SharpDX Direct2D
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：C#,D2D,DirectX,SharpDX,Direct2D, -->
 <div id="toc"></div>
 

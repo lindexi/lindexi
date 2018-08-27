@@ -1,9 +1,9 @@
 ---
 title: "C# powshell 调用"
 author: lindexi
-date: 2018-8-19 10:4:24 +0800
+date: 2018-8-27 16:20:4 +0800
 CreateTime: 2018-6-18 20:24:15 +0800
-categories: C#
+categories: C# Powershell
 ---
 
 本文告诉大家如何在 ps 脚本使用 C# 代码。
@@ -11,7 +11,7 @@ categories: C#
 <!--more-->
 
 
-<!-- csdn -->
+<!-- 标签：C#，Powershell -->
 
 首先创建一个 C# 的控制台项目，注意修改输出为类库。
 
