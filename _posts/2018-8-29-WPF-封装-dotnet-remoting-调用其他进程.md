@@ -1,7 +1,7 @@
 ---
 title: "WPF 封装 dotnet remoting 调用其他进程"
 author: lindexi
-date: 2018-6-24 14:41:37 +0800
+date: 2018-8-29 8:51:51 +0800
 CreateTime: 2018-5-19 8:57:17 +0800
 categories: WPF dotnetremoting rpc
 ---
