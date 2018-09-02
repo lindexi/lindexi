@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 轻量级 MVVM 框架入门 2.1.5.3199"
 author: lindexi
-date: 2018-8-10 19:16:51 +0800
+date: 2018-9-1 16:24:18 +0800
 CreateTime: 2018-6-10 17:45:4 +0800
 categories: Win10 UWP mvvm
 ---
@@ -149,6 +149,8 @@ categories: Win10 UWP mvvm
 
         public WastounowMearhallworcelModel ViewModel { get; set; }
 ```
+
+在页面使用泛型请看 [win10 uwp 如何让 Page 继承泛型类](https://lindexi.gitee.io/post/win10-uwp-%E5%A6%82%E4%BD%95%E8%AE%A9-Page-%E7%BB%A7%E6%89%BF%E6%B3%9B%E5%9E%8B%E7%B1%BB.html )
 
 现在就可以使用 WastounowMearhallworcelModel ，在 WastounowMearhallworcelModel 里面也可以获得主界面传过来的参数
 
