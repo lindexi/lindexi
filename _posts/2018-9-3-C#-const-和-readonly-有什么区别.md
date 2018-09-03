@@ -1,7 +1,7 @@
 ---
 title: "C# const 和 readonly 有什么区别"
 author: lindexi
-date: 2018-8-10 19:16:51 +0800
+date: 2018-9-3 16:52:7 +0800
 CreateTime: 2018-7-27 8:24:50 +0800
 categories: C#
 ---
@@ -11,7 +11,6 @@ categories: C#
 <!--more-->
 
 
-<!-- csdn -->
 <div id="toc"></div>
 
 如果一个类有静态字段，会如何初始化
