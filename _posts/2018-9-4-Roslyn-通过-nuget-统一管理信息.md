@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 nuget 统一管理信息"
 author: lindexi
-date: 2018-9-2 14:43:39 +0800
+date: 2018-9-4 8:55:19 +0800
 CreateTime: 2018-8-29 9:34:40 +0800
 categories: Roslyn MSBuild 编译器 nuget 打包
 ---
@@ -149,4 +149,6 @@ lindexi.targets
 使用这个方法就可以通过安装 nuget 的方式修改信息。
 
 代码 [Roslyn 通过 nuget 统一管理信息-CSDN下载](https://download.csdn.net/download/lindexi_gd/10641158 )
+
+更多请看[手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html )
 
