@@ -1,7 +1,7 @@
 ---
 title: "Resharper 去掉注释拼写"
 author: lindexi
-date: 2018-9-4 18:53:1 +0800
+date: 2018-9-4 18:54:25 +0800
 CreateTime: 2018-9-4 18:29:18 +0800
 categories: resharper
 ---
@@ -85,4 +85,6 @@ categories: resharper
 [Spell Checking with ReSpeller - Help](https://www.jetbrains.com/help/resharper/Spell_Checking.html )
 
 [hunspell/hunspell: The most popular spellchecking library.](https://github.com/hunspell/hunspell )
+
+[https://stackoverflow.com/q/52158837/6116637](https://stackoverflow.com/q/52158837/6116637 )
 

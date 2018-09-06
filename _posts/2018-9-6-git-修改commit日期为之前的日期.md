@@ -1,13 +1,13 @@
 ---
 title: "git 修改commit日期为之前的日期"
 author: lindexi
-date: 2018-2-28 14:12:25 +0800
+date: 2018-9-6 8:54:22 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: git
 ---
 
 我在之前修改了一个文件，但是没有commit，现在我想要commit，日期为那天的日期
-git 修改日期的方法很简单，因为有一个命令`--date` 可以设置提交时间。
+git 修改日期的方法很简单，因为有一个命令`--date` 可以设置 git 提交时间。
 
 <!--more-->
 
