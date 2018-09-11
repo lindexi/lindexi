@@ -97,6 +97,8 @@ permalink: /friends/
  - [Moe](https://sunnycase.moe/ ) 
 
    WPF 大神
+  
+ - [火火](https://blog.ultrabluefire.cn/ ) UWP 大神
 
  - [LiesAuer](http://www.liesauer.net/blog/page/1/ )  
 
