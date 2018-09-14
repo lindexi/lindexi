@@ -1,9 +1,9 @@
 ---
 title: "Jenkins 配置自动合并 release 分支到 master 分支"
 author: lindexi
-date: 2018-9-13 19:15:46 +0800
+date: 2018-9-14 9:16:49 +0800
 CreateTime: 2018-9-13 17:31:38 +0800
-categories: 
+categories: Jenkins
 ---
 
 本文告诉大家如何在 Jenkins 配置合并到 release 的内容自动合并到 gitlab 的 master 分支
@@ -12,6 +12,7 @@ categories:
 
 
 <!-- csdn -->
+<!-- 标签：Jenkins -->
 
 首先需要两个仓库，一个是 gitlab 的仓库，另一个是 Jenkins 的仓库
 
@@ -46,9 +47,7 @@ t/lindexi/github
 
 为了在用户推送的时候合并，就需要在 Build Triggers 添加 Build when a change is pushed to GitLab. 这样就可以添加 web hook 在打钩之后可以看到下面有一个链接，如下面是我的链接，这个链接会在之后设置到 gitlab 所以暂时需要记下
 
-```csharp
 [https://newci.gz.lindexi.cn/project/lindexi/github_merge_release_to_dev](https://newci.gz.lindexi.cn/project/lindexi/github_merge_release_to_dev )
-```
 
 这里可以通过很多个设置，在 `Push Events` 执行这个仓库或者在 `Accepted Merge Request Events` 执行，可以全部打钩
 
