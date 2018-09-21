@@ -1,9 +1,9 @@
 ---
 title: "VisualStudio 使用多个环境进行调试"
 author: lindexi
-date: 2018-8-28 19:44:27 +0800
+date: 2018-9-20 17:37:12 +0800
 CreateTime: 2018-8-28 19:2:23 +0800
-categories: VisualStudio
+categories: VisualStudio 调试
 ---
 
 在 VisualStudio 2017 支持使用 launchSettings.json 文件定义多个不同的环境进行调试
@@ -12,7 +12,7 @@ categories: VisualStudio
 
 
 <!-- csdn -->
-<!-- 标签：VisualStudio -->
+<!-- 标签：VisualStudio，调试 -->
 
 <div id="toc"></div>
 

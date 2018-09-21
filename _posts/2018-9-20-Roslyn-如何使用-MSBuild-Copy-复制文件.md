@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何使用 MSBuild Copy 复制文件"
 author: lindexi
-date: 2018-8-29 9:11:6 +0800
+date: 2018-9-20 15:20:11 +0800
 CreateTime: 2018-7-10 10:23:15 +0800
 categories: Roslyn MSBuild 编译器
 ---
@@ -174,5 +174,5 @@ xx\lindexi.txt;xx\lindexi.gitee.io.txt
 
 更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
 
-参见：[专栏：Roslyn 入门 - CSDN博客](https://blog.csdn.net/column/details/23159.html )
+参见：[Roslyn 入门 - CSDN博客](https://blog.csdn.net/column/details/23159.html )
 
