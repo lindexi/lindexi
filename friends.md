@@ -100,7 +100,7 @@ permalink: /friends/
   
  - [火火](https://blog.ultrabluefire.cn/ ) UWP 大神
 
- - [LiesAuer](http://www.liesauer.net/blog/page/1/ )  
+ - [LiesAuer](http://www.liesauer.net/blog/ )  
 
  - [陈计节的博客](https://blog.jijiechen.com/post/ ) 
  

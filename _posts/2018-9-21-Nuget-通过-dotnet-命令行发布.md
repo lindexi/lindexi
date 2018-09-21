@@ -1,9 +1,9 @@
 ---
 title: "Nuget 通过 dotnet 命令行发布"
 author: lindexi
-date: 2018-9-21 9:1:34 +0800
+date: 2018-9-21 9:17:29 +0800
 CreateTime: 2018-9-21 8:0:15 +0800
-categories: dotnet
+categories: nuget dotnet dotnetcore
 ---
 
 在开发完成一个好用的轮子就想将这个轮子发布到 nuget 让其他小伙伴可以来使用，但是 nuget.org 的登陆速度太慢，本文介绍一个命令行发布的方法，通过命令行发布的方法可以配合 Jenkins 自动打包
@@ -12,6 +12,8 @@ categories: dotnet
 
 
 <!-- csdn -->
+
+<!-- 标签：nuget，dotnet,dotnetcore -->
 
 本文不会告诉大家如何去制作一个 nuget 库，只是在大家已经打出来 nuget 之后如何将这个轮子发布到 nuget ，本文用 nuget.org 作为例子，如果是自己搭建的，那么我也不知道自己搭建的会做成什么
 
@@ -107,4 +109,6 @@ dotnet nuget push *.nupkg -k 刚才复制的key -s [https://api.nuget.org/v3/ind
 [How to Publish a NuGet Package ](https://docs.microsoft.com/en-us/nuget/create-packages/publish-a-package )
 
 [dotnet nuget push command - .NET Core CLI ](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-nuget-push?tabs=netcore21 )
+
+课件 [https://r302.cc/RmLrp4](https://r302.cc/RmLrp4 )
 
