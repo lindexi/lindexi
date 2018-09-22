@@ -1,7 +1,7 @@
 ---
 title: "dot net core 使用 usb"
 author: lindexi
-date: 2018-9-3 16:54:4 +0800
+date: 2018-9-21 19:53:34 +0800
 CreateTime: 2018-4-14 15:22:47 +0800
 categories: dotnetcore usb dotnet
 ---
@@ -131,6 +131,25 @@ var usbDeviceFinder = new UsbDeviceFinder(vid: 0xFF21, pid: 0x1F02);
 ```
 
 等待的方式不是使用 await 而是通过  AsyncWaitHandle 等待。
+
+## 串口通信
+
+如果需要在 dotnet core 引用 System.IO.Ports 可以在程序包管理器输入下面代码
+
+```csharp
+Install-Package System.IO.Ports -Source [https://dotnet.myget.org/F/dotnet-core/api/v3/index.json](https://dotnet.myget.org/F/dotnet-core/api/v3/index.json )
+```
+
+或者设置 Nuget 的源添加 https://dotnet.myget.org/F/dotnet-core/api/v3/index.json 然后寻找 System.IO.Ports 安装
+
+请看 [https://dotnet.myget.org/feed/dotnet-core/package/nuget/System.IO.Ports](https://dotnet.myget.org/feed/dotnet-core/package/nuget/System.IO.Ports )
+
+或者输入下面代码
+
+```csharp
+Install-Package System.IO.Ports
+```
+
 
 ## LGPL
 
