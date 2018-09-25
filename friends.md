@@ -32,7 +32,7 @@ permalink: /friends/
 
  - [Nero\`s Blog](http://erdao123.gitee.io/nero/ )  
 
-   有很多单元测试博客
+   有很多单元测试博客，现在他主要在[简书](https://www.jianshu.com/u/e51c5543bb4b )
 
  - [Miss_Bread的博客 - CSDN博客](http://blog.csdn.net/miss_bread )
 
