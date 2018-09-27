@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 使用 sqlite 部署到 Centos 服务器"
 author: lindexi
-date: 2018-9-27 21:35:8 +0800
+date: 2018-9-27 21:41:41 +0800
 CreateTime: 2018-9-27 20:46:48 +0800
 categories: dotnet
 ---
@@ -186,4 +186,16 @@ dotnet ef database update
 ![](http://image.acmx.xyz/lindexi%2F201892721349331)
 
 用 Sqlite 可以简单将数据保存在服务器，只需要定期保存文件就可以，这个文件可以放在 Window 进行调试，也就是在 Window 和 Linux 可以使用相同的 Sqlite 这样开发很简单
+
+从 Linux 服务器下载 sqlite 文件，推荐使用 sqlite expert 工具打开 sqlite 文件
+
+<!-- ![](image/dotnet core 使用 sqlite 部署到 Centos 服务器/dotnet core 使用 sqlite 部署到 Centos 服务器16.png) -->
+
+![](http://image.acmx.xyz/lindexi%2F2018927213928437)
+
+点击打开数据库文件，点击对应的数据就可以看到写进入的，不需要通过写 sql 语句就可以创建一个表，在表里添加列
+
+<!-- ![](image/dotnet core 使用 sqlite 部署到 Centos 服务器/dotnet core 使用 sqlite 部署到 Centos 服务器17.png) -->
+
+![](http://image.acmx.xyz/lindexi%2F201892721404323)
 
