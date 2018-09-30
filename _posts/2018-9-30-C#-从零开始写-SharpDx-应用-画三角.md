@@ -1,7 +1,7 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 画三角"
 author: lindexi
-date: 2018-8-10 19:16:52 +0800
+date: 2018-9-30 18:30:14 +0800
 CreateTime: 2018-6-23 15:55:27 +0800
 categories: C# D2D DirectX SharpDX Direct2D 渲染
 ---
@@ -11,7 +11,6 @@ categories: C# D2D DirectX SharpDX Direct2D 渲染
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：C#,D2D,DirectX,SharpDX,Direct2D,渲染 -->
 <div id="toc"></div>
 
@@ -19,7 +18,7 @@ categories: C# D2D DirectX SharpDX Direct2D 渲染
 
 本文是 SharpDX 系列博客，更多博客请点击[SharpDX 系列](https://lindexi.github.io/lindexi/post/sharpdx.html )
 
-在 [C# 从零开始写 SharpDx 应用 初始化dx修改颜色](https://lindexi.oschina.io/lindexi/post/C-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%86%99-SharpDx-%E5%BA%94%E7%94%A8-%E5%88%9D%E5%A7%8B%E5%8C%96dx%E4%BF%AE%E6%94%B9%E9%A2%9C%E8%89%B2.html ) 创建了资源，在这个博客的代码继续写
+在 [C# 从零开始写 SharpDx 应用 初始化dx修改颜色](https://blog.csdn.net/lindexi_gd/article/details/82114907 ) 创建了资源，在这个博客的代码继续写
 
 ## 顶点
 

@@ -1,7 +1,7 @@
 ---
 title: "Jenkins 配置自动合并 release 分支到 master 分支"
 author: lindexi
-date: 2018-9-14 9:16:49 +0800
+date: 2018-9-29 13:2:19 +0800
 CreateTime: 2018-9-13 17:31:38 +0800
 categories: Jenkins
 ---
@@ -104,6 +104,8 @@ t/lindexi/github
 ![](http://image.acmx.xyz/lindexi%2F2018913191115860)
 
 具体设置请看 [Using GIT deploy key in Jenkins](https://blogs.perficient.com/2014/03/26/using-git-deploy-key-in-jenkins-written-by-tom-tang/ )
+
+[使用jenkins+gitlab进行CI - haungtengxiao](https://huangtengxiao.gitee.io/post/%E4%BD%BF%E7%94%A8jenkins+gitlab%E8%BF%9B%E8%A1%8CCI.html )
 
 ![](https://i.loli.net/2018/09/13/5b9a46e200df2.jpg)
 

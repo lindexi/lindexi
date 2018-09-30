@@ -1,7 +1,7 @@
 ---
 title: "C# winforms 输入颜色转换颜色名"
 author: lindexi
-date: 2018-7-9 14:43:10 +0800
+date: 2018-9-30 18:27:49 +0800
 CreateTime: 2018-7-9 14:40:23 +0800
 categories: C#
 ---
@@ -11,7 +11,6 @@ categories: C#
 <!--more-->
 
 
-<!-- csdn -->
 
 可以使用下面代码转换
 

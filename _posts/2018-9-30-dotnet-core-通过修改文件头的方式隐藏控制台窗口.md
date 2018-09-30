@@ -1,9 +1,9 @@
 ---
 title: "dotnet core 通过修改文件头的方式隐藏控制台窗口"
 author: lindexi
-date: 2018-8-10 19:16:52 +0800
+date: 2018-9-30 18:36:43 +0800
 CreateTime: 2018-7-24 19:57:37 +0800
-categories: Avalonia Roslyn
+categories: Avalonia Roslyn dotnetcore
 ---
 
 在带界面的 dotnet core 程序运行的时候就会出现一个控制台窗口，本文告诉大家使用最简单方法去隐藏控制台窗口。
@@ -11,8 +11,7 @@ categories: Avalonia Roslyn
 <!--more-->
 
 
-<!-- csdn -->
-<!-- 标签：Avalonia,Roslyn -->
+<!-- 标签：Avalonia,Roslyn，dotnetcore -->
 
 最近在使用 Avalonia 开发，这是一个支持 dotnet framework 和 dotnet core 的框架，在开发的过程发现启动的窗口居然会出现控制台窗口。
 

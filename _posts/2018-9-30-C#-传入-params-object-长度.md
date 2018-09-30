@@ -1,7 +1,7 @@
 ---
 title: "C# 传入 params object 长度"
 author: lindexi
-date: 2018-8-20 20:31:5 +0800
+date: 2018-9-30 18:33:20 +0800
 CreateTime: 2018-8-20 19:26:7 +0800
 categories: C#
 ---
@@ -12,7 +12,6 @@ categories: C#
 <!--more-->
 
 
-<!-- csdn -->
 
 先来说总结
 
