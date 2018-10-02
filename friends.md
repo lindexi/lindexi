@@ -50,6 +50,10 @@ permalink: /friends/
 
    传说的幸斌师兄
 
+ - [Iron_Ye](https://blog.csdn.net/iron_ye )
+
+   WPF 大佬，专业做动画和 3D 是我实习的导师
+
  - [Nullptr](http://blog.nullptr.top/ )  
 
  - [杨宇杰 https://okcthouder.github.io/](https://okcthouder.github.io/)
