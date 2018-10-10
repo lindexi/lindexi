@@ -142,21 +142,21 @@ permalink: /friends/
 
    微软Windows 工程院的团队博客 邹老师的团队。
 
- - MSP_甄心cherish http://blog.csdn.net/zmq570235977 
+ - [MSP_甄心cherish](http://blog.csdn.net/zmq570235977 ) http://blog.csdn.net/zmq570235977 
 
    开始就是看甄心大神的博客。
 
- - Fantasiax http://blog.csdn.net/fantasiax 
+ - [Fantasiax](http://blog.csdn.net/fantasiax ) http://blog.csdn.net/fantasiax 
 
    我的wpf就是在他博客学到的
 
- - linzheng http://www.cnblogs.com/linzheng/  
+ - [linzheng](http://www.cnblogs.com/linzheng/ ) http://www.cnblogs.com/linzheng/  
 
    我的wpf就是在他博客学到的
 
- - 码农很忙 http://www.sum16.com 
+ - [码农很忙](http://www.sum16.com ) http://www.sum16.com 
 
- - 王陈染 http://www.wangchenran.com/ 
+ - [王陈染](http://www.wangchenran.com/ ) http://www.wangchenran.com/ 
 
    最早看到他发的UWP文章
 
@@ -164,21 +164,21 @@ permalink: /friends/
 
    礼物说 App 作者。
 
- - validvoid http://www.cnblogs.com/validvoid/ 
+ - [validvoid](http://www.cnblogs.com/validvoid/ ) http://www.cnblogs.com/validvoid/ 
 
    大量Win2D博客
 
- - nomasp http://blog.csdn.net/nomasp/ 
+ - [nomasp](http://blog.csdn.net/nomasp/ ) http://blog.csdn.net/nomasp/ 
 
    柯于旺大神，现在小米，没有继续做UWP，但他写了CSDN第一个UWP专栏
 
- - 叔叔的博客 http://www.cnblogs.com/manupstairs/
+ - [叔叔的博客](http://www.cnblogs.com/manupstairs/ ) http://www.cnblogs.com/manupstairs/
 
  - http://blog.higan.me/ msp，二次元 
 
    写了很多瀑布流博客 
 
- - msp的昌伟哥哥 http://www.cnblogs.com/mantgh
+ - [msp的昌伟哥哥 ](http://www.cnblogs.com/mantgh )
 
    刚进微软的大神，他有好多HoloLens文章
 
@@ -200,9 +200,7 @@ permalink: /friends/
 
  - [时嬴政 - 博客园](http://www.cnblogs.com/shiyingzheng )
 
- - [UWPBOX WIN10开发类容分享](http://uwpbox.com/ )
-
-   C++ uwp 大神
+ - [UWPBOX WIN10开发类容分享](http://uwpbox.com/ )   C++ uwp 大神
 
  - [bomo - 博客园](http://www.cnblogs.com/bomo )
 
@@ -210,7 +208,7 @@ permalink: /friends/
 
  - [Berumotto - 博客园](http://www.cnblogs.com/KudouShinichi/ )
 
- - [Edi Wang](http://edi.wang/ ) 国内.net 的大神，有很多的文章，有WPF、UWP还有其他的linux……
+ - [Edi Wang](http://edi.wang/ ) 国内 .NET 的大神，有很多的文章，有 WPF 、 UWP 还有其他的 linux ……
 
  - [尽管扯淡](http://jameszhan.github.io/ ) 写了很多数学
 
@@ -228,7 +226,7 @@ permalink: /friends/
 
 ## 国外博客
 
- - [Font Awesome Icons](http://fontawesome .io/icons/)
+ - [Font Awesome Icons](http://fontawesome.io/icons/)
  - [Josh Smith](https://joshsmithonwpf.wordpress.com/ )
  - [Dr. WPF](http://drwpf.com/blog/ )
  - http://xamlnative.com/
