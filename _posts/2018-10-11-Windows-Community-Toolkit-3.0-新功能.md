@@ -1,12 +1,13 @@
 ---
 title: "Windows Community Toolkit 3.0 新功能"
 author: lindexi
-date: 2018-8-10 19:16:53 +0800
+date: 2018-10-11 12:14:49 +0800
 CreateTime: 2018-5-31 18:58:9 +0800
 categories: WPF UWP dotnet
 ---
 
 本文告诉大家一个令人震惊的消息，Windows Community Toolkit 有一个大更新，现在的版本是 3.0 。最大的提升就是 WinForm 和 WPF 程序可以使用部分 UWP 控件。
+而且可以在 WPF 和 WinForms 使用微软最新 Edge 浏览器
 
 <!--more-->
 
