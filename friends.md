@@ -116,6 +116,8 @@ permalink: /friends/
 
  - [我是卧底](https://www.songshizhao.com/blog/blogPage/507.html )  
 
+ - [Mutuduxf's blog](https://www.mutuduxf.com/ )
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
