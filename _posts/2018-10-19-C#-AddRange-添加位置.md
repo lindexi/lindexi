@@ -1,7 +1,7 @@
 ---
 title: "C# AddRange 添加位置"
 author: lindexi
-date: 2018-8-10 19:16:51 +0800
+date: 2018-10-19 9:3:8 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: C#
 ---
@@ -14,7 +14,6 @@ categories: C#
 
 
 <div id="toc"></div>
-<!-- csdn -->
 
 假如有一个 代码，看起来是下面的，很简单，把一个 list b 放进list a
 

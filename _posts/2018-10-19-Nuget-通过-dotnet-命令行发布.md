@@ -1,7 +1,7 @@
 ---
 title: "Nuget 通过 dotnet 命令行发布"
 author: lindexi
-date: 2018-9-21 11:6:0 +0800
+date: 2018-10-19 9:15:53 +0800
 CreateTime: 2018-9-21 8:0:15 +0800
 categories: nuget dotnet dotnetcore
 ---
@@ -11,7 +11,6 @@ categories: nuget dotnet dotnetcore
 <!--more-->
 
 
-<!-- csdn -->
 
 <!-- 标签：nuget，dotnet,dotnetcore -->
 
