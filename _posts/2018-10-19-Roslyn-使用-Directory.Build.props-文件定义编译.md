@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 使用 Directory.Build.props 文件定义编译"
 author: lindexi
-date: 2018-8-10 19:16:52 +0800
+date: 2018-10-19 18:35:27 +0800
 CreateTime: 2018-7-18 12:18:9 +0800
 categories: Roslyn MSBuild 编译器
 ---
