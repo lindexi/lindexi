@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 asp dotnet core 做图床服务器客户端"
 author: lindexi
-date: 2018-10-19 11:40:0 +0800
+date: 2018-10-31 14:12:29 +0800
 CreateTime: 2018-10-18 20:11:48 +0800
 categories: Win10 UWP dotnet
 ---
@@ -11,7 +11,6 @@ categories: Win10 UWP dotnet
 <!--more-->
 
 
-<!-- csdn -->
 <div id="toc"></div>
 
 ## 服务器端
