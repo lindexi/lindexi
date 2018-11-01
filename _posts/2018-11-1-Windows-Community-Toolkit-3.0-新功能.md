@@ -1,7 +1,7 @@
 ---
 title: "Windows Community Toolkit 3.0 新功能"
 author: lindexi
-date: 2018-10-11 12:14:49 +0800
+date: 2018-11-1 9:2:55 +0800
 CreateTime: 2018-5-31 18:58:9 +0800
 categories: WPF UWP dotnet
 ---
@@ -60,6 +60,8 @@ xmlns:gaze="using:Microsoft.Toolkit.Uwp.Input.GazeInteraction"
 ```
 
 这个API支持让你控制视线输入在界面如何处理，如果对这个有兴趣，请点击[链接](https://aka.ms/eyetrackingforwindows )来学习更多内容。官方的文档请点击[链接](https://docs.microsoft.com/en-us/windows/uwpcommunitytoolkit/gaze/gazeinteractionlibrary )
+
+更多视线输入请看[Gaze Your Way Through Eye Tracking Technology](https://www.iqsdirectory.com/resources/gaze-your-way-through-eye-tracking-technology/ )
 
 ## 平台检查
 
