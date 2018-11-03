@@ -247,3 +247,4 @@ permalink: /friends/
  - [justinxinliu](https://stackoverflow.com/users/231837/justin-xl) 堆栈网25k大神
  - [Ben Cull's Blog](http://benjii.me/ ) asp 大神
  - [Kenny Kerr ](https://kennykerr.ca/ ) C++ WINRT 加拿大微软团队
+ - [Sébastien Lachance](http://www.dotnetapp.com/?p=438 )
