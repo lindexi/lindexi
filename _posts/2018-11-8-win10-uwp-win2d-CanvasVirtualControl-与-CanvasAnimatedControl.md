@@ -1,7 +1,7 @@
 ---
-title: "win10 uwp win2d CanvasVirtualControl"
+title: "win10 uwp win2d CanvasVirtualControl 与 CanvasAnimatedControl"
 author: lindexi
-date: 2018-7-24 18:44:12 +0800
+date: 2018-11-8 19:56:4 +0800
 CreateTime: 2018-4-30 16:15:53 +0800
 categories: UWP win2d 渲染
 ---

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 AppCenter 自动构建"
 author: lindexi
-date: 2018-11-6 20:33:4 +0800
+date: 2018-11-8 9:46:32 +0800
 CreateTime: 2018-11-6 20:10:23 +0800
 categories: Win10 UWP
 ---
@@ -34,7 +34,7 @@ categories: Win10 UWP
 
 ![](http://image.acmx.xyz/lindexi%2F20181162016472)
 
-点击 Build 按钮配置自动构建
+点击 Build 标签，可以看到配置自动构建的界面
 
 <!-- ![](image/win10 uwp 使用 AppCenter 自动构建/win10 uwp 使用 AppCenter 自动构建3.png) -->
 
