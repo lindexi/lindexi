@@ -1,13 +1,13 @@
 ---
 title: "git无法pull仓库refusing to merge unrelated histories"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2018-11-14 16:58:10 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: git
 ---
 
 本文讲的是把git在最新2.9.2，合并pull两个不同的项目，出现的问题
-如何去解决`fatal: refusing to merge unrelated histories`
+如何去解决 `fatal: refusing to merge unrelated histories` 合并两个不同历史的仓库
 
 <!--more-->
 
