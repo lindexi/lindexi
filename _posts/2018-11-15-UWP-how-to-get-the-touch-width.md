@@ -1,7 +1,7 @@
 ---
 title: "UWP how to get the touch width"
 author: lindexi
-date: 2018-11-6 10:16:41 +0800
+date: 2018-11-15 18:49:12 +0800
 CreateTime: 2018-11-6 9:25:23 +0800
 categories: UWP
 ---
@@ -84,5 +84,3 @@ We also can use ContactRectRaw in Properties.
 ```
 
 Try to run the code and touch the application and you can watch the output windows that prints the touch width.
-
-B

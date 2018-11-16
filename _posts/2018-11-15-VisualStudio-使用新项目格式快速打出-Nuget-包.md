@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用新项目格式快速打出 Nuget 包"
 author: lindexi
-date: 2018-10-15 11:26:8 +0800
+date: 2018-11-15 14:58:42 +0800
 CreateTime: 2018-10-15 9:13:31 +0800
 categories: VisualStudio
 ---
@@ -160,5 +160,8 @@ nuget.exe spec
 
 [项目文件中的已知 NuGet 属性（使用这些属性，创建 NuGet 包就可以不需要 nuspec 文件啦） - walterlv](https://walterlv.com/post/known-nuget-properties-in-csproj.html )
 
-课件 [使用新项目格式快速打出Nuget包](https://r302.cc/QmKly0 )
+课件 
+
+[![](http://image.acmx.xyz/lindexi%2F20181115145816608)](https://r302.cc/xejeg0)
+
 
