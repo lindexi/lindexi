@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 msbuild 命令行编译 UWP 程序"
 author: lindexi
-date: 2018-11-6 19:51:46 +0800
+date: 2018-11-19 15:37:14 +0800
 CreateTime: 2018-10-21 16:15:32 +0800
 categories: UWP VisualStudio msbuild
 ---
@@ -11,7 +11,6 @@ categories: UWP VisualStudio msbuild
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：UWP,VisualStudio,msbuild -->
 
 在有一些时候，如使用持续集成的时候就不能通过 VisualStudio 的方式编译 UWP 程序，需要使用命令行的方式编译。

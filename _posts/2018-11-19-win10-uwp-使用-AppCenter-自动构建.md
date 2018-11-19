@@ -1,9 +1,9 @@
 ---
 title: "win10 uwp 使用 AppCenter 自动构建"
 author: lindexi
-date: 2018-11-8 9:46:32 +0800
+date: 2018-11-19 15:29:34 +0800
 CreateTime: 2018-11-6 20:10:23 +0800
-categories: Win10 UWP
+categories: UWP DevOps AzureDevOps
 ---
 
 微软在今年7月上线 appcenter.ms 这个网站，通过 App Center 可以自动对数千种设备进行适配测试、快速将应用发送给测试者或者直接发布到应用商店。做到开发的构建和快速测试，产品的遥测分发合并到一个网站
@@ -12,7 +12,7 @@ categories: Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
+<!-- 标签：uwp,DevOps,AzureDevOps -->
 
 首先打开 [https://appcenter.ms/](https://appcenter.ms/) 使用微软的账号或 github 账号登陆
 

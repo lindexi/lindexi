@@ -1,9 +1,9 @@
 ---
 title: "win10 uwp 使用 Azure DevOps 自动构建"
 author: lindexi
-date: 2018-11-8 18:31:45 +0800
+date: 2018-11-19 15:26:4 +0800
 CreateTime: 2018-11-6 20:37:42 +0800
-categories: Win10 UWP
+categories: UWP DevOps AzureDevOps
 ---
 
 通过 Azure DevOps 可以做到自动构建程序，覆盖计划、创建、编程、测试、部署、发布、托管、共享等各个环节，适用于大多数的语言、平台。
@@ -12,7 +12,8 @@ categories: Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
+
+<!-- 标签：uwp,DevOps,AzureDevOps -->
 
 从谷歌搜 Azure DevOps 即可找到 Azure DevOps 的网站 [https://dev.azure.com](https://dev.azure.com)，这里支持使用微软的账号或 github 的账号登陆。
 
