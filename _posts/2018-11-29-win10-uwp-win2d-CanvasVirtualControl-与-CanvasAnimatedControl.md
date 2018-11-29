@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp win2d CanvasVirtualControl 与 CanvasAnimatedControl"
 author: lindexi
-date: 2018-11-8 19:56:4 +0800
+date: 2018-11-29 11:4:14 +0800
 CreateTime: 2018-4-30 16:15:53 +0800
 categories: UWP win2d 渲染
 ---
@@ -33,6 +33,8 @@ categories: UWP win2d 渲染
 如果是为了做动画需要不停调用 `Invalidate` ，在 UWP 比较好的方法是使用 CanvasAnimatedControl 这个可以到每秒 60 帧，而且在用户设备比较差的时候会降低调用频率。
 
 所以做动画的时候需要不停触发重新渲染就使用 CanvasAnimatedControl ，关于这个控件，请看[win10 uwp 萤火虫效果](https://lindexi.gitee.io/post/win10-uwp-%E8%90%A4%E7%81%AB%E8%99%AB%E6%95%88%E6%9E%9C.html )
+
+[Win2D 中的游戏循环：CanvasAnimatedControl](https://blog.csdn.net/WPwalter/article/details/84585594 )
 
 ## CanvasVirtualControl
 
