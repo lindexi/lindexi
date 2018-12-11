@@ -122,6 +122,10 @@ permalink: /friends/
 
  - [我是bug ](https://bug.ge/2018/05/16/all-your-files-have-been-encrypted/?tdsourcetag=s_pctim_aiomsg ) UWP TV 电视开发者，研究视频编码
 
+ - [Ulysses' Brain Holes](http://114.215.126.213/ )
+
+ - [鸿志](http://digimons.net/ ) 数码宝贝
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
