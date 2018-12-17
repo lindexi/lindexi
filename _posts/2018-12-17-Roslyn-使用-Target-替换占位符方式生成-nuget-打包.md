@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 使用 Target 替换占位符方式生成 nuget 打包"
 author: lindexi
-date: 2018-8-29 9:11:27 +0800
+date: 2018-12-17 14:11:1 +0800
 CreateTime: 2018-7-24 20:34:29 +0800
 categories: Roslyn MSBuild 编译器 nuget 打包
 ---
@@ -97,5 +97,7 @@ categories: Roslyn MSBuild 编译器 nuget 打包
 更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
 
 参见：[专栏：Roslyn 入门 - CSDN博客](https://blog.csdn.net/column/details/23159.html )
+
+[NuGet pack and restore as MSBuild targets](https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets )
 
 

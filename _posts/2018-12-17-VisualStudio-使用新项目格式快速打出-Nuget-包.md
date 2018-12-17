@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用新项目格式快速打出 Nuget 包"
 author: lindexi
-date: 2018-11-15 14:58:42 +0800
+date: 2018-12-17 14:11:50 +0800
 CreateTime: 2018-10-15 9:13:31 +0800
 categories: VisualStudio
 ---
@@ -164,4 +164,5 @@ nuget.exe spec
 
 [![](http://image.acmx.xyz/lindexi%2F20181115145816608)](https://r302.cc/xejeg0)
 
+[Create and publish a .NET Standard package using Visual Studio on Windows](https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-visual-studio )
 
