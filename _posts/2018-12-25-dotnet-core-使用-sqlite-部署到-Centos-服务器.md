@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 使用 sqlite 部署到 Centos 服务器"
 author: lindexi
-date: 2018-9-28 9:6:59 +0800
+date: 2018-12-25 9:29:11 +0800
 CreateTime: 2018-9-27 20:46:48 +0800
 categories: dotnetcore aspdotnetcore asp 数据库 sqlite
 ---
@@ -11,7 +11,6 @@ categories: dotnetcore aspdotnetcore asp 数据库 sqlite
 <!--more-->
 
 
-<!-- csdn -->
 
 <!-- 标签： dotnetcore,aspdotnetcore,asp,数据库,sqlite -->
 

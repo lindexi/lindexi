@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何使用 MSBuild Copy 复制文件"
 author: lindexi
-date: 2018-9-20 15:20:11 +0800
+date: 2018-12-25 9:35:8 +0800
 CreateTime: 2018-7-10 10:23:15 +0800
 categories: Roslyn MSBuild 编译器
 ---
@@ -11,7 +11,6 @@ categories: Roslyn MSBuild 编译器
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：Roslyn,MSBuild,编译器 -->
 
 需要知道 Rosyln 是 MSBuild 的 dotnet core 版本。
@@ -28,7 +27,7 @@ categories: Roslyn MSBuild 编译器
 
 需要注意，不要把 Copy 直接写在 Project 下，如下面的代码
 
-```csharp
+```
 <Project Sdk="Microsoft.NET.Sdk">
      <!-- 忽略代码 -->
    <Copy SourceFiles="lindexi.txt" DestinationFolder="LetirNuhe\" ></Copy>

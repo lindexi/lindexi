@@ -1,7 +1,7 @@
 ---
 title: "WPF 如何在 WriteableBitmap 写文字"
 author: lindexi
-date: 2018-8-10 19:16:53 +0800
+date: 2018-12-25 9:13:57 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: WPF
 ---
@@ -109,4 +109,8 @@ categories: WPF
 最近看到一个对 OpenGL 封装的 SharpGL ，感觉还不错，如果需要比较高的速度，那么推荐使用这个库
 
 [SharpGL(Opengl)入门之纹理星球 - BIT祝威 - 博客园](http://www.cnblogs.com/bitzhuwei/archive/2013/05/21/Opengl_Sharpgl_dragtextured_planet_drag_drop.html )
+
+[使用不安全代码将 Bitmap 位图转为 WPF 的 ImageSource 以获得高性能和持续小的内存占用 - walterlv的专栏 - CSDN博客](https://blog.csdn.net/WPwalter/article/details/78619679 )
+
+[基于WriteableBitmap对象类采用擦写内存方式，低开销更新WPF Image UI控件 - Ivan_Whisper的博客 - CSDN博客](https://blog.csdn.net/Ivan_Whisper/article/details/80312586 )
 

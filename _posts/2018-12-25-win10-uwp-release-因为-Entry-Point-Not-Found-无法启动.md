@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp release 因为 Entry Point Not Found 无法启动"
 author: lindexi
-date: 2018-4-8 19:44:20 +0800
+date: 2018-12-25 9:39:42 +0800
 CreateTime: 2018-4-6 11:47:31 +0800
 categories: Win10 UWP
 ---
@@ -11,7 +11,6 @@ categories: Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
 
 ```csharp
 程序“[30760] xx.exe”已退出，返回值为 -1073741511 (0xc0000139) 'Entry Point Not Found'。
