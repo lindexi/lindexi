@@ -1,7 +1,7 @@
 ---
 title: "WPF 从 DrawingVisual 转 BitmapImage 图片"
 author: lindexi
-date: 2018-12-23 15:2:22 +0800
+date: 2018-12-27 11:31:52 +0800
 CreateTime: 2018-12-23 12:4:51 +0800
 categories: WPF
 ---
