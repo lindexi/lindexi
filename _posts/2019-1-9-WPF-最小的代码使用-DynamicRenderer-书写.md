@@ -1,9 +1,9 @@
 ---
 title: "WPF 最小的代码使用 DynamicRenderer 书写"
 author: lindexi
-date: 2019-1-8 10:49:32 +0800
+date: 2019-1-9 14:7:26 +0800
 CreateTime: 2019-1-8 10:38:30 +0800
-categories: WPF
+categories: WPF 笔迹
 ---
 
 在 WPF 中有 DynamicRenderer 提供高性能的书写，这个类在 WPF 只有 InkCanvas 使用，如果想要在自己的 UIElement 使用，需要写一些代码
@@ -12,6 +12,7 @@ categories: WPF
 
 
 <!-- csdn -->
+<!-- 标签：WPF，笔迹 -->
 
 先创建一个 UIElement 自定义一个，因为 DynamicRenderer 继承于 StylusPlugIn 需要使用 UIElement 的 StylusPlugIns 属性才能添加他
 

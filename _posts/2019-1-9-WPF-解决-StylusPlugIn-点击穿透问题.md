@@ -1,9 +1,9 @@
 ---
 title: "WPF 解决 StylusPlugIn 点击穿透问题"
 author: lindexi
-date: 2019-1-8 15:58:41 +0800
+date: 2019-1-9 14:6:58 +0800
 CreateTime: 2019-1-8 10:49:4 +0800
-categories: WPF
+categories: WPF 笔迹
 ---
 
 在使用 StylusPlugIn 的时候会出现这样的坑，只要一个元素附加有 StylusPlugIn 在这个元素上面放另一个没有附加 StylusPlugIn 的元素，点击上面的元素，下面的元素的 StylusPlugIn 还是可以收到触摸的消息
@@ -12,6 +12,7 @@ categories: WPF
 
 
 <!-- csdn -->
+<!-- 标签：WPF，笔迹 -->
 
 如果写一个简单的 StylusPlugIn 附加到元素上，可以很快知道我说的问题
 
@@ -174,4 +175,8 @@ categories: WPF
 第一个方法是需要在其他所有元素上面添加 StylusPlugIn 有代码耦合
 
 第二个方法需要等待主线程收到消息，在笔迹就出现点击的时候出现了闪烁，因为触摸线程比主线程先收到点击
+
+代码 [WPF 解决 StylusPlugIn 点击穿透问题-CSDN下载](https://download.csdn.net/download/lindexi_gd/10903908 )
+
+[WPF 高性能笔](https://lindexi.oschina.io/lindexi/post/WPF-%E9%AB%98%E6%80%A7%E8%83%BD%E7%AC%94.html )
 
