@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 ItemsPanel 修改方向"
 author: lindexi
-date: 2019-1-11 20:0:51 +0800
+date: 2019-1-11 20:2:42 +0800
 CreateTime: 2019-1-11 19:53:56 +0800
 categories: WPF
 ---
@@ -142,4 +142,6 @@ categories: WPF
         </ListView>
     </Grid>
 ```
+
+代码 [https://gitee.com/lindexi/lindexi_gd/blob/68cefabd097bf2f4fc35e3384f34e1dc622a67ad/PotrallTiscawMouger/PotrallTiscawMouger/MainWindow.xaml](https://gitee.com/lindexi/lindexi_gd/blob/68cefabd097bf2f4fc35e3384f34e1dc622a67ad/PotrallTiscawMouger/PotrallTiscawMouger/MainWindow.xaml )
 
