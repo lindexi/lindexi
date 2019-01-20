@@ -1,7 +1,7 @@
 ---
 title: "win2d 通过 CanvasActiveLayer 画出透明度和裁剪"
 author: lindexi
-date: 2019-1-19 8:44:16 +0800
+date: 2019-1-19 8:44:24 +0800
 CreateTime: 2019-1-17 21:4:6 +0800
 categories: UWP win2d
 ---
@@ -270,5 +270,5 @@ win2d 毛玻璃：[win10 uwp 毛玻璃](https://lindexi.gitee.io/post/win10-uwp-
 
 [CanvasActiveLayer](https://microsoft.github.io/Win2D/html/T_Microsoft_Graphics_Canvas_CanvasActiveLayer.htm )
 
-
+[void](https://validvoid.net/ )
 
