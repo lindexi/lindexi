@@ -1,7 +1,7 @@
 ---
 title: "UWP IRandomAccessStream 与 Stream 互转"
 author: lindexi
-date: 2018-9-10 9:32:11 +0800
+date: 2019-1-29 16:33:30 +0800
 CreateTime: 2018-9-10 9:32:11 +0800
 categories: UWP
 ---
@@ -13,8 +13,6 @@ categories: UWP
 
 
 <div id="toc"></div>
-
-<!-- csdn -->
 
 如果在使用网络传输文件的时候，在 UWP 经常使用将 IRandomAccessStream 和 Stream 互转。
 

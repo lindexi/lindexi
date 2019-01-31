@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 Microsoft.Graph 发送邮件"
 author: lindexi
-date: 2018-10-15 15:1:14 +0800
+date: 2019-1-29 16:36:31 +0800
 CreateTime: 2018-10-15 11:33:8 +0800
 categories: Win10 UWP
 ---
@@ -12,7 +12,6 @@ categories: Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
 
 在仔细阅读了[Microsoft Graph 桌面应用程序 - 陈希章](https://www.cnblogs.com/chenxizhang/p/7904255.html )的文章之后，按照文章的方法尝试了很久终于成功发送了邮件
 

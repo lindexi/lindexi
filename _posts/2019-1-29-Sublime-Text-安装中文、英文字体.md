@@ -1,7 +1,7 @@
 ---
 title: "Sublime Text 安装中文、英文字体"
 author: lindexi
-date: 2018-8-10 19:16:52 +0800
+date: 2019-1-29 16:35:25 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: 
 ---
@@ -11,7 +11,6 @@ categories:
 <!--more-->
 
 
-<!-- csdn -->
 
 ## YaHei Consolas Hybrid
 
@@ -55,7 +54,7 @@ BTSYNC：B6EZLWWDHSMHDHNF6DLOMGKYBSXT7OI4R
 
 ### 合并多个字体
 
-请使用
+请使用 FontForge 合并字体
 
 点击选择字体，他的字体放在  `C:\Program Files (x86)\FontForge\`
 
