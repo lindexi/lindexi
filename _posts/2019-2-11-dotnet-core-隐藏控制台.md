@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 隐藏控制台"
 author: lindexi
-date: 2019-2-11 11:6:43 +0800
+date: 2019-2-11 11:15:0 +0800
 CreateTime: 2019-2-11 11:3:22 +0800
 categories: dotnet
 ---
@@ -53,4 +53,6 @@ categories: dotnet
 ```
 
 [dotnet core 通过修改文件头的方式隐藏控制台窗口](https://lindexi.gitee.io/post/dotnet-core-%E9%80%9A%E8%BF%87%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E5%A4%B4%E7%9A%84%E6%96%B9%E5%BC%8F%E9%9A%90%E8%97%8F%E6%8E%A7%E5%88%B6%E5%8F%B0%E7%AA%97%E5%8F%A3.html )
+
+[Show/Hide the console window of a C# console application](https://stackoverflow.com/questions/3571627/show-hide-the-console-window-of-a-c-sharp-console-application )
 
