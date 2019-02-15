@@ -114,6 +114,10 @@ permalink: /friends/
 
    一对一远程互助平台，有什么问题可以在这里问
 
+ - [码友网 最新.NET Core开发资讯源](https://codedefault.com/sn/latest )
+
+   这是 dotnet 开发人员的头条
+
  - [我是卧底](https://www.songshizhao.com/blog/blogPage/507.html )  
 
  - [Mutuduxf's blog](https://www.mutuduxf.com/ )
@@ -256,3 +260,4 @@ permalink: /friends/
  - [Ben Cull's Blog](http://benjii.me/ ) asp 大神
  - [Kenny Kerr ](https://kennykerr.ca/ ) C++ WINRT 加拿大微软团队
  - [Sébastien Lachance](http://www.dotnetapp.com/?p=438 )
+ - [Sonnemans](https://reflectionit.nl/blog ) trainer, speaker, developer, mentor   Microsoft MVP  C#, XAML, Windows (UWP), WPF, Blend, ASP.NET, SQL 
