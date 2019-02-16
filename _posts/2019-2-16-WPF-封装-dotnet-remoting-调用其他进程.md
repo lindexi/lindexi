@@ -1,7 +1,7 @@
 ---
 title: "WPF 封装 dotnet remoting 调用其他进程"
 author: lindexi
-date: 2018-8-29 8:51:51 +0800
+date: 2019-2-16 9:40:26 +0800
 CreateTime: 2018-5-19 8:57:17 +0800
 categories: WPF dotnetremoting rpc
 ---
@@ -170,7 +170,10 @@ categories: WPF dotnetremoting rpc
             {
                 throw new RemoteProcessStartException("启动时出现返回值为空")
                 {
-                    Data = {{"ProcessStartInfo", st}}
+                    Data = 
+                    {
+                        {"ProcessStartInfo", st}
+                    }
                 };
             }
 
