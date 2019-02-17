@@ -66,6 +66,10 @@ permalink: /friends/
 
    UWP IOT 大神
 
+ - [邵猛](https://www.cnblogs.com/shaomeng )  
+
+   国内Windows应用开发方向的微软最具价值专家
+
  - [追梦园 http://www.zmy123.cn](http://www.zmy123.cn)
 
    里面有很多uwp的博客
@@ -140,7 +144,7 @@ permalink: /friends/
 
  - [东邪独孤 - 博客园](http://www.cnblogs.com/tcjiaan/ ) 
    
-   老周，买了他的《Windows 10 应用开发实战》写的很好，入门使用这本书对我帮助很大。只是代码没用，因为是代码是uap的，不过修改难度小。老周在极客学院上录制了 Windows10 应用开发的教学视频：http://my.jikexueyuan.com/1795437896/record/ 他的视频也是国内仅有的几个最好的。我很多博客都是参考老周的。
+   老周，国内开发 WPF 或 UWP 的小伙伴相信都认识，他的 《Windows 10 应用开发实战》 是 UWP 国内入门书籍最好的。我很多博客都是参考老周的。
 
  - [六兆煮橙不会写代码 - CSDN博客](http://blog.csdn.net/lzl1918 )
 
@@ -156,7 +160,7 @@ permalink: /friends/
 
  - [MS-UAP - 博客园](http://www.cnblogs.com/ms-uap/ )
 
-   微软Windows 工程院的团队博客 邹老师的团队。
+   微软Windows 工程院的团队博客 邹老师的团队，最近邹老师写了 《构建之法》 这本书介绍了产品和开发，适合各个小伙伴看
 
  - [MSP_甄心cherish](http://blog.csdn.net/zmq570235977 ) http://blog.csdn.net/zmq570235977 
 
@@ -209,6 +213,8 @@ permalink: /friends/
  - [durow - 博客园](http://www.cnblogs.com/durow/ )
 
  - [法的空间 - 博客园](http://www.cnblogs.com/FaDeKongJian )
+
+   东方财富 UWP 开发者
 
  - [浅蓝 - 博客园](http://www.cnblogs.com/qianblue )
 
