@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过 WMI 拿到显卡信息"
 author: lindexi
-date: 2019-2-21 9:42:48 +0800
+date: 2019-2-21 10:3:39 +0800
 CreateTime: 2019-2-21 9:42:47 +0800
 categories: dotnet
 ---
