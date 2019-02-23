@@ -1,9 +1,9 @@
 ---
 title: "dotnet 通过 WMI 拿到显卡信息"
 author: lindexi
-date: 2019-2-21 10:3:39 +0800
+date: 2019-2-22 10:15:55 +0800
 CreateTime: 2019-2-21 9:42:47 +0800
-categories: dotnet
+categories: dotnet C# WMI
 ---
 
 本文告诉大家如何通过 WMI 拿到显卡信息
@@ -12,6 +12,8 @@ categories: dotnet
 
 
 <!-- csdn -->
+<!-- 标签：dotnet,C#,WMI -->
+
 
 如果使用的是 dotnet core 请先引用 Microsoft.Windows.Compatibility 才可以使用 WMI 代码
 
