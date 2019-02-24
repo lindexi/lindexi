@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 过滤输出窗口文本"
 author: lindexi
-date: 2019-2-23 16:54:21 +0800
+date: 2019-2-24 11:10:7 +0800
 CreateTime: 2019-2-23 15:45:12 +0800
 categories: VisualStudio
 ---
@@ -51,7 +51,7 @@ categories: VisualStudio
 
 <!-- ![](image/VisualStudio 过滤输出窗口文本/VisualStudio 过滤输出窗口文本0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019223154550932)
+![](http://image.acmx.xyz/lindexi%2F201922411520834)
 
 通过 [VisualStudio 插件网站](https://marketplace.visualstudio.com/items?itemName=nertilpoci.FilterDebugWindow ) 或直接在 VisualStudio 搜 Filter Debug Window 就可以下载
 
@@ -61,13 +61,13 @@ categories: VisualStudio
 
 ![](https://i.loli.net/2019/02/23/5c70fb6a650b5.png)
 
-点击加号可以添加过滤
+这个页面默认会在输出页面旁边，这个插件是添加了一个新的页面用来做输出，这里的输出的文本和输出页面的文本相同，但是多了过滤的功能。点击加号可以添加过滤
 
 <!-- ![](image/VisualStudio 过滤输出窗口文本/VisualStudio 过滤输出窗口文本2.png) -->
 
 ![](http://image.acmx.xyz/lindexi%2F201922315524988)
 
-输入过滤的内容，然后点击确定
+添加的过滤可以使用不同的条件过滤，如输出的内容包含某个字符串，或不包含某个字符串。输入过滤的内容，然后点击确定
 
 <!-- ![](image/VisualStudio 过滤输出窗口文本/VisualStudio 过滤输出窗口文本3.png) -->
 
