@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过 WMI 获取指定进程的输入命令行"
 author: lindexi
-date: 2019-2-22 10:17:37 +0800
+date: 2019-2-23 10:29:23 +0800
 CreateTime: 2019-2-22 10:17:37 +0800
 categories: dotnet C# WMI
 ---
@@ -52,5 +52,13 @@ private static void Main()
 }
 ```
 
+如果不能访问 WMI 如使用的是 dotnet core 2.0 以下版本或需要通过 dotnet core 编译为 Native 就可以尝试[不使用 WMI 在 dotnet 获取指定进程的输入命令行](https://blog.lindexi.com/post/dotnet-%E8%8E%B7%E5%8F%96%E6%8C%87%E5%AE%9A%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4%E8%A1%8C.html )
+
 [https://stackoverflow.com/a/2633674/6116637](https://stackoverflow.com/a/2633674/6116637 )
+
+[dotnet 获取指定进程的输入命令行](https://blog.lindexi.com/post/dotnet-%E8%8E%B7%E5%8F%96%E6%8C%87%E5%AE%9A%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4%E8%A1%8C.html )
+
+更多 WMI 请看 [WMI 博客](https://blog.lindexi.com/categories.html#wmi)
+
+[.NET/C# 获取一个正在运行的进程的命令行参数 - walterlv](https://walterlv.com/post/get-command-line-for-a-running-process.html )
 
