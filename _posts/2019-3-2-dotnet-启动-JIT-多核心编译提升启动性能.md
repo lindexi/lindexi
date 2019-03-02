@@ -1,11 +1,12 @@
 ---
 title: "dotnet 启动 JIT 多核心编译提升启动性能"
 author: lindexi
-date: 2019-3-1 16:47:18 +0800
+date: 2019-3-2 8:42:27 +0800
 CreateTime: 2019-3-1 15:51:25 +0800
 categories: dotnet
 ---
 
+用2分钟提升十分之一的启动性能，通过在桌面程序启动 JIT 多核心编译提升启动性能
 在 dotnet 可以通过让 JIT 进行多核心编译提升软件的启动性能，在默认托管的 ASP.NET 程序是开启的，对 WPF 等桌面程序需要手动开启
 
 <!--more-->
