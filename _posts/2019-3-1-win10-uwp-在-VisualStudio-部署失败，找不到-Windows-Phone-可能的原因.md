@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 在 VisualStudio 部署失败，找不到 Windows Phone 可能的原因"
 author: lindexi
-date: 2018-7-26 19:52:52 +0800
+date: 2019-3-1 9:23:4 +0800
 CreateTime: 2018-7-26 9:23:55 +0800
 categories: VisualStudio Win10 UWP
 ---
@@ -12,7 +12,6 @@ categories: VisualStudio Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
 
 要在 VisualStudio 调试自己的设备，需要自己的手机开启开发者模式，第二手机是自己的。
 

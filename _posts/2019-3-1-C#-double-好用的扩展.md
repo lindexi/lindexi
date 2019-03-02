@@ -1,7 +1,7 @@
 ---
 title: "C# double 好用的扩展"
 author: lindexi
-date: 2018-5-15 11:45:18 +0800
+date: 2019-3-1 9:19:5 +0800
 CreateTime: 2018-5-15 10:54:27 +0800
 categories: C#
 ---
@@ -12,7 +12,6 @@ categories: C#
 <!--more-->
 
 
-<!-- csdn -->
 
 在开始看本文之前，希望大家是知道计算机是如何存放 double 和 double 精度问题原因。如果大家不知道这个的话，会比较难理解为什么需要使用扩展方法来判断。
 

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 LayoutTransformer"
 author: lindexi
-date: 2018-8-10 19:17:19 +0800
+date: 2019-3-1 9:24:32 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
@@ -11,7 +11,6 @@ categories: Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
 
 请看下面的图片，如果直接使用 Transformer 旋转，那么在元素布局完成再进行旋转，于是这时元素就的显示在布局之外。如果是 LayoutTransformer ，是先把元素旋转，然后进行布局。
 
