@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDX"
 author: lindexi
-date: 2018-8-27 16:28:46 +0800
+date: 2019-3-6 16:52:37 +0800
 CreateTime: 2018-4-20 9:17:0 +0800
 categories: WPF D2D DirectX SharpDX 渲染
 ---
@@ -179,4 +179,6 @@ RawColor4 就是 rgba ，颜色是从 0 到 1 ，对应 WPF 的 RGB 从 0 到 25
 ![](http://image.acmx.xyz/lindexi%2F201842010126671.jpg)
 
 重新告诉大家如何画出。首先拿到窗口，在 WPF 能创建的 WindowRenderTarget 最简单是拿到窗口。因为通过几个属性设置如何渲染，在哪渲染，所以还需要多使用几个属性才可以创建 D2D.WindowRenderTarget 。因为需要一个时机对 WindowRenderTarget 画出，所以我就使用 CompositionTarget 对他进行画出。
+
+上面很多参数都没有详细说明，具体请看这位大佬的[博客](https://blog.csdn.net/X_Jun96?tdsourcetag=s_pctim_aiomsg )
 
