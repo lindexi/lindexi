@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDx 渲染博客导航"
 author: lindexi
-date: 2019-3-6 17:6:50 +0800
+date: 2019-3-6 17:58:47 +0800
 CreateTime: 2019-3-6 16:57:24 +0800
 categories: WPF
 ---
@@ -39,7 +39,7 @@ categories: WPF
 
 以下是我收藏的一些博客
 
-- [【X_Jun的博客】一个游戏/图形爱好者 - CSDN博客](https://blog.csdn.net/X_Jun96?tdsourcetag=s_pctim_aiomsg ) 
+- [DirectX11 With Windows SDK--00 目录 - X_Jun - 博客园](https://www.cnblogs.com/X-Jun/p/9028764.html?tdsourcetag=s_pctim_aiomsg )
 
 有任何建议和吐槽都欢迎通过邮件联系我，或加入[dotnet 职业技术学院](https://t.me/dotnet_campus) 交流
 
