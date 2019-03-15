@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 ScaleTransform 放大某个元素"
 author: lindexi
-date: 2019-3-13 18:8:26 +0800
+date: 2019-3-13 19:5:56 +0800
 CreateTime: 2019-3-13 16:50:36 +0800
 categories: Win10 UWP
 ---
@@ -141,7 +141,7 @@ categories: Win10 UWP
         {
             var button = (Button) sender;
 
-            var storyboard =(Storyboard) button.Resources["Storyboard"];
+            var storyboard = (Storyboard) button.Resources["Storyboard"];
 
             storyboard.Begin();
         }
