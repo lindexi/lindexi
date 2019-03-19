@@ -1,7 +1,7 @@
 ---
 title: "dotnet 控制台 Hangfire 后台定时任务"
 author: lindexi
-date: 2019-3-18 9:43:47 +0800
+date: 2019-3-18 10:18:22 +0800
 CreateTime: 2019-3-18 8:55:3 +0800
 categories: dotnet
 ---
@@ -58,4 +58,8 @@ categories: dotnet
                 Console.Read();
             }
 ```
+
+代码 [https://github.com/lindexi/lindexi_gd/tree/e397171412e1cae803b8590ffd31413027866dc9/SeaherehorjawKitirnaivouwebooca](https://github.com/lindexi/lindexi_gd/tree/e397171412e1cae803b8590ffd31413027866dc9/SeaherehorjawKitirnaivouwebooca)
+
+更多方法请看 [Hangfire.SQLite An easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET apps](https://github.com/tidusjar/Hangfire.SQLite )
 
