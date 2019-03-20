@@ -1,7 +1,7 @@
 ---
 title: "dotnet 手动解决 json 解析中不合法字符串"
 author: lindexi
-date: 2019-3-20 9:12:56 +0800
+date: 2019-3-20 9:26:18 +0800
 CreateTime: 2019-3-20 8:59:1 +0800
 categories: dotnet
 ---
@@ -94,7 +94,7 @@ categories: dotnet
 
 这时运行代码不会炸掉，因为设置了 `e.ErrorContext.Handled` 是 true 如果想要记录问题同时需要炸掉，那么就不要写这个代码
 
-
+所有代码请看 [github](https://github.com/lindexi/lindexi_gd/tree/7d553d290d68b567f91daed16c814c023e90c1a8/BepirquwiKedoucawji)
 
 [Serialization Error Handling](https://www.newtonsoft.com/json/help/html/SerializationErrorHandling.htm )
 
