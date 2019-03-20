@@ -1,7 +1,7 @@
 ---
 title: "UWP How to custom RichTextBlock right click menu"
 author: lindexi
-date: 2019-3-20 9:48:35 +0800
+date: 2019-3-20 9:54:54 +0800
 CreateTime: 2019-3-20 9:46:7 +0800
 categories: UWP
 ---
@@ -33,6 +33,8 @@ Run the code and you can see this image.
 <!-- ![](image/UWP How to custom RichTextBlock right click menu/How can I change the right click menu of a RichTextBlock in UWP.gif) -->
 
 ![](http://image.acmx.xyz/lindexi%2F201932094724277)
+
+All code is in [github](https://github.com/lindexi/lindexi_gd/tree/7a716887868435aab72683997806c9e7133722b4/LekaryusijefowHirgemsterevepalltrallxay)
 
 [c# - How can I change the right click menu of a RichTextBlock in UWP - Stack Overflow](https://stackoverflow.com/a/55252373/6116637 )
 
