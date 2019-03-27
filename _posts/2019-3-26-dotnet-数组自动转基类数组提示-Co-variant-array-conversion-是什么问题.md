@@ -1,7 +1,7 @@
 ---
 title: "dotnet 数组自动转基类数组提示 Co-variant array conversion 是什么问题"
 author: lindexi
-date: 2019-3-26 14:42:6 +0800
+date: 2019-3-26 19:40:51 +0800
 CreateTime: 2019-3-26 14:27:11 +0800
 categories: dotnet
 ---
@@ -27,7 +27,7 @@ categories: dotnet
             object[] f1 = foo;
 ```
 
-但是这不代表 f1 也是 object 数组，只是用起来可以作为 object 数组用，如果我存放一个不是继承字符串的类，那么将会提示 ` System.ArrayTypeMismatchException: Attempted to access an element as a type incompatible with the array.` 因为这个数组是强数组，不能加入和数组定义不相同的
+但是这不代表 f1 也是 object 数组，只是用起来可以作为 object 数组用，如果我存放一个不是继承字符串的类，那么将会提示 `System.ArrayTypeMismatchException: Attempted to access an element as a type incompatible with the array.` 因为这个数组是强数组，不能加入和数组定义不相同的
 
 ```csharp
             string[] foo = new[]
