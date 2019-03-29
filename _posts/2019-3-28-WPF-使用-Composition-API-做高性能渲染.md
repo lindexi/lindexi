@@ -1,9 +1,9 @@
 ---
 title: "WPF 使用 Composition API 做高性能渲染"
 author: lindexi
-date: 2019-3-28 11:24:37 +0800
+date: 2019-3-28 11:38:13 +0800
 CreateTime: 2019-3-28 10:8:52 +0800
-categories: WPF
+categories: WPF 渲染
 ---
 
 在 WPF 中很多小伙伴都会遇到渲染性能的问题，虽然 WPF 的渲染可以甩浏览器渲染几条街，但是还是支持不了游戏级的渲染。在 WPF 使用的 DX 只是优化等级为 9 和 DX 9 差不多的性能，微软在很多开发者的提议开放了现代渲染方法 Composition API 这是 UI 应用的里程碑的技术
@@ -12,6 +12,7 @@ categories: WPF
 
 
 <!-- csdn -->
+<!-- 标签：WPF，渲染 -->
 
 现在这个技术只是最小可用版本，但是还是可以玩一下。
 
