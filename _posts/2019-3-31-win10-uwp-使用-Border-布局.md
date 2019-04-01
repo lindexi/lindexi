@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 Border 布局"
 author: lindexi
-date: 2019-3-31 16:49:20 +0800
+date: 2019-3-31 20:10:47 +0800
 CreateTime: 2019-3-31 15:53:38 +0800
 categories: Win10 UWP
 ---
@@ -63,7 +63,7 @@ categories: Win10 UWP
 
 ![](http://image.acmx.xyz/lindexi%2F201933116232839)
 
-如果修改宽度为 0 那么就看不到相同，如我就需要在文本下方画一条直线
+如果修改宽度为 0 那么就看不到相同，如我就需要在文本画一条直线
 
 ```csharp
         <Border HorizontalAlignment="Center" VerticalAlignment="Center"
