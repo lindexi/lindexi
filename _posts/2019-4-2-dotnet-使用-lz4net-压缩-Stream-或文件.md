@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 lz4net 压缩 Stream 或文件"
 author: lindexi
-date: 2019-4-2 8:47:35 +0800
+date: 2019-4-2 11:13:13 +0800
 CreateTime: 2019-4-2 8:4:12 +0800
 categories: dotnet
 ---
@@ -56,4 +56,6 @@ using K4os.Compression.LZ4.Streams;
 [lz4/lz4: Extremely Fast Compression algorithm](https://github.com/lz4/lz4 )
 
 [K4os.Compression.LZ4](https://github.com/MiloszKrajewski/K4os.Compression.LZ4 )
+
+所有代码都在 [github](https://github.com/lindexi/lindexi_gd/tree/c315a9e325e07abe3782a5966d2b24ebd2e92954/DurbujukerhaHaykairyearnal )
 
