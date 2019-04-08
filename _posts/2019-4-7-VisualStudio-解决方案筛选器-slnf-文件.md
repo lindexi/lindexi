@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 解决方案筛选器 slnf 文件"
 author: lindexi
-date: 2019-4-7 11:29:31 +0800
+date: 2019-4-7 11:34:59 +0800
 CreateTime: 2019-4-7 10:58:41 +0800
 categories: VisualStudio
 ---
@@ -37,7 +37,7 @@ categories: VisualStudio
 
 ![](http://image.acmx.xyz/lindexi%2F2019471172599)
 
-在 VisualStudio 2019 可以在第一次手动加载需要的项目之后保存解决方案筛选器 slnf 文件
+在 VisualStudio 2019 可以在第一次手动加载需要的项目之后保存解决方案筛选器 slnf 文件，当然不需要每个项目都点击重新加载，定义指定一个高层的项目，右击点击加载依赖项目，于是所有被他依赖的项目都会加载
 
 <!-- ![](image/VisualStudio 解决方案筛选器 slnf 文件/VisualStudio 解决方案筛选器 slnf 文件1.png) -->
 
