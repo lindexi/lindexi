@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 好用插件集合"
 author: lindexi
-date: 2019-4-8 9:55:23 +0800
+date: 2019-4-11 19:32:38 +0800
 CreateTime: 2019-4-3 18:59:27 +0800
 categories: VisualStudio
 ---
@@ -104,4 +104,6 @@ categories: VisualStudio
 
 
 如果有发现好玩的插件，欢迎评论
+
+![](https://i.loli.net/2019/04/11/5caf25d76d4a2.jpg)
 

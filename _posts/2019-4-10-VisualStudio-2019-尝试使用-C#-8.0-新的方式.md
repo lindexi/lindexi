@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 2019 尝试使用 C# 8.0 新的方式"
 author: lindexi
-date: 2019-4-10 8:13:30 +0800
+date: 2019-4-10 10:41:21 +0800
 CreateTime: 2018-12-12 17:43:40 +0800
 categories: VisualStudio C#
 ---
@@ -33,7 +33,7 @@ categories: VisualStudio C#
 
 ![](http://image.acmx.xyz/lindexi%2F201812121753079)
 
-当前，在使用之前需要做一些准备，首先是[下载](https://aka.ms/netcore3download) dotnet core 3.0 不然一些功能不能使用。如果官网无法下载，可以到
+当前，在使用之前需要做一些准备，首先是[下载](https://aka.ms/netcore3download) dotnet core 3.0 不然一些功能不能使用。如果官网无法下载，可以到[CSDN](https://download.csdn.net/download/lindexi_gd/11100712 )下载
 
 右击项目，编辑一下 csproj 文件
 
