@@ -128,7 +128,7 @@ permalink: /friends/
 
  - [吴波](http://blog.vichamp.com/) Powershell 方向的 MVP 是一位技术+管理的大佬
 
- - [我是bug ](https://bug.ge/2018/05/16/all-your-files-have-been-encrypted/?tdsourcetag=s_pctim_aiomsg ) UWP TV 电视开发者，研究视频编码
+ - [【xtgmd168的专栏】wpf3dgis - CSDN博客](https://blog.csdn.net/xtgmd168?tdsourcetag=s_pctim_aiomsg )
 
  - [Ulysses' Brain Holes](http://114.215.126.213/ )
 
