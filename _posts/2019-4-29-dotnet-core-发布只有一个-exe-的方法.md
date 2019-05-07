@@ -1,9 +1,9 @@
 ---
 title: "dotnet core 发布只有一个 exe 的方法"
 author: lindexi
-date: 2019-2-1 11:1:14 +0800
+date: 2019-4-29 12:10:0 +0800
 CreateTime: 2019-2-1 10:6:38 +0800
-categories: dotnet
+categories: dotnet dotnetcore
 ---
 
 在 dotnet core 发布的时候，会使用很多文件，这样发给小伙伴使用的时候不是很清真，本文告诉大家一个非官方的方法通过 warp 将多个文件打包为一个文件
@@ -11,8 +11,7 @@ categories: dotnet
 <!--more-->
 
 
-
-<!-- csdn -->
+<!-- 标签：dotnet,dotnetcore -->
 
 和之前相同的方式发布一个 dotnet core 程序，记得需要使用 `--self-contained` 发布
 

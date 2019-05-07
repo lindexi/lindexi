@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 Border 布局"
 author: lindexi
-date: 2019-3-31 20:10:47 +0800
+date: 2019-4-29 12:29:45 +0800
 CreateTime: 2019-3-31 15:53:38 +0800
 categories: Win10 UWP
 ---
@@ -11,7 +11,6 @@ categories: Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
 
 在 UWP 中可以直接在 xaml 写界面，建议将界面在 xaml 写。简单创建项目写一个 Border 里面有一个文本
 

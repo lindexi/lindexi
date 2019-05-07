@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Composition API 做高性能渲染"
 author: lindexi
-date: 2019-4-28 14:47:6 +0800
+date: 2019-4-29 12:21:52 +0800
 CreateTime: 2019-3-28 10:8:52 +0800
 categories: WPF 渲染
 ---
@@ -11,7 +11,6 @@ categories: WPF 渲染
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：WPF，渲染 -->
 
 现在这个技术只是最小可用版本，但是还是可以玩一下。
