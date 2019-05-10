@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 发布只有一个 exe 的方法"
 author: lindexi
-date: 2019-4-29 12:10:0 +0800
+date: 2019-5-9 18:43:16 +0800
 CreateTime: 2019-2-1 10:6:38 +0800
 categories: dotnet dotnetcore
 ---
@@ -54,7 +54,23 @@ dotnet publish -c Release --self-contained -r win-x86
 
 当前（2019年1月3日）只能发布 x64 的版本的程序，如 windows x64 和 linux x64 程序。
 
+## 使用 dotnet 命令行发布
+
+在 [dotnet core 3 preview5](https://dotnet.microsoft.com/download/dotnet-core/3.0) 支持在命令行一键打包为一个文件
+
+这个文件包含所有的依赖和资源文件，在启动的时候将所有依赖复制到临时文件夹，然后将这些依赖加载。这个解压只会在第一次运行，之后都可以快速启动
+
+```csharp
+dotnet publish -r win10-x64 /p:PublishSingleFile=true
+```
+
+新建一个控制台创建使用上面命令发布为一个 exe 文件的大小大概是 67M 左右
+
+第一次运行需要解压文件到临时文件夹的 `.net\程序集名\xx` 文件夹里面，然后再运行
+
 [dgiagio/warp: Create self-contained single binary applications](https://github.com/dgiagio/warp#windows-1 )
 
 [Single exe self contained console app · Issue #13329 · dotnet/corefx](https://github.com/dotnet/corefx/issues/13329 )
+
+[Announcing .NET Core 3.0 Preview 5](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0-preview-5/ )
 
