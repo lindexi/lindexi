@@ -1,9 +1,9 @@
 ---
 title: "asp dotnet core 图片在浏览器没访问可能原因"
 author: lindexi
-date: 2019-5-11 7:55:24 +0800
+date: 2019-5-11 12:32:46 +0800
 CreateTime: 2019-5-11 7:49:37 +0800
-categories: dotnet
+categories: asp aspdotnetcore dotnetcore
 ---
 
 我写了一个项目用来广告就用到广告的图片，但是广告的图片放在博客的链接无法访问，连我的方法都没有调用，而我尝试网页直接访问图片链接是可以访问的，最后找到原因是广告插件禁用了图片访问
@@ -12,6 +12,7 @@ categories: dotnet
 
 
 <!-- csdn -->
+<!-- 标签：asp,aspdotnetcore,dotnetcore -->
 
 我在一个方法创建了广告的图片，我尝试在很多工具里面都可以访问到这张图片，但是我放在 CSDN 等都无法访问，我在下面代码加上断点都没有进来，但是我在其他的本地应用都可以正常使用
 
