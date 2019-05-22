@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 图片在浏览器没访问可能原因"
 author: lindexi
-date: 2019-5-11 12:32:46 +0800
+date: 2019-5-21 11:24:43 +0800
 CreateTime: 2019-5-11 7:49:37 +0800
 categories: asp aspdotnetcore dotnetcore
 ---
@@ -11,7 +11,6 @@ categories: asp aspdotnetcore dotnetcore
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：asp,aspdotnetcore,dotnetcore -->
 
 我在一个方法创建了广告的图片，我尝试在很多工具里面都可以访问到这张图片，但是我放在 CSDN 等都无法访问，我在下面代码加上断点都没有进来，但是我在其他的本地应用都可以正常使用

@@ -1,9 +1,9 @@
 ---
 title: "dotnet 使用 GC.GetAllocatedBytesForCurrentThread 获取当前线程分配过的内存大小"
 author: lindexi
-date: 2019-4-23 9:43:58 +0800
+date: 2019-5-21 11:33:18 +0800
 CreateTime: 2019-4-23 9:37:27 +0800
-categories: dotnet
+categories: C# dotnet
 ---
 
 在 dotnet framework 4.8 的时候支持调用 GC.GetAllocatedBytesForCurrentThread 获取当前线程分配过的内存大小
@@ -11,7 +11,7 @@ categories: dotnet
 <!--more-->
 
 
-<!-- csdn -->
+<!-- 标签：C#,dotnet -->
 
 创建一个简单的控制台程序，在调用 GC.GetAllocatedBytesForCurrentThread 方法返回调用方法所在的线程的内存大小，代码请看[GetAllocatedBytesForCurrentThread](https://github.com/lindexi/lindexi_gd/tree/4470807a21a7ae2396d5bf9719ddcecc22f72e99/GetAllocatedBytesForCurrentThread )
 

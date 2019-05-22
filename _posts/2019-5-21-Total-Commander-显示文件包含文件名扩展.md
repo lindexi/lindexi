@@ -1,7 +1,7 @@
 ---
 title: "Total Commander 显示文件包含文件名扩展"
 author: lindexi
-date: 2019-4-19 10:22:53 +0800
+date: 2019-5-21 11:37:6 +0800
 CreateTime: 2019-4-19 9:28:41 +0800
 categories: TotalCommander 软件
 ---
@@ -11,7 +11,6 @@ categories: TotalCommander 软件
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：TotalCommander，软件 -->
 
 点击配置，在选项的制表修改显示

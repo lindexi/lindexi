@@ -1,9 +1,9 @@
 ---
 title: "dotnet core 使用 CoreRT 将程序编译为 Native 程序"
 author: lindexi
-date: 2019-3-29 9:1:8 +0800
+date: 2019-5-21 11:30:17 +0800
 CreateTime: 2019-2-1 11:48:26 +0800
-categories: dotnet
+categories: C# dotnet dotnetcore
 ---
 
 现在微软有一个开源项目 CoreRT 能通过将托管的 .NET Core 编译为单个无依赖的 Native 程序
@@ -12,7 +12,7 @@ categories: dotnet
 <!--more-->
 
 
-<!-- csdn -->
+<!-- 标签：C#,dotnet,dotnetcore -->
 
 使用 CoreRT 发布的优点：
 
