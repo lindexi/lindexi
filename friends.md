@@ -4,9 +4,9 @@ title: 朋友和收藏
 permalink: /friends/
 ---
 
- - [walterlv https://walterlv.github.io/](https://walterlv.github.io/ ) 
+ - [walterlv https://walterlv.com](https://walterlv.com ) 
 
-   这是我师傅
+   微软最具价值专家
 
  - [泰琪 https://gandalfliang.github.io/](https://gandalfliang.github.io/)
 
@@ -24,7 +24,7 @@ permalink: /friends/
 
  - [晒太阳的猫 http://jasongrass.gitee.io/ ](http://jasongrass.gitee.io/ ) 
 
-   WPF开发大神
+   WPF开发大神，现在转到[博客园](https://www.cnblogs.com/jasongrass/)
 
  - [niuyanjie's blog 一个菜鸟的成长历程](http://niuyanjie.gitee.io/blog/ ) 
 
@@ -53,6 +53,10 @@ permalink: /friends/
  - [Iron_Ye](https://blog.csdn.net/iron_ye )
 
    WPF 大佬，专业做动画和 3D 是我实习的导师
+
+ - [唐宋元明清2188 - 博客园](https://www.cnblogs.com/kybs0 )
+ 
+   余冬 前 IBM 工程师  
 
  - [Nullptr](http://blog.nullptr.top/ )  
 
