@@ -4,6 +4,8 @@ title: 朋友和收藏
 permalink: /friends/
 ---
 
+## [dotnet职业技术学院](https://dotnet-campus.github.io/)
+
  - [walterlv https://walterlv.com](https://walterlv.com ) 
 
    微软最具价值专家
@@ -12,19 +14,17 @@ permalink: /friends/
 
    对d3d有很深的研究
 
- - [李继龙 https://kljzndx.github.io/My-Blog/](https://kljzndx.github.io/My-Blog/)
-
-   传说中的开心开发者
-
- - [陈浩翔 http://chenhaoxiang.cn/](http://chenhaoxiang.cn/ )
-
- - [dotnet职业技术学院](https://dotnet-campus.github.io/)
-
-   这是我所在的组织
-
  - [晒太阳的猫 http://jasongrass.gitee.io/ ](http://jasongrass.gitee.io/ ) 
 
    WPF开发大神，现在转到[博客园](https://www.cnblogs.com/jasongrass/)
+
+ - [黄腾霄 ](https://huangtengxiao.gitee.io/ )    
+
+   头像大神，wpf大神，专业研究 WCF 相关
+
+ - [唐宋元明清2188 - 博客园](https://www.cnblogs.com/kybs0 )
+ 
+   余冬 前 IBM 工程师 
 
  - [niuyanjie's blog 一个菜鸟的成长历程](http://niuyanjie.gitee.io/blog/ ) 
 
@@ -42,21 +42,31 @@ permalink: /friends/
  
    驸马爷，一个做前端的wpf大神
 
- - [黄腾霄 ](https://huangtengxiao.gitee.io/ )    
-
-   头像大神，wpf大神
-
  - [wolfleave ](https://wolfleave.github.io/ )
 
    传说的幸斌师兄
 
  - [Iron_Ye](https://blog.csdn.net/iron_ye )
 
-   WPF 大佬，专业做动画和 3D 是我实习的导师
+   WPF 大佬，专业做动画和 3D 是 dotnet 职业技术学院的校长
 
- - [唐宋元明清2188 - 博客园](https://www.cnblogs.com/kybs0 )
- 
-   余冬 前 IBM 工程师  
+ - [胡承老司机](https://huchengv5.github.io/ )
+
+## 朋友
+
+ - [东邪独孤 - 博客园](http://www.cnblogs.com/tcjiaan/ ) 
+   
+   老周，国内开发 WPF 或 UWP 的小伙伴相信都认识，他的 《Windows 10 应用开发实战》 是 UWP 国内入门书籍最好的。我很多博客都是参考老周的。
+
+ - [淹死的鱼](https://zhuanlan.zhihu.com/c_191585960 )
+
+ 他有国内唯一的 win2d 专栏
+
+ - [李继龙 https://kljzndx.github.io/My-Blog/](https://kljzndx.github.io/My-Blog/)
+
+   传说中的开心开发者
+
+ - [陈浩翔 http://chenhaoxiang.cn/](http://chenhaoxiang.cn/ )
 
  - [Nullptr](http://blog.nullptr.top/ )  
 
@@ -104,7 +114,11 @@ permalink: /friends/
 
    大王，不解释他是谁
 
- - [迪莫的小站](http://www.dimojang.com/ )  
+ - [法的空间 - 博客园](http://www.cnblogs.com/FaDeKongJian )
+
+   东方财富 UWP 开发者
+
+ - [迪莫的小站](http://www.dimojang.com/ )  这是我见过可能最厉害的高中生
 
  - [五斤](https://www.chairyfish.com/ )
 
@@ -144,15 +158,17 @@ permalink: /friends/
 
  - [逆流水Team 布墨](http://blog.niliushui.com/?tdsourcetag=s_pctim_aiomsg )
 
+ - [validvoid](http://www.cnblogs.com/validvoid/ ) http://www.cnblogs.com/validvoid/ 
+
+   大量Win2D博客
+
+ - [纳边](https://github.com/HandyOrg/HandyControl) 
+
+   超好用的 WPF 控件 [HandyControl](https://github.com/HandyOrg/HandyControl ) 的作者，也是 [WPF 大佬群](https://jq.qq.com/?_wv=1027&k=5puiv55) 的群主
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
-
- - [vscode使用笔记 - 木杉的博客](http://mushanshitiancai.github.io/2017/01/07/tools/vscode%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/)
-
- - [东邪独孤 - 博客园](http://www.cnblogs.com/tcjiaan/ ) 
-   
-   老周，国内开发 WPF 或 UWP 的小伙伴相信都认识，他的 《Windows 10 应用开发实战》 是 UWP 国内入门书籍最好的。我很多博客都是参考老周的。
 
  - [六兆煮橙不会写代码 - CSDN博客](http://blog.csdn.net/lzl1918 )
 
@@ -192,10 +208,6 @@ permalink: /friends/
 
    礼物说 App 作者。
 
- - [validvoid](http://www.cnblogs.com/validvoid/ ) http://www.cnblogs.com/validvoid/ 
-
-   大量Win2D博客
-
  - [nomasp](http://blog.csdn.net/nomasp/ ) http://blog.csdn.net/nomasp/ 
 
    柯于旺大神，现在小米，没有继续做UWP，但他写了CSDN第一个UWP专栏
@@ -219,10 +231,6 @@ permalink: /friends/
    Microsoft Senior SDE（微软高级软件工程师），KlayGE开源游戏引擎创始人
 
  - [durow - 博客园](http://www.cnblogs.com/durow/ )
-
- - [法的空间 - 博客园](http://www.cnblogs.com/FaDeKongJian )
-
-   东方财富 UWP 开发者
 
  - [浅蓝 - 博客园](http://www.cnblogs.com/qianblue )
 
@@ -254,9 +262,10 @@ permalink: /friends/
 
  - [毛利的技术小站](https://mourinaruto.github.io/?file=Home ) C++ 大神研究 windows 原理
 
+ - [vscode使用笔记 - 木杉的博客](http://mushanshitiancai.github.io/2017/01/07/tools/vscode%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/)
+
 ## 国外博客
 
- - [Font Awesome Icons](http://fontawesome.io/icons/)
  - [Josh Smith](https://joshsmithonwpf.wordpress.com/ )
  - [Dr. WPF](http://drwpf.com/blog/ )
  - http://xamlnative.com/
