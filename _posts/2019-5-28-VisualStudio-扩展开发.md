@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 扩展开发"
 author: lindexi
-date: 2019-2-2 14:56:49 +0800
+date: 2019-5-28 19:51:49 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: VisualStudio
 ---
@@ -470,4 +470,6 @@ https://msdn.microsoft.com/zh-cn/library/mt683786
 如果开发中遇到问题，欢迎联系 [lindexi_gd@163.com](mailto:lindexi_gd@163.com)
 
 现在我还有另一个插件：[图片注释](http://download.csdn.net/detail/lindexi_gd/9833388) 这个插件不是我写的，我是修改的，所以没有发布，如果需要就在这里下。
+
+推荐[VS插件开发笔记 - 禾木 - CSDN博客](https://blog.csdn.net/lj22377/article/details/84641077 )
 
