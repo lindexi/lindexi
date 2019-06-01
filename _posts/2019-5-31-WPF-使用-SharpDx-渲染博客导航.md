@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDx 渲染博客导航"
 author: lindexi
-date: 2019-3-6 17:58:47 +0800
+date: 2019-5-31 8:53:58 +0800
 CreateTime: 2019-3-6 16:57:24 +0800
 categories: WPF
 ---
@@ -32,6 +32,10 @@ categories: WPF
 - [WPF 使用 SharpDX 在 D3DImage 显示](https://blog.lindexi.com/post/wpf-%E4%BD%BF%E7%94%A8-sharpdx-%E5%9C%A8-d3dimage-%E6%98%BE%E7%A4%BA )
 - [WPF 使用封装的 SharpDx 控件](https://blog.lindexi.com/post/wpf-%E4%BD%BF%E7%94%A8%E5%B0%81%E8%A3%85%E7%9A%84-sharpdx-%E6%8E%A7%E4%BB%B6 )
 - [WPF 使用 SharpDx 异步渲染](https://blog.lindexi.com/post/wpf-%E4%BD%BF%E7%94%A8-sharpdx-%E5%BC%82%E6%AD%A5%E6%B8%B2%E6%9F%93 )
+
+一些应用
+
+- [SharpDx 进入全屏模式](https://blog.lindexi.com/post/sharpdx-%E8%BF%9B%E5%85%A5%E5%85%A8%E5%B1%8F%E6%A8%A1%E5%BC%8F )
 
 更多请看 [SharpDX 系列](https://blog.lindexi.com/post/sharpdx.html )
 
