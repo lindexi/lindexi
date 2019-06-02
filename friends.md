@@ -52,6 +52,8 @@ permalink: /friends/
 
  - [胡承老司机](https://huchengv5.github.io/ )
 
+ - [天龙](https://getandplay.github.io/ )
+
 ## 朋友
 
  - [东邪独孤 - 博客园](http://www.cnblogs.com/tcjiaan/ ) 
