@@ -9,6 +9,8 @@
         <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
         <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}" />
 
+        <meta name="360-site-verification" content="55885d060b4112546f8766cc40a4af0a" />
+
         <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
         <meta content="{{ site.title }}" property="og:site_name">
         {% if page.title %}
