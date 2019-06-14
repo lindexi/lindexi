@@ -50,6 +50,8 @@ permalink: /friends/
 
    WPF 大佬，专业做动画和 3D 是 dotnet 职业技术学院的校长
 
+ - [lsj](https://blog.sdlsj.net/ )
+
  - [胡承老司机](https://huchengv5.github.io/ )
 
  - [天龙](https://getandplay.github.io/ )
@@ -263,6 +265,8 @@ permalink: /friends/
  - [珂珂的个人博客 - 一个程序猿的个人网站](http://kecq.com/)
 
  - [毛利的技术小站](https://mourinaruto.github.io/?file=Home ) C++ 大神研究 windows 原理
+
+ - [月江流](https://www.yuque.com/yuejiangliu/dotnet )
 
  - [vscode使用笔记 - 木杉的博客](http://mushanshitiancai.github.io/2017/01/07/tools/vscode%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/)
 
