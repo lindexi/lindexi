@@ -64,7 +64,9 @@ permalink: /friends/
 
  - [淹死的鱼](https://zhuanlan.zhihu.com/c_191585960 )
 
- 他有国内唯一的 win2d 专栏
+   他有国内唯一的 win2d 专栏，这是他的[github](https://github.com/ysdy44)
+
+   布卡漫画 UWP 是他的作品
 
  - [李继龙 https://kljzndx.github.io/My-Blog/](https://kljzndx.github.io/My-Blog/)
 
@@ -169,6 +171,14 @@ permalink: /friends/
  - [纳边](https://github.com/HandyOrg/HandyControl) 
 
    超好用的 WPF 控件 [HandyControl](https://github.com/HandyOrg/HandyControl ) 的作者，也是 [WPF 大佬群](https://jq.qq.com/?_wv=1027&k=5puiv55) 的群主
+
+ - [三台](https://www.cnblogs.com/3Tai ) 这是他的 [github](https://github.com/a44281071)
+
+ - [王政道](https://github.com/ZhengDaoWang)
+
+ - 玩命夜狼 
+
+   是在做 [The complete WPF tutorial](https://wpf-tutorial.com/zh/1/%E5%85%B3%E4%BA%8Ewpf/%E4%BB%80%E4%B9%88%E6%98%AFwpf/ ) 文档翻译的大佬，这部分文章很适合新手入门
 
 ## 国内博客
 
