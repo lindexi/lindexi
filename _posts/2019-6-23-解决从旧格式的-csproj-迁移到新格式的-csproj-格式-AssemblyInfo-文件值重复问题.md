@@ -1,7 +1,7 @@
 ---
 title: "解决从旧格式的 csproj 迁移到新格式的 csproj 格式 AssemblyInfo 文件值重复问题"
 author: lindexi
-date: 2019-2-27 9:31:56 +0800
+date: 2019-6-23 11:46:22 +0800
 CreateTime: 2019-2-27 8:55:0 +0800
 categories: VisualStudio
 ---
@@ -11,7 +11,6 @@ categories: VisualStudio
 <!--more-->
 
 
-<!-- csdn -->
 
 <!-- 标签：VisualStudio -->
 

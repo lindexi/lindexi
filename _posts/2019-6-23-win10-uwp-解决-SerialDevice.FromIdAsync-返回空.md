@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 解决 SerialDevice.FromIdAsync 返回空"
 author: lindexi
-date: 2019-2-14 21:33:42 +0800
+date: 2019-6-23 11:54:4 +0800
 CreateTime: 2019-2-14 21:33:17 +0800
 categories: Win10 UWP
 ---
@@ -10,7 +10,6 @@ categories: Win10 UWP
 <!--more-->
 
 
-<!-- csdn -->
 
 调用 SerialDevice.FromIdAsync 可能返回空，因为没有设置 package.appmanifest 可以使用端口
 
@@ -43,5 +42,5 @@ using (SerialDevice serialPort = await SerialDevice.FromIdAsync(deviceId))
 }
 ```
 
-https://stackoverflow.com/q/37505107/6116637
+[https://stackoverflow.com/q/37505107/6116637](https://stackoverflow.com/q/37505107/6116637)
 

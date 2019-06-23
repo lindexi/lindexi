@@ -1,7 +1,7 @@
 ---
 title: "开源项目使用 appveyor 自动构建"
 author: lindexi
-date: 2019-6-19 10:5:13 +0800
+date: 2019-6-23 11:47:40 +0800
 CreateTime: 2019-6-18 19:54:7 +0800
 categories: 
 ---
@@ -12,7 +12,6 @@ categories:
 <!--more-->
 
 
-<!-- csdn -->
 
 在开源项目可以发现很多都有 `appveyor.yml` 文件，这个文件就是用来做自动构建的
 
