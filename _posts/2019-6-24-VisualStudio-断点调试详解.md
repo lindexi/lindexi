@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 断点调试详解"
 author: lindexi
-date: 2019-6-21 20:6:15 +0800
+date: 2019-6-24 9:49:14 +0800
 CreateTime: 2019-6-21 16:16:57 +0800
 categories: VisualStudio
 ---
@@ -271,4 +271,6 @@ ThreadId = 19768
 导出的断点是 xml 格式，对于代码行断点用途不大，因为代码行都会不断修改，而对于函数断点倒是有一点用，这个功能用途不是很多，实际我会在代码里面通过 `Debugger.Break` 添加断点如果我觉得这个断点很多小伙伴都需要
 
 [Use breakpoints in the debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints?view=vs-2019 )
+
+更多调试技巧请看 [Visual Studio 调试技巧 - LightSmaile - 博客园](https://www.cnblogs.com/LightSmile/p/11055665.html#!comments )
 
