@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 通过图片统计 csdn 用户访问"
 author: lindexi
-date: 2019-5-26 11:43:43 +0800
+date: 2019-7-2 19:21:2 +0800
 CreateTime: 2019-5-26 11:35:14 +0800
 categories: dotnet
 ---
@@ -12,7 +12,6 @@ categories: dotnet
 <!--more-->
 
 
-<!-- csdn -->
 
 新建一个 asp dotnet core 项目，在自己的 controler 里面添加一个方法，这个方法的访问链接是 `xx.png` 假装这是一张图片，请看代码
 

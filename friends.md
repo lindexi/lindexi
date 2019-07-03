@@ -56,6 +56,8 @@ permalink: /friends/
 
  - [天龙](https://getandplay.github.io/ )
 
+ - [王文平](https://blog.csdn.net/trista_wang )
+
 ## 朋友
 
  - [东邪独孤 - 博客园](http://www.cnblogs.com/tcjiaan/ ) 
@@ -371,6 +373,7 @@ permalink: /friends/
  - Mark Arteaga    <https://www.redbitdev.com/blog>
  - Alex Sorokoletov   <http://sorokoletov.com>
  - Mark MacDonnell <https://www.markmacdonnell.ca>
+ - [XAML Brewer, by Diederik Krols](https://xamlbrewer.wordpress.com/ ) 
 
 ## 老师
 
