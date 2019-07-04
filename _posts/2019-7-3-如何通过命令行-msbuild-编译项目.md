@@ -1,7 +1,7 @@
 ---
 title: "如何通过命令行 msbuild 编译项目"
 author: lindexi
-date: 2019-2-25 10:0:24 +0800
+date: 2019-7-3 19:12:19 +0800
 CreateTime: 2019-2-24 15:32:36 +0800
 categories: 编译器 VisualStudio msbuild
 ---
@@ -60,7 +60,17 @@ categories: 编译器 VisualStudio msbuild
 > nuget restore a.sln
 ```
 
-然后通过 msbuild 还原新的项目格式的引用
+然后通过 msbuild 还原新的项目格式的引用，也建议将 msbuild 加入到环境变量
+
+以下是一些版本对应的路径
+
+```
+VisualStudio 2017 企业版 ： C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin
+
+VisualStudio 2019 社区版 ： C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\
+```
+
+设置完成环境变量，打开命令行使用下面代码还原
 
 ```csharp
 > msbuild -t:restore
