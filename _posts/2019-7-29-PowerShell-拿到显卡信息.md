@@ -1,7 +1,7 @@
 ---
 title: "PowerShell 拿到显卡信息"
 author: lindexi
-date: 2019-2-21 10:40:37 +0800
+date: 2019-7-29 10:3:35 +0800
 CreateTime: 2019-2-21 9:47:52 +0800
 categories: 
 ---
@@ -11,7 +11,6 @@ categories:
 <!--more-->
 
 
-<!-- csdn -->
 
 在 PowerShell 可以使用下面代码拿到显卡的信息
 

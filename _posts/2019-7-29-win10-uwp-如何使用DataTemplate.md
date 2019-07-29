@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 如何使用DataTemplate"
 author: lindexi
-date: 2018-2-13 17:23:3 +0800
+date: 2019-7-29 10:2:32 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
@@ -18,13 +18,6 @@ categories: Win10 UWP
 
 
 <div id="toc"></div>
-
-<!-- csdn -->
-
-我们假如我们的类型是放在Model，我们需要在开始，就是页面写我们类的命名空间
-
-
-
 
 
 ## 转换

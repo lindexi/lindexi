@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 从 Frp 获取用户真实 IP 地址"
 author: lindexi
-date: 2019-5-11 12:35:11 +0800
+date: 2019-7-29 8:28:23 +0800
 CreateTime: 2019-5-11 12:32:29 +0800
 categories: asp aspdotnetcore dotnetcore
 ---
@@ -11,7 +11,6 @@ categories: asp aspdotnetcore dotnetcore
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：asp,aspdotnetcore,dotnetcore -->
 
 我写过[dotnet core 通过 frp 发布自己的网站](https://blog.lindexi.com/post/dotnet-core-%E9%80%9A%E8%BF%87-frp-%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E7%BD%91%E7%AB%99.html)可以在本地运行自己的服务，然后在外网访问到

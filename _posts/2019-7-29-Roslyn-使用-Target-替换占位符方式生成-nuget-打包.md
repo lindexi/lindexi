@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 使用 Target 替换占位符方式生成 nuget 打包"
 author: lindexi
-date: 2018-12-17 14:11:1 +0800
+date: 2019-7-29 10:1:18 +0800
 CreateTime: 2018-7-24 20:34:29 +0800
 categories: Roslyn MSBuild 编译器 nuget 打包
 ---
@@ -11,7 +11,6 @@ categories: Roslyn MSBuild 编译器 nuget 打包
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：Roslyn,MSBuild,编译器,nuget,打包 -->
 
 在项目文件的相同文件夹可以放一个 nuspec 用来告诉 VisualStudio 如何打包
