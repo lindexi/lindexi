@@ -1,7 +1,7 @@
 ---
 title: "解决从旧格式的 csproj 迁移到新格式的 csproj 格式 AssemblyInfo 文件值重复问题"
 author: lindexi
-date: 2019-6-23 11:46:22 +0800
+date: 2019-7-27 9:8:46 +0800
 CreateTime: 2019-2-27 8:55:0 +0800
 categories: VisualStudio
 ---
@@ -25,7 +25,7 @@ categories: VisualStudio
     Error CS0579: “System.Reflection.AssemblyVersionAttribute”特性重复 
 ```
 
-遇到这个问题可以从两个方面解决
+修复编译时候提示项目文件特性重复有两个方法可以修复
 
 ## 删除重复的特性
 
