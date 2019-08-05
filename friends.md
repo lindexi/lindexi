@@ -182,6 +182,8 @@ permalink: /friends/
 
    是在做 [The complete WPF tutorial](https://wpf-tutorial.com/zh/1/%E5%85%B3%E4%BA%8Ewpf/%E4%BB%80%E4%B9%88%E6%98%AFwpf/ ) 文档翻译的大佬，这部分文章很适合新手入门
 
+ - [文轩](https://www.itoolsoft.org/ ) 微软 MVP 专业广告我软
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
