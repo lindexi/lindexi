@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 使用 sqlite 部署到 Centos 服务器"
 author: lindexi
-date: 2018-12-25 9:29:11 +0800
+date: 2019-8-29 19:17:48 +0800
 CreateTime: 2018-9-27 20:46:48 +0800
 categories: dotnetcore aspdotnetcore asp 数据库 sqlite
 ---
@@ -109,6 +109,14 @@ categories: dotnetcore aspdotnetcore asp 数据库 sqlite
 dotnet ef migrations add lindexi.github.io
 
 dotnet ef database update
+```
+
+如使用 PowerShell 请使用下面代码
+
+```csharp
+Add-Migration InitialCreate
+
+Update-Database
 ```
 
 <!-- ![](image/dotnet core 使用 sqlite 部署到 Centos 服务器/dotnet core 使用 sqlite 部署到 Centos 服务器10.png) -->

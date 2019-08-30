@@ -1,7 +1,7 @@
 ---
 title: "PowerShell 通过 WMI 获取系统安装的驱动"
 author: lindexi
-date: 2019-2-21 20:22:22 +0800
+date: 2019-8-30 8:58:39 +0800
 CreateTime: 2019-2-21 20:18:57 +0800
 categories: PowerShell WMI
 ---
@@ -11,7 +11,6 @@ categories: PowerShell WMI
 <!--more-->
 
 
-<!-- csdn -->
 
 <!-- 标签：PowerShell,WMI -->
 

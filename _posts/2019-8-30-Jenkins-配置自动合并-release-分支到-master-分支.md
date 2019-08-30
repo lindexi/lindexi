@@ -1,7 +1,7 @@
 ---
 title: "Jenkins 配置自动合并 release 分支到 master 分支"
 author: lindexi
-date: 2018-9-29 13:2:19 +0800
+date: 2019-8-30 8:54:58 +0800
 CreateTime: 2018-9-13 17:31:38 +0800
 categories: Jenkins
 ---
@@ -11,7 +11,6 @@ categories: Jenkins
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：Jenkins -->
 
 首先需要两个仓库，一个是 gitlab 的仓库，另一个是 Jenkins 的仓库

@@ -1,7 +1,7 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 笔刷"
 author: lindexi
-date: 2019-6-23 22:21:49 +0800
+date: 2019-8-30 8:50:0 +0800
 CreateTime: 2019-6-23 20:15:4 +0800
 categories: C#
 ---
@@ -11,7 +11,6 @@ categories: C#
 <!--more-->
 
 
-<!-- csdn -->
 
 本文属于 [SharpDx 系列](https://blog.lindexi.com/post/WPF-%E4%BD%BF%E7%94%A8-SharpDx-%E6%B8%B2%E6%9F%93%E5%8D%9A%E5%AE%A2%E5%AF%BC%E8%88%AA.html) 博客，建议从头开始读
 
