@@ -1,7 +1,7 @@
 ---
 title: "win2d 通过 CanvasActiveLayer 画出透明度和裁剪"
 author: lindexi
-date: 2019-7-29 10:4:18 +0800
+date: 2019-8-31 8:52:36 +0800
 CreateTime: 2019-1-17 21:4:6 +0800
 categories: UWP win2d
 ---
