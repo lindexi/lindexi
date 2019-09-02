@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio 自定义项目模板"
 author: lindexi
-date: 2019-9-2 12:11:48 +0800
+date: 2019-9-2 12:57:38 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: 
 ---
@@ -10,8 +10,6 @@ categories:
 还需要在每个文件夹加上声明，于是每次做的重复的就有很多。
 
 <!--more-->
-
-
 
 
 
@@ -221,10 +219,6 @@ devenv /resetuserdata
 ```
 
 还有其他的，如果遇到不知道的，欢迎联系 lindexi_gd@163.com
-
-
-
-
 
 
 

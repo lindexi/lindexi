@@ -1,7 +1,7 @@
 ---
 title: "visual studio 2015 warning MSB3246"
 author: lindexi
-date: 2019-9-2 12:11:48 +0800
+date: 2019-9-2 12:57:38 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: 
 ---
@@ -11,8 +11,6 @@ warning MSB3246: 解析的文件包含错误图像、无元数据或不可访问
 其中`*.dll`就是一个dll名称，那么遇到这个问题，不是修复vs就能做好的，我找了好久，在堆栈炸了找到一个可以用的方法
 
 <!--more-->
-
-
 
 
 
@@ -31,10 +29,6 @@ warning MSB3246: 解析的文件包含错误图像、无元数据或不可访问
 3. 选择项目清理项目，然后生成项目
  可以看到nuget安装被删掉的文件夹
  ![](http://jycloud.9uads.com/web/GetObject.aspx?filekey=d9233c9b6583d2543378ae15fbea5bc4)
-
-
-
-
 
 
 

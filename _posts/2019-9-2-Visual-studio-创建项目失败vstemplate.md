@@ -1,7 +1,7 @@
 ---
 title: "Visual studio 创建项目失败vstemplate"
 author: lindexi
-date: 2019-9-2 12:11:48 +0800
+date: 2019-9-2 12:57:38 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: 
 ---
@@ -9,8 +9,6 @@ categories:
 Visual studio 创建项目失败 提示 the vstemplate file references the wizard class 'Microsoft.VisualStudio.WinRT.TemplateWizards.ApplicationInsights.Wizard' which does not exsist in the assembly 'Microsoft.VisualStudio.WinRT.TemplateWizards, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
 
 <!--more-->
-
-
 
 
 
@@ -49,10 +47,6 @@ vstemplate文件引用的向导类“Microsoft.VisualStudio.WinRT.TemplateWizard
 复制选择管理员，这个需要我们管理员复制才可以
 
 复制我们就可以新建我们的项目
-
-
-
-
 
 
 

@@ -1,15 +1,13 @@
 ---
 title: "win10 UWP MvvmLight入门"
 author: lindexi
-date: 2019-9-2 12:11:49 +0800
-CreateTime: 2019-9-2 12:11:49 +0800
+date: 2019-9-2 12:57:38 +0800
+CreateTime: 2018-2-13 17:23:3 +0800
 categories: Win10 UWP
 ---
 
 
 <!--more-->
-
-
 
 
 
@@ -172,9 +170,5 @@ categories: Win10 UWP
 ## 参考
 
 http://www.cnblogs.com/manupstairs/
-
-
-
-
 
 
