@@ -1,7 +1,7 @@
 ---
 title: "dotnet 获取本机 IP 地址方法"
 author: lindexi
-date: 2019-9-5 15:52:42 +0800
+date: 2019-9-9 15:56:33 +0800
 CreateTime: 2019-9-5 14:34:12 +0800
 categories: dotnet
 ---
@@ -49,6 +49,8 @@ categories: dotnet
                 }
             }
 ```
+
+过滤方法通过 NetworkInterfaceType 判断
 
 [C#获取本机IP地址（ipv4） - LJD泊水 - 博客园](https://www.cnblogs.com/lijianda/p/6604651.html )
 
