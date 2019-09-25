@@ -1,7 +1,7 @@
 ---
-title: ".net remoting 使用事件"
+title: "dotnet remoting 使用事件"
 author: lindexi
-date: 2018-12-25 9:20:51 +0800
+date: 2019-9-24 15:39:26 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: .net remoting rpc WPF
 ---
