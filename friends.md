@@ -184,6 +184,8 @@ permalink: /friends/
 
  - [文轩](https://www.itoolsoft.org/ ) 微软 MVP 专业广告我软
 
+ - [痕迹 - 博客园](https://www.cnblogs.com/zh7791 )
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
