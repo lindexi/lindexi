@@ -38,7 +38,7 @@ permalink: /friends/
 
    我们组的女装程序员  
 
- - [The Terminal - 博客园](http://www.cnblogs.com/pengzhong )
+ - [付金祥](https://fujinxiang.gitee.io/ )
  
    驸马爷，一个做前端的wpf大神
 
