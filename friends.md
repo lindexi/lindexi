@@ -110,9 +110,9 @@ permalink: /friends/
 
  - [(/≧▽≦/)咦！又好了！ Dreamwings – 继续踏上旅途，在没有你的春天……](https://www.dreamwings.cn/ )
 
-  - [老李拉面馆](http://wicrosoft.ml/ ) UWP 大神
-
    千千，一个可爱的蓝孩子
+
+ - [老李拉面馆](http://wicrosoft.ml/ ) UWP 大神
 
  - [YOYOFx](http://blog.microservice4.net/  ) 
 
@@ -172,7 +172,7 @@ permalink: /friends/
 
  - [纳边](https://github.com/HandyOrg/HandyControl) 
 
-   超好用的 WPF 控件 [HandyControl](https://github.com/HandyOrg/HandyControl ) 的作者，也是 [WPF 大佬群](https://jq.qq.com/?_wv=1027&k=5puiv55) 的群主
+   超好用的 WPF 控件 [HandyControl](https://github.com/HandyOrg/HandyControl ) 的作者，也是 [HandyControl 群](https://jq.qq.com/?_wv=1027&k=5puiv55) 714704041 的群主
 
  - [三台](https://www.cnblogs.com/3Tai ) 这是他的 [github](https://github.com/a44281071)
 
@@ -185,6 +185,10 @@ permalink: /friends/
  - [文轩](https://www.itoolsoft.org/ ) 微软 MVP 专业广告我软
 
  - [痕迹 - 博客园](https://www.cnblogs.com/zh7791 )
+
+ - [dino.c](http://www.cnblogs.com/dino623/ ) 写了很多动画
+
+ - [毛利的技术小站](https://mourinaruto.github.io/?file=Home ) C++ 大神研究 windows 原理
 
 ## 国内博客
 
@@ -274,13 +278,7 @@ permalink: /friends/
 
  - [丁校长 - 博客园](http://www.cnblogs.com/dingdaheng )
 
- - [dino.c](http://www.cnblogs.com/dino623/ ) 写了很多动画
-
- - [火火](http://www.cnblogs.com/blue-fire/ ) 在有了 Composition API 就很少使用 StoryBoard 的大神
-
  - [珂珂的个人博客 - 一个程序猿的个人网站](http://kecq.com/)
-
- - [毛利的技术小站](https://mourinaruto.github.io/?file=Home ) C++ 大神研究 windows 原理
 
  - [月江流](https://www.yuque.com/yuejiangliu/dotnet )
 

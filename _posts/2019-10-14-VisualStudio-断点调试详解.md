@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 断点调试详解"
 author: lindexi
-date: 2019-6-24 9:49:14 +0800
+date: 2019-10-14 21:9:7 +0800
 CreateTime: 2019-6-21 16:16:57 +0800
 categories: VisualStudio
 ---
@@ -273,4 +273,10 @@ ThreadId = 19768
 [Use breakpoints in the debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/using-breakpoints?view=vs-2019 )
 
 更多调试技巧请看 [Visual Studio 调试技巧 - LightSmaile - 博客园](https://www.cnblogs.com/LightSmile/p/11055665.html#!comments )
+
+我录了一个很无聊的课件视频，欢迎小伙伴点击下面课件
+
+<!-- ![](image/dotnet 代码调试方法/dotnet 代码调试方法18.png) -->
+
+[![](http://image.acmx.xyz/lindexi%2F2019107123420756)](https://r302.cc/xy1ar5)
 
