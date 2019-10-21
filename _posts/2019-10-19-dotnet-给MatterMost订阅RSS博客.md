@@ -1,7 +1,7 @@
 ---
 title: "dotnet 给MatterMost订阅RSS博客"
 author: lindexi
-date: 2019-10-19 8:10:35 +0800
+date: 2019-10-19 8:12:36 +0800
 CreateTime: 2019-10-18 14:37:48 +0800
 categories: dotnet
 ---
@@ -138,7 +138,7 @@ categories: dotnet
 
 ![](http://image.acmx.xyz/lindexi%2F2019101814462471)
 
-我将这个项目代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/dev/NokekebelaidairJelnechallearrur) 欢迎小伙伴下载，如果觉得好像在哪看过这个代码，那么证明你看过[dotnet 代码调试方法](https://blog.lindexi.com/post/dotnet-%E4%BB%A3%E7%A0%81%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.html) 这个代码其实是素材
+我将这个项目代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/dev/NokekebelaidairJelnechallearrur) 欢迎小伙伴下载，如果觉得好像在哪看过这个代码，那么证明你看过[dotnet 代码调试方法](https://blog.lindexi.com/post/dotnet-%E4%BB%A3%E7%A0%81%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.html) 我在这个博客将这个代码作为例子演示如何调试
 
 用这个方法做的RSS订阅没有 [RSS Stalker](https://www.microsoft.com/store/productId/9N85PV1RJD6VR) 好用
 
