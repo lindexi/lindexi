@@ -1,7 +1,7 @@
 ---
 title: "win7 无法启动 WPF 程序 D3Dcompiler_47.dll 丢失"
 author: lindexi
-date: 2019-10-22 18:0:52 +0800
+date: 2019-10-22 18:2:7 +0800
 CreateTime: 2019-10-22 17:54:58 +0800
 categories: WPF
 ---

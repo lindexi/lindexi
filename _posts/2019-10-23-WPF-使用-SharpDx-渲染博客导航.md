@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDx 渲染博客导航"
 author: lindexi
-date: 2019-6-23 11:42:54 +0800
+date: 2019-10-23 9:43:34 +0800
 CreateTime: 2019-3-6 16:57:24 +0800
 categories: WPF
 ---
@@ -38,6 +38,12 @@ categories: WPF
 一些应用
 
 - [SharpDx 进入全屏模式](https://blog.lindexi.com/post/sharpdx-%E8%BF%9B%E5%85%A5%E5%85%A8%E5%B1%8F%E6%A8%A1%E5%BC%8F )
+
+如果有部分逻辑是通过其实平台渲染的，可以通过 SharedHandle 在不同的 Direct3D 设备之间共享资源，详细请看下面博客
+
+- [使用 Direct3D11 的 OpenSharedResource 方法渲染来自其他进程/设备的共享资源（SharedHandle） - walterlv](https://blog.walterlv.com/post/direct3d11-open-shared-resource.html#sharedhandle )
+
+在遇到界面不渲染时，可以保存渲染图片到本地查看，请看 [将 Direct3D11 在 GPU 中的纹理（Texture2D）导出到内存（Map）或导出成图片文件 - walterlv](https://blog.walterlv.com/post/map-directx-surface-to-bitmap.html )
 
 更多请看 [SharpDX 系列](https://blog.lindexi.com/post/sharpdx.html )
 
