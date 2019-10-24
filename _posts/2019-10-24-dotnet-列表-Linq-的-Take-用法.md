@@ -1,7 +1,7 @@
 ---
-title: "dotnet 列表 Linq 的 Task 用法"
+title: "dotnet 列表 Linq 的 Take 用法"
 author: lindexi
-date: 2019-10-12 10:58:15 +0800
+date: 2019-10-24 8:58:43 +0800
 CreateTime: 2019-10-12 10:50:1 +0800
 categories: dotnet
 ---
