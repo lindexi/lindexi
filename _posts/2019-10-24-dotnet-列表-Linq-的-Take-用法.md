@@ -1,7 +1,7 @@
 ---
 title: "dotnet 列表 Linq 的 Take 用法"
 author: lindexi
-date: 2019-10-24 8:58:43 +0800
+date: 2019-10-24 9:4:23 +0800
 CreateTime: 2019-10-12 10:50:1 +0800
 categories: dotnet
 ---
@@ -44,7 +44,7 @@ using System.Linq;
 
 如果是列表将会返回 ListPartition 实例，但这是一个内部类 [ListPartition](https://github.com/dotnet/corefx/blob/fc89c884e99ef3fd920dbe75fbbaf797b02a944f/src/System.Linq/src/System/Linq/Partition.SpeedOpt.cs#L155)
 
-更多请看 [Enumerable.Take(IEnumerable<TSource>, Int32) Method (System.Linq)](https://docs.microsoft.com/zh-cn/dotnet/api/system.linq.enumerable.take?view=netframework-4.8 )
+更多请看 [Enumerable.Take](https://docs.microsoft.com/zh-cn/dotnet/api/system.linq.enumerable.take?view=netframework-4.8 ) 官方文档
 
 源代码请看 [src/System.Linq/src/System/Linq/Take.cs](https://github.com/dotnet/corefx/blob/50fc80c8023060d61a826b01733a93840018fe92/src/System.Linq/src/System/Linq/Take.cs )
 
