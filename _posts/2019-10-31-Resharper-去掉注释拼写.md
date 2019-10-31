@@ -1,7 +1,7 @@
 ---
 title: "Resharper 去掉注释拼写"
 author: lindexi
-date: 2018-9-4 18:54:25 +0800
+date: 2019-10-31 9:8:5 +0800
 CreateTime: 2018-9-4 18:29:18 +0800
 categories: resharper
 ---
@@ -11,7 +11,6 @@ categories: resharper
 <!--more-->
 
 
-<!-- csdn -->
 <!-- 标签：resharper -->
 
 ## Resharper 的拼写
@@ -86,5 +85,5 @@ categories: resharper
 
 [hunspell/hunspell: The most popular spellchecking library.](https://github.com/hunspell/hunspell )
 
-https://stackoverflow.com/q/52158837/6116637
+[https://stackoverflow.com/q/52158837/6116637](https://stackoverflow.com/q/52158837/6116637)
 

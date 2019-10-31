@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 断点调试详解"
 author: lindexi
-date: 2019-10-14 21:9:7 +0800
+date: 2019-10-31 8:56:7 +0800
 CreateTime: 2019-6-21 16:16:57 +0800
 categories: VisualStudio
 ---
@@ -11,7 +11,6 @@ categories: VisualStudio
 <!--more-->
 
 
-<!-- csdn -->
 <div id="toc"></div>
 <!-- 标签：VisualStudio -->
 
@@ -279,4 +278,6 @@ ThreadId = 19768
 <!-- ![](image/dotnet 代码调试方法/dotnet 代码调试方法18.png) -->
 
 [![](http://image.acmx.xyz/lindexi%2F2019107123420756)](https://r302.cc/xy1ar5)
+
+更多请看 [dotnet 代码调试方法](https://blog.lindexi.com/post/dotnet-%E4%BB%A3%E7%A0%81%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.html) 这是一篇我写了很久的博客，包含了很多有趣的调试方法
 
