@@ -64,5 +64,5 @@ n::b
 /::z
 ```
 
-github: https://gist.github.com/troynt/205106
+github: [https://gist.github.com/troynt/205106](https://gist.github.com/troynt/205106 )
 

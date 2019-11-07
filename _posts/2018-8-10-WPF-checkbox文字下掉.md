@@ -31,7 +31,7 @@ categories: WPF
                 </CheckBox>
 ```
 
-https://dotblogs.com.tw/v6610688/2014/04/21/xaml_checkbox_content_alignment&prev=searc
+[https://dotblogs.com.tw/v6610688/2014/04/21/xaml_checkbox_content_alignment&prev=searc](https://dotblogs.com.tw/v6610688/2014/04/21/xaml_checkbox_content_alignment&prev=searc )
 
 博客blog.csdn.net/lindexi_gd
 
