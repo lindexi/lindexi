@@ -361,7 +361,7 @@ categories: WPF dotnetremoting rpc
 
             ChannelServices.RegisterChannel(_channel, false);
 
-            //设置租用管理器的初始租用时间为无限 [http://www.cnblogs.com/wayfarer/archive/2004/08/05/30437.html](http://www.cnblogs.com/wayfarer/archive/2004/08/05/30437.html )
+            //设置租用管理器的初始租用时间为无限 http://www.cnblogs.com/wayfarer/archive/2004/08/05/30437.html
             LifetimeServices.LeaseTime = TimeSpan.Zero;
 
             //注册实例

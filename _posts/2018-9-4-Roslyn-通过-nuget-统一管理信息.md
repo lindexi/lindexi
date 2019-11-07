@@ -71,7 +71,7 @@ categories: Roslyn MSBuild 编译器 nuget 打包
 
 ![](http://image.acmx.xyz/lindexi%2F201892115453256)
 
-或者点击下面的链接安装 [https://www.microsoft.com/store/productId/9WZDNCRDMDM3](https://www.microsoft.com/store/productId/9WZDNCRDMDM3 )
+或者点击下面的链接安装 https://www.microsoft.com/store/productId/9WZDNCRDMDM3
 
 打开文件可以看到下面界面
 
