@@ -1,7 +1,7 @@
 ---
-title: "win10 支持默认把触摸提升鼠标事件 打开 Pointer 消息"
+title: "win10 支持默认把触摸提升 Pointer 消息"
 author: lindexi
-date: 2018-11-13 10:44:42 +0800
+date: 2019-11-9 15:32:31 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: WPF 触摸
 ---
@@ -50,5 +50,5 @@ categories: WPF 触摸
 </configuration>
 ```
 
-参见：https://msdn.microsoft.com/en-us/library/mt800336(v=vs.110).aspx
+参见：[Mitigation: Pointer-based Touch and Stylus Support](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/mitigation-pointer-based-touch-and-stylus-support?redirectedfrom=MSDN )
 
