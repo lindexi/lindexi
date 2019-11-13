@@ -39,5 +39,5 @@ categories: WPF 渲染
 
 通过这个方式就可以让 WPF 的 MediaContext 接收到最顶层窗口的消息
 
-代码请看 https://referencesource.microsoft.com/#PresentationCore/Core/CSharp/System/Windows/Media/MediaContextNotificationWindow.cs,969a2072bf29a084
+代码请看 [https://referencesource.microsoft.com/#PresentationCore/Core/CSharp/System/Windows/Media/MediaContextNotificationWindow.cs,969a2072bf29a084](https://referencesource.microsoft.com/#PresentationCore/Core/CSharp/System/Windows/Media/MediaContextNotificationWindow.cs,969a2072bf29a084 )
 
