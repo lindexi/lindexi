@@ -65,5 +65,5 @@ HexColorTranslator.GetKnownColorFromHex("#FFFF8000");
 ```
 
 参见：
-[https://stackoverflow.com/a/51238017/6116637](https://stackoverflow.com/a/51238017/6116637 )
+https://stackoverflow.com/a/51238017/6116637
 
