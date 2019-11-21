@@ -1,7 +1,7 @@
 ---
 title: "dotnet Blazor 用 C# 控制界面行为"
 author: lindexi
-date: 2019-11-9 15:56:42 +0800
+date: 2019-11-20 18:26:25 +0800
 CreateTime: 2019-11-9 15:39:16 +0800
 categories: dotnet C#
 ---
@@ -42,7 +42,8 @@ categories: dotnet C#
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
-@code {
+@code 
+{
 
     int currentCount = 0;
 
@@ -69,7 +70,8 @@ categories: dotnet C#
 修改代码让点击按钮触发事件，修改按钮样式
 
 ```csharp
-@code {
+@code 
+{
     
 	string fontSize = "large";
 
