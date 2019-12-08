@@ -56,9 +56,9 @@ permalink: /friends/
 
  - [天龙](https://getandplay.github.io/ )
 
- - [王文平](https://blog.csdn.net/trista_wang )
-
 ## 朋友
+
+ - [王文平](https://tristawwp.github.io/ ) 不告诉你这是漂亮的小姐姐
 
  - [东邪独孤 - 博客园](http://www.cnblogs.com/tcjiaan/ ) 
    
@@ -189,6 +189,8 @@ permalink: /friends/
  - [dino.c](http://www.cnblogs.com/dino623/ ) 写了很多动画
 
  - [毛利的技术小站](https://mourinaruto.github.io/?file=Home ) C++ 大神研究 windows 原理
+
+ - [.NET骚操作 - 博客园](https://www.cnblogs.com/sdflysha/ )
 
 ## 国内博客
 
