@@ -1,9 +1,9 @@
 ---
 title: "dotnet 部署 github 的 Action 进行持续集成"
 author: lindexi
-date: 2019-12-7 13:59:19 +0800
+date: 2019-12-8 15:7:37 +0800
 CreateTime: 2019-12-7 11:57:50 +0800
-categories: git dotnet
+categories: Github GithubAction
 ---
 
 大概只需要 3 分钟就可以在 github 上通过 Action 部署持续集成，本文以 SourceYard 作为例子告诉大家如何配置
@@ -11,7 +11,9 @@ categories: git dotnet
 <!--more-->
 
 
-<!-- csdn -->
+<!-- 发布 -->
+
+<!-- 标签：Github，GithubAction -->
 
 其实配置非常简单，不需要了解任何语法就可以开始写
 
