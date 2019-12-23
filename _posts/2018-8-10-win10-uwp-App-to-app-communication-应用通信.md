@@ -135,7 +135,7 @@ ApplicationLink是`new Uri("ms-sdk-sharesourcecs:navigate?page=" + 页面名);`
             if (rootFrame == null)
             {
                 rootFrame=new Frame();
-                Window.Current.Content = rootFrame;//[http://blog.csdn.net/lindexi_gd](http://blog.csdn.net/lindexi_gd )
+                Window.Current.Content = rootFrame;//http://blog.csdn.net/lindexi_gd
             }
             rootFrame.Navigate(typeof (MainPage), args.ShareOperation);
             Window.Current.Activate();
@@ -189,7 +189,7 @@ ApplicationLink是`new Uri("ms-sdk-sharesourcecs:navigate?page=" + 页面名);`
                         StandardDataFormats.Text,
                         StandardDataFormats.WebLink,
                         StandardDataFormats.ApplicationLink,
-                        StandardDataFormats.Bitmap,//[http://blog.csdn.net/lindexi_gd](http://blog.csdn.net/lindexi_gd )
+                        StandardDataFormats.Bitmap,//http://blog.csdn.net/lindexi_gd
                         StandardDataFormats.StorageItems,
                         StandardDataFormats.Html
                     },
@@ -211,9 +211,9 @@ ApplicationLink是`new Uri("ms-sdk-sharesourcecs:navigate?page=" + 页面名);`
 ```
 Files包含文件可以拿来
 
-博客：[http://blog.csdn.net/lindexi_gd](http://blog.csdn.net/lindexi_gd )
+博客：http://blog.csdn.net/lindexi_gd
 
-原文：[https://msdn.microsoft.com/en-us/windows/uwp/app-to-app/index](https://msdn.microsoft.com/en-us/windows/uwp/app-to-app/index )
+原文：https://msdn.microsoft.com/en-us/windows/uwp/app-to-app/index
 
 
 

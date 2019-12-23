@@ -342,7 +342,7 @@ categories: Win10 UWP dotnet
 请看上图，我的应用 URL 里面包含了端口 64043
 
 ```csharp
-[http://localhost:64043/](http://localhost:64043/ )
+http://localhost:64043/
 ```
 
 现在右击设置 asp dotnet core 项目为启动项目，然后按下 F5 运行这个项目
@@ -451,7 +451,7 @@ categories: Win10 UWP dotnet
 现在打开 ViewModel 先添加引用
 
 ```csharp
-using System.Net.[Http;](Http; )
+using System.Net.Http;
 
 ```
 
@@ -487,11 +487,11 @@ using System.Net.[Http;](Http; )
 ```csharp
         public async Task Update()
         {
-            var [httpClient](httpClient ) = new [HttpClient();](HttpClient(); )
+            var httpClient = new HttpClient();
             var url = "http://localhost:64043/";
 
             url = url + "api/RoqawzemJajenes";
-            var str = await [httpClient.GetStringAsync(url);](httpClient.GetStringAsync(url); )
+            var str = await httpClient.GetStringAsync(url);
             var roqawzemJajeneList = JsonConvert.DeserializeObject<List<RoqawzemJajene>>(str);
 
             RoqawzemJajeneList.Clear();
@@ -506,7 +506,7 @@ using System.Net.[Http;](Http; )
 上面的代码通过 Get 访问 URL 拿到数据只需要一句话
 
 ```csharp
-            var str = await [httpClient.GetStringAsync(url);](httpClient.GetStringAsync(url); )
+            var str = await httpClient.GetStringAsync(url);
 
 ```
 
@@ -562,7 +562,7 @@ using System.Net.[Http;](Http; )
 
             var url = Url + "api/RoqawzemJajenes/add";
 
-            var [httpClient](httpClient ) = new [HttpClient();](HttpClient(); )
+            var httpClient = new HttpClient();
 
             var str = JsonConvert.SerializeObject(roqawzemJajene);
 

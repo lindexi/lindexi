@@ -18,7 +18,7 @@ categories: csharp WPF dotnetcore UWP 源代码
 
 在使用之前需要手机安装客户端
 
-IOS ： [https://itunes.apple.com/cn/app/qpush-kuai-tui-cong-dian-nao/id776837597](https://itunes.apple.com/cn/app/qpush-kuai-tui-cong-dian-nao/id776837597 )
+IOS ： https://itunes.apple.com/cn/app/qpush-kuai-tui-cong-dian-nao/id776837597
 
 安卓： 各个应用商店下载
 
@@ -89,7 +89,7 @@ using lindexi.src;
 
 ```csharp
 using System;
-using System.Net.[Http;](Http; )
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -136,9 +136,9 @@ namespace lindexi.src
         {
             const string url = "https://qpush.me/pusher/push_site/";
 
-            var [httpClient](httpClient ) = new [HttpClient();](HttpClient(); )
+            var httpClient = new HttpClient();
 
-            [httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(](httpClient.DefaultRequestHeaders.UserAgent.ParseAdd( )
+            httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36");
 
             HttpContent content =
