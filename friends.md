@@ -190,6 +190,8 @@ permalink: /friends/
 
  - [毛利的技术小站](https://mourinaruto.github.io/?file=Home ) C++ 大神研究 windows 原理
 
+   [毛利ナルト的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili](https://space.bilibili.com/2957331 )
+
  - [.NET骚操作 - 博客园](https://www.cnblogs.com/sdflysha/ )
 
  - [Dotnet9 一个热衷于互联网分享精神的程序员网站](https://dotnet9.com/ )
@@ -380,6 +382,7 @@ permalink: /friends/
  - Alex Sorokoletov   <http://sorokoletov.com>
  - Mark MacDonnell <https://www.markmacdonnell.ca>
  - [XAML Brewer, by Diederik Krols](https://xamlbrewer.wordpress.com/ ) 
+ - [Marco Minerva 微软 MVP 桌面端开发](https://marcominerva.wordpress.com)
 
 ## 老师
 

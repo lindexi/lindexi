@@ -1,73 +1,18 @@
 ---
-title: "windows-10「设置」应用完整ms-settings快捷方式汇总"
+title: "windows-10「设置」应用完整ms-settings快捷方式汇总.md"
 author: lindexi
-date: 2019-9-2 12:57:38 +0800
+date: 2019-12-24 9:27:54 +0800
 CreateTime: 2018-2-13 17:23:3 +0800
 categories: 
 ---
 
 
+<!--more-->
+
+
 
 <div id="toc"></div>
-<table border="0" width="100%">
-<thead>
-<tr>
-<th width="25%">分类</th>
-<th width="30%">设置名称</th>
-<th width="45%">快捷方式</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>系统</strong></td>
-<td>显示</td>
-<td>ms-settings:display</td>
-</tr>
-<tr>
-<td></td>
-<td>通知和操作</td>
-<td>ms-settings:notifications</td>
-</tr>
-<tr>
-<td></td>
-<td>平板电脑模式</td>
-<td>ms-settings:tabletmode</td>
-</tr>
-<tr>
-<td></td>
-<td>电源和睡眠</td>
-<td>ms-settings:powersleep</td>
-</tr>
-<tr>
-<td></td>
-<td>存储</td>
-<td>ms-settings:storagesense</td>
-</tr>
-<tr>
-<td></td>
-<td>脱机地图</td>
-<td>ms-settings:maps</td>
-</tr>
-<tr>
-<td></td>
-<td>关于</td>
-<td>ms-settings:about</td>
-</tr>
-<tr>
-<td><strong>设备</strong></td>
-<td>已连接的设备</td>
-<td>ms-settings:connecteddevices</td>
-</tr>
-<tr>
-<td></td>
-<td>蓝牙</td>
-<td>ms-settings:bluetooth</td>
-</tr>
-<tr>
-<td></td>
-<td>鼠标和触摸板</td>
-<td>ms-set<!--more-->
-<div id="toc"></div>
+
 <table border="0" width="100%">
 <thead>
 <tr>
@@ -359,3 +304,4 @@ categories:
 </tr>
 </tbody>
 </table>
+
