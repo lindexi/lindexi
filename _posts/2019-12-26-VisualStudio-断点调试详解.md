@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 断点调试详解"
 author: lindexi
-date: 2019-11-29 8:41:17 +0800
+date: 2019-12-26 13:1:8 +0800
 CreateTime: 2019-6-21 16:16:57 +0800
 categories: VisualStudio
 ---
@@ -15,6 +15,8 @@ categories: VisualStudio
 <!-- 标签：VisualStudio -->
 
 本文将会按照从简单到复杂，从常用的到不常用的方式，告诉大家断点调试方法
+
+特别推荐微软学习平台[在 Visual Studio 中进行调试的基础知识](https://docs.microsoft.com/zh-cn/learn/modules/get-started-with-visual-studio-for-windows10-app-dev/2-debugging )
 
 ## 在代码行添加断点
 

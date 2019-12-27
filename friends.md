@@ -196,6 +196,8 @@ permalink: /friends/
 
  - [Dotnet9 一个热衷于互联网分享精神的程序员网站](https://dotnet9.com/ )
 
+ - [山鸡 - 博客园](https://www.cnblogs.com/shennan/p/ )
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
