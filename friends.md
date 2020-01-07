@@ -56,6 +56,8 @@ permalink: /friends/
 
  - [天龙](https://getandplay.github.io/ )
 
+ - [伏鹏飞](https://fupengfei1223.github.io/ )
+
 ## 朋友
 
  - [王文平](https://tristawwp.github.io/ ) 不告诉你这是漂亮的小姐姐
