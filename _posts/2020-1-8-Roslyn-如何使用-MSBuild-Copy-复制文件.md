@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何使用 MSBuild Copy 复制文件"
 author: lindexi
-date: 2018-12-25 9:35:8 +0800
+date: 2020-1-8 10:25:45 +0800
 CreateTime: 2018-7-10 10:23:15 +0800
 categories: Roslyn MSBuild 编译器
 ---
@@ -128,7 +128,7 @@ xx\lindexi.txt;xx\lindexi.gitee.io.txt
 
 因为 ItemGroup 可以写多个标签，可以修改下面代码
 
-```csharp
+```xml
   <ItemGroup>
     <Txt Include="lindexi.txt"></Txt>
     <Txt Include="lindexi.gitee.io.txt"></Txt>
