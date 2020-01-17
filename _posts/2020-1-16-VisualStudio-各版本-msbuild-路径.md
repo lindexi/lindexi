@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 各版本 msbuild 路径"
 author: lindexi
-date: 2020-1-15 15:37:24 +0800
+date: 2020-1-16 19:45:51 +0800
 CreateTime: 2020-1-15 15:37:17 +0800
 categories: VisualStudio
 ---
@@ -23,5 +23,17 @@ VisualStudio 2019 企业版
 
 ```
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\MSBuild.exe
+```
+
+社区版
+
+```
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe
+```
+
+专业版
+
+```
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe
 ```
 
