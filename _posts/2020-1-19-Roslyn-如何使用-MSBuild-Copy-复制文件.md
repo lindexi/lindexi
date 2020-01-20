@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何使用 MSBuild Copy 复制文件"
 author: lindexi
-date: 2020-1-8 10:25:45 +0800
+date: 2020-1-19 14:56:19 +0800
 CreateTime: 2018-7-10 10:23:15 +0800
 categories: Roslyn MSBuild 编译器
 ---
@@ -110,7 +110,7 @@ error MSB3030: 无法复制文件“lindexi.txt”，原因是找不到该文件
 
 实际上刚才是写 SourceFiles ，但是实际这样写无法使用通配，也就是`*.txt`的方法，如果需要使用就需要用文件列表
 
-```csharp
+```xml
   <ItemGroup>
     <Txt Include="*.txt"></Txt>
   </ItemGroup>
