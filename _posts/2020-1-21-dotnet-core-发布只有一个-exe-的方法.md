@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 发布只有一个 exe 的方法"
 author: lindexi
-date: 2020-1-19 9:17:19 +0800
+date: 2020-1-21 9:11:22 +0800
 CreateTime: 2019-2-1 10:6:38 +0800
 categories: dotnet dotnetcore
 ---
@@ -13,7 +13,7 @@ categories: dotnet dotnetcore
 
 <!-- 标签：dotnet,dotnetcore -->
 
-和之前相同的方式发布一个 dotnet core 程序，记得需要使用 `--self-contained` 发布
+使用非常简单，先和之前相同的方式发布一个 dotnet core 程序，记得需要使用 `--self-contained` 发布
 
 ```csharp
 dotnet publish -c Release --self-contained -r win-x86
@@ -78,6 +78,12 @@ dotnet publish -r win10-x64 /p:PublishSingleFile=true
 新建一个控制台创建使用上面命令发布为一个 exe 文件的大小大概是 67M 左右
 
 第一次运行需要解压文件到临时文件夹的 `.net\程序集名\xx` 文件夹里面，然后再运行
+
+## 原理
+
+其实 Warp 和 dotnet PublishSingleFile 都是一个自压缩包，在第一次运行会将文件解压缩到临时文件夹。如 warp 会解压缩到 `C:\Users\xxx\AppData\Local\warp\packages\app.exe` 文件夹，请将上面的 xxx 替换为你的用户名，将 app.exe 替换为实际的应用
+
+特别感谢 [ZhuShePing](https://github.com/zhusheping ) 大佬告诉我文件解压的地方
 
 ## 隐藏控制台
 
