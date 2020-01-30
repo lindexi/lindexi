@@ -1,7 +1,7 @@
 ---
 title: "WPF 用 AvalonEdit 开发简单的代码编辑器 支持高亮自动提示"
 author: lindexi
-date: 2020-1-22 17:7:36 +0800
+date: 2020-1-22 17:11:30 +0800
 CreateTime: 2020-1-22 16:56:55 +0800
 categories: WPF
 ---
@@ -57,6 +57,18 @@ ShowLineNumbers="True"
 ```xml
             <avalonEdit:TextEditor.Options>
                 <avalonEdit:TextEditorOptions ShowSpaces="True" >
+                    <avalonEdit:TextEditorOptions.ColumnRulerPosition>
+                        <system:Int32>10</system:Int32>
+                    </avalonEdit:TextEditorOptions.ColumnRulerPosition>
+                </avalonEdit:TextEditorOptions>
+            </avalonEdit:TextEditor.Options>
+```
+
+代码对齐很重要，最简单的代码对齐就是继承上一行的空格数量，通过下面属性让 AvalonEdit 支持设置继承上一行的行首空格
+
+```xml
+            <avalonEdit:TextEditor.Options>
+                <avalonEdit:TextEditorOptions ShowSpaces="True" WordWrapIndentation="4" InheritWordWrapIndentation="true">
                     <avalonEdit:TextEditorOptions.ColumnRulerPosition>
                         <system:Int32>10</system:Int32>
                     </avalonEdit:TextEditorOptions.ColumnRulerPosition>
