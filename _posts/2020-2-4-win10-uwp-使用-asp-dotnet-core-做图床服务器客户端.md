@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 asp dotnet core 做图床服务器客户端"
 author: lindexi
-date: 2018-10-31 14:12:29 +0800
+date: 2020-2-4 10:3:32 +0800
 CreateTime: 2018-10-18 20:11:48 +0800
 categories: Win10 UWP dotnet
 ---
@@ -39,7 +39,7 @@ categories: Win10 UWP dotnet
 首先创建一个 asp dotnet core 项目，然后添加一个模型
 
 ```csharp
-    public class XaseYinairtraiSeawhallkou
+    public class XaseYinairtraiSeawhallkouN
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -172,6 +172,20 @@ categories: Win10 UWP dotnet
 
             return "上传完成";
         }
+```
+
+上面代码将上传的信息存放在本地用的是 File.CopyTo 的方式，这个方式可能让写入的文件的长度为 0 也就是没有写入文件成功，另一个推荐的做法是调用 OpenReadStream 的方式复制
+
+```csharp
+           using (var fileStream = new FileStream(gowkusayJomalltrur, FileMode.Create, FileAccess.Write))
+            {
+                var stream = rarmelHopidrearLis.File.OpenReadStream();
+                using (stream)
+                {
+                    stream.CopyTo(fileStream);
+                }
+                _logger.LogInformation($"{fileStream.Length}");
+            }
 ```
 
 上传的代码很简单，同时下载的代码就更加简单，核心就是通过 File 方法返回
