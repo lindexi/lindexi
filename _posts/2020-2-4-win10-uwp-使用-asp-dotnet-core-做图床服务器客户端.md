@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 asp dotnet core 做图床服务器客户端"
 author: lindexi
-date: 2020-2-4 10:3:32 +0800
+date: 2020-2-4 18:0:47 +0800
 CreateTime: 2018-10-18 20:11:48 +0800
 categories: Win10 UWP dotnet
 ---
@@ -187,6 +187,13 @@ categories: Win10 UWP dotnet
                 _logger.LogInformation($"{fileStream.Length}");
             }
 ```
+
+---
+
+
+为什么林德熙逗比会说 File.CopyTo 的方式会让写入的文件的长度为 0 但实际上用 File.CopyTo 里面是调用了stream.CopyTo也就是代码是相同的。原因是写了 `CopyToAsync` 没有等待
+
+---
 
 上传的代码很简单，同时下载的代码就更加简单，核心就是通过 File 方法返回
 
