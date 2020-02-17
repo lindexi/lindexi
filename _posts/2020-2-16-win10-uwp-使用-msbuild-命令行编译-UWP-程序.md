@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 msbuild 命令行编译 UWP 程序"
 author: lindexi
-date: 2019-7-20 21:56:24 +0800
+date: 2020-2-16 15:48:38 +0800
 CreateTime: 2018-10-21 16:15:32 +0800
 categories: UWP VisualStudio msbuild
 ---
@@ -122,6 +122,12 @@ msbuild "E:\lindexi\UWP\Foo.sln" /t:restore
 
 ```bash
 msbuild "D:\lindexi\UWP\Foo.csproj" /t:rebuild /t:Publish /p:Configuration=Release /p:AppxPackageDir="D:\lindexi\AppxPackages\\" /p:AppxBundle=Always /p:UapAppxPackageBuildMode=StoreUpload /p:AppxBundlePlatforms="x86|x64|arm"
+```
+
+如果是桌面转换制作的，此时命令行要求 AppxBundlePlatforms 的值是 neutral 而 Platform 要求 AnyCPU 才可以编译
+
+```bash
+msbuild /t:rebuild /t:Publish /p:Configuration=Release /p:AppxPackageDir="D:\lindexi\AppxPackages\\" /p:AppxBundle=Always /p:UapAppxPackageBuildMode=StoreUpload /p:AppxBundlePlatforms="neutral" /p:Platform="AnyCPU"
 ```
 
 例如在集成工具使用，实际大多数的集成工具默认都有配置 UWP 的编译，具体请看 [win10 uwp 使用 Azure DevOps 自动构建 - lindexi - CSDN博客](https://blog.csdn.net/lindexi_gd/article/details/84252226 ) [win10 uwp 使用 AppCenter 自动构建 - lindexi - CSDN博客](https://blog.csdn.net/lindexi_gd/article/details/84252406 )
