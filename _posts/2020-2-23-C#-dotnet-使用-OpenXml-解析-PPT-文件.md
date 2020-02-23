@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 使用 OpenXml 解析 PPT 文件"
 author: lindexi
-date: 2019-12-6 8:40:33 +0800
+date: 2020-2-23 16:43:8 +0800
 CreateTime: 2019-12-6 8:39:49 +0800
 categories: dotnet C#
 ---
@@ -62,6 +62,7 @@ categories: dotnet C#
             }
 ```
 
+代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/3bb1678686dbd12c4b2d911d3d3bd42ec30d8987/WhocohefurWallqemwaychurgu) 欢迎小伙伴访问
 
 [OfficeDev/Open-XML-SDK: Open XML SDK by Microsoft](https://github.com/OfficeDev/Open-XML-SDK )
 
