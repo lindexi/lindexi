@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 从 Frp 获取用户真实 IP 地址"
 author: lindexi
-date: 2019-7-29 8:28:23 +0800
+date: 2020-2-24 17:17:27 +0800
 CreateTime: 2019-5-11 12:32:29 +0800
 categories: asp aspdotnetcore dotnetcore
 ---
@@ -67,4 +67,6 @@ private IHttpContextAccessor _accessor;
 [Get Client IP Address in ASP.NET Core 2.x - Edi.Wang](https://edi.wang/post/2017/10/16/get-client-ip-aspnet-20 )
 
 [dotnet core 通过 frp 发布自己的网站](https://blog.lindexi.com/post/dotnet-core-%E9%80%9A%E8%BF%87-frp-%E5%8F%91%E5%B8%83%E8%87%AA%E5%B7%B1%E7%9A%84%E7%BD%91%E7%AB%99.html)
+
+用 [使用 Frp 为你的 Web 服务添加 https 支持](https://blog.walterlv.com/post/add-https-support-for-web-service-using-frp.html#%E4%B8%8B%E8%BD%BD-frp) 方式是获取不到用户 IP 地址
 
