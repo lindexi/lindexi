@@ -2,7 +2,7 @@
 title: "Jenkins 配置自动合并 release 分支到 master 分支"
 author: lindexi
 date: 2019-8-30 8:54:58 +0800
-CreateTime: 2020-3-5 9:46:33 +0800
+CreateTime: 2020-3-5 10:47:0 +0800
 categories: Jenkins
 ---
 

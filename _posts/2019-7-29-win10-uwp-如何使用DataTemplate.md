@@ -2,7 +2,7 @@
 title: "win10 uwp 如何使用DataTemplate"
 author: lindexi
 date: 2019-7-29 10:2:32 +0800
-CreateTime: 2020-3-5 9:43:25 +0800
+CreateTime: 2020-3-5 10:47:0 +0800
 categories: Win10 UWP
 ---
 

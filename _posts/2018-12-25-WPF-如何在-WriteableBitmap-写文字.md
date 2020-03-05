@@ -2,7 +2,7 @@
 title: "WPF 如何在 WriteableBitmap 写文字"
 author: lindexi
 date: 2018-12-25 9:13:57 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:47:6 +0800
 categories: WPF
 ---
 

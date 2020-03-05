@@ -2,7 +2,7 @@
 title: "WPF 从零开始开发 dotnet Remoting 程序"
 author: lindexi
 date: 2019-3-1 9:30:45 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:47:3 +0800
 categories: WPF dotnet
 ---
 

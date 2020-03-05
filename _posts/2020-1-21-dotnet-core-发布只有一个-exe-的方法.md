@@ -2,7 +2,7 @@
 title: "dotnet core 发布只有一个 exe 的方法"
 author: lindexi
 date: 2020-1-21 9:11:22 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:48 +0800
 categories: dotnet dotnetcore
 ---
 

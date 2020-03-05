@@ -2,7 +2,7 @@
 title: "WPF 使用 RenderTargetBitmap 快速截图出现 COMException 提示"
 author: lindexi
 date: 2019-1-10 14:58:43 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:47:5 +0800
 categories: WPF
 ---
 

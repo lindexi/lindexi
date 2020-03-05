@@ -2,7 +2,7 @@
 title: "dotnet 通过 WMI 获取指定进程的输入命令行"
 author: lindexi
 date: 2019-11-29 8:35:39 +0800
-CreateTime: 2020-3-5 9:46:35 +0800
+CreateTime: 2020-3-5 10:46:53 +0800
 categories: dotnet C# WMI
 ---
 

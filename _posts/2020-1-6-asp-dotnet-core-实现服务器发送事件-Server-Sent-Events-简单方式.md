@@ -2,7 +2,7 @@
 title: "asp dotnet core 实现服务器发送事件 Server-Sent Events 简单方式"
 author: lindexi
 date: 2020-1-6 18:17:58 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:49 +0800
 categories: dotnet
 ---
 

@@ -2,7 +2,7 @@
 title: "WPF shows that some windows in multithreading will be locked in the PenThreadWorker constructor when the application starts"
 author: lindexi
 date: 2019-6-14 8:50:36 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:47:2 +0800
 categories: WPF
 ---
 

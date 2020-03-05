@@ -2,7 +2,7 @@
 title: "dotnet 配置 Gitlab 的 Runner 做 CI 自动构建"
 author: lindexi
 date: 2020-1-16 12:20:35 +0800
-CreateTime: 2020-3-5 9:46:35 +0800
+CreateTime: 2020-3-5 10:46:49 +0800
 categories: git dotnet
 ---
 

@@ -2,7 +2,7 @@
 title: "win10 uwp xaml 绑定接口"
 author: lindexi
 date: 2018-6-15 21:7:19 +0800
-CreateTime: 2020-3-5 9:46:35 +0800
+CreateTime: 2020-3-5 10:47:12 +0800
 categories: Win10 UWP
 ---
 

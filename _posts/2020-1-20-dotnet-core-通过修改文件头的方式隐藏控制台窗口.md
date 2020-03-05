@@ -2,7 +2,7 @@
 title: "dotnet core 通过修改文件头的方式隐藏控制台窗口"
 author: lindexi
 date: 2020-1-20 21:12:7 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:48 +0800
 categories: Avalonia Roslyn dotnetcore
 ---
 

@@ -2,7 +2,7 @@
 title: "VisualStudio 如何在 NuGet 包里面同时包含 DEBUG 和 RELEASE 的库"
 author: lindexi
 date: 2019-4-15 16:13:42 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:47:3 +0800
 categories: VisualStudio 调试 nuget
 ---
 

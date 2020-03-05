@@ -2,7 +2,7 @@
 title: "WPF 用 AvalonEdit 开发简单的代码编辑器 支持高亮自动提示"
 author: lindexi
 date: 2020-1-22 17:11:30 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:48 +0800
 categories: WPF
 ---
 

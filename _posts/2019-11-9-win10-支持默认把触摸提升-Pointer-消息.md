@@ -2,7 +2,7 @@
 title: "win10 支持默认把触摸提升 Pointer 消息"
 author: lindexi
 date: 2019-11-9 15:32:31 +0800
-CreateTime: 2020-3-5 9:46:36 +0800
+CreateTime: 2020-3-5 10:46:54 +0800
 categories: WPF 触摸
 ---
 

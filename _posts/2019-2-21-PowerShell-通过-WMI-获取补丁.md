@@ -2,7 +2,7 @@
 title: "PowerShell 通过 WMI 获取补丁"
 author: lindexi
 date: 2019-2-21 20:39:51 +0800
-CreateTime: 2020-3-5 9:46:33 +0800
+CreateTime: 2020-3-5 10:47:4 +0800
 categories: PowerShell WMI
 ---
 

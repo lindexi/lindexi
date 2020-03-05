@@ -2,7 +2,7 @@
 title: "How to fix nuget Unrecognized license type MIT when pack"
 author: lindexi
 date: 2019-8-31 16:55:58 +0800
-CreateTime: 2020-3-5 9:46:33 +0800
+CreateTime: 2020-3-5 10:46:59 +0800
 categories: 
 ---
 

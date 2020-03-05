@@ -2,7 +2,7 @@
 title: "dotnet 用 NuGet 将自己的工具作为 dotnet tool 分发"
 author: lindexi
 date: 2020-3-3 8:30:10 +0800
-CreateTime: 2020-3-5 9:46:35 +0800
+CreateTime: 2020-3-5 10:46:47 +0800
 categories: dotnet
 ---
 

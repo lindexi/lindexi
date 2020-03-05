@@ -2,7 +2,7 @@
 title: "WPF 绑定命令在 MVVM 的 CanExecute 和 Execute 在按钮点击都没触发可能的原因"
 author: lindexi
 date: 2019-11-29 8:48:48 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:52 +0800
 categories: WPF
 ---
 

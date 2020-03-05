@@ -2,7 +2,7 @@
 title: "PowerShell 通过 WMI 获取设备厂商"
 author: lindexi
 date: 2019-2-21 20:2:45 +0800
-CreateTime: 2020-3-5 9:46:33 +0800
+CreateTime: 2020-3-5 10:47:4 +0800
 categories: PowerShell WMI
 ---
 

@@ -2,7 +2,7 @@
 title: "dotnet core 使用 CoreRT 将程序编译为 Native 程序"
 author: lindexi
 date: 2019-11-29 8:31:17 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:53 +0800
 categories: C# dotnet dotnetcore
 ---
 

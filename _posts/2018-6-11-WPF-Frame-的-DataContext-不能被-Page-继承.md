@@ -2,7 +2,7 @@
 title: "WPF Frame 的 DataContext 不能被 Page 继承"
 author: lindexi
 date: 2018-6-11 10:48:24 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:47:12 +0800
 categories: WPF
 ---
 

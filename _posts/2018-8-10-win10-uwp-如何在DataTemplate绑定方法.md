@@ -2,7 +2,7 @@
 title: "win10 uwp 如何在DataTemplate绑定方法"
 author: lindexi
 date: 2018-8-10 19:16:50 +0800
-CreateTime: 2020-3-5 9:46:35 +0800
+CreateTime: 2020-3-5 10:47:11 +0800
 categories: Win10 UWP
 ---
 

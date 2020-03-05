@@ -2,7 +2,7 @@
 title: "dotnet serve 一句话开启文件服务器 通过 HTTP 将文件共享给其他设备"
 author: lindexi
 date: 2020-2-4 17:30:5 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:48 +0800
 categories: dotnet
 ---
 

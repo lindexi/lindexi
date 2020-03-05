@@ -2,7 +2,7 @@
 title: "dot net core 使用 IPC 进程通信"
 author: lindexi
 date: 2018-8-10 19:16:52 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:47:10 +0800
 categories: dnc 进程通信 IPC pipe
 ---
 

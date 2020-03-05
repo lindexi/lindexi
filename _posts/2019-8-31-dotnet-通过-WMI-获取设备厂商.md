@@ -2,7 +2,7 @@
 title: "dotnet 通过 WMI 获取设备厂商"
 author: lindexi
 date: 2019-8-31 16:55:59 +0800
-CreateTime: 2020-3-5 9:46:35 +0800
+CreateTime: 2020-3-5 10:46:57 +0800
 categories: dotnet C# WMI
 ---
 

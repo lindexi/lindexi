@@ -2,7 +2,7 @@
 title: "WPF 通过 dotnet core 发布单文件时 log4net 无法使用"
 author: lindexi
 date: 2020-2-12 17:11:44 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:47 +0800
 categories: WPF dotnet
 ---
 

@@ -2,7 +2,7 @@
 title: "git push 错误 hook declined "
 author: lindexi
 date: 2018-8-10 19:16:52 +0800
-CreateTime: 2020-3-5 9:46:35 +0800
+CreateTime: 2020-3-5 10:47:10 +0800
 categories: git
 ---
 

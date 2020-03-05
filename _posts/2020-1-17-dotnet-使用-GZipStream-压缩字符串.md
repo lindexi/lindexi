@@ -2,7 +2,7 @@
 title: "dotnet 使用 GZipStream 压缩字符串"
 author: lindexi
 date: 2020-1-17 15:51:18 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:48 +0800
 categories: dotnet
 ---
 

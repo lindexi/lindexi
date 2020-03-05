@@ -2,7 +2,7 @@
 title: "Xamarin 解决创建空白项目编译提示 linking references 找不到资源"
 author: lindexi
 date: 2019-12-24 9:28:30 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:50 +0800
 categories: 
 ---
 

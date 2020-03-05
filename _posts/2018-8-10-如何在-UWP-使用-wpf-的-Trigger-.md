@@ -2,7 +2,7 @@
 title: "如何在 UWP 使用 wpf 的 Trigger "
 author: lindexi
 date: 2018-8-10 19:16:51 +0800
-CreateTime: 2020-3-5 9:46:36 +0800
+CreateTime: 2020-3-5 10:47:10 +0800
 categories: WPF UWP
 ---
 

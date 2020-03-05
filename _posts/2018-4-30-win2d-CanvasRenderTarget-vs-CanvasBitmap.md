@@ -2,7 +2,7 @@
 title: "win2d CanvasRenderTarget vs CanvasBitmap"
 author: lindexi
 date: 2018-4-30 16:51:25 +0800
-CreateTime: 2020-3-5 9:46:36 +0800
+CreateTime: 2020-3-5 10:47:12 +0800
 categories: UWP win2d
 ---
 

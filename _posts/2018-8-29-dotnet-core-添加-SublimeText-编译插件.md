@@ -2,7 +2,7 @@
 title: "dotnet core 添加 SublimeText 编译插件"
 author: lindexi
 date: 2018-8-29 8:53:47 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:47:8 +0800
 categories: dotnetcore sublimetext
 ---
 

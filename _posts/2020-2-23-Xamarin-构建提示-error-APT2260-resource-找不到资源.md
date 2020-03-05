@@ -2,7 +2,7 @@
 title: "Xamarin 构建提示 error APT2260 resource 找不到资源"
 author: lindexi
 date: 2020-2-23 16:43:8 +0800
-CreateTime: 2020-3-5 9:46:34 +0800
+CreateTime: 2020-3-5 10:46:47 +0800
 categories: 
 ---
 

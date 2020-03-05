@@ -2,7 +2,7 @@
 title: "PowerShell 拿到显卡信息"
 author: lindexi
 date: 2019-7-29 10:3:35 +0800
-CreateTime: 2020-3-5 9:46:33 +0800
+CreateTime: 2020-3-5 10:47:0 +0800
 categories: 
 ---
 
