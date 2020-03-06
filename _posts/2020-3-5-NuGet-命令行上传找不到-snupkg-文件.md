@@ -1,0 +1,65 @@
+---
+title: "NuGet 命令行上传找不到 snupkg 文件"
+author: lindexi
+date: 2020-3-5 12:33:11 +0800
+CreateTime: 2019/12/8 15:07:18
+categories: NuGet
+---
+
+在 NuGet 提供符号 NuGet 库的支持，在默认上传将会同时上传符号库。在 NuGet 上传文件将会默认将 snupkg 符号文件上传
+
+<!--more-->
+
+
+<!-- CreateTime:2019/12/8 15:07:18 -->
+
+<!-- 发布 -->
+<!-- 标签：NuGet -->
+
+让 NuGet 发布默认不上传符号文件的方法是添加参数 NoSymbols 请看代码
+
+```csharp
+ nuget push .\bin\release\*.nupkg -Source https://api.nuget.org/v3/index.json -SkipDuplicate -NoSymbols 
+```
+
+在 nuget 发布可以给某个文件路径，将这个路径所有文件上传，在上传文件时，将会同步上传符号文件。如果符号文件不存在，建议输出提示
+
+```
+File does not exist (.\bin\release\*.snupkg)
+```
+
+通过在命令行添加参数不上传外，还可以在创建 NuGet 库创建符号文件，这样就不会提示找不到
+
+在 sdk style 格式的项目文件，添加下面代码，添加之后打包就会创建 snupkg 文件
+
+```xml
+<PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>	
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>	
+</PropertyGroup>
+```
+
+这里的 PropertyGroup 元素可以添加到 Project 元素下
+
+另一个方法是在命令行打包添加参数
+
+```csharp
+dotnet pack -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg
+```
+
+如果使用 msbuild 打包，可以使用下面代码
+
+```csharp
+msbuild /t:pack /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg
+```
+
+如果使用 nuget 打包，如对应的 `xx.nuspec` 可以使用下面代码
+
+```csharp
+nuget pack MyPackage.nuspec -Symbols -SymbolPackageFormat snupkg
+```
+
+[NuGet 符号服务器](https://blog.lindexi.com/post/NuGet-%E7%AC%A6%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8.html )
+
+[How to publish NuGet symbol packages using the new symbol package format '.snupkg'](https://docs.microsoft.com/en-us/nuget/create-packages/symbol-packages-snupkg )
+
