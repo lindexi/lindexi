@@ -1,8 +1,8 @@
 ---
 title: "一些好用的 dotnet tool 工具"
 author: lindexi
-date: 2020-3-6 8:9:30 +0800
-CreateTime: 2020-3-5 21:24:30 +0800
+date: 2020-3-6 9:2:37 +0800
+CreateTime: 2020/3/5 21:24:30
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/5 21:24:30 -->
 
 
 - dotnetCampus.UpdateAllDotNetTools 一句命令更新所有 dotnet tool 到最新版本 
