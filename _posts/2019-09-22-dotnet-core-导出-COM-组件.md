@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 导出 COM 组件"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-3-6 20:32:50 +0800
 CreateTime: 2019/9/22 20:25:38
 categories: dotnet
 ---
@@ -121,7 +121,7 @@ regsvr32 项目名.comhost.dll
 
 创建接口就可以使用方法
 
-[Exposing .NET Core Components to COM | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/core/native-interop/expose-components-to-com )
+[Exposing .NET Core Components to COM](https://docs.microsoft.com/en-us/dotnet/core/native-interop/expose-components-to-com )
 
 源代码请看 [github](https://github.com/lindexi/lindexi_gd/tree/de3c493051f15be07c4327e797d081c6869c6f93/BearqalkeawaiKaleenemcemfo) 和 [官方源代码](https://github.com/dotnet/samples/tree/master/core/extensions/COMServerDemo) 
 
