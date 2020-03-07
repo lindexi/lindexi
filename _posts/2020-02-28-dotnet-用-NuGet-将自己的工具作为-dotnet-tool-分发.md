@@ -1,7 +1,7 @@
 ---
 title: "dotnet 用 NuGet 将自己的工具作为 dotnet tool 分发"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2020-3-7 9:20:32 +0800
 CreateTime: 2020/3/3 8:30:10
 categories: dotnet
 ---
@@ -18,6 +18,8 @@ categories: dotnet
 本文分为两部分，第一部分就是如何打包一个 dotnet tool 工具，第二部分是如何分发这个工具
 
 在开始之前，我推荐你先安装好 VisualStudio 工具，在 VisualStudio 2019 的帮助下，能够快速简单进行打包和发布
+
+<div id="toc"></div>
 
 ## 如何打包 dotnet tool 工具
 
