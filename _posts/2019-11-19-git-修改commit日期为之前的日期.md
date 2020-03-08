@@ -1,8 +1,8 @@
 ---
 title: "git 修改commit日期为之前的日期"
 author: lindexi
-date: 2019-11-19 8:53:16 +0800
-CreateTime: 2018-2-13 17:23:3 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/19 8:53:16
 categories: git
 ---
 
@@ -12,6 +12,8 @@ git 修改日期的方法很简单，因为有一个命令`--date` 可以设置 
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/19 8:53:16 -->
 
 
 使用git自定义时间的提交格式：

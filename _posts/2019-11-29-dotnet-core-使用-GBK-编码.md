@@ -1,8 +1,8 @@
 ---
 title: "dotnet core 使用 GBK 编码"
 author: lindexi
-date: 2019-11-29 8:32:11 +0800
-CreateTime: 2019-8-29 9:38:8 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:32:11
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 8:32:11 -->
 
 
 默认的 .NET Core 框架不包含 GBK 编码，不包含除了代码页为 28591 和 Unicode(utf-8,utf-16) 之外的其他编码，需要安装 System.Text.Encoding.CodePages 才能使用

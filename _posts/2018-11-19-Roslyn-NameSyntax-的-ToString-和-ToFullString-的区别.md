@@ -1,8 +1,8 @@
 ---
 title: "Roslyn NameSyntax 的 ToString 和 ToFullString 的区别"
 author: lindexi
-date: 2018-11-19 15:22:23 +0800
-CreateTime: 2018-7-14 9:28:1 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/11/19 15:22:23
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2018/11/19 15:22:23 -->
 
 <!-- 标签：Roslyn,MSBuild,编译器 -->
 

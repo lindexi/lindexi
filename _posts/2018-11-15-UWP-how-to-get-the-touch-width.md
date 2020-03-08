@@ -1,8 +1,8 @@
 ---
 title: "UWP how to get the touch width"
 author: lindexi
-date: 2018-11-15 18:49:12 +0800
-CreateTime: 2018-11-6 9:25:23 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/11/15 18:49:12
 categories: UWP
 ---
 
@@ -10,6 +10,8 @@ The touch width can help us to make a gorgeous application. This article tells y
 
 <!--more-->
 
+
+<!-- CreateTime:2018/11/15 18:49:12 -->
 
 
 <!-- csdn -->

@@ -1,8 +1,8 @@
 ---
 title: "Inno Setup 安装包脚本 Run 的 Flags 标记"
 author: lindexi
-date: 2019-10-26 8:42:39 +0800
-CreateTime: 2019-10-25 9:47:40 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/10/26 8:42:39
 categories: 安装包 InnoSetup
 ---
 
@@ -10,6 +10,8 @@ categories: 安装包 InnoSetup
 
 <!--more-->
 
+
+<!-- CreateTime:2019/10/26 8:42:39 -->
 
 <!-- csdn -->
 <!-- 标签: 安装包,InnoSetup -->

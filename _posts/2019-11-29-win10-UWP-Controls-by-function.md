@@ -1,8 +1,8 @@
 ---
 title: "win10 UWP Controls by function"
 author: lindexi
-date: 2019-11-29 10:18:49 +0800
-CreateTime: 2018-2-13 17:23:3 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 10:18:49
 categories: Win10 UWP
 ---
 
@@ -12,6 +12,8 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 10:18:49 -->
 
 
 <div id="toc"></div>
@@ -432,7 +434,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 ![](http://image.acmx.xyz/lindexi%2F2018112619443717)
 
-如果需要gif的图片显示请看 [http://www.songsong.org/post/2015/10/11/ImageLib.html](http://www.songsong.org/post/2015/10/11/ImageLib.html )
+如果需要gif的图片显示请看 http://www.songsong.org/post/2015/10/11/ImageLib.html
 
 ## Graphics and ink
 
@@ -573,7 +575,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
             SpeechSynthesizer synthesizer = new SpeechSynthesizer();
             SpeechSynthesisStream stream = await synthesizer.SynthesizeTextToStreamAsync(str);
             media_element.SetSource(stream, stream.ContentType);
-            //[http://blog.csdn.net/lindexi_gd](http://blog.csdn.net/lindexi_gd )
+            //http://blog.csdn.net/lindexi_gd
             media_element.Play();
         }
 ```
@@ -584,7 +586,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 ![](http://image.acmx.xyz/lindexi%2F20181126194736481)
 
-其实我之前用它播放音频，使用的项目请看 [https://github.com/lindexi/Markdown](https://github.com/lindexi/Markdown )
+其实我之前用它播放音频，使用的项目请看 https://github.com/lindexi/Markdown
 
 这个项目还有没写好，在全屏出问题，关于这个项目使用的技术请看 http://blog.csdn.net/lindexi_gd 之后找到解决将会写新的博客
 
@@ -698,7 +700,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 
 ```
-需要在后台写一些代码，请看 [https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox )
+需要在后台写一些代码，请看 https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlAutoSuggestBox
 
 <!-- ![这里写图片描述](http://img.blog.csdn.net/20160328161238579) -->
 
@@ -789,11 +791,11 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 ![](http://image.acmx.xyz/lindexi%2F20181126195241312)
 
-博客：[http://blog.csdn.net/lindexi_gd](http://blog.csdn.net/lindexi_gd )
+博客：http://blog.csdn.net/lindexi_gd
 
 现在委托csdn维权，没有授权的网站不要转载
 
-原文 [https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/controls-by-function](https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/controls-by-function )
+原文 https://msdn.microsoft.com/en-us/windows/uwp/controls-and-patterns/controls-by-function
 
-一些控件例子 [https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics )
+一些控件例子 https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlUIBasics
 

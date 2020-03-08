@@ -1,8 +1,8 @@
 ---
 title: "win10 uwp 使用 Azure DevOps 自动构建"
 author: lindexi
-date: 2018-11-19 15:26:4 +0800
-CreateTime: 2018-11-6 20:37:42 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/11/19 15:26:04
 categories: UWP DevOps AzureDevOps
 ---
 
@@ -11,6 +11,8 @@ categories: UWP DevOps AzureDevOps
 
 <!--more-->
 
+
+<!-- CreateTime:2018/11/19 15:26:04 -->
 
 
 <!-- 标签：uwp,DevOps,AzureDevOps -->

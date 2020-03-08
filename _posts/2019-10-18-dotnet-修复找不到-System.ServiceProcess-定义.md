@@ -1,8 +1,8 @@
 ---
 title: "dotnet 修复找不到 System.ServiceProcess 定义"
 author: lindexi
-date: 2019-10-18 21:24:4 +0800
-CreateTime: 2019-6-20 9:18:2 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/10/18 21:24:04
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2019/10/18 21:24:04 -->
 
 
 例如下面一段代码

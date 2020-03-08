@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 通过 Nuget 管理公司配置"
 author: lindexi
-date: 2019-11-29 8:58:52 +0800
-CreateTime: 2018-9-18 20:33:37 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:58:52
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 8:58:52 -->
 
 <!-- csdn -->
 <!-- 标签：Roslyn,MSBuild,编译器 -->

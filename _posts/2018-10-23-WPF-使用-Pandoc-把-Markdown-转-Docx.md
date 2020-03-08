@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 Pandoc 把 Markdown 转 Docx"
 author: lindexi
-date: 2018-10-23 11:35:47 +0800
-CreateTime: 2018-10-23 11:14:8 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/10/23 11:35:47
 categories: WPF Pandoc
 ---
 
@@ -10,6 +10,8 @@ categories: WPF Pandoc
 
 <!--more-->
 
+
+<!-- CreateTime:2018/10/23 11:35:47 -->
 
 <!-- csdn -->
 
@@ -136,7 +138,7 @@ categories: WPF Pandoc
 
 软件使用方式 解压缩软件到一个文件夹，双击运行 PandocMarkdown2Docx.exe 然后填写需要转换的文件，点击转换
 
-代码 [https://github.com/lindexi/UWP/tree/master/wpf/PandocMarkdown2Docx](https://github.com/lindexi/UWP/tree/master/wpf/PandocMarkdown2Docx )
+代码 https://github.com/lindexi/UWP/tree/master/wpf/PandocMarkdown2Docx
 
 如果发现代码里面存在任何你觉得需要修改的，请在 github 上新建讨论
 

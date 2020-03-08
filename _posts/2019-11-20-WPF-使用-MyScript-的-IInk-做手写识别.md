@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 MyScript 的 IInk 做手写识别"
 author: lindexi
-date: 2019-11-20 8:18:26 +0800
-CreateTime: 2019-11-18 16:32:28 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/20 8:18:26
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/20 8:18:26 -->
 
 <!-- csdn -->
 

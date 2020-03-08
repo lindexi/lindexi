@@ -1,8 +1,8 @@
 ---
 title: "VisualStudio 使用新项目格式快速打出 Nuget 包"
 author: lindexi
-date: 2019-11-29 10:15:25 +0800
-CreateTime: 2018-10-15 9:13:31 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 10:15:25
 categories: VisualStudio
 ---
 
@@ -10,6 +10,8 @@ categories: VisualStudio
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 10:15:25 -->
 
 <!-- csdn -->
 

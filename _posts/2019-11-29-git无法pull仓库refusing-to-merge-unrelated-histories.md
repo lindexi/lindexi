@@ -1,8 +1,8 @@
 ---
 title: "git无法pull仓库refusing to merge unrelated histories"
 author: lindexi
-date: 2019-11-29 8:21:50 +0800
-CreateTime: 2018-2-13 17:23:3 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:21:50
 categories: git
 ---
 
@@ -11,6 +11,8 @@ categories: git
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 8:21:50 -->
 
 
 一开始是我在 [Github](https://github.com/iip-easi/EncodingNormalior) 新建一个仓库，写了 License ，然后把本地一个写了很久仓库上传。

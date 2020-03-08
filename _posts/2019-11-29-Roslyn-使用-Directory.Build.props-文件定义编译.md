@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 使用 Directory.Build.props 文件定义编译"
 author: lindexi
-date: 2019-11-29 8:58:55 +0800
-CreateTime: 2018-7-18 12:18:9 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:58:55
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 8:58:55 -->
 
 <!-- csdn -->
 <!-- 标签：Roslyn,MSBuild,编译器 -->
@@ -181,5 +183,5 @@ D:\
 
 参见：
 
-[https://docs.microsoft.com/en-us/visualstudio/msbuild/what-s-new-in-msbuild-15-0](https://docs.microsoft.com/en-us/visualstudio/msbuild/what-s-new-in-msbuild-15-0 )
+https://docs.microsoft.com/en-us/visualstudio/msbuild/what-s-new-in-msbuild-15-0
 

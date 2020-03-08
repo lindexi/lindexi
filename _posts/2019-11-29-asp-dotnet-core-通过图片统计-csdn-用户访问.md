@@ -1,8 +1,8 @@
 ---
 title: "asp dotnet core 通过图片统计 csdn 用户访问"
 author: lindexi
-date: 2019-11-29 8:26:58 +0800
-CreateTime: 2019-5-26 11:35:14 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:26:58
 categories: dotnet
 ---
 
@@ -11,6 +11,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 8:26:58 -->
 
 
 新建一个 asp dotnet core 项目，在自己的 controler 里面添加一个方法，这个方法的访问链接是 `xx.png` 假装这是一张图片，请看代码
@@ -188,7 +190,7 @@ categories: dotnet
             str.Append("用户访问 ");
 
             Console.WriteLine(GetUserId());
-            Console.WriteLine("用户id =" + [HttpContextAccessor.HttpContext.Request.HttpContext.Session.Id);](HttpContextAccessor.HttpContext.Request.HttpContext.Session.Id); )
+            Console.WriteLine("用户id =" + HttpContextAccessor.HttpContext.Request.HttpContext.Session.Id);
 
             if (TryGetUserIpFromFrp(HttpContextAccessor.HttpContext.Request, out var ip))
             {

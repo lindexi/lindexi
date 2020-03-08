@@ -1,8 +1,8 @@
 ---
 title: "Sublime Text 好用的插件"
 author: lindexi
-date: 2018-10-17 10:14:40 +0800
-CreateTime: 2018-2-13 17:23:3 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/10/17 10:14:40
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2018/10/17 10:14:40 -->
 
 
 ## Git Gutter

@@ -1,8 +1,8 @@
 ---
 title: "dotnet core 输出调试信息到 DebugView 软件"
 author: lindexi
-date: 2019-11-29 10:14:3 +0800
-CreateTime: 2019-2-19 15:37:42 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 10:14:03
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 10:14:03 -->
 
 
 在之前告诉小伙伴，如何在 WPF 输出调试信息到 DebugView 软件，请看文章 [WPF 调试 获得追踪输出](https://blog.lindexi.com/post/WPF-%E8%B0%83%E8%AF%95-%E8%8E%B7%E5%BE%97%E8%BF%BD%E8%B8%AA%E8%BE%93%E5%87%BA.html )

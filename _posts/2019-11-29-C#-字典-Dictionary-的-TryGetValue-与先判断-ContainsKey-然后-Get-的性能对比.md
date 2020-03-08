@@ -1,8 +1,8 @@
 ---
 title: "C# 字典 Dictionary 的 TryGetValue 与先判断 ContainsKey 然后 Get 的性能对比"
 author: lindexi
-date: 2019-11-29 10:13:19 +0800
-CreateTime: 2018-9-8 15:33:40 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 10:13:19
 categories: C#
 ---
 
@@ -10,6 +10,8 @@ categories: C#
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 10:13:19 -->
 
 
 判断值存在，如果值存在就获取值，可以使用下面两个不同的方法
@@ -145,5 +147,5 @@ Frequency=3328130 Hz, Resolution=300.4690 ns, Timer=TSC
 
 ```
 
-我的博客即将搬运同步至腾讯云+社区，邀请大家一同入驻：[https://cloud.tencent.com/developer/support-plan?invite_code=19bm8i8js1ezb](https://cloud.tencent.com/developer/support-plan?invite_code=19bm8i8js1ezb )
+我的博客即将搬运同步至腾讯云+社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=19bm8i8js1ezb
 

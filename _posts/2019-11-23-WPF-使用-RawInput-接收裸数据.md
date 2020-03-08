@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 RawInput 接收裸数据"
 author: lindexi
-date: 2019-11-23 16:41:52 +0800
-CreateTime: 2019-11-23 16:27:42 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/23 16:41:52
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/23 16:41:52 -->
 
 <!-- csdn -->
 

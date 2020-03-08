@@ -1,8 +1,8 @@
 ---
 title: "dotnet 列表 Linq 的 Take 用法"
 author: lindexi
-date: 2019-10-24 9:4:23 +0800
-CreateTime: 2019-10-12 10:50:1 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/10/24 9:04:23
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2019/10/24 9:04:23 -->
 
 <!-- csdn -->
 

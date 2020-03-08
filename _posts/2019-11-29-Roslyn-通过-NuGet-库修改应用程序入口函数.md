@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 通过 NuGet 库修改应用程序入口函数"
 author: lindexi
-date: 2019-11-29 8:37:49 +0800
-CreateTime: 2019-4-21 16:46:29 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:37:49
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 8:37:49 -->
 
 <!-- csdn -->
 <!-- 标签：Roslyn,MSBuild,编译器 -->

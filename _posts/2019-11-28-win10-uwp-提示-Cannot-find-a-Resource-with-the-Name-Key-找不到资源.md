@@ -1,8 +1,8 @@
 ---
 title: "win10 uwp 提示 Cannot find a Resource with the Name Key 找不到资源"
 author: lindexi
-date: 2019-11-28 8:51:54 +0800
-CreateTime: 2019-11-28 8:31:5 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/28 8:51:54
 categories: Win10 UWP
 ---
 
@@ -10,6 +10,8 @@ categories: Win10 UWP
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/28 8:51:54 -->
 
 <!-- csdn -->
 

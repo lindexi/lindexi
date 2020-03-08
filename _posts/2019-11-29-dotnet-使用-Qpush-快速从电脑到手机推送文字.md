@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 Qpush 快速从电脑到手机推送文字"
 author: lindexi
-date: 2019-11-29 8:58:57 +0800
-CreateTime: 2019-1-14 9:14:49 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:58:57
 categories: csharp WPF dotnetcore UWP 源代码
 ---
 
@@ -12,13 +12,15 @@ categories: csharp WPF dotnetcore UWP 源代码
 <!--more-->
 
 
+<!-- CreateTime:2019/11/29 8:58:57 -->
+
 <!-- 标签：csharp,wpf,dotnetcore,uwp,源代码 -->
 
 先介绍[QPush 快推](https://qpush.me/zh_cn/ )这个从电脑到手机最方便的文字推送工具，可以在网页进行输入，在手机自动复制到剪贴板，相当于在手机使用电脑的输入法
 
 在使用之前需要手机安装客户端
 
-IOS ： [https://itunes.apple.com/cn/app/qpush-kuai-tui-cong-dian-nao/id776837597](https://itunes.apple.com/cn/app/qpush-kuai-tui-cong-dian-nao/id776837597 )
+IOS ： https://itunes.apple.com/cn/app/qpush-kuai-tui-cong-dian-nao/id776837597
 
 安卓： 各个应用商店下载
 
@@ -89,7 +91,7 @@ using lindexi.src;
 
 ```csharp
 using System;
-using System.Net.[Http;](Http; )
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -136,9 +138,9 @@ namespace lindexi.src
         {
             const string url = "https://qpush.me/pusher/push_site/";
 
-            var [httpClient](httpClient ) = new [HttpClient();](HttpClient(); )
+            var httpClient = new HttpClient();
 
-            [httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(](httpClient.DefaultRequestHeaders.UserAgent.ParseAdd( )
+            httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36");
 
             HttpContent content =

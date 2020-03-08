@@ -1,8 +1,8 @@
 ---
 title: "WPF 通过 DrawingContext DrawImage 绘制图片"
 author: lindexi
-date: 2018-11-26 16:13:14 +0800
-CreateTime: 2018-11-26 15:4:7 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/11/26 16:13:14
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2018/11/26 16:13:14 -->
 
 <!-- csdn -->
 

@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 System.CommandLine 写命令行程序"
 author: lindexi
-date: 2019-11-29 8:33:49 +0800
-CreateTime: 2019-4-20 17:22:15 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:33:49
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 8:33:49 -->
 
 
 我写过一篇关于命令行解析的博客[C＃命令行解析工具](https://blog.lindexi.com/post/C-%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%A7%A3%E6%9E%90%E5%B7%A5%E5%85%B7.html ) 但是这个方法不是很好用

@@ -1,8 +1,8 @@
 ---
 title: "WPF 高速书写 StylusPlugIn 原理"
 author: lindexi
-date: 2019-11-29 10:20:39 +0800
-CreateTime: 2018-9-20 15:51:45 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 10:20:39
 categories: WPF 源代码分析 笔迹
 ---
 
@@ -11,6 +11,8 @@ categories: WPF 源代码分析 笔迹
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 10:20:39 -->
 
 <!-- csdn -->
 

@@ -1,8 +1,8 @@
 ---
 title: "jekyll 添加 Valine 评论"
 author: lindexi
-date: 2018-10-19 9:10:40 +0800
-CreateTime: 2018-2-13 17:23:3 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/10/19 9:10:40
 categories: jekyll
 ---
 
@@ -10,6 +10,8 @@ categories: jekyll
 
 <!--more-->
 
+
+<!-- CreateTime:2018/10/19 9:10:40 -->
 
 
 本来 [Disqus ](https://disqus.com/ )是很好的，但是在国内很难打开，所以我就需要一个可以在国内打开的静态评论。我找到了网易云评论，但是他需要自己的域名，所以我就不要他了。最后找到了 Valine ，感觉还不错。

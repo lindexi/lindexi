@@ -1,8 +1,8 @@
 ---
 title: "win10 uwp release 因为 Entry Point Not Found 无法启动"
 author: lindexi
-date: 2018-12-25 9:39:42 +0800
-CreateTime: 2018-4-6 11:47:31 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/12/25 9:39:42
 categories: Win10 UWP
 ---
 
@@ -10,6 +10,8 @@ categories: Win10 UWP
 
 <!--more-->
 
+
+<!-- CreateTime:2018/12/25 9:39:42 -->
 
 
 ```csharp

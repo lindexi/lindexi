@@ -1,8 +1,8 @@
 ---
 title: "微软最具价值专家 MVP 如何获得 Resharper 的免费功能"
 author: lindexi
-date: 2018-12-21 11:29:0 +0800
-CreateTime: 2018-12-21 11:23:53 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/12/21 11:29:00
 categories: 
 ---
 
@@ -12,6 +12,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2018/12/21 11:29:00 -->
 
 <!-- csdn -->
 

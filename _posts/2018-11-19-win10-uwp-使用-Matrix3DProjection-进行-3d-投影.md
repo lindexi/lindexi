@@ -1,8 +1,8 @@
 ---
 title: "win10 uwp 使用 Matrix3DProjection 进行 3d 投影"
 author: lindexi
-date: 2018-11-19 15:31:42 +0800
-CreateTime: 2018-11-5 9:33:37 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/11/19 15:31:42
 categories: Win10 UWP
 ---
 
@@ -10,6 +10,8 @@ categories: Win10 UWP
 
 <!--more-->
 
+
+<!-- CreateTime:2018/11/19 15:31:42 -->
 
 
 在所有的 UIElement 都可以通过 Projection 属性，设置元素的投影，可以让 2d 的元素看起来和 在 3d 上的一样

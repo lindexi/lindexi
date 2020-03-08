@@ -1,8 +1,8 @@
 ---
 title: "VisualStudio 使用多个环境进行调试"
 author: lindexi
-date: 2019-11-29 8:58:49 +0800
-CreateTime: 2018-8-28 19:2:23 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/29 8:58:49
 categories: VisualStudio 调试
 ---
 
@@ -10,6 +10,8 @@ categories: VisualStudio 调试
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/29 8:58:49 -->
 
 <!-- 标签：VisualStudio，调试 -->
 
@@ -110,7 +112,7 @@ See:[Working with Environments and Launch Settings in ASP.NET Core](https://exce
 
 [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-2.1 )
 
-链接：[https://stackoverflow.com/q/48221913/6116637](https://stackoverflow.com/q/48221913/6116637 )
+链接：https://stackoverflow.com/q/48221913/6116637
 
 ## 修改文件
 

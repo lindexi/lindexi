@@ -1,8 +1,8 @@
 ---
 title: "dotnet Blazor 用 C# 控制界面行为"
 author: lindexi
-date: 2019-11-20 18:26:25 +0800
-CreateTime: 2019-11-9 15:39:16 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/20 18:26:25
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/20 18:26:25 -->
 
 <!-- csdn -->
 

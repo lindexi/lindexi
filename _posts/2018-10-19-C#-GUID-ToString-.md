@@ -1,8 +1,8 @@
 ---
 title: "C# GUID ToString "
 author: lindexi
-date: 2018-10-19 9:4:44 +0800
-CreateTime: 2018-4-1 10:16:6 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2018/10/19 9:04:44
 categories: C#
 ---
 
@@ -10,6 +10,8 @@ categories: C#
 
 <!--more-->
 
+
+<!-- CreateTime:2018/10/19 9:04:44 -->
 
 
 Guid 是 Globally Unique Identifier 全局唯一标识符，是一种由算法生成的唯一标识是微软的UUID标准的实现。

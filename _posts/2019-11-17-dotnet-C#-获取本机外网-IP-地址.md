@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 获取本机外网 IP 地址"
 author: lindexi
-date: 2019-11-17 16:38:10 +0800
-CreateTime: 2019-11-17 16:37:39 +0800
+date: 2020-3-8 11:33:47 +0800
+CreateTime: 2019/11/17 16:38:10
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2019/11/17 16:38:10 -->
 
 <!-- csdn -->
 
@@ -22,7 +24,7 @@ categories: dotnet C#
 所以使用下面代码可以获取
 
 ```csharp
-            var [httpClient](httpClient ) = new [HttpClient();](HttpClient(); )
+            var httpClient = new HttpClient();
 
             var str = await httpClient.GetStringAsync("http://pv.sohu.com/cityjson");
 ```
@@ -32,7 +34,7 @@ categories: dotnet C#
 ```csharp
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 
-            var [httpClient](httpClient ) = new [HttpClient();](HttpClient(); )
+            var httpClient = new HttpClient();
 
             var str = await httpClient.GetStringAsync("http://pv.sohu.com/cityjson");
 
