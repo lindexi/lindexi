@@ -1,8 +1,8 @@
 ---
 title: "在 GitHub 仓库添加 NuGet 版本图标和构建图标"
 author: lindexi
-date: 2020-3-9 9:48:41 +0800
-CreateTime: 2020-3-9 9:48:5 +0800
+date: 2020-3-9 10:12:15 +0800
+CreateTime: 2020/3/9 9:48:05
 categories: git
 ---
 
@@ -10,6 +10,8 @@ categories: git
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/9 9:48:05 -->
 
 <!-- 发布 -->
 
