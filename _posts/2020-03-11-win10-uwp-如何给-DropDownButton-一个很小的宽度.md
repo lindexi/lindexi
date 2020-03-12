@@ -1,8 +1,8 @@
 ---
 title: "win10 uwp 如何给 DropDownButton 一个很小的宽度"
 author: lindexi
-date: 2020-3-11 8:30:0 +0800
-CreateTime: 2020-3-11 8:29:59 +0800
+date: 2020-3-11 8:30:33 +0800
+CreateTime: 2020/3/11 8:29:59
 categories: Win10 UWP
 ---
 
@@ -10,6 +10,8 @@ categories: Win10 UWP
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/11 8:29:59 -->
 
 <!-- 发布 -->
 
