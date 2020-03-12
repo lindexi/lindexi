@@ -1,7 +1,7 @@
 ---
 title: "Office Open XML 的测量单位"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-3-12 16:51:50 +0800
 CreateTime: 2020/2/19 16:19:12
 categories: 
 ---
@@ -30,6 +30,8 @@ categories:
 英寸 Inches = Points/72
 厘米 Centimeters = Inches*2.54
 ```
+
+在 OpenXML 因为 dxa 是像素点的 20 倍，所以也叫二十分之一点，另外这里说的像素点是 Point 而不是像素 Pixel 哦
 
 缩写如下
 
