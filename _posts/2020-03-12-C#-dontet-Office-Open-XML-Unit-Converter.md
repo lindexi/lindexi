@@ -1,8 +1,8 @@
 ---
 title: "C# dontet Office Open XML Unit Converter"
 author: lindexi
-date: 2020-3-12 18:16:46 +0800
-CreateTime: 2020-3-12 18:11:17 +0800
+date: 2020-3-13 7:15:17 +0800
+CreateTime: 2020/3/12 18:11:17
 categories: C#
 ---
 
@@ -10,6 +10,8 @@ Here is my code to conver between OpenXML units.
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/12 18:11:17 -->
 
 <!-- 发布 -->
 
