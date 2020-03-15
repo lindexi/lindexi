@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 使用 OpenXml 解析 PPT 里面的视频"
 author: lindexi
-date: 2020-3-14 8:14:33 +0800
-CreateTime: 2020-3-13 19:9:15 +0800
+date: 2020-3-14 8:15:21 +0800
+CreateTime: 2020/3/13 19:09:15
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/13 19:09:15 -->
 
 <!-- 发布 -->
 

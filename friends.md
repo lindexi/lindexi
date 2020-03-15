@@ -345,7 +345,8 @@ permalink: /friends/
  - Jeremy Likness  <http://csharperimage.jeremylikness.com/>
  - Jesse Liberty   <http://Jesseliberty.com>
  - Jessica Engström   <https://www.catoholic.se>
- - Jimmy Engström  <https://www.apeoholic.se>
+ - [JasonStein (Jiaqi Liu)](https://github.com/JasonStein ) <https://github.com/JasonStein> 微软的大佬，是 [Notepads](https://www.microsoft.com/store/apps/9nhl4nsc67wm) 的作者
+ - Jimmy Engström <https://www.apeoholic.se>  <!-- jimmy@apeoholic.se -->  微软MVP最近在做 Blazor 系列 请看 [Swetugg - the .NET conference, by .NET developers, for .NET developers](https://www.swetugg.se/swetugg-2019 )
  - Jonathan ANTOINE   <http://jonathanantoine.com>
  - Joost van Schaik   <http://dotnetbyexample.blogspot.com>
  - Lance McCarthy  <https://winplatform.wordpress.com>

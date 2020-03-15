@@ -1,7 +1,7 @@
 ---
 title: "Xamarin 和 WPF 的控件和属性的替换"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-3-14 9:16:10 +0800
 CreateTime: 2020/2/3 11:15:57
 categories: WPF
 ---
@@ -72,4 +72,8 @@ MinWidth-MinimumWidthRequest
 
         }
 ```
+
+[UI 控件比较 - Xamarin](https://docs.microsoft.com/zh-cn/xamarin/cross-platform/desktop/controls/ )
+
+[WPF 与 Xamarin：相似性 & 差异 - Xamarin](https://docs.microsoft.com/zh-cn/xamarin/cross-platform/desktop/controls/wpf )
 
