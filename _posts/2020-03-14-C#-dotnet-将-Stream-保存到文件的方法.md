@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 将 Stream 保存到文件的方法"
 author: lindexi
-date: 2020-3-15 11:43:26 +0800
-CreateTime: 2020-3-14 9:22:48 +0800
+date: 2020-3-15 11:43:45 +0800
+CreateTime: 2020/3/14 9:22:48
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/14 9:22:48 -->
 
 <!-- 发布 -->
 
