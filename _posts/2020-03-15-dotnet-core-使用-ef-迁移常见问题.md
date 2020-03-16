@@ -1,8 +1,8 @@
 ---
 title: "dotnet core 使用 ef 迁移常见问题"
 author: lindexi
-date: 2020-3-15 15:7:10 +0800
-CreateTime: 2020-3-15 15:6:19 +0800
+date: 2020-3-16 8:59:36 +0800
+CreateTime: 2020/3/15 15:06:19
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/15 15:06:19 -->
 
 <!-- 发布 -->
 
