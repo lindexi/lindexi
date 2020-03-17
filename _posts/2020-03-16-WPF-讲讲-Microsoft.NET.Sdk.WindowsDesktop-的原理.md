@@ -1,7 +1,7 @@
 ---
 title: "WPF 讲讲 Microsoft.NET.Sdk.WindowsDesktop 的原理"
 author: lindexi
-date: 2020-3-16 9:6:6 +0800
+date: 2020-3-16 9:20:42 +0800
 CreateTime: 2020/3/16 8:31:10
 categories: WPF
 ---
@@ -131,6 +131,8 @@ categories: WPF
 接下来是一个 Target 用来提示构建项重复，核心是用到 CheckForDuplicateItems 这个 Task 做的逻辑，关于 Task 的使用和定义请看 [如何创建一个基于 MSBuild Task 的跨平台的 NuGet 工具包 - walterlv](https://blog.walterlv.com/post/create-a-cross-platform-msbuild-task-based-nuget-tool.html )
 
 最后一部分就是 NetSdkWarning 用来提示版本警告
+
+通过了解 Microsoft.NET.Sdk.WindowsDesktop 的原理可以知道，可以通过自己设置 ApplicationDefinition 和 Page 内容再加上 引用框架 就可以不引用 SDK 使用 Microsoft.NET.Sdk 创建 WPF 项目，详细请看 [从以前的项目格式迁移到 VS2017 新项目格式](https://blog.lindexi.com/post/%E4%BB%8E%E4%BB%A5%E5%89%8D%E7%9A%84%E9%A1%B9%E7%9B%AE%E6%A0%BC%E5%BC%8F%E8%BF%81%E7%A7%BB%E5%88%B0-VS2017-%E6%96%B0%E9%A1%B9%E7%9B%AE%E6%A0%BC%E5%BC%8F.html )
 
 更多请看 [理解 C# 项目 csproj 文件格式的本质和编译流程 - walterlv](https://blog.walterlv.com/post/understand-the-csproj.html )
 
