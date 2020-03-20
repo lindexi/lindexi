@@ -1,7 +1,7 @@
 ---
 title: "C# dontet Office Open XML Unit Converter"
 author: lindexi
-date: 2020-3-13 7:15:17 +0800
+date: 2020-3-19 8:35:41 +0800
 CreateTime: 2020/3/12 18:11:17
 categories: C#
 ---
@@ -107,9 +107,6 @@ If you use csharp language version lower than 7.0, please remove the readonly ke
             Value = value;
         }
 
-        /// <summary>
-        /// 像素点的值
-        /// </summary>
         public double Value { get; }
     }
 ```
@@ -122,6 +119,14 @@ This is the code for converting different units of OpenXML
     public static class UnitConverter
     {
         public const double DefaultDpi = 96;
+
+        #region Pixel
+
+        public static Pixel ToPixel(this Inch inch) => inch.ToEmu().ToPixel();
+
+        public static Inch ToInch(this Pixel pixel) => pixel.ToEmu().ToInch();
+
+        #endregion
 
         #region Dxa
 
