@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 TranslatePoint 换算元素之间相对坐标"
 author: lindexi
-date: 2020-3-19 8:10:47 +0800
+date: 2020-3-20 12:0:50 +0800
 CreateTime: 2020/3/18 8:30:31
 categories: WPF
 ---
@@ -47,4 +47,6 @@ categories: WPF
 ![](http://image.acmx.xyz/lindexi%2F20203188431364.jpg)
 
 本文代码放在[github](https://github.com/lindexi/lindexi_gd/tree/502e65befeee340520968976b023cf9b8b4b70a9/JeelifuwheChaykicinelniyearje)欢迎小伙伴访问
+
+更多请看 [WPF使用TransformToAncestor获取元素的相对坐标_网络_sinat_31608641的博客-CSDN博客](https://blog.csdn.net/sinat_31608641/article/details/89631824 )
 
