@@ -1,8 +1,8 @@
 ---
 title: "dotnet core 打包构建提示 MSB3024 可能的原因"
 author: lindexi
-date: 2020-3-24 9:52:16 +0800
-CreateTime: 2020-3-24 9:26:41 +0800
+date: 2020-3-25 9:16:28 +0800
+CreateTime: 2020/3/24 9:26:41
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/24 9:26:41 -->
 
 <!-- 发布 -->
 
