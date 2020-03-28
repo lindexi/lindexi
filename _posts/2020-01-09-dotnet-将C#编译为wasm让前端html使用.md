@@ -1,7 +1,7 @@
 ---
 title: "dotnet 将C#编译为wasm让前端html使用"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2020-3-27 11:41:20 +0800
 CreateTime: 2020/1/9 20:25:34
 categories: dotnet C#
 ---
@@ -151,6 +151,7 @@ Module.mono_bind_static_method("[Example] YadernawcoLofeleabe.Example:Hello");
 			init: function () 
 			{
 				that.execute = Module.mono_bind_static_method("[Example] YadernawcoLofeleabe.Example:Hello");
+                
 				that.output = document.getElementById("output");
 				that.button = document.getElementById("button");
 

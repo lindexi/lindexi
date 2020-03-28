@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 带编号项目符号在 OpenXML SDK 对应的枚举值"
 author: lindexi
-date: 2020-3-26 17:30:13 +0800
-CreateTime: 2020-3-26 17:8:16 +0800
+date: 2020-3-27 8:12:47 +0800
+CreateTime: 2020/3/26 17:08:16
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2020/3/26 17:08:16 -->
 
 <!-- 发布 -->
 
