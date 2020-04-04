@@ -1,8 +1,8 @@
 ---
 title: "dotnet 配合 Gitlab 做自动推 Tag 时打包 NuGet 包"
 author: lindexi
-date: 2020-4-3 10:7:10 +0800
-CreateTime: 2020-4-3 8:31:45 +0800
+date: 2020-4-3 10:7:34 +0800
+CreateTime: 4/3/2020 8:31:45 AM
 categories: git dotnet
 ---
 
@@ -11,6 +11,8 @@ categories: git dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:4/3/2020 8:31:45 AM -->
 
 <!-- 发布 -->
 
