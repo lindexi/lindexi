@@ -1,8 +1,8 @@
 ---
 title: "dotnet 用 ASP.NET Core 制作一个可以上传库文件的 NuGet 服务器"
 author: lindexi
-date: 2020-4-5 15:55:36 +0800
-CreateTime: 2020-4-5 15:39:34 +0800
+date: 2020-4-5 15:57:40 +0800
+CreateTime: 4/5/2020 3:39:34 PM
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:4/5/2020 3:39:34 PM -->
 
 <!-- 发布 -->
 
@@ -95,7 +97,9 @@ nuget push -Source http://localhost:49614/api/v2/package AntBlazor.0.0.1.nupkg -
 
 ```csharp
              var key = HttpContext.Request.Headers["X-NuGet-ApiKey"];
-``` 
+```
 
 本文代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/457ebad9ce3895bde7c76ae60bd8c4c4be6f93b4/AluwemjealayCheedeaweabewairhur) 欢迎小伙伴访问
+
+顺便广告一下 [ant-design-blazor](https://github.com/ElderJames/ant-design-blazor ) 这个使用 Blazor 的 ant 界面库，欢迎小伙伴关注
 
