@@ -1,7 +1,7 @@
 ---
 title: "win7 无法启动 WPF 程序 D3Dcompiler_47.dll 丢失"
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2020-4-10 11:19:18 +0800
 CreateTime: 2019/11/29 8:22:10
 categories: WPF
 ---
@@ -88,4 +88,12 @@ step2：安装以下两个更新：KB4040973 KB3178034 （任意安装顺序）�
 [启动时出现 Photoshop 系统错误 - 缺少 D3DCOMPILER_47.dll](https://helpx.adobe.com/cn/photoshop/kb/photoshop-error-launch-d3dcompiler.html )
 
 [WPF程序停止工作-CSDN论坛](https://bbs.csdn.net/topics/392423671 )
+
+## 官方措施
+
+在 .NET Core 版本修复
+
+[Adding d3d_compiler dependency to known issues by rladuca · Pull Request #190 · dotnet/wpf](https://github.com/dotnet/wpf/pull/190 )
+
+[WPF Applications require crash with System.TypeLoadException when VC++ redistributables are not present · Issue #37 · dotnet/wpf](https://github.com/dotnet/wpf/issues/37 )
 

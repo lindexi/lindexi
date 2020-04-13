@@ -1,8 +1,8 @@
 ---
 title: "WPF 为何不要重写默认 string 字符串的 DataTemplate 数据模版"
 author: lindexi
-date: 2020-4-10 8:47:24 +0800
-CreateTime: 2020-4-10 8:27:42 +0800
+date: 2020-4-10 8:49:54 +0800
+CreateTime: 4/10/2020 8:27:42 AM
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:4/10/2020 8:27:42 AM -->
 
 <!-- 发布 -->
 
