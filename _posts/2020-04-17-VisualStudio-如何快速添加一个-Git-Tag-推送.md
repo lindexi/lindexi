@@ -1,8 +1,8 @@
 ---
 title: "VisualStudio 如何快速添加一个 Git Tag 推送"
 author: lindexi
-date: 2020-4-17 14:7:3 +0800
-CreateTime: 2020-4-17 11:33:12 +0800
+date: 2020-4-18 8:22:21 +0800
+CreateTime: 4/17/2020 11:33:12 AM
 categories: VisualStudio git
 ---
 
@@ -10,6 +10,8 @@ categories: VisualStudio git
 
 <!--more-->
 
+
+<!-- CreateTime:4/17/2020 11:33:12 AM -->
 
 <!-- 发布 -->
 
@@ -44,6 +46,8 @@ categories: VisualStudio git
 ![](http://image.acmx.xyz/lindexi%2F20204171141525045.jpg)
 
 熟悉这个方法可以快速给代码添加一个 Tag 号
+
+配合 [dotnet 配合 Gitlab 做自动推 Tag 时打包 NuGet 包](https://blog.lindexi.com/post/dotnet-%E9%85%8D%E5%90%88-Gitlab-%E5%81%9A%E8%87%AA%E5%8A%A8%E6%8E%A8-Tag-%E6%97%B6%E6%89%93%E5%8C%85-NuGet-%E5%8C%85.html ) 可以特别方便打 Tag 打包推送
 
 为什么需要推送 Tag 才能打包？原因是为了解决回退到某个版本发现有一个坑，这个坑是因为某个依赖库的版本问题，此时我期望最小改动，我虽然能拿到这个库的代码，但是我很难知道我这个版本安装的 NuGet 库对应依赖库的哪个 commit 的代码
 
