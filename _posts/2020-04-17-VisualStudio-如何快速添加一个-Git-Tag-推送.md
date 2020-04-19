@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 如何快速添加一个 Git Tag 推送"
 author: lindexi
-date: 2020-4-18 8:22:21 +0800
+date: 2020-4-19 10:8:36 +0800
 CreateTime: 4/17/2020 11:33:12 AM
 categories: VisualStudio git
 ---
@@ -70,4 +70,6 @@ categories: VisualStudio git
 - 小伙伴在这次 commit 写的代码是他认为发布的时候将会添加的公开方法，但是实际上最后发布的时候更改了公开方法，此时回滚到这个 commit 虽然能下载到 NuGet 库，但是发现 L 库的公开方法不匹配，构建失败
 
 这就是为什么选用推送 Tag 打包的原因，允许小伙伴自己选择预览版的版本推送，自动打包，这样就可以在项目中使用此Tag 打出的预览版的代码。此时的 commit 其他小伙伴也能构建，回滚代码的时候也可以在公共服务器找到 NuGet 包或切换到对应版本的源代码
+
+更多请看 [VisualStudio 2019 新创建项目添加 git 仓库](https://blog.lindexi.com/post/VisualStudio-2019-%E6%96%B0%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0-git-%E4%BB%93%E5%BA%93.html)
 
