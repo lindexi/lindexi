@@ -18,9 +18,9 @@ permalink: /friends/
 
    WPF开发大神，现在转到[博客园](https://www.cnblogs.com/jasongrass/)
 
- - [黄腾霄 ](https://huangtengxiao.gitee.io/ )    
+ - [黄腾霄 - huangtengxiao](https://xinyuehtx.github.io/ )  
 
-   头像大神，wpf大神，专业研究 WCF 相关
+   头像大神，wpf大神，专业研究 WCF 相关，这是他的 [gitee](https://huangtengxiao.gitee.io/) 博客
 
  - [唐宋元明清2188 - 博客园](https://www.cnblogs.com/kybs0 )
  
@@ -202,9 +202,13 @@ permalink: /friends/
 
  - [风流三月](https://www.ygoclub.com/)
 
+ - [LLLXY](https://www.lllxy.net/ )
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
+
+ - [樱花落舞 - 博客园](https://www.cnblogs.com/yinghualuowu )
 
  - [六兆煮橙不会写代码 - CSDN博客](http://blog.csdn.net/lzl1918 )
 
