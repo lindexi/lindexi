@@ -1,14 +1,18 @@
 ---
 title: "dotnet 用 Microsoft.Diagnostics.Runtime 库写代码解析 DUMP 文件"
 author: lindexi
-date: 2020-4-25 9:25:14 +0800
-CreateTime: 2020-4-25 9:5:5 +0800
-categories: dotnet
+date: 2020-4-25 14:28:5 +0800
+CreateTime: 4/25/2020 9:05:05 AM
+categories: dotnet 调试 Diagnostics DUMP C#
 ---
 
 在分析 DUMP 进行自动化调试的时候，很多时候只能通过 WinDbg 和命令行调用的方式，这样的方式很难做到灵活。同时编写各个命令行的难度也特别高，这在需要对命令行的输出进行不同的分支的判断时候，难度会更大。于是找到了 Microsoft.Diagnostics.Runtime 库，这个库提供了简单的方式，可以在 C# 里面用代码写分析 DUMP 的代码
 
 <!--more-->
+
+
+<!-- CreateTime:4/25/2020 9:05:05 AM -->
+<!-- 标签：dotnet,调试,Diagnostics,DUMP,C# -->
 
 
 <!-- 发布 -->
