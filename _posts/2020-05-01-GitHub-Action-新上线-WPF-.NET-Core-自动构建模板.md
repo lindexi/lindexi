@@ -1,8 +1,8 @@
 ---
 title: "GitHub Action 新上线 WPF .NET Core 自动构建模板"
 author: lindexi
-date: 2020-5-1 8:52:20 +0800
-CreateTime: 2020-5-1 8:52:20 +0800
+date: 2020-5-1 8:52:47 +0800
+CreateTime: 5/1/2020 8:52:20 AM
 categories: WPF git
 ---
 
@@ -10,6 +10,8 @@ categories: WPF git
 
 <!--more-->
 
+
+<!-- CreateTime:5/1/2020 8:52:20 AM -->
 
 <!-- 发布 -->
 
