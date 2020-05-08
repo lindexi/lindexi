@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 使用 TaskCompletionSource 实现暂停功能"
 author: lindexi
-date: 2020-5-7 19:31:4 +0800
+date: 2020-5-8 15:12:55 +0800
 CreateTime: 5/7/2020 4:43:55 PM
 categories: dotnet C#
 ---
@@ -131,7 +131,7 @@ if (CurrentTask is null)
 
 如果用户设置过暂停但是还没有设置继续，那么 CurrentTask 是存在的，也就是不会重新被创建
 
-在用户重来没有暂停设置继续的时候，因为 CurrentTask 是空，继续执行
+在用户从来没有暂停设置继续的时候，因为 CurrentTask 是空，继续执行
 
 在用户设置过暂停之后设置继续的时候，将调用 TrySetResult 方法让 CurrentTask 完成
 
