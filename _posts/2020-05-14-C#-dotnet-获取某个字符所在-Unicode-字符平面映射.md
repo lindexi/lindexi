@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 获取某个字符所在 Unicode 字符平面映射"
 author: lindexi
-date: 2020-5-14 15:17:6 +0800
-CreateTime: 2020-5-14 15:8:23 +0800
+date: 2020-5-14 16:46:41 +0800
+CreateTime: 5/14/2020 3:08:23 PM
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:5/14/2020 3:08:23 PM -->
 
 <!-- 发布 -->
 
@@ -301,7 +303,7 @@ categories: dotnet C#
         /// <param name="unicodeRange"></param>
         /// <returns></returns>
         public static string GetUnicodeRangeName(UnicodeRange unicodeRange) => UnicodeRangeInfoList
-            .FirstOrDefault(temp => ReferenceEquals(temp, unicodeRange))?.UnicodeRangeName;
+            .FirstOrDefault(temp => ReferenceEquals(temp.UnicodeRange, unicodeRange))?.UnicodeRangeName;
 ```
 
 本文代码放在 [https://gist.github.com/lindexi/8945441c782488613fbc695d81a1bb85](https://gist.github.com/lindexi/8945441c782488613fbc695d81a1bb85) 欢迎小伙伴到 github 复制代码
