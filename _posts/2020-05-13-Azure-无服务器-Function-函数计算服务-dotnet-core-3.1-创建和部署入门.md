@@ -1,7 +1,7 @@
 ---
 title: "Azure 无服务器 Function 函数计算服务 dotnet core 3.1 创建和部署入门"
 author: lindexi
-date: 2020-5-13 9:58:16 +0800
+date: 2020-5-20 8:33:6 +0800
 CreateTime: 5/13/2020 9:18:11 AM
 categories: dotnet
 ---
@@ -130,6 +130,8 @@ categories: dotnet
 我十分推荐在微软学习平台里面学习如何使用，什么是微软学习平台请看 [[工具]微软的学习平台Microsoft Learn很好用，推荐一下 - dino.c - 博客园](https://www.cnblogs.com/dino623/p/get_started_using_Microsoft_Learn.html )
 
 现在很多大厂都是提供了函数计算服务，如 阿里的服务，请看 [dotnet C# 使用阿里函数计算服务](https://blog.lindexi.com/post/dotnet-C-%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E6%9C%8D%E5%8A%A1.html )
+
+那么这个函数技术能做什么？这里有一个实际的开源的例子 URL 缩短器，请看 [https://github.com/FBoucher/AzUrlShortener](https://github.com/FBoucher/AzUrlShortener )
 
 更多博客
 
