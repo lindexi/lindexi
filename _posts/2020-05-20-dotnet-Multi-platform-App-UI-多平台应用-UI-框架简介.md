@@ -1,7 +1,7 @@
 ---
 title: "dotnet Multi-platform App UI 多平台应用 UI 框架简介"
 author: lindexi
-date: 2020-5-20 9:39:12 +0800
+date: 2020-5-20 9:52:56 +0800
 CreateTime: 5/20/2020 8:38:04 AM
 categories: dotnet
 ---
@@ -85,7 +85,7 @@ void ExecuteClickCommand ()
 readonly State<int> _count = 0;
 
 [Body]
-View body() => new StackLayout
+View Body() => new StackLayout
 {
     new Label("Welcome to .NET MAUI!"),
     new Button
