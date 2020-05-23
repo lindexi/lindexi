@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet TypeForwarding 的用法"
 author: lindexi
-date: 2020-5-21 14:16:18 +0800
-CreateTime: 2020-5-21 14:15:43 +0800
+date: 2020-5-22 8:59:10 +0800
+CreateTime: 5/21/2020 2:15:43 PM
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:5/21/2020 2:15:43 PM -->
 
 <!-- 发布 -->
 
