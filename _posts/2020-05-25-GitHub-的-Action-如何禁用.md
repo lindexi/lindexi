@@ -1,7 +1,7 @@
 ---
 title: "GitHub 的 Action 如何禁用"
 author: lindexi
-date: 2020-5-25 9:58:57 +0800
+date: 2020-5-25 14:25:36 +0800
 CreateTime: 5/25/2020 9:36:22 AM
 categories: git
 ---
@@ -56,6 +56,12 @@ jobs:
   build:
     runs-on: windows-latest
     if: github.repository == 'lindexi/doubi'
+```
+
+当然，判断仓库的拥有者也不错，请看代码
+
+```
+    if: github.repository_owner == 'lindexi'
 ```
 
 更多请看 [GitHub 操作的工作流程语法 - GitHub 帮助](https://help.github.com/cn/actions/reference/workflow-syntax-for-github-actions )
