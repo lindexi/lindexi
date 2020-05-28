@@ -1,8 +1,8 @@
 ---
 title: "How to generate NuGet package with Git Tag version using GitHub Action"
 author: lindexi
-date: 2020-5-26 14:33:3 +0800
-CreateTime: 2020-5-26 14:18:1 +0800
+date: 2020-5-27 9:44:31 +0800
+CreateTime: 5/26/2020 2:18:01 PM
 categories: git
 ---
 
@@ -10,6 +10,8 @@ We can trigger the GitHub Action by Git tag pushed and we can read the Git tag n
 
 <!--more-->
 
+
+<!-- CreateTime:5/26/2020 2:18:01 PM -->
 
 <!-- 发布 -->
 
