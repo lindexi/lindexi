@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 RenderTargetBitmap 快速截图出现 COMException 提示"
 author: lindexi
-date: 2020-5-30 8:20:36 +0800
+date: 2020-5-30 8:28:9 +0800
 CreateTime: 2019/1/10 14:58:43
 categories: WPF
 ---
@@ -183,4 +183,10 @@ System.Runtime.InteropServices.COMException (0x88980003): MILERR_WIN32ERROR (Exc
 GC.Collect();
 GC.WaitForPendingFinalizers();
 ```
+
+但实际上小伙伴说的内容不对，原因是这个进程没有使用那么多的 GDI 对象，通过任务管理器可以看到
+
+<!-- ![](image/WPF 使用 RenderTargetBitmap 快速截图出现 COMException 提示/WPF 使用 RenderTargetBitmap 快速截图出现 COMException 提示0.png) -->
+
+![](http://image.acmx.xyz/lindexi%2F202053082836220.jpg)
 
