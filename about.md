@@ -11,6 +11,8 @@ permalink: /about/
 
 [![](http://image.acmx.xyz/lindexi%2F2020529831404599.jpg)](https://mvp.microsoft.com/zh-cn/PublicProfile/5003260)
 
+![](https://i.loli.net/2020/05/30/9aCrSXDFsHI4NKq.jpg)
+
 ### .NET 基金会成员 A member of the .NET Foundation
 
 [![](http://image.acmx.xyz/lindexi%2F2020529833103602.jpg)](https://github.com/dotnet-foundation)
@@ -18,6 +20,12 @@ permalink: /about/
 ### .NET 职业技术学院成员
 
 ![](http://image.acmx.xyz/lindexi%2F2020529841386413.jpg)
+
+### 堆栈网 Top 5% 回答者
+
+StackOverflow UWP 全球排名 Top 5%, C# 全球排名 Top 10% 回答者
+
+[![](http://image.acmx.xyz/lindexi%2F202052984326589.jpg)](https://stackoverflow.com/story/lindexi)
 
 ### CSDN 博客专家 [https://lindexi.blog.csdn.net/](https://lindexi.blog.csdn.net/)
 
@@ -29,14 +37,11 @@ permalink: /about/
 
 排名147名
 
-![](http://image.acmx.xyz/lindexi%2F2020529838409415.jpg)
+<!-- ![](http://image.acmx.xyz/lindexi%2F2020529838409415.jpg) -->
 
-### 堆栈网 Top 5% 回答者
+![](https://i.loli.net/2020/05/30/TIN1DndVhS2Qx47.jpg)
 
-StackOverflow UWP 全球排名 Top 5%, C# 全球排名 Top 10% 回答者
-
-[![](http://image.acmx.xyz/lindexi%2F202052984326589.jpg)](https://stackoverflow.com/story/lindexi)
-
+![](https://i.loli.net/2020/05/30/Fns5hr2bCYmLJ3N.jpg)
 
 ### 联系方式
 
