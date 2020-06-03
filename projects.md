@@ -7,6 +7,10 @@ title: 开源项目
 
 ## 参与的项目
 
+### [SourceYard](https://github.com/dotnet-campus/SourceYard)
+
+制作 NuGet 源代码包的工具，使用 NuGet 将源代码分发给小伙伴，可以直接安装此 NuGet 获取源代码
+
 ### [dotnet runtime](https://github.com/dotnet/runtime)
 
 - [Reduce creation of static objects by lindexi · Pull Request #36867 · dotnet/runtime](https://github.com/dotnet/runtime/pull/36867 )
@@ -18,6 +22,8 @@ title: 开源项目
 [Replace IsAssignableFrom to is pattern by lindexi · Pull Request #101 · dotnet/wpf](https://github.com/dotnet/wpf/pull/101 )
 
 [We use language keywords instead of BCL types by lindexi · Pull Request #102 · dotnet/wpf](https://github.com/dotnet/wpf/pull/102 )
+
+[Update the docs link by lindexi · Pull Request #3078 · dotnet/wpf](https://github.com/dotnet/wpf/pull/3078 )
 
 ### samples
 
@@ -100,3 +106,7 @@ https://github.com/dotnet/samples/pull/745
 ### JasonStein Notepads
 
 [Added zh-CN translation by lindexi · Pull Request #32 · JasonStein/Notepads](https://github.com/JasonStein/Notepads/pull/32 )
+
+### [Orleans.MultiClient](https://github.com/OrleansContrib/Orleans.MultiClient)
+
+[https://github.com/OrleansContrib/Orleans.MultiClient/pull/3](https://github.com/OrleansContrib/Orleans.MultiClient/pull/3)
