@@ -5,7 +5,7 @@ display_title: 林德熙
 permalink: /about/
 ---
 
-我是林德熙
+我是林德熙，精通编写逗比代码
 
 ### 微软最具价值专家 Windows Development MVP
 
