@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet TypeForwarding 的用法"
 author: lindexi
-date: 2020-5-22 8:59:10 +0800
+date: 2020-6-5 9:15:47 +0800
 CreateTime: 5/21/2020 2:15:43 PM
 categories: dotnet C#
 ---
@@ -37,4 +37,6 @@ categories: dotnet C#
 而根据 NuGet 的做法，高版本可以覆盖低版本，也就是我在很多项目里面虽然引用的是旧版本的 A 程序集，但是在入口项目，也就是最终输出的项目里面是引用了最新版本的 A 程序集。这个最新版本的 A 程序集将会引用 B 程序集，同时使用上面方法引用了 B 程序集的类型
 
 本文代码是小伙伴提供的代码，请看 [ikriv-samples/TypeForwardingTest: CLR has a feature to forward type implementation to another assembly](https://github.com/ikriv-samples/TypeForwardingTest )
+
+[微软官方的 NuGet 包是如何做到同时兼容新旧框架的？例如 System.ValueTuple 是如何做到在新旧版本的框架都能使用的？ - walterlv](https://blog.walterlv.com/post/microsoft-dotnet-packages-use-typeforwarded-to-keep-compatibility.html?tdsourcetag=s_pcqq_aiomsg )
 

@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 本地代码构建没问题，但 CI 自动构建失败可能的原因"
 author: lindexi
-date: 2020-6-5 8:38:29 +0800
-CreateTime: 2020-6-5 8:37:32 +0800
+date: 2020-6-5 8:41:31 +0800
+CreateTime: 6/5/2020 8:37:32 AM
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:6/5/2020 8:37:32 AM -->
 
 <!-- 发布 -->
 
