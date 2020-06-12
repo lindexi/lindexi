@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 在内存中的 double 的 NAN 和正负无穷二进制是如何存"
 author: lindexi
-date: 2020-6-12 8:57:29 +0800
-CreateTime: 2020-6-12 8:52:44 +0800
+date: 2020-6-12 9:13:20 +0800
+CreateTime: 6/12/2020 8:52:44 AM
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:6/12/2020 8:52:44 AM -->
 
 <!-- 发布 -->
 
@@ -20,15 +22,6 @@ NAN: 00,00,00,00,00,00,F8,FF
 正无穷 PositiveInfinity : 00,00,00,00,00,00,F0,7F
 
 负无穷 NegativeInfinity : 00,00,00,00,00,00,F0,FF
-
-
-这是小端的表示方法，实际上的值如下
-
-NAN: 0xFFF8000000000000
-
-正无穷 PositiveInfinity : 0x7FF0000000000000
-
-负无穷 NegativeInfinity : 0xFFF0000000000000
 
 测试方法如下
 
