@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 在内存中的 double 的 NAN 和正负无穷二进制是如何存"
 author: lindexi
-date: 2020-6-12 9:13:20 +0800
+date: 2020-6-12 14:6:36 +0800
 CreateTime: 6/12/2020 8:52:44 AM
 categories: dotnet C#
 ---
@@ -49,3 +49,15 @@ NAN: 00,00,00,00,00,00,F8,FF
 ```
 
 这个值不是乱存的，有标准，请看 [IEEE 754 - Wikipedia](https://en.wikipedia.org/wiki/IEEE_754 )
+
+是不是还有更简单的方法拿到某个变量的内存里面的值存放方法？试试下面代码
+
+```csharp
+double d = double.NaN;
+Span<byte> sp = new Span<byte>(&d, sizeof(double));
+```
+
+试试看下 sp 的值
+
+感谢 `（￣▽￣）` 小伙伴提供的方法
+
