@@ -1,8 +1,8 @@
 ---
 title: "Unity3D 2019 设置的 Playmode tint 有何作用"
 author: lindexi
-date: 2020-6-16 8:25:22 +0800
-CreateTime: 2020-6-16 8:25:22 +0800
+date: 2020-6-16 8:26:8 +0800
+CreateTime: 6/16/2020 8:25:22 AM
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:6/16/2020 8:25:22 AM -->
 
 <!-- 发布 -->
 
