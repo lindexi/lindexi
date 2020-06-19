@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 提示找不到 CompositionContainer 类的解决方法"
 author: lindexi
-date: 2020-6-17 16:21:43 +0800
-CreateTime: 2020-6-17 16:1:19 +0800
+date: 2020-6-18 8:36:50 +0800
+CreateTime: 6/17/2020 4:01:19 PM
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:6/17/2020 4:01:19 PM -->
 
 <!-- 发布 -->
 

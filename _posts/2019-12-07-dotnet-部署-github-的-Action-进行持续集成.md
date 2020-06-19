@@ -1,7 +1,7 @@
 ---
 title: "dotnet 部署 github 的 Action 进行持续集成"
 author: lindexi
-date: 2020-4-25 10:0:35 +0800
+date: 2020-6-18 17:19:53 +0800
 CreateTime: 2019/12/8 15:07:37
 categories: Github GithubAction
 ---
@@ -62,4 +62,6 @@ categories: Github GithubAction
 利用 GitHub 的 Action 还能做什么？如自动构建推送 NuGet 包等，请看 [dotnet 配置 github 自动打包上传 nuget 文件](https://blog.lindexi.com/post/dotnet-%E9%85%8D%E7%BD%AE-github-%E8%87%AA%E5%8A%A8%E6%89%93%E5%8C%85%E4%B8%8A%E4%BC%A0-nuget-%E6%96%87%E4%BB%B6.html )
 
 另外，构建成功或失败都应该在首页放个图标告诉小伙伴，如何放一个构建图标请看 [Github 添加 Action 编译图标](https://blog.lindexi.com/post/Github-%E6%B7%BB%E5%8A%A0-Action-%E7%BC%96%E8%AF%91%E5%9B%BE%E6%A0%87.html )
+
+更多请看 [适合 .NET 开发者用的 GitHub Actions（时不时更新） - walterlv](https://blog.walterlv.com/post/github-actions-for-dotnet-developers.html )
 
