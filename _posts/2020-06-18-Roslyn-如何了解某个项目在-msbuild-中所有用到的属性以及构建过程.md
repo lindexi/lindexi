@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 如何了解某个项目在 msbuild 中所有用到的属性以及构建过程"
 author: lindexi
-date: 2020-6-18 20:6:42 +0800
-CreateTime: 2020-6-18 20:5:9 +0800
+date: 2020-6-19 8:15:9 +0800
+CreateTime: 6/18/2020 8:05:09 PM
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -11,6 +11,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:6/18/2020 8:05:09 PM -->
 
 <!-- 发布 -->
 
