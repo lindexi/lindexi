@@ -1,8 +1,8 @@
 ---
 title: "dotnet 为什么每个项目都会输出一个 NuGet 包而不是一个包带所有项目"
 author: lindexi
-date: 2020-6-19 9:19:14 +0800
-CreateTime: 2020-6-19 8:52:15 +0800
+date: 2020-6-20 8:12:23 +0800
+CreateTime: 6/19/2020 8:52:15 AM
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:6/19/2020 8:52:15 AM -->
 
 <!-- 发布 -->
 
