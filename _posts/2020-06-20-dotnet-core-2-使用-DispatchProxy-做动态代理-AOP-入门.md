@@ -1,8 +1,8 @@
 ---
 title: "dotnet core 2 使用 DispatchProxy 做动态代理 AOP 入门"
 author: lindexi
-date: 2020-6-20 18:36:12 +0800
-CreateTime: 2020-6-20 17:49:44 +0800
+date: 2020-6-22 8:26:37 +0800
+CreateTime: 6/20/2020 5:49:44 PM
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:6/20/2020 5:49:44 PM -->
 
 <!-- 发布 -->
 

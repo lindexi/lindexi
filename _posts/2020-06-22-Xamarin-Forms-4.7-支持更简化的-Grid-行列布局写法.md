@@ -1,8 +1,8 @@
 ---
 title: "Xamarin Forms 4.7 支持更简化的 Grid 行列布局写法"
 author: lindexi
-date: 2020-6-22 8:26:10 +0800
-CreateTime: 2020-6-22 8:26:10 +0800
+date: 2020-6-22 8:27:54 +0800
+CreateTime: 6/22/2020 8:26:10 AM
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:6/22/2020 8:26:10 AM -->
 
 <!-- 发布 -->
 
