@@ -1,8 +1,8 @@
 ---
 title: "WPF HandyControl 已支持给任意控件通过按下移动抬起封装点击事件"
 author: lindexi
-date: 2020-6-23 10:27:47 +0800
-CreateTime: 2020-6-23 10:14:2 +0800
+date: 2020-6-24 8:22:38 +0800
+CreateTime: 6/23/2020 10:14:02 AM
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:6/23/2020 10:14:02 AM -->
 
 <!-- 发布 -->
 
