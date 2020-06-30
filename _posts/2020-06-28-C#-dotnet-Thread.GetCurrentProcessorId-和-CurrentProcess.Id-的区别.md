@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet Thread.GetCurrentProcessorId 和 CurrentProcess.Id 的区别"
 author: lindexi
-date: 2020-6-28 10:27:16 +0800
-CreateTime: 2020-6-28 10:25:7 +0800
+date: 2020-6-29 9:2:12 +0800
+CreateTime: 6/28/2020 10:25:07 AM
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:6/28/2020 10:25:07 AM -->
 
 <!-- 发布 -->
 

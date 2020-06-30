@@ -1,8 +1,8 @@
 ---
 title: "dotnet 定制 ILogger 实现"
 author: lindexi
-date: 2020-6-28 19:53:3 +0800
-CreateTime: 2020-6-28 19:49:17 +0800
+date: 2020-6-29 15:7:52 +0800
+CreateTime: 6/28/2020 7:49:17 PM
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:6/28/2020 7:49:17 PM -->
 
 <!-- 发布 -->
 
@@ -120,7 +122,7 @@ services.AddLogging(builder =>
                 {
                     // [2099-10-19 19:07:45.456][threadName][INFO][类:行数][_traceId:realTraceId][_userId:realUserId][tag:custom] 业务的日志/异常堆栈
                     message =
-                        $"[{DateTime.Now:yyyy-MM-dd hh:mm:ss.sss}][{Thread.CurrentThread.Name}:{Thread.CurrentThread.ManagedThreadId}][{CCloudLogExtension.LogLevelToString(logLevel)}][{_categoryName}][-][-][-][EventId={eventId.Id}:{eventId.Name}] {formatter(state, exception)}";
+                        $"[{DateTime.Now:yyyy-MM-dd hh:mm:ss.fff}][{Thread.CurrentThread.Name}:{Thread.CurrentThread.ManagedThreadId}][{CCloudLogExtension.LogLevelToString(logLevel)}][{_categoryName}][-][-][-][EventId={eventId.Id}:{eventId.Name}] {formatter(state, exception)}";
                 }
 
                 Console.WriteLine(message);
