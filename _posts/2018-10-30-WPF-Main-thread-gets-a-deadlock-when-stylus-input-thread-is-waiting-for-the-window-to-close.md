@@ -1,7 +1,7 @@
 ---
 title: "WPF Main thread gets a deadlock when stylus input thread is waiting for the window to close"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-7-2 15:46:5 +0800
 CreateTime: 2018/11/1 9:32:42
 categories: WPF
 ---
@@ -197,7 +197,7 @@ void ThreadProc()
 
 The main thread has released the lock but the stylus input thread doesn't need to wait for the lock. The stylus input thread cannot go back to the outside loop to remove the `PenContext` and main thread can no longer wait for the moment when the `PenContext` removal is finished.
 
-Thanks to [walterlv](https://walterlv.com/) for proofreading the English translation of this post.
+Thanks to [walterlv](https://blog.walterlv.com/) for proofreading the English translation of this post.
 
-感谢 [吕毅](https://walterlv.com/) 对本文的英文翻译进行校对。
+感谢 [吕毅](https://blog.walterlv.com/) 对本文的英文翻译进行校对。
 

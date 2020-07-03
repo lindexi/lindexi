@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 获得 sln 文件所在的文件夹"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-7-2 15:46:14 +0800
 CreateTime: 2019/7/22 8:57:14
 categories: Roslyn MSBuild 编译器
 ---
@@ -54,7 +54,7 @@ categories: Roslyn MSBuild 编译器
 
 因为 `$(MSBuildThisFileDirectory)` 就是当前的文件的文件夹，这个文件和 sln 文件刚好在相同的文件夹，所以通过这个方法就可以获得 sln 所在的文件夹
 
-[项目文件中的已知属性（知道了这些，就不会随便在 csproj 中写死常量啦） - walterlv](https://walterlv.com/post/known-properties-in-csproj.html )
+[项目文件中的已知属性（知道了这些，就不会随便在 csproj 中写死常量啦） - walterlv](https://blog.walterlv.com/post/known-properties-in-csproj.html )
 
 [MSBuild Well-known Item Metadata](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-well-known-item-metadata?view=vs-2017 )
 

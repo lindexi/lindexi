@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Composition API 做高性能渲染"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-7-2 15:46:2 +0800
 CreateTime: 2019/7/3 10:30:57
 categories: WPF 渲染
 ---
@@ -60,7 +60,7 @@ categories: WPF 渲染
 ```csharp
 // 先进入 HelloComposition.sln 所在的文件夹
 dotnet restore 
-// 还原可能失败，如果发现还原失败可以使用 [我收集的各种公有 NuGet 源](https://walterlv.com/post/public-nuget-sources.html )
+// 还原可能失败，如果发现还原失败可以使用 [我收集的各种公有 NuGet 源](https://blog.walterlv.com/post/public-nuget-sources.html )
 dotnet build
 ```
 
@@ -169,7 +169,7 @@ dotnet build
 
 [Windows.UI.Composition Namespace](https://docs.microsoft.com/en-us/uwp/api/windows.ui.composition )
 
-[我收集的各种公有 NuGet 源](https://walterlv.com/post/public-nuget-sources.html )
+[我收集的各种公有 NuGet 源](https://blog.walterlv.com/post/public-nuget-sources.html )
 
 [我修改的代码](https://github.com/lindexi/lindexi_gd/tree/a8d0df42142b4979807be154ba538b648dd27175/HelloComposition)
 

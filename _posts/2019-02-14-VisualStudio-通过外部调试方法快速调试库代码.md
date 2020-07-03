@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 通过外部调试方法快速调试库代码"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-7-2 15:46:6 +0800
 CreateTime: 2019/2/14 22:01:37
 categories: VisualStudio
 ---
@@ -24,7 +24,7 @@ categories: VisualStudio
 dotnet new wpf -o 创建的 WPF 的项目的名
 ```
 
-如果想要详细了解如何创建一个 WPF 程序请看 [如何创建一个基于 .NET Core 3 的 WPF 项目](https://walterlv.com/post/create-new-wpf-on-dotnet-core-project.html )
+如果想要详细了解如何创建一个 WPF 程序请看 [如何创建一个基于 .NET Core 3 的 WPF 项目](https://blog.walterlv.com/post/create-new-wpf-on-dotnet-core-project.html )
 
 打开 VisualStudio 2019 新建一个项目，引用这个 WPF 程序然后创建一个 dotnet core 库项目
 

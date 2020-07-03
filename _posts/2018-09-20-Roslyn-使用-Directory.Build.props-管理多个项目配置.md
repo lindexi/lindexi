@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 使用 Directory.Build.props 管理多个项目配置"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-7-2 15:46:18 +0800
 CreateTime: 2019/5/21 11:35:52
 categories: Roslyn MSBuild 编译器
 ---
@@ -103,7 +103,7 @@ Build\Version.props
 </Project>
 ```
 
-上面的代码的 `$(MSBuildThisFileDirectory)` 就是替换文件所在的文件夹路径，更多请看 [项目文件中的已知属性（知道了这些，就不会随便在 csproj 中写死常量啦） - walterlv](https://walterlv.com/post/known-properties-in-csproj.html )
+上面的代码的 `$(MSBuildThisFileDirectory)` 就是替换文件所在的文件夹路径，更多请看 [项目文件中的已知属性（知道了这些，就不会随便在 csproj 中写死常量啦） - walterlv](https://blog.walterlv.com/post/known-properties-in-csproj.html )
 
 更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://blog.lindexi.com/post/roslyn.html ) 
 
