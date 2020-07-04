@@ -1,7 +1,7 @@
 ---
 title: "wpf 绑定 TextLength "
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2020-7-4 8:20:4 +0800
 CreateTime: 2018/2/13 17:23:03
 categories: WPF
 ---
@@ -105,7 +105,7 @@ categories: WPF
     }
 ```
 
-这样可以不修改 Model 就可以在修改属性通知，但是可以看到这需要复制所有属性，不过我有写了[C# 使用Emit深克隆](http://lindexi.oschina.io/lindexi//post/C-%E4%BD%BF%E7%94%A8Emit%E6%B7%B1%E5%85%8B%E9%9A%86/)使用这个就可以做快复制，而且还是深复制，但是复制不是真的深，代码复制是一层，如果需要实现真的复制，还需要自己去写
+这样可以不修改 Model 就可以在修改属性通知，但是可以看到这需要复制所有属性，不过我有写了[C# 使用Emit深克隆](https://blog.lindexi.com/post/C-%E4%BD%BF%E7%94%A8Emit%E6%B7%B1%E5%85%8B%E9%9A%86.html)使用这个就可以做快复制，而且还是深复制，但是复制不是真的深，代码复制是一层，如果需要实现真的复制，还需要自己去写
 
 那么不复制是否可以做？可以，只需要调用`OnPropertyChanged`
 

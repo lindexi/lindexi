@@ -1,7 +1,7 @@
 ---
 title: "WPF 解决 ListView 的滚动条不显示"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-7-4 8:20:38 +0800
 CreateTime: 2018/11/30 19:24:57
 categories: WPF
 ---
@@ -60,5 +60,5 @@ categories: WPF
 
 通过 ScrollViewer.Content 可以知道 ExtentHeight 和 ExtentWidth 这个在 ListView 等是 ItemsPresenter 如果出现 ExtentHeight 太小就可能是 ItemsPresenter 布局不对
 
-[.net Framework 源代码 · ScrollViewer](https://lindexi.gitee.io/post/.net-Framework-%E6%BA%90%E4%BB%A3%E7%A0%81-ScrollViewer.html )
+[.net Framework 源代码 · ScrollViewer](https://blog.lindexi.com/post/dotnet-Framework-%E6%BA%90%E4%BB%A3%E7%A0%81-ScrollViewer.html )
 

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 如何使用DataTemplate"
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2020-7-4 8:10:23 +0800
 CreateTime: 2019/7/29 10:02:32
 categories: Win10 UWP
 ---
@@ -148,7 +148,7 @@ UWP的 Convert 和 WPF 差不多。
 
 第二个，可以使用依赖属性，在获得值判断 e.NewValue 是 INotifyCollectionChanged ，获得 CollectionChanged 的添加新项就可以。
 
-参见：[win10 uwp 通知列表](http://lindexi.oschina.io/lindexi//post/win10-uwp-%E9%80%9A%E7%9F%A5%E5%88%97%E8%A1%A8/)
+参见：[win10 uwp 通知列表](https://blog.lindexi.com/post/win10-uwp-%E9%80%9A%E7%9F%A5%E5%88%97%E8%A1%A8.html)
 
 ## DataTemplate 绑定 ViewModel
 

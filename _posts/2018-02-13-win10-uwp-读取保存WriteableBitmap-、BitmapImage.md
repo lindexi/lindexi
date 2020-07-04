@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 读取保存WriteableBitmap 、BitmapImage"
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2020-7-4 8:8:36 +0800
 CreateTime: 2018/8/10 19:16:51
 categories: Win10 UWP
 ---
@@ -307,7 +307,7 @@ var file = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///
 
 ```
 
-如果需要保存网络图片到本地，请到[win10 uwp 存放网络图片到本地](http://lindexi.oschina.io/lindexi/post/win10-uwp-存放网络图片到本地/)
+如果需要保存网络图片到本地，请到[win10 uwp 存放网络图片到本地](https://blog.lindexi.com/post/win10-uwp-%E5%AD%98%E6%94%BE%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87%E5%88%B0%E6%9C%AC%E5%9C%B0.html)
 
 参见：http://www.cnblogs.com/cjw1115/p/5164327.html
 

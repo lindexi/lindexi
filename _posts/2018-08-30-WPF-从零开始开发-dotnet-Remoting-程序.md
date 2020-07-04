@@ -1,7 +1,7 @@
 ---
 title: "WPF 从零开始开发 dotnet Remoting 程序"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-7-4 8:16:12 +0800
 CreateTime: 2019/3/1 9:30:45
 categories: WPF dotnet
 ---
@@ -272,7 +272,7 @@ categories: WPF dotnet
 
 在这个过程中几乎所有步骤都可以拿出来说
 
- - [使用事件](https://blog.lindexi.com/lindexi/post/.net-remoting-%E4%BD%BF%E7%94%A8%E4%BA%8B%E4%BB%B6.html )
+ - [使用事件](https://blog.lindexi.com/post/dotnet-remoting-%E4%BD%BF%E7%94%A8%E4%BA%8B%E4%BB%B6.html )
 
  - [抛出异常](https://blog.csdn.net/lindexi_gd/article/details/82114730 )
 
@@ -290,7 +290,7 @@ categories: WPF dotnet
 
  Ingo Rammer，《Advanced .NET Remoting》
 
-[.net remoting 抛出异常](https://blog.lindexi.com/lindexi/post/.net-remoting-%E6%8A%9B%E5%87%BA%E5%BC%82%E5%B8%B8.html )
+[.net remoting 抛出异常](https://blog.lindexi.com/post/dotnet-remoting-%E6%8A%9B%E5%87%BA%E5%BC%82%E5%B8%B8.html )
 
 《Professional C#》 第3版
 

@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 让编译时候 Message 内容默认输出"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-7-3 18:57:36 +0800
 CreateTime: 2019/7/1 14:16:59
 categories: Roslyn MSBuild 编译器
 ---
@@ -17,7 +17,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- 标签：Roslyn,MSBuild,编译器 -->
 
-在编译的时候需要期望输出所有的消息，可以添加输出的日志等级，详细请看[How to output the target message in dotnet build command line](https://blog.lindexi.com/post/how-to-output-the-target-message-in-dotnet-build-command-line )
+在编译的时候需要期望输出所有的消息，可以添加输出的日志等级，详细请看[How to output the target message in dotnet build command line](https://blog.lindexi.com/post/How-to-output-the-target-message-in-dotnet-build-command-line.html )
 
 但是我的小伙伴是在 VisualStudio 编译的，他不期望输出的内容太多，而我又期望给他一点输出，特别是注明他现在使用的这个库是基于 GLWTPL 协议做的
 
