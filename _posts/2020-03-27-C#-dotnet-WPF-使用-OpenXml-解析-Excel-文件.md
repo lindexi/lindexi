@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet WPF 使用 OpenXml 解析 Excel 文件"
 author: lindexi
-date: 2020-5-16 10:37:44 +0800
+date: 2020-7-6 18:30:55 +0800
 CreateTime: 3/27/2020 8:27:04 AM
 categories: WPF dotnet C#
 ---
@@ -104,4 +104,6 @@ foreach (Row row in rows)
 如何添加断点请看 [VisualStudio 断点调试详解](https://blog.lindexi.com/post/VisualStudio-%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95%E8%AF%A6%E8%A7%A3.html )
 
 除了使用 OpenXML SDK 这个免费的库之外，还可以使用 [EPPlus](https://github.com/EPPlusSoftware/EPPlus ) 这个收费或 LGPL 的库
+
+更多请看 [Office 使用 OpenXML SDK 解析文档博客目录](https://blog.lindexi.com/post/Office-%E4%BD%BF%E7%94%A8-OpenXML-SDK-%E8%A7%A3%E6%9E%90%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95.html )
 
