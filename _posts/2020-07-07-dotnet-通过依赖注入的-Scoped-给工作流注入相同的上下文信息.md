@@ -1,8 +1,8 @@
 ---
 title: "dotnet 通过依赖注入的 Scoped 给工作流注入相同的上下文信息"
 author: lindexi
-date: 2020-7-7 15:18:53 +0800
-CreateTime: 2020-7-7 14:53:44 +0800
+date: 2020-7-8 7:55:10 +0800
+CreateTime: 7/7/2020 2:53:44 PM
 categories: dotnet
 ---
 
@@ -11,6 +11,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:7/7/2020 2:53:44 PM -->
 
 <!-- 发布 -->
 

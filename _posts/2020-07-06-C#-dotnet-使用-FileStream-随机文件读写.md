@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 使用 FileStream 随机文件读写"
 author: lindexi
-date: 2020-7-7 7:51:28 +0800
+date: 2020-7-8 10:8:33 +0800
 CreateTime: 7/6/2020 10:38:13 AM
 categories: dotnet C#
 ---
@@ -60,5 +60,11 @@ categories: dotnet C#
 这部分多线程进行文件随机写入代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/f27a3701825ce8dd0f7171d4bcfe45dabab5c7d9/FileDownloader) 欢迎小伙伴访问，代码放在 RandomFileWriter.cs 文件
 
 更多 dotnet 底层源代码请看 [官方开源代码](https://github.com/dotnet/runtime) 本文用到的代码放在 `\src\libraries\System.Private.CoreLib\src\System\IO\FileStream.cs` 和 `\src\libraries\System.Private.CoreLib\src\System\IO\FileStream.Windows.cs` 文件
+
+那么文件随机读写的应用是什么？
+
+可以用在一些业务上，这些业务不需要按照顺序读写文件。例如文件的配置的读写等
+
+文件随机读写可以用在文件配置读写上面，例如我知道文件的数据结构，我的某个数据放在第100个字节到第200个字节间，此时我需要读取修改这个数据的内容，我不需要完全去读取前100个字节的内容，我可以直接使用随机读写的方法读取第100个字节到第200个字节的内容。而写入也同理，我不需要从第0个字节开始写入，我可以从第100个字节开始写入。这样能提升一些读写性能
 
 
