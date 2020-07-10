@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 的 spcPct 和 spcPts 表示距离的不同"
 author: lindexi
-date: 2020-7-8 16:3:11 +0800
-CreateTime: 2020-7-8 15:39:37 +0800
+date: 2020-7-9 8:15:47 +0800
+CreateTime: 7/8/2020 3:39:37 PM
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:7/8/2020 3:39:37 PM -->
 
 <!-- 发布 -->
 
