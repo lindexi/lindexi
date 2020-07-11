@@ -1,0 +1,59 @@
+---
+title: "dotnet 获取本机 IP 地址方法"
+author: lindexi
+date: 2020-3-5 12:33:13 +0800
+CreateTime: 2019/9/9 15:56:33
+categories: dotnet
+---
+
+本文告诉大家如何在 C# .NET 获取本机 IP 地址
+
+<!--more-->
+
+
+<!-- CreateTime:2019/9/9 15:56:33 -->
+
+<!-- csdn -->
+
+有两个获取方法，第一个方法是通过 DNS 获取
+
+```csharp
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+            	// 下面的判断过滤 IP v4 地址
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    Console.WriteLine(ip.ToString());
+                }
+            }
+```
+
+第二个方法可以过滤指定是 WIFI 的地址还是有限网的地址
+
+```csharp
+            foreach (NetworkInterface item in NetworkInterface.GetAllNetworkInterfaces())
+            {
+                if
+                ((
+                     item.NetworkInterfaceType == NetworkInterfaceType.Ethernet // 有线网络
+                     || item.NetworkInterfaceType == NetworkInterfaceType.Wireless80211 // 无线 wifi 网络
+                 )
+                    && item.OperationalStatus == OperationalStatus.Up)
+                {
+                    foreach (UnicastIPAddressInformation ip in item.GetIPProperties().UnicastAddresses)
+                    {
+                        if (ip.Address.AddressFamily == AddressFamily.InterNetwork)
+                        {
+                            Console.WriteLine(ip.Address.ToString());
+                        }
+                    }
+                }
+            }
+```
+
+过滤方法通过 NetworkInterfaceType 判断
+
+[C#获取本机IP地址（ipv4） - LJD泊水 - 博客园](https://www.cnblogs.com/lijianda/p/6604651.html )
+
+
