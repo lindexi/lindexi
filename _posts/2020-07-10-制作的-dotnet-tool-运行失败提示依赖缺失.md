@@ -1,8 +1,8 @@
 ---
 title: "制作的 dotnet tool 运行失败提示依赖缺失"
 author: lindexi
-date: 2020-7-11 10:20:47 +0800
-CreateTime: 2020-7-10 20:0:43 +0800
+date: 2020-7-11 10:22:2 +0800
+CreateTime: 2020/7/10 20:00:43
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/7/10 20:00:43 -->
 
 <!-- 发布 -->
 
