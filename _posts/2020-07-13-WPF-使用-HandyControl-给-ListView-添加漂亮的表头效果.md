@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 HandyControl 给 ListView 添加漂亮的表头效果"
 author: lindexi
-date: 2020-7-13 8:59:36 +0800
-CreateTime: 2020-7-13 8:59:36 +0800
+date: 2020-7-13 9:0:13 +0800
+CreateTime: 2020/7/13 8:59:36
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/7/13 8:59:36 -->
 
 <!-- 发布 -->
 
