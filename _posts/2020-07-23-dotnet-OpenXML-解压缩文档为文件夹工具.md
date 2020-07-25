@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 解压缩文档为文件夹工具"
 author: lindexi
-date: 2020-7-23 20:11:55 +0800
-CreateTime: 2020-7-23 19:50:15 +0800
+date: 2020-7-24 14:30:38 +0800
+CreateTime: 2020/7/23 19:50:15
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/7/23 19:50:15 -->
 
 <!-- 发布 -->
 
@@ -52,6 +54,8 @@ OfficeDocumentZipper
 为什么每次都创建新的文档文件？原因是之前的 Office 文件也许在被打开，此时写入会失败，同时多个版本的 Office 文件方便对比，这样就知道多个版本更改的属性的作用
 
 打开 Office 文档需要你本地安装了 Office 才能打开
+
+这是一个 WPF 的 dotnet tool 工具，因此如果你不在 Windows 系统运行，你需要使用 Wine 才能运行
 
 如果你有任何问题，都可以在 [github](https://github.com/dotnet-campus/dotnetCampus.OfficeDocumentZiper) 提 Issus 告诉我，当然，我也欢迎小伙伴贡献代码
 
