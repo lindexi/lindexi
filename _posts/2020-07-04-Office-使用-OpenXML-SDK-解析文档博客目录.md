@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2020-7-24 14:29:52 +0800
+date: 2020-7-27 14:46:35 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -59,6 +59,8 @@ categories:
 [dotnet OpenXML 文本 Text Line Break 的作用](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%96%87%E6%9C%AC-Text-Line-Break-%E7%9A%84%E4%BD%9C%E7%94%A8.html )
 
 [dotnet OpenXML 文本 EndParagraphRunProperties 的作用](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%96%87%E6%9C%AC-EndParagraphRunProperties-%E7%9A%84%E4%BD%9C%E7%94%A8.html )
+
+[dotnet OpenXML 的 spcPct 和 spcPts 表示距离的不同](https://blog.lindexi.com/post/dotnet-OpenXML-%E7%9A%84-spcPct-%E5%92%8C-spcPts-%E8%A1%A8%E7%A4%BA%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%B8%8D%E5%90%8C.html )
 
 ## 通用知识
 
