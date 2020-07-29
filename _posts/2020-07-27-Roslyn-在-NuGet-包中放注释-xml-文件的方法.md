@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 在 NuGet 包中放注释 xml 文件的方法"
 author: lindexi
-date: 2020-7-27 9:55:44 +0800
-CreateTime: 2020-7-27 9:40:40 +0800
+date: 2020-7-28 8:26:10 +0800
+CreateTime: 2020/7/27 9:40:40
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2020/7/27 9:40:40 -->
 
 <!-- 发布 -->
 <!-- 标签：Roslyn,MSBuild,编译器 -->

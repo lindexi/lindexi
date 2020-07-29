@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 打包 NuGet 包添加改动日志"
 author: lindexi
-date: 2020-7-27 10:32:13 +0800
-CreateTime: 2020-7-27 10:21:16 +0800
+date: 2020-7-28 8:26:11 +0800
+CreateTime: 2020/7/27 10:21:16
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2020/7/27 10:21:16 -->
 
 <!-- 发布 -->
 <!-- 标签：Roslyn,MSBuild,编译器 -->
