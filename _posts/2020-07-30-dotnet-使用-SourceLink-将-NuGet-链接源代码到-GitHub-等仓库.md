@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 SourceLink 将 NuGet 链接源代码到 GitHub 等仓库"
 author: lindexi
-date: 2020-7-30 9:47:55 +0800
-CreateTime: 2020-7-30 8:47:47 +0800
+date: 2020-7-31 9:50:42 +0800
+CreateTime: 2020/7/30 8:47:47
 categories: git dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: git dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/7/30 8:47:47 -->
 
 <!-- 发布 -->
 

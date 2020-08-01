@@ -1,8 +1,8 @@
 ---
 title: "WPF SharpDx 性能优化方法"
 author: lindexi
-date: 2020-7-30 15:8:35 +0800
-CreateTime: 2020-7-30 14:59:13 +0800
+date: 2020-7-31 9:51:9 +0800
+CreateTime: 2020/7/30 14:59:13
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/7/30 14:59:13 -->
 
 <!-- 发布 -->
 
