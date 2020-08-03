@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 使用 startIndex 提升 IndexOf 的性能"
 author: lindexi
-date: 2020-7-31 19:31:6 +0800
-CreateTime: 2020-7-31 19:20:53 +0800
+date: 2020-8-1 8:28:58 +0800
+CreateTime: 2020/7/31 19:20:53
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2020/7/31 19:20:53 -->
 
 <!-- 发布 -->
 
