@@ -1,8 +1,8 @@
 ---
 title: "WPF 让 TextBox 支持水平滚动"
 author: lindexi
-date: 2020-8-1 11:35:24 +0800
-CreateTime: 2020-8-1 11:32:15 +0800
+date: 2020-8-3 8:39:20 +0800
+CreateTime: 2020/8/1 11:32:15
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/1 11:32:15 -->
 
 <!-- 发布 -->
 

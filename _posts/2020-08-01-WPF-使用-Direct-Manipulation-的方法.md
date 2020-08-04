@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 Direct Manipulation 的方法"
 author: lindexi
-date: 2020-8-1 8:38:56 +0800
-CreateTime: 2020-8-1 8:32:34 +0800
+date: 2020-8-3 8:39:14 +0800
+CreateTime: 2020/8/1 8:32:34
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/1 8:32:34 -->
 
 <!-- 发布 -->
 

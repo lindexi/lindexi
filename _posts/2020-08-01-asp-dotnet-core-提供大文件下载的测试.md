@@ -1,8 +1,8 @@
 ---
 title: "asp dotnet core 提供大文件下载的测试"
 author: lindexi
-date: 2020-8-1 10:4:52 +0800
-CreateTime: 2020-8-1 10:4:52 +0800
+date: 2020-8-3 8:38:45 +0800
+CreateTime: 2020/8/1 10:04:52
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/1 10:04:52 -->
 
 <!-- 发布 -->
 
