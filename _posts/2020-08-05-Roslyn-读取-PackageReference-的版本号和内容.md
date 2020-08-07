@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 读取 PackageReference 的版本号和内容"
 author: lindexi
-date: 2020-8-5 18:32:1 +0800
-CreateTime: 2020-8-5 16:12:49 +0800
+date: 2020-8-6 8:28:14 +0800
+CreateTime: 2020/8/5 16:12:49
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/5 16:12:49 -->
 
 <!-- 发布 -->
 
