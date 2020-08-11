@@ -1,8 +1,8 @@
 ---
 title: "Xamarin Forms WPF 干掉默认的窗口导航条"
 author: lindexi
-date: 2020-8-8 11:33:12 +0800
-CreateTime: 2020-8-8 11:16:3 +0800
+date: 2020-8-10 8:41:50 +0800
+CreateTime: 2020/8/8 11:16:03
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/8 11:16:03 -->
 
 <!-- 发布 -->
 
