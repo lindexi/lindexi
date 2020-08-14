@@ -1,8 +1,8 @@
 ---
 title: "dotnet core 在 MAC 系统下删除应用程序自己后调 Process Start 方法将会抛出 Win32 异常"
 author: lindexi
-date: 2020-8-13 10:5:31 +0800
-CreateTime: 2020-8-13 9:38:41 +0800
+date: 2020-8-13 10:20:29 +0800
+CreateTime: 2020/8/13 9:38:41
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/13 9:38:41 -->
 
 <!-- 发布 -->
 
@@ -77,4 +79,6 @@ at System.Diagnostics.Process.Start()
 ```
 
 这就是在 [Unhandled exception on Mac · Issue #4 · dotnet-campus/dotnetCampus.UpdateAllDotNetTools](https://github.com/dotnet-campus/dotnetCampus.UpdateAllDotNetTools/issues/4 ) 的问题
+
+我尝试在 dotnet runtime 修复这个坑 [Ignore the executable file be deleted in Process Start by lindexi · Pull Request #40748 · dotnet/runtime](https://github.com/dotnet/runtime/pull/40748 ) 
 
