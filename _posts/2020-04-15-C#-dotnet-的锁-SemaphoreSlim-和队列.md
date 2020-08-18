@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 的锁 SemaphoreSlim 和队列"
 author: lindexi
-date: 2020-4-15 8:23:51 +0800
+date: 2020-8-18 15:1:49 +0800
 CreateTime: 4/15/2020 8:23:09 AM
 categories: dotnet C#
 ---
@@ -115,4 +115,6 @@ categories: dotnet C#
 可以看到代码是按照顺序输出的
 
 本文代码放在[github](https://github.com/lindexi/lindexi_gd/tree/cf8c1add01a571bafeb0548b6aa43da8670227c9/CallnernawbawceKairwemwhejeene)欢迎小伙伴访问
+
+在使用 SemaphoreSlim 的时候，需要释放，否则会泄露内存，详细请看 [dotnet 使用 SemaphoreSlim 可能的内存泄露](https://blog.lindexi.com/post/dotnet-%E4%BD%BF%E7%94%A8-SemaphoreSlim-%E5%8F%AF%E8%83%BD%E7%9A%84%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2.html)
 
