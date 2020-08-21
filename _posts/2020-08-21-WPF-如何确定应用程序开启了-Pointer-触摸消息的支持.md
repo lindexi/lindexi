@@ -1,8 +1,8 @@
 ---
 title: "WPF 如何确定应用程序开启了 Pointer 触摸消息的支持"
 author: lindexi
-date: 2020-8-21 8:48:33 +0800
-CreateTime: 2020-8-21 8:43:29 +0800
+date: 2020-8-21 8:50:17 +0800
+CreateTime: 2020/8/21 8:43:29
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/21 8:43:29 -->
 
 <!-- 发布 -->
 
@@ -56,4 +58,6 @@ categories: WPF
 ```
 
 如果能进入 `msg == WM_POINTERDOWN` 那么就是收到 Pointer 消息了
+
+代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/a91924abc9c0254edfb8bb567a66c6e796d3a7dd/KemjawyecawDurbahelal) 欢迎小伙伴访问
 
