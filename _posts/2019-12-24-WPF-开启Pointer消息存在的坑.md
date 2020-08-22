@@ -1,7 +1,7 @@
 ---
 title: "WPF 开启Pointer消息存在的坑"
 author: lindexi
-date: 2020-8-19 14:44:16 +0800
+date: 2020-8-21 10:26:8 +0800
 CreateTime: 2019/12/24 14:33:41
 categories: WPF
 ---
@@ -19,4 +19,4 @@ categories: WPF
 
 默认 Pointer 消息是使用屏幕绝对坐标而不是窗口坐标
 
-可能存在获取 Stylus 事件时触摸点不准，此时可以通过获取 Touch 代替
+可能存在获取 Stylus 事件时触摸点不准，此时可以通过获取 Touch 代替，详细请看 [WPF will have a touch offset after trun on the WM_Pointer message · Issue #3360 · dotnet/wpf](https://github.com/dotnet/wpf/issues/3360 ) 此问题应该在 [Fix raw stylus data to support per-monitor DPI by rladuca · Pull Request #2891 · dotnet/wpf](https://github.com/dotnet/wpf/pull/2891 ) 修复
