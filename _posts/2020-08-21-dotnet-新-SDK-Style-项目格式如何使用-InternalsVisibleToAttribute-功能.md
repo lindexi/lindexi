@@ -1,8 +1,8 @@
 ---
 title: "dotnet 新 SDK Style 项目格式如何使用 InternalsVisibleToAttribute 功能"
 author: lindexi
-date: 2020-8-21 16:33:43 +0800
-CreateTime: 2020-8-21 16:19:7 +0800
+date: 2020-8-22 8:23:30 +0800
+CreateTime: 2020/8/21 16:19:07
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/21 16:19:07 -->
 
 <!-- 发布 -->
 

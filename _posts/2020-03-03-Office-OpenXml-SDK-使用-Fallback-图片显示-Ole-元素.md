@@ -1,7 +1,7 @@
 ---
 title: "Office OpenXml SDK 使用 Fallback 图片显示 Ole 元素"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-8-22 9:17:56 +0800
 CreateTime: 2020/3/3 8:23:31
 categories: 
 ---
@@ -104,6 +104,8 @@ if (oleElement != null)
 {
 }
 ```
+
+这里的 Ole Object 在 ECMA 全称 Global Element for Embedded objects and Controls 元素
 
 然后尝试读取 oleElement 的 Fallback 是否有图片
 
