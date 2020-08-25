@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 解压缩文档为文件夹工具"
 author: lindexi
-date: 2020-7-24 14:30:38 +0800
+date: 2020-8-24 14:49:46 +0800
 CreateTime: 2020/7/23 19:50:15
 categories: dotnet
 ---
@@ -21,7 +21,7 @@ categories: dotnet
 
 编辑完成之后，可以通过工具将文件夹压缩为 Office 文档，使用 Office 打开，此时就可以看到属性的效果
 
-工具在 GitHub 上完全开源，请看 [https://github.com/dotnet-campus/dotnetCampus.OfficeDocumentZiper](https://github.com/dotnet-campus/dotnetCampus.OfficeDocumentZiper)
+工具在 GitHub 上完全开源，请看 [https://github.com/dotnet-campus/dotnetCampus.OfficeDocumentZiper](https://github.com/dotnet-campus/dotnetCampus.OfficeDocumentZipper)
 
 使用方法是通过 dotnet 工具安装
 

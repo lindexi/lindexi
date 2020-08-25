@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 文本 Kerning 字间距的作用"
 author: lindexi
-date: 2020-8-24 8:49:28 +0800
-CreateTime: 2020-8-24 8:47:14 +0800
+date: 2020-8-24 8:49:52 +0800
+CreateTime: 2020/8/24 8:47:14
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/24 8:47:14 -->
 
 
 <!-- 发布 -->
