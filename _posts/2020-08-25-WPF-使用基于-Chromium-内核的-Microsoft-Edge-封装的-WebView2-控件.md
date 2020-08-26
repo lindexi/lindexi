@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用基于 Chromium 内核的 Microsoft Edge 封装的 WebView2 控件"
 author: lindexi
-date: 2020-8-25 8:54:5 +0800
-CreateTime: 2020-8-25 8:54:5 +0800
+date: 2020-8-25 8:54:53 +0800
+CreateTime: 2020/8/25 8:54:05
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/25 8:54:05 -->
 
 
 <!-- 发布 -->
