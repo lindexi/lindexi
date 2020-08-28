@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 打包自定义的文件到 NuGet 包"
 author: lindexi
-date: 2020-7-28 20:21:58 +0800
+date: 2020-8-27 10:43:33 +0800
 CreateTime: 2019/12/18 20:08:32
 categories: Roslyn MSBuild 编译器 nuget 打包
 ---
@@ -132,6 +132,8 @@ categories: Roslyn MSBuild 编译器 nuget 打包
 默认符号文件是放在 snupkg 文件，而不是放在 nupkg 文件，原因是将符号文件放在 nupkg 文件，会让 nupkg 文件太大。如果将符号文件放在 nupkg 文件，那么不需要开发者另外配置符号服务器，就可以拿到符号文件
 
 官方文档 [NuGet 和 .NET 库](https://docs.microsoft.com/zh-cn/dotnet/standard/library-guidance/nuget ) 里明确告诉小伙伴请考虑将符号作为符号包 (`*.snupkg`) 发布到 NuGet.org 而不是放在 nupkg 文件，符号包 (`*.snupkg`) 为开发人员提供了良好的按需调试体验，而不会使主程序包大小膨胀，也不会影响那些不打算调试 NuGet 包的用户的还原性能
+
+详细请看 [NuGet 命令行上传找不到 snupkg 文件](https://blog.lindexi.com/post/NuGet-%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8A%E4%BC%A0%E6%89%BE%E4%B8%8D%E5%88%B0-snupkg-%E6%96%87%E4%BB%B6.html )
 
 [Roslyn 使用 Target 替换占位符方式生成 nuget 打包](https://blog.lindexi.com/post/Roslyn-%E4%BD%BF%E7%94%A8-Target-%E6%9B%BF%E6%8D%A2%E5%8D%A0%E4%BD%8D%E7%AC%A6%E6%96%B9%E5%BC%8F%E7%94%9F%E6%88%90-nuget-%E6%89%93%E5%8C%85.html )
 

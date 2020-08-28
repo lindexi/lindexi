@@ -1,7 +1,7 @@
 ---
 title: "NuGet 命令行上传找不到 snupkg 文件"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-8-27 10:43:7 +0800
 CreateTime: 2019/12/8 15:07:18
 categories: NuGet
 ---
@@ -62,4 +62,19 @@ nuget pack MyPackage.nuspec -Symbols -SymbolPackageFormat snupkg
 [NuGet 符号服务器](https://blog.lindexi.com/post/NuGet-%E7%AC%A6%E5%8F%B7%E6%9C%8D%E5%8A%A1%E5%99%A8.html )
 
 [How to publish NuGet symbol packages using the new symbol package format '.snupkg'](https://docs.microsoft.com/en-us/nuget/create-packages/symbol-packages-snupkg )
+
+在 NuGet 包嵌入 符号文件 的方法是添加 AllowedOutputExtensionsInPackageBuildOutputFolder 属性
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+    <!-- Include symbol files (*.pdb) in the built .nupkg -->
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+</Project>
+```
+
+默认符号文件是放在 snupkg 文件，而不是放在 nupkg 文件，原因是将符号文件放在 nupkg 文件，会让 nupkg 文件太大。如果将符号文件放在 nupkg 文件，那么不需要开发者另外配置符号服务器，就可以拿到符号文件
+
+详细请看 [Roslyn 打包自定义的文件到 NuGet 包](https://blog.lindexi.com/post/Roslyn-%E6%89%93%E5%8C%85%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84%E6%96%87%E4%BB%B6%E5%88%B0-NuGet-%E5%8C%85.html )
 
