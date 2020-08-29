@@ -1,8 +1,8 @@
 ---
 title: "dotnet 执行 docker 容器 error MSB4018 CreateAppHost 任务意外失败可能原因"
 author: lindexi
-date: 2020-8-28 8:44:52 +0800
-CreateTime: 2020-8-28 8:44:52 +0800
+date: 2020-8-29 8:36:59 +0800
+CreateTime: 2020/8/28 8:44:52
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/28 8:44:52 -->
 
 <!-- 发布 -->
 
