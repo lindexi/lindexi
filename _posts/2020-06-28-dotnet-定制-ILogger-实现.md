@@ -1,7 +1,7 @@
 ---
 title: "dotnet 定制 ILogger 实现"
 author: lindexi
-date: 2020-6-29 15:7:52 +0800
+date: 2020-8-28 16:9:0 +0800
 CreateTime: 6/28/2020 7:49:17 PM
 categories: dotnet
 ---
@@ -122,7 +122,7 @@ services.AddLogging(builder =>
                 {
                     // [2099-10-19 19:07:45.456][threadName][INFO][类:行数][_traceId:realTraceId][_userId:realUserId][tag:custom] 业务的日志/异常堆栈
                     message =
-                        $"[{DateTime.Now:yyyy-MM-dd hh:mm:ss.fff}][{Thread.CurrentThread.Name}:{Thread.CurrentThread.ManagedThreadId}][{CCloudLogExtension.LogLevelToString(logLevel)}][{_categoryName}][-][-][-][EventId={eventId.Id}:{eventId.Name}] {formatter(state, exception)}";
+                        $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss.fff}][{Thread.CurrentThread.Name}:{Thread.CurrentThread.ManagedThreadId}][{CCloudLogExtension.LogLevelToString(logLevel)}][{_categoryName}][-][-][-][EventId={eventId.Id}:{eventId.Name}] {formatter(state, exception)}";
                 }
 
                 Console.WriteLine(message);
@@ -316,7 +316,7 @@ services.AddLogging(builder =>
 
             var logInfoMessage = string.IsNullOrEmpty(logInfo.Message) ? exception?.Message : logInfo.Message;
 
-            return $"[{DateTime.Now:yyyy-MM-dd hh:mm:ss.sss}][{logInfo.ThreadName}:{logInfo.ThreadId}][{logLevelMessage}][{logInfo.ClassFile}:{logInfo.CategoryName}.{logInfo.MemberName}:{logInfo.LineNumber}][{traceMessage}][{userMessage}][tags:{string.Join(";", logInfo.Tags)}] {logInfoMessage} {exception?.ToString()}";
+            return $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss.sss}][{logInfo.ThreadName}:{logInfo.ThreadId}][{logLevelMessage}][{logInfo.ClassFile}:{logInfo.CategoryName}.{logInfo.MemberName}:{logInfo.LineNumber}][{traceMessage}][{userMessage}][tags:{string.Join(";", logInfo.Tags)}] {logInfoMessage} {exception?.ToString()}";
         }
 
         public static string LogLevelToString(LogLevel logLevel)

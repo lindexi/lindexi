@@ -1,8 +1,8 @@
 ---
 title: "dotnet 在 UOS 国产系统上安装 Mono 开发工具的方法"
 author: lindexi
-date: 2020-8-27 11:2:53 +0800
-CreateTime: 2020-8-27 9:39:52 +0800
+date: 2020-8-28 8:39:10 +0800
+CreateTime: 2020/8/27 9:39:52
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/27 9:39:52 -->
 
 <!-- 发布 -->
 
