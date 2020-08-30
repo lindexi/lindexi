@@ -206,6 +206,8 @@ permalink: /friends/
 
  - [大白技术控 Bravo Yeung](https://geekplayers.com/ )
 
+ - [David Jones](https://davidjones.sportronics.com.au/) 国外的小伙伴，是微软 MVP 微软最具价值专家。写了很多 Blazor 相关博客
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
