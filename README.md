@@ -1,9 +1,11 @@
-# walterlv.github.io
+# lindexi
 
-| **English** | 简体中文 | 繁體中文 | 日本語 | Add More... |
-|---|---|---|---|---|
+林德熙
 
-HomePage: [walterlv.github.io](walterlv.github.io)  
-Repositories: [https://github.com/walterlv](https://github.com/walterlv)  
+Windows Development MVP
 
----
+微软最具价值专家
+
+Blog: [https://blog.lindexi.com/](https://blog.lindexi.com/)
+CSDN: [https://lindexi.blog.csdn.net/](https://lindexi.blog.csdn.net/)
+
