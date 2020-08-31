@@ -1,8 +1,8 @@
 ---
 title: "dotnet 日志上报的 TracerId 和 SessionId 的意义"
 author: lindexi
-date: 2020-8-31 12:30:28 +0800
-CreateTime: 2020-8-31 12:30:28 +0800
+date: 2020-8-31 12:48:2 +0800
+CreateTime: 2020/8/31 12:30:28
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/31 12:30:28 -->
 
 <!-- 发布 -->
 
@@ -60,16 +62,16 @@ categories: dotnet
 依然使用刚才用户点击更新作为例子，在我当前的应用里面的 TracerTagList 大概内容如下
 
 - 【TracerId】【更新界面】点击查询更新按钮
- - 【TracerId】【更新界面】【更新模块】开始查询更新
-  - 【TracerId】【更新界面】【更新模块】【版本管理模块】读取软件版本号
-  - 【TracerId】【更新界面】【更新模块】【文件管理模块】读取软件安装路径
-  - 【TracerId】【更新界面】【更新模块】【IPC通讯模块】查找OTA服务通讯方式
-   - 【TracerId】【更新界面】【更新模块】【IPC通讯模块】【发送模块】发送查询更新
+  - 【TracerId】【更新界面】【更新模块】开始查询更新
+   - 【TracerId】【更新界面】【更新模块】【版本管理模块】读取软件版本号
+   - 【TracerId】【更新界面】【更新模块】【文件管理模块】读取软件安装路径
+   - 【TracerId】【更新界面】【更新模块】【IPC通讯模块】查找OTA服务通讯方式
+     - 【TracerId】【更新界面】【更新模块】【IPC通讯模块】【发送模块】发送查询更新
 - 【TracerId】【IPC通讯模块】【接收模块】收到消息
- - 【TracerId】【IPC通讯模块】【队列模块】排队消息
+  - 【TracerId】【IPC通讯模块】【队列模块】排队消息
 - 【TracerId】【IPC通讯模块】【消息解析模块】解析消息
- - 【TracerId】【IPC通讯模块】【消息解析模块】【更新模块】通知更新信息
-  - 【TracerId】【IPC通讯模块】【消息解析模块】【更新模块】【更新界面】更新界面
+  - 【TracerId】【IPC通讯模块】【消息解析模块】【更新模块】通知更新信息
+    - 【TracerId】【IPC通讯模块】【消息解析模块】【更新模块】【更新界面】更新界面
 
 加上 TracerTagList 的优势仅仅是让每条日志之间可以相对独立，比较适合在本机记录里面。通过时间线，可以只使用 TracerId 串起来，但是有 TracerTagList 能做到更方便看日志。因此 TracerTagList 是非必须的，只是有维护就更好
 

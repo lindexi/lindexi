@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 Skia 绘制 WriteableBitmap 图片"
 author: lindexi
-date: 2020-8-31 12:30:28 +0800
-CreateTime: 2020-8-31 12:30:28 +0800
+date: 2020-8-31 12:31:19 +0800
+CreateTime: 2020/8/31 12:30:28
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/31 12:30:28 -->
 
 <!-- 发布 -->
 
