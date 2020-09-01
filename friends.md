@@ -208,6 +208,8 @@ permalink: /friends/
 
  - [David Jones](https://davidjones.sportronics.com.au/) 国外的小伙伴，是微软 MVP 微软最具价值专家。写了很多 Blazor 相关博客
 
+ - [码农很忙-代码改变生活](https://www.coderbusy.com/ )
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
@@ -241,8 +243,6 @@ permalink: /friends/
  - [linzheng](http://www.cnblogs.com/linzheng/ ) http://www.cnblogs.com/linzheng/  
 
    我的wpf就是在他博客学到的
-
- - [码农很忙](http://www.sum16.com ) http://www.sum16.com 
 
  - [王陈染](http://www.wangchenran.com/ ) http://www.wangchenran.com/ 
 

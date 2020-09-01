@@ -16,6 +16,9 @@ title: 开源项目
 - [Reduce creation of static objects by lindexi · Pull Request #36867 · dotnet/runtime](https://github.com/dotnet/runtime/pull/36867 )
 - [Set memory cache logger field as readonly by lindexi · Pull Request #37289 · dotnet/runtime](https://github.com/dotnet/runtime/pull/37289 )
 - [Add logger to cache entry to catch exception by lindexi · Pull Request #37292 · dotnet/runtime](https://github.com/dotnet/runtime/pull/37292 )
+- [Use Array.Empty in CompositeFileProvider by lindexi · Pull Request #38086 · dotnet/runtime](https://github.com/dotnet/runtime/pull/38086 )
+- [Fix comment in XmlStreamConfigurationProvider by lindexi · Pull Request #38084 · dotnet/runtime](https://github.com/dotnet/runtime/pull/38084 )
+- [Fix comment by lindexi · Pull Request #38322 · dotnet/runtime](https://github.com/dotnet/runtime/pull/38322 )
 
 ### [WPF](https://github.com/dotnet/wpf)
 
@@ -24,6 +27,12 @@ title: 开源项目
 [We use language keywords instead of BCL types by lindexi · Pull Request #102 · dotnet/wpf](https://github.com/dotnet/wpf/pull/102 )
 
 [Update the docs link by lindexi · Pull Request #3078 · dotnet/wpf](https://github.com/dotnet/wpf/pull/3078 )
+
+代码审查：
+
+![](http://image.acmx.xyz/lindexi%2F20206985907443.jpg)
+
+[https://github.com/dotnet/wpf/pull/3092#issuecomment-640955984](https://github.com/dotnet/wpf/pull/3092#issuecomment-640955984)
 
 ### samples
 
@@ -103,6 +112,8 @@ https://github.com/dotnet/samples/pull/745
 
 ![](http://image.acmx.xyz/lindexi%2F202062122792098.jpg)
 
+
+
 ### JasonStein Notepads
 
 [Added zh-CN translation by lindexi · Pull Request #32 · JasonStein/Notepads](https://github.com/JasonStein/Notepads/pull/32 )
@@ -110,3 +121,7 @@ https://github.com/dotnet/samples/pull/745
 ### [Orleans.MultiClient](https://github.com/OrleansContrib/Orleans.MultiClient)
 
 [https://github.com/OrleansContrib/Orleans.MultiClient/pull/3](https://github.com/OrleansContrib/Orleans.MultiClient/pull/3)
+
+### Castle.Core 
+
+[Update date by lindexi · Pull Request #523 · castleproject/Core](https://github.com/castleproject/Core/pull/523 )
