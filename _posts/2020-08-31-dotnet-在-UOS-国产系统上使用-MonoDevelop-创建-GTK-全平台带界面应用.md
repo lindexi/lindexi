@@ -1,8 +1,8 @@
 ---
 title: "dotnet 在 UOS 国产系统上使用 MonoDevelop 创建 GTK 全平台带界面应用"
 author: lindexi
-date: 2020-8-31 21:2:45 +0800
-CreateTime: 2020-8-31 20:10:0 +0800
+date: 2020-9-1 8:32:51 +0800
+CreateTime: 2020/8/31 20:10:00
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/8/31 20:10:00 -->
 
 <!-- 发布 -->
 

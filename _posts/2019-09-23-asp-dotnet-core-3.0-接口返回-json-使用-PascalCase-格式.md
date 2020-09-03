@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 3.0 接口返回 json 使用 PascalCase 格式"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-9-1 17:22:2 +0800
 CreateTime: 2019/9/23 18:39:17
 categories: dotnet
 ---
@@ -53,7 +53,7 @@ services.AddMvc()
               new DefaultContractResolver());
 ```
 
-[Migrate from ASP.NET Core 2.2 to 3.0 Preview](https://docs.microsoft.com/en-us/aspnet/core/migration/22-to-30?view=aspnetcore-2.2&tabs=visual-studio )
+[Migrate from ASP.NET Core 2.2 to 3.0 Preview](https://docs.microsoft.com/en-us/aspnet/core/migration/22-to-30?view=aspnetcore-2.2&tabs=visual-studio&WT.mc_id=DX-MVP-5003606)
 
-[Serializing a PascalCase Newtonsoft.Json JObject to camelCase](https://andrewlock.net/serializing-a-pascalcase-newtonsoft-json-jobject-to-camelcase/ )
+[Serializing a PascalCase Newtonsoft.Json JObject to camelCase](https://andrewlock.net/serializing-a-pascalcase-newtonsoft-json-jobject-to-camelcase/?WT.mc_id=DX-MVP-5003606 )
 
