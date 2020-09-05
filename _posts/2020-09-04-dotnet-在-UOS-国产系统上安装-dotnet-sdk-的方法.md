@@ -1,8 +1,8 @@
 ---
 title: "dotnet 在 UOS 国产系统上安装 dotnet sdk 的方法"
 author: lindexi
-date: 2020-9-4 8:57:37 +0800
-CreateTime: 2020-9-4 8:50:35 +0800
+date: 2020-9-4 8:58:1 +0800
+CreateTime: 2020/9/4 8:50:35
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/9/4 8:50:35 -->
 
 <!-- 发布 -->
 
