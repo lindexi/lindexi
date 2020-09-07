@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 发布只有一个 exe 的方法"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-9-5 13:9:5 +0800
 CreateTime: 2020/1/21 9:11:22
 categories: dotnet dotnetcore
 ---
@@ -98,4 +98,6 @@ dotnet publish -r win10-x64 /p:PublishSingleFile=true
 [Announcing .NET Core 3.0 Preview 5](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0-preview-5/ )
 
 [dotnet-warp && NSSM 部署 .net core 项目到 windows 服务 - 易墨 - 博客园](https://www.cnblogs.com/morang/p/10792109.html )
+
+[.NET5.0 单文件发布打包操作深度剖析 - Ron.Liang - 博客园](https://www.cnblogs.com/viter/p/13608947.html )
 

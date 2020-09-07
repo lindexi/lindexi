@@ -1,8 +1,8 @@
 ---
 title: "dotnet 在国产 UOS 系统利用 dotnet tool 工具做文件传输"
 author: lindexi
-date: 2020-9-5 8:54:15 +0800
-CreateTime: 2020-9-5 8:30:53 +0800
+date: 2020-9-5 8:54:37 +0800
+CreateTime: 2020/9/5 8:30:53
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/9/5 8:30:53 -->
 
 <!-- 发布 -->
 
