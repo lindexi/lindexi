@@ -1,8 +1,8 @@
 ---
 title: "C# dotnet 使用 OpenXml 解析 Word 文件"
 author: lindexi
-date: 2020-9-7 8:57:47 +0800
-CreateTime: 2020-9-7 8:57:47 +0800
+date: 2020-9-7 8:58:27 +0800
+CreateTime: 2020/9/7 8:57:47
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2020/9/7 8:57:47 -->
 
 <!-- csdn -->
 
