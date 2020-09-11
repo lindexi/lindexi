@@ -1,8 +1,8 @@
 ---
 title: "WPF 漂亮的现代化控件 新 ModernWPF 界面库"
 author: lindexi
-date: 2020-9-10 20:4:8 +0800
-CreateTime: 2020-9-10 20:1:15 +0800
+date: 2020-9-10 20:5:0 +0800
+CreateTime: 2020/9/10 20:01:15
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/9/10 20:01:15 -->
 
 <!-- 发布 -->
 
