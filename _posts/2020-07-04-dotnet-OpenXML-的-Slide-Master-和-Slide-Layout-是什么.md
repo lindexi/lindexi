@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 的 Slide Master 和 Slide Layout 是什么"
 author: lindexi
-date: 2020-8-10 11:20:46 +0800
+date: 2020-9-16 15:44:56 +0800
 CreateTime: 7/4/2020 10:32:32 AM
 categories: dotnet
 ---
@@ -18,6 +18,8 @@ categories: dotnet
 在做 Office 解析的时候，小伙伴需要特别的去学习一下 Office 哦，不然有很多概念将会难以理解。而 Office 有多强？光属性定义加上注释的 C# 代码文件就有 15M 这么多
 
 基本上所有市面上的解析 Office 的软件都只是实现很少的一部分功能…… 包括 WPS 在内
+
+> 不愿透露姓名的小伙伴说： 其实并不是其他软件都实现了“ooxml 或 03 的二进制格式”很少的功能。实际上各家老牌办公文档厂商都有自己的办公文档协议，包括 WPS 也曾经出过自己的协议。对比其中公开的协议，微软对办公文档的定义其实对开放性是非常不友好的，对微软自家是非常友好的
 
 回到主题，咱今天来聊聊 OpenXML 的 PPTX 文件的 Slide Master 和 Slide Layout 是什么。在开始之前期望小伙伴了解 PPT 的模版和占位符的作用，是真的需要小伙伴去学一下的哦。按照程序员的自学速度预计 10 分钟左右就能了解啦
 
