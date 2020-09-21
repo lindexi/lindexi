@@ -1,8 +1,8 @@
 ---
 title: "dotnet Open XML 如何判断一份 Office 文档是否被加密"
 author: lindexi
-date: 2020-9-17 19:46:49 +0800
-CreateTime: 2020-9-17 19:15:50 +0800
+date: 2020-9-18 8:42:28 +0800
+CreateTime: 2020/9/17 19:15:50
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/9/17 19:15:50 -->
 
 <!-- 发布 -->
 
