@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2020-9-18 9:43:56 +0800
+date: 2020-9-24 20:16:17 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -69,6 +69,10 @@ categories:
 [dotnet OpenXML 文本 Kerning 字间距的作用](https://lindexi.gitee.io/post/dotnet-OpenXML-%E6%96%87%E6%9C%AC-Kerning-%E5%AD%97%E9%97%B4%E8%B7%9D%E7%9A%84%E4%BD%9C%E7%94%A8.html )
 
 [dotnet OpenXML 解析 PPT 文本字体获取详解](https://lindexi.gitee.io/post/dotnet-OpenXML-%E8%A7%A3%E6%9E%90-PPT-%E6%96%87%E6%9C%AC%E5%AD%97%E4%BD%93%E8%8E%B7%E5%8F%96%E8%AF%A6%E8%A7%A3.html )
+
+## 形状
+
+[dotnet OpenXML SDK 形状的翻转与旋转](https://blog.lindexi.com/post/dotnet-OpenXML-SDK-%E5%BD%A2%E7%8A%B6%E7%9A%84%E7%BF%BB%E8%BD%AC%E4%B8%8E%E6%97%8B%E8%BD%AC.html )
 
 ## 颜色
 
