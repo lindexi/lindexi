@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 的锁 SemaphoreSlim 和队列"
 author: lindexi
-date: 2020-8-18 15:1:49 +0800
+date: 2020-9-26 8:59:18 +0800
 CreateTime: 4/15/2020 8:23:09 AM
 categories: dotnet C#
 ---
@@ -12,8 +12,6 @@ categories: dotnet C#
 
 
 <!-- CreateTime:4/15/2020 8:23:09 AM -->
-
-<!-- 发布 -->
 
 我在一个有趣的WPF程序里面，需要限制任务同时执行的线程数量，不然用户就会说用我的程序会让电脑卡渣。而我的任务是需要按照指定顺序执行的，我需要每次同时仅执行10个任务，同时任务执行按照传入的顺序
 

@@ -1,7 +1,7 @@
 ---
 title: "NuGet 命令行上传找不到 snupkg 文件"
 author: lindexi
-date: 2020-8-27 10:43:7 +0800
+date: 2020-9-26 8:58:40 +0800
 CreateTime: 2019/12/8 15:07:18
 categories: NuGet
 ---
@@ -13,7 +13,6 @@ categories: NuGet
 
 <!-- CreateTime:2019/12/8 15:07:18 -->
 
-<!-- 发布 -->
 <!-- 标签：NuGet -->
 
 让 NuGet 发布默认不上传符号文件的方法是添加参数 NoSymbols 请看代码
