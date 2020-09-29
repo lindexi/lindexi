@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2020-9-24 20:16:17 +0800
+date: 2020-9-28 8:39:27 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -39,6 +39,10 @@ categories:
 [C# dotnet 使用 OpenXml 解析 PPT 里面的视频](https://blog.lindexi.com/post/C-dotnet-%E4%BD%BF%E7%94%A8-OpenXml-%E8%A7%A3%E6%9E%90-PPT-%E9%87%8C%E9%9D%A2%E7%9A%84%E8%A7%86%E9%A2%91.html)
 
 [Office OpenXml SDK 使用 Fallback 图片显示 Ole 元素](https://blog.lindexi.com/post/Office-OpenXml-SDK-%E4%BD%BF%E7%94%A8-Fallback-%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA-Ole-%E5%85%83%E7%B4%A0.html)
+
+[dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 的属性作用](https://blog.lindexi.com/post/dotnet-OpenXML-%E5%85%83%E7%B4%A0-cNvPr-NonVisual-Drawing-Properties-%E7%9A%84%E5%B1%9E%E6%80%A7%E4%BD%9C%E7%94%A8.html )
+
+[dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 重复 id 标识处理](https://blog.lindexi.com/post/dotnet-OpenXML-%E5%85%83%E7%B4%A0-cNvPr-NonVisual-Drawing-Properties-%E9%87%8D%E5%A4%8D-id-%E6%A0%87%E8%AF%86%E5%A4%84%E7%90%86.html )
 
 ## 文本解析
 
