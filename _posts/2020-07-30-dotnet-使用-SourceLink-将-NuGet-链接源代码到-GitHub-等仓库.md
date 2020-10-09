@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 SourceLink 将 NuGet 链接源代码到 GitHub 等仓库"
 author: lindexi
-date: 2020-10-9 9:42:41 +0800
+date: 2020-10-9 9:48:24 +0800
 CreateTime: 2020/7/30 8:47:47
 categories: git dotnet
 ---
@@ -116,4 +116,6 @@ categories: git dotnet
   <SourceRoot Include="$(MSBuildThisFileDirectory)/"/>
 </ItemGroup>
 ```
+
+详细请看 [dotnet 构建 SourceRoot items must include at least one top-level item when DeterministicSourcePaths is true 失败](https://blog.lindexi.com/post/dotnet-%E6%9E%84%E5%BB%BA-SourceRoot-items-must-include-at-least-one-top-level-item-when-DeterministicSourcePaths-is-true-%E5%A4%B1%E8%B4%A5.html )
 
