@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 SourceLink 将 NuGet 链接源代码到 GitHub 等仓库"
 author: lindexi
-date: 2020-7-31 9:50:42 +0800
+date: 2020-10-9 9:42:41 +0800
 CreateTime: 2020/7/30 8:47:47
 categories: git dotnet
 ---
@@ -108,4 +108,12 @@ categories: git dotnet
 本文的 SourceYard 在 GitHub 上完全开源: [https://github.com/dotnet-campus/SourceYard](https://github.com/dotnet-campus/SourceYard)
 
 使用 NuGet 能提升不少的开发效率，大部分功能的开发只需要三步。第一步安装 NuGet 库，第二步调用方法，第三步完成
+
+如果安装之后构建失败，提示 error : SourceRoot items must include at least one top-level (not nested) item when DeterministicSourcePaths is true 构建失败，请在 Directory.Build.props 文件添加下面代码
+
+```xml
+<ItemGroup>
+  <SourceRoot Include="$(MSBuildThisFileDirectory)/"/>
+</ItemGroup>
+```
 
