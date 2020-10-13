@@ -1,8 +1,8 @@
 ---
 title: "dotnet 让 C# 可以通过动态生成 HLSL 使用 DX12 的 GPU 并行计算库 ComputeSharp 的简介"
 author: lindexi
-date: 2020-10-12 20:33:18 +0800
-CreateTime: 2020-10-12 20:21:56 +0800
+date: 2020-10-13 8:39:3 +0800
+CreateTime: 2020/10/12 20:21:56
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2020/10/12 20:21:56 -->
 
 <!-- 发布 -->
 
