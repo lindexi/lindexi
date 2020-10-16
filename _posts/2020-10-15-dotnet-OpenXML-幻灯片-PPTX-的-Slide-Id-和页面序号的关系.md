@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 幻灯片 PPTX 的 Slide Id 和页面序号的关系"
 author: lindexi
-date: 2020-10-15 14:31:5 +0800
-CreateTime: 2020-10-15 11:42:20 +0800
+date: 2020-10-16 8:33:56 +0800
+CreateTime: 2020/10/15 11:42:20
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/10/15 11:42:20 -->
 
 
 <!-- 发布 -->
