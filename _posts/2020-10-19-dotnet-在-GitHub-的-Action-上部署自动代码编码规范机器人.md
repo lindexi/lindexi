@@ -1,8 +1,8 @@
 ---
 title: "dotnet 在 GitHub 的 Action 上部署自动代码编码规范机器人"
 author: lindexi
-date: 2020-10-19 8:22:54 +0800
-CreateTime: 2020-10-19 8:22:54 +0800
+date: 2020-10-19 8:23:12 +0800
+CreateTime: 2020/10/19 8:22:54
 categories: git dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: git dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/10/19 8:22:54 -->
 
 <!-- 发布 -->
 

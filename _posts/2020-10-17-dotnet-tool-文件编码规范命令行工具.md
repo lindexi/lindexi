@@ -1,8 +1,8 @@
 ---
 title: "dotnet tool 文件编码规范命令行工具"
 author: lindexi
-date: 2020-10-17 19:1:16 +0800
-CreateTime: 2020-10-17 17:40:13 +0800
+date: 2020-10-19 8:23:10 +0800
+CreateTime: 2020/10/17 17:40:13
 categories: dotnet
 ---
 
@@ -11,6 +11,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/10/17 17:40:13 -->
 
 <!-- 发布 -->
 
