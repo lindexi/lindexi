@@ -9,3 +9,5 @@ Windows Development MVP
 Blog: [https://blog.lindexi.com/](https://blog.lindexi.com/)  
 CSDN: [https://lindexi.blog.csdn.net/](https://lindexi.blog.csdn.net/)
 
+
+![](https://github-readme-stats.vercel.app/api?username=lindexi&show_icons=true)
