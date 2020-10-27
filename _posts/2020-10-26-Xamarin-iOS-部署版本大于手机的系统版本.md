@@ -1,8 +1,8 @@
 ---
 title: "Xamarin iOS 部署版本大于手机的系统版本"
 author: lindexi
-date: 2020-10-26 10:25:43 +0800
-CreateTime: 2020-10-26 10:18:44 +0800
+date: 2020-10-26 10:30:6 +0800
+CreateTime: 2020/10/26 10:18:44
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2020/10/26 10:18:44 -->
 
 <!-- 发布 -->
 
