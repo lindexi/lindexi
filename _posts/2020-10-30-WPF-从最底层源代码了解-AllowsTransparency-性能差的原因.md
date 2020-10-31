@@ -1,8 +1,8 @@
 ---
 title: "WPF 从最底层源代码了解 AllowsTransparency 性能差的原因"
 author: lindexi
-date: 2020-10-30 20:3:29 +0800
-CreateTime: 2020-10-30 19:28:50 +0800
+date: 2020-10-31 8:57:44 +0800
+CreateTime: 2020/10/30 19:28:50
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/10/30 19:28:50 -->
 
 
 <!-- 发布 -->
@@ -225,7 +227,7 @@ UpdateLayeredWindowEx(
 
 在调用过程中需要从 DX 将窗口渲染内容拷贝出来放在内存，然后使用 GDI 进行渲染。在拷贝内存过程中需要重新申请一段内存空间，将会在窗口比较大的时候占用更多的内存，同时拷贝需要使用更多的 CPU 计算。而通过 GDI 的再次渲染将会降低整个应用的渲染性能
 
-说道这里，是否有方法可以提升性能？其实有的，详细请看 [WPF 制作高性能的透明背景异形窗口](https://blog.walterlv.com/post/wpf-transparent-window-without-allows-transparency.html)
+说到这里，是否有方法可以提升性能？其实有的，详细请看 [WPF 制作高性能的透明背景异形窗口](https://blog.walterlv.com/post/wpf-transparent-window-without-allows-transparency.html)
 
 当前的 WPF 在 [https://github.com/dotnet/wpf](https://github.com/dotnet/wpf) 完全开源，使用友好的 MIT 协议，意味着允许任何人任何组织和企业任意处置，包括使用，复制，修改，合并，发表，分发，再授权，或者销售。在仓库里面包含了完全的构建逻辑，只需要本地的网络足够好（因为需要下载一堆构建工具），即可进行本地构建
 
