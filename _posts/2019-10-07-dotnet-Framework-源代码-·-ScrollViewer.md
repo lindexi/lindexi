@@ -1,9 +1,9 @@
 ---
 title: "dotnet Framework 源代码 · ScrollViewer"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-10-31 9:43:30 +0800
 CreateTime: 2019/10/7 13:15:25
-categories: C# .net Framework 源代码分析 WPF ScrollViewer dotnet
+categories: C# .net Framework 源代码分析 WPF ScrollViewer dotnet WPF源代码
 ---
 
 本文是分析 .net Framework 源代码的系列，主要告诉大家微软做 ScrollViewer 的思路，分析很简单。
@@ -15,7 +15,7 @@ categories: C# .net Framework 源代码分析 WPF ScrollViewer dotnet
 <!-- CreateTime:2019/10/7 13:15:25 -->
 
 
-<!-- 标签：C#，.net Framework，源代码分析，wpf，ScrollViewer ，dotnet -->
+<!-- 标签：C#，.net Framework，源代码分析，wpf，ScrollViewer ，dotnet,WPF源代码 -->
 
 <div id="toc"></div>
 

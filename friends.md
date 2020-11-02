@@ -306,6 +306,12 @@ permalink: /friends/
 
  - [vscode使用笔记 - 木杉的博客](http://mushanshitiancai.github.io/2017/01/07/tools/vscode%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/)
 
+ - [杨洋 AaronYang ayjs](http://www.ayjs.net/)
+
+   抖音号: wpfui
+
+   有收藏大量的 WPF 博客 [AY的 WPF 收藏](http://www.ayjs.net/post/689.html)
+
 ## 国外博客
 
  - [Josh Smith](https://joshsmithonwpf.wordpress.com/ )
@@ -400,7 +406,10 @@ permalink: /friends/
  - Mark MacDonnell <https://www.markmacdonnell.ca>
  - [XAML Brewer, by Diederik Krols](https://xamlbrewer.wordpress.com/ ) 
  - [Marco Minerva 微软 MVP 桌面端开发](https://marcominerva.wordpress.com)
-
+ - Rick Strahl [https://weblog.west-wind.com/](https://weblog.west-wind.com/)
+ - Michael's Coding Spot [https://michaelscodingspot.com](https://michaelscodingspot.com)
+ - Jeremiah Morrill [http://jmorrill.hjtcentral.com](http://jmorrill.hjtcentral.com)
+ 
 ## 老师
 
 - [玉兰老师](http://blog.sina.com.cn/yulan2014 ) 现在主要是微信公众号 m17771713041 欢迎关注
