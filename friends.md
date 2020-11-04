@@ -409,7 +409,8 @@ permalink: /friends/
  - Rick Strahl [https://weblog.west-wind.com/](https://weblog.west-wind.com/)
  - Michael's Coding Spot [https://michaelscodingspot.com](https://michaelscodingspot.com)
  - Jeremiah Morrill [http://jmorrill.hjtcentral.com](http://jmorrill.hjtcentral.com)
- 
+ - Anthony Giretti [https://anthonygiretti.com/](https://anthonygiretti.com/)
+
 ## 老师
 
 - [玉兰老师](http://blog.sina.com.cn/yulan2014 ) 现在主要是微信公众号 m17771713041 欢迎关注

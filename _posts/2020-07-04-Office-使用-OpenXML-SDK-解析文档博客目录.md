@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2020-10-27 11:12:6 +0800
+date: 2020-11-3 14:35:34 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -115,4 +115,15 @@ categories:
 以下是收藏的博客
 
 - [OpenXML学习笔记（一）从Office 2007 到 Office 2010](https://www.cnblogs.com/brooks-dotnet/archive/2010/02/08/1665600.html)
+
+## 第三方工具
+
+### [Add-in Express](https://www.add-in-express.com/)
+
+很贵，很强的工具包
+
+- Office versions: Office 2019, 2016, 2013, 2010, 2007, 2003, XP and 2000
+- Applications: Outlook, Word, Excel, PowerPoint, Access, FrontPage, Publisher, Project, MapPoint, InfoPath, Visio, OneNote
+- IDEs: Visual Studio 2019, 2017, 2015, 2013, 2012 and 2010 (VB.NET, C#, C++)
+
 
