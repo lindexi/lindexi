@@ -1,8 +1,8 @@
 ---
 title: "dotnet tool 判断博客文档链接是否可用的工具"
 author: lindexi
-date: 2020-11-15 19:26:49 +0800
-CreateTime: 2020-11-15 19:26:49 +0800
+date: 2020-11-16 9:28:30 +0800
+CreateTime: 2020/11/15 19:26:49
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/11/15 19:26:49 -->
 
 <!-- 发布 -->
 
