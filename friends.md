@@ -410,6 +410,7 @@ permalink: /friends/
  - Michael's Coding Spot [https://michaelscodingspot.com](https://michaelscodingspot.com)
  - Jeremiah Morrill [http://jmorrill.hjtcentral.com](http://jmorrill.hjtcentral.com)
  - Anthony Giretti [https://anthonygiretti.com/](https://anthonygiretti.com/)
+ - Brandon Minnick Code Traveler 在微软的大佬，是 GitTrends 的作者 [https://codetraveler.io/](https://codetraveler.io/ )
 
 ## 老师
 

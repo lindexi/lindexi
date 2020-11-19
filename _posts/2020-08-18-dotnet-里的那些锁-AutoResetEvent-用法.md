@@ -1,7 +1,7 @@
 ---
 title: "dotnet 里的那些锁 AutoResetEvent 用法"
 author: lindexi
-date: 2020-9-26 8:59:24 +0800
+date: 2020-11-18 14:20:3 +0800
 CreateTime: 2020/8/18 15:04:03
 categories: dotnet
 ---
@@ -167,4 +167,6 @@ dotnet add package dotnetCampus.AsyncWorkerCollection.Source --version 1.1.6
 ```
 
 使用 AsyncAutoResetEvent 可以将 WaitOne 替换为 WaitOneAsync 方法
+
+[2019-12-1-实现一种异步版本的AutoResetEvent - huangtengxiao](https://xinyuehtx.github.io/post/%E5%AE%9E%E7%8E%B0%E4%B8%80%E7%A7%8D%E5%BC%82%E6%AD%A5%E7%89%88%E6%9C%AC%E7%9A%84AutoResetEvent.html )
 
