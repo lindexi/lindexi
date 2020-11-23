@@ -1,8 +1,8 @@
 ---
 title: "WPF 在后台代码定义 ResourceDictionary 资源字典"
 author: lindexi
-date: 2020-11-20 17:38:3 +0800
-CreateTime: 2020-11-20 17:14:59 +0800
+date: 2020-11-21 8:20:50 +0800
+CreateTime: 2020/11/20 17:14:59
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/11/20 17:14:59 -->
 
 <!-- 发布 -->
 
