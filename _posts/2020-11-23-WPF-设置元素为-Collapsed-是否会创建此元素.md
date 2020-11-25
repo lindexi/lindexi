@@ -1,8 +1,8 @@
 ---
 title: "WPF 设置元素为 Collapsed 是否会创建此元素"
 author: lindexi
-date: 2020-11-23 19:6:11 +0800
-CreateTime: 2020-11-23 19:5:2 +0800
+date: 2020-11-24 8:55:23 +0800
+CreateTime: 2020/11/23 19:05:02
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/11/23 19:05:02 -->
 
 <!-- 发布 -->
 
