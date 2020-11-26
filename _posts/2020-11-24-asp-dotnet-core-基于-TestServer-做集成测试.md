@@ -1,8 +1,8 @@
 ---
 title: "asp dotnet core 基于 TestServer 做集成测试"
 author: lindexi
-date: 2020-11-24 20:51:23 +0800
-CreateTime: 2020-11-24 20:29:54 +0800
+date: 2020-11-25 8:33:48 +0800
+CreateTime: 2020/11/24 20:29:54
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/11/24 20:29:54 -->
 
 <!-- 发布 -->
 
