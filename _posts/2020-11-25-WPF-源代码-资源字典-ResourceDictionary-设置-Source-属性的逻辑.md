@@ -1,8 +1,8 @@
 ---
 title: "WPF 源代码 资源字典 ResourceDictionary 设置 Source 属性的逻辑"
 author: lindexi
-date: 2020-11-26 8:33:58 +0800
-CreateTime: 2020-11-25 14:22:23 +0800
+date: 2020-11-26 8:34:58 +0800
+CreateTime: 2020/11/25 14:22:23
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/11/25 14:22:23 -->
 
 <!-- 发布 -->
 
