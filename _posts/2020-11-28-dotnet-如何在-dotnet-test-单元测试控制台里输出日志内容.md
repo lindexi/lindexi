@@ -1,8 +1,8 @@
 ---
 title: "dotnet 如何在 dotnet test 单元测试控制台里输出日志内容"
 author: lindexi
-date: 2020-11-28 9:2:42 +0800
-CreateTime: 2020-11-28 9:2:42 +0800
+date: 2020-11-28 9:4:51 +0800
+CreateTime: 2020/11/28 9:02:42
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/11/28 9:02:42 -->
 
 <!-- 发布 -->
 
@@ -23,4 +25,8 @@ dotnet test --configuration release -l "console;verbosity=detailed"
 ```
 
 这样就能在 GitHub 的 Action 进行单元测试时，输出对应的日志
+
+为什么 `Debug.WriteLine` 方法没有输出？原因是 `--configuration release` 配置了不要让 Debug 下输出
+
+更多请看 [Console.WriteLine calls during dotnet test are not emitted to the console on Windows · Issue #799 · microsoft/vstest](https://github.com/microsoft/vstest/issues/799 )
 
