@@ -1,7 +1,7 @@
 ---
 title: "dotnet 用 Microsoft.Diagnostics.Runtime 库写代码解析 DUMP 文件"
 author: lindexi
-date: 2020-4-25 14:28:5 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 4/25/2020 9:05:05 AM
 categories: dotnet 调试 Diagnostics DUMP C#
 ---
@@ -15,7 +15,7 @@ categories: dotnet 调试 Diagnostics DUMP C#
 <!-- 标签：dotnet,调试,Diagnostics,DUMP,C# -->
 
 
-<!-- 发布 -->
+
 
 需要先在 NuGet 上添加一个私有的源才能使用这个库，添加私有源的方式请看 [VisualStudio 给项目添加特殊的 Nuget 的链接](https://blog.lindexi.com/post/VisualStudio-%E7%BB%99%E9%A1%B9%E7%9B%AE%E6%B7%BB%E5%8A%A0%E7%89%B9%E6%AE%8A%E7%9A%84-Nuget-%E7%9A%84%E9%93%BE%E6%8E%A5.html )
 

@@ -1,9 +1,9 @@
 ---
 title: "Xamarin 使用 GTK 提示找不到 libglib-2.0-0.dll 找不到"
 author: lindexi
-date: 2020-4-1 10:37:29 +0800
+date: 2020-12-3 20:37:26 +0800
 CreateTime: 3/31/2020 5:26:58 PM
-categories: 
+categories: Xamarin GTK
 ---
 
 在使用 Xamarin 开发 Linux 应用的时候，刚开始如果没有弄好 libglib-2.0-0.dll 的依赖库，那么将会在运行的时候，在 Gtk.Application.Init() 这句代码提示找不到这个库
@@ -13,7 +13,8 @@ categories:
 
 <!-- CreateTime:3/31/2020 5:26:58 PM -->
 
-<!-- 发布 -->
+<!-- 标签：Xamarin, GTK -->
+
 
 解决方法是先到[官网](https://www.monodevelop.com/download/#fndtn-download-win) 下载 `GTK#` 安装包或 mono x86 的应用
 

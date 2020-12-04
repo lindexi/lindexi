@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 使用 AsyncEx 库的 AsyncLock 异步锁"
 author: lindexi
-date: 2020-9-23 10:25:38 +0800
+date: 2020-12-3 16:22:15 +0800
 CreateTime: 2020/9/23 8:58:31
 categories: dotnet C#
 ---
@@ -14,7 +14,7 @@ categories: dotnet C#
 <!-- CreateTime:2020/9/23 8:58:31 -->
 
 
-<!-- 发布 -->
+
 
 使用之前先安装 [Nito.AsyncEx](http://www.nuget.org/packages/Nito.AsyncEx) NuGet 库，如果是 SDK 风格的项目格式，可以在 csproj 添加下面代码
 

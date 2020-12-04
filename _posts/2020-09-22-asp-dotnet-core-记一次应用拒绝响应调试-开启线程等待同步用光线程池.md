@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 记一次应用拒绝响应调试 开启线程等待同步用光线程池"
 author: lindexi
-date: 2020-9-22 8:46:58 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/9/22 8:30:24
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/22 8:30:24 -->
 
-<!-- 发布 -->
+
 
 很好复现这个坑，在开始复现之前，需要聊一下背景
 

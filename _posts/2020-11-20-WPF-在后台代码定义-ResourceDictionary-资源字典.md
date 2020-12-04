@@ -1,7 +1,7 @@
 ---
 title: "WPF 在后台代码定义 ResourceDictionary 资源字典"
 author: lindexi
-date: 2020-11-23 20:25:35 +0800
+date: 2020-12-3 16:22:26 +0800
 CreateTime: 2020/11/20 17:14:59
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/11/20 17:14:59 -->
 
-<!-- 发布 -->
+
 
 在 CSharp 后台代码里面给 WPF 定义资源字典需要重新创建一个类，让这个类继承 ResourceDictionary 如以下代码
 

@@ -1,7 +1,7 @@
 ---
 title: "Win10 的 WPF 程序的 wisptis 服务是附加到进程的窗口"
 author: lindexi
-date: 2020-7-31 9:51:3 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/7/30 17:19:49
 categories: WPF Win10
 ---
@@ -13,7 +13,7 @@ categories: WPF Win10
 
 <!-- CreateTime:2020/7/30 17:19:49 -->
 
-<!-- 发布 -->
+
 
 通过 [WindowDebugger](https://github.com/kkwpsv/WindowDebugger ) 调试工具可以了解在 win10 将会给每个 WPF 进程添加 WISPTIS 窗口，窗口的 Class Name 是 TabletPenServiceHelperClass 请看下图
 

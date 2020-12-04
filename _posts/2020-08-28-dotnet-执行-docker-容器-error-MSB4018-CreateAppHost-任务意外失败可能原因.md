@@ -1,7 +1,7 @@
 ---
 title: "dotnet 执行 docker 容器 error MSB4018 CreateAppHost 任务意外失败可能原因"
 author: lindexi
-date: 2020-8-29 8:36:59 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/8/28 8:44:52
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/28 8:44:52 -->
 
-<!-- 发布 -->
+
 
 关注输出窗口，如果可以看到如下内容，那么就是 docker 内存在上次运行的容器没有关闭
 

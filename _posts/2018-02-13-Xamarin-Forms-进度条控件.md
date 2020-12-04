@@ -1,9 +1,9 @@
 ---
 title: "Xamarin Forms 进度条控件"
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2020-12-3 20:37:16 +0800
 CreateTime: 2018/2/13 17:23:03
-categories: 
+categories: Xamarin
 ---
 
 本文翻译：http://xamlnative.com/2016/04/14/xamarin-forms-a-simple-circular-progress-control/ 里面都是胡说的，如果看不懂可以联系邮箱
@@ -15,6 +15,7 @@ categories:
 
 
 <!-- CreateTime:2018/2/13 17:23:03 -->
+<!-- 标签：Xamarin -->
 
 
 <div id="toc"></div>

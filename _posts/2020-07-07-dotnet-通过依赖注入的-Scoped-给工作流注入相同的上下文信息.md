@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过依赖注入的 Scoped 给工作流注入相同的上下文信息"
 author: lindexi
-date: 2020-7-8 7:55:10 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 7/7/2020 2:53:44 PM
 categories: dotnet
 ---
@@ -14,7 +14,7 @@ categories: dotnet
 
 <!-- CreateTime:7/7/2020 2:53:44 PM -->
 
-<!-- 发布 -->
+
 
 尽管本文使用 Scoped 仅作为日志记录的功能没能发挥强大的日志库的作为，但是减弱日志库是为了提升 DependencyInjection 的强大，因此请小伙伴仅认为日志库和输出文本到控制台之间没有任何差别
 

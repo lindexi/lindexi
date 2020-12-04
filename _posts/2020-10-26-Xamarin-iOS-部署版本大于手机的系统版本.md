@@ -1,9 +1,9 @@
 ---
 title: "Xamarin iOS 部署版本大于手机的系统版本"
 author: lindexi
-date: 2020-10-26 10:30:6 +0800
+date: 2020-12-3 20:37:33 +0800
 CreateTime: 2020/10/26 10:18:44
-categories: 
+categories: Xamarin
 ---
 
 我觉得苹果肯定会坑我，如果我敢更新我的手机系统的话。苹果觉得像我这样的开发者就应该拖出去打靶，整个手机没几个应用是从应用商店下载的。但是作为开发者，我在使用 Xamarin 部署我的云输入法，在第一步创建的时候需要我使用 XCode 新建一个项目，而新建的项目默认都是需要使用更新版本的系统，此时部署将会失败。本文告诉大家一个简单的方法解决这个问题
@@ -13,7 +13,9 @@ categories:
 
 <!-- CreateTime:2020/10/26 10:18:44 -->
 
-<!-- 发布 -->
+<!-- 标签：Xamarin -->
+
+
 
 如我师傅在 [使用 Xamarin 在 iOS 真机上部署应用进行调试](https://blog.walterlv.com/post/deploy-and-debug-ios-app-using-xamarin.html) 博客上讲的，苹果为了提升开发者门槛，限制了 VS 创建应用的权限。苹果：这不是我说的，你不要瞎说
 

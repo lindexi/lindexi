@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 各版本 msbuild 路径"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/1/16 19:45:51
 categories: VisualStudio
 ---
@@ -13,7 +13,7 @@ categories: VisualStudio
 
 <!-- CreateTime:2020/1/16 19:45:51 -->
 
-<!-- 发布 -->
+
 
 通过 vswhere.exe 工具找到路径，可以解决多个版本的 vs 不知道使用哪个
 

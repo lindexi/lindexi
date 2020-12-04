@@ -1,7 +1,7 @@
 ---
 title: "Office OpenXml SDK 使用 Fallback 图片显示 Ole 元素"
 author: lindexi
-date: 2020-8-22 9:17:56 +0800
+date: 2020-12-3 16:22:24 +0800
 CreateTime: 2020/3/3 8:23:31
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:2020/3/3 8:23:31 -->
 
-<!-- 发布 -->
+
 
 其实有很多 Office 插件公司在开发，而特殊的元素如何在其他版本打开？或者我用插件做了一个复杂的元素，在没有插件的设备如何让用户看到？在 Office 的一个做法是通过 Fallback 元素，在里面放一张图片
 

@@ -1,7 +1,7 @@
 ---
 title: "WPF 用 AvalonEdit 开发简单的代码编辑器 支持高亮自动提示"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 16:22:29 +0800
 CreateTime: 2020/1/22 17:11:30
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/1/22 17:11:30 -->
 
-<!-- 发布 -->
+
 
 第一步通过 NuGet 安装 [AvalonEdit](https://www.nuget.org/packages/AvalonEdit ) 打开 xaml 界面，添加控件，此时可以在界面设置代码高亮方式等
 

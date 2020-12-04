@@ -1,7 +1,7 @@
 ---
 title: "dotnet ConcurrentDictionary 的 GetOrAdd 性能比 TryGetValue 加 TryAdd 低"
 author: lindexi
-date: 2020-7-16 11:34:35 +0800
+date: 2020-12-3 16:22:18 +0800
 CreateTime: 2020/7/16 11:00:59
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/7/16 11:00:59 -->
 
-<!-- 发布 -->
+
 
 在 [Avoid multi-thread creates ElementMetadata object by lindexi · Pull Request #758 · OfficeDev/Open-XML-SDK](https://github.com/OfficeDev/Open-XML-SDK/pull/758 ) 我找到了 OpenXML SDK 的代码存在线程不安全，代码如下
 

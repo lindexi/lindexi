@@ -1,7 +1,7 @@
 ---
 title: "WPF 从 dotnet core 3 到 dotnet 5 的变更"
 author: lindexi
-date: 2020-11-12 9:43:36 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/11/12 9:17:31
 categories: WPF dotnet
 ---
@@ -13,7 +13,7 @@ categories: WPF dotnet
 
 <!-- CreateTime:2020/11/12 9:17:31 -->
 
-<!-- 发布 -->
+
 
 ## 修复坑
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 配置 github 自动打包上传 nuget 文件"
 author: lindexi
-date: 2020-11-19 18:7:12 +0800
+date: 2020-12-3 16:22:24 +0800
 CreateTime: 2019/12/19 11:08:03
 categories: Github GithubAction
 ---
@@ -13,7 +13,7 @@ categories: Github GithubAction
 
 <!-- CreateTime:2019/12/19 11:08:03 -->
 
-<!-- 发布 -->
+
 <!-- 标签：Github，GithubAction -->
 
 在 github 的 action 功能可以很方便创建打包任务，但是没有很方便进行 nuget 上传，需要额外写一点代码

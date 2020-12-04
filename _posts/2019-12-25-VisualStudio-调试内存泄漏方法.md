@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 调试内存泄漏方法"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2019/12/25 11:04:16
 categories: VisualStudio
 ---
@@ -13,7 +13,7 @@ categories: VisualStudio
 
 <!-- CreateTime:2019/12/25 11:04:16 -->
 
-<!-- 发布 -->
+
 
 在调试内存泄漏时，最简单的方法时通过内存使用率进行调试。核心方法是查看内存中有哪些对象占用了大量内存，其次是查看内存中有哪些不用的对象还在内存
 

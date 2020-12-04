@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上安装 MonoDevelop 开发工具"
 author: lindexi
-date: 2020-9-1 8:32:51 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/8/31 19:50:35
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/31 19:50:35 -->
 
-<!-- 发布 -->
+
 
 手动安装 MonoDevelop 不靠谱，本文推荐大家通过使用 debian 10 版本方法进行安装
 

@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 命令行编译 build 通过 rebuild 不通过"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2019/12/8 11:37:51
 categories: VisualStudio
 ---
@@ -14,7 +14,7 @@ categories: VisualStudio
 <!-- CreateTime:2019/12/8 11:37:51 -->
 
 <!-- csdn -->
-<!-- 发布 -->
+
 
 在命令行编译的 build 和 rebuild 的不同在于使用 build 会用上次编译的内容，如果没有文件更改，那么这个项目不会重新编译。同时会从缓存拿到项目依赖顺序，获取上次编译的项目信息。而 rebuild 会先执行 clean 清理，会清理缓存重新创建项目依赖顺序
 

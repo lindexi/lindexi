@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 如何让 Json 序列化数组时序列化继承类的属性"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 20:38:11 +0800
 CreateTime: 2020/2/21 19:05:02
 categories: dotnet C#
 ---
@@ -13,7 +13,6 @@ categories: dotnet C#
 
 <!-- CreateTime:2020/2/21 19:05:02 -->
 
-<!-- 发布 -->
 
 我在用 WPF 写一个复杂的应用，我需要 ASP.NET Core 后台传输一个 AppData 类的数组，包含的属性如下
 

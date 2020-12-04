@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 将 Stream 保存到文件的方法"
 author: lindexi
-date: 2020-3-15 11:43:45 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 2020/3/14 9:22:48
 categories: dotnet C#
 ---
@@ -13,7 +13,7 @@ categories: dotnet C#
 
 <!-- CreateTime:2020/3/14 9:22:48 -->
 
-<!-- 发布 -->
+
 
 最优雅的方法应该是通过 CopyTo 或 CopyToAsync 的方法
 

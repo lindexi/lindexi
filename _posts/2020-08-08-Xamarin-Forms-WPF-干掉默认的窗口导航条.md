@@ -1,9 +1,9 @@
 ---
 title: "Xamarin Forms WPF 干掉默认的窗口导航条"
 author: lindexi
-date: 2020-8-10 8:41:50 +0800
+date: 2020-12-3 20:38:30 +0800
 CreateTime: 2020/8/8 11:16:03
-categories: WPF
+categories: Xamarin WPF
 ---
 
 在创建默认的 Xamarin Forms WPF 应用，将和 UWP 应用的界面不相同，在 WPF 项目会显示顶部蓝色的一条，看起来不好看，那么可以如何干掉他
@@ -12,8 +12,7 @@ categories: WPF
 
 
 <!-- CreateTime:2020/8/8 11:16:03 -->
-
-<!-- 发布 -->
+<!-- 标签：Xamarin, WPF -->
 
 下图是一个默认的 Xamarin Forms 应用
 

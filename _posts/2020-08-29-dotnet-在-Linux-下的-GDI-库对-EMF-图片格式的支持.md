@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 Linux 下的 GDI 库对 EMF 图片格式的支持"
 author: lindexi
-date: 2020-8-29 11:40:27 +0800
+date: 2020-12-3 16:22:22 +0800
 CreateTime: 2020/8/29 8:37:06
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/29 8:37:06 -->
 
-<!-- 发布 -->
+
 
 在哪里可以找到很多 EMF 或 WMF 格式的图片？去 PPT 里面的剪辑版找，安装 Office 2013 的版本，可以在 `Program Files\Microsoft Office\CLIPART\PUB60COR\` 找到一些图片
 

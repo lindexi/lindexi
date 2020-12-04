@@ -1,7 +1,7 @@
 ---
 title: "Windows 窗口样式 什么是 WS_EX_NOREDIRECTIONBITMAP 样式"
 author: lindexi
-date: 2020-5-2 9:13:49 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 5/1/2020 11:30:00 AM
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:5/1/2020 11:30:00 AM -->
 
-<!-- 发布 -->
+
 
 简单说这个 WS_EX_NOREDIRECTIONBITMAP 样式是 Win8 提供的，用来做画面图层混合的功能。什么是画面图层混合功能？详细请看[为何使用 DirectComposition](https://blog.lindexi.com/post/%E4%B8%BA%E4%BD%95%E4%BD%BF%E7%94%A8-DirectComposition.html)
 

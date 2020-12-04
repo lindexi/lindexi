@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上使用 MonoDevelop 进行拖控件开发 GTK 应用"
 author: lindexi
-date: 2020-9-1 8:32:51 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/8/31 20:33:41
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/31 20:33:41 -->
 
-<!-- 发布 -->
+
 
 在创建完成一个 GTK# 2.0 应用之后，咱可以试试开始拖控件的开发，当然这个开发方式开发出来的应用界面有点古老。不过作为玩还是不错的
 

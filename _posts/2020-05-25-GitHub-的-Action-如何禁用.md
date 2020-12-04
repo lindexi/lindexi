@@ -1,7 +1,7 @@
 ---
 title: "GitHub 的 Action 如何禁用"
 author: lindexi
-date: 2020-5-25 14:25:36 +0800
+date: 2020-12-3 20:27:51 +0800
 CreateTime: 5/25/2020 9:36:22 AM
 categories: git
 ---
@@ -13,7 +13,7 @@ categories: git
 
 <!-- CreateTime:5/25/2020 9:36:22 AM -->
 
-<!-- 发布 -->
+
 
 这是我 Fork 的 [ant-design-blazor](https://github.com/lindexi/ant-design-blazor )仓库，每天都告诉我构建失败
 

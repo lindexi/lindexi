@@ -1,9 +1,9 @@
 ---
 title: "Xamarin iOS 切换开发者账号之后的签名标识和预配配置文件更新方法"
 author: lindexi
-date: 2020-10-27 11:13:23 +0800
+date: 2020-12-3 20:38:41 +0800
 CreateTime: 2020/10/26 11:06:08
-categories: 
+categories: Xamarin
 ---
 
 其实这一篇和 Xamarin 开发几乎没有关系，这是苹果开发的一个坑。在原有开发者账号下的设备上，切换为另一个开发者账号，此时的部署也许会找错 预配配置 文件和证书。苹果：渣渣开发者，这是特性
@@ -12,9 +12,9 @@ categories:
 
 
 <!-- CreateTime:2020/10/26 11:06:08 -->
+<!-- 标签：Xamarin -->
 
 
-<!-- 发布 -->
 
 在 XCode 的选项账户里面的 Download Manual Profiles 按钮里面，下载的证书文件放在 `~/Library/MobileDevice/Provisioning\ Profiles` 文件夹里面，如下图
 

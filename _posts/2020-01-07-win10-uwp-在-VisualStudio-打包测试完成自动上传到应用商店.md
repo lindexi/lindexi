@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 在 VisualStudio 打包测试完成自动上传到应用商店"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/1/7 8:59:32
 categories: VisualStudio Win10 UWP
 ---
@@ -13,7 +13,7 @@ categories: VisualStudio Win10 UWP
 
 <!-- CreateTime:2020/1/7 8:59:32 -->
 
-<!-- 发布 -->
+
 
 在勾选 Windows 应用认证工具包验证之后，自动提交到应用商店。需要填写用户 ID 租户ID和密码，需要在创建 Azure AD 才能拿到信息
 

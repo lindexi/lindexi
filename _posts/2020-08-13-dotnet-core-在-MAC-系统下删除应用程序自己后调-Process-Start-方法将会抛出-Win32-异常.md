@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 在 MAC 系统下删除应用程序自己后调 Process Start 方法将会抛出 Win32 异常"
 author: lindexi
-date: 2020-8-13 10:20:29 +0800
+date: 2020-12-3 16:22:26 +0800
 CreateTime: 2020/8/13 9:38:41
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/13 9:38:41 -->
 
-<!-- 发布 -->
+
 
 我写了一个工具 [dotnetCampus.UpdateAllDotNetTools](https://github.com/dotnet-campus/dotnetCampus.UpdateAllDotNetTools) 用来更新所有的 dotnet tool 工具。因为 [dotnetCampus.UpdateAllDotNetTools](https://github.com/dotnet-campus/dotnetCampus.UpdateAllDotNetTools) 也是一个 dotnet tool 工具，因此也会更新自身
 

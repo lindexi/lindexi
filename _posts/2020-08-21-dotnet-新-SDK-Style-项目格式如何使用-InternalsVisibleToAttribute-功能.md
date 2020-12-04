@@ -1,7 +1,7 @@
 ---
 title: "dotnet 新 SDK Style 项目格式如何使用 InternalsVisibleToAttribute 功能"
 author: lindexi
-date: 2020-8-22 8:23:30 +0800
+date: 2020-12-3 16:22:23 +0800
 CreateTime: 2020/8/21 16:19:07
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/21 16:19:07 -->
 
-<!-- 发布 -->
+
 
 最简单的方法是新建一个 AssemblyInfo.cs 文件，在这个文件里面使用 System.Runtime.CompilerServices.InternalsVisibleToAttribute 指定某个程序集可见
 

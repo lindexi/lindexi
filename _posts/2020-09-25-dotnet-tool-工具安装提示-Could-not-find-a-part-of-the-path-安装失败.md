@@ -1,7 +1,7 @@
 ---
 title: "dotnet tool 工具安装提示 Could not find a part of the path 安装失败"
 author: lindexi
-date: 2020-9-26 8:33:52 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/9/25 15:53:30
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/25 15:53:30 -->
 
-<!-- 发布 -->
+
 
 我在 GitHub 开源了 dotnetcampus.DotNETBuildSDK 项目，请看 [https://github.com/dotnet-campus/dotnetcampus.DotNETBuildSDK](https://github.com/dotnet-campus/dotnetcampus.DotNETBuildSDK) 
 

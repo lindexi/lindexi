@@ -1,7 +1,7 @@
 ---
 title: "GitHub 的 Action 判断仅在主仓库才执行脚本"
 author: lindexi
-date: 2020-5-26 8:41:0 +0800
+date: 2020-12-3 20:27:51 +0800
 CreateTime: 5/25/2020 2:29:40 PM
 categories: git
 ---
@@ -13,7 +13,7 @@ categories: git
 
 <!-- CreateTime:5/25/2020 2:29:40 PM -->
 
-<!-- 发布 -->
+
 
 想要设置 Action 不在 Fork 的仓库执行，只需要添加 if 判断，判断当前执行的仓库和设置的相同，即可执行，否则不执行
 

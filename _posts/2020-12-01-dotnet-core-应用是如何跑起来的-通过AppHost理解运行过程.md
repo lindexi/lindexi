@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 应用是如何跑起来的 通过AppHost理解运行过程"
 author: lindexi
-date: 2020-12-2 8:24:8 +0800
+date: 2020-12-3 16:22:18 +0800
 CreateTime: 2020/12/1 20:04:44
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/12/1 20:04:44 -->
 
-<!-- 发布 -->
+
 
 在回答上面的问题之前，请大家尝试打开 `C:\Program Files\dotnet\sdk\5.0.100\AppHostTemplate\` 这个文件夹。当然了，请将 dotnet 版本号修改为你本机的版本号。在这个文件夹里面，可以看到有一个文件叫 apphost.exe 的可执行文件。有趣的是在咱的 dotnet 项目的 obj 文件夹下也能找到叫这个名字的这个文件
 

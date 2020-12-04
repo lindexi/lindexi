@@ -1,7 +1,7 @@
 ---
 title: "How to generate NuGet package with Git Tag version using GitHub Action"
 author: lindexi
-date: 2020-5-28 10:57:48 +0800
+date: 2020-12-3 20:27:51 +0800
 CreateTime: 5/26/2020 2:18:01 PM
 categories: git
 ---
@@ -13,7 +13,7 @@ We can trigger the GitHub Action by Git tag pushed and we can read the Git tag n
 
 <!-- CreateTime:5/26/2020 2:18:01 PM -->
 
-<!-- 发布 -->
+
 
 There is a dotnet tool that can read Git tags as a version and write it to the version file.
 

@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 解决 Path 获取文件名路径在 Windows 构建在 Linux 执行问题"
 author: lindexi
-date: 2020-6-29 9:2:13 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 6/28/2020 11:04:32 AM
 categories: dotnet C#
 ---
@@ -13,7 +13,7 @@ categories: dotnet C#
 
 <!-- CreateTime:6/28/2020 11:04:32 AM -->
 
-<!-- 发布 -->
+
 
 在 dotnet 中，可以通过 CallerFilePath 特性获取调用当前方法的文件路径是哪个，请看下面代码
 

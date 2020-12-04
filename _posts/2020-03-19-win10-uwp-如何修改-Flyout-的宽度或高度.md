@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 如何修改 Flyout 的宽度或高度"
 author: lindexi
-date: 2020-3-20 9:19:52 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/3/19 19:04:05
 categories: Win10 UWP
 ---
@@ -13,7 +13,7 @@ categories: Win10 UWP
 
 <!-- CreateTime:2020/3/19 19:04:05 -->
 
-<!-- 发布 -->
+
 
 在[堆栈](https://stackoverflow.com/q/60753124/6116637)有小伙伴问如何修改 Flyout 的宽度，他看到宽度会使用第一个元素的大小而不是最大的
 

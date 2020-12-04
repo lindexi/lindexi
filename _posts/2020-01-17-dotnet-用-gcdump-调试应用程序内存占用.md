@@ -1,7 +1,7 @@
 ---
 title: "dotnet 用 gcdump 调试应用程序内存占用"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/1/17 9:58:59
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/1/17 9:58:59 -->
 
-<!-- 发布 -->
+
 
 在运行这个工具之前要求设备上先安装 dotnet 环境，有了这个限制，在客户端调试其实不如搭建 VisualStudio 远程调试更好。当然本文主要是广告 gcdump 工具的，怎么能在这里拆台。在服务器端，只有安装了 dotnet 工具，同时不是 Windows 的服务器，不能使用 VisualStudio 远程调试技术前提下。或者不想使用 VisualStudio 抓内存，只是想拿到当前内存信息，有空了再分析。或者是自动化测试的时候，通过调用命令行获取进程的内存，然后自动化分析内存。此时通过 gcdump 都能很好的满足
 

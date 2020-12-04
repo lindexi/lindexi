@@ -1,7 +1,7 @@
 ---
 title: "WPF 两个 Topmost 的窗口如何设置谁在最上方"
 author: lindexi
-date: 2020-6-18 8:37:47 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 6/17/2020 8:29:09 PM
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:6/17/2020 8:29:09 PM -->
 
-<!-- 发布 -->
+
 
 需要用到 SetWindowLong 的 win32 方法的设置，假设我有 A 和 B 两个窗口，我需要让这两个窗口都是 Topmost 同时 A 在 B 的上方
 

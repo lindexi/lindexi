@@ -1,9 +1,9 @@
 ---
 title: "Xamarin Forms 构建 WPF 版项目失败提示 XamlC error XFC0000 错误"
 author: lindexi
-date: 2020-10-23 9:40:7 +0800
+date: 2020-12-3 20:35:48 +0800
 CreateTime: 2020/10/22 9:10:35
-categories: WPF
+categories: Xamarin
 ---
 
 在 Xamarin Forms 从 4.7 到 4.8.0.1560 版本，在 Xamarin Forms 构建 WPF 版项目也许会提示 XamlC error XFC0000 : Cannot resolve type "Application" 构建失败
@@ -12,8 +12,9 @@ categories: WPF
 
 
 <!-- CreateTime:2020/10/22 9:10:35 -->
+<!-- 标签：Xamarin -->
 
-<!-- 发布 -->
+
 
 提示内容如下
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 用 NuGet 将自己的工具作为 dotnet tool 分发"
 author: lindexi
-date: 2020-3-7 9:20:32 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/3/3 8:30:10
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/3/3 8:30:10 -->
 
-<!-- 发布 -->
+
 
 本文分为两部分，第一部分就是如何打包一个 dotnet tool 工具，第二部分是如何分发这个工具
 

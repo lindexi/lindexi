@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 InputManager 模拟调度触摸事件"
 author: lindexi
-date: 2020-5-23 10:58:13 +0800
+date: 2020-12-3 16:22:26 +0800
 CreateTime: 5/23/2020 10:27:24 AM
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:5/23/2020 10:27:24 AM -->
 
-<!-- 发布 -->
+
 
 本文的内容属于没有任何官方文档的支持的内容，以下是我看 WPF 源代码了解到的用法
 

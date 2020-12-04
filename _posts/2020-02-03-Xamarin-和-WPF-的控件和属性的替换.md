@@ -1,9 +1,9 @@
 ---
 title: "Xamarin 和 WPF 的控件和属性的替换"
 author: lindexi
-date: 2020-3-14 9:16:10 +0800
+date: 2020-12-3 20:38:51 +0800
 CreateTime: 2020/2/3 11:15:57
-categories: WPF
+categories: Xamarin WPF
 ---
 
 基本上 Xamarin 和 WPF 的技术是相同的，但是有一些小细节和属性不同，本文记录一些不同的点，方便小伙伴将 WPF 项目迁移为 Xamarin 项目
@@ -12,8 +12,8 @@ categories: WPF
 
 
 <!-- CreateTime:2020/2/3 11:15:57 -->
+<!-- 标签：Xamarin, WPF -->
 
-<!-- 发布 -->
 
 需要注意的是 Xamarin 原生支持作为 WPF 控件运行，支持在 WPF 运行，反过来不可以
 

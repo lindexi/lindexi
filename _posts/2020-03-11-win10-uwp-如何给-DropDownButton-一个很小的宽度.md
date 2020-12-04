@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 如何给 DropDownButton 一个很小的宽度"
 author: lindexi
-date: 2020-3-11 8:30:33 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/3/11 8:29:59
 categories: Win10 UWP
 ---
@@ -13,7 +13,7 @@ categories: Win10 UWP
 
 <!-- CreateTime:2020/3/11 8:29:59 -->
 
-<!-- 发布 -->
+
 
 原因是如果最小宽度那么下箭头将没有足够空间显示，虽然左边依然有空白地方，但是空白地方有最小宽度要求
 

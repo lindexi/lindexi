@@ -1,7 +1,7 @@
 ---
 title: "C# 为什么不建议对任意的 IEnumerable 反转"
 author: lindexi
-date: 2020-4-8 8:26:53 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 4/7/2020 7:31:49 PM
 categories: C#
 ---
@@ -13,7 +13,7 @@ categories: C#
 
 <!-- CreateTime:4/7/2020 7:31:49 PM -->
 
-<!-- 发布 -->
+
 
 在 C# 里面可以使用 IEnumerable 表示枚举值，而我提供了一个库给小伙伴用，这个库包含了这个方法，需要在某个不知道从哪里来的枚举值进行反转然后处理业务
 

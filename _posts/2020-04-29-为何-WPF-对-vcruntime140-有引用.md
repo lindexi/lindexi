@@ -1,7 +1,7 @@
 ---
 title: "为何 WPF 对 vcruntime140 有引用"
 author: lindexi
-date: 2020-5-8 8:47:13 +0800
+date: 2020-12-3 20:28:12 +0800
 CreateTime: 4/29/2020 8:51:16 AM
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:4/29/2020 8:51:16 AM -->
 
-<!-- 发布 -->
+
 
 在独立发布的时候，可以在仓库里面找到 `vcruntime140.dll` 这个文件
 

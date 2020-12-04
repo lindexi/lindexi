@@ -1,7 +1,7 @@
 ---
 title: "WPF 开启Pointer消息存在的坑"
 author: lindexi
-date: 2020-8-26 18:46:28 +0800
+date: 2020-12-3 16:22:29 +0800
 CreateTime: 2019/12/24 14:33:41
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2019/12/24 14:33:41 -->
 
-<!-- 发布 -->
+
 
 ## 屏幕键盘
 

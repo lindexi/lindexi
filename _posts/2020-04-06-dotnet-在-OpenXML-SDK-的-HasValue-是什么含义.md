@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 OpenXML SDK 的 HasValue 是什么含义"
 author: lindexi
-date: 2020-4-7 8:25:52 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 4/6/2020 3:26:44 PM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:4/6/2020 3:26:44 PM -->
 
-<!-- 发布 -->
+
 
 在 OpenXML SDK 里面给很多基础类型都是自己新定义的，如 SingleValue 和 StringValue 等，这些定义都继承 OpenXmlSimpleType 类，而在 OpenXmlSimpleType 类就存在一个让刚入行的小伙伴会错误认为这是一个可空类型的 HasValue 属性
 

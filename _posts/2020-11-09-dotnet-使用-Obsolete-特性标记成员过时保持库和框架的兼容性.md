@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Obsolete 特性标记成员过时保持库和框架的兼容性"
 author: lindexi
-date: 2020-11-10 15:19:46 +0800
+date: 2020-12-3 16:22:21 +0800
 CreateTime: 2020/11/9 8:59:44
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/11/9 8:59:44 -->
 
-<!-- 发布 -->
+
 
 在 dotnet 里面，可以使用 Obsolete 这个编译器分析辅助特性，给某个成员，如类和属性和方法事件等标记过时。这个 Obsolete 特性可以用来辅助库和框架开发者，在发生 API 变动时，可以保持兼容，或者提醒上层业务的开发者们如何应对
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在国产 UOS 系统利用 dotnet tool 工具做文件传输"
 author: lindexi
-date: 2020-9-5 8:54:37 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/9/5 8:30:53
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/5 8:30:53 -->
 
-<!-- 发布 -->
+
 
 在 dotnet 里，可以制作一个 dotnet 应用，将这个应用发布到 NuGet 上，无论是外网的 NuGet 的还是自己内网搭建的都可以，然后其他小伙伴就可以通过 NuGet 下载到这个应用。这样的应用就叫 dotnet tool 工具
 

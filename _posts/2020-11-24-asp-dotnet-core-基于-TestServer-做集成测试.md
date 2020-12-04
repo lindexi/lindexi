@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 基于 TestServer 做集成测试"
 author: lindexi
-date: 2020-11-25 8:33:48 +0800
+date: 2020-12-3 16:22:14 +0800
 CreateTime: 2020/11/24 20:29:54
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/11/24 20:29:54 -->
 
-<!-- 发布 -->
+
 
 在开始从 dotnet core 3.1 升级到 dotnet 5 之前，我先开始准备集成测试。一开始准备的测试是开启主机，然后通过网络调用。然而这个方法一开启我就被拖出去了…… 因为开启主机会占用端口，而刚好我的几个项目都采用了相同的端口
 

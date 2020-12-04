@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 解决 dotnet core 应用进程间引用找不到 runtimeconfig 依赖文件"
 author: lindexi
-date: 2020-9-4 8:58:9 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/9/3 17:05:44
 categories: dotnet
 ---
@@ -14,7 +14,7 @@ categories: dotnet
 <!-- CreateTime:2020/9/3 17:05:44 -->
 
 
-<!-- 发布 -->
+
 
 在 .NET Core 里面，如果想要让输出文件夹包含两个不同的进程入口文件，最简单的方法是让一个项目引用另一个项目。这个做法在 .NET Framework 里面很好用，因为此时将会在输出文件夹里面包含两个项目的输出文件。也就解决了如果让另一个进程也被构建的问题
 

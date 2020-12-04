@@ -1,7 +1,7 @@
 ---
 title: "Unity3D 2019 设置的 Playmode tint 有何作用"
 author: lindexi
-date: 2020-6-16 8:26:8 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 6/16/2020 8:25:22 AM
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:6/16/2020 8:25:22 AM -->
 
-<!-- 发布 -->
+
 
 点击 Edit 的 Preferences 然后进入 Colors 界面
 

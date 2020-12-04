@@ -1,7 +1,7 @@
 ---
 title: "Office OpenXml SDK 文本段落允许标点溢出边界属性"
 author: lindexi
-date: 2020-4-27 8:41:59 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 4/26/2020 10:53:43 AM
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:4/26/2020 10:53:43 AM -->
 
-<!-- 发布 -->
+
 
 在 PPT 里面可以在段落设置允许标点溢出边界请看下面
 

@@ -1,9 +1,9 @@
 ---
 title: "Xamarin 构建提示 error APT2260 resource 找不到资源"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 20:38:46 +0800
 CreateTime: 2020/2/23 16:43:08
-categories: 
+categories: Xamarin
 ---
 
 其实这是 VisualStudio 逗比的问题，尝试关闭 VisualStudio 然后干掉 Bin 和 Obj 文件夹，然后先开启安卓模拟器，然后重新构建就可以了。如果一次重新构建失败，那么再次右击重新生成就可以了
@@ -12,8 +12,9 @@ categories:
 
 
 <!-- CreateTime:2020/2/23 16:43:08 -->
+<!-- 标签：Xamarin -->
 
-<!-- 发布 -->
+
 
 如果在新建一个 Xamarin 应用时，或安装了一个 NuGet 库之后，发现在构建时提示下面代码
 

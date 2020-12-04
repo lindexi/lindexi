@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 禁止 sdk style csproj 默认引用 Compile 代码文件"
 author: lindexi
-date: 2020-6-19 8:15:10 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 6/18/2020 7:50:18 PM
 categories: Roslyn MSBuild 编译器
 ---
@@ -13,7 +13,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- CreateTime:6/18/2020 7:50:18 PM -->
 
-<!-- 发布 -->
+
 
 <!-- 标签：Roslyn,MSBuild,编译器 -->
 

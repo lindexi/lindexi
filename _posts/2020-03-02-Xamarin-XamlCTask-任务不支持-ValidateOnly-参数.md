@@ -1,9 +1,9 @@
 ---
 title: "Xamarin XamlCTask 任务不支持 ValidateOnly 参数"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 20:37:29 +0800
 CreateTime: 2020/3/2 8:23:13
-categories: 
+categories: Xamarin
 ---
 
 使用 Xamarin 项目，添加一个额外的库项目，被 Xamarin.Form 引用，构建时提示“XamlCTask”任务不支持“ValidateOnly”参数。请确认该参数存在于此任务中，并且是可设置的公共实例属性
@@ -12,8 +12,8 @@ categories:
 
 
 <!-- CreateTime:2020/3/2 8:23:13 -->
+<!-- 标签：Xamarin -->
 
-<!-- 发布 -->
 
 英文的提示如下
 

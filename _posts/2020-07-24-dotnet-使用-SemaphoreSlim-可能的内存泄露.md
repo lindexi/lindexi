@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 SemaphoreSlim 可能的内存泄露"
 author: lindexi
-date: 2020-7-25 9:6:24 +0800
+date: 2020-12-3 16:22:21 +0800
 CreateTime: 2020/7/24 14:16:13
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/7/24 14:16:13 -->
 
-<!-- 发布 -->
+
 
 在 dotnet 的 SemaphoreSlim 的用法基本上是一个线程调用 WaitAsync 等待其他线程调用 Release 释放，在 Release 方法可以设置释放几次，设置之后就能通过几次的 WaitAsync 方法
 

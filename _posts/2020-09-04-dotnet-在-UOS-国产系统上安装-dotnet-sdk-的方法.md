@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上安装 dotnet sdk 的方法"
 author: lindexi
-date: 2020-9-4 8:58:1 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/9/4 8:50:35
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/4 8:50:35 -->
 
-<!-- 发布 -->
+
 
 使用的 UOS 是 UOS 20 x64 版本，这个系统版本是基于 debian 10 的，可以使用 debian 10 的方法安装
 

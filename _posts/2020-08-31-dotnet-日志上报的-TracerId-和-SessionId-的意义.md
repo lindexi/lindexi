@@ -1,7 +1,7 @@
 ---
 title: "dotnet 日志上报的 TracerId 和 SessionId 的意义"
 author: lindexi
-date: 2020-8-31 12:48:2 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/8/31 12:30:28
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/31 12:30:28 -->
 
-<!-- 发布 -->
+
 
 在开始之前，先需要了解为什么需要写日志。其实无论日志内容是什么，都会比没有写日志更好。但是比没有设计的日志，有经过设计的日志的价值更高，详细请看 [程序猿修养 日志应该如何写](https://blog.lindexi.com/post/%E7%A8%8B%E5%BA%8F%E7%8C%BF%E4%BF%AE%E5%85%BB-%E6%97%A5%E5%BF%97%E5%BA%94%E8%AF%A5%E5%A6%82%E4%BD%95%E5%86%99.html)
 

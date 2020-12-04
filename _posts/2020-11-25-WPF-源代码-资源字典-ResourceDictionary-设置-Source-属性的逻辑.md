@@ -1,7 +1,7 @@
 ---
 title: "WPF 源代码 资源字典 ResourceDictionary 设置 Source 属性的逻辑"
 author: lindexi
-date: 2020-11-26 8:34:58 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 2020/11/25 14:22:23
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/11/25 14:22:23 -->
 
-<!-- 发布 -->
+
 
 默认添加 Source 时都是指定 WPF 自身的 XAML 资源字典，用途就是指定 XAML 字典作为此控件的资源字典
 

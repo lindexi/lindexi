@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 颜色变换"
 author: lindexi
-date: 2020-9-8 8:50:25 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/9/7 10:43:07
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/7 10:43:07 -->
 
-<!-- 发布 -->
+
 
 大概的写法如下
 

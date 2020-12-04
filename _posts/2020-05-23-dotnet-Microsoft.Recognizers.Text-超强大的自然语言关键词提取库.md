@@ -1,7 +1,7 @@
 ---
 title: "dotnet Microsoft.Recognizers.Text 超强大的自然语言关键词提取库"
 author: lindexi
-date: 2020-7-31 14:18:49 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 5/23/2020 5:29:01 PM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:5/23/2020 5:29:01 PM -->
 
-<!-- 发布 -->
+
 
 先看看下图的一个效果，下图是尝试识别一句话里面的数值信息
 

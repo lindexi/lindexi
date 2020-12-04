@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 的 spcPct 和 spcPts 表示距离的不同"
 author: lindexi
-date: 2020-7-9 8:15:47 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 7/8/2020 3:39:37 PM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:7/8/2020 3:39:37 PM -->
 
-<!-- 发布 -->
+
 
 在 Office 的文本排版里面，会在 spcAft (Space After) 段后空白空间以及 spcBef (Space Before) 段前空白空间等使用 spcPct （Spacing Percent）百分比空间 和 spcPts（Spacing Points） 固定点数空间表示空白空间
 

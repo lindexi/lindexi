@@ -1,7 +1,7 @@
 ---
 title: "dotnet 的 TaskCompletionSource 的 TrySetResult 是线程安全"
 author: lindexi
-date: 2020-7-28 9:16:36 +0800
+date: 2020-12-3 16:22:23 +0800
 CreateTime: 2020/7/27 19:52:44
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/7/27 19:52:44 -->
 
-<!-- 发布 -->
+
 
 在多个线程调用 TaskCompletionSource 的 TrySetResult 方法，只有一个线程能进入设置，其他线程将会拿到返回 false 的值
 

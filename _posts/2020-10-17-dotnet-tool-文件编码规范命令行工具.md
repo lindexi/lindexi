@@ -1,7 +1,7 @@
 ---
 title: "dotnet tool 文件编码规范命令行工具"
 author: lindexi
-date: 2020-10-19 8:23:10 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/10/17 17:40:13
 categories: dotnet
 ---
@@ -14,7 +14,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/10/17 17:40:13 -->
 
-<!-- 发布 -->
+
 
 本文告诉大家的这个工具的源代码在 GitHub 完全开源，这个开源仓库是一个古老的仓库，核心功能是提供给 VisualStudio 插件，用于扫整个项目里面的所有文件，尝试找到所有编码不规范的文件。而本文只是用到这个仓库里面的 dotnet tool 工具
 

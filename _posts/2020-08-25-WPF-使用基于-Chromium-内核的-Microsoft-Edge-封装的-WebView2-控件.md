@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用基于 Chromium 内核的 Microsoft Edge 封装的 WebView2 控件"
 author: lindexi
-date: 2020-8-25 8:54:53 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 2020/8/25 8:54:05
 categories: WPF
 ---
@@ -14,7 +14,7 @@ categories: WPF
 <!-- CreateTime:2020/8/25 8:54:05 -->
 
 
-<!-- 发布 -->
+
 
 创建一个 WPF 项目，项目框架要求最低版本是 .NET Framework 4.6.2 或以上， 或 .NET Core 3.0 以上版本
 

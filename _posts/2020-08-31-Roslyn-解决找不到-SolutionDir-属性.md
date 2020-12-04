@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 解决找不到 SolutionDir 属性"
 author: lindexi
-date: 2020-9-1 8:33:0 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/8/31 19:06:05
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:2020/8/31 19:06:05 -->
 
-<!-- 发布 -->
+
 
 其实不是 SDK Style 拿不到 SolutionDir 属性，而是因为没有使用 sln 加入构建
 

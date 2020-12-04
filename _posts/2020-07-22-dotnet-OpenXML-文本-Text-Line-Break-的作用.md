@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 文本 Text Line Break 的作用"
 author: lindexi
-date: 2020-7-23 17:45:19 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/7/22 18:24:08
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/7/22 18:24:08 -->
 
-<!-- 发布 -->
+
 
 在 OpenXML 的 `<a:br/>` 的定义是 Text Line Break 是放在文本的 `<a:p>` 的标记，用于表示换行
 

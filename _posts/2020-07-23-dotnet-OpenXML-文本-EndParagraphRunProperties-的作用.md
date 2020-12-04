@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 文本 EndParagraphRunProperties 的作用"
 author: lindexi
-date: 2020-7-24 14:52:36 +0800
+date: 2020-12-3 16:22:20 +0800
 CreateTime: 2020/7/23 16:14:05
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/7/23 16:14:05 -->
 
-<!-- 发布 -->
+
 
 按照 [ECMA 376](http://www.ecma-international.org/publications/standards/Ecma-376.htm ) 的说法，此属性的作用是指定用户在此段落后开始输入其他文本时要保留的属性。只有在此段落的样式与段落本身不同时，才应设置此属性
 

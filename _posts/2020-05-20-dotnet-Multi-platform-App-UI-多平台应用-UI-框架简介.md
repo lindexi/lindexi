@@ -1,7 +1,7 @@
 ---
 title: "dotnet Multi-platform App UI 多平台应用 UI 框架简介"
 author: lindexi
-date: 2020-5-20 9:52:56 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 5/20/2020 8:38:04 AM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:5/20/2020 8:38:04 AM -->
 
-<!-- 发布 -->
+
 
 当咱在考虑如何在 .NET 上构建一个跨平台应用的时候，需要关注的设备和系统包括 Windows 系统和设备和 Android 和 iOS 和 macOS 等。为了满足多平台开发的需求，微软改名部推出了一个新的 UI 框架叫 .NET Multi-platform App UI 简称 .NET MAUI 框架
 

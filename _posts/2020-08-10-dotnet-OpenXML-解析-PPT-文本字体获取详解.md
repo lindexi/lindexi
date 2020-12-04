@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 解析 PPT 文本字体获取详解"
 author: lindexi
-date: 2020-8-13 14:58:18 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/8/10 10:17:20
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/10 10:17:20 -->
 
-<!-- 发布 -->
+
 
 有大量的 Office 相关软件在解析 PPT 文档使用的文本段的字体都非常简单，当然，这部分处理也就不全面
 

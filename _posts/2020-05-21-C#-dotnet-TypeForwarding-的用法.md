@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet TypeForwarding 的用法"
 author: lindexi
-date: 2020-6-5 9:15:47 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 5/21/2020 2:15:43 PM
 categories: dotnet C#
 ---
@@ -13,7 +13,7 @@ categories: dotnet C#
 
 <!-- CreateTime:5/21/2020 2:15:43 PM -->
 
-<!-- 发布 -->
+
 
 例如我写了一个程序集 A 里面有一个 Foo 类，后续我发现这个类其实应该放在程序集 B 里面
 

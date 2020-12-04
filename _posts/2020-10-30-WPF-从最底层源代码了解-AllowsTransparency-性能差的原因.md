@@ -1,7 +1,7 @@
 ---
 title: "WPF 从最底层源代码了解 AllowsTransparency 性能差的原因"
 author: lindexi
-date: 2020-10-31 9:43:9 +0800
+date: 2020-12-3 16:22:25 +0800
 CreateTime: 2020/10/30 19:28:50
 categories: WPF 渲染 WPF源代码
 ---
@@ -15,7 +15,7 @@ categories: WPF 渲染 WPF源代码
 
 <!-- 标签：WPF，渲染,WPF源代码 -->
 
-<!-- 发布 -->
+
 
 特别感谢 [少珺](https://blog.sdlsj.net/) 的研究，我只是将他告诉我的内容写出来，告诉大家
 

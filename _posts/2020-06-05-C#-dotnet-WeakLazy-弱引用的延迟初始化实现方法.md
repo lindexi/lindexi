@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet WeakLazy 弱引用的延迟初始化实现方法"
 author: lindexi
-date: 2020-6-6 8:57:9 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 6/5/2020 9:35:31 AM
 categories: dotnet C#
 ---
@@ -13,7 +13,7 @@ categories: dotnet C#
 
 <!-- CreateTime:6/5/2020 9:35:31 AM -->
 
-<!-- 发布 -->
+
 
 代码很简单，请看代码
 

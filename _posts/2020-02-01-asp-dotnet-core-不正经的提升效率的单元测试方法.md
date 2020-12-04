@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 不正经的提升效率的单元测试方法"
 author: lindexi
-date: 2020-7-2 16:45:6 +0800
+date: 2020-12-3 20:37:41 +0800
 CreateTime: 2020/2/1 17:04:53
 categories: dotnet
 ---
@@ -13,7 +13,6 @@ categories: dotnet
 
 <!-- CreateTime:2020/2/1 17:04:53 -->
 
-<!-- 发布 -->
 
 ## CUnit 中文命名单元测试
 

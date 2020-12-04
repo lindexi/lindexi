@@ -1,7 +1,7 @@
 ---
 title: "dotnet ValueTask 简单入门"
 author: lindexi
-date: 2020-11-20 17:41:30 +0800
+date: 2020-12-3 16:22:21 +0800
 CreateTime: 2020/11/20 9:25:04
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/11/20 9:25:04 -->
 
-<!-- 发布 -->
+
 
 为什么使用 ValueTask 可以用来提升软件整体的性能？回答这个文件的博客有很多，请看以下这几篇博客
 

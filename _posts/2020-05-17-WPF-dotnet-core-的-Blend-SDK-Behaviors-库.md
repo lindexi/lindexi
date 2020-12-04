@@ -1,7 +1,7 @@
 ---
 title: "WPF dotnet core 的 Blend SDK Behaviors 库"
 author: lindexi
-date: 2020-5-17 14:15:44 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 5/17/2020 2:13:54 PM
 categories: WPF dotnet
 ---
@@ -13,7 +13,7 @@ categories: WPF dotnet
 
 <!-- CreateTime:5/17/2020 2:13:54 PM -->
 
-<!-- 发布 -->
+
 
 先通过 NuGet 安装 [Microsoft.Xaml.Behaviors.Wpf](https://www.nuget.org/packages/Microsoft.Xaml.Behaviors.Wpf) 库
 

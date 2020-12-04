@@ -1,7 +1,7 @@
 ---
 title: "dotnet 基于 debian 创建一个 docker 的 sdk 镜像"
 author: lindexi
-date: 2020-3-9 9:48:5 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/3/8 11:33:47
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/3/8 11:33:47 -->
 
-<!-- 发布 -->
+
 
 这是小伙伴做的一个 jenkins 的镜像 jenkins/slave 我需要在这个镜像基础上安装 dotnet 进行构建
 

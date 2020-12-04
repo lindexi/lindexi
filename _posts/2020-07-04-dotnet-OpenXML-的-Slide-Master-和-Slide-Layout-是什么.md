@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 的 Slide Master 和 Slide Layout 是什么"
 author: lindexi
-date: 2020-11-18 14:26:2 +0800
+date: 2020-12-3 16:22:21 +0800
 CreateTime: 7/4/2020 10:32:32 AM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:7/4/2020 10:32:32 AM -->
 
-<!-- 发布 -->
+
 
 在做 Office 解析的时候，小伙伴需要特别的去学习一下 Office 哦，不然有很多概念将会难以理解。而 Office 有多强？光属性定义加上注释的 C# 代码文件就有 15M 这么多
 

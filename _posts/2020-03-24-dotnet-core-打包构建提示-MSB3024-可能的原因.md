@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 打包构建提示 MSB3024 可能的原因"
 author: lindexi
-date: 2020-3-25 9:16:28 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/3/24 9:26:41
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/3/24 9:26:41 -->
 
-<!-- 发布 -->
+
 
 在使用 `dotnet publish -c release` 在 Linux 服务器发布或使用 `-r linux-x64` 发布看到下面代码
 

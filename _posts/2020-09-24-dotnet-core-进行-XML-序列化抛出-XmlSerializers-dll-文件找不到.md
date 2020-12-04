@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 进行 XML 序列化抛出 XmlSerializers dll 文件找不到"
 author: lindexi
-date: 2020-9-25 8:45:52 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/9/24 20:27:49
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/24 20:27:49 -->
 
-<!-- 发布 -->
+
 
 在 dotnet core 下，使用如下代码进行 xml 序列化，其中 Foo 是我定义的类
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上安装 Mono 开发工具的方法"
 author: lindexi
-date: 2020-8-28 8:39:10 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/8/27 9:39:52
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/27 9:39:52 -->
 
-<!-- 发布 -->
+
 
 本文推荐的方法是配置上 debian 10 的源，然后使用 apt-get 安装，这样步骤比较少。但是有缺点是也许 debian 源会帮你更新一些系统组件，会让你的系统凉凉。因此少珺同学推荐在安装完成就干掉 debian 源
 

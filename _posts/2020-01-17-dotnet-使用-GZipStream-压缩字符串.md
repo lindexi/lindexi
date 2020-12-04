@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 GZipStream 压缩字符串"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/1/17 15:51:18
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/1/17 15:51:18 -->
 
-<!-- 发布 -->
+
 
 先拿到字符串，然后使用 Encoding.UTF8 转换为 byte 数组，写入到压缩
 

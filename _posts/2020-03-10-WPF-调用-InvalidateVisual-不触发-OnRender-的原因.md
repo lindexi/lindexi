@@ -1,7 +1,7 @@
 ---
 title: "WPF 调用 InvalidateVisual 不触发 OnRender 的原因"
 author: lindexi
-date: 2020-3-10 10:6:10 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/3/10 9:13:18
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/3/10 9:13:18 -->
 
-<!-- 发布 -->
+
 
 在 WPF 中通过 InvalidateVisual 方法可以告诉 WPF 框架，当前这个控件需要重新绘制元素，但是调用这个方法不是立刻进行绘制，不然性能就太差了。而是等待 WPF 的下一次更新界面就会触发控件的刷新
 

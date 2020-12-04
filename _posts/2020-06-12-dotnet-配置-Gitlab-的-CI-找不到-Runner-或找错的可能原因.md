@@ -1,7 +1,7 @@
 ---
 title: "dotnet 配置 Gitlab 的 CI 找不到 Runner 或找错的可能原因"
 author: lindexi
-date: 2020-6-13 8:43:47 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 6/12/2020 12:43:19 PM
 categories: git dotnet
 ---
@@ -13,7 +13,7 @@ categories: git dotnet
 
 <!-- CreateTime:6/12/2020 12:43:19 PM -->
 
-<!-- 发布 -->
+
 
 ## 公共Runner冲突
 

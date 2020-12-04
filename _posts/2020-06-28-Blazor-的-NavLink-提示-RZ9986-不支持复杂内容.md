@@ -1,7 +1,7 @@
 ---
 title: "Blazor 的 NavLink 提示 RZ9986 不支持复杂内容"
 author: lindexi
-date: 2020-6-28 8:41:11 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 6/28/2020 8:40:39 AM
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:6/28/2020 8:40:39 AM -->
 
-<!-- 发布 -->
+
 
 在使用如下面代码在循环里面写跳转逻辑
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 如何不联网下快速获取一段url链接里面读取文件名"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 20:38:14 +0800
 CreateTime: 2020/2/16 14:44:30
 categories: dotnet C#
 ---
@@ -13,7 +13,6 @@ categories: dotnet C#
 
 <!-- CreateTime:2020/2/16 14:44:30 -->
 
-<!-- 发布 -->
 
 如我有链接 https://blog.lindexi.com/lindexi.html 我想要拿到 lindexi.html 这个文件名可以如何写代码最少
 

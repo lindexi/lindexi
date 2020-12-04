@@ -1,7 +1,7 @@
 ---
 title: "dotnet 用 ASP.NET Core 制作一个可以上传库文件的 NuGet 服务器"
 author: lindexi
-date: 2020-4-5 15:57:40 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 4/5/2020 3:39:34 PM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:4/5/2020 3:39:34 PM -->
 
-<!-- 发布 -->
+
 
 其实有现成的整个 NuGet 服务器，包含了包的列举和上传等功能，这就是 [BaGet](https://github.com/loic-sharma/BaGet ) 项目，但是这个项目存在的问题是太大了，我想要做到自动测试里面去，又有很多有趣的逻辑需要写
 

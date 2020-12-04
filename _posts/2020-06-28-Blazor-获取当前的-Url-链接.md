@@ -1,7 +1,7 @@
 ---
 title: "Blazor 获取当前的 Url 链接"
 author: lindexi
-date: 2020-6-28 8:41:11 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 6/28/2020 8:40:39 AM
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:6/28/2020 8:40:39 AM -->
 
-<!-- 发布 -->
+
 
 首先在页面添加依赖注入，如下面代码
 

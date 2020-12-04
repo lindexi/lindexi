@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 文本 BodyProperties 的属性作用"
 author: lindexi
-date: 2020-7-29 14:29:19 +0800
+date: 2020-12-3 16:22:20 +0800
 CreateTime: 2020/7/28 15:34:21
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/7/28 15:34:21 -->
 
-<!-- 发布 -->
+
 
 根据 [ECMA-376](http://www.ecma-international.org/publications/standards/Ecma-376.htm ) 文档 21.1.2.1.1 bodyPr (Body Properties) 在 Office 的 OpenXML 使用这个属性定义文本框的属性
 

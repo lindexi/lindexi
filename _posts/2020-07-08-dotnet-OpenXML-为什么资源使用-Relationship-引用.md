@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 为什么资源使用 Relationship 引用"
 author: lindexi
-date: 2020-7-9 8:15:47 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 7/8/2020 11:16:11 AM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:7/8/2020 11:16:11 AM -->
 
-<!-- 发布 -->
+
 
 在做 Office 解析，可以看到资源的引用，如图片的引用等，不是应用相对的文件路径，而是使用 `r:id="xx"` 的方式引用，而实际的引用文件需要在 xx.rels 文件里面才能找到引用的路径
 

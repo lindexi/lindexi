@@ -1,7 +1,7 @@
 ---
 title: "WPF 设置元素为 Collapsed 是否会创建此元素"
 author: lindexi
-date: 2020-11-24 8:55:23 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/11/23 19:05:02
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/11/23 19:05:02 -->
 
-<!-- 发布 -->
+
 
 在 WPF 中，在 XAML 里面写的元素，无论 Visibility 设置为什么，都会在内存中创建这个元素对象
 

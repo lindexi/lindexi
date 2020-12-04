@@ -1,7 +1,7 @@
 ---
 title: "dotnet 如何在 dotnet test 单元测试控制台里输出日志内容"
 author: lindexi
-date: 2020-11-28 9:4:51 +0800
+date: 2020-12-3 16:22:22 +0800
 CreateTime: 2020/11/28 9:02:42
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/11/28 9:02:42 -->
 
-<!-- 发布 -->
+
 
 解决方法很简单，只需要在控制台输出的部分逻辑修改为 `Console.WriteLine` 而不是 `Debug.WriteLine` 方法
 

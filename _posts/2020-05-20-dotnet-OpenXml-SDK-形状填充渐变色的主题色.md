@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXml SDK 形状填充渐变色的主题色"
 author: lindexi
-date: 2020-5-21 8:16:31 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 5/20/2020 11:46:32 AM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:5/20/2020 11:46:32 AM -->
 
-<!-- 发布 -->
+
 
 我拿到一份有趣的课件，从这份课件的表现上，可以找到在一个 Shape 元素里面的 ShapeProperties 定义了 GradientFill 属性
 

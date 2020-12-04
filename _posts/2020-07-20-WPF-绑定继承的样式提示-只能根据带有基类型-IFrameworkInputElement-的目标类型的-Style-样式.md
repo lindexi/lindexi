@@ -1,7 +1,7 @@
 ---
 title: "WPF 绑定继承的样式提示 只能根据带有基类型 IFrameworkInputElement 的目标类型的 Style 样式"
 author: lindexi
-date: 2020-7-20 18:18:2 +0800
+date: 2020-12-3 20:27:51 +0800
 CreateTime: 2020/7/20 17:58:20
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/7/20 17:58:20 -->
 
-<!-- 发布 -->
+
 
 在界面添加下面代码
 

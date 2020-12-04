@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 高性能多线程工具 AsyncAutoResetEvent 异步等待使用方法和原理"
 author: lindexi
-date: 2020-9-25 9:46:20 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/3/21 14:15:17
 categories: dotnet C#
 ---
@@ -13,7 +13,7 @@ categories: dotnet C#
 
 <!-- CreateTime:2020/3/21 14:15:17 -->
 
-<!-- 发布 -->
+
 
 和框架自带的 [AutoResetEvent 类](https://docs.microsoft.com/zh-cn/dotnet/api/system.threading.autoresetevent?view=netframework-4.8 ) 一样的作用，表示线程同步事件在一个等待线程释放后收到信号时自动重置
 

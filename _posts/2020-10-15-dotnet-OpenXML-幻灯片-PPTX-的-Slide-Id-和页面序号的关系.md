@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 幻灯片 PPTX 的 Slide Id 和页面序号的关系"
 author: lindexi
-date: 2020-10-16 8:33:56 +0800
+date: 2020-12-3 16:22:20 +0800
 CreateTime: 2020/10/15 11:42:20
 categories: dotnet
 ---
@@ -14,7 +14,7 @@ categories: dotnet
 <!-- CreateTime:2020/10/15 11:42:20 -->
 
 
-<!-- 发布 -->
+
 
 在开始之前，我期望你是了解一些 PPT 解析的相关知识的，入门级博客请看 [C# dotnet 使用 OpenXml 解析 PPT 文件](https://blog.lindexi.com/post/C-dotnet-%E4%BD%BF%E7%94%A8-OpenXml-%E8%A7%A3%E6%9E%90-PPT-%E6%96%87%E4%BB%B6.html)
 

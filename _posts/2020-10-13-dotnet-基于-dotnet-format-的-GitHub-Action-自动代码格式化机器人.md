@@ -1,7 +1,7 @@
 ---
 title: "dotnet 基于 dotnet format 的 GitHub Action 自动代码格式化机器人"
 author: lindexi
-date: 2020-10-13 20:37:26 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/10/13 19:53:07
 categories: git dotnet
 ---
@@ -13,7 +13,7 @@ categories: git dotnet
 
 <!-- CreateTime:2020/10/13 19:53:07 -->
 
-<!-- 发布 -->
+
 
 这个方法将需要用到 dotnet 完全开源的专业格式化工具 dotnet format 工具，请看 [https://github.com/dotnet/format](https://github.com/dotnet/format)
 

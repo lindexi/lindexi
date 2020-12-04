@@ -1,7 +1,7 @@
 ---
 title: "WPF 讲讲 Microsoft.NET.Sdk.WindowsDesktop 的原理"
 author: lindexi
-date: 2020-3-19 16:3:58 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 2020/3/16 8:31:10
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/3/16 8:31:10 -->
 
-<!-- 发布 -->
+
 
 现在 WPF 开源了，换句话说，遇到问题自己改代码也是可以的。或者说自己看代码也是很棒的
 

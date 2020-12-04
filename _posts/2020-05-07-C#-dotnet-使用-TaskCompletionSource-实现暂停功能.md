@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 使用 TaskCompletionSource 实现暂停功能"
 author: lindexi
-date: 2020-5-8 15:12:55 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 5/7/2020 4:43:55 PM
 categories: dotnet C#
 ---
@@ -13,7 +13,7 @@ categories: dotnet C#
 
 <!-- CreateTime:5/7/2020 4:43:55 PM -->
 
-<!-- 发布 -->
+
 
 用异步等待的方式实现暂停有什么优势？
 

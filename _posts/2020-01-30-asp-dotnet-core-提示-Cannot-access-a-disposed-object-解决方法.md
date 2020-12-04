@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 提示 Cannot access a disposed object 解决方法"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/1/30 16:55:33
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/1/30 16:55:33 -->
 
-<!-- 发布 -->
+
 
 在开发端访问链接可以返回一些提示，如我使用下面代码做一个文件下载服务器
 

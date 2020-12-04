@@ -1,7 +1,7 @@
 ---
 title: "dotnet 关于 SmartSql 的 SQL 语句的属性替换前缀说明"
 author: lindexi
-date: 2020-9-12 13:6:43 +0800
+date: 2020-12-3 16:22:22 +0800
 CreateTime: 2020/9/12 11:16:01
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/12 11:16:01 -->
 
-<!-- 发布 -->
+
 
 ## 用途
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet Open XML 如何判断一份 Office 文档是否被加密"
 author: lindexi
-date: 2020-9-18 8:42:28 +0800
+date: 2020-12-3 16:22:19 +0800
 CreateTime: 2020/9/17 19:15:50
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/17 19:15:50 -->
 
-<!-- 发布 -->
+
 
 在 Office 里，对 pptx 文档或 docx 或 xlsx 文档的加密是将文档加密为 OLE 格式，也就是和 Office 2003 的 doc 等文档格式相同的 Ole object 格式
 

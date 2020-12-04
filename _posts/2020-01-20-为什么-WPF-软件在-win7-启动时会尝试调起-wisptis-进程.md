@@ -1,7 +1,7 @@
 ---
 title: "为什么 WPF 软件在 win7 启动时会尝试调起 wisptis 进程"
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2020-12-3 20:28:12 +0800
 CreateTime: 2020/1/20 16:28:32
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/1/20 16:28:32 -->
 
-<!-- 发布 -->
+
 
 在 WPF 启动时，将会在 Window 类的 Visibility 修改时调用到 WispLogic.RegisterHwndForInput 方法进行初始化触摸，这部分详细请看 [WPF 触摸到事件](https://blog.lindexi.com/post/WPF-%E8%A7%A6%E6%91%B8%E5%88%B0%E4%BA%8B%E4%BB%B6.html) 而在初始化触摸时，需要用到 PenIMC 的逻辑
 

@@ -1,7 +1,7 @@
 ---
 title: "msbuild 修改 VisualStudio 文件复制到输出目录的路径"
 author: lindexi
-date: 2020-7-3 18:51:11 +0800
+date: 2020-12-3 20:27:22 +0800
 CreateTime: 2020/1/19 18:08:07
 categories: VisualStudio
 ---
@@ -13,7 +13,7 @@ categories: VisualStudio
 
 <!-- CreateTime:2020/1/19 18:08:07 -->
 
-<!-- 发布 -->
+
 
 ## 文件夹到文件夹
 

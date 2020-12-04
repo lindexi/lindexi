@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 文本字体的选择规则"
 author: lindexi
-date: 2020-8-5 12:19:34 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 7/8/2020 4:40:01 PM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:7/8/2020 4:40:01 PM -->
 
-<!-- 发布 -->
+
 
 在做 Office 解析的时候，在 OpenXML SDK 里面是没有找到表示字体的属性的，只能找到 LatinFont 和 EastAsianFont 和 ComplexScriptFont 和 SymbolFont 这几个
 

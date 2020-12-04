@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Direct Manipulation 的方法"
 author: lindexi
-date: 2020-8-3 8:39:14 +0800
+date: 2020-12-3 16:22:25 +0800
 CreateTime: 2020/8/1 8:32:34
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/8/1 8:32:34 -->
 
-<!-- 发布 -->
+
 
 本文的代码都是从 [Using DirectManipulation with WPF](http://blog.neteril.org/blog/2019/03/30/using-directmanipulation-with-wpf/ ) 这篇博客抄的
 

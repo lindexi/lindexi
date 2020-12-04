@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 简单聊聊 PPT 文本解析"
 author: lindexi
-date: 2020-7-23 8:32:3 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/7/22 16:46:07
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/7/22 16:46:07 -->
 
-<!-- 发布 -->
+
 
 在 PPT 中的文本框也是形状，只是形状里面添加了特殊的设置。而没有添加特殊设置的形状也可以添加文本，在 PPT 的文本使用 `<p:txBody>` 包含，这就是本文主要和大家介绍的内容
 

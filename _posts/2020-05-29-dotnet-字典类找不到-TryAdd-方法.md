@@ -1,7 +1,7 @@
 ---
 title: "dotnet 字典类找不到 TryAdd 方法"
 author: lindexi
-date: 2020-5-30 8:20:59 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 5/29/2020 10:29:45 AM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:5/29/2020 10:29:45 AM -->
 
-<!-- 发布 -->
+
 
 在这个更改 [https://github.com/dotnet/runtime/pull/37041](https://github.com/dotnet/runtime/pull/37041) 有小伙伴告诉我可以使用 TryAdd 方法减少判断，我添加之后发现差不多 100 个自动化测试都失败，提示下面代码
 

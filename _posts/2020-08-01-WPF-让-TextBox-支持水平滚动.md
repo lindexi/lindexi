@@ -1,7 +1,7 @@
 ---
 title: "WPF 让 TextBox 支持水平滚动"
 author: lindexi
-date: 2020-8-3 8:39:20 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/8/1 11:32:15
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/8/1 11:32:15 -->
 
-<!-- 发布 -->
+
 
 但是为什么我设置了，没有水平滚动条呢？也许是设置了 TextWrapping 属性
 

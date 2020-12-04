@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Skia 绘制 WriteableBitmap 图片"
 author: lindexi
-date: 2020-8-31 12:31:19 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 2020/8/31 12:30:28
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/8/31 12:30:28 -->
 
-<!-- 发布 -->
+
 
 谷歌提出了 Skia 全平台渲染框架，这是一个很底层的框架，详细请看 [google/skia: Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.](https://github.com/google/skia)
 

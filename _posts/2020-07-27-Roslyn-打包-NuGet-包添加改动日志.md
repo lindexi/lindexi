@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 打包 NuGet 包添加改动日志"
 author: lindexi
-date: 2020-7-28 8:26:11 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/7/27 10:21:16
 categories: Roslyn MSBuild 编译器
 ---
@@ -13,7 +13,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- CreateTime:2020/7/27 10:21:16 -->
 
-<!-- 发布 -->
+
 <!-- 标签：Roslyn,MSBuild,编译器 -->
 
 在我的团队的 CBB 基础库项目的文件规范，要求每个项目都会包含 README.md 和 CHANGELOG.md 文件，其中的 CHANGELOG.md 文件就是记录 API 变更等的改动记录文件

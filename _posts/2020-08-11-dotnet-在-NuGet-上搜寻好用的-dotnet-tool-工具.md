@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 NuGet 上搜寻好用的 dotnet tool 工具"
 author: lindexi
-date: 2020-8-12 17:22:41 +0800
+date: 2020-12-3 16:22:22 +0800
 CreateTime: 2020/8/11 11:04:18
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/8/11 11:04:18 -->
 
-<!-- 发布 -->
+
 
 进入 [https://www.nuget.org](https://www.nuget.org) 然后搜寻一个关键词，如我想要找到一个文件下载器
 

@@ -1,7 +1,7 @@
 ---
 title: "Office Open XML 的测量单位"
 author: lindexi
-date: 2020-7-28 12:21:34 +0800
+date: 2020-12-3 16:22:24 +0800
 CreateTime: 2020/2/19 16:19:12
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:2020/2/19 16:19:12 -->
 
-<!-- 发布 -->
+
 
 在 Office Open XML 默认单位是 dxa 也就是像素点的 20 倍，如 ISO 216 A4 (210x297mm ~ 8.3×11.7in) 的大小可以使用下面代码表示
 

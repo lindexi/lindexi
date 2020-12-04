@@ -1,7 +1,7 @@
 ---
 title: "dotnet 三句命令行创建运行一个 web 服务程序"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/1/13 8:45:47
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/1/13 8:45:47 -->
 
-<!-- 发布 -->
+
 
 如果还没有安装 dotnet 那么请到 [https://dotnet.microsoft.com/ 官网](https://dotnet.microsoft.com/ ) 下载安装，基本上看界面就知道如何下载安装
 

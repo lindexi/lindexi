@@ -1,7 +1,7 @@
 ---
 title: "在 GitHub 仓库添加 NuGet 版本图标和构建图标"
 author: lindexi
-date: 2020-3-9 10:12:15 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/3/9 9:48:05
 categories: git
 ---
@@ -13,7 +13,7 @@ categories: git
 
 <!-- CreateTime:2020/3/9 9:48:05 -->
 
-<!-- 发布 -->
+
 
 我推荐在 Github 上使用 Action 构建，此时可以通过 [Github 添加 Action 编译图标](https://blog.lindexi.com/post/Github-%E6%B7%BB%E5%8A%A0-Action-%E7%BC%96%E8%AF%91%E5%9B%BE%E6%A0%87.html) 这个方法添加构建图标
 

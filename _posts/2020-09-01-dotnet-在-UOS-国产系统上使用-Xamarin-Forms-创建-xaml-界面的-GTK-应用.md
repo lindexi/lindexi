@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用"
 author: lindexi
-date: 2020-9-3 8:25:59 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 2020/9/1 21:18:30
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/1 21:18:30 -->
 
-<!-- 发布 -->
+
 
 本文将使用特别底层的方法告诉大家如何一步步创建，而不是告诉大家如何在 IDE 上进行快速的创建。因此本文更适合用来告诉大家一些基础的内容，而不适合用来规模化创建上
 

@@ -1,7 +1,7 @@
 ---
 title: "WPF 新建用户控件提示 Error MC3000 首个 xaml 字符不合法"
 author: lindexi
-date: 2020-6-1 11:29:53 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 6/1/2020 10:26:50 AM
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:6/1/2020 10:26:50 AM -->
 
-<!-- 发布 -->
+
 
 在构建的时候提示下面代码
 

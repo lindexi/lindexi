@@ -1,7 +1,7 @@
 ---
 title: "Azure 无服务器 Function 函数计算服务 dotnet core 3.1 创建和部署入门"
 author: lindexi
-date: 2020-5-20 8:33:6 +0800
+date: 2020-12-3 20:27:50 +0800
 CreateTime: 5/13/2020 9:18:11 AM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:5/13/2020 9:18:11 AM -->
 
-<!-- 发布 -->
+
 
 本文会偏向于操作，而且仅仅是一条龙下来没有其他分支。如果想要了解边边角角其他的分支功能，请看微软学习平台的 [使用 Visual Studio 开发、测试和部署 Azure Functions - Learn](https://docs.microsoft.com/zh-cn/learn/modules/develop-test-deploy-azure-functions-with-visual-studio/ )
 

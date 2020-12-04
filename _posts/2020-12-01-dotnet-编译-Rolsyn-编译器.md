@@ -1,7 +1,7 @@
 ---
 title: "dotnet 编译 Rolsyn 编译器"
 author: lindexi
-date: 2020-12-1 9:2:33 +0800
+date: 2020-12-3 16:22:24 +0800
 CreateTime: 2020/12/1 8:41:20
 categories: dotnet
 ---
@@ -14,7 +14,7 @@ categories: dotnet
 <!-- CreateTime:2020/12/1 8:41:20 -->
 
 
-<!-- 发布 -->
+
 
 整个 Rolsyn 编译器的代码基本都是由 C# 和 VB 构成的，所有源代码都在 GitHub 上完全开源请看： [https://github.com/dotnet/roslyn](https://github.com/dotnet/roslyn)
 

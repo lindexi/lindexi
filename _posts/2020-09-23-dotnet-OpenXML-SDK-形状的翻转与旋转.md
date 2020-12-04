@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML SDK 形状的翻转与旋转"
 author: lindexi
-date: 2020-10-30 8:59:1 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 2020/9/23 17:41:13
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/23 17:41:13 -->
 
-<!-- 发布 -->
+
 
 本文来和小伙伴聊聊最复杂的 ConnectionShape 形状的方向，这个 ConnectionShape 如果是箭头，那么请问箭头方向被多少个属性影响？有很多个影响，最简单的就是 cx 和 cy 的影响。其次就是形状的旋转，而形状的翻转影响是形状本身
 

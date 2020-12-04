@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 2 使用 DispatchProxy 做动态代理 AOP 入门"
 author: lindexi
-date: 2020-6-22 8:26:37 +0800
+date: 2020-12-3 16:22:26 +0800
 CreateTime: 6/20/2020 5:49:44 PM
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:6/20/2020 5:49:44 PM -->
 
-<!-- 发布 -->
+
 
 使用 DispatchProxy 有一些限制，如只能创建接口的实例。使用 DispatchProxy 可以让咱做到从无中创建出某个实例，这个实例继承咱想要的接口
 

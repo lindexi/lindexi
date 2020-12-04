@@ -1,9 +1,9 @@
 ---
 title: "Xamarin 解决创建空白项目编译提示 linking references 找不到资源"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2020-12-3 20:38:44 +0800
 CreateTime: 2019/12/24 9:28:30
-categories: 
+categories: Xamarin
 ---
 
 在新建一个 Xamarin 应用，编译时提示了 linking references 和一些诡异的文件无法访问，原因是文件路径问题和 NuGet 还原问题
@@ -12,8 +12,8 @@ categories:
 
 
 <!-- CreateTime:2019/12/24 9:28:30 -->
+<!-- 标签：Xamarin -->
 
-<!-- 发布 -->
 
 如果创建的 Xamarin 项目所在的文件路径比较深，同时包含中文等字符时，在编译时可以会诡异失败
 

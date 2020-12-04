@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 使用 startIndex 提升 IndexOf 的性能"
 author: lindexi
-date: 2020-8-1 8:28:58 +0800
+date: 2020-12-3 16:22:15 +0800
 CreateTime: 2020/7/31 19:20:53
 categories: dotnet C#
 ---
@@ -13,7 +13,7 @@ categories: dotnet C#
 
 <!-- CreateTime:2020/7/31 19:20:53 -->
 
-<!-- 发布 -->
+
 
 假定只有一个字符的匹配，例如从字符串里面找到 `:` 属于第几个字符，可以如何写？最简单的是如下面代码
 

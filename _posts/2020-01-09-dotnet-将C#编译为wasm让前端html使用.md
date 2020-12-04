@@ -1,7 +1,7 @@
 ---
 title: "dotnet 将C#编译为wasm让前端html使用"
 author: lindexi
-date: 2020-3-27 11:41:20 +0800
+date: 2020-12-3 16:22:28 +0800
 CreateTime: 2020/1/9 20:25:34
 categories: dotnet C#
 ---
@@ -13,7 +13,7 @@ categories: dotnet C#
 
 <!-- CreateTime:2020/1/9 20:25:34 -->
 
-<!-- 发布 -->
+
 
 这需要搜 WebAssembly 就可以找到超级多的赞扬的文章，我这里也就不需要多说了。接下来告诉大家使用一个超级简单的代码入门
 

@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 如何快速添加一个 Git Tag 推送"
 author: lindexi
-date: 2020-4-19 10:8:36 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 4/17/2020 11:33:12 AM
 categories: VisualStudio git
 ---
@@ -13,7 +13,7 @@ categories: VisualStudio git
 
 <!-- CreateTime:4/17/2020 11:33:12 AM -->
 
-<!-- 发布 -->
+
 
 进入团队管理界面，我用的英文版的，但是按钮在中文版也没有变化。我的 VisualStudio 是 2019 的
 

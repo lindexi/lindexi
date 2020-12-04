@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 读取 PackageReference 的版本号和内容"
 author: lindexi
-date: 2020-8-6 8:28:14 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/8/5 16:12:49
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:2020/8/5 16:12:49 -->
 
-<!-- 发布 -->
+
 
 获取方法是放在 Target 里面，如下面代码
 

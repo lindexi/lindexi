@@ -1,7 +1,7 @@
 ---
 title: "WPF 将 docx 的 Word 文件转换为 FlowDocument 显示"
 author: lindexi
-date: 2020-8-5 8:48:16 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/8/4 19:30:53
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/8/4 19:30:53 -->
 
-<!-- 发布 -->
+
 
 本文源代码请看 [ArtMalykhin/wpf-embedded-docx](https://github.com/ArtMalykhin/wpf-embedded-docx )
 

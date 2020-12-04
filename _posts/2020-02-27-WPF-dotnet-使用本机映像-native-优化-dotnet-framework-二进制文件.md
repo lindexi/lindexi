@@ -1,7 +1,7 @@
 ---
 title: "WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2020-12-3 20:27:49 +0800
 CreateTime: 2020/2/27 10:03:01
 categories: WPF dotnet
 ---
@@ -13,7 +13,7 @@ categories: WPF dotnet
 
 <!-- CreateTime:2020/2/27 10:03:01 -->
 
-<!-- 发布 -->
+
 
 咱可以通过预编译咱的二进制文件来提升 .NET Framework 应用的启动时间。推荐使用技术用来在大型的应用的打包和分发上或上架到微软应用商店。微软官方测试表示这个技术大概能提升 20% 的性能。这项技术用到了 ReadyToRun 技术，详细请看 [coreclr/readytorun-overview.md at master · dotnet/coreclr](https://github.com/dotnet/coreclr/blob/master/Documentation/botr/readytorun-overview.md )
 

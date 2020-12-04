@@ -1,7 +1,7 @@
 ---
 title: "在 VisualStudio 给文件起一个带分号的文件名会怎样"
 author: lindexi
-date: 2020-5-27 9:45:29 +0800
+date: 2020-12-3 16:22:27 +0800
 CreateTime: 5/27/2020 9:04:53 AM
 categories: VisualStudio
 ---
@@ -13,7 +13,7 @@ categories: VisualStudio
 
 <!-- CreateTime:5/27/2020 9:04:53 AM -->
 
-<!-- 发布 -->
+
 
 新建一个 WPF 项目，然后编辑文件名，添加分号
 

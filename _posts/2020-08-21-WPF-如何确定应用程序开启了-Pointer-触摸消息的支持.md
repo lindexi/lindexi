@@ -1,7 +1,7 @@
 ---
 title: "WPF 如何确定应用程序开启了 Pointer 触摸消息的支持"
 author: lindexi
-date: 2020-8-21 8:50:17 +0800
+date: 2020-12-3 16:22:26 +0800
 CreateTime: 2020/8/21 8:43:29
 categories: WPF
 ---
@@ -13,7 +13,7 @@ categories: WPF
 
 <!-- CreateTime:2020/8/21 8:43:29 -->
 
-<!-- 发布 -->
+
 
 在 [win10 支持默认把触摸提升 Pointer 消息](https://blog.lindexi.com/post/win10-%E6%94%AF%E6%8C%81%E9%BB%98%E8%AE%A4%E6%8A%8A%E8%A7%A6%E6%91%B8%E6%8F%90%E5%8D%87-Pointer-%E6%B6%88%E6%81%AF.html) 告诉大家如何在 Win10 下让 WPF 在 .NET 4.7 和以上框架支持 Pointer 消息
 

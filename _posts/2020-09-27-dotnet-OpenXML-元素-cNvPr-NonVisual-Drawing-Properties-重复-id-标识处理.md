@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 重复 id 标识处理"
 author: lindexi
-date: 2020-9-28 8:41:42 +0800
+date: 2020-12-3 16:22:19 +0800
 CreateTime: 2020/9/27 19:22:08
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2020/9/27 19:22:08 -->
 
-<!-- 发布 -->
+
 
 在 OpenXML 的元素的标识一个好的设计是使用 uint 作为标识符，这样做的兼容能力更强。因为可以做到在存在标识符不存在以及重复的时候，自动处理
 

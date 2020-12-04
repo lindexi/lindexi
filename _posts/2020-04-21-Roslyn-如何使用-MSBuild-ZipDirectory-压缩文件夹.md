@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何使用 MSBuild ZipDirectory 压缩文件夹"
 author: lindexi
-date: 2020-4-22 8:26:26 +0800
+date: 2020-12-3 20:27:51 +0800
 CreateTime: 4/21/2020 7:50:26 PM
 categories: 
 ---
@@ -13,7 +13,7 @@ categories:
 
 <!-- CreateTime:4/21/2020 7:50:26 PM -->
 
-<!-- 发布 -->
+
 
 使用 ZipDirectory 有两个必要的属性，一个是 DestinationFile 表示输出的 zip 文件的路径，另一个是 SourceDirectory 表示将被压缩的文件夹路径
 
