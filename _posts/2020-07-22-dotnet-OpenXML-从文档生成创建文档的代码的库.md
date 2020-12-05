@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 从文档生成创建文档的代码的库"
 author: lindexi
-date: 2020-7-22 12:11:43 +0800
+date: 2020-12-4 8:31:10 +0800
 CreateTime: 2020/7/22 12:11:30
 categories: dotnet
 ---
@@ -12,8 +12,6 @@ categories: dotnet
 
 
 <!-- CreateTime:2020/7/22 12:11:30 -->
-
-<!-- 发布  -->
 
 这是一个完全开源的库，代码放在 [https://github.com/rmboggs/Serialize.OpenXml.CodeGen](https://github.com/rmboggs/Serialize.OpenXml.CodeGen) 欢迎小伙伴访问
 
