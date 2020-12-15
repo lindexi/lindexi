@@ -1,8 +1,8 @@
 ---
 title: "dotnet 如何更改应用在任务管理器显示的进程名 AssemblyTitle 的值"
 author: lindexi
-date: 2020-12-14 8:36:58 +0800
-CreateTime: 2020-12-14 8:36:58 +0800
+date: 2020-12-14 8:37:17 +0800
+CreateTime: 2020/12/14 8:36:58
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2020/12/14 8:36:58 -->
 
 <!-- 发布 -->
 
