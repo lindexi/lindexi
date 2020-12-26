@@ -1,8 +1,8 @@
 ---
 title: "WPF 框架开发 加入 InternalsVisibleToAttribute 特性让其他程序集可以访问 internal 权限成员"
 author: lindexi
-date: 2020-12-24 19:14:16 +0800
-CreateTime: 2020-12-24 17:38:25 +0800
+date: 2020-12-25 8:48:42 +0800
+CreateTime: 2020/12/24 17:38:25
 categories: WPF
 ---
 
@@ -11,6 +11,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2020/12/24 17:38:25 -->
 
 
 <!-- 发布 -->
