@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2020-12-21 20:23:37 +0800
+date: 2021-1-5 8:58:43 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -94,6 +94,8 @@ categories:
 [dotnet 在 OpenXML SDK 的 HasValue 是什么含义](https://blog.lindexi.com/post/dotnet-%E5%9C%A8-OpenXML-SDK-%E7%9A%84-HasValue-%E6%98%AF%E4%BB%80%E4%B9%88%E5%90%AB%E4%B9%89.html)
 
 [dotnet Open XML 如何判断一份 Office 文档是否被加密](https://blog.lindexi.com/post/dotnet-Open-XML-%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E4%B8%80%E4%BB%BD-Office-%E6%96%87%E6%A1%A3%E6%98%AF%E5%90%A6%E8%A2%AB%E5%8A%A0%E5%AF%86.html )
+
+[dotnet OpenXML 修复 Office 文档里面包含格式不正确的 Uri 而无法解析](https://blog.lindexi.com/post/dotnet-OpenXML-%E4%BF%AE%E5%A4%8D-Office-%E6%96%87%E6%A1%A3%E9%87%8C%E9%9D%A2%E5%8C%85%E5%90%AB%E6%A0%BC%E5%BC%8F%E4%B8%8D%E6%AD%A3%E7%A1%AE%E7%9A%84-Uri-%E8%80%8C%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90.html )
 
 ## 工具
 

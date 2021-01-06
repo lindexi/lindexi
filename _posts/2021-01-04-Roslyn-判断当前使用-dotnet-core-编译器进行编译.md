@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 判断当前使用 dotnet core 编译器进行编译"
 author: lindexi
-date: 2021-1-5 8:41:20 +0800
-CreateTime: 2021-1-4 19:8:32 +0800
+date: 2021-1-5 8:41:51 +0800
+CreateTime: 2021/1/4 19:08:32
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2021/1/4 19:08:32 -->
 
 <!-- 标签：Roslyn,MSBuild,编译器 -->
 <!-- 发布 -->

@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 修复 Office 文档里面包含格式不正确的 Uri 而无法解析"
 author: lindexi
-date: 2021-1-5 8:41:25 +0800
-CreateTime: 2021-1-4 16:7:29 +0800
+date: 2021-1-5 8:41:38 +0800
+CreateTime: 2021/1/4 16:07:29
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/1/4 16:07:29 -->
 
 <!-- 发布 -->
 
