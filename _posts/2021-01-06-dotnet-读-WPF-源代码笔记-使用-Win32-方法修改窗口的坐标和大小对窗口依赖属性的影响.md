@@ -1,8 +1,8 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 使用 Win32 方法修改窗口的坐标和大小对窗口依赖属性的影响"
 author: lindexi
-date: 2021-1-6 15:45:44 +0800
-CreateTime: 2021-1-6 11:58:25 +0800
+date: 2021-1-7 8:24:3 +0800
+CreateTime: 2021/1/6 11:58:25
 categories: WPF WPF源代码
 ---
 
@@ -10,6 +10,8 @@ categories: WPF WPF源代码
 
 <!--more-->
 
+
+<!-- CreateTime:2021/1/6 11:58:25 -->
 
 <!-- 标签：WPF，WPF源代码 -->
 <!-- 发布 -->
