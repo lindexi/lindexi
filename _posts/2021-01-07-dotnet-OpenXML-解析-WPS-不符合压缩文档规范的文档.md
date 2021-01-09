@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 解析 WPS 不符合压缩文档规范的文档"
 author: lindexi
-date: 2021-1-7 15:17:57 +0800
-CreateTime: 2021-1-7 15:2:35 +0800
+date: 2021-1-8 11:3:24 +0800
+CreateTime: 2021/1/7 15:02:35
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/1/7 15:02:35 -->
 
 <!-- 发布 -->
 
@@ -28,7 +30,7 @@ System.IO.FileFormatException:“File contains corrupted data.”
 或者下面提示
 
 ```
-//如果是 InvalidDataException 才是 WPS 的诡异格式，此时才能使用此方法解决
+//如果是 InvalidDataException 或 FileFormatException 是 WPS 的诡异格式，此时使用此方法解决
 System.IO.InvalidDataException	End of Central Directory record could not be found.	
 
 at System.IO.Compression.ZipArchive.ReadEndOfCentralDirectory()
