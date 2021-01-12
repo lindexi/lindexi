@@ -1,9 +1,9 @@
 ---
 title: "WPF 框架开发 加入 InternalsVisibleToAttribute 特性让其他程序集可以访问 internal 权限成员"
 author: lindexi
-date: 2020-12-25 8:48:42 +0800
+date: 2021-1-12 9:45:5 +0800
 CreateTime: 2020/12/24 17:38:25
-categories: WPF
+categories: WPF框架开发
 ---
 
 在 WPF 框架开发中，其实很少有开发者有足够的勇气去更改现有的框架逻辑，因为 WPF 的功能十分庞大，很难测试全。更多的开发都是加功能以及开放已有功能。整个 WPF 框架的大体设计是十分好的，可以在框架里面遵循对修改关闭的原则，定制化更多的是做注入，调用 internal 权限成员
@@ -13,7 +13,7 @@ categories: WPF
 
 
 <!-- CreateTime:2020/12/24 17:38:25 -->
-
+<!-- 标签：WPF框架开发 -->
 
 <!-- 发布 -->
 

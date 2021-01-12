@@ -1,9 +1,9 @@
 ---
 title: "WPF 框架开发 更改 API 之后让 CI 重新创建 API 兼容检查基准"
 author: lindexi
-date: 2021-1-11 8:24:53 +0800
+date: 2021-1-12 9:45:8 +0800
 CreateTime: 2021/1/9 8:50:33
-categories: WPF
+categories: WPF框架开发
 ---
 
 本文是记录在开发 WPF 框架遇到的问题。
@@ -13,7 +13,7 @@ categories: WPF
 
 
 <!-- CreateTime:2021/1/9 8:50:33 -->
-
+<!-- 标签：WPF框架开发 -->
 
 <!-- 发布 -->
 
