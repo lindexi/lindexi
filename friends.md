@@ -413,6 +413,7 @@ permalink: /friends/
  - Jeremiah Morrill [http://jmorrill.hjtcentral.com](http://jmorrill.hjtcentral.com)
  - Anthony Giretti [https://anthonygiretti.com/](https://anthonygiretti.com/)
  - Brandon Minnick Code Traveler 在微软的大佬，是 GitTrends 的作者 [https://codetraveler.io/](https://codetraveler.io/ )
+ - [DotNetByExample - The Next Generation](https://localjoost.github.io/ ) 微软 MVP 应用开放方向
 
 ## 老师
 
