@@ -1,8 +1,8 @@
 ---
 title: "升级到 dotnet core 之后 HandleProcessCorruptedStateExceptions 无法接住异常"
 author: lindexi
-date: 2021-1-25 8:48:37 +0800
-CreateTime: 2021-1-25 8:48:37 +0800
+date: 2021-1-25 9:33:22 +0800
+CreateTime: 2021/1/25 8:48:37
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/1/25 8:48:37 -->
 
 <!-- 发布 -->
 
@@ -55,7 +57,7 @@ extern "C" __declspec(dllexport) int HeederajiYeafalludall()
 }
 ```
 
-在标记了 HandleProcessCorruptedStateExceptionsAttribute 特性之后，将可以看到断点能进入到 catch 代码里，而且程序不会闪烁退
+在标记了 HandleProcessCorruptedStateExceptionsAttribute 特性之后，将可以看到断点能进入到 catch 代码里，而且程序不会闪退
 
 但是这个机制在 dotnet core 就跑不起来了，根据 [从 .NET Framework 到 .NET Core 的中断性变更](https://docs.microsoft.com/zh-cn/dotnet/core/compatibility/fx-core?WT.mc_id=DX-MVP-5003606) 文档，可以看到在 .NET Core 1.0 开始，损坏进程状态异常无法由托管代码进行处理，将上面的 C# 代码切换到 dotnet core 下执行，此时将会发现不会进入到 catch 的代码，应用程序将会退出
 

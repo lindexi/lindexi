@@ -314,6 +314,8 @@ permalink: /friends/
 
  - [独立观察员 - 博客园](https://www.cnblogs.com/weiliuhong/ )  
 
+ - [有木酱的小屋-yomunchan](https://www.yomunchan.moe/ )
+
 ## 国外博客
 
  - [Josh Smith](https://joshsmithonwpf.wordpress.com/ )
