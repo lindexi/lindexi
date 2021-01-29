@@ -10,6 +10,12 @@ permalink: /friends/
 
    微软最具价值专家
 
+ - [Iron_Ye](https://blog.csdn.net/iron_ye )
+
+   WPF 大佬，专业做动画和 3D 是 dotnet 职业技术学院的校长
+
+ - [lsj](https://blog.sdlsj.net/ )
+
  - [泰琪 https://gandalfliang.github.io/](https://gandalfliang.github.io/)
 
    对d3d有很深的研究
@@ -17,6 +23,8 @@ permalink: /friends/
  - [晒太阳的猫 http://jasongrass.gitee.io/ ](http://jasongrass.gitee.io/ ) 
 
    WPF开发大神，现在转到[博客园](https://www.cnblogs.com/jasongrass/)
+   
+ - [天龙](https://getandplay.github.io/ )
 
  - [黄腾霄 - huangtengxiao](https://xinyuehtx.github.io/ )  
 
@@ -46,15 +54,7 @@ permalink: /friends/
 
    传说的幸斌师兄
 
- - [Iron_Ye](https://blog.csdn.net/iron_ye )
-
-   WPF 大佬，专业做动画和 3D 是 dotnet 职业技术学院的校长
-
- - [lsj](https://blog.sdlsj.net/ )
-
  - [胡承老司机](https://huchengv5.github.io/ )
-
- - [天龙](https://getandplay.github.io/ )
 
  - [伏鹏飞](https://fupengfei1223.github.io/ )
 
