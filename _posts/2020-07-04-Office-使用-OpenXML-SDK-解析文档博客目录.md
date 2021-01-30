@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-1-8 8:37:20 +0800
+date: 2021-1-29 17:49:25 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -130,6 +130,10 @@ categories:
 - IDEs: Visual Studio 2019, 2017, 2015, 2013, 2012 and 2010 (VB.NET, C#, C++)
 
 [NetOfficeFw/NetOffice: 🌌 .NET wrapper assemblies for accessing Microsoft Office applications.](https://github.com/NetOfficeFw/NetOffice )
+
+### PPT 辅助库
+
+[ShapeCrawler/ShapeCrawler: A .NET library for manipulating PowerPoint presentations.](https://github.com/ShapeCrawler/ShapeCrawler )
 
 ## 文档
 
