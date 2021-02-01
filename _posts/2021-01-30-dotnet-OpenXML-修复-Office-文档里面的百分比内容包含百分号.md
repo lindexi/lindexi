@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 修复 Office 文档里面的百分比内容包含百分号"
 author: lindexi
-date: 2021-1-30 13:19:41 +0800
-CreateTime: 2021-1-30 10:42:23 +0800
+date: 2021-1-30 13:19:57 +0800
+CreateTime: 2021/1/30 10:42:23
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/1/30 10:42:23 -->
 
 
 <!-- 发布 -->
