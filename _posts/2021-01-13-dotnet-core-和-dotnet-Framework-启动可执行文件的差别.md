@@ -1,13 +1,8 @@
 ---
 title: "dotnet core 和 dotnet Framework 启动可执行文件的差别"
 author: lindexi
-<<<<<<< HEAD
-date: 2021-2-1 8:35:10 +0800
-CreateTime: 2021-1-13 8:54:2 +0800
-=======
-date: 2021-1-31 8:41:43 +0800
+date: 2021-2-1 8:35:36 +0800
 CreateTime: 2021/1/13 8:54:02
->>>>>>> 43373640d1c612cfbf465c7f257f6b5d1ddf9d9e
 categories: dotnet
 ---
 
@@ -15,11 +10,10 @@ categories: dotnet
 
 <!--more-->
 
-<<<<<<< HEAD
+
+<!-- CreateTime:2021/1/13 8:54:02 -->
 
 
-=======
->>>>>>> 43373640d1c612cfbf465c7f257f6b5d1ddf9d9e
 <!-- 发布 -->
 
 与封闭的 dotnet framework 不相同的是，咱可以从 GitHub 上获取完全的 dotnet core 整个的源代码。也因此咱能了解到的 dotnet core 的细节将会比 dotnet framework 多得多。在本文开始之前，必须要说明的是，本文非入门向，而且本文的内容是需要在很多的限制条件下才成立。在经过了这么多年的发展，无论是 dotnet framework 还是 dotnet core 都有着各自的不同的多个版本甚至的多个分支，每个之间都有着很多差别。而限于我的技术和考古能力，我仅仅能聊的只有最通用的部分
