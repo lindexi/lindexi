@@ -1,7 +1,7 @@
 ---
 title: "为什么 WPF 软件在 win7 启动时会尝试调起 wisptis 进程"
 author: lindexi
-date: 2020-12-3 20:28:12 +0800
+date: 2021-2-1 16:9:28 +0800
 CreateTime: 2020/1/20 16:28:32
 categories: WPF
 ---
@@ -30,4 +30,6 @@ categories: WPF
 我一开始启动太快了，没关系，我一开始启动的是一个 win32 的启动图，等待后台逻辑判断 wisptis 启动之后，我才打开 WPF 的窗口。根据上面的说法，其实窗口没有修改 Visiliblity 之前是不会初始化触摸的，也就是不会启动 wisptis 进程的
 
 现在 win7 已经不受微软支持了，是时候升级 win10 啦
+
+更多触摸请看 [WPF 触摸相关](https://blog.lindexi.com/post/WPF-%E8%A7%A6%E6%91%B8%E7%9B%B8%E5%85%B3.html )
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 修复 Office 文档里面的百分比内容包含百分号"
 author: lindexi
-date: 2021-1-30 13:19:57 +0800
+date: 2021-2-1 9:19:59 +0800
 CreateTime: 2021/1/30 10:42:23
 categories: dotnet
 ---
@@ -131,6 +131,16 @@ var percentage = new Percentage(alphaText);
 ```xml
 <xsd:simpleType name="ST_PositiveFixedPercentage">
   <xsd:union memberTypes="s:ST_PositiveFixedPercentage"/>
+</xsd:simpleType>
+```
+
+这里的要求的数据格式如下
+
+```xml
+<xsd:simpleType name="ST_PositiveFixedPercentage">
+    <xsd:restriction base="ST_Percentage">
+        <xsd:pattern value="((100)|([0-9][0-9]?))(\.[0-9][0-9]?)?%"/>
+    </xsd:restriction>
 </xsd:simpleType>
 ```
 

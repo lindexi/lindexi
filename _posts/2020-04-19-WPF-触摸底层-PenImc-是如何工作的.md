@@ -1,7 +1,7 @@
 ---
 title: "WPF 触摸底层 PenImc 是如何工作的"
 author: lindexi
-date: 2020-12-3 16:22:27 +0800
+date: 2021-2-1 16:7:13 +0800
 CreateTime: 4/19/2020 5:23:45 PM
 categories: WPF
 ---
@@ -203,4 +203,6 @@ switch (m_pSharedMemoryHeader->dwEvent)
 更多代码请看 [https://github.com/dotnet/wpf/](https://github.com/dotnet/wpf/) 
 
 [IRealTimeStylus::GetPacketDescriptionData (rtscom.h) - Win32 apps](https://docs.microsoft.com/zh-cn/windows/win32/api/rtscom/nf-rtscom-irealtimestylus-getpacketdescriptiondata?redirectedfrom=MSDN )
+
+更多触摸请看 [WPF 触摸相关](https://blog.lindexi.com/post/WPF-%E8%A7%A6%E6%91%B8%E7%9B%B8%E5%85%B3.html )
 

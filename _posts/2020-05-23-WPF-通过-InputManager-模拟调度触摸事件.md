@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 InputManager 模拟调度触摸事件"
 author: lindexi
-date: 2020-12-3 16:22:26 +0800
+date: 2021-2-1 16:5:51 +0800
 CreateTime: 5/23/2020 10:27:24 AM
 categories: WPF
 ---
@@ -197,4 +197,6 @@ _lastEventArgs.RoutedEvent = PreviewTouchUpEvent;
 本文其实是补充 [WPF 触摸到事件](https://blog.lindexi.com/post/WPF-%E8%A7%A6%E6%91%B8%E5%88%B0%E4%BA%8B%E4%BB%B6.html ) 的后半部分，从 WPF 触摸到路由事件，是如何从触摸事件让对应的元素触发
 
 本文的方法仅是模拟事件的触发，如果想要修改触摸的点的坐标等，需要自己实现 TouchDevice 类，请看 [WPF 模拟触摸设备](https://blog.lindexi.com/post/WPF-%E6%A8%A1%E6%8B%9F%E8%A7%A6%E6%91%B8%E8%AE%BE%E5%A4%87.html )
+
+更多触摸请看 [WPF 触摸相关](https://blog.lindexi.com/post/WPF-%E8%A7%A6%E6%91%B8%E7%9B%B8%E5%85%B3.html )
 
