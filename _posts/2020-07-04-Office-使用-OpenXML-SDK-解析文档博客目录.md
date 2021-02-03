@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-2-1 8:40:59 +0800
+date: 2021-2-2 8:41:45 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -78,6 +78,8 @@ categories:
 ## 形状
 
 [dotnet OpenXML SDK 形状的翻转与旋转](https://blog.lindexi.com/post/dotnet-OpenXML-SDK-%E5%BD%A2%E7%8A%B6%E7%9A%84%E7%BF%BB%E8%BD%AC%E4%B8%8E%E6%97%8B%E8%BD%AC.html )
+
+[dotnet OpenXML SDK 形状的 rect Shape Text Rectangle 属性对文本框的坐标影响](https://lindexi.gitee.io/post/dotnet-OpenXML-SDK-%E5%BD%A2%E7%8A%B6%E7%9A%84-rect-Shape-Text-Rectangle-%E5%B1%9E%E6%80%A7%E5%AF%B9%E6%96%87%E6%9C%AC%E6%A1%86%E7%9A%84%E5%9D%90%E6%A0%87%E5%BD%B1%E5%93%8D.html )
 
 ## 颜色
 

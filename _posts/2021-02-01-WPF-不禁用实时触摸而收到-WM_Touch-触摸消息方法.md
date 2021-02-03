@@ -1,8 +1,8 @@
 ---
 title: "WPF 不禁用实时触摸而收到 WM_Touch 触摸消息方法"
 author: lindexi
-date: 2021-2-1 15:57:35 +0800
-CreateTime: 2021-2-1 15:56:9 +0800
+date: 2021-2-2 8:30:55 +0800
+CreateTime: 2021/2/1 15:56:09
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/2/1 15:56:09 -->
 
 <!-- 发布 -->
 
