@@ -214,6 +214,8 @@ permalink: /friends/
 
  - [Edi Wang](http://edi.wang/ ) 这是汪神，我的好基友。他是微软 MVP 国内 .NET 的大神，有很多的文章，有 WPF 、 UWP 还有其他的 linux …… 清真
 
+ - [Furion 百小僧](https://monksoul.gitee.io/furion/)
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
