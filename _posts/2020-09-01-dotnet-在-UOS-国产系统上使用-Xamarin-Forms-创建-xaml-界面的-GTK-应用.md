@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用"
 author: lindexi
-date: 2020-12-3 20:27:50 +0800
+date: 2021-3-5 16:31:22 +0800
 CreateTime: 2020/9/1 21:18:30
 categories: dotnet
 ---
@@ -232,7 +232,7 @@ using Xamarin.Forms.Xaml;
 
 本文没有给大家一个简单的方法，主要是让大家可以了解更多内容
 
-官方文档请看 [GTK# Platform Setup - Xamarin](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/gtk?tabs=windows&WT.mc_id=DX-MVP-5003606 )
+官方文档请看 [GTK# Platform Setup - Xamarin](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/platform/other/gtk?tabs=windows&WT.mc_id=WD-MVP-5003260 )
 
 尽管官方文档里面说的是预览版，但是经过了2年的开发，现在不能的支持的点很少。另外，这里的 GTK 支持的代码都是完全开源的，刚好我改的动，所以用起来也不慌
 

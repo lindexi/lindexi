@@ -1,7 +1,7 @@
 ---
 title: "dotnet 部署 GitHub 的 Action Runner 制作自托管运行器"
 author: lindexi
-date: 2020-12-15 18:54:59 +0800
+date: 2021-3-5 16:31:23 +0800
 CreateTime: 2020/12/15 10:22:10
 categories: git dotnet
 ---
@@ -94,7 +94,7 @@ At line:1 char:3
 Error: Process completed with exit code 1.
 ```
 
-但是上面的 PowerShell 是不安全的，在输入之前，还请大家先阅读官方文档 [about_Execution_Policies - PowerShell](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1&WT.mc_id=DX-MVP-5003606 )
+但是上面的 PowerShell 是不安全的，在输入之前，还请大家先阅读官方文档 [about_Execution_Policies - PowerShell](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1&WT.mc_id=WD-MVP-5003260 )
 
 ## 运行
 
