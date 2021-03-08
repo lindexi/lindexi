@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 XmlDataProvider 提供数据"
 author: lindexi
-date: 2021-3-5 8:45:16 +0800
-CreateTime: 2021-3-5 8:38:21 +0800
+date: 2021-3-6 8:58:45 +0800
+CreateTime: 2021/3/5 8:38:21
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/3/5 8:38:21 -->
 
 <!-- 发布 -->
 
