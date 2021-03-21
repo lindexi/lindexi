@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 ManipulationProcessor2D 纯数学计算方式提供多点漫游元素功能"
 author: lindexi
-date: 2021-3-20 11:37:35 +0800
-CreateTime: 2021-3-19 20:42:56 +0800
+date: 2021-3-21 11:37:48 +0800
+CreateTime: 2021/3/19 20:42:56
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/3/19 20:42:56 -->
 
 <!-- 发布 -->
 
@@ -218,7 +220,7 @@ categories: WPF
 
 加上了旋转和缩放的中心点，采用缩放因子代替大小变化量。本质上 ScaleX 和 ScaleY 是由 ExpansionX 和 ExpansionY 推出的，但在 WPF 缩放里面，采用的是缩放比
 
-以下是全部的
+以下是全部的代码
 
 ```csharp
     public partial class MainWindow : Window
