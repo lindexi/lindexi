@@ -1,8 +1,8 @@
 ---
 title: "WPF 通过 Switch.MS.Internal.EnableWeakEventMemoryImprovements 开关开启弱事件内存优化"
 author: lindexi
-date: 2021-3-24 8:28:20 +0800
-CreateTime: 2021-3-23 21:10:43 +0800
+date: 2021-3-24 8:29:14 +0800
+CreateTime: 2021/3/23 21:10:43
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/3/23 21:10:43 -->
 
 <!-- 发布 -->
 
