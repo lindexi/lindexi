@@ -318,6 +318,10 @@ permalink: /friends/
 
  - [有木酱的小屋-yomunchan](https://www.yomunchan.moe/ )
 
+ - [鑫茂 - 博客园](https://www.cnblogs.com/MichaelLoveSna/ )
+
+ - [time-flies - 博客园](https://www.cnblogs.com/timefiles/ )
+
 ## 国外博客
 
  - [Josh Smith](https://joshsmithonwpf.wordpress.com/ )

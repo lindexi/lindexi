@@ -1,8 +1,8 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 默认的 Main 函数是在哪创建的"
 author: lindexi
-date: 2021-3-30 8:30:14 +0800
-CreateTime: 2021-3-29 8:28:44 +0800
+date: 2021-3-30 8:30:33 +0800
+CreateTime: 2021/3/29 8:28:44
 categories: WPF WPF源代码
 ---
 
@@ -10,6 +10,8 @@ categories: WPF WPF源代码
 
 <!--more-->
 
+
+<!-- CreateTime:2021/3/29 8:28:44 -->
 
 
 <!-- 发布 -->
