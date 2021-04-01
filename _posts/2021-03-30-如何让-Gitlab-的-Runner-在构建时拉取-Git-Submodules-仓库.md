@@ -1,8 +1,8 @@
 ---
 title: "如何让 Gitlab 的 Runner 在构建时拉取 Git Submodules 仓库"
 author: lindexi
-date: 2021-3-31 18:49:47 +0800
-CreateTime: 2021-3-30 16:42:37 +0800
+date: 2021-3-31 18:50:52 +0800
+CreateTime: 2021/3/30 16:42:37
 categories: git
 ---
 
@@ -10,6 +10,8 @@ categories: git
 
 <!--more-->
 
+
+<!-- CreateTime:2021/3/30 16:42:37 -->
 
 <!-- 发布 -->
 
