@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 ShowMeTheXAML 显示 WPF 的 XAML 控件内容"
 author: lindexi
-date: 2021-4-1 8:52:11 +0800
-CreateTime: 2021-4-1 8:47:14 +0800
+date: 2021-4-1 8:52:26 +0800
+CreateTime: 2021/4/1 8:47:14
 categories: WPF dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: WPF dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/4/1 8:47:14 -->
 
 <!-- 发布 -->
 

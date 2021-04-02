@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 默认的 Main 函数是在哪创建的"
 author: lindexi
-date: 2021-3-30 8:30:33 +0800
+date: 2021-4-2 8:23:29 +0800
 CreateTime: 2021/3/29 8:28:44
 categories: WPF WPF源代码
 ---
@@ -361,4 +361,6 @@ private const string SPLASHVAR = "splashScreen";
 
 
 更多请看 [WPF 程序的编译过程 - walterlv](https://blog.walterlv.com/post/how-wpf-assemblies-are-compiled.html )
+
+更多关于 App.xaml 请看 [WPF教程七：通过App.xaml来了解Application类都能干什么 - 杜文龙 - 博客园](https://www.cnblogs.com/duwenlong/p/14603158.html )
 
