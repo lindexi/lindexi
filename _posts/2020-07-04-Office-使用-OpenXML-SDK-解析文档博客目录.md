@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-2-2 8:41:45 +0800
+date: 2021-4-2 8:37:54 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -80,6 +80,12 @@ categories:
 [dotnet OpenXML SDK 形状的翻转与旋转](https://blog.lindexi.com/post/dotnet-OpenXML-SDK-%E5%BD%A2%E7%8A%B6%E7%9A%84%E7%BF%BB%E8%BD%AC%E4%B8%8E%E6%97%8B%E8%BD%AC.html )
 
 [dotnet OpenXML SDK 形状的 rect Shape Text Rectangle 属性对文本框的坐标影响](https://lindexi.gitee.io/post/dotnet-OpenXML-SDK-%E5%BD%A2%E7%8A%B6%E7%9A%84-rect-Shape-Text-Rectangle-%E5%B1%9E%E6%80%A7%E5%AF%B9%E6%96%87%E6%9C%AC%E6%A1%86%E7%9A%84%E5%9D%90%E6%A0%87%E5%BD%B1%E5%93%8D.html )
+
+## 图片
+
+[dotnet OpenXML 图片特效的 Color Change Effect 特效修改图片颜色](https://lindexi.gitee.io/post/dotnet-OpenXML-%E5%9B%BE%E7%89%87%E7%89%B9%E6%95%88%E7%9A%84-Color-Change-Effect-%E7%89%B9%E6%95%88%E4%BF%AE%E6%94%B9%E5%9B%BE%E7%89%87%E9%A2%9C%E8%89%B2.html )
+
+[dotnet OpenXML 图片特效的 BiLevel 黑白特效修改图片颜色](https://lindexi.gitee.io/post/dotnet-OpenXML-%E5%9B%BE%E7%89%87%E7%89%B9%E6%95%88%E7%9A%84-BiLevel-%E9%BB%91%E7%99%BD%E7%89%B9%E6%95%88%E4%BF%AE%E6%94%B9%E5%9B%BE%E7%89%87%E9%A2%9C%E8%89%B2.html )
 
 ## 颜色
 
