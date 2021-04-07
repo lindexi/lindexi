@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-4-2 8:37:54 +0800
+date: 2021-4-7 10:43:0 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -144,6 +144,10 @@ categories:
 ### PPT 辅助库
 
 [ShapeCrawler/ShapeCrawler: A .NET library for manipulating PowerPoint presentations.](https://github.com/ShapeCrawler/ShapeCrawler )
+
+### [aspose](https://www.aspose.com/ )
+
+基于他，你几乎能造个 WPS 出来。很贵，很强的工具包，提供了很强的编辑功能。可以将元素或页面输出为图片效果，支持多个不同的语言
 
 ## 文档
 
