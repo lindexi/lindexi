@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 带编号项目符号在 OpenXML SDK 对应的枚举值"
 author: lindexi
-date: 2020-12-3 16:22:16 +0800
+date: 2021-4-7 12:8:40 +0800
 CreateTime: 2020/3/26 17:08:16
 categories: dotnet C#
 ---
@@ -73,4 +73,6 @@ EastAsianJapaneseDoubleBytePeriod  一. 二.
 ![](http://image.acmx.xyz/lindexi%2F20203261722596311.jpg)
 
 这就是 PPT 页面上的常用的枚举值
+
+更多细节请看 ECMA-376 的 20.1.10.61 章文档
 

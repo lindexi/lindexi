@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-4-7 10:43:0 +0800
+date: 2021-4-7 10:50:16 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -148,6 +148,10 @@ categories:
 ### [aspose](https://www.aspose.com/ )
 
 基于他，你几乎能造个 WPS 出来。很贵，很强的工具包，提供了很强的编辑功能。可以将元素或页面输出为图片效果，支持多个不同的语言
+
+这个厂商从 2002 开始就在做 Office 相关开发，使用这个工具包可以在有 Office 或者在没有 Office 的情况下进行开发，可以渲染和编辑 Office 文档
+
+貌似要购买的话，找我也许有优惠…… 但一年大概也是 10w 左右
 
 ## 文档
 
