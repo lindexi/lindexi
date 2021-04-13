@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 Behavior 库辅助获取动态资源变更事件"
 author: lindexi
-date: 2021-4-12 19:42:33 +0800
-CreateTime: 2021-4-12 19:35:48 +0800
+date: 2021-4-12 19:42:41 +0800
+CreateTime: 2021/4/12 19:35:48
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/4/12 19:35:48 -->
 
 <!-- 发布 -->
 
