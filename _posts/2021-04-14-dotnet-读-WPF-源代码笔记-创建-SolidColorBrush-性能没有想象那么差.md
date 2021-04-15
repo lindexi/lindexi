@@ -1,8 +1,8 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 创建 SolidColorBrush 性能没有想象那么差"
 author: lindexi
-date: 2021-4-14 9:10:4 +0800
-CreateTime: 2021-4-14 8:31:10 +0800
+date: 2021-4-14 14:46:24 +0800
+CreateTime: 2021/4/14 8:31:10
 categories: WPF dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: WPF dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/4/14 8:31:10 -->
 
 <!-- 发布 -->
 
@@ -336,7 +338,7 @@ categories: WPF dotnet
         }
 ```
 
-在上面代码中，因为 Animatable_IsResourceInvalidationNecessary 默认值是 falst 因此这个函数啥都没有做
+在上面代码中，因为 Animatable_IsResourceInvalidationNecessary 默认值是 false 因此这个函数啥都没有做
 
 可以看到无论是在 SolidColorBrush 的构造函数有没有设置参数，执行的代码逻辑都非常少，执行时间基本都可以忽略。从执行性能层面，可以认为创建 SolidColorBrush 的性能是特别好的，以上代码的执行时间预计不会比创建一个空对象慢多少。从内存层面，在 SolidColorBrush 类本身，不算继承类的情况下，只有一个字段和一个依赖属性，占用内存量不会比 Color 结构体多多少。所以可以放心创建 SolidColorBrush 对象。好吧，本文说的是创建的性能，如果要将 SolidColorBrush 用上，这就是另一个坑了，建议如果是要使用的 SolidColorBrush 对象，还是使用缓存比较好，非托管的占用还是比较多的
 

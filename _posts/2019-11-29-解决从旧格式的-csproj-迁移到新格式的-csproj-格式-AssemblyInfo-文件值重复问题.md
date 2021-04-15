@@ -1,7 +1,7 @@
 ---
 title: "解决从旧格式的 csproj 迁移到新格式的 csproj 格式 AssemblyInfo 文件值重复问题"
 author: lindexi
-date: 2020-3-5 12:33:15 +0800
+date: 2021-4-14 15:36:27 +0800
 CreateTime: 2019/11/29 8:58:48
 categories: VisualStudio
 ---
@@ -88,4 +88,6 @@ using System.Windows;
 这里有一个好用的迁移工具 [CsprojToVs2017 Tooling for converting pre 2017 project to the new Visual Studio 2017 format.](https://github.com/hvanbakel/CsprojToVs2017 ) 可以将之前的 csporj 格式修改为新的 csproj 格式
 
 [从以前的项目格式迁移到 VS2017 新项目格式](https://blog.lindexi.com/post/%E4%BB%8E%E4%BB%A5%E5%89%8D%E7%9A%84%E9%A1%B9%E7%9B%AE%E6%A0%BC%E5%BC%8F%E8%BF%81%E7%A7%BB%E5%88%B0-VS2017-%E6%96%B0%E9%A1%B9%E7%9B%AE%E6%A0%BC%E5%BC%8F.html )
+
+[Roslyn 禁止 sdk style csproj 默认引用 Compile 代码文件](https://blog.lindexi.com/post/Roslyn-%E7%A6%81%E6%AD%A2-sdk-style-csproj-%E9%BB%98%E8%AE%A4%E5%BC%95%E7%94%A8-Compile-%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6.html )
 
