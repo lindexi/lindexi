@@ -1,8 +1,8 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 了解 WPF 已知问题 后台线程创建 WriteableBitmap 锁住主线程"
 author: lindexi
-date: 2021-4-17 8:30:14 +0800
-CreateTime: 2021-4-16 16:53:15 +0800
+date: 2021-4-17 9:10:48 +0800
+CreateTime: 2021/4/16 16:53:15
 categories: WPF dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: WPF dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/4/16 16:53:15 -->
 
 <!-- 发布 -->
 
@@ -229,4 +231,6 @@ The main thread will use the same SyncObject in BitmapSource.UpdateBitmapSourceR
 The main thread will waitting the `_syncObject` which be used in background task in `WriteableBitmap.InitFromBitmapSource` method.
 
 But the background task now waitting the main thread in `MediaSystem.Startup`. So the main thread wait background task to release the `_syncObject` lock and the background task wait main thread. -->
+
+当前的 WPF 在 [https://github.com/dotnet/wpf](https://github.com/dotnet/wpf) 完全开源，使用友好的 MIT 协议，意味着允许任何人任何组织和企业任意处置，包括使用，复制，修改，合并，发表，分发，再授权，或者销售。在仓库里面包含了完全的构建逻辑，只需要本地的网络足够好（因为需要下载一堆构建工具），即可进行本地构建
 
