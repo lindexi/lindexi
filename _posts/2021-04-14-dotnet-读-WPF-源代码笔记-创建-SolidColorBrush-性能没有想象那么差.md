@@ -1,9 +1,9 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 创建 SolidColorBrush 性能没有想象那么差"
 author: lindexi
-date: 2021-4-14 14:46:24 +0800
+date: 2021-4-19 8:38:19 +0800
 CreateTime: 2021/4/14 8:31:10
-categories: WPF dotnet
+categories: WPF WPF源代码
 ---
 
 在 WPF 中，常用的画刷里面有纯色画刷 SolidColorBrush 类。因为画刷会对应到 DirectX 的资源，因此之前我以为纯色画刷其实会比 Color 会占用更多的资源。在 WPF 中 Color 其实是结构体，创建速度快。而 SolidColorBrush 是画刷，会对应 DirectX 资源，相对来说性能会比较差。但在通过阅读 WPF 的源代码，发现其实 SolidColorBrush 的创建的性能其实是特别好的，因此请不要担心创建了太多的纯色画刷类
@@ -12,7 +12,7 @@ categories: WPF dotnet
 
 
 <!-- CreateTime:2021/4/14 8:31:10 -->
-
+<!-- 标签：WPF，WPF源代码 -->
 <!-- 发布 -->
 
 在 WPF 中，画刷 Brush 有很多实现，本文的内容是纯色画刷的实现。在 WPF 的纯色画刷是继承 Brush 的类，这个类自己定义的只有一个字段 `_duceResource` 和 Color 一个属性，而 Color 属性是一个依赖属性。从这里可以看到 SolidColorBrush 类占用的托管内存空间其实很小
