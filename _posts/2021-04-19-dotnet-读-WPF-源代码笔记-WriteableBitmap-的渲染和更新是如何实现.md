@@ -1,8 +1,8 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 WriteableBitmap 的渲染和更新是如何实现"
 author: lindexi
-date: 2021-4-20 9:12:52 +0800
-CreateTime: 2021-4-19 8:38:27 +0800
+date: 2021-4-20 9:13:17 +0800
+CreateTime: 2021/4/19 8:38:27
 categories: WPF WPF源代码
 ---
 
@@ -10,6 +10,8 @@ categories: WPF WPF源代码
 
 <!--more-->
 
+
+<!-- CreateTime:2021/4/19 8:38:27 -->
 
 <!-- 标签：WPF，WPF源代码 -->
 <!-- 发布 -->
