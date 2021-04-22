@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 自定义外部命令"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2021-4-21 14:19:51 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: VisualStudio
 ---
@@ -70,4 +70,6 @@ categories: VisualStudio
 
 
 感谢 [吕毅 ](https://walterlv.gitee.io/ )
+
+更多自定义外部工具请看 [Visual Studio 自定义外部命令 (External Tools) - J.晒太阳的猫 - 博客园](https://www.cnblogs.com/jasongrass/p/14682527.html )
 

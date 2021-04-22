@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 外部工具配合 dotnet tool 制作复制文件名工具"
 author: lindexi
-date: 2021-3-29 8:29:21 +0800
+date: 2021-4-21 14:19:26 +0800
 CreateTime: 2021/3/27 14:50:05
 categories: VisualStudio dotnet
 ---
@@ -100,4 +100,6 @@ dotnet tool install -g Lindexi.Tool.CopyToClipboard
 接下来就是 GitHub 的 Action 自动打包这个工具，发布到 NuGet 上
 
 这个工具完全开源，放在 [https://github.com/lindexi/UWP/](https://github.com/lindexi/UWP/)
+
+更多关于外部工具请看 [Visual Studio 自定义外部命令 (External Tools) - J.晒太阳的猫 - 博客园](https://www.cnblogs.com/jasongrass/p/14682527.html )
 
