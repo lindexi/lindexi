@@ -1,7 +1,7 @@
 ---
 title: "dotnet 5 破坏性改动 WPF 和 WinForms 的 OutputType 输出类型重定向为 WinExe 类型"
 author: lindexi
-date: 2021-3-5 16:31:22 +0800
+date: 2021-4-24 11:47:50 +0800
 CreateTime: 2020/12/14 8:36:58
 categories: WPF dotnet
 ---
