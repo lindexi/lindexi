@@ -1,7 +1,7 @@
 ---
 title: "dotnet 配合 GitHub 的 Action 做自动推 Tag 时打包 NuGet 包"
 author: lindexi
-date: 2020-12-3 20:27:51 +0800
+date: 2021-4-25 21:17:34 +0800
 CreateTime: 5/23/2020 2:32:17 PM
 categories: git dotnet
 ---
@@ -165,4 +165,6 @@ on:
 另外我开源了一个构建工具集，请看 [dotnetcampus.DotNETBuildSDK](https://github.com/dotnet-campus/dotnetcampus.DotNETBuildSDK )
 
 本文的方法依然适用构建应用，如构建 WPF 应用，或打包为 UWP 应用。关于 WPF 打包为 UWP 的 GitHub 的 Action 方法请看 [GitHub Action 新上线 WPF .NET Core 自动构建模板](https://blog.lindexi.com/post/GitHub-Action-%E6%96%B0%E4%B8%8A%E7%BA%BF-WPF-.NET-Core-%E8%87%AA%E5%8A%A8%E6%9E%84%E5%BB%BA%E6%A8%A1%E6%9D%BF.html)
+
+以上推送 NuGet 的方法请看 [dotnet 配置 github 自动打包上传 nuget 文件](https://blog.lindexi.com/post/dotnet-%E9%85%8D%E7%BD%AE-github-%E8%87%AA%E5%8A%A8%E6%89%93%E5%8C%85%E4%B8%8A%E4%BC%A0-nuget-%E6%96%87%E4%BB%B6.html )
 
