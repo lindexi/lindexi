@@ -1,8 +1,8 @@
 ---
 title: "WPF 如何知道当前有多少个 DispatcherTime 在运行"
 author: lindexi
-date: 2021-4-27 9:17:38 +0800
-CreateTime: 2021-4-27 8:48:17 +0800
+date: 2021-4-27 19:17:51 +0800
+CreateTime: 2021/4/27 8:48:17
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/4/27 8:48:17 -->
 
 <!-- 发布 -->
 
