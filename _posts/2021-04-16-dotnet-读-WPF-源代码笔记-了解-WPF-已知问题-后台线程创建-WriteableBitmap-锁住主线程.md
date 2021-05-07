@@ -1,9 +1,9 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 了解 WPF 已知问题 后台线程创建 WriteableBitmap 锁住主线程"
 author: lindexi
-date: 2021-4-17 9:10:48 +0800
+date: 2021-5-7 17:17:41 +0800
 CreateTime: 2021/4/16 16:53:15
-categories: WPF dotnet
+categories: WPF WPF源代码
 ---
 
 在 WPF 中，如果在没有开启 Dispatcher 的后台线程里面创建 WriteableBitmap 对象，在 WriteableBitmap 构造函数传入在主线程创建的 BitmapSource 也许就会锁住主线程。本文将通过 WPF 框架源代码告诉大家为什么会锁住主线程
@@ -12,6 +12,7 @@ categories: WPF dotnet
 
 
 <!-- CreateTime:2021/4/16 16:53:15 -->
+<!-- 标签：WPF，WPF源代码 -->
 
 <!-- 发布 -->
 
