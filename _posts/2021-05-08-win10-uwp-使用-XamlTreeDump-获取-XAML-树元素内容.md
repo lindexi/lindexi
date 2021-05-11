@@ -1,8 +1,8 @@
 ---
 title: "win10 uwp 使用 XamlTreeDump 获取 XAML 树元素内容"
 author: lindexi
-date: 2021-5-8 9:8:47 +0800
-CreateTime: 2021-5-8 9:3:58 +0800
+date: 2021-5-10 8:27:28 +0800
+CreateTime: 2021/5/8 9:03:58
 categories: Win10 UWP
 ---
 
@@ -10,6 +10,8 @@ categories: Win10 UWP
 
 <!--more-->
 
+
+<!-- CreateTime:2021/5/8 9:03:58 -->
 
 
 <!-- 发布 -->
