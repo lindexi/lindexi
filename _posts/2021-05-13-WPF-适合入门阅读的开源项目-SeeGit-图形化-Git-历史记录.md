@@ -1,8 +1,8 @@
 ---
 title: "WPF 适合入门阅读的开源项目 SeeGit 图形化 Git 历史记录"
 author: lindexi
-date: 2021-5-13 8:45:14 +0800
-CreateTime: 2021-5-13 8:45:14 +0800
+date: 2021-5-13 8:46:18 +0800
+CreateTime: 2021/5/13 8:45:14
 categories: WPF git
 ---
 
@@ -10,6 +10,8 @@ categories: WPF git
 
 <!--more-->
 
+
+<!-- CreateTime:2021/5/13 8:45:14 -->
 
 <!-- 发布 -->
 

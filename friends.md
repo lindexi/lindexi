@@ -54,7 +54,7 @@ permalink: /friends/
 
    传说的幸斌师兄
 
- - [胡承老司机](https://huchengv5.github.io/ )
+ - [胡承老司机](https://huchengv5.github.io/ ) 国内博客地址：[https://huchengv5.gitee.io/](https://huchengv5.gitee.io/)
 
  - [伏鹏飞](https://fupengfei1223.github.io/ )
 
@@ -215,6 +215,8 @@ permalink: /friends/
  - [Edi Wang](http://edi.wang/ ) 这是汪神，我的好基友。他是微软 MVP 国内 .NET 的大神，有很多的文章，有 WPF 、 UWP 还有其他的 linux …… 清真
 
  - [Furion 百小僧](https://monksoul.gitee.io/furion/)
+
+ - [ARM830 - 博客园](https://www.cnblogs.com/T-ARF/ )
 
 ## 国内博客
 
