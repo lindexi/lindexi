@@ -1,8 +1,8 @@
 ---
 title: "WPF 已知问题 BitmapDecoder.Create 不支持传入 Asynchronous 的文件流"
 author: lindexi
-date: 2021-5-15 9:9:30 +0800
-CreateTime: 2021-5-15 8:54:30 +0800
+date: 2021-5-15 9:10:36 +0800
+CreateTime: 2021/5/15 8:54:30
 categories: WPF WPF源代码
 ---
 
@@ -10,6 +10,8 @@ categories: WPF WPF源代码
 
 <!--more-->
 
+
+<!-- CreateTime:2021/5/15 8:54:30 -->
 
 <!-- 标签：WPF，WPF源代码 -->
 <!-- 发布 -->
