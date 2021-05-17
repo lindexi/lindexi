@@ -1,9 +1,9 @@
 ---
 title: "Unity3D OpenVR SteamVR Input Action 动作"
 author: lindexi
-date: 2021-5-16 20:49:42 +0800
+date: 2021-5-17 8:16:1 +0800
 CreateTime: 2021/5/16 9:51:51
-categories: Unity3D OpenVR
+categories: 
 ---
 
 本文来告诉大家在 Unity3D 中的 SteamVR Input 里面的 Action 动作行为
@@ -12,7 +12,6 @@ categories: Unity3D OpenVR
 
 
 <!-- CreateTime:2021/5/16 9:51:51 -->
-<!-- 标签：Unity3D，OpenVR -->
 
 <!-- 发布 -->
 

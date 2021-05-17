@@ -1,9 +1,9 @@
 ---
 title: "Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发"
 author: lindexi
-date: 2021-5-16 21:28:40 +0800
-CreateTime: 2021-5-16 20:16:13 +0800
-categories: Unity3D OpenVR
+date: 2021-5-17 8:15:57 +0800
+CreateTime: 2021/5/16 20:16:13
+categories: 
 ---
 
 据说水哥买了 Valve Index 设备，既然这个设备这么贵，不开发点有（zhi）趣（zhang）游戏就感觉对不起这个设备。本文将来开始着手开发一个可玩性不大，观赏性极强的保龄球打砖块游戏。这仅仅只是一个入门级的游戏，代码量和制作步骤都超级少，适合入门
@@ -11,8 +11,9 @@ categories: Unity3D OpenVR
 <!--more-->
 
 
+<!-- CreateTime:2021/5/16 20:16:13 -->
+
 <!-- 发布 -->
-<!-- 标签：Unity3D，OpenVR -->
 
 在开始之前，请参阅水哥提供的环境搭建以及部分必备知识博客
 
