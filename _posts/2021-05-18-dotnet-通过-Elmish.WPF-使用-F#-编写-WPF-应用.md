@@ -1,8 +1,8 @@
 ---
 title: "dotnet 通过 Elmish.WPF 使用 F# 编写 WPF 应用"
 author: lindexi
-date: 2021-5-19 8:30:53 +0800
-CreateTime: 2021-5-18 19:59:36 +0800
+date: 2021-5-19 8:31:16 +0800
+CreateTime: 2021/5/18 19:59:36
 categories: WPF dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: WPF dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/5/18 19:59:36 -->
 
 <!-- 发布 -->
 
