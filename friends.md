@@ -218,7 +218,7 @@ permalink: /friends/
 
  - [ARM830 - 博客园](https://www.cnblogs.com/T-ARF/ )
 
- - [Bootstrap of Blazor 企业级 UI 组件库](https://www.blazor.zone)
+ - [Bootstrap of Blazor 企业级 UI 组件库](https://www.blazor.zone) 微软 MVP 微软最具价值专家 开发了 80+ Bootstrap Blazor UI 组件
 
 ## 国内博客
 
