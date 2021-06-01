@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 解压缩文档为文件夹工具"
 author: lindexi
-date: 2020-12-3 16:22:21 +0800
+date: 2021-6-1 11:47:41 +0800
 CreateTime: 2020/7/23 19:50:15
 categories: dotnet
 ---
@@ -26,7 +26,7 @@ categories: dotnet
 使用方法是通过 dotnet 工具安装
 
 ```csharp
-dotnet tool isntall -g dotnetCampus.OfficeDocumentZipper
+dotnet tool install -g dotnetCampus.OfficeDocumentZipper
 ```
 
 安装完成之后，可以使用命令行开启，如下面代码

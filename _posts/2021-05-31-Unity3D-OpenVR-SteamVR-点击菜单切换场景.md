@@ -1,8 +1,8 @@
 ---
 title: "Unity3D OpenVR SteamVR 点击菜单切换场景"
 author: lindexi
-date: 2021-5-31 8:47:48 +0800
-CreateTime: 2021-5-31 8:47:48 +0800
+date: 2021-5-31 9:52:45 +0800
+CreateTime: 2021/5/31 8:47:48
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2021/5/31 8:47:48 -->
 
 <!-- 发布 -->
 
@@ -58,4 +60,6 @@ SteamVR_LoadLevel.Begin("Challenge1-1");
 ![](http://image.acmx.xyz/lindexi%2F20215302218515776.jpg)
 
 另外，如果在实现切换场景，发现切换到新的场景时，界面是黑色，啥都看不见，那么请确定你在 场景 里面是否加入了 Player 游戏对象，以及是否在生成设置里面将场景进入到生成
+
+如果前一个场景的 Player 还没销毁，进入新的场景，而新的场景没有定义 Player 那么将会让你的测试工具人很快就晕了，原因是将会在很远处看到手，画面很像在做梦
 
