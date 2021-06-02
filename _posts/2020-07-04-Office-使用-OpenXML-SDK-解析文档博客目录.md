@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-5-26 8:49:34 +0800
+date: 2021-6-2 14:55:1 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -156,6 +156,13 @@ categories:
 这个厂商从 2002 开始就在做 Office 相关开发，使用这个工具包可以在有 Office 或者在没有 Office 的情况下进行开发，可以渲染和编辑 Office 文档
 
 貌似要购买的话，找我也许有优惠…… 但一年大概也是 10w 左右
+
+
+### [grapecity](https://www.grapecity.com)
+
+这是一个控件库，里面也包含了部分工具，请看
+
+[Importing and Exporting OpenXml Files (WPF) ](https://www.grapecity.com/componentone/docs/wpf/online-excel/importingandexportin.html )
 
 ### VS 插件
 
