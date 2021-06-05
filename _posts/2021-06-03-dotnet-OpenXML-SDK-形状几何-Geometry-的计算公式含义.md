@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML SDK 形状几何 Geometry 的计算公式含义"
 author: lindexi
-date: 2021-6-4 8:59:6 +0800
-CreateTime: 2021-6-3 19:41:3 +0800
+date: 2021-6-4 15:27:16 +0800
+CreateTime: 2021/6/3 19:41:03
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/6/3 19:41:03 -->
 
 <!-- 发布 -->
 
@@ -320,7 +322,7 @@ cos x y = (x * cos( y )) = (x * Math.Cos(y))
 表示三角函数的 `sat2` 公式，计算方法如下
 
 ```
-sat2 x y z = (x*sin(arctan(z / y))) = (x + Math.Sin(Math.Atan2(z, y)))
+sat2 x y z = (x*sin(arctan(z / y))) = (x * Math.Sin(Math.Atan2(z, y)))
 ```
 
 ## Sine Formula
@@ -328,7 +330,7 @@ sat2 x y z = (x*sin(arctan(z / y))) = (x + Math.Sin(Math.Atan2(z, y)))
 表示三角函数的 `sin` 公式，计算方法如下
 
 ```
-sin x y = (x * sin( y )) = (x + Math.Sin(y))
+sin x y = (x * sin( y )) = (x * Math.Sin(y))
 ```
 
 ## Tangent Formula
@@ -336,7 +338,7 @@ sin x y = (x * sin( y )) = (x + Math.Sin(y))
 表示三角函数的 `tan` 公式，计算方法如下
 
 ```
-tan x y = (x * tan( y )) = (x + Math.Tan(y))
+tan x y = (x * tan( y )) = (x * Math.Tan(y))
 ```
 
 ## Maximum Value Formula
