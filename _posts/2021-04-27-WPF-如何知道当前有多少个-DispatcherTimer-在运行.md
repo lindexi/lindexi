@@ -1,7 +1,7 @@
 ---
-title: "WPF 如何知道当前有多少个 DispatcherTime 在运行"
+title: "WPF 如何知道当前有多少个 DispatcherTimer 在运行"
 author: lindexi
-date: 2021-4-28 8:47:20 +0800
+date: 2021-6-7 20:41:59 +0800
 CreateTime: 2021/4/27 8:48:17
 categories: WPF
 ---
