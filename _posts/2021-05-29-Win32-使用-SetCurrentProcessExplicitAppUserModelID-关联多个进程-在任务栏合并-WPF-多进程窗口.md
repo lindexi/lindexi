@@ -1,7 +1,7 @@
 ---
 title: "Win32 使用 SetCurrentProcessExplicitAppUserModelID 关联多个进程 在任务栏合并 WPF 多进程窗口"
 author: lindexi
-date: 2021-5-29 17:26:16 +0800
+date: 2021-6-9 20:24:2 +0800
 CreateTime: 2021/5/29 17:09:57
 categories: WPF
 ---
@@ -43,6 +43,20 @@ categories: WPF
 ```
 
 本文所有代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/0939187ce18c4d9cb69a5a55724b808ca28aab1b/BerekunakeaLearweekacee) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/0939187ce18c4d9cb69a5a55724b808ca28aab1b/BerekunakeaLearweekacee) 欢迎小伙伴访问
+
+可以通过如下方式获取本文的源代码，先创建一个空文件夹，接着使用命令行 cd 命令进入此空文件夹，在命令行里面输入以下代码，即可获取到本文的代码
+
+```
+git init
+git remote add origin https://gitee.com/lindexi/lindexi_gd.git
+git pull origin 0939187ce18c4d9cb69a5a55724b808ca28aab1b
+```
+
+以上使用的是 gitee 的源，如果 gitee 不能访问，请替换为 github 的源
+
+```
+git remote add origin https://github.com/lindexi/lindexi_gd.git
+```
 
 [SetCurrentProcessExplicitAppUserModelID function (shobjidl_core.h) - Win32 apps](https://docs.microsoft.com/en-us/windows/win32/api/shobjidl_core/nf-shobjidl_core-setcurrentprocessexplicitappusermodelid?WT.mc_id=WD-MVP-5003260 )
 

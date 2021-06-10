@@ -1,7 +1,7 @@
 ---
 title: "Office Open XML 的测量单位"
 author: lindexi
-date: 2021-6-3 19:59:46 +0800
+date: 2021-6-9 16:17:7 +0800
 CreateTime: 2020/2/19 16:19:12
 categories: 
 ---
@@ -117,6 +117,10 @@ n/100 * 5000
 ## 千倍百分比
 
 在 OpenXML 的百分比有千倍百分比的方式，使用每1000个单位代表百分之一的值，也就是对应比例是 1 比 100000 的值
+
+## 代码
+
+测量单位的转换代码请看 [C# dontet Office Open XML Unit Converter](https://blog.lindexi.com/post/C-dontet-Office-Open-XML-Unit-Converter.html )
 
 ## 开源库
 
