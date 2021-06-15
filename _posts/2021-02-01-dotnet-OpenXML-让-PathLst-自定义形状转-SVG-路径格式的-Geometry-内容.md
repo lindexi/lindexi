@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 让 PathLst 自定义形状转 SVG 路径格式的 Geometry 内容"
 author: lindexi
-date: 2021-2-2 8:30:23 +0800
+date: 2021-6-11 17:10:24 +0800
 CreateTime: 2021/2/1 14:24:48
 categories: dotnet
 ---
@@ -246,6 +246,8 @@ categories: dotnet
 更多的代码细节还请到 [github](https://github.com/lindexi/lindexi_gd/tree/78e625e3/LalyearnabodaLayheryacucha) 或 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/78e625e3/LalyearnabodaLayheryacucha) 上阅读代码
 
 本文的属性是依靠 [dotnet OpenXML 解压缩文档为文件夹工具](https://blog.lindexi.com/post/dotnet-OpenXML-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3%E4%B8%BA%E6%96%87%E4%BB%B6%E5%A4%B9%E5%B7%A5%E5%85%B7.html ) 工具协助测试的，这个工具是开源免费的工具，欢迎小伙伴使用
+
+如果遇到里面写的是公式，而不是具体的数值，请看 [dotnet OpenXML SDK 形状几何 Geometry 的计算公式含义](https://blog.lindexi.com/post/dotnet-OpenXML-SDK-%E5%BD%A2%E7%8A%B6%E5%87%A0%E4%BD%95-Geometry-%E7%9A%84%E8%AE%A1%E7%AE%97%E5%85%AC%E5%BC%8F%E5%90%AB%E4%B9%89.html )
 
 更多请看 [Office 使用 OpenXML SDK 解析文档博客目录](https://blog.lindexi.com/post/Office-%E4%BD%BF%E7%94%A8-OpenXML-SDK-%E8%A7%A3%E6%9E%90%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95.html )
 
