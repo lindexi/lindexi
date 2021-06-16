@@ -1,7 +1,7 @@
 ---
 title: "WPF 如何知道当前有多少个 DispatcherTimer 在运行"
 author: lindexi
-date: 2021-6-9 20:28:22 +0800
+date: 2021-6-15 15:2:16 +0800
 CreateTime: 2021/4/27 8:48:17
 categories: WPF
 ---
@@ -114,6 +114,7 @@ git pull origin ee3e25f3cb1cd6e3b1c90d3efb529dc37dd61172
 以上使用的是 gitee 的源，如果 gitee 不能访问，请替换为 github 的源
 
 ```
+git remote remove origin
 git remote add origin https://github.com/lindexi/lindexi_gd.git
 ```
 
