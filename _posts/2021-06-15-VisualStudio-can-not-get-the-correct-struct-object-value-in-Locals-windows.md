@@ -1,8 +1,8 @@
 ---
 title: "VisualStudio can not get the correct struct object value in Locals windows"
 author: lindexi
-date: 2021-6-16 14:14:37 +0800
-CreateTime: 2021-6-15 18:59:37 +0800
+date: 2021-6-17 8:35:35 +0800
+CreateTime: 2021/6/15 18:59:37
 categories: VisualStudio
 ---
 
@@ -11,6 +11,8 @@ When I use the unsafe struct with the special size and I override the ToString m
 
 <!--more-->
 
+
+<!-- CreateTime:2021/6/15 18:59:37 -->
 
 <!-- 发布 -->
 
