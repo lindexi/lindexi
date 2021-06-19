@@ -1,8 +1,8 @@
 ---
 title: "WPF 后台代码做 TranslateTransform 的动画"
 author: lindexi
-date: 2021-6-17 20:55:41 +0800
-CreateTime: 2021-6-17 20:41:16 +0800
+date: 2021-6-18 8:46:15 +0800
+CreateTime: 2021/6/17 20:41:16
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/6/17 20:41:16 -->
 
 <!-- 发布 -->
 

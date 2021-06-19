@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 在 finally 抛异常会发生什么"
 author: lindexi
-date: 2021-6-17 20:0:50 +0800
-CreateTime: 2021-6-17 20:0:49 +0800
+date: 2021-6-18 8:45:36 +0800
+CreateTime: 2021/6/17 20:00:49
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2021/6/17 20:00:49 -->
 
 
 <!-- 发布 -->
