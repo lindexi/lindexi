@@ -1,8 +1,8 @@
 ---
 title: "asp dotnet core 限制接口只能本机访问的方法"
 author: lindexi
-date: 2021-6-21 8:54:19 +0800
-CreateTime: 2021-6-21 8:54:19 +0800
+date: 2021-6-21 8:54:28 +0800
+CreateTime: 2021/6/21 8:54:19
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/6/21 8:54:19 -->
 
 
 <!-- 发布 -->
