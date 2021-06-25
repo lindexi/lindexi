@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-6-9 16:16:0 +0800
+date: 2021-6-24 8:36:56 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -106,6 +106,8 @@ categories:
 ## 通用知识
 
 [Office Open XML 的测量单位](https://blog.lindexi.com/post/Office-Open-XML-%E7%9A%84%E6%B5%8B%E9%87%8F%E5%8D%95%E4%BD%8D.html )
+
+[dotnet OpenXML 测量单位的角度和弧度值](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%B5%8B%E9%87%8F%E5%8D%95%E4%BD%8D%E7%9A%84%E8%A7%92%E5%BA%A6%E5%92%8C%E5%BC%A7%E5%BA%A6%E5%80%BC.html )
 
 [C# dontet Office Open XML Unit Converter](https://blog.lindexi.com/post/C-dontet-Office-Open-XML-Unit-Converter.html )
 
