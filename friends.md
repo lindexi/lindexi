@@ -220,6 +220,8 @@ permalink: /friends/
 
  - [Bootstrap of Blazor 企业级 UI 组件库](https://www.blazor.zone) 微软 MVP 微软最具价值专家 开发了 80+ Bootstrap Blazor UI 组件
 
+ - [张传宁 一线码农](https://www.cnblogs.com/SavionZhang/)
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
