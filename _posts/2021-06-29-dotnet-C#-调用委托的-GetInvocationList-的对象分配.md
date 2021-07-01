@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 调用委托的 GetInvocationList 的对象分配"
 author: lindexi
-date: 2021-6-29 8:41:11 +0800
-CreateTime: 2021-6-29 8:41:11 +0800
+date: 2021-6-29 8:41:21 +0800
+CreateTime: 2021/6/29 8:41:11
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2021/6/29 8:41:11 -->
 
 <!-- 发布 -->
 
