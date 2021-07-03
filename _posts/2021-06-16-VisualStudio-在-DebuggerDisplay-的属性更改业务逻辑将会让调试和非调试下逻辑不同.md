@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 在 DebuggerDisplay 的属性更改业务逻辑将会让调试和非调试下逻辑不同"
 author: lindexi
-date: 2021-6-17 8:36:23 +0800
+date: 2021-7-3 9:23:24 +0800
 CreateTime: 2021/6/16 20:21:47
 categories: VisualStudio
 ---
@@ -123,4 +123,6 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 ```
 
 获取代码之后，进入 NearberjalnodarGahayjekuqi 文件夹
+
+更多调试方法请看 [dotnet 代码调试方法](https://blog.lindexi.com/post/dotnet-%E4%BB%A3%E7%A0%81%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.html)
 
