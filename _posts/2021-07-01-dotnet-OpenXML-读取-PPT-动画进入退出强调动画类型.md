@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 读取 PPT 动画进入退出强调动画类型"
 author: lindexi
-date: 2021-7-1 20:10:29 +0800
-CreateTime: 2021-7-1 19:23:12 +0800
+date: 2021-7-2 8:29:47 +0800
+CreateTime: 2021/7/1 19:23:12
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/7/1 19:23:12 -->
 
 <!-- 发布 -->
 
