@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML PPT 动画框架入门"
 author: lindexi
-date: 2021-7-7 8:38:49 +0800
-CreateTime: 2021-7-2 16:3:31 +0800
+date: 2021-7-7 8:39:4 +0800
+CreateTime: 2021/7/2 16:03:31
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/7/2 16:03:31 -->
 
 
 开始之前，还请掌握一些基础知识，如阅读以下博客
