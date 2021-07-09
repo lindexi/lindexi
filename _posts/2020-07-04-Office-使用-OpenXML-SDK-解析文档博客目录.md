@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-7-7 11:32:46 +0800
+date: 2021-7-8 19:33:3 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -86,6 +86,8 @@ categories:
 [dotnet OpenXML SDK 形状几何 Geometry 的计算公式含义](https://blog.lindexi.com/post/dotnet-OpenXML-SDK-%E5%BD%A2%E7%8A%B6%E5%87%A0%E4%BD%95-Geometry-%E7%9A%84%E8%AE%A1%E7%AE%97%E5%85%AC%E5%BC%8F%E5%90%AB%E4%B9%89.html )
 
 [【OpenXml】Pptx的形状转为WPF的Geometry - RyzenAdorer - 博客园](https://www.cnblogs.com/ryzen/p/14864302.html )
+
+[Pptx的多路径形状转为WPF的Path - RyzenAdorer - 博客园](https://www.cnblogs.com/ryzen/p/14987788.html )
 
 ## 图片
 
