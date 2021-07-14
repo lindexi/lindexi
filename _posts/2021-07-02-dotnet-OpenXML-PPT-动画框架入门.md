@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML PPT 动画框架入门"
 author: lindexi
-date: 2021-7-7 8:39:4 +0800
+date: 2021-7-12 10:27:18 +0800
 CreateTime: 2021/7/2 16:03:31
 categories: dotnet
 ---
@@ -42,7 +42,7 @@ categories: dotnet
         </p:cTn>
       </p:par>
     </p:tnLst>
-</p:timing>
+  </p:timing>
 ```
 
 动画是存放在 Slide 页面里面的 Timing 属性里面，通过 OpenXML SDK 获取方法如下
