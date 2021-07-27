@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 形状的 Outline 的 LineWidth 线条轮廓粗细宽度的行为"
 author: lindexi
-date: 2021-7-25 9:14:20 +0800
+date: 2021-7-26 10:10:58 +0800
 CreateTime: 2021/7/24 14:45:38
 categories: dotnet
 ---
@@ -225,3 +225,15 @@ git pull origin 173fbaf7c68023cf5064888bceeb197bd463538f
 
 更多请看 [Office 使用 OpenXML SDK 解析文档博客目录](https://blog.lindexi.com/post/Office-%E4%BD%BF%E7%94%A8-OpenXML-SDK-%E8%A7%A3%E6%9E%90%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95.html )
 
+
+<!-- 
+
+PPT: The Outline default Line Width value is one pixel not the zero
+
+I find the behavior in PowerPoint is different from the ECMA-376 document.
+
+We can find the ECMA-376 document chapter 20.1.2.2.24 say that the Line Width is omitted, then a value of 0 is assumed.
+
+But when we create a document with the Line Width is omitted, and the PowerPoint will show the shape Line Width as one pixel.
+
+ -->

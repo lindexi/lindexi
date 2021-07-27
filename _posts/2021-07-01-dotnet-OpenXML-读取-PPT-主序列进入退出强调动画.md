@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 读取 PPT 主序列进入退出强调动画"
 author: lindexi
-date: 2021-7-2 8:29:47 +0800
+date: 2021-7-26 9:55:39 +0800
 CreateTime: 2021/7/1 21:00:50
 categories: dotnet
 ---
@@ -215,7 +215,7 @@ cTn (mainSeq) -> childTnLst -> par -> cTn (id="3") -> childTnLst -> par -> cTn (
                                 // 强调动画
                                 break;
                             case TimeNodePresetClassValues.Path:
-                                // 路由动画
+                                // 路径动画
                                 break;
                             case TimeNodePresetClassValues.Verb:
                                 break;
