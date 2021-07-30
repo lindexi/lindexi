@@ -1,8 +1,8 @@
 ---
 title: "WPF 引用 UWP 控件 不打包为 MSIX 分发的方法"
 author: lindexi
-date: 2021-7-29 8:20:38 +0800
-CreateTime: 2021-7-28 20:35:0 +0800
+date: 2021-7-29 8:21:39 +0800
+CreateTime: 2021/7/28 20:35:00
 categories: WPF UWP
 ---
 
@@ -10,6 +10,8 @@ categories: WPF UWP
 
 <!--more-->
 
+
+<!-- CreateTime:2021/7/28 20:35:00 -->
 
 <!-- 发布 -->
 
