@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-7-25 10:1:29 +0800
+date: 2021-7-30 9:8:50 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -98,6 +98,8 @@ categories:
 [dotnet OpenXML 图片特效的 BiLevel 黑白特效修改图片颜色](https://lindexi.gitee.io/post/dotnet-OpenXML-%E5%9B%BE%E7%89%87%E7%89%B9%E6%95%88%E7%9A%84-BiLevel-%E9%BB%91%E7%99%BD%E7%89%B9%E6%95%88%E4%BF%AE%E6%94%B9%E5%9B%BE%E7%89%87%E9%A2%9C%E8%89%B2.html )
 
 [C# Net 使用 openxml 提取ppt中的音频、视频、图片、文本 - 爱恋的红尘 - 博客园](https://www.cnblogs.com/ping9719/p/13497923.html )
+
+[【转】[PPTX解析] 图片 重新着色存储详解](https://blog.lindexi.com/post/%E8%BD%AC-PPTX%E8%A7%A3%E6%9E%90-%E5%9B%BE%E7%89%87-%E9%87%8D%E6%96%B0%E7%9D%80%E8%89%B2%E5%AD%98%E5%82%A8%E8%AF%A6%E8%A7%A3.html )
 
 ## 颜色
 
