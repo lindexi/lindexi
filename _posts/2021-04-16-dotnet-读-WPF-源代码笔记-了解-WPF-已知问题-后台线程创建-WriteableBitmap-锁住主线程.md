@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 了解 WPF 已知问题 后台线程创建 WriteableBitmap 锁住主线程"
 author: lindexi
-date: 2021-5-7 17:17:41 +0800
+date: 2021-8-2 14:13:57 +0800
 CreateTime: 2021/4/16 16:53:15
 categories: WPF WPF源代码
 ---
@@ -157,6 +157,8 @@ categories: WPF WPF源代码
 ```
 
 代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/0a8ac8dd9a61599dfa8624f73dfd22fd4b1bc539/BitmapSourceTest) 欢迎小伙伴访问
+
+此问题已被我修复，请看 [https://github.com/dotnet/wpf/pull/4425](https://github.com/dotnet/wpf/pull/4425)
 
 <!-- 
 6713
