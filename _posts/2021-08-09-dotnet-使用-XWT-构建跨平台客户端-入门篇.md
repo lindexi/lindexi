@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 XWT 构建跨平台客户端 入门篇"
 author: lindexi
-date: 2021-8-10 9:0:47 +0800
-CreateTime: 2021-8-9 20:58:50 +0800
+date: 2021-8-10 9:1:4 +0800
+CreateTime: 2021/8/9 20:58:50
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/8/9 20:58:50 -->
 
 <!-- 发布 -->
 
