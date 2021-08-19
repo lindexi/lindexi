@@ -10,6 +10,10 @@ permalink: /friends/
 
    微软最具价值专家
 
+ - [Firito](https://imxcg.com)
+
+   GitHub: [https://github.com/Firito](https://github.com/Firito)
+
  - [Iron_Ye](https://blog.csdn.net/iron_ye )
 
    WPF 大佬，专业做动画和 3D 是 dotnet 职业技术学院的校长
@@ -220,7 +224,9 @@ permalink: /friends/
 
  - [Bootstrap of Blazor 企业级 UI 组件库](https://www.blazor.zone) 微软 MVP 微软最具价值专家 开发了 80+ Bootstrap Blazor UI 组件
 
- - [张传宁 一线码农](https://www.cnblogs.com/SavionZhang/)
+ - [张传宁](https://www.cnblogs.com/SavionZhang/)
+
+ - [一线码农](https://www.cnblogs.com/huangxincheng)
 
 ## 国内博客
 
@@ -427,7 +433,7 @@ permalink: /friends/
  - Jeremiah Morrill [http://jmorrill.hjtcentral.com](http://jmorrill.hjtcentral.com)
  - Anthony Giretti [https://anthonygiretti.com/](https://anthonygiretti.com/)
  - Brandon Minnick Code Traveler 在微软的大佬，是 GitTrends 的作者 [https://codetraveler.io/](https://codetraveler.io/ )
- - [DotNetByExample - The Next Generation](https://localjoost.github.io/ ) 微软 MVP 应用开放方向
+ - [DotNetByExample - The Next Generation](https://localjoost.github.io/ ) 微软 MVP 应用开发方向
 
 ## 老师
 
