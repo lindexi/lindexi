@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-8-19 8:59:5 +0800
+date: 2021-8-23 8:34:19 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -158,6 +158,8 @@ categories:
 [dotnet OpenXML 解析 WPS 不规范的 PPT 文件的 cNvPr 重复 id 问题](https://blog.lindexi.com/post/dotnet-OpenXML-%E8%A7%A3%E6%9E%90-WPS-%E4%B8%8D%E8%A7%84%E8%8C%83%E7%9A%84-PPT-%E6%96%87%E4%BB%B6%E7%9A%84-cNvPr-%E9%87%8D%E5%A4%8D-id-%E9%97%AE%E9%A2%98.html )
 
 [dotnet OpenXML 解析 WPS 不符合压缩文档规范的文档](https://blog.lindexi.com/post/dotnet-OpenXML-%E8%A7%A3%E6%9E%90-WPS-%E4%B8%8D%E7%AC%A6%E5%90%88%E5%8E%8B%E7%BC%A9%E6%96%87%E6%A1%A3%E8%A7%84%E8%8C%83%E7%9A%84%E6%96%87%E6%A1%A3.html )
+
+[2019-1-8-看看你的PPT是不是被WPS玩坏了 - huangtengxiao](https://huangtengxiao.gitee.io/post/%E7%9C%8B%E7%9C%8B%E4%BD%A0%E7%9A%84PPT%E6%98%AF%E4%B8%8D%E6%98%AF%E8%A2%ABWPS%E7%8E%A9%E5%9D%8F%E4%BA%86.html)
 
 ## VSTO COM
 
