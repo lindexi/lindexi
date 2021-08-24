@@ -1,8 +1,8 @@
 ---
 title: "dotnet 教你写一个可以搞炸本机所有 WCF 应用的程序方法"
 author: lindexi
-date: 2021-8-23 8:34:19 +0800
-CreateTime: 2021-8-23 8:34:19 +0800
+date: 2021-8-23 16:47:14 +0800
+CreateTime: 2021/8/23 8:34:19
 categories: dotnet
 ---
 
@@ -11,7 +11,8 @@ categories: dotnet
 <!--more-->
 
 
-<!-- 博客 -->
+<!-- CreateTime:2021/8/23 8:34:19 -->
+<!-- 发布 -->
 
 本文如此逗比的方法是由 [lsj](https://blog.sdlsj.net) 小伙伴发现的，但是他不想记录如此逗比的方法，于是就交给我来水了
 
