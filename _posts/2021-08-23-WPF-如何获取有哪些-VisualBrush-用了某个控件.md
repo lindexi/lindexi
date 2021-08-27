@@ -1,8 +1,8 @@
 ---
 title: "WPF 如何获取有哪些 VisualBrush 用了某个控件"
 author: lindexi
-date: 2021-8-23 20:21:31 +0800
-CreateTime: 2021-8-23 20:6:20 +0800
+date: 2021-8-26 8:41:2 +0800
+CreateTime: 2021/8/23 20:06:20
 categories: WPF
 ---
 
@@ -11,9 +11,9 @@ categories: WPF
 <!--more-->
 
 
+<!-- CreateTime:2021/8/23 20:06:20 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 本文的方法需要用到反射，需要使用 WPF 框架里面没有公开的字段获取某个 Visual 控件被引用的 VisualBrush 有哪些，代码如下
 

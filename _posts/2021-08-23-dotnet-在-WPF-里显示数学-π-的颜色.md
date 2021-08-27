@@ -1,8 +1,8 @@
 ---
 title: "dotnet 在 WPF 里显示数学 π 的颜色"
 author: lindexi
-date: 2021-8-23 20:0:53 +0800
-CreateTime: 2021-8-23 19:42:30 +0800
+date: 2021-8-26 8:40:53 +0800
+CreateTime: 2021/8/23 19:42:30
 categories: WPF dotnet
 ---
 
@@ -11,9 +11,10 @@ categories: WPF dotnet
 <!--more-->
 
 
+<!-- CreateTime:2021/8/23 19:42:30 -->
+
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 以下就是我用程序生成的 π 图片 
 
