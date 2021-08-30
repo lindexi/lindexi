@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 读取 PPT 形状边框定义在 Style 的颜色画刷"
 author: lindexi
-date: 2021-8-27 18:50:57 +0800
-CreateTime: 2021-8-27 12:13:36 +0800
+date: 2021-8-28 8:25:47 +0800
+CreateTime: 2021/8/27 12:13:36
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/8/27 12:13:36 -->
 
 <!-- 发布 -->
 
