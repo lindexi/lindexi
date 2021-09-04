@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息"
 author: lindexi
-date: 2021-9-1 19:41:5 +0800
-CreateTime: 2021-9-1 16:59:19 +0800
+date: 2021-9-2 18:47:2 +0800
+CreateTime: 2021/9/1 16:59:19
 categories: dotnet
 ---
 
@@ -11,8 +11,9 @@ categories: dotnet
 <!--more-->
 
 
+<!-- CreateTime:2021/9/1 16:59:19 -->
+
 <!-- 发布 -->
-<!-- 博客 -->
 
 在开始之前，期望大家已了解很多 OpenXML 知识，详细请看 [Office 使用 OpenXML SDK 解析文档博客目录](https://blog.lindexi.com/post/Office-%E4%BD%BF%E7%94%A8-OpenXML-SDK-%E8%A7%A3%E6%9E%90%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95.html )
 

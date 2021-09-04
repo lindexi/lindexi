@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 读取 PPT 内嵌 ole 格式 Excel 表格的信息"
 author: lindexi
-date: 2021-9-2 18:37:39 +0800
-CreateTime: 2021-9-2 8:52:29 +0800
+date: 2021-9-2 18:47:8 +0800
+CreateTime: 2021/9/2 8:52:29
 categories: dotnet
 ---
 
@@ -11,8 +11,9 @@ categories: dotnet
 <!--more-->
 
 
+<!-- CreateTime:2021/9/2 8:52:29 -->
+
 <!-- 发布 -->
-<!-- 博客 -->
 
 在 Office 的 PPT 中，插入表格可以对应多个不同的方式：
 
