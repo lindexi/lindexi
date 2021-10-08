@@ -1,8 +1,8 @@
 ---
 title: "WPF 简单聊聊如何使用 DrawGlyphRun 绘制文本"
 author: lindexi
-date: 2021-9-30 8:47:27 +0800
-CreateTime: 2021-9-29 19:9:47 +0800
+date: 2021-9-30 8:48:24 +0800
+CreateTime: 2021/9/29 19:09:47
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/9/29 19:09:47 -->
 
 <!-- 博客 -->
 <!-- 发布 -->
