@@ -1,7 +1,7 @@
 ---
 title: "dotnet Roslyn 通过读取 suo 文件获取解决方案的启动项目"
 author: lindexi
-date: 2021-4-29 8:35:40 +0800
+date: 2021-10-12 14:7:47 +0800
 CreateTime: 2021/4/28 20:39:45
 categories: Roslyn MSBuild 编译器
 ---
@@ -145,9 +145,7 @@ var projectList = SetStartupProjects.SolutionProjectExtractor.GetAllProjectFiles
                 }, true);
 ```
 
-当然了，获取到的内容不一定使用 UTF-16 编码格式，还需要自己尝试，里面的数据只是二进制而是，上面代码的转换字符串只是用来调试
-
-
+当然了，获取到的内容不一定使用 UTF-16 编码格式，还需要自己尝试，里面的数据只是二进制而已，上面代码的转换字符串只是用来调试
 
 更多请看
 
