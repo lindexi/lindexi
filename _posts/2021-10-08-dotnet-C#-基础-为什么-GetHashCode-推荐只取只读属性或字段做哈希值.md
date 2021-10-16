@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 基础 为什么 GetHashCode 推荐只取只读属性或字段做哈希值"
 author: lindexi
-date: 2021-10-9 8:29:3 +0800
+date: 2021-10-15 8:45:56 +0800
 CreateTime: 2021/10/8 19:29:51
 categories: dotnet C#
 ---
@@ -13,8 +13,6 @@ categories: dotnet C#
 
 
 <!-- CreateTime:2021/10/8 19:29:51 -->
-
-<!-- 博客 -->
 
 在 dotnet 里面，大部分会用到 GetHashCode 的逻辑都在于哈希容器里面，如 Dictionary 字典等。这些哈希容器在设计上都期望类型遵守以下行为：当两个对象相等的时候，那么获取 GetHashCode 的值也一定相等
 

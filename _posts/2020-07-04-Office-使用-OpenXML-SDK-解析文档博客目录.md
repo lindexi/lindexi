@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-9-8 8:52:48 +0800
+date: 2021-10-15 15:37:8 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -248,6 +248,10 @@ categories:
 ### VS 插件
 
 [bsivanov/Open-XML-Package-Editor-Power-Tool-for-Visual-Studio: This Power Tool is a Visual Studio add-in that provides an easy way to parse and edit Open Packaging Conventions files, including Word, Excel and PowerPoint documents.](https://github.com/bsivanov/Open-XML-Package-Editor-Power-Tool-for-Visual-Studio )
+
+### 拷贝 Excel 数据到 WPF 控件
+
+[moraleslarios/MoralesLarios.CustomControls: XAML Controls](https://github.com/moraleslarios/MoralesLarios.CustomControls )
 
 ## 开发群
 
