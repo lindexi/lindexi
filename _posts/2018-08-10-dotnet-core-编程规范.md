@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 编程规范"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2021-10-18 19:7:19 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: dotnet
 ---
@@ -118,7 +118,7 @@ while (x == y)
 
 使用 Label 缩进一个小于当前缩进的标签
 
-原文：[coding-style.md](https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md )
+原文：[coding-style.md](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md )
 
 ![](http://image.acmx.xyz/lindexi%2F2018571237288065.jpg)
 

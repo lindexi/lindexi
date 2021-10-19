@@ -1,8 +1,8 @@
 ---
 title: "PublishFolderCleaner 让你的 dotnet 应用发布文件夹更加整洁"
 author: lindexi
-date: 2021-10-18 8:31:15 +0800
-CreateTime: 2021-10-18 8:31:15 +0800
+date: 2021-10-19 8:45:28 +0800
+CreateTime: 2021/10/18 8:31:15
 categories: dotnet
 ---
 
@@ -11,8 +11,9 @@ categories: dotnet
 <!--more-->
 
 
+<!-- CreateTime:2021/10/18 8:31:15 -->
+
 <!-- 发布 -->
-<!-- 博客 -->
 
 ## 使用方法
 
