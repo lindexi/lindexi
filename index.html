@@ -36,7 +36,6 @@ title: 林德熙
       {% else %}
         <li class="previous disabled"><span aria-hidden="true">←</span></li>
       {% endif %}
-
       {% for page in (1..paginator.total_pages) %}
         {% if page == paginator.page %}
           <li class="active">
@@ -45,9 +44,41 @@ title: 林德熙
         {% elsif page == 1 %}
           <li><a href="/">{{ page }}</a></li>
         {% else %}
-          <li>
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-          </li>
+          {% if paginator.total_pages <= 10 %}
+            <li>
+              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+            </li>
+          {% else %}
+            {% if paginator.page <= 5 %}
+              {% if page > 0 and page < 6 or page == paginator.total_pages %}
+                <li>
+                  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                </li>
+              {% assign dot = paginator.total_pages|minus:1 %}
+              {% elsif page == dot %}
+                <li>
+                  <a class="no-border" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">•••</a>
+                </li>
+              {% endif %}
+            {% else %}
+              {% assign index1 = paginator.page|minus:2 %}
+              {% assign index2 = paginator.page|plus:2 %}
+              {% assign dot = paginator.total_pages|minus:1 %}
+              {% if page >= index1 and page <= index2 or page == paginator.total_pages  %}
+                <li>
+                  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                </li>
+              {% elsif page == 2 %}
+                <li>
+                  <a class="no-border" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">•••</a>
+                </li>
+              {% elsif page == dot %}
+                <li>
+                  <a class="no-border" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">•••</a>
+                </li>
+              {% endif %}
+            {% endif %}
+          {% endif %}
         {% endif %}
       {% endfor %}
 
