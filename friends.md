@@ -192,7 +192,7 @@ permalink: /friends/
 
  - [痕迹 - 博客园](https://www.cnblogs.com/zh7791 )
 
- - [dino.c](http://www.cnblogs.com/dino623/ ) 写了很多动画
+ - [dino.c](http://www.cnblogs.com/dino623/ ) 这是微软 MVP 桌面开发方向
 
  - [毛利的技术小站](https://mourinaruto.github.io/?file=Home ) C++ 大神研究 windows 原理
 
