@@ -1,7 +1,7 @@
 ---
 title: "WPF 引用 UWP 控件 不打包为 MSIX 分发的方法"
 author: lindexi
-date: 2021-7-29 8:21:39 +0800
+date: 2021-11-8 14:40:21 +0800
 CreateTime: 2021/7/28 20:35:00
 categories: WPF UWP
 ---
@@ -114,4 +114,9 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 ```
 
 获取代码之后，进入 LaykearduchuNachairgurharhear 文件夹
+
+更多 WPF 引用 UWP 做高性能笔迹文档请看：
+
+- [WPF 使用 Microsoft.Toolkit.Wpf.UI.Controls 的 InkCanvas 做高性能笔迹应用](https://blog.lindexi.com/post/WPF-%E4%BD%BF%E7%94%A8-Microsoft.Toolkit.Wpf.UI.Controls-%E7%9A%84-InkCanvas-%E5%81%9A%E9%AB%98%E6%80%A7%E8%83%BD%E7%AC%94%E8%BF%B9%E5%BA%94%E7%94%A8.html )
+- [WPF 使用 Microsoft.Toolkit.Wpf.UI.Controls 的 InkCanvas 时加上背景色和按钮方法](https://blog.lindexi.com/post/WPF-%E4%BD%BF%E7%94%A8-Microsoft.Toolkit.Wpf.UI.Controls-%E7%9A%84-InkCanvas-%E6%97%B6%E5%8A%A0%E4%B8%8A%E8%83%8C%E6%99%AF%E8%89%B2%E5%92%8C%E6%8C%89%E9%92%AE%E6%96%B9%E6%B3%95.html )
 

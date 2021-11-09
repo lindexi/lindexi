@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 读取 PPT 内嵌 ole 格式 Excel 表格的信息"
 author: lindexi
-date: 2021-9-2 18:47:8 +0800
+date: 2021-11-8 16:47:48 +0800
 CreateTime: 2021/9/2 8:52:29
 categories: dotnet
 ---
@@ -219,4 +219,6 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 - [MS-OFFDI].pdf
 - [MS-XLS].pdf
 - [MS-OI 29500].pdf
+
+我嫌弃 [Open MCDF](https://github.com/ironfede/openmcdf) 库占用的内存太大，于是写了一个只读的版本，此版本能够使用尽可能少的内存，代码正在提回官方，请看 [Add the readonly version by lindexi · Pull Request #87 · ironfede/openmcdf](https://github.com/ironfede/openmcdf/pull/87 )
 

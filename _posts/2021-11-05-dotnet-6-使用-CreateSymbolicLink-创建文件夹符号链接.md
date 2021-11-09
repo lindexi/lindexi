@@ -1,8 +1,8 @@
 ---
 title: "dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接"
 author: lindexi
-date: 2021-11-6 8:47:28 +0800
-CreateTime: 2021-11-5 20:10:55 +0800
+date: 2021-11-6 8:47:47 +0800
+CreateTime: 2021/11/5 20:10:55
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/11/5 20:10:55 -->
 
 
 <!-- 发布 -->
