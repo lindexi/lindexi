@@ -1,8 +1,8 @@
 ---
 title: "WinForms 使用 Image 的 FromFile 方法加载文件和使用 Bitmap 有什么不同"
 author: lindexi
-date: 2021-11-11 8:25:18 +0800
-CreateTime: 2021-11-9 19:55:10 +0800
+date: 2021-11-11 8:26:9 +0800
+CreateTime: 2021/11/9 19:55:10
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2021/11/9 19:55:10 -->
 
 <!-- 发布 -->
 
