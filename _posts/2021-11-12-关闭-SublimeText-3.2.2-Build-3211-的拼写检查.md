@@ -1,8 +1,8 @@
 ---
 title: "关闭 SublimeText 3.2.2 Build 3211 的拼写检查"
 author: lindexi
-date: 2021-11-12 19:20:18 +0800
-CreateTime: 2021-11-12 19:20:18 +0800
+date: 2021-11-13 8:41:47 +0800
+CreateTime: 2021/11/12 19:20:18
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2021/11/12 19:20:18 -->
 
 <!-- 发布 -->
 
