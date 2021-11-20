@@ -230,6 +230,8 @@ permalink: /friends/
 
  - [闫驚鏵](https://www.cnblogs.com/yanjinhua/) 展示WPF的魅力
 
+ - [Zhuangkh](https://zhuangkh.com/ )
+
 ## 国内博客
 
  - [【WinRT】国内外 Windows 应用商店应用开发者博客收集 - h82258652 - 博客园](http://www.cnblogs.com/h82258652/p/4909957.html)
