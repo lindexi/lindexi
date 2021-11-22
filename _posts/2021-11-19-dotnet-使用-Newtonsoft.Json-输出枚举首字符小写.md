@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 Newtonsoft.Json 输出枚举首字符小写"
 author: lindexi
-date: 2021-11-20 8:27:41 +0800
-CreateTime: 2021-11-19 19:5:42 +0800
+date: 2021-11-20 8:28:21 +0800
+CreateTime: 2021/11/19 19:05:42
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/11/19 19:05:42 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
