@@ -1,8 +1,8 @@
 ---
 title: "dotnet 通过 DockerfileContext 解决项目放在里层文件夹导致 VisualStudio 构建失败"
 author: lindexi
-date: 2021-12-9 20:26:5 +0800
-CreateTime: 2021-12-9 20:26:4 +0800
+date: 2021-12-10 8:39:23 +0800
+CreateTime: 2021/12/9 20:26:04
 categories: VisualStudio dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: VisualStudio dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/12/9 20:26:04 -->
 
 <!-- 发布 -->
 
