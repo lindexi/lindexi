@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-12-4 9:28:58 +0800
+date: 2021-12-17 8:45:10 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -66,6 +66,8 @@ categories:
 [dotnet OpenXML 文本 EndParagraphRunProperties 的作用](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%96%87%E6%9C%AC-EndParagraphRunProperties-%E7%9A%84%E4%BD%9C%E7%94%A8.html )
 
 [dotnet OpenXML 文本删除线解析方法](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%96%87%E6%9C%AC%E5%88%A0%E9%99%A4%E7%BA%BF%E8%A7%A3%E6%9E%90%E6%96%B9%E6%B3%95.html )
+
+[dotnet OpenXML WPF 解析实现 PPT 文本描边效果](https://blog.lindexi.com/post/dotnet-OpenXML-WPF-%E8%A7%A3%E6%9E%90%E5%AE%9E%E7%8E%B0-PPT-%E6%96%87%E6%9C%AC%E6%8F%8F%E8%BE%B9%E6%95%88%E6%9E%9C.html )
 
 [dotnet OpenXML 的 spcPct 和 spcPts 表示距离的不同](https://blog.lindexi.com/post/dotnet-OpenXML-%E7%9A%84-spcPct-%E5%92%8C-spcPts-%E8%A1%A8%E7%A4%BA%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%B8%8D%E5%90%8C.html )
 

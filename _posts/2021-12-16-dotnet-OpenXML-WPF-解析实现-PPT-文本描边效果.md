@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML WPF 解析实现 PPT 文本描边效果"
 author: lindexi
-date: 2021-12-17 8:34:5 +0800
-CreateTime: 2021-12-16 15:17:6 +0800
+date: 2021-12-17 8:36:53 +0800
+CreateTime: 2021/12/16 15:17:06
 categories: WPF dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: WPF dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/12/16 15:17:06 -->
 
 <!-- 发布 -->
 
