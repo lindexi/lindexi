@@ -1,8 +1,8 @@
 ---
 title: "WPF 模拟 WPFMediaKit 的 D3D 配置用来测试4k性能"
 author: lindexi
-date: 2021-12-21 19:38:48 +0800
-CreateTime: 2021-12-20 19:21:53 +0800
+date: 2021-12-21 19:39:45 +0800
+CreateTime: 2021/12/20 19:21:53
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/12/20 19:21:53 -->
 
 <!-- 发布 -->
 
