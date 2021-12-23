@@ -1,8 +1,8 @@
 ---
 title: "SharpDx D3D9 的颜色 Format 和 WPF 的 PixelFormat 转换方法"
 author: lindexi
-date: 2021-12-21 20:13:11 +0800
-CreateTime: 2021-12-21 20:0:25 +0800
+date: 2021-12-22 8:41:0 +0800
+CreateTime: 2021/12/21 20:00:25
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2021/12/21 20:00:25 -->
 
 <!-- 发布 -->
 
