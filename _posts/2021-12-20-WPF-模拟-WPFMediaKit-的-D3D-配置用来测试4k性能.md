@@ -1,9 +1,9 @@
 ---
 title: "WPF 模拟 WPFMediaKit 的 D3D 配置用来测试4k性能"
 author: lindexi
-date: 2021-12-21 19:39:45 +0800
+date: 2021-12-23 15:4:13 +0800
 CreateTime: 2021/12/20 19:21:53
-categories: WPF
+categories: WPF D2D DirectX SharpDX 渲染
 ---
 
 本文告诉大家我在测试 WPFMediaKit 的 D3D 配置性能影响在 4k 分辨率设备下采用高清摄像头的性能
@@ -12,6 +12,7 @@ categories: WPF
 
 
 <!-- CreateTime:2021/12/20 19:21:53 -->
+<!-- 标签：WPF,D2D,DirectX,SharpDX,渲染 -->
 
 <!-- 发布 -->
 
