@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 文本 BodyProperties 的 FontScale 与文本字号缩放"
 author: lindexi
-date: 2021-12-30 8:32:40 +0800
-CreateTime: 2021-12-29 17:56:48 +0800
+date: 2021-12-30 8:33:2 +0800
+CreateTime: 2021/12/29 17:56:48
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2021/12/29 17:56:48 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2021-12-29 17:58:36 +0800
+date: 2021-12-30 8:41:17 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -60,6 +60,8 @@ categories:
 [Office 文档 文本排版布局 中华人民共和国国家标准 标点符号用法](https://blog.lindexi.com/post/Office-%E6%96%87%E6%A1%A3-%E6%96%87%E6%9C%AC%E6%8E%92%E7%89%88%E5%B8%83%E5%B1%80-%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86-%E6%A0%87%E7%82%B9%E7%AC%A6%E5%8F%B7%E7%94%A8%E6%B3%95.html )
 
 [dotnet OpenXML 文本 BodyProperties 的属性作用](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%96%87%E6%9C%AC-BodyProperties-%E7%9A%84%E5%B1%9E%E6%80%A7%E4%BD%9C%E7%94%A8.html )
+
+[dotnet OpenXML 文本 BodyProperties 的 FontScale 与文本字号缩放](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%96%87%E6%9C%AC-BodyProperties-%E7%9A%84-FontScale-%E4%B8%8E%E6%96%87%E6%9C%AC%E5%AD%97%E5%8F%B7%E7%BC%A9%E6%94%BE.html )
 
 [dotnet OpenXML 文本 ParagraphProperties 的属性作用](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%96%87%E6%9C%AC-ParagraphProperties-%E7%9A%84%E5%B1%9E%E6%80%A7%E4%BD%9C%E7%94%A8.html )
 
