@@ -1,7 +1,7 @@
 ---
 title: "探索 dotnet core 为何在 Windows7 系统需要补丁的原因"
 author: lindexi
-date: 2021-12-27 8:28:18 +0800
+date: 2022-1-5 19:1:56 +0800
 CreateTime: 2021/12/25 8:40:13
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2021/12/25 8:40:13 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 特别感谢 [lsj](https://blog.sdlsj.net) 给我讲解 Win32 调用部分的知识和帮我调查具体的原因，我只是记录的工具人
 
