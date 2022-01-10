@@ -1,8 +1,8 @@
 ---
 title: "WPF 双向绑定到非公开 set 方法属性在 NET 45 和 NET Core 行为的不同"
 author: lindexi
-date: 2022-1-9 10:16:47 +0800
-CreateTime: 2022-1-8 17:15:41 +0800
+date: 2022-1-9 10:17:12 +0800
+CreateTime: 2022/1/8 17:15:41
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2022/1/8 17:15:41 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
