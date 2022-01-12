@@ -1,7 +1,7 @@
 ---
 title: "WPF dotnet core 如何开启 Pointer 消息的支持"
 author: lindexi
-date: 2020-12-3 16:22:25 +0800
+date: 2022-1-11 19:34:1 +0800
 CreateTime: 2020/8/21 14:20:47
 categories: WPF dotnet
 ---
