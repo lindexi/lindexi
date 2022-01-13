@@ -1,7 +1,7 @@
 ---
 title: "WPF 开启Pointer消息存在的坑"
 author: lindexi
-date: 2022-1-11 20:2:39 +0800
+date: 2022-1-12 8:34:12 +0800
 CreateTime: 2019/12/24 14:33:41
 categories: WPF
 ---
@@ -108,6 +108,8 @@ categories: WPF
 更多请看
 
 [WPF can not work well with set IsPressAndHoldEnabled to false when enable pointer message · Issue #3379 · dotnet/wpf](https://github.com/dotnet/wpf/issues/3379 )
+
+[Stylus.SetIsPressAndHoldEnabled does not work when Switch.System.Windows.Input.Stylus.EnablePointerSupport is enabled · Issue #5939 · dotnet/wpf](https://github.com/dotnet/wpf/issues/5939 )
 
 [How do I disable the press-and-hold gesture for my window](https://devblogs.microsoft.com/oldnewthing/20170227-00/?p=95585 )
 

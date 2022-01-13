@@ -1,8 +1,8 @@
 ---
 title: "修复 SmartAssembly 混淆 .NET 6 时提示 Unable to load runtime config file 失败"
 author: lindexi
-date: 2022-1-11 21:9:36 +0800
-CreateTime: 2022-1-11 21:9:35 +0800
+date: 2022-1-12 8:27:51 +0800
+CreateTime: 2022/1/11 21:09:35
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2022/1/11 21:09:35 -->
 
 <!-- 发布 -->
 
