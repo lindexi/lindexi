@@ -1,7 +1,7 @@
 ---
 title: "WPF 开启Pointer消息存在的坑"
 author: lindexi
-date: 2022-1-12 8:34:12 +0800
+date: 2022-1-13 14:18:21 +0800
 CreateTime: 2019/12/24 14:33:41
 categories: WPF
 ---
@@ -102,6 +102,20 @@ categories: WPF
 这也就导致了原本支持互斥独占的触摸交互，在开启 Pointer 的应用下被无效。表现是如当前触摸被某个获取焦点的窗口捕获，此时触摸点到一个后台的窗口，未激活的窗口上，那此窗口依然可以收到触摸消息，无论这个窗口是在哪个进程上，只需要此窗口所在的进程开启 Pointer 消息即可
 
 而原先的交互是如果触摸被某个前台窗口捕获，那么其他窗口将啥都收不到，包括 `WM_Touch` 消息或者实时触摸消息
+
+## 滑动过程开启窗口触摸失效
+
+在进行 Manipulation 过程中，打开或者激活了窗口，将导致此窗口不接受触摸消息而触摸失效。例如另一个进程的文本框获取焦点时，在滑动 ListView 列表时，打开了窗口或者激活现有的窗口到前台获取焦点，在此窗口内进行触摸，可能会收不到触摸事件
+
+原因是在进行 Manipulation 将会设置一些特殊的内部字段参数，原本不走 Pointer 时，将会自然走到 MouseDevice.cs 的逻辑，触发了 Activate 逻辑，让 WPF 框架层处理窗口激活交互逻辑。但是在 Pointer 层时，走的是 PointerLogic.cs 的逻辑，没有激活交互的逻辑。修复方法是在 PointerLogic.cs 的逻辑也调用 MouseDevice.cs 的 PushActivateInputReport 方法激活交互
+
+此问题已修复，参阅 [Port touch activation fix from 4.8 by SamBent · Pull Request #5836 · dotnet/wpf](https://github.com/dotnet/wpf/pull/5836 )
+
+对应在 2022 的一月系统质量更新补丁，如 50088XX 系列补丁，参阅 [https://support.microsoft.com/kb/5008890](https://support.microsoft.com/kb/5008890)
+
+[.NET Framework January 2022 Security and Quality Rollup Updates - .NET Blog](https://devblogs.microsoft.com/dotnet/net-framework-january-2022-security-and-quality-rollup-updates/ )
+
+
 
 
 
