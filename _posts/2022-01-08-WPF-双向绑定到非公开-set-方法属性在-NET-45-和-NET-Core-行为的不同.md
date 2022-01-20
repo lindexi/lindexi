@@ -1,7 +1,7 @@
 ---
 title: "WPF 双向绑定到非公开 set 方法属性在 NET 45 和 NET Core 行为的不同"
 author: lindexi
-date: 2022-1-9 10:17:12 +0800
+date: 2022-1-19 8:48:13 +0800
 CreateTime: 2022/1/8 17:15:41
 categories: WPF
 ---
@@ -14,7 +14,6 @@ categories: WPF
 <!-- CreateTime:2022/1/8 17:15:41 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 在 .NET Framework 4.5 下，可以使用 Binding 下的 TwoWay 双向绑定模式，绑定到非公开的 set 属性，如 `private set` 私有设置的属性上，实现双向更改，效果上和公开的 set 方法一样，可以成功写入
 
