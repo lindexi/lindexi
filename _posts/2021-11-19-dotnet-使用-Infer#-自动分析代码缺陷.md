@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Infer# 自动分析代码缺陷"
 author: lindexi
-date: 2021-11-20 8:28:21 +0800
+date: 2022-1-26 8:55:8 +0800
 CreateTime: 2021/11/19 19:39:33
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2021/11/19 19:39:33 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 这是一个在 GitHub 上完全开源的仓库，请看 [https://github.com/microsoft/infersharp](https://github.com/microsoft/infersharp)
 

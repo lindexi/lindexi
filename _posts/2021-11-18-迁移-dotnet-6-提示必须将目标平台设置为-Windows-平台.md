@@ -1,7 +1,7 @@
 ---
 title: "迁移 dotnet 6 提示必须将目标平台设置为 Windows 平台"
 author: lindexi
-date: 2021-11-19 8:33:53 +0800
+date: 2022-1-26 8:59:3 +0800
 CreateTime: 2021/11/18 20:23:35
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2021/11/18 20:23:35 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 此提示是在 .NET 的 SDK 的 Microsoft.NET.Sdk.DefaultItems.targets 文件开启的，代码如下
 
