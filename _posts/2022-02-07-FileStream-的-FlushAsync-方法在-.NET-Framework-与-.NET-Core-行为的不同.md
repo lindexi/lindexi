@@ -1,8 +1,8 @@
 ---
 title: "FileStream 的 FlushAsync 方法在 .NET Framework 与 .NET Core 行为的不同"
 author: lindexi
-date: 2022-2-7 8:56:24 +0800
-CreateTime: 2022-2-7 8:56:20 +0800
+date: 2022-2-8 8:23:1 +0800
+CreateTime: 2022/2/7 8:56:20
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2022/2/7 8:56:20 -->
 
 <!-- 博客 -->
 <!-- 发布 -->
