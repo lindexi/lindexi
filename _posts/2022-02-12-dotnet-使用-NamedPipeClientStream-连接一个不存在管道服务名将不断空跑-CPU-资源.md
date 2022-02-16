@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 NamedPipeClientStream 连接一个不存在管道服务名将不断空跑 CPU 资源"
 author: lindexi
-date: 2022-2-12 11:32:23 +0800
-CreateTime: 2022-2-12 10:41:44 +0800
+date: 2022-2-14 19:18:20 +0800
+CreateTime: 2022/2/12 10:41:44
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/2/12 10:41:44 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
