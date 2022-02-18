@@ -1,8 +1,8 @@
 ---
 title: "记因为 NVIDIA 显驱错误而让 WPF 应用启动闪退问题"
 author: lindexi
-date: 2022-2-15 20:13:17 +0800
-CreateTime: 2022-2-15 20:3:12 +0800
+date: 2022-2-16 8:26:41 +0800
+CreateTime: 2022/2/15 20:03:12
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2022/2/15 20:03:12 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
