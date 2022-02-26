@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 VideoDrawing 播放视频"
 author: lindexi
-date: 2022-2-24 20:17:21 +0800
-CreateTime: 2022-2-24 20:14:6 +0800
+date: 2022-2-25 19:17:57 +0800
+CreateTime: 2022/2/24 20:14:06
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2022/2/24 20:14:06 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
