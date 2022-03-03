@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 VideoDrawing 播放视频"
 author: lindexi
-date: 2022-2-25 19:17:57 +0800
+date: 2022-3-2 8:47:5 +0800
 CreateTime: 2022/2/24 20:14:06
 categories: WPF
 ---
@@ -14,7 +14,6 @@ categories: WPF
 <!-- CreateTime:2022/2/24 20:14:06 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 用这个方法有什么优势？其实只是想作为某个控件的背景，某个控件的背景使用视频而已
 
