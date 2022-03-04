@@ -1,7 +1,7 @@
 ---
 title: "dotnet 新 SDK Style 项目格式如何使用 InternalsVisibleToAttribute 功能"
 author: lindexi
-date: 2020-12-24 19:36:16 +0800
+date: 2022-3-3 10:26:42 +0800
 CreateTime: 2020/8/21 16:19:07
 categories: dotnet
 ---
@@ -25,6 +25,24 @@ using System.Reflection;
 ```
 
 对于强签名的程序集，只能被强签名的程序集可见
+
+如果想要在 csproj 文件上面写，也可以，在 ItemGroup 添加下面代码
+
+```xml
+  <ItemGroup>
+    <InternalsVisibleTo Include="Lindexi.blog.csdn.net" />
+  </ItemGroup>
+```
+
+这是在 .NET 5 的 SDK 提供的。敲黑板，由 .NET 5 的 SDK 提供，不等价于你必须使用 TargetFramework 为 net5.0 版本，而是只要你在开发机器上，安装了 .NET 5 或更高版本的 SDK 即可写出如上代码，和你的项目具体使用什么版本没有任何关系。简单说就是，即使你的项目是 .NET Framework 4.5 的，但是在你的开发设备上安装了 .NET 5 或更高版本的 SDK 那么即可使用如上代码
+
+以上功能是在 [https://github.com/dotnet/sdk/pull/3439](https://github.com/dotnet/sdk/pull/3439) 加上的
+
+---
+
+## 以下是废弃的内容
+
+在 2019 的 10 月份之前，如果你穿越回过去的话，那么也许需要使用如下方法
 
 如果想要在 csproj 文件上面写，也可以，在 ItemGroup 添加下面代码
 
