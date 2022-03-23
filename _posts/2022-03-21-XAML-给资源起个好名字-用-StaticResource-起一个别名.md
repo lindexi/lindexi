@@ -1,7 +1,7 @@
 ---
 title: "XAML 给资源起个好名字 用 StaticResource 起一个别名"
 author: lindexi
-date: 2022-3-21 8:30:57 +0800
+date: 2022-3-22 8:54:0 +0800
 CreateTime: 2022/3/21 8:29:08
 categories: WPF xaml
 ---
@@ -15,7 +15,6 @@ categories: WPF xaml
 
 <!-- 标签：wpf,xaml -->
 <!-- 发布 -->
-<!-- 博客 -->
 
 在稍微大一点的项目里，肯定 XAML 资源是少不了的。对于 XAML 资源，行业里讨论多（非小白讨论）的是关于资源的复用和初始化时机，加载时机的问题。本文聊的是资源的复用以及变更资源的开发模式
 
