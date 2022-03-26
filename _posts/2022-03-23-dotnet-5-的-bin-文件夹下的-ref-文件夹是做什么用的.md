@@ -1,8 +1,8 @@
 ---
 title: "dotnet 5 的 bin 文件夹下的 ref 文件夹是做什么用的"
 author: lindexi
-date: 2022-3-23 19:56:40 +0800
-CreateTime: 2022-3-23 19:56:40 +0800
+date: 2022-3-24 21:4:48 +0800
+CreateTime: 2022/3/23 19:56:40
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/3/23 19:56:40 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
