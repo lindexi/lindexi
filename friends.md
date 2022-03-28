@@ -6,7 +6,7 @@ permalink: /friends/
 
 ## [dotnet职业技术学院](https://dotnet-campus.github.io/)
 
- - [walterlv https://walterlv.com](https://walterlv.com ) 
+ - [walterlv https://walterlv.com](https://blog.walterlv.com ) 
 
    微软最具价值专家
 
