@@ -1,8 +1,8 @@
 ---
-title: "dotnet 为大型应用而创建的 ApplicationStartupManager 启动流程框架"
+title: "dotnet 为大型应用接入 ApplicationStartupManager 启动流程框架"
 author: lindexi
-date: 2022-4-4 21:30:46 +0800
-CreateTime: 2022-4-4 21:30:46 +0800
+date: 2022-4-5 10:10:53 +0800
+CreateTime: 2022-4-5 10:10:53 +0800
 categories: dotnet
 ---
 
