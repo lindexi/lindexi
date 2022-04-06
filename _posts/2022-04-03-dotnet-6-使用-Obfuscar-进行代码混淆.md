@@ -1,8 +1,8 @@
 ---
 title: "dotnet 6 使用 Obfuscar 进行代码混淆"
 author: lindexi
-date: 2022-4-5 10:10:46 +0800
-CreateTime: 2022-4-3 16:57:58 +0800
+date: 2022-4-6 8:41:41 +0800
+CreateTime: 2022/4/3 16:57:58
 categories: dotnet 混淆
 ---
 
@@ -11,8 +11,11 @@ categories: dotnet 混淆
 <!--more-->
 
 
+<!-- CreateTime:2022/4/3 16:57:58 -->
+
 <!-- 标签：dotnet，混淆 -->
 <!-- 发布 -->
+<!-- 博客 -->
 
 ## 开源
 
