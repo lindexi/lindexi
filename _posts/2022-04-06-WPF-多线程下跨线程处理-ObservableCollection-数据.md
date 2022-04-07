@@ -1,8 +1,8 @@
 ---
 title: "WPF 多线程下跨线程处理 ObservableCollection 数据"
 author: lindexi
-date: 2022-4-6 8:41:59 +0800
-CreateTime: 2022-4-6 8:41:2 +0800
+date: 2022-4-6 8:42:59 +0800
+CreateTime: 2022/4/6 8:41:02
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2022/4/6 8:41:02 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
