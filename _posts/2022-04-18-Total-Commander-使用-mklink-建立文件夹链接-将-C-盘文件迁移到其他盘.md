@@ -1,8 +1,8 @@
 ---
 title: "Total Commander 使用 mklink 建立文件夹链接 将 C 盘文件迁移到其他盘"
 author: lindexi
-date: 2022-4-18 8:36:59 +0800
-CreateTime: 2022-4-18 8:36:59 +0800
+date: 2022-4-18 8:37:37 +0800
+CreateTime: 2022/4/18 8:36:59
 categories: TotalCommander
 ---
 
@@ -11,6 +11,8 @@ categories: TotalCommander
 
 <!--more-->
 
+
+<!-- CreateTime:2022/4/18 8:36:59 -->
 
 
 <!-- 标签：TotalCommander -->
