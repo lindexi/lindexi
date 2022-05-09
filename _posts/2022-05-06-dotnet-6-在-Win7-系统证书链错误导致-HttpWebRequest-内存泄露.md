@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 在 Win7 系统证书链错误导致 HttpWebRequest 内存泄露"
 author: lindexi
-date: 2022-5-8 11:11:3 +0800
+date: 2022-5-9 8:48:55 +0800
 CreateTime: 2022/5/6 20:18:55
 categories: dotnet
 ---
@@ -13,7 +13,6 @@ categories: dotnet
 
 <!-- CreateTime:2022/5/6 20:18:55 -->
 
-<!-- 博客 -->
 <!-- 发布 -->
 
 ## 核心原因
