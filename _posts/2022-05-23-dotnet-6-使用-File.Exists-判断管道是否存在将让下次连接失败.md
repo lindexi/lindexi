@@ -1,8 +1,8 @@
 ---
 title: "dotnet 6 使用 File.Exists 判断管道是否存在将让下次连接失败"
 author: lindexi
-date: 2022-5-24 20:15:20 +0800
-CreateTime: 2022-5-23 20:17:28 +0800
+date: 2022-5-24 20:20:33 +0800
+CreateTime: 2022/5/23 20:17:28
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/5/23 20:17:28 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
