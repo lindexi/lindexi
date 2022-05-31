@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 ReadyToRun 提升性能"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2022-5-30 16:17:54 +0800
 CreateTime: 2019/7/2 10:29:55
 categories: WPF
 ---
@@ -109,6 +109,8 @@ dotnet publish -c release  -r win-x64 --self-contained
 此时在发布的文件夹可以找到比原来多出的 `.ni.pdb` 文件，这就是本机代码的符号文件
 
 关于项目文件的配置请看我的[项目](https://github.com/lindexi/lindexi_gd/tree/36d9e70722f86bc8d03385868a99fc9c7719b504/FuhelerjaihuBuqibeayay) 下载之后可以使用本文方法进行编译
+
+进行更多的优化，请参阅 [dotnet 使用 Crossgen2 对 DLL 进行 ReadyToRun 提升启动性能](https://blog.lindexi.com/post/dotnet-%E4%BD%BF%E7%94%A8-Crossgen2-%E5%AF%B9-DLL-%E8%BF%9B%E8%A1%8C-ReadyToRun-%E6%8F%90%E5%8D%87%E5%90%AF%E5%8A%A8%E6%80%A7%E8%83%BD.html )
 
 更多请看[官方文档](https://github.com/dotnet/coreclr/blob/master/Documentation/botr/readytorun-overview.md) 
 
