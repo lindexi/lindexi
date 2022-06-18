@@ -1,8 +1,8 @@
 ---
 title: "dotnet 6 使用 HttpClient 的超时机制"
 author: lindexi
-date: 2022-6-17 8:5:51 +0800
-CreateTime: 2022-6-16 17:16:6 +0800
+date: 2022-6-17 8:21:25 +0800
+CreateTime: 2022/6/16 17:16:06
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/6/16 17:16:06 -->
 
 <!-- 发布 -->
 
@@ -32,7 +34,7 @@ categories: dotnet
     };
 ```
 
-在 HttpClient 里面传入 SocketsHttpHandler 对象，可以在 SocketsHttpHandler 对象进行更底层的控制，从而实现控制连接超时时间。在 dotnet 6 下，默认的 HttpClient 底层就是调用 SocketsHttpHandler 对象，因此以上代码对 HttpClient 底层行为没有任何变更
+在 HttpClient 里面传入 SocketsHttpHandler 对象，可以在 SocketsHttpHandler 对象进行更底层的控制，从而实现控制连接超时时间。在 dotnet 6 下，默认的 HttpClient 底层就是调用 SocketsHttpHandler 对象，因此以上代码对 HttpClient 底层行为没有任何变更。详细请看 [dotnet 6 HttpClientHandler 和 SocketsHttpHandler 有什么差别](https://blog.lindexi.com/post/dotnet-6-HttpClientHandler-%E5%92%8C-SocketsHttpHandler-%E6%9C%89%E4%BB%80%E4%B9%88%E5%B7%AE%E5%88%AB.html )
 
 有些伙伴在遇到此问题的时候，在网上搜到了一些上古的解决方案，那就是采用 HttpWebRequest 的方式。然而坏消息是在 dotnet 6 下，由于 HttpWebRequest 的底层就是采用 HttpClient 实现，因此 HttpWebRequest 是解决不了此问题的。详细请看 [dotnet 6 使用 HttpWebRequest 进行 POST 文件将占用大量内存](https://blog.lindexi.com/post/dotnet-6-%E4%BD%BF%E7%94%A8-HttpWebRequest-%E8%BF%9B%E8%A1%8C-POST-%E6%96%87%E4%BB%B6%E5%B0%86%E5%8D%A0%E7%94%A8%E5%A4%A7%E9%87%8F%E5%86%85%E5%AD%98.html )
 
