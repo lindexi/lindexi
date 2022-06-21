@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何使用 MSBuild Copy 复制文件"
 author: lindexi
-date: 2020-7-3 18:55:49 +0800
+date: 2022-6-20 19:35:56 +0800
 CreateTime: 2020/1/19 14:56:19
 categories: Roslyn MSBuild 编译器
 ---
@@ -138,6 +138,16 @@ xx\lindexi.txt;xx\lindexi.gitee.io.txt
 
   <Target Name="Copy" BeforeTargets="CoreCompile">
     <Copy SourceFiles="@(Txt)" DestinationFolder="LetirNuhe\"></Copy>
+  </Target>
+```
+
+## 文件列表保留文件夹组织
+
+以上的拷贝方法将会让文件被拍平拷贝文件夹，如果需要保留原本的文件夹组织形式，可采用如下方式
+
+```xml
+  <Target Name="Copy" BeforeTargets="CoreCompile">
+    <Copy SourceFiles="@(Txt)" DestinationFolder="LetirNuhe\%(RecursiveDir)"></Copy>
   </Target>
 ```
 
