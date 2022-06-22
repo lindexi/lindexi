@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 使用 HttpWebRequest 进行 POST 文件将占用大量内存"
 author: lindexi
-date: 2022-6-17 8:20:59 +0800
+date: 2022-6-21 8:44:49 +0800
 CreateTime: 2022/6/13 8:04:47
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2022/6/13 8:04:47 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 这是一个 .NET Core 和 .NET Framework 行为的差异。在 .NET Framework 下，调用 WebRequest.Create 方法创建一个 HttpWebRequest 对象，使用 HttpWebRequest 对象调用 GetRequestStream 方法即可获取请求的 Stream 用于写入数据，写入的数据可以是一个文件的信息
 
