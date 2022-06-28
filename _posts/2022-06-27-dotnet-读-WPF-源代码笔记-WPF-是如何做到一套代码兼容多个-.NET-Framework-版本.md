@@ -1,8 +1,8 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 WPF 是如何做到一套代码兼容多个 .NET Framework 版本"
 author: lindexi
-date: 2022-6-27 8:20:53 +0800
-CreateTime: 2022-6-27 8:20:53 +0800
+date: 2022-6-27 8:21:25 +0800
+CreateTime: 2022/6/27 8:20:53
 categories: WPF WPF源代码
 ---
 
@@ -11,6 +11,8 @@ categories: WPF WPF源代码
 
 <!--more-->
 
+
+<!-- CreateTime:2022/6/27 8:20:53 -->
 
 
 <!-- 博客 -->
