@@ -1,7 +1,7 @@
 ---
 title: "dotnet 修复在 Linux 上使用 SkiaSharp 提示找不到 liblibSkiaSharp 库"
 author: lindexi
-date: 2022-6-28 8:41:44 +0800
+date: 2022-6-29 16:5:14 +0800
 CreateTime: 2022/6/27 15:30:46
 categories: dotnet
 ---
@@ -64,3 +64,5 @@ git pull origin 668b2acf5749a1e190733882ae49ad105877cb55
 获取代码之后，进入 SkiaSharp/KebeninegeeWaljelluhi 文件夹
 
 我建立了一个 SkiaSharp 的群： 788018852 欢迎大家加入讨论
+
+更多请看 [Docker环境下使用SkiaSharp的2种方式 - 从零开始-DotNET技术 - 博客园](https://www.cnblogs.com/yycelsu/p/14048859.html )
