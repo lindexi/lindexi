@@ -1,8 +1,8 @@
 ---
 title: "dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门"
 author: lindexi
-date: 2022-6-29 15:59:10 +0800
-CreateTime: 2022-6-29 15:3:53 +0800
+date: 2022-6-30 8:23:45 +0800
+CreateTime: 2022/6/29 15:03:53
 categories: MAUI MauiGraphics
 ---
 
@@ -10,6 +10,8 @@ categories: MAUI MauiGraphics
 
 <!--more-->
 
+
+<!-- CreateTime:2022/6/29 15:03:53 -->
 
 
 <!-- 标签：MAUI,MauiGraphics -->
