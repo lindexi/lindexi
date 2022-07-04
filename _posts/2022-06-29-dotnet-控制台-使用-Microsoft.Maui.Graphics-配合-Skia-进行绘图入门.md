@@ -1,9 +1,9 @@
 ---
 title: "dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门"
 author: lindexi
-date: 2022-7-1 8:44:33 +0800
+date: 2022-7-1 14:16:34 +0800
 CreateTime: 2022/6/29 15:03:53
-categories: MAUI MauiGraphics
+categories: MAUI MauiGraphics Skia SkiaSharp 渲染
 ---
 
 本文将告诉大家如何在 dotnet 的控制台模式下，采用 MAUI 自绘库 Microsoft.Maui.Graphics 进行绘图，设置 Microsoft.Maui.Graphics 底层调用 Microsoft.Maui.Graphics.Skia 库的 Skia 进行具体的绘图实现，此控制台可以跨平台运行，我在本机 Win10 和 WSL 的 Ubuntu 上都运行过，输出的结果图片像素级相似。本文将告诉大家如何采用 Microsoft.Maui.Graphics 进行跨平台的自绘
@@ -14,8 +14,7 @@ categories: MAUI MauiGraphics
 <!-- CreateTime:2022/6/29 15:03:53 -->
 
 
-<!-- 标签：MAUI,MauiGraphics -->
-<!-- 博客 -->
+<!-- 标签：MAUI,MauiGraphics,Skia,SkiaSharp,渲染 -->
 <!-- 发布 -->
 
 在开始之前，先理清一下概念。刚正式发布的 MAUI 指的是一个跨平台的 UI 框架，而 dotnet 指的是在 UI 框架下面的运行时，这是早已实现跨平台的了。本文所说的 Microsoft.Maui.Graphics 是属于 MAUI 的一个组件，是 MAUI 的渲染层里面的一个部分。相当于直接使用 Microsoft.Maui.Graphics 就是将 MAUI 的渲染里面的一个模块拆出来独立使用。可以看到 MAUI 的设计上，渲染的一个模块是可以拆处理独立使用的
