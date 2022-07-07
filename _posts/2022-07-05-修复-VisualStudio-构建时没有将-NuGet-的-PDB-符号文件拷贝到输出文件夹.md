@@ -1,8 +1,8 @@
 ---
 title: "修复 VisualStudio 构建时没有将 NuGet 的 PDB 符号文件拷贝到输出文件夹"
 author: lindexi
-date: 2022-7-5 14:22:26 +0800
-CreateTime: 2022-7-5 14:17:8 +0800
+date: 2022-7-6 8:48:46 +0800
+CreateTime: 2022/7/5 14:17:08
 categories: NuGet VisualStudio 构建
 ---
 
@@ -10,6 +10,8 @@ categories: NuGet VisualStudio 构建
 
 <!--more-->
 
+
+<!-- CreateTime:2022/7/5 14:17:08 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
