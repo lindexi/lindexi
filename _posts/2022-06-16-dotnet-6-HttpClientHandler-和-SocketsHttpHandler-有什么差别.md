@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 HttpClientHandler 和 SocketsHttpHandler 有什么差别"
 author: lindexi
-date: 2022-6-17 8:6:3 +0800
+date: 2022-7-19 8:33:57 +0800
 CreateTime: 2022/6/16 10:01:22
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2022/6/16 10:01:22 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 在创建 HttpClient 时，可以在 HttpClient 的构造函数传入 HttpMessageHandler 类型的参数，此参数将执行实际的逻辑。其中常用的传入参数类型就是 HttpClientHandler 和 SocketsHttpHandler 类型
 

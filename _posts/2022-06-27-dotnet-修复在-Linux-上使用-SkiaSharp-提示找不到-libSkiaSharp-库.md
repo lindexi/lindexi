@@ -1,12 +1,12 @@
 ---
-title: "dotnet 修复在 Linux 上使用 SkiaSharp 提示找不到 liblibSkiaSharp 库"
+title: "dotnet 修复在 Linux 上使用 SkiaSharp 提示找不到 libSkiaSharp 库"
 author: lindexi
-date: 2022-6-29 16:5:14 +0800
+date: 2022-7-19 8:36:36 +0800
 CreateTime: 2022/6/27 15:30:46
 categories: dotnet
 ---
 
-本文告诉大家如何简单修复在 Linux 上使用 SkiaSharp 提示找不到 liblibSkiaSharp 库
+本文告诉大家如何简单修复在 Linux 上使用 SkiaSharp 提示找不到 libSkiaSharp 库
 
 <!--more-->
 
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2022/6/27 15:30:46 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 我的应用在 Windows 上跑的好好的，放在 Linux 上一运行就炸掉了，异常内容如下
 
