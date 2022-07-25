@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Direct Manipulation 的方法"
 author: lindexi
-date: 2020-12-3 16:22:25 +0800
+date: 2022-7-25 8:27:42 +0800
 CreateTime: 2020/8/1 8:32:34
 categories: WPF
 ---
@@ -41,7 +41,7 @@ categories: WPF
 ```
 
 在 SizeChanged 初始化
-
+ 
 ```csharp
         private void MainWindow_SizeChanged(object sender, SizeChangedEventArgs e)
         {
