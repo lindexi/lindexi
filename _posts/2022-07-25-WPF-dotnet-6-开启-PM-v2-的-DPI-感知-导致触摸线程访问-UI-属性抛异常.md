@@ -1,8 +1,8 @@
 ---
 title: "WPF dotnet 6 开启 PM v2 的 DPI 感知 导致触摸线程访问 UI 属性抛异常"
 author: lindexi
-date: 2022-7-25 8:28:0 +0800
-CreateTime: 2022-7-25 8:28:0 +0800
+date: 2022-7-25 8:28:52 +0800
+CreateTime: 2022/7/25 8:28:00
 categories: WPF dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: WPF dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/7/25 8:28:00 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
