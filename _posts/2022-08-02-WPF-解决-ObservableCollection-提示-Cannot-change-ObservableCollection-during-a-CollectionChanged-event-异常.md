@@ -1,8 +1,8 @@
 ---
 title: "WPF 解决 ObservableCollection 提示 Cannot change ObservableCollection during a CollectionChanged event 异常"
 author: lindexi
-date: 2022-8-3 8:37:37 +0800
-CreateTime: 2022-8-2 17:40:37 +0800
+date: 2022-8-3 8:38:45 +0800
+CreateTime: 2022/8/2 17:40:37
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2022/8/2 17:40:37 -->
 
 
 <!-- 发布 -->
