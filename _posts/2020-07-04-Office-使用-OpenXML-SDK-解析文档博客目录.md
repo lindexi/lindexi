@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2022-8-5 9:34:22 +0800
+date: 2022-8-10 18:25:12 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -196,6 +196,8 @@ categories:
 ## 图表
 
 [dotnet OpenXML 解析 PPT 图表 面积图入门](https://blog.lindexi.com/post/dotnet-OpenXML-%E8%A7%A3%E6%9E%90-PPT-%E5%9B%BE%E8%A1%A8-%E9%9D%A2%E7%A7%AF%E5%9B%BE%E5%85%A5%E9%97%A8.html ) [博客园](https://www.cnblogs.com/lindexi/p/16552973.html )
+
+[dotnet OpenXML 解析 PPT 图表 解析日期时间表示内容](https://blog.lindexi.com/post/dotnet-OpenXML-%E8%A7%A3%E6%9E%90-PPT-%E5%9B%BE%E8%A1%A8-%E8%A7%A3%E6%9E%90%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E8%A1%A8%E7%A4%BA%E5%86%85%E5%AE%B9.html )
 
 ## 工具
 
