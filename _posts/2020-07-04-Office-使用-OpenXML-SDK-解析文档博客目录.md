@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2022-8-16 20:24:24 +0800
+date: 2022-8-18 10:17:6 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -273,6 +273,16 @@ categories:
 这是一个控件库，里面也包含了部分工具，请看
 
 [Importing and Exporting OpenXml Files (WPF) ](https://www.grapecity.com/componentone/docs/wpf/online-excel/importingandexportin.html )
+
+### [GemBox.Document](https://www.gemboxsoftware.com/ )
+
+C# / VB.NET Word component
+
+<!-- ![](image/Office 使用 OpenXML SDK 解析文档博客目录/Office 使用 OpenXML SDK 解析文档博客目录0.png) -->
+
+![](http://image.acmx.xyz/lindexi%2F2022818101656359.jpg)
+
+[https://www.gemboxsoftware.com](https://www.gemboxsoftware.com)
 
 ### VS 插件
 

@@ -1,8 +1,8 @@
 ---
 title: "Ubuntu 通过本机代理修复 NuGet 还原 error NU1301 失败"
 author: lindexi
-date: 2022-8-16 21:13:19 +0800
-CreateTime: 2022-8-16 21:13:19 +0800
+date: 2022-8-17 8:37:33 +0800
+CreateTime: 2022/8/16 21:13:19
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2022/8/16 21:13:19 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
