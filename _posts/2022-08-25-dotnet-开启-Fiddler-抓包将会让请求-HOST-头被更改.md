@@ -1,8 +1,8 @@
 ---
 title: "dotnet 开启 Fiddler 抓包将会让请求 HOST 头被更改"
 author: lindexi
-date: 2022-8-25 9:37:2 +0800
-CreateTime: 2022-8-25 8:53:12 +0800
+date: 2022-8-26 19:2:27 +0800
+CreateTime: 2022/8/25 8:53:12
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/8/25 8:53:12 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
