@@ -1,8 +1,8 @@
 ---
 title: "尝试 IIncrementalGenerator 进行增量 Source Generator 生成代码"
 author: lindexi
-date: 2022-8-29 8:40:56 +0800
-CreateTime: 2022-8-29 8:40:56 +0800
+date: 2022-8-29 9:32:2 +0800
+CreateTime: 2022/8/29 8:40:56
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2022/8/29 8:40:56 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -220,19 +222,19 @@ context.CompilationProvider
 如果是的话，那就加上生成的源代码
 
 ```csharp
-                string source = $@"
+                string source = @"
 using System;
 
 namespace WhacadenaKewarfellaja
-{{
+{
     public static partial class Program
-    {{
+    {
         static partial void HelloFrom(string name)
-        {{
-            Console.WriteLine($""Says: Hi from '{{name}}'"");
-        }}
-    }}
-}}
+        {
+            Console.WriteLine($""Says: Hi from '{name}'"");
+        }
+    }
+}
 ";
                 sourceProductionContext.AddSource("GeneratedSourceTest", source);
 ```
@@ -245,20 +247,7 @@ namespace WhacadenaKewarfellaja
                 // 这是一个很强的技术，在代码没有变更的情况下，多次构建，是可以看到不会重复进入此逻辑，也就是 Count 属性没有加一
                 // 可以试试对一个大的项目，修改部分代码，看看 Count 属性
 
-                string source = $@"
-using System;
-
-namespace WhacadenaKewarfellaja
-{{
-    public static partial class Program
-    {{
-        static partial void HelloFrom(string name)
-        {{
-            Console.WriteLine($""构建 {Count} 次 says: Hi from '{{name}}'"");
-        }}
-    }}
-}}
-";
+                string source = $@"Console.WriteLine(""构建 {Count} 次"");";
                 sourceProductionContext.AddSource("GeneratedSourceTest", source);
 
                 Count++;
@@ -308,20 +297,7 @@ namespace WhacadenaKewarfellaja
                 // 这是一个很强的技术，在代码没有变更的情况下，多次构建，是可以看到不会重复进入此逻辑，也就是 Count 属性没有加一
                 // 可以试试对一个大的项目，修改部分代码，看看 Count 属性
 
-                string source = $@"
-using System;
-
-namespace WhacadenaKewarfellaja
-{{
-    public static partial class Program
-    {{
-        static partial void HelloFrom(string name)
-        {{
-            Console.WriteLine($""构建 {Count} 次 says: Hi from '{{name}}'"");
-        }}
-    }}
-}}
-";
+                string source = ... // 生成的代码
                 sourceProductionContext.AddSource("GeneratedSourceTest", source);
 
                 Count++;
