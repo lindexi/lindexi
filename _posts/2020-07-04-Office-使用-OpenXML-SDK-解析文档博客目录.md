@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2022-8-18 10:17:6 +0800
+date: 2022-8-31 17:27:14 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -244,6 +244,7 @@ categories:
 - [服务器端 Office 自动化注意事项](https://support.microsoft.com/zh-cn/help/257757/considerations-for-server-side-automation-of-office )
 - [爱恋的红尘 - 博客园](https://www.cnblogs.com/ping9719/ )
 - [RyzenAdorer - 博客园](https://www.cnblogs.com/ryzen/p/15191386.html)
+- [Polymath Programmer](http://polymathprogrammer.com/ )
 
 - [Tutorial: how to port a project from Interop Word API to Open XML SDK](https://pvs-studio.com/en/blog/posts/csharp/0856/ )
 - [Analyzing the code quality of Microsoft's Open XML SDK](https://pvs-studio.com/en/blog/posts/csharp/0777/ )
