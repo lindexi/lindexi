@@ -1,8 +1,8 @@
 ---
 title: "VisualStudio 禁用移动文件到文件夹自动修改命名空间功能"
 author: lindexi
-date: 2022-8-31 10:40:27 +0800
-CreateTime: 2022-8-31 10:35:38 +0800
+date: 2022-9-1 8:31:4 +0800
+CreateTime: 2022/8/31 10:35:38
 categories: VisualStudio
 ---
 
@@ -10,6 +10,8 @@ categories: VisualStudio
 
 <!--more-->
 
+
+<!-- CreateTime:2022/8/31 10:35:38 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
