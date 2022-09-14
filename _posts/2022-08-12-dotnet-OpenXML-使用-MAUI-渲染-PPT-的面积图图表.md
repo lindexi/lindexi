@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 使用 MAUI 渲染 PPT 的面积图图表"
 author: lindexi
-date: 2022-8-15 8:45:50 +0800
+date: 2022-9-13 8:32:11 +0800
 CreateTime: 2022/8/12 8:45:34
 categories: dotnet
 ---
@@ -13,9 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2022/8/12 8:45:34 -->
 
-
 <!-- 发布 -->
-<!-- 博客 -->
 
 图表工具软件的开发架构如下，可以看到只有和具体平台对接的一层不相同
 
