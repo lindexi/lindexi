@@ -1,7 +1,7 @@
 ---
 title: "记因为 NVIDIA 显驱错误而让 WPF 应用启动闪退问题"
 author: lindexi
-date: 2022-2-16 8:26:41 +0800
+date: 2022-9-15 19:59:9 +0800
 CreateTime: 2022/2/15 20:03:12
 categories: WPF
 ---
@@ -14,7 +14,6 @@ categories: WPF
 <!-- CreateTime:2022/2/15 20:03:12 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 表现是 WPF 应用程序，在启动时，立刻闪退。在事件管理器看到的异常代码是 0xC0000005(Access Violation) 错误，通过捕获 DUMP 可以看到如下堆栈
 

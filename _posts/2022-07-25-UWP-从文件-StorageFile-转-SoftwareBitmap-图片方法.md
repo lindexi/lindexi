@@ -1,7 +1,7 @@
 ---
 title: "UWP 从文件 StorageFile 转 SoftwareBitmap 图片方法"
 author: lindexi
-date: 2022-7-25 8:28:38 +0800
+date: 2022-9-15 19:47:38 +0800
 CreateTime: 2022/7/25 8:28:00
 categories: UWP
 ---
@@ -14,7 +14,6 @@ categories: UWP
 <!-- CreateTime:2022/7/25 8:28:00 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 使用以下三步即可从文件 StorageFile 转 SoftwareBitmap 图片
 

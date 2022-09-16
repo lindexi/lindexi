@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu 通过本机代理修复 NuGet 还原 error NU1301 失败"
 author: lindexi
-date: 2022-8-17 8:37:33 +0800
+date: 2022-9-15 19:47:0 +0800
 CreateTime: 2022/8/16 21:13:19
 categories: 
 ---
@@ -14,7 +14,6 @@ categories:
 <!-- CreateTime:2022/8/16 21:13:19 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 我在 Ubuntu 系统上，刚开始使用了 dotnet build 命令开始构建，提示的错误有些诡异，似乎是 NuGet 的 Restore 失败。于是我换用 dotnet restore 命令，此时了解到失败的原因是无法连接上 nuget.org 下载内容
 

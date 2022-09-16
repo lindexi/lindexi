@@ -1,7 +1,7 @@
 ---
 title: "SkiaSharp 渲染输出 SVG 文件"
 author: lindexi
-date: 2022-7-1 14:24:37 +0800
+date: 2022-9-15 19:46:10 +0800
 CreateTime: 2022/6/29 15:03:53
 categories: MAUI MauiGraphics Skia SkiaSharp 渲染
 ---
@@ -16,7 +16,6 @@ categories: MAUI MauiGraphics Skia SkiaSharp 渲染
 
 <!-- 标签：MAUI,MauiGraphics,Skia,SkiaSharp,渲染 -->
 <!-- 发布 -->
-<!-- 博客 -->
 
 如 [dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门](https://blog.lindexi.com/post/dotnet-%E6%8E%A7%E5%88%B6%E5%8F%B0-%E4%BD%BF%E7%94%A8-Microsoft.Maui.Graphics-%E9%85%8D%E5%90%88-Skia-%E8%BF%9B%E8%A1%8C%E7%BB%98%E5%9B%BE%E5%85%A5%E9%97%A8.html ) 提供的方法，先新建项目安装必要的库
 
