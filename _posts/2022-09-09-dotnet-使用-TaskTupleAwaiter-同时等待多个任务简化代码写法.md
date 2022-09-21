@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 TaskTupleAwaiter 同时等待多个任务简化代码写法"
 author: lindexi
-date: 2022-9-13 8:47:33 +0800
+date: 2022-9-20 19:58:56 +0800
 CreateTime: 2022/9/9 19:25:14
 categories: dotnet
 ---
@@ -15,7 +15,7 @@ categories: dotnet
 
 
 <!-- 发布 -->
-<!-- 博客 -->
+
 
 假定有两个异步任务方法，如以下代码，期望等待这两个方法执行完成，获取到结果，再执行后续逻辑
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Newtonsoft.Json 输出枚举首字符小写"
 author: lindexi
-date: 2021-11-20 8:28:21 +0800
+date: 2022-9-20 19:58:11 +0800
 CreateTime: 2021/11/19 19:05:42
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2021/11/19 19:05:42 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 实现方法是加上 JsonConverterAttribute 特性，传入 StringEnumConverter 转换器，再加上参数设置首字符小写
 

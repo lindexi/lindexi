@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 精细控制 HttpClient 网络请求超时"
 author: lindexi
-date: 2022-7-25 8:40:51 +0800
+date: 2022-9-20 19:55:17 +0800
 CreateTime: 2022/7/25 8:28:00
 categories: dotnet
 ---
@@ -12,9 +12,7 @@ categories: dotnet
 
 
 <!-- CreateTime:2022/7/25 8:28:00 -->
-
 <!-- 发布 -->
-<!-- 博客 -->
 
 本文将介绍如何在 HttpClient 控制以下网络行为的超时
 

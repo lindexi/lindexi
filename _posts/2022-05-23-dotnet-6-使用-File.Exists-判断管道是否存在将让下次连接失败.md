@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 使用 File.Exists 判断管道是否存在将让下次连接失败"
 author: lindexi
-date: 2022-5-26 9:36:2 +0800
+date: 2022-9-20 19:55:31 +0800
 CreateTime: 2022/5/23 20:17:28
 categories: dotnet
 ---
@@ -12,9 +12,7 @@ categories: dotnet
 
 
 <!-- CreateTime:2022/5/23 20:17:28 -->
-
 <!-- 发布 -->
-<!-- 博客 -->
 
 这个问题似乎是 CLR 底层的问题，我将问题报告给官方，请看 [Using File.Exists to check the pipe created will make the NamedPipeClientStream connect fail · Issue #69604 · dotnet/runtime](https://github.com/dotnet/runtime/issues/69604 )
 

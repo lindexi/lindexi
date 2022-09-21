@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 IndentedTextWriter 辅助生成代码时生成带缩进的内容"
 author: lindexi
-date: 2022-9-19 8:23:50 +0800
+date: 2022-9-20 19:57:34 +0800
 CreateTime: 2022/9/19 8:23:29
 categories: Roslyn MSBuild 代码生成
 ---
@@ -15,7 +15,6 @@ categories: Roslyn MSBuild 代码生成
 
 
 <!-- 发布 -->
-<!-- 博客 -->
 <!-- 标签：Roslyn,MSBuild,代码生成 -->
 
 使用 IndentedTextWriter 辅助类核心的用途在于自动加上缩进，缩进的等级由代码设置，可以通过加等和减等控制缩进等级。缩进等级是文本排版的概念，约等于缩进多少个空格

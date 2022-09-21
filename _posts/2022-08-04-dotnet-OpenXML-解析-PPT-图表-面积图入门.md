@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 解析 PPT 图表 面积图入门"
 author: lindexi
-date: 2022-8-5 8:43:43 +0800
+date: 2022-9-20 19:56:27 +0800
 CreateTime: 2022/8/4 17:07:13
 categories: dotnet
 ---
@@ -15,7 +15,6 @@ categories: dotnet
 
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 在 PPT 里面，有强大的图表功能，可以联动 Excel 展示数据。在 PPT 里面的图表和 Excel 的图表稍微有一些差别，本文只聊 PPT 的图表
 

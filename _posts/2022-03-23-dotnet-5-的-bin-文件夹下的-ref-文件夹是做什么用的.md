@@ -1,7 +1,7 @@
 ---
 title: "dotnet 5 的 bin 文件夹下的 ref 文件夹是做什么用的"
 author: lindexi
-date: 2022-3-24 21:4:48 +0800
+date: 2022-9-20 19:51:12 +0800
 CreateTime: 2022/3/23 19:56:40
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2022/3/23 19:56:40 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 在使用 dotnet 5 或更高版本的 dotnet 的项目时，将会发现在项目的输出路径，将多了一个叫 ref 的文件夹，大概路径如下 `bin\Release\net6.0-windows\ref\` 此文件夹里面只包含了项目程序集同名的 dll 文件。而且此文件夹的删除不会影响到项目的执行
 
