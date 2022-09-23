@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Win10 的 WinRT 自带 Windows.Media.Ocr 实现图片转文本"
 author: lindexi
-date: 2022-7-25 8:28:55 +0800
+date: 2022-9-21 8:47:2 +0800
 CreateTime: 2022/7/25 8:28:00
 categories: WPF Win10
 ---
@@ -14,7 +14,7 @@ categories: WPF Win10
 <!-- CreateTime:2022/7/25 8:28:00 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
+
 
 我采用的是 dotnet 6 框架版本，在 dotnet 5 和更高版本，在 dotnet 底层就删除了对 WinRT (Windows Runtime) 的底层支持，不再支持直接引用 `.winmd` 文件。移除的原因如 [Breaking change: Built-in support for WinRT is removed from .NET - .NET Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/core/compatibility/interop/5.0/built-in-support-for-winrt-removed) 所说
 

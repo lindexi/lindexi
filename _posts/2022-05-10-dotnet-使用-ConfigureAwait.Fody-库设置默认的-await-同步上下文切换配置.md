@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 ConfigureAwait.Fody 库设置默认的 await 同步上下文切换配置"
 author: lindexi
-date: 2022-5-10 8:54:51 +0800
+date: 2022-9-21 8:38:9 +0800
 CreateTime: 2022/5/10 8:29:05
 categories: dotnet
 ---
@@ -14,7 +14,7 @@ categories: dotnet
 <!-- CreateTime:2022/5/10 8:29:05 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
+
 
 这是一个在 GitHub 上使用最友好的 MIT 协议开源的库，请看 [https://github.com/Fody/ConfigureAwait](https://github.com/Fody/ConfigureAwait)
 

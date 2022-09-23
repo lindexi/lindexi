@@ -1,7 +1,7 @@
 ---
 title: "Total Commander 使用 mklink 建立文件夹链接 将 C 盘文件迁移到其他盘"
 author: lindexi
-date: 2022-4-18 8:37:37 +0800
+date: 2022-9-21 8:42:12 +0800
 CreateTime: 2022/4/18 8:36:59
 categories: TotalCommander
 ---
@@ -17,7 +17,7 @@ categories: TotalCommander
 
 <!-- 标签：TotalCommander -->
 <!-- 发布 -->
-<!-- 博客 -->
+
 
 使用 Total Commander 的一个大优势就是可定制性特别强，例如本文用到的功能就是自定义工具条，新建一个命令按钮，在命令按钮上通过命令行调用的形式，调用到其他工具，例如本文用到的 mklink 工具
 
