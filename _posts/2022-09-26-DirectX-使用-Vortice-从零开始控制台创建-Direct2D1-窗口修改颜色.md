@@ -1,8 +1,8 @@
 ---
 title: "DirectX 使用 Vortice 从零开始控制台创建 Direct2D1 窗口修改颜色"
 author: lindexi
-date: 2022-9-26 8:27:26 +0800
-CreateTime: 2022-9-26 8:23:45 +0800
+date: 2022-9-26 8:27:45 +0800
+CreateTime: 2022/9/26 8:23:45
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -10,6 +10,8 @@ categories: C# D2D DirectX Vortice Direct2D
 
 <!--more-->
 
+
+<!-- CreateTime:2022/9/26 8:23:45 -->
 
 
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
