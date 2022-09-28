@@ -1,7 +1,7 @@
 ---
 title: "WPF 给 Pen 的 DashStyle 设置 0 0 的虚线数组将会让渲染线程消耗大量 CPU 资源"
 author: lindexi
-date: 2021-12-25 8:31:27 +0800
+date: 2022-9-27 8:58:24 +0800
 CreateTime: 2021/12/24 19:51:54
 categories: WPF
 ---
@@ -14,7 +14,6 @@ categories: WPF
 <!-- CreateTime:2021/12/24 19:51:54 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 感谢 [Ryzen](https://www.cnblogs.com/ryzen) 大佬找到此问题，我只是帮他报告给 WPF 官方和记录的工具人
 

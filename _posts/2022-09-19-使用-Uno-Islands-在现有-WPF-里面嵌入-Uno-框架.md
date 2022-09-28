@@ -1,7 +1,7 @@
 ---
 title: "使用 Uno Islands 在现有 WPF 里面嵌入 Uno 框架"
 author: lindexi
-date: 2022-9-19 8:24:37 +0800
+date: 2022-9-27 14:16:21 +0800
 CreateTime: 2022/9/19 8:23:29
 categories: WPF
 ---
@@ -14,7 +14,7 @@ categories: WPF
 <!-- CreateTime:2022/9/19 8:23:29 -->
 
 
-<!-- 博客 -->
+
 <!-- 发布 -->
 
 本文将尝试写一个非常简单的例子用来尝试在一个空的 WPF 项目上，接入 Uno Islands 技术，核心代码完全来自 Uno 官方，详细请看 [Uno Islands](https://platform.uno/docs/articles/guides/uno-islands.html) 官方文档

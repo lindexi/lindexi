@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 Popup 失焦后导致 ListBox 无法用 MouseWheel 滚动问题和解决方法"
 author: lindexi
-date: 2022-3-11 8:25:16 +0800
+date: 2022-9-27 8:52:51 +0800
 CreateTime: 2022/3/10 12:09:08
 categories: WPF
 ---
@@ -14,7 +14,6 @@ categories: WPF
 <!-- CreateTime:2022/3/10 12:09:08 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 原因：
 

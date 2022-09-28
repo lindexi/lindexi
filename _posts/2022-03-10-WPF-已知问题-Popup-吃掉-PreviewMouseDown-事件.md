@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 Popup 吃掉 PreviewMouseDown 事件"
 author: lindexi
-date: 2022-3-11 8:25:16 +0800
+date: 2022-9-27 8:52:29 +0800
 CreateTime: 2022/3/10 12:04:34
 categories: WPF
 ---
@@ -14,7 +14,6 @@ categories: WPF
 <!-- CreateTime:2022/3/10 12:04:34 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 因为 PreviewMouseDown 是 RoutingStrategy.Direct 路由事件，不能在多个视觉树使用，在设置 Popup 点击界面 StaysOpen="False" 的逻辑就在下面代码
 

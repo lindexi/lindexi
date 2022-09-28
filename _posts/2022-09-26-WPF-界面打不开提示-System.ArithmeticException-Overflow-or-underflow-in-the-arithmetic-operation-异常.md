@@ -1,8 +1,8 @@
 ---
 title: "WPF 界面打不开提示 System.ArithmeticException Overflow or underflow in the arithmetic operation 异常"
 author: lindexi
-date: 2022-9-26 18:3:44 +0800
-CreateTime: 2022-9-26 17:37:28 +0800
+date: 2022-9-27 8:57:48 +0800
+CreateTime: 2022/9/26 17:37:28
 categories: WPF
 ---
 
@@ -11,8 +11,9 @@ categories: WPF
 <!--more-->
 
 
+<!-- CreateTime:2022/9/26 17:37:28 -->
+
 <!-- 发布 -->
-<!-- 博客 -->
 
 这个问题是用户的电脑的颜色系统设备配置文件的问题，修复方法是进入 颜色管理 设置。进入的方法可以是搜 颜色管理 即可，或者是进入 设置->系统->高级显示设置->显示器1的显示适配器属性->进入颜色管理->点击颜色管理
 

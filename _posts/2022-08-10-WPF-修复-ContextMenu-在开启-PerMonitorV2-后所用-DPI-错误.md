@@ -1,7 +1,7 @@
 ---
 title: "WPF 修复 ContextMenu 在开启 PerMonitorV2 后所用 DPI 错误"
 author: lindexi
-date: 2022-8-11 8:38:40 +0800
+date: 2022-9-27 8:48:11 +0800
 CreateTime: 2022/8/10 20:06:40
 categories: WPF
 ---
@@ -14,7 +14,6 @@ categories: WPF
 <!-- CreateTime:2022/8/10 20:06:40 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 关于什么是 PerMonitorV2 请参阅 [支持 Windows 10 最新 PerMonitorV2 特性的 WPF 多屏高 DPI 应用开发 - walterlv](https://blog.walterlv.com/post/windows-high-dpi-development-for-wpf.html )
 

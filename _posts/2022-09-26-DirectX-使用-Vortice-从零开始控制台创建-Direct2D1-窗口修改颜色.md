@@ -1,7 +1,7 @@
 ---
 title: "DirectX 使用 Vortice 从零开始控制台创建 Direct2D1 窗口修改颜色"
 author: lindexi
-date: 2022-9-26 8:27:45 +0800
+date: 2022-9-27 8:47:21 +0800
 CreateTime: 2022/9/26 8:23:45
 categories: C# D2D DirectX Vortice Direct2D
 ---
@@ -16,7 +16,6 @@ categories: C# D2D DirectX Vortice Direct2D
 
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
 <!-- 发布 -->
-<!-- 博客 -->
 <div id="toc"></div>
 
 在开始聊 Vortice 之前，必须要先聊聊 SharpDx 库。 众所周知，现在 SharpDx 已不维护，尽管 SharpDx 的不维护对咱开发影响很小，除非需要用到这几年新加的功能，否则使用不维护的 SharpDx 的问题也不大。而 Vortice 是作为 SharpDx 的一个代替的存在，是从 SharpDx 的基础上，继续开发的一个项目。 使用 Vortice 底层库，能让 C# 代码比较方便的和 DirectX 对接

@@ -1,7 +1,7 @@
 ---
 title: "修复 VisualStudio 构建时没有将 NuGet 的 PDB 符号文件拷贝到输出文件夹"
 author: lindexi
-date: 2022-7-6 8:48:46 +0800
+date: 2022-9-27 14:17:37 +0800
 CreateTime: 2022/7/5 14:17:08
 categories: NuGet VisualStudio 构建
 ---
@@ -14,7 +14,7 @@ categories: NuGet VisualStudio 构建
 <!-- CreateTime:2022/7/5 14:17:08 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
+
 <!-- 标签： NuGet，VisualStudio，构建 -->
 
 尽管这个坑从 2017 到现在，来来回回修了好多次，有某些时候能拷贝，有某些时候就只认 symbol 的 NuGet 包，有时候无论什么包都不认。本文将告诉大家如何强行设置拷贝 PDB 符号文件

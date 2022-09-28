@@ -1,7 +1,7 @@
 ---
 title: "WPF 将控件放入到 UserControl 里获取 HwndSource 为空的情况"
 author: lindexi
-date: 2022-2-23 8:44:24 +0800
+date: 2022-9-27 8:52:0 +0800
 CreateTime: 2022/2/22 8:50:54
 categories: WPF
 ---
@@ -14,7 +14,6 @@ categories: WPF
 <!-- CreateTime:2022/2/22 8:50:54 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 如果对某个 Visual 使用 PresentationSource.FromVisual 方法获取 HwndSource 内容，获取到的返回是空值。那么可能的原因是这个 Visual 所在的容器，或者说所在的容器的所在的容器，只要在此控件的视觉树上向上寻找，能寻找到 UserControl 控件，或者是继承 UserControl 控件的控件。那么可能的原因是此 UserControl 控件，从未被设置 Visibility 为 Visible 过的原因导致的
 

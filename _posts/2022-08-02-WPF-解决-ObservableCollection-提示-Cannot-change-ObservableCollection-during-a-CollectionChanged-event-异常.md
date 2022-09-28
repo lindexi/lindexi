@@ -1,7 +1,7 @@
 ---
 title: "WPF 解决 ObservableCollection 提示 Cannot change ObservableCollection during a CollectionChanged event 异常"
 author: lindexi
-date: 2022-8-3 8:38:45 +0800
+date: 2022-9-27 8:59:0 +0800
 CreateTime: 2022/8/2 17:40:37
 categories: WPF
 ---
@@ -15,7 +15,7 @@ categories: WPF
 
 
 <!-- 发布 -->
-<!-- 博客 -->
+
 
 准确来说，这个异常和 WPF 是没有任何关系的。这个异常是 ObservableCollection 类型抛出的，而 ObservableCollection 类型是在 dotnet runtime 定义的，放在 System.ObjectModel 里，而且此异常可以在除 WPF 的其他框架，比如控制台或者 UWP 上复现
 

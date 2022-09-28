@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 GifBitmapDecoder 调用 WIC 解析 Gif 和进行动画播放的简单方法"
 author: lindexi
-date: 2022-3-22 8:41:14 +0800
+date: 2022-9-27 14:11:16 +0800
 CreateTime: 2022/3/21 16:29:06
 categories: WPF gif
 ---
@@ -15,7 +15,6 @@ categories: WPF gif
 
 
 <!-- 标签：WPF，gif -->
-<!-- 博客 -->
 <!-- 发布 -->
 
 在[上一篇](https://blog.lindexi.com/post/wpf-GifBitmapDecoder-%E8%A7%A3%E6%9E%90-gif-%E6%A0%BC%E5%BC%8F.html)博客告诉大家，可以通过 GifBitmapDecoder 调用 WIC 层解析 GIF 图片

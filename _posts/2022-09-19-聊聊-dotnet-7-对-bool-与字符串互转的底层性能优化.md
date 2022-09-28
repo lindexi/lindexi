@@ -1,7 +1,7 @@
 ---
 title: "聊聊 dotnet 7 对 bool 与字符串互转的底层性能优化"
 author: lindexi
-date: 2022-9-19 8:50:32 +0800
+date: 2022-9-27 14:21:1 +0800
 CreateTime: 2022/9/19 8:23:29
 categories: dotnet
 ---
@@ -14,7 +14,7 @@ categories: dotnet
 <!-- CreateTime:2022/9/19 8:23:29 -->
 
 
-<!-- 博客 -->
+
 <!-- 发布 -->
 
 在 [Performance Improvements in .NET 7 - .NET Blog](https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7/) 这篇官方开发博客里面提到了 dotnet 7 的各个方面的性能优化，其中就包括了本身的主角，对 bool 与 string 互转的性能优化。此优化的核心实现代码请参阅 [https://github.com/dotnet/runtime/pull/64782](https://github.com/dotnet/runtime/pull/64782)
