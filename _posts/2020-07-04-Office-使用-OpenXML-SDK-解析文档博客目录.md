@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2022-8-31 17:27:14 +0800
+date: 2022-9-30 15:48:36 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -307,13 +307,21 @@ C# / VB.NET Word component
 
 [dotnetcore/Magicodes.IE: Import and export general library, support Dto import and export, template export, fancy export and dynamic export, support Excel, Csv, Word, Pdf and Html.](https://github.com/dotnetcore/Magicodes.IE )
 
+[mini-software/MiniExcel: Fast, Low-Memory, Easy Excel .NET helper to import/export/template spreadsheet](https://github.com/mini-software/MiniExcel )
+
 ### Word 库
+
+#### XCeed Software DocX
 
 XCeed Software 的 DocX 库：
 
 此库包含免费版本和收费版本
 
 [xceedsoftware/DocX: Fast and easy to use .NET library that creates or modifies Microsoft Word files without installing Word.](https://github.com/xceedsoftware/docx )
+
+#### MiniWord
+
+[mini-software/MiniWord: .NET Word(docx) exporting template engine without COM+ & interop (support Linux and Mac)](https://github.com/mini-software/MiniWord )
 
 ### OpenXML 解析辅助库
 
