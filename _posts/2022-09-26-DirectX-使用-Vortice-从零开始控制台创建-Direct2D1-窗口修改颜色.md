@@ -1,7 +1,7 @@
 ---
 title: "DirectX 使用 Vortice 从零开始控制台创建 Direct2D1 窗口修改颜色"
 author: lindexi
-date: 2022-9-27 8:47:21 +0800
+date: 2022-10-9 19:50:51 +0800
 CreateTime: 2022/9/26 8:23:45
 categories: C# D2D DirectX Vortice Direct2D
 ---
@@ -705,7 +705,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 git pull origin 162977106065bd3cf7bfbed0a87828c992b8df3d
 ```
 
-获取代码之后，进入 HoyebenawlerWegemnardicheba 文件夹
+获取代码之后，进入 WakolerwhaKanicabirem 文件夹
 
 ## 更多博客
 
