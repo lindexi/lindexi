@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 使用 Vortice 支持 Direct2D1 离屏渲染"
 author: lindexi
-date: 2022-10-10 8:19:32 +0800
-CreateTime: 2022-10-9 19:52:16 +0800
+date: 2022-10-10 8:55:49 +0800
+CreateTime: 2022/10/9 19:52:16
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -11,7 +11,8 @@ categories: C# D2D DirectX Vortice Direct2D
 <!--more-->
 
 
-<!-- 博客 -->
+<!-- CreateTime:2022/10/9 19:52:16 -->
+
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
 <!-- 发布 -->
 
