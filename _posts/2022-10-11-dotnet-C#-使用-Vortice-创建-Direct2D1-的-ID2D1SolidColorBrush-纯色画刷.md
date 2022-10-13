@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 使用 Vortice 创建 Direct2D1 的 ID2D1SolidColorBrush 纯色画刷"
 author: lindexi
-date: 2022-10-12 8:6:26 +0800
-CreateTime: 2022-10-11 19:30:56 +0800
+date: 2022-10-12 8:6:35 +0800
+CreateTime: 2022/10/11 19:30:56
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -10,6 +10,8 @@ categories: C# D2D DirectX Vortice Direct2D
 
 <!--more-->
 
+
+<!-- CreateTime:2022/10/11 19:30:56 -->
 
 
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
