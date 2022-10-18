@@ -1,8 +1,8 @@
 ---
 title: "dotnet 用 SourceGenerator 源代码生成技术实现中文编程语言"
 author: lindexi
-date: 2022-10-17 8:6:0 +0800
-CreateTime: 2022-10-17 8:6:0 +0800
+date: 2022-10-17 8:12:52 +0800
+CreateTime: 2022/10/17 8:06:00
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2022/10/17 8:06:00 -->
 
 
 <!-- 发布 -->

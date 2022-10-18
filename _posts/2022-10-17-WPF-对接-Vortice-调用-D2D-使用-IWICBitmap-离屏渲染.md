@@ -1,8 +1,8 @@
 ---
 title: "WPF 对接 Vortice 调用 D2D 使用 IWICBitmap 离屏渲染"
 author: lindexi
-date: 2022-10-17 8:11:8 +0800
-CreateTime: 2022-10-17 8:6:0 +0800
+date: 2022-10-17 8:13:23 +0800
+CreateTime: 2022/10/17 8:06:00
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -10,6 +10,8 @@ categories: C# D2D DirectX Vortice Direct2D
 
 <!--more-->
 
+
+<!-- CreateTime:2022/10/17 8:06:00 -->
 
 
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
