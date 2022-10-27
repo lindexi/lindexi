@@ -1,8 +1,8 @@
 ---
 title: "修复 WPF 安装 WindowsAppSDK 库构建失败 NETSDK1082 和 NETSDK1112 找不到 win10-arm 失败"
 author: lindexi
-date: 2022-10-26 8:51:31 +0800
-CreateTime: 2022-10-25 10:23:6 +0800
+date: 2022-10-26 8:52:35 +0800
+CreateTime: 2022/10/25 10:23:06
 categories: WPF Win10
 ---
 
@@ -10,6 +10,8 @@ categories: WPF Win10
 
 <!--more-->
 
+
+<!-- CreateTime:2022/10/25 10:23:06 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
