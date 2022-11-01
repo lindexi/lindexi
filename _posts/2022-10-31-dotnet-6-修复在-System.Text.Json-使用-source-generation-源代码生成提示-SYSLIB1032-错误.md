@@ -1,8 +1,8 @@
 ---
 title: "dotnet 6 修复在 System.Text.Json 使用 source generation 源代码生成提示 SYSLIB1032 错误"
 author: lindexi
-date: 2022-10-31 8:9:0 +0800
-CreateTime: 2022-10-31 8:9:0 +0800
+date: 2022-10-31 8:9:19 +0800
+CreateTime: 2022/10/31 8:09:00
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/10/31 8:09:00 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
