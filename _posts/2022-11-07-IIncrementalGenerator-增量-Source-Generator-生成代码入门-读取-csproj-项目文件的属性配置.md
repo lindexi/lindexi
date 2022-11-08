@@ -1,8 +1,8 @@
 ---
 title: "IIncrementalGenerator 增量 Source Generator 生成代码入门 读取 csproj 项目文件的属性配置"
 author: lindexi
-date: 2022-11-7 8:4:32 +0800
-CreateTime: 2022-11-7 8:4:32 +0800
+date: 2022-11-7 8:5:10 +0800
+CreateTime: 2022/11/7 8:04:32
 categories: Roslyn MSBuild 编译器
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器
 
 <!--more-->
 
+
+<!-- CreateTime:2022/11/7 8:04:32 -->
 
 
 <!-- 发布 -->
