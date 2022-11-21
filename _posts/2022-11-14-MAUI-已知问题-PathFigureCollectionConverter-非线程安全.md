@@ -1,7 +1,7 @@
 ---
 title: "MAUI 已知问题 PathFigureCollectionConverter 非线程安全"
 author: lindexi
-date: 2022-11-15 8:7:36 +0800
+date: 2022-11-21 8:30:16 +0800
 CreateTime: 2022/11/14 20:22:49
 categories: 
 ---
@@ -19,6 +19,8 @@ categories:
 当前，此 PathFigureCollectionConverter 非线程安全问题，没有规避方法
 
 我将此问题报告给官方，请看 [https://github.com/dotnet/maui/issues/11321](https://github.com/dotnet/maui/issues/11321)
+
+然后官方说，你也是 Member 了，是一个成熟的开发者了，自己发现的问题就要自己修。于是我乖乖修了这个问题，请看 [https://github.com/dotnet/maui/pull/11497](https://github.com/dotnet/maui/pull/11497) 修了之后发现性能居然还提升了一点
 
 复现步骤：
 
@@ -82,4 +84,3 @@ categories:
 完全的代码请看 [https://github.com/dotnet/maui/blob/a541df0816d1867f494186a0bdc214d431e000cd/src/Controls/src/Core/Shapes/PathFigureCollectionConverter.cs](https://github.com/dotnet/maui/blob/a541df0816d1867f494186a0bdc214d431e000cd/src/Controls/src/Core/Shapes/PathFigureCollectionConverter.cs)
 
 从上面代码可以看到，用到了静态字段。这是非多线程安全的，多个线程将会随机更改污染静态字段，从而让转换逻辑无法成功执行
-

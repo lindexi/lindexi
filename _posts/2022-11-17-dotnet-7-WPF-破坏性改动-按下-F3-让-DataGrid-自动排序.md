@@ -1,8 +1,8 @@
 ---
 title: "dotnet 7 WPF 破坏性改动 按下 F3 让 DataGrid 自动排序"
 author: lindexi
-date: 2022-11-18 8:27:53 +0800
-CreateTime: 2022-11-17 8:43:19 +0800
+date: 2022-11-18 8:28:11 +0800
+CreateTime: 2022/11/17 8:43:19
 categories: WPF dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: WPF dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/11/17 8:43:19 -->
 
 <!-- 博客 -->
 <!-- 发布 -->
