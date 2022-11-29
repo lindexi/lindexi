@@ -1,8 +1,8 @@
 ---
 title: "dotnet 将控制台 Console.WriteLine 内容输出到文件"
 author: lindexi
-date: 2022-11-28 8:2:47 +0800
-CreateTime: 2022-11-28 8:2:47 +0800
+date: 2022-11-28 8:3:10 +0800
+CreateTime: 2022/11/28 8:02:47
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/11/28 8:02:47 -->
 
 
 <!-- 发布 -->
