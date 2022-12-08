@@ -1,8 +1,8 @@
 ---
 title: "dotnet core 不自动从 https 到 http 的 302 重定向"
 author: lindexi
-date: 2022-12-7 19:46:4 +0800
-CreateTime: 2022-12-7 19:36:33 +0800
+date: 2022-12-7 20:1:43 +0800
+CreateTime: 2022/12/7 19:36:33
 categories: dotnet
 ---
 
@@ -11,6 +11,7 @@ categories: dotnet
 <!--more-->
 
 
+<!-- CreateTime:2022/12/7 19:36:33 -->
 <!-- 发布 -->
 <!-- 博客 -->
 
@@ -67,7 +68,7 @@ private static HttpClient _httpClient = new HttpClient
             }
 ```
 
-由于默认行为禁止 https->http 的跳转，如果明确知道后台想要如此行为，最好先去将后台的伙伴打一顿，如果打不过，再考虑按照以上代码的方式更改
+默认行为禁止 https->http 的跳转，是一个很合理的设计。如果明确知道后台想要如此行为，最好先去将后台的伙伴打一顿，如果打不过，再考虑按照以上代码的方式更改
 
 参考：
 
