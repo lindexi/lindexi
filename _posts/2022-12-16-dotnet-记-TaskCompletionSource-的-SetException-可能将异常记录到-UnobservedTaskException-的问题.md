@@ -1,8 +1,8 @@
 ---
 title: "dotnet 记 TaskCompletionSource 的 SetException 可能将异常记录到 UnobservedTaskException 的问题"
 author: lindexi
-date: 2022-12-16 8:35:40 +0800
-CreateTime: 2022-12-16 8:31:50 +0800
+date: 2022-12-16 8:41:24 +0800
+CreateTime: 2022/12/16 8:31:50
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2022/12/16 8:31:50 -->
 
 <!-- 博客 -->
 <!-- 发布 -->
