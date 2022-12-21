@@ -1,8 +1,8 @@
 ---
 title: "dotnet6 C# 一个国内还能用的 NTP 时间校准客户端的实现"
 author: lindexi
-date: 2022-12-16 8:50:47 +0800
-CreateTime: 2022-12-16 8:50:47 +0800
+date: 2022-12-19 8:4:3 +0800
+CreateTime: 2022/12/16 8:50:47
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2022/12/16 8:50:47 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
