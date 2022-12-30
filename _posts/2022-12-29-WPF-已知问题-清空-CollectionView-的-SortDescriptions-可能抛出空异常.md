@@ -1,8 +1,8 @@
 ---
 title: "WPF 已知问题 清空 CollectionView 的 SortDescriptions 可能抛出空异常"
 author: lindexi
-date: 2022-12-29 8:47:27 +0800
-CreateTime: 2022-12-29 8:43:24 +0800
+date: 2022-12-29 19:29:27 +0800
+CreateTime: 2022/12/29 8:43:24
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2022/12/29 8:43:24 -->
 
 
 <!-- 发布 -->
@@ -57,7 +59,7 @@ categories: WPF
     }
 ```
 
-以上的代码放在[github](https://github.com/lindexi/lindexi_gd/tree/c7556d7b92605000011425f82793f9e4063e5a00/LechelaneHenayfucee) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/c7556d7b92605000011425f82793f9e4063e5a00/LechelaneHenayfucee) 欢迎访问
+以上的代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/c7556d7b92605000011425f82793f9e4063e5a00/LechelaneHenayfucee) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/c7556d7b92605000011425f82793f9e4063e5a00/LechelaneHenayfucee) 欢迎访问
 
 可以通过如下方式获取本文的源代码，先创建一个空文件夹，接着使用命令行 cd 命令进入此空文件夹，在命令行里面输入以下代码，即可获取到本文的代码
 
