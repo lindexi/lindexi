@@ -1,7 +1,7 @@
 ---
 title: "MAUI 已知问题 PathFigureCollectionConverter 非线程安全"
 author: lindexi
-date: 2022-11-21 8:30:16 +0800
+date: 2023-1-9 19:11:25 +0800
 CreateTime: 2022/11/14 20:22:49
 categories: 
 ---
@@ -14,7 +14,6 @@ categories:
 <!-- CreateTime:2022/11/14 20:22:49 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 当前，此 PathFigureCollectionConverter 非线程安全问题，没有规避方法
 

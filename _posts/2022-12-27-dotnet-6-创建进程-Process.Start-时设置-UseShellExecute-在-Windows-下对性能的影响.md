@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 创建进程 Process.Start 时设置 UseShellExecute 在 Windows 下对性能的影响"
 author: lindexi
-date: 2022-12-28 8:0:26 +0800
+date: 2023-1-9 19:5:24 +0800
 CreateTime: 2022/12/27 8:50:09
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2022/12/27 8:50:09 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 在 dotnet 6 或 dotnet 7 版本里，其他的版本我没有测试和去了解哈，启动新的进程时，在 StartInfo 设置 UseShellExecute 为 true 时，且当调用线程非 STA 时，在 Windows 下，性能会较差
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 修复在 System.Text.Json 使用 source generation 源代码生成提示 SYSLIB1032 错误"
 author: lindexi
-date: 2022-10-31 8:9:19 +0800
+date: 2023-1-9 19:4:8 +0800
 CreateTime: 2022/10/31 8:09:00
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2022/10/31 8:09:00 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 如官方文档的对 [SYSLIB1032](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib1032) 的描述，这是由于标记了 JsonSerializableAttribute 的类型没有写上 partial 关键词，导致了源代码生成无法通过分部类生成代码，从而失败
 

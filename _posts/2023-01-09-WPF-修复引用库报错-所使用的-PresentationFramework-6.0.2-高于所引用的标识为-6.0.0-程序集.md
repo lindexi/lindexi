@@ -1,8 +1,8 @@
 ---
 title: "WPF 修复引用库报错 所使用的 PresentationFramework 6.0.2 高于所引用的标识为 6.0.0 程序集"
 author: lindexi
-date: 2023-1-9 8:36:12 +0800
-CreateTime: 2023-1-9 8:36:12 +0800
+date: 2023-1-9 8:37:35 +0800
+CreateTime: 2023/1/9 8:36:12
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/1/9 8:36:12 -->
 
 
 <!-- 发布 -->

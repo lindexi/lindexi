@@ -1,7 +1,7 @@
 ---
 title: "dotnet 警惕使用 StackTrace 加获取方法标记 Attribute 特性在 Release 下被内联"
 author: lindexi
-date: 2022-10-27 8:5:24 +0800
+date: 2023-1-9 19:8:37 +0800
 CreateTime: 2022/10/26 17:12:31
 categories: dotnet
 ---
@@ -14,7 +14,6 @@ categories: dotnet
 <!-- CreateTime:2022/10/26 17:12:31 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 这一个坑是来源于我所在团队开源的 CUnit (中文单元测试框架) 仓库的一次单元测试过程，我发现了在 Debug 下能通过测试，但是在 Release 下失败。详细请看： https://github.com/dotnet-campus/CUnit/actions/runs/3327386251/jobs/5502313113
 

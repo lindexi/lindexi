@@ -1,7 +1,7 @@
 ---
 title: "dotnet 警惕 Task 的 ContinueWith 带上 OnlyOnFaulted 参数抛出取消异常"
 author: lindexi
-date: 2022-12-21 8:54:13 +0800
+date: 2023-1-9 19:9:24 +0800
 CreateTime: 2022/12/21 8:37:37
 categories: dotnet
 ---
@@ -15,7 +15,6 @@ categories: dotnet
 
 
 <!-- 发布 -->
-<!-- 博客 -->
 
 在等待任务执行完成之后，干某个活的事情上，有多个可选方法。一个就是老实使用 await 等待 Task 执行完成，然后再继续编写后续逻辑，如以下代码
 

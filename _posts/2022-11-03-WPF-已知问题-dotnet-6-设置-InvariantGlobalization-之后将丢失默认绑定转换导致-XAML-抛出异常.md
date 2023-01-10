@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 dotnet 6 设置 InvariantGlobalization 之后将丢失默认绑定转换导致 XAML 抛出异常"
 author: lindexi
-date: 2022-11-4 8:53:55 +0800
+date: 2023-1-9 19:7:30 +0800
 CreateTime: 2022/11/3 18:31:40
 categories: WPF dotnet
 ---
@@ -14,7 +14,6 @@ categories: WPF dotnet
 <!-- CreateTime:2022/11/3 18:31:40 -->
 
 
-<!-- 博客 -->
 <!-- 发布 -->
 
 这是有开发者在 WPF 仓库上给我报告的 bug 我才找到的问题。问题的现象是 XAML 抛出异常，步骤有些复杂：

@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用 FastTunnel 辅助搭建远程调试环境"
 author: lindexi
-date: 2022-10-24 8:18:39 +0800
+date: 2023-1-9 19:6:0 +0800
 CreateTime: 2022/10/22 15:36:07
 categories: VisualStudio
 ---
@@ -14,7 +14,6 @@ categories: VisualStudio
 <!-- CreateTime:2022/10/22 15:36:07 -->
 
 
-<!-- 博客 -->
 <!-- 发布 -->
 
 开始之前需要先介绍一下 FastTunnel 工具，这是一款高性能跨平台内网穿透工具，使用它可以实现将内网服务暴露到公网供自己或任何人访问。对比市面上的其他内网穿透工具最大优势在于基于 dotnet 编写，提供二次开发扩展能力。本文将来告诉大家，在不做任何编程的情况下，通过 FastTunnel 工具，搭建远程调试环境
