@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 GlyphRun 的 DeviceFontName 的功能是什么"
 author: lindexi
-date: 2023-1-12 8:41:3 +0800
+date: 2023-1-13 9:22:27 +0800
 CreateTime: 2023/1/11 17:03:35
 categories: WPF 渲染 WPF源代码
 ---
@@ -12,10 +12,11 @@ categories: WPF 渲染 WPF源代码
 
 
 <!-- CreateTime:2023/1/11 17:03:35 -->
-
 <!-- 博客 -->
 <!-- 标签：WPF，渲染，WPF源代码 -->
 <!-- 发布 -->
+
+在上一篇博客 [WPF 简单聊聊如何使用 DrawGlyphRun 绘制文本](https://blog.lindexi.com/post/WPF-%E7%AE%80%E5%8D%95%E8%81%8A%E8%81%8A%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-DrawGlyphRun-%E7%BB%98%E5%88%B6%E6%96%87%E6%9C%AC.html ) 里面就提到如何创建 GlyphRun 对象，在创建的时候发现设置的 DeviceFontName 参数，无论设置为什么值，结果都没有变化
 
 官方文档对于 [GlyphRun.DeviceFontName](https://learn.microsoft.com/zh-cn/dotnet/api/system.windows.media.glyphrun.devicefontname) 的描述也是比较不清不楚的。中文文档里面是机器翻译，不如看看英文原文吧
 
