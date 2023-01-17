@@ -1,7 +1,7 @@
 ---
 title: "WPF 简单聊聊如何使用 DrawGlyphRun 绘制文本"
 author: lindexi
-date: 2023-1-13 9:20:22 +0800
+date: 2023-1-16 8:47:35 +0800
 CreateTime: 2021/9/29 19:09:47
 categories: WPF
 ---
@@ -20,6 +20,8 @@ categories: WPF
 在开始之前，我是来劝退的，如果没有特别的需求，还是不推荐使用 DrawGlyphRun 的方式进行文本绘制。本文不会告诉大家特别基础的知识，基础部分还请看官方文档： [GlyphRun Class (System.Windows.Media)](https://docs.microsoft.com/en-us/dotnet/api/system.windows.media.glyphrun?WT.mc_id=WD-MVP-5003260 )
 
 如果可以的话，顺便也将 [DirectWrite](https://docs.microsoft.com/en-us/windows/win32/directwrite/introducing-directwrite?WT.mc_id=WD-MVP-5003260 ) 的[官方文档](https://docs.microsoft.com/en-us/windows/win32/directwrite/introducing-directwrite?WT.mc_id=WD-MVP-5003260)也读一次
+
+如果期望了解 WPF 底层是如何将 GlyphRun 渲染，请参阅 [dotnet 读 WPF 源代码笔记 渲染层是如何将字符 GlyphRun 画出来的](https://blog.lindexi.com/post/dotnet-%E8%AF%BB-WPF-%E6%BA%90%E4%BB%A3%E7%A0%81%E7%AC%94%E8%AE%B0-%E6%B8%B2%E6%9F%93%E5%B1%82%E6%98%AF%E5%A6%82%E4%BD%95%E5%B0%86%E5%AD%97%E7%AC%A6-GlyphRun-%E7%94%BB%E5%87%BA%E6%9D%A5%E7%9A%84.html )
 
 使用 DrawGlyphRun 方法之前需要拿到一个 DrawingContext 对象，而在调用此方法时，重要的参数是 GlyphRun 对象，此对象包含了大量的参数，本文将来告诉大家这些的参数的用法
 
