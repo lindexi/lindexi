@@ -33,6 +33,10 @@ StackOverflow UWP 全球排名 Top 5%, C# 全球排名 Top 10% 回答者
 
 ![](http://image.acmx.xyz/lindexi%2F2020529838224258.jpg)
 
+### 2022 腾讯云 年度优秀作者
+
+![](http://image.acmx.xyz/lindexi%2F20231171629171974.jpg)
+
 ### 2019 腾讯云+社区年度最佳作者 
 
 排名147名
@@ -46,7 +50,8 @@ StackOverflow UWP 全球排名 Top 5%, C# 全球排名 Top 10% 回答者
 ### 联系方式
 
 mail：[lindexi_gd@163.com](mailto:lindexi_gd@163.com)  
-website： [http://blog.lindexi.com](http://blog.lindexi.com)  
-blog： [https://lindexi.blog.csdn.net](https://lindexi.blog.csdn.net)   
+blog： [http://blog.lindexi.com](http://blog.lindexi.com)  
+cnblogs： [https://www.cnblogs.com/lindexi/](https://www.cnblogs.com/lindexi/) 
+csdn： [https://lindexi.blog.csdn.net](https://lindexi.blog.csdn.net)   
 GitHub: [https://github.com/lindexi](https://github.com/lindexi)  
 Twitter: [https://twitter.com/lindexi_gd](https://twitter.com/lindexi_gd)
