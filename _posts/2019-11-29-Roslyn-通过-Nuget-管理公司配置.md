@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 Nuget 管理公司配置"
 author: lindexi
-date: 2020-7-2 15:46:11 +0800
+date: 2023-1-29 14:39:31 +0800
 CreateTime: 2019/11/29 8:58:52
 categories: Roslyn MSBuild 编译器
 ---
@@ -23,7 +23,6 @@ categories: Roslyn MSBuild 编译器
 ```
 <Company>dotnet-campus</Company>
 <Copyright>Copyright (c) 2018 dotnet-campus</Copyright>
-
 ```
 
 在第二年的时候，我需要修改很多库的版权，修改为 2019 ，而从 VisualStudio 打开是很慢的，修改一个项目文件需要很长的时间
@@ -49,7 +48,7 @@ categories: Roslyn MSBuild 编译器
   <PropertyGroup>
     <Company>dotnet-campus</Company>
     <Owners>$(Company)</Owners>
-    <Copyright>Copyright (c) 2018 dotnet-campus</Copyright>
+    <Copyright>Copyright (c) 2023 dotnet-campus</Copyright>
   </PropertyGroup>
 </Project>
 ```
@@ -58,7 +57,7 @@ categories: Roslyn MSBuild 编译器
 
 但是现在还不能做出一个 nuget 包，还需要在项目文件添加一些内容，右击工程点击编辑项目文件，在项目文件添加一些代码，请看下面代码
 
-```
+```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -72,7 +71,6 @@ categories: Roslyn MSBuild 编译器
   </ItemGroup>
 
 </Project>
-
 ```
 
 在上面的代码就是添加了 Assets 文件夹，请看下面代码
