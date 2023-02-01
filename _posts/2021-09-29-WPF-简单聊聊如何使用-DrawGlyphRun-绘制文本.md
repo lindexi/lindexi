@@ -1,7 +1,7 @@
 ---
 title: "WPF 简单聊聊如何使用 DrawGlyphRun 绘制文本"
 author: lindexi
-date: 2023-1-16 8:47:35 +0800
+date: 2023-1-31 20:20:23 +0800
 CreateTime: 2021/9/29 19:09:47
 categories: WPF
 ---
@@ -306,6 +306,41 @@ var geometry = glyphRun.BuildGeometry();
 ```
 
 调用方法是 `var glyphSize = glyphRun.GetSize(fontFamily.LineSpacing);` 即可拿到文字的布局尺寸
+
+以上 `var height = lineSpacing * renderingEmSize` 行高计算方法被我称为 EN 行高计算方法
+
+对应的，还有 PPT 行高计算方法，此计算方法是被用在 PPT 的文本布局里面，计算公式如下
+
+```csharp
+ PPTPixelLineSpacing = (a * PPTFL * OriginLineSpacing + b) * FontSize
+```
+
+其中 PPTPixelLineSpacing 表示计算出来的行高，也就是以上代码的 `height` 值。其中 PPT 的行距计算的 a 和 b 为一次线性函数的方法，两个都是常量，无确切含义。而 PPTFL 是 PPT Font Line Spacing 的意思，在 PPT 所有文字的行距都是这个值，无论实际用的是哪个字体
+
+由于 a 和 PPTFL 都是常量，可以将两个常量合并为一个常量，方便进行计算。简化的公式如下
+
+```csharp
+PPTPixelLineSpacing = (a * OriginLineSpacing + b) * FontSize
+```
+
+以上公式的 a 和 b 常量如下
+
+```csharp
+a = 1.2018;
+b = 0.0034;
+```
+
+由此可以计算行高为
+
+```csharp
+// 以下的 OriginLineSpacing 表示的倍数行高，也就是几倍几倍的行高。而不是 FontFamily.LineSpacing 的字体行高
+const double a = 1.2018;
+const double b = 0.0034;
+var height = (a * OriginLineSpacing + b) * renderingEmSize;
+```
+
+通过以上代码计算的行高将和 PPT 的行高相同
+
 
 ## 字体回滚策略
 
