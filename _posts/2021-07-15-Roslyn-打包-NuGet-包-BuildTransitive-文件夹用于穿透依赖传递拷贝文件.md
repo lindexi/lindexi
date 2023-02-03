@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 打包 NuGet 包 BuildTransitive 文件夹用于穿透依赖传递拷贝文件"
 author: lindexi
-date: 2021-7-16 8:25:39 +0800
+date: 2023-2-2 9:17:37 +0800
 CreateTime: 2021/7/15 19:40:39
 categories: Roslyn MSBuild 编译器 nuget 打包
 ---

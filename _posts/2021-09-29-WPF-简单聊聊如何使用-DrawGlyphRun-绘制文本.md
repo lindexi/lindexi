@@ -1,7 +1,7 @@
 ---
 title: "WPF 简单聊聊如何使用 DrawGlyphRun 绘制文本"
 author: lindexi
-date: 2023-1-31 20:20:23 +0800
+date: 2023-2-2 16:44:34 +0800
 CreateTime: 2021/9/29 19:09:47
 categories: WPF
 ---
@@ -307,7 +307,7 @@ var geometry = glyphRun.BuildGeometry();
 
 调用方法是 `var glyphSize = glyphRun.GetSize(fontFamily.LineSpacing);` 即可拿到文字的布局尺寸
 
-以上 `var height = lineSpacing * renderingEmSize` 行高计算方法被我称为 EN 行高计算方法
+以上 `var height = lineSpacing * renderingEmSize` 行高计算方法被我称为 WPF 行高计算方法，使用此方法即可计算出 TextBlock 的行高
 
 对应的，还有 PPT 行高计算方法，此计算方法是被用在 PPT 的文本布局里面，计算公式如下
 
