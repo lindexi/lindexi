@@ -1,8 +1,8 @@
 ---
 title: "WPF 已知问题 在 ObservableCollection 的 CollectionChanged 修改集合内容将让 UI 显示错误"
 author: lindexi
-date: 2023-2-6 18:18:27 +0800
-CreateTime: 2023-2-6 17:44:31 +0800
+date: 2023-2-7 8:38:25 +0800
+CreateTime: 2023/2/6 17:44:31
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/2/6 17:44:31 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
