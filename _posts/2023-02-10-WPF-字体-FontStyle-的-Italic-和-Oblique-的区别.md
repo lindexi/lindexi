@@ -1,8 +1,8 @@
 ---
 title: "WPF 字体 FontStyle 的 Italic 和 Oblique 的区别"
 author: lindexi
-date: 2023-2-10 19:21:7 +0800
-CreateTime: 2023-2-10 16:16:18 +0800
+date: 2023-2-10 19:21:58 +0800
+CreateTime: 2023/2/10 16:16:18
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/2/10 16:16:18 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
