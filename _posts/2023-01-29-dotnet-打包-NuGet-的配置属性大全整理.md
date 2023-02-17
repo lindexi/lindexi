@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2023-2-10 9:18:38 +0800
+date: 2023-2-16 14:36:47 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -155,7 +155,11 @@ projectUrl
 
 Description 描述信息
 
-IsPackable 是否可打包
+<RepositoryUrl>https://github.com/dotnet/wpf</RepositoryUrl>
+
+<RepositoryType>git</RepositoryType>
+
+<PackageProjectUrl>https://github.com/dotnet/wpf</PackageProjectUrl>
 
  -->
 
