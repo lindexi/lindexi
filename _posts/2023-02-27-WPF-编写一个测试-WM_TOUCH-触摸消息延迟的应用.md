@@ -1,8 +1,8 @@
 ---
 title: "WPF 编写一个测试 WM_TOUCH 触摸消息延迟的应用"
 author: lindexi
-date: 2023-2-27 8:26:29 +0800
-CreateTime: 2023-2-27 8:26:29 +0800
+date: 2023-2-27 8:33:45 +0800
+CreateTime: 2023/2/27 8:26:29
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/2/27 8:26:29 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
