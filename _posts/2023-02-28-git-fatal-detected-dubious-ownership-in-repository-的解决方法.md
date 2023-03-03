@@ -1,8 +1,8 @@
 ---
 title: "git fatal detected dubious ownership in repository 的解决方法"
 author: lindexi
-date: 2023-2-28 12:44:21 +0800
-CreateTime: 2023-2-28 10:6:2 +0800
+date: 2023-3-1 9:10:10 +0800
+CreateTime: 2023/2/28 10:06:02
 categories: git
 ---
 
@@ -10,6 +10,8 @@ categories: git
 
 <!--more-->
 
+
+<!-- CreateTime:2023/2/28 10:06:02 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
