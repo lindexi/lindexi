@@ -1,8 +1,8 @@
 ---
 title: "修复 GitLab 的 CI Runner 提示找不到 pwsh 执行文件"
 author: lindexi
-date: 2023-3-2 20:14:38 +0800
-CreateTime: 2023-3-2 20:13:31 +0800
+date: 2023-3-3 9:5:58 +0800
+CreateTime: 2023/3/2 20:13:31
 categories: git
 ---
 
@@ -10,6 +10,8 @@ categories: git
 
 <!--more-->
 
+
+<!-- CreateTime:2023/3/2 20:13:31 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -26,8 +28,7 @@ winget install Microsoft.PowerShell
 
 第二个方法就是将 `pwsh` 修改为 `powershell` 代码，编辑 gitlab-runner.exe 所在文件夹下的 config.toml 文件，将里面的  `pwsh` 修改为 `powershell` 如以下代码
 
-```csharp
-[[runners]]
+```
   name = "xxxxx"
   url = "https://xxxxxx/"
   id = 1363

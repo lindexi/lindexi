@@ -1,7 +1,7 @@
 ---
 title: "git fatal detected dubious ownership in repository 的解决方法"
 author: lindexi
-date: 2023-3-1 9:10:10 +0800
+date: 2023-3-3 9:5:32 +0800
 CreateTime: 2023/2/28 10:06:02
 categories: git
 ---
@@ -18,11 +18,11 @@ categories: git
 
 解决方法：
 
-1. 如 git 的命令行提示，输入 `git config --global --add safe.directory 'git提示的那个文件夹路径'` 命令
+1.如 git 的命令行提示，输入 `git config --global --add safe.directory 'git提示的那个文件夹路径'` 命令
 
 输入完成之后，先试试 `git branch` 命令，如果依然不可用，报错和之前一样，那就需要接下来的一步
 
-2. 更改文件夹的所有者。更改方法如下
+2.更改文件夹的所有者。更改方法如下
 
 - 右击文件夹，点击属性
 - 进入安全选项卡，点击高级
