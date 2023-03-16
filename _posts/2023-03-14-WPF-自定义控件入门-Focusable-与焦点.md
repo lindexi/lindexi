@@ -1,8 +1,8 @@
 ---
 title: "WPF 自定义控件入门 Focusable 与焦点"
 author: lindexi
-date: 2023-3-14 17:0:51 +0800
-CreateTime: 2023-3-14 16:41:48 +0800
+date: 2023-3-15 8:40:32 +0800
+CreateTime: 2023/3/14 16:41:48
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/3/14 16:41:48 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
