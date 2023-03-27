@@ -1,7 +1,7 @@
 ---
 title: "WPF 触摸底层 PenImc 是如何工作的"
 author: lindexi
-date: 2021-2-1 16:7:13 +0800
+date: 2023-3-27 11:32:44 +0800
 CreateTime: 4/19/2020 5:23:45 PM
 categories: WPF
 ---
@@ -198,7 +198,7 @@ switch (m_pSharedMemoryHeader->dwEvent)
  const int PenEventSystem        = 714;
 ```
 
-也就是上面的代码就是整个触摸的核心代码
+也就是上面的代码就是整个触摸的核心代码。对应在 Win32 层的文档请参阅 [COM API Used by Windows Presentation Foundation - Win32 apps Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/tablet/com-apis-used-by-windows-presentation-foundation )
 
 更多代码请看 [https://github.com/dotnet/wpf/](https://github.com/dotnet/wpf/) 
 
