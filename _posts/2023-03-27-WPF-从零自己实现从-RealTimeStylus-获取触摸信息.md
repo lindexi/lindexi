@@ -1,7 +1,7 @@
 ---
 title: "WPF 从零自己实现从 RealTimeStylus 获取触摸信息"
 author: lindexi
-date: 2023-3-28 15:43:21 +0800
+date: 2023-3-29 8:49:27 +0800
 CreateTime: 2023/3/27 8:39:35
 categories: WPF
 ---
@@ -440,7 +440,7 @@ git pull origin f9b86511284baf14b5579146736c121b6b571200
 
 在 WPF 里面，接收触摸消息的底层调度是通过消息，但是此消息不等于消息队列的消息，而是从更底层过来的。如此可以减少走消息队列的损耗，且不在主线程调度
 
-以下是反编译的代码
+以下是反编译的代码，感谢 [lsj](https://blog.sdlsj.net) 大佬提供
 
 <!-- ![](image/WPF 从零自己实现从 RealTimeStylus 获取触摸信息/WPF 从零自己实现从 RealTimeStylus 获取触摸信息3.png) -->
 ![](http://image.acmx.xyz/lindexi%2F20233271731347622.jpg)
