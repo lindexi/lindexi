@@ -1,8 +1,8 @@
 ---
 title: "github 解决推拉代码提示 REMOTE HOST IDENTIFICATION HAS CHANGED 失败"
 author: lindexi
-date: 2023-3-27 8:39:35 +0800
-CreateTime: 2023-3-27 8:39:35 +0800
+date: 2023-3-28 18:11:4 +0800
+CreateTime: 2023/3/27 8:39:35
 categories: git
 ---
 
@@ -10,6 +10,8 @@ categories: git
 
 <!--more-->
 
+
+<!-- CreateTime:2023/3/27 8:39:35 -->
 
 
 <!-- 发布 -->
@@ -57,3 +59,5 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 以上步骤就是在将 github 添加到 `known_hosts` 文件里
 
 也就是下一次推拉代码就不需要再次执行以上步骤
+
+为什么有这样的事情呢？这是因为在 2023.03.24 更换了 GitHub 的 RSA 的 Key 值。因为 GitHub 团队发现自己的 Key 泄露了。详细请看 [We updated our RSA SSH host key The GitHub Blog](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/ )
