@@ -1,8 +1,8 @@
 ---
 title: "WPF 通过 WindowsAppSDK 使用 WinRT 的手写识别功能"
 author: lindexi
-date: 2023-4-18 8:54:25 +0800
-CreateTime: 2023-4-18 8:47:21 +0800
+date: 2023-4-18 8:55:52 +0800
+CreateTime: 2023/4/18 8:47:21
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/4/18 8:47:21 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -70,7 +72,6 @@ using Point = Windows.Foundation.Point;
             var value = inkAnalysisInkDrawing?.DrawingKind;
             if (value == InkAnalysisDrawingKind.Triangle)
             {
-
             }
         }
     }
