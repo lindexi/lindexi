@@ -1,8 +1,8 @@
 ---
 title: "WPF 不安装 WindowsAppSDK 使用 WinRT 功能的方法"
 author: lindexi
-date: 2023-4-19 9:0:1 +0800
-CreateTime: 2023-4-19 8:38:40 +0800
+date: 2023-4-19 9:19:21 +0800
+CreateTime: 2023/4/19 8:38:40
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/4/19 8:38:40 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -76,7 +78,6 @@ categories: WPF
 至于为什么不区分，那是因为从原理上来说这两个文件其实只是一层 COM 封装而已。对 WinRT 的调用的机制原理就是通过 COM 调用技术来调用到 WinRT 组件。但为什么很少有开发者自己定义 COM 封装去调用 WinRT 呢？其中一个原因是 WinRT 里面用到许多有趣的特性，例如异步等等，导致封装的代码不能和 Win32 那么清真
 
 <!-- 微软封装的 `WinRT.Runtime.dll` 就是对 WinRT 的 COM 的底层封装。底层封装用起来大家都不会很开森，于是微软就继续在 `WinRT.Runtime.dll` 基础上封装了  -->
-
 微软封装的 `Microsoft.Windows.SDK.NET.dll` 和 `WinRT.Runtime.dll` 文件就是对 WinRT 的 COM 的封装，从而让大家可以更加开森和清真的使用到 WinRT 功能。由于封装 COM 的代码也是基础的 C# 代码，这也就无视 x86 和 x64 的差别
 
 再有一个问题是这两个文件是免费商用许可的？答案自然是肯定的。这两个文件来源于 [https://github.com/microsoft/WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK) 开源仓库，这两个文件的代码都是完全开源的，而且还是基于最友好的 MIT 协议进行开源
