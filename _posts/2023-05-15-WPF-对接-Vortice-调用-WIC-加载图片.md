@@ -1,8 +1,8 @@
 ---
 title: "WPF 对接 Vortice 调用 WIC 加载图片"
 author: lindexi
-date: 2023-5-15 8:38:17 +0800
-CreateTime: 2023-5-15 8:38:17 +0800
+date: 2023-5-15 8:38:48 +0800
+CreateTime: 2023/5/15 8:38:17
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -10,6 +10,8 @@ categories: C# D2D DirectX Vortice Direct2D
 
 <!--more-->
 
+
+<!-- CreateTime:2023/5/15 8:38:17 -->
 
 
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->

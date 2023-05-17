@@ -1,8 +1,8 @@
 ---
 title: "WPF 对接 Vortice 在 Direct2D 绘制从 WIC 加载的图片"
 author: lindexi
-date: 2023-5-15 8:38:17 +0800
-CreateTime: 2023-5-15 8:38:17 +0800
+date: 2023-5-15 8:56:49 +0800
+CreateTime: 2023/5/15 8:38:17
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -11,12 +11,13 @@ categories: C# D2D DirectX Vortice Direct2D
 <!--more-->
 
 
+<!-- CreateTime:2023/5/15 8:38:17 -->
 
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
 <!-- 博客 -->
 <!-- 发布 -->
 
-在上一篇博客告诉了大家如何对接 Vortice 调用 WIC 加载图片，上一篇博客是将 WIC 层创建的 IWICBitmap 图片放入到 WPF 层进行渲染。本文将告诉大家如何在 Direct2D 里将 WIC 加载的图片绘制
+在上一篇博客 [WPF 对接 Vortice 调用 WIC 加载图片](https://blog.lindexi.com/post/WPF-%E5%AF%B9%E6%8E%A5-Vortice-%E8%B0%83%E7%94%A8-WIC-%E5%8A%A0%E8%BD%BD%E5%9B%BE%E7%89%87.html ) 告诉了大家如何对接 Vortice 调用 WIC 加载图片，[上一篇博客](https://blog.lindexi.com/post/WPF-%E5%AF%B9%E6%8E%A5-Vortice-%E8%B0%83%E7%94%A8-WIC-%E5%8A%A0%E8%BD%BD%E5%9B%BE%E7%89%87.html )是将 WIC 层创建的 IWICBitmap 图片放入到 WPF 层进行渲染。本文将告诉大家如何在 Direct2D 里将 WIC 加载的图片绘制
 
 核心的两个点就是用拿到的 IWICBitmapFrameDecode 进行 IWICFormatConverter 转换图片格式，转换为 Format32bppPBGRA 对 Direct2D 友好的格式，再通过 CreateBitmapFromWicBitmap 方法转换为 ID2D1Bitmap 加入绘制
 
