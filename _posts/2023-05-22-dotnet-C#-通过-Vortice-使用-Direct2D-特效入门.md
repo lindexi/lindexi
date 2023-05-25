@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 通过 Vortice 使用 Direct2D 特效入门"
 author: lindexi
-date: 2023-5-23 8:39:57 +0800
-CreateTime: 2023-5-22 8:51:31 +0800
+date: 2023-5-23 8:41:38 +0800
+CreateTime: 2023/5/22 8:51:31
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -10,6 +10,8 @@ categories: C# D2D DirectX Vortice Direct2D
 
 <!--more-->
 
+
+<!-- CreateTime:2023/5/22 8:51:31 -->
 
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
 <!-- 博客 -->
