@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 通过 Vortice 使用 Direct2D 特效入门"
 author: lindexi
-date: 2023-5-23 8:41:38 +0800
+date: 2023-5-26 8:26:58 +0800
 CreateTime: 2023/5/22 8:51:31
 categories: C# D2D DirectX Vortice Direct2D
 ---
@@ -32,7 +32,7 @@ categories: C# D2D DirectX Vortice Direct2D
         DXGI.IDXGISurface dxgiSurface = backBufferTexture.QueryInterface<DXGI.IDXGISurface>();
 ```
 
-接下来咱将创建 D2D 设备，再通过 D2D 设备，从而拿到 ID2D1DeviceContext 对象，设置 DXGI 平面作为 ID2D1DeviceContext 输出，如此即可使用继承自 ID2D1RenderTarget 的 ID2D1DeviceContext 进行绘制界面
+接下来咱将创建 D2D 设备，再通过 D2D 设备，从而拿到 ID2D1DeviceContext 对象，设置 DXGI 平面作为 ID2D1DeviceContext 输出，如此即可使用继承自 ID2D1RenderTarget 的 ID2D1DeviceContext 进行绘制界面。此步骤更详细的内容，请参阅 [dotnet DirectX 通过 Vortice 控制台使用 ID2D1DeviceContext 绘制画面](https://blog.lindexi.com/post/dotnet-DirectX-%E9%80%9A%E8%BF%87-Vortice-%E6%8E%A7%E5%88%B6%E5%8F%B0%E4%BD%BF%E7%94%A8-ID2D1DeviceContext-%E7%BB%98%E5%88%B6%E7%94%BB%E9%9D%A2.html )
 
 ```csharp
         DXGI.IDXGIDevice dxgiDevice = d3D11Device.QueryInterface<DXGI.IDXGIDevice>();
