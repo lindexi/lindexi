@@ -1,9 +1,9 @@
 ---
 title: "IIncrementalGenerator 增量 Source Generator 生成代码入门 读取 csproj 项目文件的属性配置"
 author: lindexi
-date: 2022-11-28 8:2:47 +0800
+date: 2023-6-2 16:8:41 +0800
 CreateTime: 2022/11/7 8:04:32
-categories: Roslyn MSBuild 编译器
+categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 ---
 
 本文告诉大家如何在使用 IIncrementalGenerator 进行增量的 Source Generator 生成代码时，读取项目里的项目文件属性，从而实现为项目定制的逻辑。或者是读取 NuGet 包里面的一些配置，从而方便实现逻辑
@@ -17,7 +17,7 @@ categories: Roslyn MSBuild 编译器
 <!-- 发布 -->
 <!-- 博客 -->
 
-<!-- 标签：Roslyn,MSBuild,编译器 -->
+<!-- 标签：Roslyn,MSBuild,编译器,SourceGenerator,生成代码 -->
 
 使用增量的源代码生成具有更高的门槛。本文属于入门博客，但非编程新手友好，期望阅读本文之前，已了解源代码生成和项目构建和项目组织的基础知识
 

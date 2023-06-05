@@ -1,9 +1,9 @@
 ---
 title: "尝试 IIncrementalGenerator 进行增量 Source Generator 生成代码"
 author: lindexi
-date: 2022-9-15 19:54:8 +0800
+date: 2023-6-2 16:9:3 +0800
 CreateTime: 2022/8/29 8:40:56
-categories: Roslyn MSBuild 编译器
+categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 ---
 
 在加上热重载时，源代码生成 Source Generator 的默认行为会让 Visual Studio 有些为难，其原因是热重载会变更代码，变更代码触发代码生成器更新代码，代码生成器更新的代码说不定又会有某些逗比逻辑再次触发热重载。于是就会发现在某些复杂的项目下，开启热重载之后，在编辑并继续界面将会等非常久，甚至再也无法继续。为了解决这个问题，大聪明设计了 Incremental Generators 机制，此 Incremental Generators 机制和 Source Generator 不冲突，被设计用来解决热重载的源代码生成性能问题，本文将告诉大家此新的 API 的入门级使用
@@ -15,7 +15,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- 发布 -->
 
-<!-- 标签：Roslyn,MSBuild,编译器 -->
+<!-- 标签：Roslyn,MSBuild,编译器,SourceGenerator,生成代码 -->
 
 开始阅读之前必须要明确的是，几乎所有的设计为高性能使用的 API 都代表着 API 本身不够好用。本身使用 Source Generator 就有一定的门槛了，现在使用 Incremental Generators 机制只会更加复杂。在开始阅读本文之前，我期望你已熟悉源代码生成机制以及 dotnet 的构建过程。本文非新手友好
 

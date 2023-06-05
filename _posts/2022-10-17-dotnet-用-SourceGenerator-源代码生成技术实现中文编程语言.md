@@ -1,9 +1,9 @@
 ---
 title: "dotnet 用 SourceGenerator 源代码生成技术实现中文编程语言"
 author: lindexi
-date: 2022-10-19 8:12:8 +0800
+date: 2023-6-2 16:8:52 +0800
 CreateTime: 2022/10/17 8:06:00
-categories: Roslyn MSBuild 编译器
+categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 ---
 
 相信有很多伙伴都很喜欢自己造编程语言，在有现代的很多工具链的帮助下，实现一门编程语言，似乎已不是一件十分困难的事情。我利用 SourceGenerator 源代码生成技术实现了一个简易的中文编程语言，核心原理是将中文编程语言翻译为 C# 语言，从而完成后续的所有对接，完成了最简单的构建和运行。本文将告诉大家这个有趣的方式是如何实现
@@ -14,7 +14,7 @@ categories: Roslyn MSBuild 编译器
 <!-- CreateTime:2022/10/17 8:06:00 -->
 
 <!-- 发布 -->
-<!-- 标签：Roslyn,MSBuild,编译器 -->
+<!-- 标签：Roslyn,MSBuild,编译器,SourceGenerator,生成代码 -->
 
 开始之前，先给大家看看效果
 
