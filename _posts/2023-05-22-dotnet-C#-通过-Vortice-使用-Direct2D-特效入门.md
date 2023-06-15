@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 通过 Vortice 使用 Direct2D 特效入门"
 author: lindexi
-date: 2023-5-26 8:26:58 +0800
+date: 2023-6-15 8:35:55 +0800
 CreateTime: 2023/5/22 8:51:31
 categories: C# D2D DirectX Vortice Direct2D
 ---
@@ -132,12 +132,12 @@ categories: C# D2D DirectX Vortice Direct2D
                 renderTarget.Clear(new Color4(0xFF,0xFF,0xFF));
 
                 // 随便创建一张图片
-                using var intputBitmap = CreateBitmap();
+                using var inputBitmap = CreateBitmap();
 
                 var gaussianBlurEffect = d2dDeviceContext.CreateEffect(EffectGuids.GaussianBlur);
                 using ID2D1Effect d2dEffect = new ID2D1Effect(gaussianBlurEffect);
 
-                d2dEffect.SetInput(0, intputBitmap,new RawBool(true));
+                d2dEffect.SetInput(0, inputBitmap, new RawBool(true));
                 const int D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION = 0;
                 d2dEffect.SetValue(D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION, count / 60f * 3f);
 
@@ -173,8 +173,8 @@ categories: C# D2D DirectX Vortice Direct2D
             wicBitmapRenderTarget.FillEllipse(new Ellipse(new System.Numerics.Vector2(200, 200), 100, 100), brush);
             wicBitmapRenderTarget.EndDraw();
 
-            ID2D1Bitmap1 intputBitmap = renderTarget.CreateBitmapFromWicBitmap(wicBitmap);
-            return intputBitmap;
+            ID2D1Bitmap1 inputBitmap = renderTarget.CreateBitmapFromWicBitmap(wicBitmap);
+            return inputBitmap;
         }
 ```
 
