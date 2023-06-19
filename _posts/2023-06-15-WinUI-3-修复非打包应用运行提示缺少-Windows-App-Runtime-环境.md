@@ -1,8 +1,8 @@
 ---
 title: "WinUI 3 修复非打包应用运行提示缺少 Windows App Runtime 环境"
 author: lindexi
-date: 2023-6-15 20:18:8 +0800
-CreateTime: 2023-6-15 19:31:3 +0800
+date: 2023-6-16 8:32:32 +0800
+CreateTime: 2023/6/15 19:31:03
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2023/6/15 19:31:03 -->
 
 
 <!-- 发布 -->
