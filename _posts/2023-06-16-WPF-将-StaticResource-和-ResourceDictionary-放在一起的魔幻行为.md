@@ -1,8 +1,8 @@
 ---
 title: "WPF 将 StaticResource 和 ResourceDictionary 放在一起的魔幻行为"
 author: lindexi
-date: 2023-6-16 17:28:43 +0800
-CreateTime: 2023-6-16 16:28:58 +0800
+date: 2023-6-19 8:40:38 +0800
+CreateTime: 2023/6/16 16:28:58
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/6/16 16:28:58 -->
 
 
 <!-- 发布 -->

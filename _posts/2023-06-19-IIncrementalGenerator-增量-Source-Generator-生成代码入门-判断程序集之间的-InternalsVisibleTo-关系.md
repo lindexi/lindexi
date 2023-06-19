@@ -1,8 +1,8 @@
 ---
 title: "IIncrementalGenerator 增量 Source Generator 生成代码入门 判断程序集之间的 InternalsVisibleTo 关系"
 author: lindexi
-date: 2023-6-19 8:39:59 +0800
-CreateTime: 2023-6-19 8:39:59 +0800
+date: 2023-6-19 8:52:23 +0800
+CreateTime: 2023/6/19 8:39:59
 categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 
 <!--more-->
 
+
+<!-- CreateTime:2023/6/19 8:39:59 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -180,6 +182,8 @@ public class FooTelescopeIncrementalGenerator : IIncrementalGenerator
 
 接下来将收集到的给当前正在分析的程序集设置了 internal 可见的程序集列表输出到生成代码里面，如以下代码
 
+{% raw %}
+
 ```csharp
 using System.Collections.Generic;
 using System.Linq;
@@ -227,6 +231,8 @@ public class FooTelescopeIncrementalGenerator : IIncrementalGenerator
     }
 }
 ```
+
+{% endraw %}
 
 回到 App 项目里面，编辑 Program.cs 文件，输出以上生成的 InternalsVisibleToHelper 类型里面的 GetAllInternalsVisibleFromAssemblyName 方法返回内容到控制台，如以下代码
 

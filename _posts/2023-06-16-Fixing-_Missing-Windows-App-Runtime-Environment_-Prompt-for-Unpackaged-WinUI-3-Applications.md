@@ -1,8 +1,8 @@
 ---
 title: "Fixing "Missing Windows App Runtime Environment" Prompt for Unpackaged WinUI 3 Applications"
 author: lindexi
-date: 2023-6-16 8:47:49 +0800
-CreateTime: 2023-6-16 8:34:27 +0800
+date: 2023-6-19 8:40:25 +0800
+CreateTime: 2023/6/16 8:34:27
 categories: 
 ---
 
@@ -10,6 +10,8 @@ This article will tell you how to fix the prompt for a missing Windows App Runti
 
 <!--more-->
 
+
+<!-- CreateTime:2023/6/16 8:34:27 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
