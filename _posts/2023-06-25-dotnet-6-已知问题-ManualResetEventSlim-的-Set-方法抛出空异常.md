@@ -1,8 +1,8 @@
 ---
 title: "dotnet 6 已知问题 ManualResetEventSlim 的 Set 方法抛出空异常"
 author: lindexi
-date: 2023-6-25 8:43:13 +0800
-CreateTime: 2023-6-25 8:43:13 +0800
+date: 2023-6-25 8:43:21 +0800
+CreateTime: 2023/6/25 8:43:13
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2023/6/25 8:43:13 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
