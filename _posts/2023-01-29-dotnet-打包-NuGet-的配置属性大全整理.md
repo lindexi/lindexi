@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2023-2-16 14:36:47 +0800
+date: 2023-7-3 19:58:49 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -120,7 +120,7 @@ categories: dotnet
 
 ### Authors
 
-作者，表示这个包由谁谁制作。作者不一定拥有此包的所有权，和 Owners 不相同。例如公司雇用你打工，你帮助公司发布的包，自然此包的 所有权 就在公司上，而你自己就是此包的作者
+作者，表示这个包由谁制作。作者不一定拥有此包的所有权，和 Owners 不相同。例如公司雇用你打工，你帮助公司发布的包，自然此包的 所有权 就在公司上，而你自己就是此包的作者
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
