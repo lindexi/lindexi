@@ -1,8 +1,8 @@
 ---
 title: "dotnet 警惕 async void 线程顶层异常"
 author: lindexi
-date: 2023-7-4 20:6:10 +0800
-CreateTime: 2023-7-4 19:44:2 +0800
+date: 2023-7-5 8:39:46 +0800
+CreateTime: 2023/7/4 19:44:02
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2023/7/4 19:44:02 -->
 
 <!-- 博客 -->
 <!-- 发布 -->
