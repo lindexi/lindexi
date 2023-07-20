@@ -1,7 +1,7 @@
 ---
 title: "dotnet 警惕 async void 线程顶层异常"
 author: lindexi
-date: 2023-7-5 8:39:46 +0800
+date: 2023-7-19 19:35:6 +0800
 CreateTime: 2023/7/4 19:44:02
 categories: dotnet
 ---
@@ -13,7 +13,7 @@ categories: dotnet
 
 <!-- CreateTime:2023/7/4 19:44:02 -->
 
-<!-- 博客 -->
+
 <!-- 发布 -->
 
 在 dotnet 里面，有一个隐藏的陷阱，那就是 async void 将会在没有线程同步上下文的情况下，被当成线程顶层。如果在 async void 里面发生任何未捕获的异常，严重的话将会导致进程闪退

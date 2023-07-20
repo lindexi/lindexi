@@ -1,7 +1,7 @@
 ---
 title: "修复 GitLab 的 CI Runner 提示找不到 pwsh 执行文件"
 author: lindexi
-date: 2023-3-3 9:5:58 +0800
+date: 2023-7-19 19:39:37 +0800
 CreateTime: 2023/3/2 20:13:31
 categories: git
 ---
@@ -14,7 +14,7 @@ categories: git
 <!-- CreateTime:2023/3/2 20:13:31 -->
 
 <!-- 发布 -->
-<!-- 博客 -->
+
 
 有两个方法，第一个方法就是安装 pwsh 命令，安装方法是在 PowerShell 里输入以下代码安装
 

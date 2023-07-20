@@ -1,7 +1,7 @@
 ---
 title: "dotnet 给 NuGet 包加上 Aliases 别名解决类型冲突"
 author: lindexi
-date: 2023-6-27 8:55:52 +0800
+date: 2023-7-19 19:35:42 +0800
 CreateTime: 2023/6/27 8:41:25
 categories: dotnet
 ---
@@ -15,7 +15,7 @@ categories: dotnet
 
 
 <!-- 发布 -->
-<!-- 博客 -->
+
 
 给 NuGet 包加上 Aliases 别名，且使用别名限定的方式解决类型冲突分为两步。第一步就是修改 NuGet 引用加上别名名称。第二步就是在代码里面使用别名作为完全限定符
 
