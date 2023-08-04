@@ -1,8 +1,8 @@
 ---
 title: "WPF 设置 IncludePackageReferencesDuringMarkupCompilation 属性导致分析器不工作"
 author: lindexi
-date: 2023-8-2 15:39:47 +0800
-CreateTime: 2023-8-2 15:37:40 +0800
+date: 2023-8-3 9:58:50 +0800
+CreateTime: 2023/8/2 19:37:40
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/8/2 19:37:40 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
