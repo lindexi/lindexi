@@ -1,8 +1,8 @@
 ---
 title: "dotnet 6 在 win7 系统 AES CFB 抛出不支持异常"
 author: lindexi
-date: 2023-8-25 15:8:50 +0800
-CreateTime: 2023-8-25 14:36:56 +0800
+date: 2023-8-26 8:55:20 +0800
+CreateTime: 2023/8/25 14:36:56
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2023/8/25 14:36:56 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
