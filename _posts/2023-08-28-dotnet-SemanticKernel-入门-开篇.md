@@ -1,8 +1,8 @@
 ---
 title: "dotnet SemanticKernel 入门 开篇"
 author: lindexi
-date: 2023-8-28 8:37:23 +0800
-CreateTime: 2023-8-28 8:37:23 +0800
+date: 2023-8-28 9:9:48 +0800
+CreateTime: 2023/8/28 8:37:23
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2023/8/28 8:37:23 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -21,3 +23,5 @@ categories: dotnet
 我的博客的也将从原生技能开始，再到 SemanticKernel 调用 GPT 的对接，再到 AI 与技能的调用逻辑的顺序编写
 
 我的博客里面将尽量采用微软官方提供例子，以及配上可执行的代码，方便大家阅读
+
+我创建了 SemanticKernel 群: 623349574 欢迎大家加入交流

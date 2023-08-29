@@ -1,8 +1,8 @@
 ---
 title: "dotnet SemanticKernel 入门 自定义变量和技能"
 author: lindexi
-date: 2023-8-28 8:37:23 +0800
-CreateTime: 2023-8-28 8:37:23 +0800
+date: 2023-8-28 8:37:37 +0800
+CreateTime: 2023/8/28 8:37:23
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2023/8/28 8:37:23 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
