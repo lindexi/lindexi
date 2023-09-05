@@ -1,7 +1,7 @@
 ---
 title: "IIncrementalGenerator 增量 Source Generator 生成代码入门 判断程序集之间的 InternalsVisibleTo 关系"
 author: lindexi
-date: 2023-6-19 8:52:23 +0800
+date: 2023-9-4 17:48:27 +0800
 CreateTime: 2023/6/19 8:39:59
 categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 ---
@@ -12,7 +12,7 @@ categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 
 
 <!-- CreateTime:2023/6/19 8:39:59 -->
-
+<!-- 标题： IIncrementalGenerator 判断程序集之间可见关系 -->
 <!-- 发布 -->
 <!-- 博客 -->
 <!-- 标签：Roslyn,MSBuild,编译器,SourceGenerator,生成代码 -->

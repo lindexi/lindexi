@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 ToUpperInvariant 替换 ToUpper 以避免初始化 icu 过慢"
 author: lindexi
-date: 2023-8-11 8:39:19 +0800
+date: 2023-9-4 17:47:44 +0800
 CreateTime: 2023/8/10 12:09:28
 categories: dotnet
 ---
@@ -12,7 +12,7 @@ categories: dotnet
 
 
 <!-- CreateTime:2023/8/10 12:09:28 -->
-
+<!-- 标题： dotnet 提升 ToUpper 性能 -->
 <!-- 发布 -->
 <!-- 博客 -->
 

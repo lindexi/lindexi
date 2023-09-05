@@ -1,7 +1,7 @@
 ---
 title: "SemanticKernel 将 LLM 自然语言函数和传统编程融合到一起"
 author: lindexi
-date: 2023-9-4 8:45:56 +0800
+date: 2023-9-4 17:43:31 +0800
 CreateTime: 2023/9/4 8:45:17
 categories: 
 ---
@@ -12,7 +12,7 @@ categories:
 
 
 <!-- CreateTime:2023/9/4 8:45:17 -->
-
+<!-- 标题： SemanticFunction 融合 LLM 和传统编程 -->
 <!-- 发布 -->
 <!-- 博客 -->
 

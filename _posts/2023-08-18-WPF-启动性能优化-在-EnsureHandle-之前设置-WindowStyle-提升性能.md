@@ -1,7 +1,7 @@
 ---
 title: "WPF 启动性能优化 在 EnsureHandle 之前设置 WindowStyle 提升性能"
 author: lindexi
-date: 2023-8-21 16:5:16 +0800
+date: 2023-9-4 17:45:16 +0800
 CreateTime: 2023/8/19 16:13:03
 categories: WPF
 ---
@@ -12,7 +12,7 @@ categories: WPF
 
 
 <!-- CreateTime:2023/8/19 16:13:03 -->
-
+<!-- 标题： WPF 优化 EnsureHandle 启动性能 -->
 <!-- 发布 -->
 <!-- 博客 -->
 
