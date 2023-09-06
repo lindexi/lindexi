@@ -1,7 +1,7 @@
 ---
 title: "Roslyn MSBuild 在构建完成之后 将构建时间写入到输出文件"
 author: lindexi
-date: 2022-10-31 12:6:45 +0800
+date: 2023-9-5 8:46:0 +0800
 CreateTime: 2022/10/28 16:16:38
 categories: 
 ---
@@ -12,7 +12,7 @@ categories:
 
 
 <!-- CreateTime:2022/10/28 16:16:38 -->
-
+<!-- 标题： Roslyn 将构建时间写入到输出文件 -->
 <!-- 发布 -->
 <!-- 博客 -->
 

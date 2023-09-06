@@ -1,7 +1,7 @@
 ---
 title: "WPF 对接 Vortice 在 Direct2D 绘制从 WIC 加载的图片"
 author: lindexi
-date: 2023-5-15 8:56:49 +0800
+date: 2023-9-5 8:49:4 +0800
 CreateTime: 2023/5/15 8:38:17
 categories: C# D2D DirectX Vortice Direct2D
 ---
@@ -12,7 +12,7 @@ categories: C# D2D DirectX Vortice Direct2D
 
 
 <!-- CreateTime:2023/5/15 8:38:17 -->
-
+<!-- 标题： WPF 对接 Vortice 绘制 WIC 图片 -->
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
 <!-- 博客 -->
 <!-- 发布 -->
