@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用增量源代码生成技术的 Telescope 库导出程序集类型"
 author: lindexi
-date: 2023-9-11 8:51:21 +0800
-CreateTime: 2023-9-11 8:50:10 +0800
+date: 2023-9-11 8:51:39 +0800
+CreateTime: 2023/9/11 8:50:10
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2023/9/11 8:50:10 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

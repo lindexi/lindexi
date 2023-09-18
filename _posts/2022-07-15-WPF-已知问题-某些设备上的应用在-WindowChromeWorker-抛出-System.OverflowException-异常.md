@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 某些设备上的应用在 WindowChromeWorker 抛出 System.OverflowException 异常"
 author: lindexi
-date: 2022-9-27 8:53:18 +0800
+date: 2023-9-11 9:6:24 +0800
 CreateTime: 2022/7/15 19:16:49
 categories: WPF
 ---
@@ -13,7 +13,10 @@ categories: WPF
 
 <!-- CreateTime:2022/7/15 19:16:49 -->
 
+
 <!-- 发布 -->
+
+**此问题已修复**
 
 这是一个上古就存在的问题，有人报告说安装了某些驱动就会存在此异常，但是我没有调查到在符合什么情况下就会抛出此异常。此异常的调用堆栈大概如下
 
@@ -65,7 +68,9 @@ System.OverflowException
 
 我的修复的方法是转换为 Long 再进行裁剪，这个做法我认为是对的，我也阅读了一些相关的对 NCHitTest 消息处理的博客，例如 [当无边框窗口被子窗口遮挡导致难以调节窗口大小时，可通过处理 NCHITTEST 消息重新支持调节窗口大小 - walterlv](https://blog.walterlv.com/post/handle-nchittest-message-to-support-resize-even-if-window-is-covered-with-child-windows.html ) 也都是如此处理
 
-不过在我的代码还没被合入之前，可以先采用以下代码减少抛出异常
+此问题已经被我修复，修复代码已合入 WPF 主版本，遇到此问题的修复方法是升级 .NET SDK 或框架到最新版本
+
+如果自己在用的是不能更新的旧框架，可以使用以下代码进行规避
 
 ```csharp
       protected override void OnSourceInitialized( EventArgs e )
@@ -73,6 +78,7 @@ System.OverflowException
          base.OnSourceInitialized( e );
          ( (HwndSource)PresentationSource.FromVisual( this ) ).AddHook( HookProc );
       }
+
       private IntPtr HookProc( IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled )
       {
          if ( msg == 0x0084 /*WM_NCHITTEST*/ )
