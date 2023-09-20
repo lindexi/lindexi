@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 插入触摸设备的初始化获取设备信息"
 author: lindexi
-date: 2021-5-24 20:12:21 +0800
+date: 2023-9-19 16:58:17 +0800
 CreateTime: 2021/5/24 18:58:18
 categories: WPF WPF源代码
 ---
@@ -97,7 +97,7 @@ categories: WPF WPF源代码
 
 ## 触摸线程
 
-在 [WPF 触摸到事件](https://blog.lindexi.com/post/WPF-%E8%A7%A6%E6%91%B8%E5%88%B0%E4%BA%8B%E4%BB%B6.html ) 博客里面告诉大家，在 WPF 框架，为了让触摸的性能足够强，将触摸的获取放在独立的进程里面
+在 [WPF 触摸到事件](https://blog.lindexi.com/post/WPF-%E8%A7%A6%E6%91%B8%E5%88%B0%E4%BA%8B%E4%BB%B6.html ) 博客里面告诉大家，在 WPF 框架，为了让触摸的性能足够强，将触摸的获取放在独立的线程里面
 
 在获取触摸信息时，也需要调度到触摸线程执行。在 WPF 中，通过 PenThread 类的相关方法可以调度到触摸线程
 
