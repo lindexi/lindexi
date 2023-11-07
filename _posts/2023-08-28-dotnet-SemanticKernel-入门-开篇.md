@@ -1,7 +1,7 @@
 ---
 title: "dotnet SemanticKernel 入门 开篇"
 author: lindexi
-date: 2023-9-4 19:33:39 +0800
+date: 2023-11-6 8:48:34 +0800
 CreateTime: 2023/8/28 8:37:23
 categories: dotnet
 ---
