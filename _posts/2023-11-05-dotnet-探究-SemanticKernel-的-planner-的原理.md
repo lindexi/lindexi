@@ -1,7 +1,7 @@
 ---
 title: "dotnet 探究 SemanticKernel 的 planner 的原理"
 author: lindexi
-date: 2023-11-5 17:26:13 +0800
+date: 2023-11-8 21:40:17 +0800
 CreateTime: 2023/11/5 15:16:14
 categories: dotnet
 ---
@@ -39,7 +39,7 @@ kernel.RegisterSemanticFunction("WriterPlugin", "ShortPoem", new PromptTemplateC
     Description = "Turn a scenario into a short and entertaining poem.",
 }, new PromptTemplate(
     @"Generate a short funny poem or limerick to explain the given event. Be creative and be funny. Let your imagination run wild.
-Event:{{$input}}
+Event:｛｛$input｝｝
 ", new PromptTemplateConfig()
     {
         Input = new PromptTemplateConfig.InputConfig()
@@ -55,11 +55,11 @@ Event:{{$input}}
         }
     }, kernel));
 
-kernel.CreateSemanticFunction(@"Translate the input below into {{$language}}
+kernel.CreateSemanticFunction(@"Translate the input below into ｛｛$language｝｝
 
-MAKE SURE YOU ONLY USE {{$language}}.
+MAKE SURE YOU ONLY USE ｛｛$language｝｝.
 
-{{$input}}
+｛｛$input｝｝
 
 Translation:
 ", new PromptTemplateConfig()
