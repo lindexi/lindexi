@@ -1,8 +1,8 @@
 ---
 title: "WPF 触摸下如何给 StylusPointCollection 添加点"
 author: lindexi
-date: 2023-11-9 20:13:10 +0800
-CreateTime: 2023-11-9 19:46:55 +0800
+date: 2023-11-10 8:49:36 +0800
+CreateTime: 2023/11/9 19:46:55
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/11/9 19:46:55 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
