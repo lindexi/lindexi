@@ -1,8 +1,8 @@
 ---
 title: "dotnet 警惕 C# 的 is var 写法"
 author: lindexi
-date: 2023-11-18 11:19:6 +0800
-CreateTime: 2023-11-18 10:15:51 +0800
+date: 2023-11-18 11:27:26 +0800
+CreateTime: 2023/11/18 10:15:51
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2023/11/18 10:15:51 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -138,7 +140,6 @@ IL:
 
 ```
 C#:
-
     if (foo is IFoo f3)
 
 IL:
