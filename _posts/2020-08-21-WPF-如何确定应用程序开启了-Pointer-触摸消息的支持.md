@@ -1,7 +1,7 @@
 ---
 title: "WPF 如何确定应用程序开启了 Pointer 触摸消息的支持"
 author: lindexi
-date: 2022-1-13 16:26:51 +0800
+date: 2023-11-22 16:53:10 +0800
 CreateTime: 2020/8/21 8:43:29
 categories: WPF
 ---
@@ -22,7 +22,7 @@ categories: WPF
 在 [WPF 添加窗口消息钩子方法](https://blog.lindexi.com/post/WPF-%E6%B7%BB%E5%8A%A0%E7%AA%97%E5%8F%A3%E6%B6%88%E6%81%AF%E9%92%A9%E5%AD%90%E6%96%B9%E6%B3%95.html) 这篇博客告诉大家如何拿到窗口的消息。在这个基础上，尝试拿到消息判断是否存在 Pointer 消息，如果能收到 Pointer 消息，那么证明代码没写错
 
 ```csharp
-       public MainWindow()
+        public MainWindow()
         {
             InitializeComponent();
 
