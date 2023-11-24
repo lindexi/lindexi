@@ -1,8 +1,8 @@
 ---
 title: "WPF 通过 GetMessageExtraInfo 方法获取当前收到的鼠标消息是否由触摸转换过来"
 author: lindexi
-date: 2023-11-23 8:53:14 +0800
-CreateTime: 2023-11-22 17:6:3 +0800
+date: 2023-11-23 8:57:20 +0800
+CreateTime: 2023/11/22 17:06:03
 categories: WPF
 ---
 
@@ -11,6 +11,7 @@ categories: WPF
 <!--more-->
 
 
+<!-- CreateTime:2023/11/22 17:06:03 -->
 <!-- 发布 -->
 <!-- 博客 -->
 
