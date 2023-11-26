@@ -1,8 +1,8 @@
 ---
 title: "WPF 什么时候 VisualTreeHelper.GetDescendantBounds 将返回无穷大"
 author: lindexi
-date: 2023-11-24 9:52:19 +0800
-CreateTime: 2023-11-24 9:52:19 +0800
+date: 2023-11-25 9:31:43 +0800
+CreateTime: 2023/11/24 9:52:19
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2023/11/24 9:52:19 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

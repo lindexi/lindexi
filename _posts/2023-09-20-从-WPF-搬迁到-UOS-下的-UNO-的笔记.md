@@ -1,7 +1,7 @@
 ---
 title: "从 WPF 搬迁到 UOS 下的 UNO 的笔记"
 author: lindexi
-date: 2023-11-24 17:2:23 +0800
+date: 2023-11-25 18:4:44 +0800
 CreateTime: 2023/9/20 15:42:36
 categories: WPF
 ---
@@ -395,3 +395,5 @@ Normal  0   正常优先级。 委托按计划的顺序进行处理。
 [dotnet 统信 UOS 运行 UNO FrameBuffer 应用错误 Failed to open FrameBuffer device](https://blog.lindexi.com/post/dotnet-%E7%BB%9F%E4%BF%A1-UOS-%E8%BF%90%E8%A1%8C-UNO-FrameBuffer-%E5%BA%94%E7%94%A8%E9%94%99%E8%AF%AF-Failed-to-open-FrameBuffer-device.html )
 
 [中文视频教程 I share a video of an app which created with uno · unoplatform/uno · Discussion #4962](https://github.com/unoplatform/uno/discussions/4962 )
+
+[A Journey of Migrating a WPF Project to UNO Framework: Triumphs and Challenges · unoplatform/uno · Discussion #14548](https://github.com/unoplatform/uno/discussions/14548 )
