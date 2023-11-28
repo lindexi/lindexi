@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2023-2-24 8:39:16 +0800
+date: 2023-11-27 16:52:21 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -250,6 +250,9 @@ categories:
 
 - [Tutorial: how to port a project from Interop Word API to Open XML SDK](https://pvs-studio.com/en/blog/posts/csharp/0856/ )
 - [Analyzing the code quality of Microsoft's Open XML SDK](https://pvs-studio.com/en/blog/posts/csharp/0777/ )
+- [Microsoft Office 2013 官方文档](https://learn.microsoft.com/en-us/previous-versions/office/office-2013-resource-kit/cc303401(v=office.15) )
+- [Microsoft Office 2010 官方文档](https://learn.microsoft.com/en-us/previous-versions/office/developer/office-2010/cc313152(v=office.12) )
+- [Microsoft Office 2007 官方文档](https://learn.microsoft.com/en-us/previous-versions/office/developer/office-2007/bb726436(v=office.12) )
 
 ## 第三方工具
 

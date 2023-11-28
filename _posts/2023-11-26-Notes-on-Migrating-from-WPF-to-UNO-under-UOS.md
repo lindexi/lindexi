@@ -1,8 +1,8 @@
 ---
 title: "Notes on Migrating from WPF to UNO under UOS"
 author: lindexi
-date: 2023-11-26 11:45:51 +0800
-CreateTime: 2023-11-26 11:17:24 +0800
+date: 2023-11-27 8:48:31 +0800
+CreateTime: 2023/11/26 11:17:24
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ This article documents my experience in migrating a small WPF application to the
 
 <!--more-->
 
+
+<!-- CreateTime:2023/11/26 11:17:24 -->
 
 <!-- 发布 -->
 
