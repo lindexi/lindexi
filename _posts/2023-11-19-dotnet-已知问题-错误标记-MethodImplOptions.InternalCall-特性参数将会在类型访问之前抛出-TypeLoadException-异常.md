@@ -1,7 +1,7 @@
 ---
 title: "dotnet 已知问题 错误标记 MethodImplOptions.InternalCall 特性参数将会在类型访问之前抛出 TypeLoadException 异常"
 author: lindexi
-date: 2023-11-20 8:32:39 +0800
+date: 2023-12-18 8:59:15 +0800
 CreateTime: 2023/11/19 11:21:05
 categories: dotnet
 ---
@@ -17,6 +17,8 @@ categories: dotnet
 <!-- 博客 -->
 
 遇到这个错误时，是比较难定位到具体的问题的。首先异常信息里面最多只是带上了类型名，没有告诉咱具体是哪个方法调用错误了。其次，异常的信息是 System.TypeLoadException 异常，且异常内容里面没有十分明确说明具体问题。不过有了 Internal call method 关键词倒是还能根据此找到问题
+
+> 更新：在 2023.12.16 官方已经修复此问题，将会有更加明确的错误提示。预计跟随 dotnet 9 发布
 
 下面我将和大家演示一下错误在方法上标记了 MethodImplOptions.InternalCall 特性参数的行为，以下的代码可以在本文末尾找到下载方法
 
@@ -55,7 +57,9 @@ class F2
 
 在异常里面带上了 TypeName 属性，属性里面将会写明是 F2 类型出错，但是具体是哪个方法标记错了也没有更多的提示
 
-我将此调试问题报告给 dotnet 官方，请看 https://github.com/dotnet/runtime/issues/94967
+我将此调试问题报告给 dotnet 官方，且官方已修复，请看 https://github.com/dotnet/runtime/issues/94967
+
+> 更新： 现在可以拿到具体哪个类型的哪个方法标记错此特性
 
 如果大家遇到了 System.TypeLoadException:“Internal call method with non_NULL RVA.” 异常，可以先看看这个异常里面的 TypeName 属性，确定是哪个类型出错了，然后再看看是否这个类型存在方法错误标记了 MethodImplOptions.InternalCall 特性参数导致运行失败
 
