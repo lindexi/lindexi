@@ -444,6 +444,7 @@ permalink: /friends/
  - Anthony Giretti [https://anthonygiretti.com/](https://anthonygiretti.com/)
  - Brandon Minnick Code Traveler 在微软的大佬，是 GitTrends 的作者 [https://codetraveler.io/](https://codetraveler.io/ )
  - [DotNetByExample - The Next Generation](https://localjoost.github.io/ ) 微软 MVP 应用开发方向
+ - [Anson Tsao's Blog](https://learn.microsoft.com/en-us/archive/blogs/ansont/) 在微软的大佬，做 WPF 的触摸
 
 ## 老师
 
