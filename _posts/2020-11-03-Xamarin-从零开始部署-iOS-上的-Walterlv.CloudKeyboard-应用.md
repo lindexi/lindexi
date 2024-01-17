@@ -1,7 +1,7 @@
 ---
 title: "Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用"
 author: lindexi
-date: 2020-12-3 20:37:23 +0800
+date: 2024-1-17 16:27:40 +0800
 CreateTime: 2020/11/3 20:05:54
 categories: Xamarin
 ---
@@ -134,7 +134,7 @@ categories: Xamarin
 
 ![](http://image.acmx.xyz/lindexi%2F20201132032199006.jpg)
 
-在 XCode 上提示 Could not launch "foo" Security 的原因就是发者没有被信任
+在 XCode 上提示 Could not launch "foo" Security 的原因就是开发者没有被信任
 
 回到手机上，可以看到 XCode 安装的应用
 
