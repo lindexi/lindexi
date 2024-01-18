@@ -1,8 +1,8 @@
 ---
 title: "dotnet 修复 GitHub Action 构建过程提示 NETSDK1127 错误"
 author: lindexi
-date: 2024-1-16 9:35:20 +0800
-CreateTime: 2024-1-16 9:35:20 +0800
+date: 2024-1-17 19:1:4 +0800
+CreateTime: 2024/1/16 9:35:20
 categories: git dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: git dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/1/16 9:35:20 -->
 
 <!-- 博客 -->
 <!-- 发布 -->

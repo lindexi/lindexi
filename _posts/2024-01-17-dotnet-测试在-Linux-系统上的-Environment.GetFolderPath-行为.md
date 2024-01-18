@@ -1,8 +1,8 @@
 ---
 title: "dotnet 测试在 Linux 系统上的 Environment.GetFolderPath 行为"
 author: lindexi
-date: 2024-1-17 17:11:34 +0800
-CreateTime: 2024-1-17 16:37:20 +0800
+date: 2024-1-17 19:1:6 +0800
+CreateTime: 2024/1/17 16:37:20
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/1/17 16:37:20 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
