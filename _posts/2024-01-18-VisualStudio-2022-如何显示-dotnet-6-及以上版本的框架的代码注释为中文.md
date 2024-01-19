@@ -1,8 +1,8 @@
 ---
 title: "VisualStudio 2022 如何显示 dotnet 6 及以上版本的框架的代码注释为中文"
 author: lindexi
-date: 2024-1-18 14:45:41 +0800
-CreateTime: 2024-1-18 14:45:41 +0800
+date: 2024-1-19 8:55:42 +0800
+CreateTime: 2024/1/18 14:45:41
 categories: VisualStudio dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: VisualStudio dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/1/18 14:45:41 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
