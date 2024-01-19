@@ -1,7 +1,7 @@
 ---
 title: "dotnet UNO 如何在调试下输出界面层级结构"
 author: lindexi
-date: 2024-1-17 19:43:26 +0800
+date: 2024-1-18 8:54:40 +0800
 CreateTime: 2023/11/25 9:34:35
 categories: dotnet
 ---
@@ -79,7 +79,7 @@ using Uno.UI.Extensions;
         var treeGraph = this.TreeGraph();
 ```
 
-以上的 `treeGraph` 在我的简单的应用的输出逻辑大概如下
+以上的 `treeGraph` 在我的简单的应用的输出内容大概如下
 
 ```
 ConnectionUserControl // Actual=624x379, HV=Stretch/Stretch, CornerRadius=0, Margin=0, Padding=0, Opacity=1, Visibility=Visible

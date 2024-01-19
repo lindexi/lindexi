@@ -1,7 +1,7 @@
 ---
 title: "从 Uno Platform 4 更新 Uno Platform 5 的迁移方法"
 author: lindexi
-date: 2024-1-17 19:1:28 +0800
+date: 2024-1-18 15:24:4 +0800
 CreateTime: 2024/1/17 14:39:36
 categories: 
 ---
@@ -12,7 +12,6 @@ categories:
 
 
 <!-- CreateTime:2024/1/17 14:39:36 -->
-
 <!-- 发布 -->
 <!-- 博客 -->
 
@@ -56,6 +55,8 @@ public App()
     host.Run();
 }
 ```
+
+如果没有更改，将会在运行看到 `If you are seeing this, make sure to follow the "Migrating WpfHost" section of Migrating from previous releases article in the Uno Platform documentation at https://aka.platform.uno/uno5-wpfhost-migration. WpfHost is used at the application level instead of window level starting Uno Platform 5.0.` 提示
 
 ## Skia.Framebuffer
 
