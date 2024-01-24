@@ -172,7 +172,7 @@ permalink: /friends/
 
  - [逆流水Team 布墨](http://blog.niliushui.com/?tdsourcetag=s_pctim_aiomsg )
 
- - [validvoid](http://www.cnblogs.com/validvoid/ ) http://www.cnblogs.com/validvoid/ 
+ - [validvoid](http://www.cnblogs.com/validvoid/ ) <http://www.cnblogs.com/validvoid/>
 
    大量Win2D博客
 
@@ -237,6 +237,8 @@ permalink: /friends/
  - [InCerry - 博客园](https://www.cnblogs.com/incerry/ )
 
  - [晓云](https://blog.lmxiao.top/)
+
+ - [谭汐霏の破站](https://tanxifei.github.io/ )
 
 ## 国内博客
 
