@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2023-11-27 16:52:21 +0800
+date: 2024-1-24 19:51:58 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -333,6 +333,10 @@ XCeed Software 的 DocX 库：
 [dotnet-campus/DocumentFormat.OpenXml.Extensions: The OpenXML SDK extensions. Including libraries and tools.](https://github.com/dotnet-campus/DocumentFormat.OpenXml.Extensions )
 
 这是我所在的团队开源的 OpenXml 解析辅助库，支持层层继承的属性拍平和对基础元素的处理
+
+## 生成 PPT 文档
+
+[dotnet OpenXML SDK 添加 CoreFilePropertiesPart 的方法](https://blog.lindexi.com/post/dotnet-OpenXML-SDK-%E6%B7%BB%E5%8A%A0-CoreFilePropertiesPart-%E7%9A%84%E6%96%B9%E6%B3%95.html )
 
 ## 开发群
 

@@ -1,8 +1,8 @@
 ---
 title: "dotnet 测试在 UOS Linux 上使用 Process Start 打开文件的行为"
 author: lindexi
-date: 2024-1-23 19:19:31 +0800
-CreateTime: 2024-1-23 19:1:5 +0800
+date: 2024-1-24 19:17:31 +0800
+CreateTime: 2024/1/23 19:01:05
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/1/23 19:01:05 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
