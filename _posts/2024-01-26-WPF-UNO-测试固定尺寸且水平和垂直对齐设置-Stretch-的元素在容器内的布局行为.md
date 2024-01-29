@@ -1,8 +1,8 @@
 ---
 title: "WPF UNO 测试固定尺寸且水平和垂直对齐设置 Stretch 的元素在容器内的布局行为"
 author: lindexi
-date: 2024-1-27 10:30:19 +0800
-CreateTime: 2024-1-26 19:25:10 +0800
+date: 2024-1-27 10:30:46 +0800
+CreateTime: 2024/1/26 19:25:10
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2024/1/26 19:25:10 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
