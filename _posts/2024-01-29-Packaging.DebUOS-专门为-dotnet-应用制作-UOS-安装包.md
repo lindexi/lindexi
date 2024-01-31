@@ -1,8 +1,8 @@
 ---
 title: "Packaging.DebUOS 专门为 dotnet 应用制作 UOS 安装包"
 author: lindexi
-date: 2024-1-29 8:58:31 +0800
-CreateTime: 2024-1-29 8:58:31 +0800
+date: 2024-1-30 8:51:39 +0800
+CreateTime: 2024/1/29 8:58:31
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ Packaging.DebUOS 是我所在的团队开发开源的一款专门用在为 dotne
 
 <!--more-->
 
+
+<!-- CreateTime:2024/1/29 8:58:31 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
