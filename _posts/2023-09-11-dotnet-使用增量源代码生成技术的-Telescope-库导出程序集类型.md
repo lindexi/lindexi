@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用增量源代码生成技术的 Telescope 库导出程序集类型"
 author: lindexi
-date: 2023-10-23 8:42:5 +0800
+date: 2024-2-2 10:52:25 +0800
 CreateTime: 2023/9/11 8:50:10
 categories: dotnet
 ---
@@ -16,7 +16,7 @@ categories: dotnet
 <!-- 发布 -->
 <!-- 博客 -->
 
-此 Telescope 库是基于最友好的 MIT 协议开源的，免费开源可商用：[https://github.com/dotnet-campus/SourceFusion](https://github.com/dotnet-campus/SourceFusion)
+此 Telescope 库是基于最友好的 MIT 协议开源的，免费开源可商用：[https://github.com/dotnet-campus/Telescope](https://github.com/dotnet-campus/Telescope)
 
 在日常开发过程中，也许会有这样的需求：将项目程序集里面的某种特征的类型们收集起来，用于实现自己的业务需求。比如说自己写了某些工作器，这些工作器类型都是继承 IWorker 接口的，此时业务上期望有某个逻辑可以将其收集导出，方便对接到自己业务上的框架
 
