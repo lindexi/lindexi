@@ -1,8 +1,8 @@
 ---
 title: "WPF 已知问题 开启 IsManipulationEnabled 之后触摸长按 RepeatButton 不会触发连续的 Click 事件"
 author: lindexi
-date: 2024-2-5 10:18:7 +0800
-CreateTime: 2024-2-5 9:22:14 +0800
+date: 2024-2-6 7:23:53 +0800
+CreateTime: 2024/2/5 9:22:14
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2024/2/5 9:22:14 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

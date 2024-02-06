@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2024-1-24 19:51:58 +0800
+date: 2024-2-6 11:40:55 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -272,7 +272,7 @@ categories:
 
 这个厂商从 2002 开始就在做 Office 相关开发，使用这个工具包可以在有 Office 或者在没有 Office 的情况下进行开发，可以渲染和编辑 Office 文档
 
-貌似要购买的话，找我也许有优惠…… 但一年大概也是 10w 左右
+~~貌似要购买的话，找我也许有优惠…… 但一年大概也是 10w 左右~~
 
 ### [grapecity](https://www.grapecity.com)
 
@@ -350,3 +350,6 @@ XCeed Software 的 DocX 库：
 
 以上的群非新手群
 
+## 特别感觉
+
+特别感谢潘淳校长的大力支持和海量文档

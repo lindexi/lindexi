@@ -1,7 +1,7 @@
 ---
 title: "通过 COM 读取 Office PPT 文件提示 COMException 错误码 0x80004005 可能原因"
 author: lindexi
-date: 2021-5-11 8:40:39 +0800
+date: 2024-2-6 11:46:10 +0800
 CreateTime: 2021/5/10 19:41:43
 categories: 
 ---
@@ -16,6 +16,8 @@ categories:
 <!-- 发布 -->
 
 调用 COM 组件，提示 `System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.` 表示发现通用的错误，或者未知的错误。我记录一些主要注意的事情，方便大家按照顺序去找是否此原因
+
+这里的 0x80004005 是一个标准的 COM 错误码，根据[官方文档](https://learn.microsoft.com/en-us/windows/win32/seccrypto/common-hresult-values)可以了解到，这是一个名为 E_FAIL 的通用异常，没有更多信息
 
 ## STA 线程问题
 
