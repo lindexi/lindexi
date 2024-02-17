@@ -1,8 +1,8 @@
 ---
 title: "dotnet 分享使用 D2D 绘制界面加 AOT 发布的应用开发经验"
 author: lindexi
-date: 2024-2-8 16:34:41 +0800
-CreateTime: 2024-2-8 15:52:55 +0800
+date: 2024-2-9 7:1:25 +0800
+CreateTime: 2024/2/8 15:52:55
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -10,6 +10,8 @@ categories: C# D2D DirectX Vortice Direct2D
 
 <!--more-->
 
+
+<!-- CreateTime:2024/2/8 15:52:55 -->
 
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D, -->
 <!-- 博客 -->

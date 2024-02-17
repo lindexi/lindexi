@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用增量源代码生成技术的 Telescope 库导出程序集类型"
 author: lindexi
-date: 2024-2-2 10:52:25 +0800
+date: 2024-2-17 15:16:17 +0800
 CreateTime: 2023/9/11 8:50:10
 categories: dotnet
 ---
@@ -174,7 +174,7 @@ internal partial class Program
 
 导出的方式除了以上介绍的 IEnumerable 配合带三个参数的 ValueTuple 之外，还可以使用以下的导出方法
 
-如导出时去掉标记的特性，如此即是表示只要满足继承基类就会被导出，不需要在类型上存在特殊标记。代码例子如下，以下代码将导出当前程序集项目里面所有继承 Base 类型的非抽象类型
+如导出时去掉标记的特性，如此即是表示只有满足继承基类就会被导出，不需要在类型上存在特殊标记。代码例子如下，以下代码将导出当前程序集项目里面所有继承 Base 类型的非抽象类型
 
 ```csharp
     [dotnetCampus.Telescope.TelescopeExportAttribute()]
