@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 dnlib 检测插件程序集的 API 兼容性"
 author: lindexi
-date: 2024-2-19 10:1:3 +0800
-CreateTime: 2024-2-19 9:31:9 +0800
+date: 2024-2-20 7:5:38 +0800
+CreateTime: 2024/2/19 9:31:09
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/2/19 9:31:09 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
