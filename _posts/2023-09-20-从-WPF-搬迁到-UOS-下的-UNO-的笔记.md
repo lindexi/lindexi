@@ -1,7 +1,7 @@
 ---
 title: "从 WPF 搬迁到 UOS 下的 UNO 的笔记"
 author: lindexi
-date: 2024-2-23 11:35:10 +0800
+date: 2024-2-26 16:5:54 +0800
 CreateTime: 2023/9/20 15:42:36
 categories: WPF
 ---
@@ -732,6 +732,25 @@ public partial record MainModel
 ### Geometry.Empty 属性不支持
 
 绕路
+
+### ScaleTransform 不包含采用 2 个参数的构造函数
+
+以下代码将会构建不通过，原因是不再提供构造函数赋值
+
+```csharp
+new ScaleTransform(scaleX, scaleY);
+```
+
+解决方法：给属性赋值代替即可
+
+```csharp
+            new ScaleTransform()
+            {
+                ScaleX = scaleX,
+                ScaleY = scaleY
+            };
+```
+
 
 ## 文件系统
 
