@@ -1,8 +1,8 @@
 ---
 title: "修复 Debian 安装 dotnet 失败 depends on ca-certificates"
 author: lindexi
-date: 2024-2-28 14:30:37 +0800
-CreateTime: 2024-2-28 14:30:37 +0800
+date: 2024-2-29 7:12:4 +0800
+CreateTime: 2024/2/28 14:30:37
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/2/28 14:30:37 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
