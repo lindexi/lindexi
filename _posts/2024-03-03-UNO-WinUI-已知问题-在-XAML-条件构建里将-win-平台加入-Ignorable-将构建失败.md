@@ -1,15 +1,17 @@
 ---
 title: "UNO WinUI 已知问题 在 XAML 条件构建里将 win 平台加入 Ignorable 将构建失败"
 author: lindexi
-date: 2024-3-3 14:42:49 +0800
-CreateTime: 2024-3-3 11:58:3 +0800
+date: 2024-3-4 8:52:43 +0800
+CreateTime: 2024/3/3 11:58:03
 categories: 
 ---
 
-如果在 UNO 项目里面，为了进行 XAML 条件构建，将 win 平台加入到 mc:Ignorable 里面，将会在构建时提示 Xaml Internal Error error WMC9999: Unexpected 'NONE' in parse rule 'Element ::= . EmptyElement | ( StartElement ElementBody ).'. 错误
+如果在 UNO 项目里面，为了进行 XAML 条件构建，将 win 平台加入到 mc:Ignorable 里面，将会在构建时提示 Xaml Internal Error error WMC9999: Unexpected 'NONE' in parse rule 'Element ::= . EmptyElement ( StartElement ElementBody ).'. 错误
 
 <!--more-->
 
+
+<!-- CreateTime:2024/3/3 11:58:03 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
