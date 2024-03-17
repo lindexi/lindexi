@@ -1,7 +1,7 @@
 ---
 title: "从 WPF 搬迁到 UOS 下的 UNO 的笔记"
 author: lindexi
-date: 2024-3-9 14:46:54 +0800
+date: 2024-3-16 11:10:38 +0800
 CreateTime: 2023/9/20 15:42:36
 categories: WPF
 ---
@@ -306,7 +306,7 @@ Path path = XamlReader.Load("<Path Data='" + data + "'/>") as Path;
 
 详细请参阅 [c# - Convert path to geometric shape - Stack Overflow](https://stackoverflow.com/q/22989172/6116637 )
 
-
+可能存在 FillRule 为 EvenOdd 和 Nonzero 的不同行为差异，此差异性问题已经被我在 [fix(Skia): Fix ineffective FillRule setting for StreamGeometry by lindexi · Pull Request #15888 · unoplatform/uno](https://github.com/unoplatform/uno/pull/15888 ) 修复，预期后续版本不会遇到此问题
 
 ## XAML 系列
 
