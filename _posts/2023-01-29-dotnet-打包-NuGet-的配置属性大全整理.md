@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2023-12-27 15:12:18 +0800
+date: 2024-3-22 11:42:13 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -146,6 +146,14 @@ categories: dotnet
 ```
 
 详细请参阅 [Package authoring best practices Microsoft Learn](https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices )
+
+如果想要保持每次打包都是最新年份，不用每一年都手动更新，那可以使用 `$([System.DateTime]::Now.ToString(`yyyy`))` 来表示当前年份，如以下代码
+
+```xml
+<Copyright>Copyright (c) dotnet-campus 2020-$([System.DateTime]::Now.ToString(`yyyy`))</Copyright>
+```
+
+加入以上代码之后，即可每次打包都设置版权信息为当前的年份
 
 ### PackageLicenseExpression
 
