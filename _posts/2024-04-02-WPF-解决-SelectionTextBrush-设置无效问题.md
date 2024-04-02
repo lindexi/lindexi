@@ -2,7 +2,7 @@
 title: "WPF 解决 SelectionTextBrush 设置无效问题"
 author: lindexi
 date: 2024-4-2 7:7:45 +0800
-CreateTime: 2024-4-2 7:7:45 +0800
+CreateTime: 2024/04/02 07:07:45
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2024/04/02 07:07:45 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
