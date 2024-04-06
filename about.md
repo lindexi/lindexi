@@ -49,7 +49,7 @@ StackOverflow UWP 全球排名 Top 5%, C# 全球排名 Top 10% 回答者
 
 ### 联系方式
 
-mail：[lindexi_gd@163.com](mailto:lindexi_gd@163.com)  
+mail：[lindexi_gd@outlook.com](mailto:lindexi_gd@outlook.com)  
 blog： [http://blog.lindexi.com](http://blog.lindexi.com)  
 cnblogs： [https://www.cnblogs.com/lindexi/](https://www.cnblogs.com/lindexi/) 
 csdn： [https://lindexi.blog.csdn.net](https://lindexi.blog.csdn.net)   
