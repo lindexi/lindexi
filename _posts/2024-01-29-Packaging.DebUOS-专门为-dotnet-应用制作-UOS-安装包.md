@@ -1,7 +1,7 @@
 ---
 title: "Packaging.DebUOS 专门为 dotnet 应用制作 UOS 安装包"
 author: lindexi
-date: 2024-1-30 8:51:39 +0800
+date: 2024-4-16 12:24:6 +0800
 CreateTime: 2024/1/29 8:58:31
 categories: dotnet
 ---
@@ -84,6 +84,8 @@ dotnet publish -c release -r linux-x64 --self-contained true -t:CreateDebUOS
     <DebControlMaintainer>dotnet-campus</DebControlMaintainer>
   </PropertyGroup>
 ```
+
+完成以上配置即可构建出一个比较完备的 deb 安装包了
 
 以上的示例对应的真实项目代码变更请参阅： [加上更多打包属性 - dotnet-campus/dotnetCampus.FileDownloader@a834677 - GitHub](https://github.com/dotnet-campus/dotnetCampus.FileDownloader/commit/a83467712337b3fad303a30eb91126a4096f8dfd)
 
