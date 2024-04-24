@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2024-3-23 9:28:12 +0800
+date: 2024-4-24 11:29:4 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -233,6 +233,25 @@ categories: dotnet
 
 这里包括两个方面的内容，第一个是在 PropertyGroup 里面使用 PackageReadmeFile 属性标明 README.md 文件，然后在 ItemGroup 里面设置打包到 NuGet 包里面的是哪个文件当成 README.md 文件
 
+常见写法也写在 [Directory.Build.props](https://blog.lindexi.com/post/Roslyn-%E4%BD%BF%E7%94%A8-Directory.Build.props-%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE.html ) 里面，这样可以复用仓库的 README.md 文件，大概的代码如下
+
+```xml
+  <PropertyGroup>
+    <SlnDir>$(MSBuildThisFileDirectory)</SlnDir>
+  </PropertyGroup>
+
+  <!-- 以下是打 NuGet 包相关辅助方法 -->
+  <PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- 嵌入 README 文件 -->
+    <None Include="$(SlnDir)README.md" Pack="true" PackagePath="\" Visible="false"/>
+  </ItemGroup>
+```
+
+以上代码添加的 `Visible="false"` 用于让 `README.md` 文件不要在项目里面显示
+
 <!-- 
 
 licenseUrl
@@ -295,6 +314,15 @@ Description 描述信息
 ```
 
 注：对于 ASP.NET Core 应用项目，在 SDK 里面默认设置了 IsPackable 为 false 的值。也就是说在 ASP.NET Core 应用项目上默认 IsPackable 就是 false 的值
+
+对于单元测试项目，还会额外配置 IsTestProject 属性
+
+```xml
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+```
 
 ### GenerateDocumentationFile
 
