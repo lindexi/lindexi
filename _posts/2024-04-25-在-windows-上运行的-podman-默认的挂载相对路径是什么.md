@@ -2,7 +2,7 @@
 title: "在 windows 上运行的 podman 默认的挂载相对路径是什么"
 author: lindexi
 date: 2024-4-25 7:13:43 +0800
-CreateTime: 2024-4-25 7:13:43 +0800
+CreateTime: 2024/04/25 07:13:43
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/04/25 07:13:43 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
