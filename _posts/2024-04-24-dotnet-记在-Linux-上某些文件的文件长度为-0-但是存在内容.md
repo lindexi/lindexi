@@ -1,7 +1,7 @@
 ---
 title: "dotnet 记在 Linux 上某些文件的文件长度为 0 但是存在内容"
 author: lindexi
-date: 2024-4-24 7:7:50 +0800
+date: 2024-4-26 14:24:1 +0800
 CreateTime: 2024/04/24 07:07:50
 categories: dotnet
 ---
@@ -131,3 +131,5 @@ git pull origin 0f8939a9c1ac51266ba472730bf6e4ccd22c34b5
 ```
 
 获取代码之后，进入 BehairracercairJifelalihay 文件夹，即可获取到源代码
+
+更多 Linux 和国产系统的开发相关博客，请参阅 [博客导航](https://blog.lindexi.com/post/%E5%8D%9A%E5%AE%A2%E5%AF%BC%E8%88%AA.html )
