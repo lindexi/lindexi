@@ -1,15 +1,17 @@
 ---
-title: "dotnet 8 版本与银河麒麟V10和UOS系统的 glib 兼容性"
+title: "dotnet 8 版本与银河麒麟V10和UOS系统的 glibc 兼容性"
 author: lindexi
-date: 2024-4-26 18:38:48 +0800
-CreateTime: 2024-4-26 18:38:48 +0800
+date: 2024-4-26 20:1:54 +0800
+CreateTime: 2024/04/26 18:38:48
 categories: dotnet
 ---
 
-刚刚好 dotnet 8 的 glib 版本足够旧，可以运行
+刚刚好 dotnet 8 的 glibc 版本足够旧，可以运行
 
 <!--more-->
 
+
+<!-- CreateTime:2024/04/26 18:38:48 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

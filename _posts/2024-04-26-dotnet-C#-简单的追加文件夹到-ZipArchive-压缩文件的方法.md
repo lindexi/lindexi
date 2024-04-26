@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 简单的追加文件夹到 ZipArchive 压缩文件的方法"
 author: lindexi
-date: 2024-4-26 18:38:48 +0800
-CreateTime: 2024-4-26 18:38:48 +0800
+date: 2024-4-26 18:41:53 +0800
+CreateTime: 2024/04/26 17:39:20
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2024/04/26 17:39:20 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
