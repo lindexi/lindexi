@@ -1,8 +1,8 @@
 ---
-title: "制作一个能构建 dotnet AOT 的 gitlab ruuner 的 Debian docker 镜像"
+title: "制作一个能构建 dotnet AOT 的 gitlab runner 的 Debian docker 镜像"
 author: lindexi
-date: 2024-4-29 7:20:2 +0800
-CreateTime: 2024-4-29 7:20:2 +0800
+date: 2024-4-29 9:8:1 +0800
+CreateTime: 2024/04/29 07:10:02
 categories: git dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: git dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/04/29 07:10:02 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
