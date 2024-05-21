@@ -1,7 +1,7 @@
 ---
 title: "天河2 程序 version GLIBCXX_3.4.21 not found 解决方法"
 author: lindexi
-date: 2020-3-5 12:33:15 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2019/6/23 11:51:16
 categories: 
 ---

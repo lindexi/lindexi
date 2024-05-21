@@ -1,7 +1,7 @@
 ---
 title: "WPF 的 WriteableBitmap 在 Intel 11 代 Iris Xe Graphics 核显设备上停止渲染"
 author: lindexi
-date: 2024-1-15 8:59:30 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2024/1/13 9:36:19
 categories: WPF
 ---

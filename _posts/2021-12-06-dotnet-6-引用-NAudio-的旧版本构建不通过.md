@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 引用 NAudio 的旧版本构建不通过"
 author: lindexi
-date: 2021-12-7 8:28:47 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/12/6 19:43:07
 categories: dotnet
 ---

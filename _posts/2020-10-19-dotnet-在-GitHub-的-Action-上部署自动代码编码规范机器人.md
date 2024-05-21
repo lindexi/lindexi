@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 GitHub 的 Action 上部署自动代码编码规范机器人"
 author: lindexi
-date: 2020-12-3 20:27:50 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/10/19 8:22:54
 categories: git dotnet
 ---

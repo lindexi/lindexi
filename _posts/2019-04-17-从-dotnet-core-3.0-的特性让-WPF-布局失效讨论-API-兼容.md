@@ -1,7 +1,7 @@
 ---
 title: "从 dotnet core 3.0 的特性让 WPF 布局失效讨论 API 兼容"
 author: lindexi
-date: 2020-3-5 12:33:15 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2019/4/17 10:05:35
 categories: WPF dotnet
 ---

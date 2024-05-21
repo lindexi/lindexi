@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 ManipulationProcessor2D 纯数学计算方式提供多点漫游元素功能"
 author: lindexi
-date: 2021-3-29 17:26:32 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/3/19 20:42:56
 categories: WPF
 ---

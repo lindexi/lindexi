@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Microsoft.Toolkit.Wpf.UI.Controls 的 InkCanvas 做高性能笔迹应用"
 author: lindexi
-date: 2021-11-8 14:41:8 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/7/28 16:16:03
 categories: WPF
 ---

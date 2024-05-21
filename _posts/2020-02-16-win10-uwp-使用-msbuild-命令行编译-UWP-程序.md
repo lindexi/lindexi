@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 msbuild 命令行编译 UWP 程序"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2020/2/16 15:48:38
 categories: UWP VisualStudio msbuild
 ---

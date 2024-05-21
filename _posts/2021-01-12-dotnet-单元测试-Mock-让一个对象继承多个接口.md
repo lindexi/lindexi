@@ -1,7 +1,7 @@
 ---
 title: "dotnet 单元测试 Mock 让一个对象继承多个接口"
 author: lindexi
-date: 2021-1-13 8:30:39 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/1/12 16:34:23
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 将任意时区的 DateTimeOffset 转换为中国时区时间文本"
 author: lindexi
-date: 2022-10-25 8:3:50 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2022/10/24 17:34:45
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "在 windows 安装 Jekyll"
 author: lindexi
-date: 2020-3-5 12:33:15 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2018/2/22 17:47:39
 categories: jekyll
 ---

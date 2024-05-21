@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 聊聊 HwndWrapper.GetGCMemMessage 调试消息"
 author: lindexi
-date: 2023-2-27 8:33:9 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/2/27 8:26:29
 categories: WPF dotnet
 ---

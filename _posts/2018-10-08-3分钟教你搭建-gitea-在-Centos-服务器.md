@@ -1,7 +1,7 @@
 ---
 title: "3分钟教你搭建 gitea 在 Centos 服务器"
 author: lindexi
-date: 2020-3-5 12:33:10 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2018/10/8 9:54:39
 categories: git
 ---

@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 使用 FileStream 随机文件读写"
 author: lindexi
-date: 2020-12-3 20:27:50 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 7/6/2020 10:38:13 AM
 categories: dotnet C#
 ---

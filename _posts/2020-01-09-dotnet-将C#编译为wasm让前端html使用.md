@@ -1,7 +1,7 @@
 ---
 title: "dotnet 将C#编译为wasm让前端html使用"
 author: lindexi
-date: 2020-12-3 16:22:28 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/1/9 20:25:34
 categories: dotnet C#
 ---

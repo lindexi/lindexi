@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 发布只带必要的依赖文件"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/8/31 16:55:58
 categories: dotnet
 ---

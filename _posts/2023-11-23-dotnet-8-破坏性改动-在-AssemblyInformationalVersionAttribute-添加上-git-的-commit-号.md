@@ -1,7 +1,7 @@
 ---
 title: "dotnet 8 破坏性改动 在 AssemblyInformationalVersionAttribute 添加上 git 的 commit 号"
 author: lindexi
-date: 2023-11-24 8:49:27 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/11/23 20:20:46
 categories: git dotnet
 ---

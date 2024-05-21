@@ -1,7 +1,7 @@
 ---
 title: "GitHub 的 Action 判断仅在主仓库才执行脚本"
 author: lindexi
-date: 2020-12-3 20:27:51 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 5/25/2020 2:29:40 PM
 categories: git
 ---

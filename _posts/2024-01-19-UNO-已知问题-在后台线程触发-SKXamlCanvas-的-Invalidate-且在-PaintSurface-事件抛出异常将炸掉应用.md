@@ -1,7 +1,7 @@
 ---
 title: "UNO 已知问题 在后台线程触发 SKXamlCanvas 的 Invalidate 且在 PaintSurface 事件抛出异常将炸掉应用"
 author: lindexi
-date: 2024-1-19 19:21:3 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2024/1/19 15:20:33
 categories: 
 ---

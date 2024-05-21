@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 使用 HttpWebRequest 进行 POST 文件将占用大量内存"
 author: lindexi
-date: 2022-6-21 8:44:49 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/6/13 8:04:47
 categories: dotnet
 ---

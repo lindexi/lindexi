@@ -1,7 +1,7 @@
 ---
 title: "探索 WPF 的 ITabletManager.GetTabletCount 在 Win11 系统的底层实现"
 author: lindexi
-date: 2023-9-20 8:57:7 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2023/9/19 20:06:32
 categories: WPF
 ---

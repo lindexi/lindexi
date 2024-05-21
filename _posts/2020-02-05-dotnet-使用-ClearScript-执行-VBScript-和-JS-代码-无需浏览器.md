@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 ClearScript 执行 VBScript 和 JS 代码 无需浏览器"
 author: lindexi
-date: 2020-12-3 16:22:27 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/2/5 11:28:28
 categories: dotnet
 ---

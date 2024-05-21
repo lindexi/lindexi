@@ -1,7 +1,7 @@
 ---
 title: "dotnet 9 WPF 支持 Style 的 Setter 填充内容时可忽略 Value 标签"
 author: lindexi
-date: 2024-5-9 7:29:7 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2024/05/09 07:29:07
 categories: WPF dotnet
 ---

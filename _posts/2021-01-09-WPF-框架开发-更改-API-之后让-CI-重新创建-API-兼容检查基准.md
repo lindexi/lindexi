@@ -1,7 +1,7 @@
 ---
 title: "WPF 框架开发 更改 API 之后让 CI 重新创建 API 兼容检查基准"
 author: lindexi
-date: 2021-1-12 9:45:8 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/1/9 8:50:33
 categories: WPF框架开发
 ---

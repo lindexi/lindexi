@@ -1,7 +1,7 @@
 ---
 title: "WPF 如何确定应用程序开启了 Pointer 触摸消息的支持"
 author: lindexi
-date: 2023-11-22 16:53:10 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/8/21 8:43:29
 categories: WPF
 ---

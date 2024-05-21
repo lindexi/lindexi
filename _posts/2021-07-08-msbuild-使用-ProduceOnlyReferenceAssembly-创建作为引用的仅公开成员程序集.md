@@ -1,7 +1,7 @@
 ---
 title: "msbuild 使用 ProduceOnlyReferenceAssembly 创建作为引用的仅公开成员程序集"
 author: lindexi
-date: 2021-7-10 8:55:29 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2021/7/8 19:41:55
 categories: 
 ---

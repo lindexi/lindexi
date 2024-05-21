@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 RawInput 获取触摸消息"
 author: lindexi
-date: 2022-11-28 8:3:48 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/11/25 20:00:16
 categories: WPF
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何给每个平台设置 PlatformTarget 属性"
 author: lindexi
-date: 2020-12-3 20:27:51 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/3/17 18:57:25
 categories: 
 ---

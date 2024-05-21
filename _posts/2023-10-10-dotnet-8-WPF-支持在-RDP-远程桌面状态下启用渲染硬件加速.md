@@ -1,7 +1,7 @@
 ---
 title: "dotnet 8 WPF 支持在 RDP 远程桌面状态下启用渲染硬件加速"
 author: lindexi
-date: 2023-10-11 8:51:41 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/10/10 8:55:08
 categories: WPF dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "windows-10「设置」应用完整ms-settings快捷方式汇总.md"
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2019/12/24 9:27:54
 categories: 
 ---

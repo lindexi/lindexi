@@ -1,7 +1,7 @@
 ---
 title: "wpf 使用 Dispatcher.Invoke 冻结窗口"
 author: lindexi
-date: 2020-9-29 11:30:26 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2018/2/13 17:23:03
 categories: WPF 性能优化
 ---

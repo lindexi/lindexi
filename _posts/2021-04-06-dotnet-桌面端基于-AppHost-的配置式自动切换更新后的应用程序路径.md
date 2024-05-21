@@ -1,7 +1,7 @@
 ---
 title: "dotnet 桌面端基于 AppHost 的配置式自动切换更新后的应用程序路径"
 author: lindexi
-date: 2021-4-6 11:37:10 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/4/6 8:34:27
 categories: dotnet
 ---

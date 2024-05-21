@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 基于 INotifyPropertyChanged 实现一个 CLR 属性绑定辅助类"
 author: lindexi
-date: 2023-1-6 8:20:18 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/1/6 8:19:55
 categories: dotnet C#
 ---

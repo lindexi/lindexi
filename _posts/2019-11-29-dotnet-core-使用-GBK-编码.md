@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 使用 GBK 编码"
 author: lindexi
-date: 2020-7-2 16:44:53 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/11/29 8:32:11
 categories: dotnet
 ---

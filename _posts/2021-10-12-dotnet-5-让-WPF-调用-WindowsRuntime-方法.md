@@ -1,7 +1,7 @@
 ---
 title: "dotnet 5 让 WPF 调用 WindowsRuntime 方法"
 author: lindexi
-date: 2021-10-15 8:41:56 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/10/12 8:47:29
 categories: WPF dotnet
 ---

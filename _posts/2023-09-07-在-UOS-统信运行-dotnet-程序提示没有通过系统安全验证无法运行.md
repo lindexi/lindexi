@@ -1,7 +1,7 @@
 ---
 title: "在 UOS 统信运行 dotnet 程序提示没有通过系统安全验证无法运行"
 author: lindexi
-date: 2024-4-29 9:6:56 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2023/9/7 9:29:42
 categories: dotnet
 ---

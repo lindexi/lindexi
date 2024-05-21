@@ -1,7 +1,7 @@
 ---
 title: "dotnet 推荐一个使用 Json 直接路由通讯的 IPC 库"
 author: lindexi
-date: 2023-9-18 8:46:28 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/9/18 8:46:04
 categories: dotnet
 ---

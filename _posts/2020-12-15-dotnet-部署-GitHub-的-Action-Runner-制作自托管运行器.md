@@ -1,7 +1,7 @@
 ---
 title: "dotnet 部署 GitHub 的 Action Runner 制作自托管运行器"
 author: lindexi
-date: 2021-3-5 16:31:23 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/12/15 10:22:10
 categories: git dotnet
 ---

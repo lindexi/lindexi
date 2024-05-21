@@ -1,7 +1,7 @@
 ---
 title: "How to generate NuGet package with Git Tag version using GitHub Action"
 author: lindexi
-date: 2020-12-3 20:27:51 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 5/26/2020 2:18:01 PM
 categories: git
 ---

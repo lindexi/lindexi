@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 HttpClientHandler 和 SocketsHttpHandler 有什么差别"
 author: lindexi
-date: 2022-7-19 8:33:57 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/6/16 10:01:22
 categories: dotnet
 ---

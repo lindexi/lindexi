@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 为什么自定义的 UserControl 用户控件不能跨程序集继承"
 author: lindexi
-date: 2022-9-21 8:41:35 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2022/6/27 8:20:53
 categories: WPF WPF源代码
 ---

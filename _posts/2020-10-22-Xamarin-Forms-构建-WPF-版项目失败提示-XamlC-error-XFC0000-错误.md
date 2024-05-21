@@ -1,7 +1,7 @@
 ---
 title: "Xamarin Forms 构建 WPF 版项目失败提示 XamlC error XFC0000 错误"
 author: lindexi
-date: 2020-12-3 20:35:48 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/10/22 9:10:35
 categories: Xamarin
 ---

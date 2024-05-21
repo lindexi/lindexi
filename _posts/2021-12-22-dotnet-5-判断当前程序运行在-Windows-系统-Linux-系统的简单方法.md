@@ -1,7 +1,7 @@
 ---
 title: "dotnet 5 判断当前程序运行在 Windows 系统 Linux 系统的简单方法"
 author: lindexi
-date: 2021-12-23 8:40:30 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/12/22 9:38:21
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 警惕使用 StackTrace 加获取方法标记 Attribute 特性在 Release 下被内联"
 author: lindexi
-date: 2023-1-9 19:8:37 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2022/10/26 17:12:31
 categories: dotnet
 ---

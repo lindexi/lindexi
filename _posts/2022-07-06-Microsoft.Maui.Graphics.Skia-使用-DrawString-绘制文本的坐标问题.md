@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题"
 author: lindexi
-date: 2022-9-15 19:35:49 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/7/6 17:19:27
 categories: MAUI MauiGraphics Skia SkiaSharp 渲染
 ---

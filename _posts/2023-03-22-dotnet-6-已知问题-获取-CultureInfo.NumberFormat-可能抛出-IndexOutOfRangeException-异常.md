@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 已知问题 获取 CultureInfo.NumberFormat 可能抛出 IndexOutOfRangeException 异常"
 author: lindexi
-date: 2023-3-24 9:33:29 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/3/22 16:18:29
 categories: dotnet
 ---

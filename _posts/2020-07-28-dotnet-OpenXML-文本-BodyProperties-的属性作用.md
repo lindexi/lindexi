@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 文本 BodyProperties 的属性作用"
 author: lindexi
-date: 2021-12-30 8:42:5 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/7/28 15:34:21
 categories: dotnet
 ---

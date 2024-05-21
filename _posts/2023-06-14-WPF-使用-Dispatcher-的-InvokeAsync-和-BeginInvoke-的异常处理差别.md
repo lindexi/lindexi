@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Dispatcher 的 InvokeAsync 和 BeginInvoke 的异常处理差别"
 author: lindexi
-date: 2023-6-15 8:39:6 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/6/14 16:49:04
 categories: WPF
 ---

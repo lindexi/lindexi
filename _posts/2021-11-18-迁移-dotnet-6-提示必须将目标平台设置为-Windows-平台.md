@@ -1,7 +1,7 @@
 ---
 title: "迁移 dotnet 6 提示必须将目标平台设置为 Windows 平台"
 author: lindexi
-date: 2022-1-26 8:59:3 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2021/11/18 20:23:35
 categories: dotnet
 ---

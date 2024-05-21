@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Microsoft.Toolkit.Wpf.UI.Controls 的 InkCanvas 时加上背景色和按钮方法"
 author: lindexi
-date: 2021-8-18 8:54:58 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/8/17 21:19:53
 categories: WPF
 ---

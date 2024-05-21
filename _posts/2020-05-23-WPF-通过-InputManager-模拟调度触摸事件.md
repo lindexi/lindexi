@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 InputManager 模拟调度触摸事件"
 author: lindexi
-date: 2021-2-1 16:5:51 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 5/23/2020 10:27:24 AM
 categories: WPF
 ---

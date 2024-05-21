@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 插入触摸设备的初始化获取设备信息"
 author: lindexi
-date: 2023-9-19 16:58:17 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/5/24 18:58:18
 categories: WPF WPF源代码
 ---

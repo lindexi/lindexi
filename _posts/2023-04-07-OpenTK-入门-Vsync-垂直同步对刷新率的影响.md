@@ -1,7 +1,7 @@
 ---
 title: "OpenTK 入门 Vsync 垂直同步对刷新率的影响"
 author: lindexi
-date: 2023-9-5 8:45:43 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/4/7 8:46:37
 categories:  渲染
 ---

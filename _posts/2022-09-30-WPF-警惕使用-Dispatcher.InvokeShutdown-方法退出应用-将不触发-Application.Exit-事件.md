@@ -1,7 +1,7 @@
 ---
 title: "WPF 警惕使用 Dispatcher.InvokeShutdown 方法退出应用 将不触发 Application.Exit 事件"
 author: lindexi
-date: 2022-10-8 8:8:46 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/9/30 15:34:44
 categories: WPF
 ---

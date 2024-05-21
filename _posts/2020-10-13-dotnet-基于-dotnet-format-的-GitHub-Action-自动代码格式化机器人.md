@@ -1,7 +1,7 @@
 ---
 title: "dotnet 基于 dotnet format 的 GitHub Action 自动代码格式化机器人"
 author: lindexi
-date: 2020-12-3 20:27:50 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/10/13 19:53:07
 categories: git dotnet
 ---

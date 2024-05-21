@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 使用 Directory.Build.props 管理多个项目配置"
 author: lindexi
-date: 2020-7-3 19:0:29 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/5/21 11:35:52
 categories: Roslyn MSBuild 编译器
 ---

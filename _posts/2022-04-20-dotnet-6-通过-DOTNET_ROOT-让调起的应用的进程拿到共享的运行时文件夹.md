@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 通过 DOTNET_ROOT 让调起的应用的进程拿到共享的运行时文件夹"
 author: lindexi
-date: 2022-9-20 19:54:16 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/4/20 20:05:02
 categories: dotnet
 ---

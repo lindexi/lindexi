@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上安装 dotnet sdk 的方法"
 author: lindexi
-date: 2021-3-5 16:31:23 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/9/4 8:50:35
 categories: dotnet
 ---

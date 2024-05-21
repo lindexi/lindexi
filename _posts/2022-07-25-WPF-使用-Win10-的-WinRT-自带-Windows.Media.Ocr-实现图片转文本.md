@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Win10 的 WinRT 自带 Windows.Media.Ocr 实现图片转文本"
 author: lindexi
-date: 2022-9-21 8:47:2 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/7/25 8:28:00
 categories: WPF Win10
 ---

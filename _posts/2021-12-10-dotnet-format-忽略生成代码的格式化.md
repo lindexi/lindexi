@@ -1,7 +1,7 @@
 ---
 title: "dotnet format 忽略生成代码的格式化"
 author: lindexi
-date: 2021-12-11 8:43:47 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/12/10 8:55:10
 categories: dotnet
 ---

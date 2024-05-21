@@ -1,7 +1,7 @@
 ---
 title: "dotnet 构建 SourceRoot items must include at least one top-level item when DeterministicSourcePaths is true 失败"
 author: lindexi
-date: 2020-12-3 16:22:23 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/10/9 9:41:31
 categories: dotnet
 ---

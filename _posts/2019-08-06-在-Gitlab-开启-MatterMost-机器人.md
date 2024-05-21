@@ -1,7 +1,7 @@
 ---
 title: "在 Gitlab 开启 MatterMost 机器人"
 author: lindexi
-date: 2020-7-4 8:23:1 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2019/8/6 19:42:01
 categories: git
 ---

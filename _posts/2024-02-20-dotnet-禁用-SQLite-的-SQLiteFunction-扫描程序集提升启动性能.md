@@ -1,7 +1,7 @@
 ---
 title: "dotnet 禁用 SQLite 的 SQLiteFunction 扫描程序集提升启动性能"
 author: lindexi
-date: 2024-2-21 7:19:45 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2024/2/20 10:26:01
 categories: dotnet
 ---

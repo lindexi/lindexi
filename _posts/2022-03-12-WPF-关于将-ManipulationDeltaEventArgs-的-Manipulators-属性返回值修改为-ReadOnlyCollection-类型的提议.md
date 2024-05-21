@@ -1,7 +1,7 @@
 ---
 title: "WPF 关于将 ManipulationDeltaEventArgs 的 Manipulators 属性返回值修改为 ReadOnlyCollection 类型的提议"
 author: lindexi
-date: 2022-9-15 19:52:55 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/3/12 10:08:49
 categories: WPF
 ---

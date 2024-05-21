@@ -1,7 +1,7 @@
 ---
 title: "修复 dotnet Core 缺SDK编译失败"
 author: lindexi
-date: 2020-3-5 12:33:15 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2019/6/23 10:55:09
 categories: dotnet
 ---

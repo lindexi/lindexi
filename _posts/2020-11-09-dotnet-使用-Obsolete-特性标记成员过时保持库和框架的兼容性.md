@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Obsolete 特性标记成员过时保持库和框架的兼容性"
 author: lindexi
-date: 2020-12-3 16:22:21 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/11/9 8:59:44
 categories: dotnet
 ---

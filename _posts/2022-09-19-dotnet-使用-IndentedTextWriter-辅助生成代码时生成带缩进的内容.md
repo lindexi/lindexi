@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 IndentedTextWriter 辅助生成代码时生成带缩进的内容"
 author: lindexi
-date: 2022-9-20 19:57:34 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2022/9/19 8:23:29
 categories: Roslyn MSBuild 代码生成
 ---

@@ -1,7 +1,7 @@
 ---
 title: "为何使用 DirectComposition"
 author: lindexi
-date: 2020-3-5 12:33:15 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2019/3/8 8:56:09
 categories: windows DirectComposition
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 探究 SemanticKernel 的 planner 的原理"
 author: lindexi
-date: 2023-11-8 21:40:17 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/11/5 15:16:14
 categories: dotnet
 ---

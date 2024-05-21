@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 和 dotnet Framework 启动可执行文件的差别"
 author: lindexi
-date: 2021-3-5 16:31:22 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/1/13 8:54:02
 categories: dotnet
 ---

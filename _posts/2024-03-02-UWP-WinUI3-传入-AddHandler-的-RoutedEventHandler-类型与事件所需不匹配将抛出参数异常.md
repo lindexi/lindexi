@@ -1,7 +1,7 @@
 ---
 title: "UWP WinUI3 传入 AddHandler 的 RoutedEventHandler 类型与事件所需不匹配将抛出参数异常"
 author: lindexi
-date: 2024-3-3 7:19:30 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2024/3/2 17:34:41
 categories: UWP
 ---

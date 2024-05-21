@@ -1,7 +1,7 @@
 ---
 title: "WPF How to get plain text from RichTextBox"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/11/7 10:26:17
 categories: WPF
 ---

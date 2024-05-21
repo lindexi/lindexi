@@ -1,7 +1,7 @@
 ---
 title: "Xamarin iOS 部署项目提示 Failed to register bundle identifier 失败"
 author: lindexi
-date: 2020-12-3 20:37:31 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/10/26 10:43:52
 categories: Xamarin
 ---

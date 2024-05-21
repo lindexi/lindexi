@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 不显示 SplashScreen 欢迎界面的方法"
 author: lindexi
-date: 2020-12-3 20:27:49 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2020/8/14 16:30:24
 categories: Win10 UWP
 ---

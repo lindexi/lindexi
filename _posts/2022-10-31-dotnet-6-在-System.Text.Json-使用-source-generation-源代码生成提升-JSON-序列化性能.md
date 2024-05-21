@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 在 System.Text.Json 使用 source generation 源代码生成提升 JSON 序列化性能"
 author: lindexi
-date: 2022-10-31 8:9:19 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/10/31 8:09:00
 categories: dotnet
 ---

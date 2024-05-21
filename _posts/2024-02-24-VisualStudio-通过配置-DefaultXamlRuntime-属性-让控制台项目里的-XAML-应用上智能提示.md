@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 通过配置 DefaultXamlRuntime 属性 让控制台项目里的 XAML 应用上智能提示"
 author: lindexi
-date: 2024-2-25 10:21:10 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2024/2/24 15:33:28
 categories: VisualStudio
 ---

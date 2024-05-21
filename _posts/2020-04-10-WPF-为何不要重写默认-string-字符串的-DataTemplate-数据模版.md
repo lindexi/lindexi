@@ -1,7 +1,7 @@
 ---
 title: "WPF 为何不要重写默认 string 字符串的 DataTemplate 数据模版"
 author: lindexi
-date: 2020-12-3 20:27:49 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 4/10/2020 8:27:42 AM
 categories: WPF
 ---

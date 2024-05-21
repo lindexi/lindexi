@@ -1,7 +1,7 @@
 ---
 title: "dotnet 修复在 Linux 上使用 SkiaSharp 提示找不到 libSkiaSharp 库"
 author: lindexi
-date: 2022-7-19 8:36:36 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2022/6/27 15:30:46
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 获得 sln 文件所在的文件夹"
 author: lindexi
-date: 2020-7-2 15:46:14 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/7/22 8:57:14
 categories: Roslyn MSBuild 编译器
 ---

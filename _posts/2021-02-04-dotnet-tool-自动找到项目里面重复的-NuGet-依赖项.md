@@ -1,7 +1,7 @@
 ---
 title: "dotnet tool 自动找到项目里面重复的 NuGet 依赖项"
 author: lindexi
-date: 2021-2-4 8:58:16 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/2/4 8:44:58
 categories: dotnet
 ---

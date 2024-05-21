@@ -1,7 +1,7 @@
 ---
 title: "dotnet 手工打一个 dotnet tool 包"
 author: lindexi
-date: 2020-12-3 16:22:23 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/2/18 17:56:53
 categories: NuGet dotnet dotnettool
 ---

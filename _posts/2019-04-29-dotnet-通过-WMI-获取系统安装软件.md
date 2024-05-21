@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过 WMI 获取系统安装软件"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2019/4/29 12:18:59
 categories: dotnet C# WMI
 ---

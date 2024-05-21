@@ -1,7 +1,7 @@
 ---
 title: "dotnet 定制 ILogger 实现"
 author: lindexi
-date: 2020-12-3 16:22:23 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 6/28/2020 7:49:17 PM
 categories: dotnet
 ---

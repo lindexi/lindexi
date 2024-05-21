@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 MyScript 的 IInk 做手写识别"
 author: lindexi
-date: 2021-11-8 18:4:41 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/11/20 8:18:26
 categories: WPF
 ---

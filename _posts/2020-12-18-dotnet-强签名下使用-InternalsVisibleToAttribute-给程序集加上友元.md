@@ -1,7 +1,7 @@
 ---
 title: "dotnet 强签名下使用 InternalsVisibleToAttribute 给程序集加上友元"
 author: lindexi
-date: 2020-12-19 8:31:26 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/12/18 20:49:41
 categories: dotnet
 ---

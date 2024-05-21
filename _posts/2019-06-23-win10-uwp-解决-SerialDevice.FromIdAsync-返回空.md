@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 解决 SerialDevice.FromIdAsync 返回空"
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2019/6/23 11:54:04
 categories: Win10 UWP
 ---

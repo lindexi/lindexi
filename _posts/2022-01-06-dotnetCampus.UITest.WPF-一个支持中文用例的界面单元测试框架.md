@@ -1,7 +1,7 @@
 ---
 title: "dotnetCampus.UITest.WPF 一个支持中文用例的界面单元测试框架"
 author: lindexi
-date: 2022-1-9 10:41:22 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2022/1/6 20:12:56
 categories: WPF dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Composition API 做高性能渲染"
 author: lindexi
-date: 2020-10-31 9:42:48 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/7/3 10:30:57
 categories: WPF 渲染 DirectComposition
 ---

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp x:Bind 无法获得资源"
 author: lindexi
-date: 2020-7-3 19:34:3 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2018/8/10 19:17:19
 categories: Win10 UWP
 ---

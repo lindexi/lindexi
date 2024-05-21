@@ -1,7 +1,7 @@
 ---
 title: "dotnet 简单方法在一个进程内同时跑起 WPF 和 ASP.NET Core 框架"
 author: lindexi
-date: 2023-11-26 10:27:18 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/11/25 18:09:51
 categories: WPF dotnet
 ---

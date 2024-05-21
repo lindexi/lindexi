@@ -1,7 +1,7 @@
 ---
 title: "XAML 给资源起个好名字 用 StaticResource 起一个别名"
 author: lindexi
-date: 2022-3-22 8:54:0 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/3/21 8:29:08
 categories: WPF xaml
 ---

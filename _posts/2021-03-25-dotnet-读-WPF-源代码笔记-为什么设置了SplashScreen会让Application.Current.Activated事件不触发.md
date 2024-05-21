@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 为什么设置了SplashScreen会让Application.Current.Activated事件不触发"
 author: lindexi
-date: 2021-3-29 19:43:0 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/3/25 8:55:32
 categories: WPF WPF源代码
 ---

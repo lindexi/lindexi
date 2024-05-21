@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 不自动从 https 到 http 的 302 重定向"
 author: lindexi
-date: 2022-12-7 20:1:43 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/12/7 19:36:33
 categories: dotnet
 ---

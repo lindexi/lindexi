@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用"
 author: lindexi
-date: 2021-3-5 16:31:22 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/9/1 21:18:30
 categories: dotnet
 ---

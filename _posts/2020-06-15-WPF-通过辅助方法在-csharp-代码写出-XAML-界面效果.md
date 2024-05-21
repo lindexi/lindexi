@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过辅助方法在 csharp 代码写出 XAML 界面效果"
 author: lindexi
-date: 2020-12-3 16:22:26 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 6/15/2020 6:01:13 PM
 categories: WPF
 ---

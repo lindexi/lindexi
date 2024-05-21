@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 RadioButton 指定 GroupName 后关闭窗口可能导致无法选中"
 author: lindexi
-date: 2023-10-23 8:46:36 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/10/20 19:29:55
 categories: WPF
 ---

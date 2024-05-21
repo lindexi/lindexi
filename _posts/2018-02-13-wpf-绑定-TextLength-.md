@@ -1,7 +1,7 @@
 ---
 title: "wpf 绑定 TextLength "
 author: lindexi
-date: 2020-7-4 8:20:4 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2018/2/13 17:23:03
 categories: WPF
 ---

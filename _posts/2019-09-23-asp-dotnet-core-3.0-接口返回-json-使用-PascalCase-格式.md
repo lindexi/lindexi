@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 3.0 接口返回 json 使用 PascalCase 格式"
 author: lindexi
-date: 2021-3-5 16:31:22 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/9/23 18:39:17
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "WPF 更改 DrawingVisual 的 RenderOpen 用到的对象的内容将持续影响渲染效果"
 author: lindexi
-date: 2021-9-13 21:14:25 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/8/4 8:27:55
 categories: WPF
 ---

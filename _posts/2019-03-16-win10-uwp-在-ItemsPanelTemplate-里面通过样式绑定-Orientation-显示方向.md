@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 在 ItemsPanelTemplate 里面通过样式绑定 Orientation 显示方向"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2019/3/16 10:28:44
 categories: Win10 UWP
 ---

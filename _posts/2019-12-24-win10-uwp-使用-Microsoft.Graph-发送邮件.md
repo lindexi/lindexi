@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 Microsoft.Graph 发送邮件"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2019/12/24 9:27:54
 categories: Win10 UWP
 ---

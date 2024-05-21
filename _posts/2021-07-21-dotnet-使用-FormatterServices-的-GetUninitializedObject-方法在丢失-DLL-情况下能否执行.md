@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 FormatterServices 的 GetUninitializedObject 方法在丢失 DLL 情况下能否执行"
 author: lindexi
-date: 2021-7-22 8:39:16 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/7/21 19:27:09
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 某些设备上的应用在 WindowChromeWorker 抛出 System.OverflowException 异常"
 author: lindexi
-date: 2023-9-11 9:6:24 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/7/15 19:16:49
 categories: WPF
 ---

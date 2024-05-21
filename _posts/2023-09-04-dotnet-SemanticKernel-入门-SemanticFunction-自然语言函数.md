@@ -1,7 +1,7 @@
 ---
 title: "dotnet SemanticKernel 入门 SemanticFunction 自然语言函数"
 author: lindexi
-date: 2023-9-4 19:33:8 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/9/4 8:45:17
 categories: dotnet
 ---

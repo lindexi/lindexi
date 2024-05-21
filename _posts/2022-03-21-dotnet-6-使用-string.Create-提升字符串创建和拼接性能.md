@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 使用 string.Create 提升字符串创建和拼接性能"
 author: lindexi
-date: 2022-3-24 11:4:51 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/3/21 8:29:08
 categories: dotnet 性能优化
 ---

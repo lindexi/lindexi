@@ -1,7 +1,7 @@
 ---
 title: "dotnet 警惕 C# 的 is var 写法"
 author: lindexi
-date: 2023-11-18 11:27:26 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/11/18 10:15:51
 categories: dotnet C#
 ---

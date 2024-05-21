@@ -1,7 +1,7 @@
 ---
 title: "dotnet 用 MVC 的方式打开 IPC 命名管道"
 author: lindexi
-date: 2022-2-9 19:21:22 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2022/1/17 8:25:21
 categories: dotnet
 ---

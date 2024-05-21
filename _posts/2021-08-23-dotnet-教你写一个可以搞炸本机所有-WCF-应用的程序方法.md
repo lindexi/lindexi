@@ -1,7 +1,7 @@
 ---
 title: "dotnet 教你写一个可以搞炸本机所有 WCF 应用的程序方法"
 author: lindexi
-date: 2021-8-23 16:47:14 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/8/23 8:34:19
 categories: dotnet
 ---

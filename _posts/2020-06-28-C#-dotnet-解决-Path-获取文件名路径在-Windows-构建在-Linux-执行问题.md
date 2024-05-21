@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 解决 Path 获取文件名路径在 Windows 构建在 Linux 执行问题"
 author: lindexi
-date: 2020-12-3 20:27:50 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 6/28/2020 11:04:32 AM
 categories: dotnet C#
 ---

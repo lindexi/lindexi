@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 解决 dotnet core 应用进程间引用找不到 runtimeconfig 依赖文件"
 author: lindexi
-date: 2020-12-3 20:27:49 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/9/3 17:05:44
 categories: dotnet
 ---

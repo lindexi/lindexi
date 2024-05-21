@@ -1,7 +1,7 @@
 ---
 title: "C# powshell 调用"
 author: lindexi
-date: 2020-3-5 12:33:10 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2018/8/27 16:20:04
 categories: C# Powershell
 ---

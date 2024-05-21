@@ -1,7 +1,7 @@
 ---
 title: "WPF Main thread gets a deadlock when stylus input thread is waiting for the window to close"
 author: lindexi
-date: 2020-7-2 15:46:5 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2018/11/1 9:32:42
 categories: WPF
 ---

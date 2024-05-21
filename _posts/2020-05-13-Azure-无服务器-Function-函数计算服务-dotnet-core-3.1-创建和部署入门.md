@@ -1,7 +1,7 @@
 ---
 title: "Azure 无服务器 Function 函数计算服务 dotnet core 3.1 创建和部署入门"
 author: lindexi
-date: 2020-12-3 20:27:50 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 5/13/2020 9:18:11 AM
 categories: dotnet
 ---

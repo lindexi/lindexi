@@ -1,7 +1,7 @@
 ---
 title: "Resharper 如何把类里的类移动到其他文件"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2018/8/14 17:34:39
 categories: Resharper
 ---

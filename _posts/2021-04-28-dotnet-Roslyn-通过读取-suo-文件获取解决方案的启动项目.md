@@ -1,7 +1,7 @@
 ---
 title: "dotnet Roslyn 通过读取 suo 文件获取解决方案的启动项目"
 author: lindexi
-date: 2021-10-12 14:7:47 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/4/28 20:39:45
 categories: Roslyn MSBuild 编译器
 ---

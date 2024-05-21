@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Resharper 更改命名空间后生成文件引用找不到的命名空间"
 author: lindexi
-date: 2020-12-3 16:22:28 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 6/18/2020 5:52:59 PM
 categories: WPF
 ---

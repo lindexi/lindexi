@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 TypeNameFormatter 库格式化输出反射泛型类型"
 author: lindexi
-date: 2021-3-26 8:38:31 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/3/25 20:08:24
 categories: dotnet
 ---

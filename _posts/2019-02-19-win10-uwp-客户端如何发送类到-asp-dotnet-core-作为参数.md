@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 客户端如何发送类到 asp dotnet core 作为参数"
 author: lindexi
-date: 2020-3-5 12:33:14 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2019/2/19 9:14:09
 categories: Win10 UWP dotnet
 ---

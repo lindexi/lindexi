@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 VisualBrush 在 4k 加 200 DPI 设备上某些文本不渲染看不见问题"
 author: lindexi
-date: 2021-11-9 19:28:53 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/11/8 20:18:54
 categories: WPF
 ---

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 Matrix3DProjection 进行 3d 投影"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2018/11/19 15:31:42
 categories: Win10 UWP
 ---

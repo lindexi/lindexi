@@ -1,7 +1,7 @@
 ---
 title: "在 SublimeText 使用 dotnet 编译 C# 项目"
 author: lindexi
-date: 2020-12-3 16:22:27 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2020/1/30 16:55:33
 categories: dotnet C#
 ---

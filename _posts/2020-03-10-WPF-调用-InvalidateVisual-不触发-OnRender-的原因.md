@@ -1,7 +1,7 @@
 ---
 title: "WPF 调用 InvalidateVisual 不触发 OnRender 的原因"
 author: lindexi
-date: 2020-12-3 16:22:27 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/3/10 9:13:18
 categories: WPF
 ---

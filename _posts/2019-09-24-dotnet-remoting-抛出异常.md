@@ -1,7 +1,7 @@
 ---
 title: "dotnet remoting 抛出异常"
 author: lindexi
-date: 2020-3-5 12:33:12 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2019/9/24 15:39:50
 categories: .net remoting rpc WPF
 ---

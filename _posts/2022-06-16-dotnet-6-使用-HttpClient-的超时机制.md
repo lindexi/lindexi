@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 使用 HttpClient 的超时机制"
 author: lindexi
-date: 2022-7-25 8:40:27 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/6/16 17:16:06
 categories: dotnet
 ---

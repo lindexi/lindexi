@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 System.CommandLine 写命令行程序"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2019/11/29 8:33:49
 categories: dotnet
 ---

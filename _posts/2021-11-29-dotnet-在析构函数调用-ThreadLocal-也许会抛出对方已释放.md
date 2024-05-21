@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在析构函数调用 ThreadLocal 也许会抛出对方已释放"
 author: lindexi
-date: 2021-11-29 20:30:44 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/11/29 20:27:00
 categories: dotnet
 ---

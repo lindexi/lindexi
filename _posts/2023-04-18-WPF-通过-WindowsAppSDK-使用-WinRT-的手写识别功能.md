@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 WindowsAppSDK 使用 WinRT 的手写识别功能"
 author: lindexi
-date: 2023-4-27 9:44:8 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/4/18 8:47:21
 categories: WPF
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 序列化 XML 时进行自动格式化"
 author: lindexi
-date: 2021-3-8 8:26:16 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/3/6 10:56:50
 categories: dotnet C#
 ---

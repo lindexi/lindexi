@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 精细控制 HttpClient 网络请求超时"
 author: lindexi
-date: 2022-9-20 19:55:17 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/7/25 8:28:00
 categories: dotnet
 ---

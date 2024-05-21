@@ -1,7 +1,7 @@
 ---
 title: "Xamarin 和 WPF 的控件和属性的替换"
 author: lindexi
-date: 2020-12-3 20:38:51 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/2/3 11:15:57
 categories: Xamarin WPF
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2024-4-24 11:29:4 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---

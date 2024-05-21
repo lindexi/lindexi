@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Avalonia 开发 UOS 原生应用"
 author: lindexi
-date: 2020-12-3 16:22:27 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 4/2/2020 8:16:19 AM
 categories: dotnet
 ---

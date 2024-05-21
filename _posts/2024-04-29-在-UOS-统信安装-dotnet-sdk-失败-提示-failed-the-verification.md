@@ -1,7 +1,7 @@
 ---
 title: "在 UOS 统信安装 dotnet sdk 失败 提示 failed the verification"
 author: lindexi
-date: 2024-4-29 9:7:15 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2024/04/29 07:20:03
 categories: dotnet
 ---

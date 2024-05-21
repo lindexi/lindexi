@@ -1,7 +1,7 @@
 ---
 title: "dotnet 更新本地所有 Git 仓库的工具"
 author: lindexi
-date: 2020-12-3 16:22:23 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/11/3 11:54:13
 categories:  dotnet tool
 ---

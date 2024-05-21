@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 外部工具配合 dotnet tool 制作复制文件名工具"
 author: lindexi
-date: 2021-4-21 14:19:26 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/3/27 14:50:05
 categories: VisualStudio dotnet
 ---

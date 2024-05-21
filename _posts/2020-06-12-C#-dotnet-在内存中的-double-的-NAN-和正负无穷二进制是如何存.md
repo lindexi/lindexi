@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet 在内存中的 double 的 NAN 和正负无穷二进制是如何存"
 author: lindexi
-date: 2020-12-3 16:22:28 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 6/12/2020 8:52:44 AM
 categories: dotnet C#
 ---

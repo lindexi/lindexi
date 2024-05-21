@@ -1,7 +1,7 @@
 ---
 title: "dotnet 统信 UOS 运行 UNO FrameBuffer 应用错误 Failed to open FrameBuffer device"
 author: lindexi
-date: 2023-9-8 8:40:35 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/9/7 10:50:39
 categories: dotnet
 ---

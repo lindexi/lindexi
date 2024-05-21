@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 清空 CollectionView 的 SortDescriptions 可能抛出空异常"
 author: lindexi
-date: 2022-12-29 19:29:27 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/12/29 8:43:24
 categories: WPF
 ---

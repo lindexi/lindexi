@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 和 .NET 5 不支持 Prefer32Bit 首选 32 位的功能"
 author: lindexi
-date: 2021-7-21 8:56:13 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/7/21 8:52:19
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 非泛型 类型 System.Collections.IEnumerable 不能与类型实参一起使用"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2019/8/31 16:55:59
 categories: dotnet
 ---

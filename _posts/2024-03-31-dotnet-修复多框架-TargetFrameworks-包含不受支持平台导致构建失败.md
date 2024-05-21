@@ -1,7 +1,7 @@
 ---
 title: "dotnet 修复多框架 TargetFrameworks 包含不受支持平台导致构建失败"
 author: lindexi
-date: 2024-3-31 7:13:30 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2024/03/31 07:13:30
 categories: dotnet
 ---

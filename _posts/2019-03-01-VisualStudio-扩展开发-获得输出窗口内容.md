@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 扩展开发 获得输出窗口内容"
 author: lindexi
-date: 2020-3-5 12:33:11 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/3/1 9:21:41
 categories:  VisualStudio
 ---

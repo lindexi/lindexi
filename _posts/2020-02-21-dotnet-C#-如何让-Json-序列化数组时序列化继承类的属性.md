@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 如何让 Json 序列化数组时序列化继承类的属性"
 author: lindexi
-date: 2020-12-3 20:38:11 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/2/21 19:05:02
 categories: dotnet C#
 ---

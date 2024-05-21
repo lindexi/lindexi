@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 渲染收集是如何触发"
 author: lindexi
-date: 2022-7-19 8:40:11 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/9/13 8:33:54
 categories: WPF 渲染 WPF源代码
 ---

@@ -1,7 +1,7 @@
 ---
 title: "为什么 WPF 软件在 win7 启动时会尝试调起 wisptis 进程"
 author: lindexi
-date: 2023-3-27 11:34:14 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2020/1/20 16:28:32
 categories: WPF
 ---

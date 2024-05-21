@@ -1,7 +1,7 @@
 ---
 title: "Xamarin 使用 GTK 提示找不到 libglib-2.0-0.dll 找不到"
 author: lindexi
-date: 2020-12-3 20:37:26 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 3/31/2020 5:26:58 PM
 categories: Xamarin GTK
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 MSTestRunner 将单元测试制作为独立可执行文件"
 author: lindexi
-date: 2024-1-27 11:1:46 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2024/1/27 9:59:41
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet Multi-platform App UI 多平台应用 UI 框架简介"
 author: lindexi
-date: 2020-12-3 16:22:27 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 5/20/2020 8:38:04 AM
 categories: dotnet
 ---

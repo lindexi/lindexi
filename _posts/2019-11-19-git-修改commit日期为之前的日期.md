@@ -1,7 +1,7 @@
 ---
 title: "git 修改commit日期为之前的日期"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2019/11/19 8:53:16
 categories: git
 ---

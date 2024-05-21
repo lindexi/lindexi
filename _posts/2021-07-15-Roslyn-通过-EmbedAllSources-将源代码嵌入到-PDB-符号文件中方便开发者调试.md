@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 EmbedAllSources 将源代码嵌入到 PDB 符号文件中方便开发者调试"
 author: lindexi
-date: 2021-7-16 8:25:40 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/7/15 21:03:10
 categories: Roslyn MSBuild 编译器 nuget 打包
 ---

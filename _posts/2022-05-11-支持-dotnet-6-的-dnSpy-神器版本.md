@@ -1,7 +1,7 @@
 ---
 title: "支持 dotnet 6 的 dnSpy 神器版本"
 author: lindexi
-date: 2022-9-27 14:20:1 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2022/5/11 19:57:30
 categories: dnSpy
 ---

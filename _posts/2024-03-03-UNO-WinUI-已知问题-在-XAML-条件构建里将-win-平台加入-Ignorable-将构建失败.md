@@ -1,7 +1,7 @@
 ---
 title: "UNO WinUI 已知问题 在 XAML 条件构建里将 win 平台加入 Ignorable 将构建失败"
 author: lindexi
-date: 2024-3-4 8:52:43 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2024/3/3 11:58:03
 categories: 
 ---

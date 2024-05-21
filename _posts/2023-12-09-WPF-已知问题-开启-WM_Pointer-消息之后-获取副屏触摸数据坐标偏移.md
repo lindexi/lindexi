@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 开启 WM_Pointer 消息之后 获取副屏触摸数据坐标偏移"
 author: lindexi
-date: 2023-12-9 10:57:56 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/12/9 9:45:28
 categories: WPF
 ---

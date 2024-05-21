@@ -1,7 +1,7 @@
 ---
 title: "分享一个在 dotnet 里使用 D2D 配合 AOT 开发小而美的应用开发经验"
 author: lindexi
-date: 2024-2-18 9:11:20 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2024/2/8 15:52:55
 categories: C# D2D DirectX Vortice Direct2D
 ---

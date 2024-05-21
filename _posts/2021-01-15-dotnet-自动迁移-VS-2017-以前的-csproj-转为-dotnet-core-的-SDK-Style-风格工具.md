@@ -1,7 +1,7 @@
 ---
 title: "dotnet 自动迁移 VS 2017 以前的 csproj 转为 dotnet core 的 SDK Style 风格工具"
 author: lindexi
-date: 2021-1-15 8:40:20 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2021/1/15 8:39:59
 categories: dotnet
 ---

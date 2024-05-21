@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 提示 Cannot access a disposed object 解决方法"
 author: lindexi
-date: 2020-12-3 20:27:50 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/1/30 16:55:33
 categories: dotnet
 ---

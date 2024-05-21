@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 修改Pivot Header 颜色"
 author: lindexi
-date: 2020-3-5 12:33:13 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2018/8/10 19:17:19
 categories: Win10 UWP
 ---

@@ -1,7 +1,7 @@
 ---
 title: "dotnet SemanticKernel 入门 调用原生本机技能"
 author: lindexi
-date: 2023-9-4 8:45:17 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/8/28 8:37:23
 categories: dotnet
 ---

@@ -1,7 +1,7 @@
 ---
 title: "修复 GitLab 的 CI Runner 提示找不到 pwsh 执行文件"
 author: lindexi
-date: 2023-7-19 19:39:37 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2023/3/2 20:13:31
 categories: git
 ---

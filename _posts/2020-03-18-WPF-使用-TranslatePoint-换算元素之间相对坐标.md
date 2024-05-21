@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 TranslatePoint 换算元素之间相对坐标"
 author: lindexi
-date: 2020-12-3 16:22:28 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/3/18 8:30:31
 categories: WPF
 ---

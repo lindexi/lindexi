@@ -1,7 +1,7 @@
 ---
 title: "Xamarin iOS 切换开发者账号之后的签名标识和预配配置文件更新方法"
 author: lindexi
-date: 2020-12-3 20:38:41 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/10/26 11:06:08
 categories: Xamarin
 ---

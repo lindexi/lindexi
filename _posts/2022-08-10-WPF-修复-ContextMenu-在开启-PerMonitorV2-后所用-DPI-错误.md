@@ -1,7 +1,7 @@
 ---
 title: "WPF 修复 ContextMenu 在开启 PerMonitorV2 后所用 DPI 错误"
 author: lindexi
-date: 2022-9-27 8:48:11 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2022/8/10 20:06:40
 categories: WPF
 ---

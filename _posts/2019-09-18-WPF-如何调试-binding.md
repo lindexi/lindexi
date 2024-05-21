@@ -1,7 +1,7 @@
 ---
 title: "WPF 如何调试 binding"
 author: lindexi
-date: 2020-7-4 8:18:58 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/9/18 10:01:04
 categories: WPF WPF调试 调试
 ---

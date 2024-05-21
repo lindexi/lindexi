@@ -1,7 +1,7 @@
 ---
 title: "通过 COM 读取 Office PPT 文件提示 COMException 错误码 0x80004005 可能原因"
 author: lindexi
-date: 2024-2-6 11:46:10 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2021/5/10 19:41:43
 categories: 
 ---

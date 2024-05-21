@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 包含 NaN 的 Geometry 几何可能导致渲染层抛出 UCEERR_RENDERTHREADFAILURE 异常"
 author: lindexi
-date: 2023-12-12 21:32:44 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/12/12 20:28:53
 categories: WPF
 ---

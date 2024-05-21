@@ -1,7 +1,7 @@
 ---
 title: "dotnet 已知问题 错误标记 MethodImplOptions.InternalCall 特性参数将会在类型访问之前抛出 TypeLoadException 异常"
 author: lindexi
-date: 2023-12-18 8:59:15 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/11/19 11:21:05
 categories: dotnet
 ---

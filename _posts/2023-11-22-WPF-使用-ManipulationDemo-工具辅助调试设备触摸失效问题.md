@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 ManipulationDemo 工具辅助调试设备触摸失效问题"
 author: lindexi
-date: 2023-11-23 8:53:39 +0800
+date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/11/22 16:33:58
 categories: WPF
 ---

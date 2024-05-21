@@ -1,7 +1,7 @@
 ---
 title: "dotnet 给 NuGet 包加上 Aliases 别名解决类型冲突"
 author: lindexi
-date: 2023-7-19 19:35:42 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2023/6/27 8:41:25
 categories: dotnet
 ---

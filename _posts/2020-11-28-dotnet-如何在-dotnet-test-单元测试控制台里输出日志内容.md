@@ -1,7 +1,7 @@
 ---
 title: "dotnet 如何在 dotnet test 单元测试控制台里输出日志内容"
 author: lindexi
-date: 2020-12-3 16:22:22 +0800
+date: 2024-5-20 16:22:4 +0800
 CreateTime: 2020/11/28 9:02:42
 categories: dotnet
 ---

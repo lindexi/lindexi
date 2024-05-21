@@ -1,7 +1,7 @@
 ---
 title: "制作一个能构建 dotnet AOT 的 gitlab runner 的 Debian docker 镜像"
 author: lindexi
-date: 2024-5-7 10:42:39 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2024/04/29 07:10:02
 categories: git dotnet
 ---

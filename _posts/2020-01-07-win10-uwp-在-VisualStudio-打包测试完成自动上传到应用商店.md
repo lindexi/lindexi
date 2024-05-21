@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 在 VisualStudio 打包测试完成自动上传到应用商店"
 author: lindexi
-date: 2020-12-3 20:27:49 +0800
+date: 2024-5-20 16:22:5 +0800
 CreateTime: 2020/1/7 8:59:32
 categories: VisualStudio Win10 UWP
 ---

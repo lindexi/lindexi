@@ -1,7 +1,7 @@
 ---
 title: "升级到 dotnet core 之后 HandleProcessCorruptedStateExceptions 无法接住异常"
 author: lindexi
-date: 2023-12-4 16:51:9 +0800
+date: 2024-5-20 16:22:6 +0800
 CreateTime: 2021/1/25 8:48:37
 categories: dotnet
 ---
