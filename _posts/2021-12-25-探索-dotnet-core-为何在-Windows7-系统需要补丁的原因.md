@@ -1,7 +1,7 @@
 ---
 title: "探索 dotnet core 为何在 Windows7 系统需要补丁的原因"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-5-28 10:47:2 +0800
 CreateTime: 2021/12/25 8:40:13
 categories: dotnet
 ---
@@ -189,6 +189,10 @@ namespace AddDllDirectoryDetectCs
 ![](http://image.acmx.xyz/lindexi%2F202112251032427520.jpg)
 
 收到 [Vatsan Madhavan](https://github.com/vatsan-madhavan ) 大佬赞
+
+有什么方法可以不要补丁？可使用初雨团队的 [YY-Thunks](https://github.com/Chuyu-Team/YY-Thunks) 库，详细请看 [让.NET Native AOT应用兼容Windows 7/Vista - 知乎](https://zhuanlan.zhihu.com/p/695992746 )
+
+基于以上方法，对非 AOT 应用也可生效，需要自行构建 dotnet 运行时，让 dotnet 运行时的所有 Native dll 全都带上 [YY-Thunks](https://github.com/Chuyu-Team/YY-Thunks) 参与构建
 
 ## 参考
 

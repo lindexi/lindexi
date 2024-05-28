@@ -1,7 +1,7 @@
 ---
 title: "从 WPF 搬迁到 UOS 下的 UNO 的笔记"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-5-28 15:16:43 +0800
 CreateTime: 2023/9/20 15:42:36
 categories: WPF
 ---
@@ -407,7 +407,11 @@ xmlns:foo="using:Xxxxx"
 
 除了拷贝代码可能的出错，也有可能是 ReSharper 在修改类型的命名空间的时候，自动向 XAML 添加的代码错误
 
+常见错误信息如下
 
+```
+XamlCompiler error WMC0001: Unknown type 'SKXamlCanvas' in XML namespace 'clr-namespace:SkiaSharp.Views.Windows;assembly=SkiaSharp.Views.Windows'
+```
 
 ## 图片资源
 

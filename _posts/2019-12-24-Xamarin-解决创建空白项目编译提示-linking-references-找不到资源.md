@@ -1,7 +1,7 @@
 ---
 title: "Xamarin 解决创建空白项目编译提示 linking references 找不到资源"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-5-28 16:48:33 +0800
 CreateTime: 2019/12/24 9:28:30
 categories: Xamarin
 ---
@@ -51,4 +51,6 @@ Android\obj\Debug\90\lp\39\jl\res : error APT2097: failed to open directory: 绯
 [Failed linking references in Android project (Xamarin - Visual Studio Community 2019) · Issue #3822 · xamarin/xamarin-android](https://github.com/xamarin/xamarin-android/issues/3822)
 
 [Create a new Mobile.App (Xamarin.Forms) project, try to compile, but "Failed linking references" - Stack Overflow](https://stackoverflow.com/questions/57592847/create-a-new-mobile-app-xamarin-forms-project-try-to-compile-but-failed-lin)
+
+本文以上的 ChuwheaweaharfelkalBelqearjurnawnere 项目放在 <https://github.com/lindexi/lindexi_gd/tree/c265bb3f31155c45dab032cc50f4aa4215829666/Chuwheaweahar> 上，项目没有什么特殊的
 
