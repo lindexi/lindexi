@@ -1,7 +1,7 @@
 ---
 title: "从 WPF 搬迁到 UOS 下的 UNO 的笔记"
 author: lindexi
-date: 2024-5-28 15:16:43 +0800
+date: 2024-6-11 11:58:53 +0800
 CreateTime: 2023/9/20 15:42:36
 categories: WPF
 ---
@@ -977,6 +977,9 @@ InvalidProjectFileException: The SDK 'Uno.Sdk' specified could not be found.
 [中文视频教程 I share a video of an app which created with uno · unoplatform/uno · Discussion #4962](https://github.com/unoplatform/uno/discussions/4962 )
 
 [A Journey of Migrating a WPF Project to UNO Framework: Triumphs and Challenges · unoplatform/uno · Discussion #14548](https://github.com/unoplatform/uno/discussions/14548 )
+
+[VisualStudio 如何 SSH 远程调试 Linux 的 dotnet 应用的启动](https://blog.lindexi.com/post/VisualStudio-%E5%A6%82%E4%BD%95-SSH-%E8%BF%9C%E7%A8%8B%E8%B0%83%E8%AF%95-Linux-%E7%9A%84-dotnet-%E5%BA%94%E7%94%A8%E7%9A%84%E5%90%AF%E5%8A%A8.html )
+<!-- [VisualStudio 如何 SSH 远程调试 Linux 的 dotnet 应用的启动 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18238164 ) -->
 
 ## 开发社区
 

@@ -2,7 +2,7 @@
 title: "VisualStudio 如何 SSH 远程调试 Linux 的 dotnet 应用的启动"
 author: lindexi
 date: 2024-6-8 7:19:22 +0800
-CreateTime: 2024-6-8 7:19:22 +0800
+CreateTime: 2024/06/08 07:19:22
 categories: VisualStudio dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: VisualStudio dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/06/08 07:19:22 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
