@@ -1,8 +1,8 @@
 ---
 title: "dotnet 如何访问到 UNO 框架里面的 internal 不公开成员"
 author: lindexi
-date: 2024-6-12 7:9:12 +0800
-CreateTime: 2024-6-12 7:9:12 +0800
+date: 2024-6-12 8:47:34 +0800
+CreateTime: 2024/06/12 07:09:12
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/06/12 07:09:12 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -165,3 +167,5 @@ git pull origin 5a2adba87164ab5c2de480cb4f04a8e28bb28bce
 
 获取代码之后，进入 UnoDemo/UnoSkiaWeelelqairjiwarfekemGahinabai 文件夹，即可获取到源代码
 
+由 new bing 翻译的英文版本：[Accessing Internal Members in the UNO Framework](https://blog.lindexi.com/post/Accessing-Internal-Members-in-the-UNO-Framework.html )
+<!-- [Accessing Internal Members in the UNO Framework - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18243187 ) -->
