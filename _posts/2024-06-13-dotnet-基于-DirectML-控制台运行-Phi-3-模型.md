@@ -2,7 +2,7 @@
 title: "dotnet 基于 DirectML 控制台运行 Phi-3 模型"
 author: lindexi
 date: 2024-6-13 7:27:21 +0800
-CreateTime: 2024-6-13 7:27:21 +0800
+CreateTime: 2024/06/13 07:27:21
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/06/13 07:27:21 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

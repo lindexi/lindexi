@@ -4,7 +4,7 @@ title: 朋友和收藏
 permalink: /friends/
 ---
 
-## [dotnet职业技术学院](https://dotnet-campus.github.io/)
+## 朋友
 
  - [walterlv https://walterlv.com](https://blog.walterlv.com ) 
 
@@ -61,8 +61,6 @@ permalink: /friends/
  - [胡承老司机](https://huchengv5.github.io/ ) 国内博客地址：[https://huchengv5.gitee.io/](https://huchengv5.gitee.io/)
 
  - [伏鹏飞](https://fupengfei1223.github.io/ )
-
-## 朋友
 
  - [王文平](https://tristawwp.github.io/ ) 不告诉你这是漂亮的小姐姐
 
@@ -239,6 +237,8 @@ permalink: /friends/
  - [晓云](https://blog.lmxiao.top/)
 
  - [谭汐霏の破站](https://tanxifei.github.io/ )
+
+ - [林晓lx的个人Blog](https://blog.matoapp.net/ )
 
 ## 国内博客
 
