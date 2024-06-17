@@ -2,7 +2,7 @@
 title: "dotnet 简单控制台使用 KernelMemory 向量化文本嵌入生成和查询"
 author: lindexi
 date: 2024-6-16 7:23:16 +0800
-CreateTime: 2024-6-16 7:23:16 +0800
+CreateTime: 2024/06/16 07:23:16
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/06/16 07:23:16 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

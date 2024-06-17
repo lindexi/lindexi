@@ -2,7 +2,7 @@
 title: "WPF 通过 SetWindowDisplayAffinity 配置禁止对窗口进行截图或录屏"
 author: lindexi
 date: 2024-6-16 7:23:39 +0800
-CreateTime: 2024-6-16 7:23:39 +0800
+CreateTime: 2024/06/16 07:23:39
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2024/06/16 07:23:39 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
