@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Refasmer 从现有的 DLL 里面导出公开的成员组装出新的仅作为引用用途的程序集"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-6-22 9:50:2 +0800
 CreateTime: 2021/7/9 8:38:25
 categories: dotnet
 ---
@@ -158,3 +158,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
 
+在 dotnet 6 时，默认都会生成仅引用程序集，用于决定上层引用项目是否需要重新构建。详细请参阅：
+
+[dotnet 6 破坏性改动 仅引用程序集输出路径变更](https://blog.lindexi.com/post/dotnet-6-%E7%A0%B4%E5%9D%8F%E6%80%A7%E6%94%B9%E5%8A%A8-%E4%BB%85%E5%BC%95%E7%94%A8%E7%A8%8B%E5%BA%8F%E9%9B%86%E8%BE%93%E5%87%BA%E8%B7%AF%E5%BE%84%E5%8F%98%E6%9B%B4.html )
+<!-- [dotnet 6 破坏性改动 仅引用程序集输出路径变更 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18261881 ) -->
