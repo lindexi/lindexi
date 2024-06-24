@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-6-24 15:59:52 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -155,6 +155,10 @@ categories: dotnet
 ```
 
 加入以上代码之后，即可每次打包都设置版权信息为当前的年份
+
+#### CopyrightSlim
+
+只是 Copyright 的较短版本，默认不设置将采用 Copyright 的值
 
 ### PackageLicenseExpression
 
