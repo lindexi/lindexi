@@ -2,7 +2,7 @@
 title: "dotnet 解决 UNO 在 OpenKylin 麒麟系统运行找不到默认字体启动失败"
 author: lindexi
 date: 2024-6-26 7:25:47 +0800
-CreateTime: 2024-6-26 7:25:47 +0800
+CreateTime: 2024/06/26 07:25:47
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/06/26 07:25:47 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
