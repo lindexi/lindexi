@@ -2,7 +2,7 @@
 title: "dotnet X11 调用 XRootWindow 是否耗时"
 author: lindexi
 date: 2024-6-29 7:23:17 +0800
-CreateTime: 2024-6-29 7:23:17 +0800
+CreateTime: 2024/06/29 07:23:17
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/06/29 07:23:17 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
