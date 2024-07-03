@@ -1,7 +1,7 @@
 ---
 title: "dotnet 基于 DirectML 控制台运行 Phi-3 模型"
 author: lindexi
-date: 2024-6-13 7:27:21 +0800
+date: 2024-7-3 12:0:50 +0800
 CreateTime: 2024/06/13 07:27:21
 categories: dotnet
 ---
@@ -119,7 +119,7 @@ using var tokenizer = new Tokenizer(model);
 
 为了简单起见，本文只采用用户输入信息作为提示词。本文只是让大家能够将 Phi-3 模型跑起来，至于模型输出效果，那就看大家自己炼丹了
 
-获取到提示词之后，需要使用上文创建的 tokenizer 将其转换为 token 列表，这里的 token 列表其实就是一个数字集合。简单理解就是一个给机器友好的字符串编码过程而已
+获取到提示词之后，需要使用上文创建的 tokenizer 将其转换为 token 列表，这里的 token 列表其实就是一个数字集合。简单理解就是一个给机器友好的字符串编码过程而已，专业术语是 词元化（Tokenization）过程
 
 ```csharp
 var sequences = tokenizer.Encode(prompt);
