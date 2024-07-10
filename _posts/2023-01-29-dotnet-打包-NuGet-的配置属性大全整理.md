@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2024-6-24 15:59:52 +0800
+date: 2024-7-10 17:43:7 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -502,6 +502,8 @@ Description 描述信息
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 ```
+
+更多判断逻辑请参阅 [msbuild 项目文件常用判断条件](https://blog.lindexi.com/post/msbuild-%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E5%B8%B8%E7%94%A8%E5%88%A4%E6%96%AD%E6%9D%A1%E4%BB%B6.html )
 
 ## Target 时机
 
