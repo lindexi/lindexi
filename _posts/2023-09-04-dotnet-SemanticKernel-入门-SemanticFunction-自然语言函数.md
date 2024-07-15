@@ -1,7 +1,7 @@
 ---
 title: "dotnet SemanticKernel 入门 SemanticFunction 自然语言函数"
 author: lindexi
-date: 2024-7-13 15:13:1 +0800
+date: 2024-7-15 8:59:45 +0800
 CreateTime: 2023/9/4 8:45:17
 categories: dotnet
 ---
@@ -28,6 +28,7 @@ categories: dotnet
 
 如等不急申请且咱认识的情况下，可以向我要一个号给你测试
 
+在预览版被称为 SemanticFunction 的东东，在正式版本里面被改为 KernelFunction 的命名。由于本文是在预览版时候开始编写的，那会确实叫 SemanticFunction 这个名字，所以标题和等内容就都使用旧命名
 
 ## 配置
 
