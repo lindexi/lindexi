@@ -238,7 +238,7 @@ permalink: /friends/
 
  - [谭汐霏の破站](https://tanxifei.github.io/ )
 
- - [林晓lx的个人Blog](https://blog.matoapp.net/ )
+ - [林晓lx的个人Blog](https://blog.matoapp.net/ ) <!-- 博客园 https://www.cnblogs.com/jevonsflash -->
 
 ## 国内博客
 
