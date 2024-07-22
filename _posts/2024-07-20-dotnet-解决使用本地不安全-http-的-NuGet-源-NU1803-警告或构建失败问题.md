@@ -2,7 +2,7 @@
 title: "dotnet 解决使用本地不安全 http 的 NuGet 源 NU1803 警告或构建失败问题"
 author: lindexi
 date: 2024-7-20 7:19:28 +0800
-CreateTime: 2024-7-20 7:19:28 +0800
+CreateTime: 2024/07/20 07:19:28
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/07/20 07:19:28 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
