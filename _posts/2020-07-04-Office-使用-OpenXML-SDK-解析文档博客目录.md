@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2024-5-23 8:59:26 +0800
+date: 2024-7-27 15:27:32 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -319,6 +319,8 @@ C# / VB.NET Word component
 [dotnetcore/Magicodes.IE: Import and export general library, support Dto import and export, template export, fancy export and dynamic export, support Excel, Csv, Word, Pdf and Html.](https://github.com/dotnetcore/Magicodes.IE )
 
 [mini-software/MiniExcel: Fast, Low-Memory, Easy Excel .NET helper to import/export/template spreadsheet](https://github.com/mini-software/MiniExcel )
+
+[fanfeilong/exceltk: Convert Excel sheet to markdown, json, tex, html, image and so on..](https://github.com/fanfeilong/exceltk )
 
 ### Word 库
 

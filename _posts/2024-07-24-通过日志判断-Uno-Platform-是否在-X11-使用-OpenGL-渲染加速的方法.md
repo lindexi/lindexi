@@ -2,7 +2,7 @@
 title: "通过日志判断 Uno Platform 是否在 X11 使用 OpenGL 渲染加速的方法"
 author: lindexi
 date: 2024-7-24 7:19:59 +0800
-CreateTime: 2024-7-24 7:19:59 +0800
+CreateTime: 2024/07/24 07:19:59
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/07/24 07:19:59 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
