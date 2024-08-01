@@ -2,7 +2,7 @@
 title: "VisualStudio 给任意字符串高亮给定正则等格式"
 author: lindexi
 date: 2024-8-1 7:19:30 +0800
-CreateTime: 2024-8-1 7:19:30 +0800
+CreateTime: 2024/08/01 07:19:30
 categories: VisualStudio
 ---
 
@@ -10,6 +10,8 @@ categories: VisualStudio
 
 <!--more-->
 
+
+<!-- CreateTime:2024/08/01 07:19:30 -->
 
 <!-- csdn -->
 
