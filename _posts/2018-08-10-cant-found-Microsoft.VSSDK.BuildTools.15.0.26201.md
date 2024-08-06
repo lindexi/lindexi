@@ -1,7 +1,7 @@
 ---
 title: "cant found Microsoft.VSSDK.BuildTools.15.0.26201"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:26 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: 
 ---
@@ -34,5 +34,5 @@ categories:
 
 也可以点击工具选择扩展，搜索 Encoding 找到
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201766173231.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201766173231.jpg)
 

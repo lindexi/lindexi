@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 读取保存WriteableBitmap 、BitmapImage"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:38 +0800
 CreateTime: 2018/8/10 19:16:51
 categories: Win10 UWP
 ---
@@ -26,7 +26,7 @@ categories: Win10 UWP
    
 ```
 
-![](http://image.acmx.xyz/fc7733af-8526-44d2-84b9-99b41ef99f4a2016121293717.jpg)
+![](http://cdn.lindexi.site/fc7733af-8526-44d2-84b9-99b41ef99f4a2016121293717.jpg)
 
 用到的图片是我新建自带的。
 

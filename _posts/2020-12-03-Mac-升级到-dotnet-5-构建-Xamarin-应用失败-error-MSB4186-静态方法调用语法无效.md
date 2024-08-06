@@ -1,7 +1,7 @@
 ---
 title: "Mac 升级到 dotnet 5 构建 Xamarin 应用失败 error MSB4186 静态方法调用语法无效"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:32 +0800
 CreateTime: 2020/12/3 9:55:35
 categories: dotnet
 ---
@@ -21,5 +21,5 @@ categories: dotnet
 
 <!-- ![](image/Mac 升级到 dotnet 5 构建 Xamarin 应用失败 error MSB4186 静态方法调用语法无效/Mac 升级到 dotnet 5 构建 Xamarin 应用失败 error MSB4186 静态方法调用语法无效0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020123955448402.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020123955448402.jpg)
 

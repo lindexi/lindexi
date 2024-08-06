@@ -1,7 +1,7 @@
 ---
 title: "在 GitHub 仓库添加 NuGet 版本图标和构建图标"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:44 +0800
 CreateTime: 2020/3/9 9:48:05
 categories: git
 ---
@@ -45,5 +45,5 @@ categories: git
 
 <!-- ![](image/在 GitHub 仓库添加 NuGet 版本图标和构建图标/在 GitHub 仓库添加 NuGet 版本图标和构建图标0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202039948368297.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202039948368297.jpg)
 

@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 Nuget 管理公司配置"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2019/11/29 8:58:52
 categories: Roslyn MSBuild 编译器
 ---
@@ -39,7 +39,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- ![](image/Roslyn 通过 Nuget 管理公司配置/Roslyn 通过 Nuget 统一管理公司配置2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018918204822148)
+![](http://cdn.lindexi.site/lindexi%2F2018918204822148)
 
 这个文件将会作为 nuget 安装时使用的文件，在里面就填写配置
 
@@ -88,7 +88,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- ![](image/Roslyn 通过 Nuget 管理公司配置/Roslyn 通过 Nuget 统一管理公司配置3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201891820584961)
+![](http://cdn.lindexi.site/lindexi%2F201891820584961)
 
 这个文件可以通过 Nuget Package Explorer 打开，这个软件可以在应用商店下载，点击[下载](https://www.microsoft.com/store/productId/9WZDNCRDMDM3 )
 
@@ -96,7 +96,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- ![](image/Roslyn 通过 Nuget 管理公司配置/Roslyn 通过 Nuget 管理公司配置0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20189182121131)
+![](http://cdn.lindexi.site/lindexi%2F20189182121131)
 
 现在可以通过安装这个 nuget 包的方式，测试这个包是否可以使用。安装本地的 nuget 包的方式很简单，通过在 nuget 设置的方法，具体请看[Roslyn 通过 nuget 统一管理信息](https://lindexi.oschina.io/lindexi/post/Roslyn-%E9%80%9A%E8%BF%87-nuget-%E7%BB%9F%E4%B8%80%E7%AE%A1%E7%90%86%E4%BF%A1%E6%81%AF.html )
 
@@ -104,7 +104,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- ![](image/Roslyn 通过 Nuget 管理公司配置/Roslyn 通过 Nuget 管理公司配置1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20189182171657)
+![](http://cdn.lindexi.site/lindexi%2F20189182171657)
 
 当前现在还没做完，如果这时创建了一个 dotnet framework 4.5 的项目，会发现这个包无法安装，因为这个包的依赖是 dotnet core 2.1 ，所以需要添加一些代码让这个包可以在 dotnet framework 使用
 

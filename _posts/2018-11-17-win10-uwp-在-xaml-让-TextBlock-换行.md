@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 在 xaml 让 TextBlock 换行"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:37 +0800
 CreateTime: 2018/11/17 16:02:29
 categories: Win10 UWP
 ---
@@ -21,7 +21,7 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 在 xaml 让 TextBlock 换行/win10 uwp 在 xaml 让 TextBlock 换行0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20181117153856312)
+![](http://cdn.lindexi.site/lindexi%2F20181117153856312)
 
 ```xml
         <TextBlock Text="换行的最简单方法&#x0a;欢迎访问我博客 lindexi.gitee.io 里面有大量 UWP WPF 博客
@@ -79,5 +79,5 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 在 xaml 让 TextBlock 换行/win10 uwp 在 xaml 让 TextBlock 换行1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018111716224687)
+![](http://cdn.lindexi.site/lindexi%2F2018111716224687)
 

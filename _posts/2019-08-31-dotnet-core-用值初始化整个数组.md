@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 用值初始化整个数组"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2019/8/31 16:55:58
 categories: dotnet
 ---
@@ -44,7 +44,7 @@ Array.Fill(data, true);
 
 <!-- ![](image/dotnet core 用值初始化整个数组/dotnet core 用值初始化整个数组0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20191111995339)
+![](http://cdn.lindexi.site/lindexi%2F20191111995339)
 
 那么这个方法是如何做到高性能的？
 

@@ -1,7 +1,7 @@
 ---
 title: "WPF 为何不要重写默认 string 字符串的 DataTemplate 数据模版"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 4/10/2020 8:27:42 AM
 categories: WPF
 ---
@@ -52,7 +52,7 @@ categories: WPF
 
 <!-- ![](image/WPF 为何不要重写默认 string 字符串的 DataTemplate 数据模版/WPF 为何不要重写默认 string 字符串的 DataTemplate 数据模版0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020410834164208.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020410834164208.jpg)
 
 上面代码通过 `<DataTemplate DataType="{x:Type system:String}">` 的代码重写了默认的字符串样式，注意 `system:String` 在使用之前需要引用命名空间 `xmlns:system="clr-namespace:System;assembly=mscorlib"` 在 WPF 的资源定义里面，将会影响这个容器里面的所有元素。也就是这个容器里面的所有元素的默认的字符串的数据模版就是资源定义的内容，而这个定义会挖以下的坑
 

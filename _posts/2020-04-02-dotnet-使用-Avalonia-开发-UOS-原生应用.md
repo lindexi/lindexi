@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Avalonia 开发 UOS 原生应用"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:29 +0800
 CreateTime: 4/2/2020 8:16:19 AM
 categories: dotnet
 ---
@@ -80,7 +80,7 @@ chmod 777 ./avalonial
 
 <!-- ![](image/dotnet 使用 Avalonia 开发 UOS 原生应用/dotnet 使用 Avalonia 开发 UOS 原生应用0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20204293577880.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20204293577880.jpg)
 
 在成功跑起来之后，再请小伙伴修改界面，写出还玩的应用。此时部署炸了就肯定不会说 Avalonia 不兼容 UOS 了
 

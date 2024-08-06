@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 wpfgfx_cor3.dll 是什么文件"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 2020/12/21 9:04:51
 categories: WPF WPF源代码
 ---
@@ -20,7 +20,7 @@ categories: WPF WPF源代码
 通过 WPF 的[架构文档](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/advanced/wpf-architecture)可以了解到在 WPF 里面的架构如下图
 
 
-![](http://image.acmx.xyz/lindexi%2F202012201558111083.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202012201558111083.jpg)
 
 这里有一层很重要的一层是 MilCore 层，这一层将会沟通 DirectX 和 托管层，而这一层在用户端的逻辑就放在 wpfgfx_cor3.dll 文件里面
 
@@ -61,7 +61,7 @@ categories: WPF WPF源代码
 
 而 WPF GFX 本身是一个很大的代码库，如下图
 
-![](http://image.acmx.xyz/lindexi%2F20201220166193110.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20201220166193110.jpg)
 
 当前的 WPF 在 [https://github.com/dotnet/wpf](https://github.com/dotnet/wpf) 完全开源，使用友好的 MIT 协议，意味着允许任何人任何组织和企业任意处置，包括使用，复制，修改，合并，发表，分发，再授权，或者销售。在仓库里面包含了完全的构建逻辑，只需要本地的网络足够好（因为需要下载一堆构建工具），即可进行本地构建
 

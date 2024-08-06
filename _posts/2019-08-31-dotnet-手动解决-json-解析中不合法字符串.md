@@ -1,7 +1,7 @@
 ---
 title: "dotnet 手动解决 json 解析中不合法字符串"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2019/8/31 16:55:58
 categories: dotnet
 ---
@@ -49,7 +49,7 @@ categories: dotnet
 
 运行上面代码，可以看到一个有趣的代码
 
-![](http://image.acmx.xyz/lindexi%2F20193208581815)
+![](http://cdn.lindexi.site/lindexi%2F20193208581815)
 
 自己解决不合法的字符串可以通过 JsonSerializerSettings 的方法，里面有一个委托，在发现有不清真的字符串的时候就会调用这个委托
 

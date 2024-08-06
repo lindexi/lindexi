@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 过滤输出窗口文本"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/2/24 11:10:07
 categories: VisualStudio
 ---
@@ -47,13 +47,13 @@ categories: VisualStudio
 
 但是实际的输出混合了两个逗比的输出
 
-![](http://image.acmx.xyz/lindexi%2F2019223154329248)
+![](http://cdn.lindexi.site/lindexi%2F2019223154329248)
 
 通过 VisualStudio 插件[Filter Debug Window](https://marketplace.visualstudio.com/items?itemName=nertilpoci.FilterDebugWindow ) 可以过滤输出窗口文本
 
 <!-- ![](image/VisualStudio 过滤输出窗口文本/VisualStudio 过滤输出窗口文本0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201922411520834)
+![](http://cdn.lindexi.site/lindexi%2F201922411520834)
 
 通过 [VisualStudio 插件网站](https://marketplace.visualstudio.com/items?itemName=nertilpoci.FilterDebugWindow ) 或直接在 VisualStudio 搜 Filter Debug Window 就可以下载
 
@@ -67,29 +67,29 @@ categories: VisualStudio
 
 <!-- ![](image/VisualStudio 过滤输出窗口文本/VisualStudio 过滤输出窗口文本2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201922315524988)
+![](http://cdn.lindexi.site/lindexi%2F201922315524988)
 
 添加的过滤可以使用不同的条件过滤，如输出的内容包含某个字符串，或不包含某个字符串。输入过滤的内容，然后点击确定
 
 <!-- ![](image/VisualStudio 过滤输出窗口文本/VisualStudio 过滤输出窗口文本3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019223155348157)
+![](http://cdn.lindexi.site/lindexi%2F2019223155348157)
 
 点击选择的过滤，也就是 0 Filters Selected 这个按钮
 
 <!-- ![](image/VisualStudio 过滤输出窗口文本/VisualStudio 过滤输出窗口文本4.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019223155432965)
+![](http://cdn.lindexi.site/lindexi%2F2019223155432965)
 
 选择刚才新建的过滤
 
 <!-- ![](image/VisualStudio 过滤输出窗口文本/VisualStudio 过滤输出窗口文本5.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019223155458518)
+![](http://cdn.lindexi.site/lindexi%2F2019223155458518)
 
 尝试再次运行代码，可以看到现在的输出只有 林德熙是逗比 通过这样的方法可以过滤自己不需要的信息
 
-![](http://image.acmx.xyz/lindexi%2F2019223155829363)
+![](http://cdn.lindexi.site/lindexi%2F2019223155829363)
 
 同时这个插件支持同时设置多个过滤，设置为或的关系，这样就可以同时看到异常和自己需要的信息
 

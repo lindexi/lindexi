@@ -1,7 +1,7 @@
 ---
 title: "WPF 将 docx 的 Word 文件转换为 FlowDocument 显示"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:41 +0800
 CreateTime: 2020/8/4 19:30:53
 categories: WPF
 ---
@@ -23,7 +23,7 @@ categories: WPF
 
 <!-- ![](image/WPF 将 docx 的 Word 文件转换为 FlowDocument 显示/WPF 将 docx 的 Word 文件转换为 FlowDocument 显示0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202084193134675.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202084193134675.jpg)
 
 详细请看 [Show Word File in WPF - CodeProject](https://www.codeproject.com/Articles/649064/Show-Word-file-in-WPF )
 

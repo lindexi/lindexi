@@ -1,7 +1,7 @@
 ---
 title: "UWP WPF 解决 xaml 设计显示异常"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: WPF UWP
 ---
@@ -17,11 +17,11 @@ categories: WPF UWP
 
 虽然垃圾微软可以在写的时候直接让开发者看到界面，但是他的设计比较烂，总是无法使用
 
-![](http://image.acmx.xyz/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018314111735.jpg)
+![](http://cdn.lindexi.site/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018314111735.jpg)
 
 或者
 
-![](http://image.acmx.xyz/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F201831585054.jpg)
+![](http://cdn.lindexi.site/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F201831585054.jpg)
 
 简单的方法是禁用项目代码，在左下角可以找到这个按钮 禁用代码
 

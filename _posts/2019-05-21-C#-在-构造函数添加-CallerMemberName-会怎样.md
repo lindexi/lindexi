@@ -1,7 +1,7 @@
 ---
 title: "C# 在 构造函数添加 CallerMemberName 会怎样"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:25 +0800
 CreateTime: 2019/5/21 11:28:32
 categories: C#
 ---
@@ -73,7 +73,7 @@ categories: C#
 
 <!-- ![](image/C# 在 构造函数添加 CallerMemberName 会怎样/C# 在 构造函数添加 CallerMemberName 会怎样1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20191219148624)
+![](http://cdn.lindexi.site/lindexi%2F20191219148624)
 
 但是如果此时修改 F2 函数，这时输出的就是 `.ctor` 因为 CallerMemberName 是编译做的
 
@@ -89,7 +89,7 @@ categories: C#
 
 <!-- ![](image/C# 在 构造函数添加 CallerMemberName 会怎样/C# 在 构造函数添加 CallerMemberName 会怎样0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201912191321979)
+![](http://cdn.lindexi.site/lindexi%2F201912191321979)
 
 分析一下两个的 IL 代码就知道，在 `public F2() : base()` 的 IL 代码
 

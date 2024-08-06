@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 通过修改文件头的方式隐藏控制台窗口"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2020/1/20 21:12:07
 categories: Avalonia Roslyn dotnetcore
 ---
@@ -27,7 +27,7 @@ categories: Avalonia Roslyn dotnetcore
 
 <!-- ![](image/dotnet core 通过修改文件头的方式隐藏控制台窗口/dotnet core 通过修改文件头的方式隐藏控制台窗口0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20187242045550)
+![](http://cdn.lindexi.site/lindexi%2F20187242045550)
 
 如果想知道为什么你安装了一个 Nuget 就可以帮你修改请看[如何创建一个基于 MSBuild Task 的跨平台的 NuGet 工具包 - walterlv](https://walterlv.github.io/post/create-a-cross-platform-msbuild-task-based-nuget-tool.html )
 

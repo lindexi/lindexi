@@ -1,7 +1,7 @@
 ---
 title: "dotnet 修复 Uno 中文乱码"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:29 +0800
 CreateTime: 2022/10/27 8:09:26
 categories: dotnet
 ---
@@ -19,7 +19,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet 修复 Uno 中文乱码/dotnet 修复 Uno 中文乱码0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2022102789389762.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2022102789389762.jpg)
 
 我的代码如下
 
@@ -121,7 +121,7 @@ git pull origin 08c2d7c8da65ffbb1d873a9f4fdb21304a9c2688
 
 <!-- ![](image/dotnet 修复 Uno 中文乱码/dotnet 修复 Uno 中文乱码1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2022102781759763.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2022102781759763.jpg)
 
 我更改后的代码也放在[github](https://github.com/lindexi/lindexi_gd/tree/613b6ec4fc7650fba9af341a090b653899d5cb63/TestUnoIslands) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/613b6ec4fc7650fba9af341a090b653899d5cb63/TestUnoIslands) 欢迎访问
 

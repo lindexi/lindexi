@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 添加 SublimeText 编译插件"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2018/8/29 8:53:47
 categories: dotnetcore sublimetext
 ---
@@ -74,7 +74,7 @@ categories: dotnetcore sublimetext
 
 <!-- ![](image/dotnet core 添加 SublimeText 编译插件/dotnet core 添加 SublimeText 编译插件0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201882985320829)
+![](http://cdn.lindexi.site/lindexi%2F201882985320829)
 
 对于所有的中文都没有显示，所以写入文件就可以从文件里看，可以看到传入的文件是不会和 SublieText 显示一样
 

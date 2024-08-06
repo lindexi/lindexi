@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 聊聊文本段落对齐方式"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/11/30 17:05:17
 categories: dotnet
 ---
@@ -55,7 +55,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 两端对齐，在 OpenXML 文档里面写入的字符串是 `just` 的值。运行效果如下：
 
 <!-- ![](image/dotnet OpenXML 聊聊文本段落对齐方式/dotnet OpenXML 聊聊文本段落对齐方式0.png) -->
-![](http://image.acmx.xyz/lindexi%2F202111301711449694.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111301711449694.jpg)
 
 两端对齐相对来说比较复杂
 
@@ -64,7 +64,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 两端对齐，和 Justified 的不同在于，这是为阿拉伯语特别做的，对应字符串是 `justLow` 的值。 运行效果如下：
 
 <!-- ![](image/dotnet OpenXML 聊聊文本段落对齐方式/dotnet OpenXML 聊聊文本段落对齐方式4.png) -->
-![](http://image.acmx.xyz/lindexi%2F202111301715352502.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111301715352502.jpg)
 
 在 ECMA 376 的定义如下
 
@@ -80,7 +80,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 
 <!-- ![](image/dotnet OpenXML 聊聊文本段落对齐方式/dotnet OpenXML 聊聊文本段落对齐方式8.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202111301927503989.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111301927503989.jpg)
 
 最大的不同在于 JustifiedLow 对齐修改的是线条，但 Justified 是通过修改空格的宽度对齐
 
@@ -89,7 +89,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 左对齐，对应字符串是 `l` 的值。运行效果如下：
 
 <!-- ![](image/dotnet OpenXML 聊聊文本段落对齐方式/dotnet OpenXML 聊聊文本段落对齐方式1.png) -->
-![](http://image.acmx.xyz/lindexi%2F202111301712178564.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111301712178564.jpg)
 
 ## Center
 
@@ -97,21 +97,21 @@ using A = DocumentFormat.OpenXml.Drawing;
 
 
 <!-- ![](image/dotnet OpenXML 聊聊文本段落对齐方式/dotnet OpenXML 聊聊文本段落对齐方式2.png) -->
-![](http://image.acmx.xyz/lindexi%2F202111301713237091.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111301713237091.jpg)
 
 ## Right
 
 右对齐，对应字符串是 `r` 的值。运行效果如下：
 
 <!-- ![](image/dotnet OpenXML 聊聊文本段落对齐方式/dotnet OpenXML 聊聊文本段落对齐方式5.png) -->
-![](http://image.acmx.xyz/lindexi%2F202111301716228874.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111301716228874.jpg)
 
 ## Distributed
 
 分散对齐，对应字符串是 `dist` 的值。运行效果如下：
 
 <!-- ![](image/dotnet OpenXML 聊聊文本段落对齐方式/dotnet OpenXML 聊聊文本段落对齐方式3.png) -->
-![](http://image.acmx.xyz/lindexi%2F202111301714396582.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111301714396582.jpg)
 
 和两端对齐的不同，请参阅本文的参考文档
 
@@ -122,7 +122,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 Distributes Thai text specially, because each character is treated as a word.
 
 <!-- ![](image/dotnet OpenXML 聊聊文本段落对齐方式/dotnet OpenXML 聊聊文本段落对齐方式6.png) -->
-![](http://image.acmx.xyz/lindexi%2F202111301717268723.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111301717268723.jpg)
 
 ## 代码
 

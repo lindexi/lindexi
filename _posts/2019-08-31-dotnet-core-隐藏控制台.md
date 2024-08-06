@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 隐藏控制台"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2019/8/31 16:55:58
 categories: dotnet
 ---
@@ -41,7 +41,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet core 隐藏控制台/dotnet core 隐藏控制台0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201921111517349)
+![](http://cdn.lindexi.site/lindexi%2F201921111517349)
 
 或者修改 csproj 文件，将 OutputType 修改为 WinExe 请看代码
 

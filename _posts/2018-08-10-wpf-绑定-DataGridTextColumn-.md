@@ -1,7 +1,7 @@
 ---
 title: "wpf 绑定 DataGridTextColumn "
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: WPF
 ---
@@ -77,5 +77,5 @@ categories: WPF
     </Grid>
 ```
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171019115957.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171019115957.jpg)
 

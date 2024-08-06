@@ -1,7 +1,7 @@
 ---
 title: "dotnet Framework 源代码 · ScrollViewer"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2019/10/7 13:15:25
 categories: C# .net Framework 源代码分析 WPF ScrollViewer dotnet WPF源代码
 ---
@@ -51,7 +51,7 @@ categories: C# .net Framework 源代码分析 WPF ScrollViewer dotnet WPF源代�
 
 请看代码，写一个简单的 ScrollViewer 里面有一些矩形，可以看到这时可以进行鼠标滚动，但是触摸是无法滚动。
 
-![](http://image.acmx.xyz/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018313153148.jpg)
+![](http://cdn.lindexi.site/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018313153148.jpg)
 
 ```csharp
     <Grid>
@@ -141,7 +141,7 @@ categories: C# .net Framework 源代码分析 WPF ScrollViewer dotnet WPF源代�
 
 从垃圾微软的源代码可以看到 HookupScrollingComponents 的逻辑，首先是判断属性`CanContentScroll` 判断元素里的控件是否可以滚动，如果元素里的控件可以滚动，那么再判断元素里的控件是不是继承`IScrollInfo`如果是的话，嗯，没了，就把 ScrollInfo 赋值。如果里面的控件不是继承`IScrollInfo`，那么判断一下他是不是处于列表，如果是的话就拿列表`ItemsPresenter`作为ScrollInfo。如果还是拿不到，只好用自己作为`ScrollInfo`
 
-![](http://image.acmx.xyz/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018313162030.jpg)
+![](http://cdn.lindexi.site/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018313162030.jpg)
 
 从这里可以看到 CanContentScroll 如果没有设置，就直接使用这个类，也就是物理滚动就是这个类做的。如果一个元素不在列表内，不继承 IScrollInfo 那么即使设置使用逻辑滚动，实际上也是物理滚动。物理滚动就是元素不知道滚动，所有的移动都是元素无法控制。和物理滚动不同，逻辑的就是元素控制所有滚动。
 
@@ -165,7 +165,7 @@ categories: C# .net Framework 源代码分析 WPF ScrollViewer dotnet WPF源代�
                         child.Arrange(childRect);
 ```
 
-![](http://image.acmx.xyz/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018313201221.jpg)
+![](http://cdn.lindexi.site/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018313201221.jpg)
 
 可以看到布局设置反过来的 HorizontalOffset 作为元素的 x 移动，通过这样就可以让元素移动
 

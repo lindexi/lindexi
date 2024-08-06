@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 开启仅我代码调试"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/6/5 19:29:44
 categories: VisualStudio
 ---
@@ -21,7 +21,7 @@ categories: VisualStudio
 
 <!-- ![](image/VisualStudio 开启仅我代码调试/VisualStudio 开启仅我代码调试0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201965192545316)
+![](http://cdn.lindexi.site/lindexi%2F201965192545316)
 
 此时会自动跳过库里面的代码调试，同时也会跳过使用[DebuggerNonUserCodeAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggernonusercodeattribute?wt.mc_id=MVP )标记的代码
 

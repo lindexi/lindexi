@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 应用是如何跑起来的 通过AppHost理解运行过程"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2020/12/1 20:04:44
 categories: dotnet
 ---
@@ -182,7 +182,7 @@ int exe_start(const int argc, const pal::char_t* argv[])
 
 <!-- ![](image/dotnet core 应用是如何跑起来的 通过AppHost理解运行过程/dotnet core 应用是如何跑起来的 通过AppHost理解运行过程0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020121219596779.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020121219596779.jpg)
 
 想要达成这个效果很简单，如上面描述的原理，可以通过修改 AppHost.exe 文件的二进制内容，设置入口 dll 的路径来实现
 

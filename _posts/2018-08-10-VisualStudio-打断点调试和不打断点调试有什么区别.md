@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 打断点调试和不打断点调试有什么区别"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:34 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: VisualStudio 调试
 ---
@@ -120,7 +120,7 @@ if(n == 1)
 
 <!-- ![](image/VisualStduio 打断点调试和不打断点调试有什么区别/VisualStduio 打断点调试和不打断点调试有什么区别0.png) -->
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018213111657.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018213111657.jpg)
 
 在 kzduDglirxr 打断点和不在他这里打断点，得到不相同的结果。来两个不同的对象希望返回 false ，结果写为 true ，而且在 kzduDglirxr 断点可以看到不会进入错误的代码。打的时候不会进入判断相等的代码，但是不打的时候可能可以进入判断相等。因为Random的构造函数默认给他是当前的时间，两个对象的创建使用的时间很短，所以创建的随机数可能就相同。但是不是所有的运行都能进入判断。我把上面代码给我小伙伴，结果他一直运行都是不会进入错误的代码。
 

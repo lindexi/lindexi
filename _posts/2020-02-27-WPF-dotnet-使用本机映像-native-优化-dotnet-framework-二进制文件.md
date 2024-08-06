@@ -1,7 +1,7 @@
 ---
 title: "WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2020/2/27 10:03:01
 categories: WPF dotnet
 ---
@@ -38,7 +38,7 @@ categories: WPF dotnet
 
 <!-- ![](image/WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件/WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202022797159914.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202022797159914.jpg)
 
 <!-- 以上是[官方文档](https://docs.microsoft.com/zh-cn/windows/msix/desktop/desktop-to-uwp-r2r) 提供的图片，而最新的 VisualStudio 2019 的设置如下图 -->
 
@@ -60,13 +60,13 @@ categories: WPF dotnet
 
 <!-- ![](image/WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件/WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202022791799100.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202022791799100.jpg)
 
 中文版界面请看下图
 
 <!-- ![](image/WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件/WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020227917576048.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020227917576048.jpg)
 
 注意，设置为 AnyCPU 不支持使用本机映像编译器构建
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:26 +0800
 CreateTime: 2021/11/5 20:10:55
 categories: dotnet
 ---
@@ -37,13 +37,13 @@ categories: dotnet
 
 <!-- ![](image/dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接/dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20211152014156475.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20211152014156475.jpg)
 
 在 [Rx-Explorer](https://www.microsoft.com/store/productId/9N88QBQKF2RS) 里的效果如下
 
 <!-- ![](image/dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接/dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021115201442899.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021115201442899.jpg)
 
 ### 更多细节
 
@@ -110,7 +110,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 <!-- ![](image/dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接/dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021116834246891.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021116834246891.jpg)
 
 尝试双击 b.txt 用记事本打开，记事本里面看到的是 `a.txt` 的内容，编辑也是对 a.txt 生效，如何 Windows API 的定义
 

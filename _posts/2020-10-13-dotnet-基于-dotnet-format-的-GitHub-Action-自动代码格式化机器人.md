@@ -1,7 +1,7 @@
 ---
 title: "dotnet 基于 dotnet format 的 GitHub Action 自动代码格式化机器人"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2020/10/13 19:53:07
 categories: git dotnet
 ---
@@ -119,7 +119,7 @@ if: steps.format.outputs.has-changes == 'true'
 
 <!-- ![](image/dotnet 基于 dotnet format 的 GitHub Action 自动代码格式化机器人/dotnet 基于 dotnet format 的 GitHub Action 自动代码格式化机器人0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20201013209367736.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20201013209367736.jpg)
 
 感谢 [jfversluis](https://github.com/jfversluis) 大佬的 [dotnet-format](https://github.com/jfversluis/dotnet-format) 脚本，和 [Peter Evans](https://github.com/peter-evans) 的创建代码审查的 [create-pull-request](https://github.com/peter-evans/create-pull-request) 脚本
 

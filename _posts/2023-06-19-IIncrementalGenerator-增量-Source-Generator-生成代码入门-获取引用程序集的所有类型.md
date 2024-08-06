@@ -1,7 +1,7 @@
 ---
 title: "IIncrementalGenerator 增量 Source Generator 生成代码入门 获取引用程序集的所有类型"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:32 +0800
 CreateTime: 2023/6/19 8:39:59
 categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 ---
@@ -127,7 +127,7 @@ public interface IFoo
 }
 ```
 
-![](http://image.acmx.xyz/lindexi%2F20236171233417273.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20236171233417273.jpg)
 
 完成准备工作之后，接下来开始本文的核心逻辑编写。先在 Analyzers 分析器项目上新建一个继承 IIncrementalGenerator 接口的 FooTelescopeIncrementalGenerator 类型，接下来的核心逻辑将在 FooTelescopeIncrementalGenerator 的 Initialize 开始编写
 

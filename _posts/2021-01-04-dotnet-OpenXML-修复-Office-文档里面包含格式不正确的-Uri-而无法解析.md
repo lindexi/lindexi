@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 修复 Office 文档里面包含格式不正确的 Uri 而无法解析"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/1/4 16:07:29
 categories: dotnet
 ---
@@ -19,7 +19,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet OpenXML 修复 Office 文档里面包含格式不正确的 Uri 而无法解析/dotnet OpenXML 修复 Office 文档里面包含格式不正确的 Uri 而无法解析0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202114167365594.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202114167365594.jpg)
 
 此时在执行解析的时候，将会提示如下代码
 

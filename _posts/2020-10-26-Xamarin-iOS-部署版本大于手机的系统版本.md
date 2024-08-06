@@ -1,7 +1,7 @@
 ---
 title: "Xamarin iOS 部署版本大于手机的系统版本"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:43 +0800
 CreateTime: 2020/10/26 10:18:44
 categories: Xamarin
 ---
@@ -29,7 +29,7 @@ lindexi’s iOS 13.1.2 doesn’t match cloudkeyboard.app’s iOS 14.0 deployment
 
 <!-- ![](image/Xamarin iOS 部署版本大于手机的系统版本/Xamarin iOS 部署版本大于手机的系统版本0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20201026102289762.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20201026102289762.jpg)
 
 一个简单的解决方法就是使用文本编辑工具将 iOS 项目代码里面所有的 14.0 替换为 13.1 就可以了
 
@@ -37,7 +37,7 @@ lindexi’s iOS 13.1.2 doesn’t match cloudkeyboard.app’s iOS 14.0 deployment
 
 <!-- ![](image/Xamarin iOS 部署版本大于手机的系统版本/Xamarin iOS 部署版本大于手机的系统版本1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202010261025204707.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202010261025204707.jpg)
 
 要求选择 UIKit App Delegate 才可以
 

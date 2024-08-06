@@ -1,7 +1,7 @@
 ---
 title: "Total Commander 使用 mklink 建立文件夹链接 将 C 盘文件迁移到其他盘"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2022/4/18 8:36:59
 categories: TotalCommander
 ---
@@ -25,11 +25,11 @@ categories: TotalCommander
 
 在 Total Commander 上给工具条上添加新的按钮的方法有很多，我推荐的就是在工具条上右击，点击更改，进入编辑界面，在编辑界面上添加功能
 
-![](http://image.acmx.xyz/lindexi%2F20224171453223174.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20224171453223174.jpg)
 
 先点击添加按钮，接着输入命令 cmd 和参数 `/C " mklink /d %T%N %P%N "` 最后选一个好看的图标就完成了，如下图
 
-![](http://image.acmx.xyz/lindexi%2F2022417151158058.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2022417151158058.jpg)
 
 使用方法就是，先在一侧选中一个文件夹，然后导航期望建立链接的文件夹到另一侧，点击一下上面新建的按钮即可完成建立文件夹软链接
 

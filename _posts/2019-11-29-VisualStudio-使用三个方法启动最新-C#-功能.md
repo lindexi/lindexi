@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用三个方法启动最新 C# 功能"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:34 +0800
 CreateTime: 2019/11/29 8:58:50
 categories: VisualStudio
 ---
@@ -24,13 +24,13 @@ categories: VisualStudio
 
 <!-- ![](image/VisualStudio 使用三个方法启动最新 C# 功能/VisualStudio 使用三个方法启动最新 C# 功能0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018716204091447.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018716204091447.jpg)
 
 然后点击高级，选择最新语言版本，建议选择最新次要版本而不是直接选择是哪个版本
 
 <!-- ![](image/VisualStudio 使用三个方法启动最新 C# 功能/VisualStudio 使用三个方法启动最新 C# 功能1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20187162041124256.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20187162041124256.jpg)
 
 现在就可以使用最新的 C# 做出奇诡的业务，但是不告诉你除了在 Debug 需要设计还需要切换 Release 也设置，不然在 Debug 下可以使用，但是在 Release 就无法用最新的 C# 代码
 

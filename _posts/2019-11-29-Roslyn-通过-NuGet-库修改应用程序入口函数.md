@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 NuGet 库修改应用程序入口函数"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2019/11/29 8:37:49
 categories: Roslyn MSBuild 编译器
 ---
@@ -26,7 +26,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- ![](image/Roslyn 通过 NuGet 库修改应用程序入口函数/Roslyn 通过 NuGet 库修改应用程序入口函数0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019421164746788)
+![](http://cdn.lindexi.site/lindexi%2F2019421164746788)
 
 安装完成可以在用户名的 .nuget 文件夹找到
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 国产系统上安装 MonoDevelop 开发工具"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2020/8/31 19:50:35
 categories: dotnet
 ---
@@ -62,5 +62,5 @@ sudo apt-get install monodevelop
 
 <!-- ![](image/dotnet 在 UOS 国产系统上安装 MonoDevelop 开发工具/dotnet 在 UOS 国产系统上安装 MonoDevelop 开发工具0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20208311957535612.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20208311957535612.jpg)
 

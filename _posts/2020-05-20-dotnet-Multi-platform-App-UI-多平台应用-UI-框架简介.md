@@ -1,7 +1,7 @@
 ---
 title: "dotnet Multi-platform App UI 多平台应用 UI 框架简介"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 5/20/2020 8:38:04 AM
 categories: dotnet
 ---
@@ -21,7 +21,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet Multi-platform App UI 多平台应用 UI 框架简介/dotnet Multi-platform App UI 多平台应用 UI 框架简介0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020520843305122.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020520843305122.jpg)
 
 ## 什么是 .NET MAUI 框架
 
@@ -35,7 +35,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet Multi-platform App UI 多平台应用 UI 框架简介/dotnet Multi-platform App UI 多平台应用 UI 框架简介1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020520851548517.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020520851548517.jpg)
 
 如上图所示，这提供了：
 

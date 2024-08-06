@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 通过外部调试方法快速调试库代码"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/2/14 22:01:37
 categories: VisualStudio
 ---
@@ -30,7 +30,7 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](image/VisualStudio 通过外部调试方法快速调试库代码/VisualStudio 通过外部调试方法快速调试库代码0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019214202049612)
+![](http://cdn.lindexi.site/lindexi%2F2019214202049612)
 
 这时打开 WPF 的 App.xaml.cs 文件，创建构造函数，在构造函数使用 Foo 类
 
@@ -64,13 +64,13 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](image/VisualStudio 通过外部调试方法快速调试库代码/VisualStudio 通过外部调试方法快速调试库代码1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019214205621510)
+![](http://cdn.lindexi.site/lindexi%2F2019214205621510)
 
 然后输入 WPF 程序的 exe 所在路径
 
 <!-- ![](image/VisualStudio 通过外部调试方法快速调试库代码/VisualStudio 通过外部调试方法快速调试库代码2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019214205738829)
+![](http://cdn.lindexi.site/lindexi%2F2019214205738829)
 
 如果这个 dotnet core 程序被多个项目引用，希望能在不同的引用的程序调试请看[VisualStudio 使用多个环境进行调试](https://lindexi.gitee.io/post/VisualStudio-%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AA%E7%8E%AF%E5%A2%83%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95.html )
 
@@ -78,7 +78,7 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](image/VisualStudio 通过外部调试方法快速调试库代码/VisualStudio 通过外部调试方法快速调试库代码3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201921421357443)
+![](http://cdn.lindexi.site/lindexi%2F201921421357443)
 
 现在尝试在 Foo 类加上断点，然后按下 F5 调试
 
@@ -86,13 +86,13 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](image/VisualStudio 通过外部调试方法快速调试库代码/VisualStudio 通过外部调试方法快速调试库代码4.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20192142163832)
+![](http://cdn.lindexi.site/lindexi%2F20192142163832)
 
 尝试修改一下里面的内容
 
 <!-- ![](image/VisualStudio 通过外部调试方法快速调试库代码/VisualStudio 通过外部调试方法快速调试库代码5.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20192142179341)
+![](http://cdn.lindexi.site/lindexi%2F20192142179341)
 
 可以继续运行，同时修改了输入
 
@@ -116,7 +116,7 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](image/VisualStudio 通过外部调试方法快速调试库代码/VisualStudio 通过外部调试方法快速调试库代码6.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019214213527111)
+![](http://cdn.lindexi.site/lindexi%2F2019214213527111)
 
 如果是添加一个参数之后再调试，就会发现 System.MissingMethodException 找不到方法
 
@@ -128,7 +128,7 @@ System.MissingMethodException:“Method not found: 'Void DirtesFanelsalmair.Foo.
 
 <!-- ![](image/VisualStudio 通过外部调试方法快速调试库代码/VisualStudio 通过外部调试方法快速调试库代码7.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019214213719716)
+![](http://cdn.lindexi.site/lindexi%2F2019214213719716)
 
 但是如果我添加了默认的参数是有影响，如下面代码
 

@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用不安全代码快速从数组转 WriteableBitmap"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:40 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: WPF
 ---
@@ -92,21 +92,21 @@ Bitmap 的数据类型可以是任意，因为只是把他的数据转换到 Wri
 
 对比一下性能，这时原先的 BitmapSource 方法占用内存
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017119165352.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017119165352.jpg)
 
 这是使用不安全代码占用内存
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171110102410.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171110102410.jpg)
 
 实际跑一张 gif 图的性能
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017%25E5%25B9%25B411%25E6%259C%258810%25E6%2597%25A5%2520111339.gif)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017%25E5%25B9%25B411%25E6%259C%258810%25E6%2597%25A5%2520111339.gif)
 
 可以看到这个方法可以节省很多的内存，而且占用的 cpu 很低，因为没有很多gc
 
 但是不要太高兴，因为不安全代码的exception是接不住的，下面请修改一下代码，让他输入错误，于是就出现异常，结果程序就关了。
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171110102647.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171110102647.jpg)
 
 所以使用这个方法还是很大的坑。
 

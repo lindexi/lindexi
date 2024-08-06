@@ -1,7 +1,7 @@
 ---
 title: "WPF 形状的 StrokeThickness 属性对边框的影响"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:41 +0800
 CreateTime: 2021/3/11 19:51:05
 categories: WPF
 ---
@@ -31,7 +31,7 @@ categories: WPF
 
 <!-- ![](image/WPF 形状的 StrokeThickness 属性对边框的影响/WPF 形状的 StrokeThickness 属性对边框的影响0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021311195398712.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021311195398712.jpg)
 
 这个行为和 SVG 上的行为是相同的
 
@@ -48,7 +48,7 @@ categories: WPF
 
 <!-- ![](image/WPF 形状的 StrokeThickness 属性对边框的影响/WPF 形状的 StrokeThickness 属性对边框的影响1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021311195526422.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021311195526422.jpg)
 
 我比较推荐 WPF 的这个设计，固定了矩形的宽度和高度，那么边框的大小是向内的。因为这样设计起来比较好计算
 
@@ -67,7 +67,7 @@ categories: WPF
 
 <!-- ![](image/WPF 形状的 StrokeThickness 属性对边框的影响/WPF 形状的 StrokeThickness 属性对边框的影响2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20213112018544.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20213112018544.jpg)
 
 设计器上的蓝色的选择框表示的是形状的大小和坐标，可以看到 StrokeThickness 是在 100 100 的大小内
 

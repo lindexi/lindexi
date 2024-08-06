@@ -1,7 +1,7 @@
 ---
 title: "dotnet 启动 JIT 多核心编译提升启动性能"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2019/8/31 16:55:58
 categories: dotnet
 ---
@@ -89,7 +89,7 @@ else
 
 <!-- ![](image/dotnet 启动 JIT 多核心编译提升启动性能/dotnet 启动 JIT 多核心编译提升启动性能0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201931163451479)
+![](http://cdn.lindexi.site/lindexi%2F201931163451479)
 
 在 dotnet core 还可以使用[阶梯编译](https://blog.lindexi.com/post/dotnet-core-2.1-%E4%BD%BF%E7%94%A8%E9%98%B6%E6%A2%AF%E7%BC%96%E8%AF%91.html ) 在软件启动的过程使用到的方法都使用快速编译的方法，减少JIT执行的时间
  

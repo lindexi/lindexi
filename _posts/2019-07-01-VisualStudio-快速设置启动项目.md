@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 快速设置启动项目"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/7/1 14:37:38
 categories: VisualStudio
 ---
@@ -38,7 +38,7 @@ Project.SetasStartUpProject
 
 <!-- ![](image/VisualStudio 快速设置启动项目/VisualStudio 快速设置启动项目0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201971142743883)
+![](http://cdn.lindexi.site/lindexi%2F201971142743883)
 
 然后分配一个快捷键给他就可以
 

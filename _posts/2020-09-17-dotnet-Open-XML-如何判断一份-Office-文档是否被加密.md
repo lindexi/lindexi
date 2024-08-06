@@ -1,7 +1,7 @@
 ---
 title: "dotnet Open XML 如何判断一份 Office 文档是否被加密"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2020/9/17 19:15:50
 categories: dotnet
 ---
@@ -81,7 +81,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet Open XML 如何判断一份 Office 文档是否被加密/dotnet Open XML 如何判断一份 Office 文档是否被加密0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020917193654934.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020917193654934.jpg)
 
 而在 Office 的解密方法就是使用用户输入的密码和 EncryptionInfo 内容判断，然后解压缩 EncryptedPackage 文件，所以上面的判断大概是对的
 

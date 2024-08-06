@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 输出调试信息到 DebugView 软件"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2019/11/29 10:14:03
 categories: dotnet
 ---
@@ -42,7 +42,7 @@ using System.Diagnostics;
 
 另外如果需要使用 Trace 输出要求勾选生成的 Trace 命令
 
-![](http://image.acmx.xyz/lindexi%2F201851615734398.jpg)
+![](http://cdn.lindexi.site/lindexi%2F201851615734398.jpg)
 
 官网：[DebugView](https://docs.microsoft.com/en-us/sysinternals/downloads/debugview )
 

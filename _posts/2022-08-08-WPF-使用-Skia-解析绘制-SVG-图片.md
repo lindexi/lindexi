@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Skia 解析绘制 SVG 图片"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:40 +0800
 CreateTime: 2022/8/8 19:28:27
 categories: WPF
 ---
@@ -19,7 +19,7 @@ categories: WPF
 
 <!-- ![](image/WPF 使用 Skia 解析绘制 SVG 图片/WPF 使用 Skia 解析绘制 SVG 图片0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2022881931555567.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2022881931555567.jpg)
 
 详细请看 [https://github.com/mono/SkiaSharp.Extended/issues/87#issuecomment-552113673](https://github.com/mono/SkiaSharp.Extended/issues/87#issuecomment-552113673)
 

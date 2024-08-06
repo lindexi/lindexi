@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 WinDbg 调试"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2019/8/31 10:30:35
 categories: Win10 UWP
 ---
@@ -27,7 +27,7 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 使用 WinDbg 调试/win10 uwp 使用 WinDbg 调试0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20198319345802)
+![](http://cdn.lindexi.site/lindexi%2F20198319345802)
 
 用这个版本输入下面代码将会提示 `Syntax error in '.querypackages'` 也就是不支持 UWP 调试
 
@@ -40,7 +40,7 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 使用 WinDbg 调试/win10 uwp 使用 WinDbg 调试1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201983193552220)
+![](http://cdn.lindexi.site/lindexi%2F201983193552220)
 
 ## 附加进程调试
 

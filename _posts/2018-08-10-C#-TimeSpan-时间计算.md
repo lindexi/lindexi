@@ -1,7 +1,7 @@
 ---
 title: "C# TimeSpan 时间计算"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:24 +0800
 CreateTime: 2018/8/10 19:16:51
 categories: C# C#入门
 ---
@@ -77,5 +77,5 @@ Task.Delay(needCount)
 
 尝试不使用 TimeSpan 想想需要怎么写
 
-![](http://image.acmx.xyz/lindexi%2F2018612935409133.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018612935409133.jpg)
 

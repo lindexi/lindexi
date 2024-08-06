@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过依赖注入的 Scoped 给工作流注入相同的上下文信息"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 7/7/2020 2:53:44 PM
 categories: dotnet
 ---
@@ -20,7 +20,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet 通过依赖注入的 Scoped 给工作流注入相同的上下文信息/dotnet 通过依赖注入的 Scoped 给工作流注入相同的上下文信息0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020771455267861.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020771455267861.jpg)
 
 如上图，假定有三个步骤，分别是 F1 和 F2 和 F3 三个步骤，此时有3个任务同时进来。而我期望能够在日志里面的相关输出能包含当前的步骤在执行的任务是哪一个
 

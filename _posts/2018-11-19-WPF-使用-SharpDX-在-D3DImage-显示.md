@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDX 在 D3DImage 显示"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:40 +0800
 CreateTime: 2018/11/19 15:38:35
 categories: WPF D2D DirectX SharpDX 渲染
 ---
@@ -68,7 +68,7 @@ categories: WPF D2D DirectX SharpDX 渲染
 
 因为没有直接从 Direct2D 到 D3D 显示的方法，下面需要告诉大家如何在 D3D11 显示 Direct2D 然后通过相同的格式转 D3D9 最后把缓冲区指针显示。
 
-![](http://image.acmx.xyz/lindexi%2F2018422932386479.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018422932386479.jpg)
 
 ## D3D 设备
 
@@ -308,7 +308,7 @@ using D3D9 = SharpDX.Direct3D9;
 
 <!-- ![](image/WPF 使用 SharpDX 在 D3DImage 显示/WPF 使用 SharpDX 在 D3DImage 显示0.gif) -->
 
-![](http://image.acmx.xyz/lindexi%2F5a1386e7414d2799ba2116a18fee85c0.gif)
+![](http://cdn.lindexi.site/lindexi%2F5a1386e7414d2799ba2116a18fee85c0.gif)
 
 建议复制一下我的代码，在自己的vs粘贴，尝试跑一下，然后继续看博客。
 

@@ -1,7 +1,7 @@
 ---
 title: "WPF 如何在 WriteableBitmap 写文字"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:41 +0800
 CreateTime: 2018/12/25 9:13:57
 categories: WPF
 ---
@@ -102,7 +102,7 @@ categories: WPF
 
 这样运行就可以看到文字，而且这个方法的性能比较好
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201712151723520171220103729.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201712151723520171220103729.jpg)
 
 因为我没有设置文字大小和显示的大小，所以看起来文字就没有那么清晰
 

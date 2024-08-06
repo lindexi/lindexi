@@ -1,7 +1,7 @@
 ---
 title: "WPF 如何知道当前有多少个 DispatcherTimer 在运行"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:41 +0800
 CreateTime: 2021/4/27 8:48:17
 categories: WPF
 ---
@@ -42,19 +42,19 @@ categories: WPF
 
 <!-- ![](image/WPF 如何知道当前有多少个 DispatcherTime 在运行/WPF 如何知道当前有多少个 DispatcherTime 在运行0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021427848391412.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021427848391412.jpg)
 
 进入 VisualStudio 的监视界面，输入 `System.Windows.Threading.Dispatcher.CurrentDispatcher._timers` 即可了解当前主线程有多少个 DispatcherTime 定时器在运行。根据 Dispatcher.CurrentDispatcher 的定义，此 CurrentDispatcher 是 ThreadStatic 线程静态，因此以上调试断点必须落在主线程执行的代码
 
 <!-- ![](image/WPF 如何知道当前有多少个 DispatcherTime 在运行/WPF 如何知道当前有多少个 DispatcherTime 在运行1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021427850496549.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021427850496549.jpg)
 
 如进一步了解当前的 DispatcherTimer 定时器是由哪个业务模块定义的，可以通过 `Tick` 委托找到对应的业务模块，如下图
 
 <!-- ![](image/WPF 如何知道当前有多少个 DispatcherTime 在运行/WPF 如何知道当前有多少个 DispatcherTime 在运行2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202142785269796.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202142785269796.jpg)
 
 通过 `Tick` 委托可以了解到是哪个类的哪个方法，通过静态代码可以找到业务
 
@@ -66,7 +66,7 @@ categories: WPF
 
 <!-- ![](image/WPF 如何知道当前有多少个 DispatcherTime 在运行/WPF 如何知道当前有多少个 DispatcherTime 在运行3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202142797477989.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202142797477989.jpg)
 
 加载符号时需要一点网络，基本上都能加载成功。为什么需要加载 WindowsBase.dll 的符号？原因是 System.Windows.Threading.DispatcherTimer 定义在 WindowsBase 程序集
 
@@ -74,14 +74,14 @@ categories: WPF
 
 <!-- ![](image/WPF 如何知道当前有多少个 DispatcherTime 在运行/WPF 如何知道当前有多少个 DispatcherTime 在运行5.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20214279105514.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20214279105514.jpg)
 
 
 输入调试的函数，进行断点，如断点放在 `System.Windows.Threading.DispatcherTimer.Start` 函数里面，当然，这只是一个例子
 
 <!-- ![](image/WPF 如何知道当前有多少个 DispatcherTime 在运行/WPF 如何知道当前有多少个 DispatcherTime 在运行6.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021427911339141.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021427911339141.jpg)
 
 这样在触发 DispatcherTimer.Start 函数将会进入断点
 
@@ -89,13 +89,13 @@ categories: WPF
 
 <!-- ![](image/WPF 如何知道当前有多少个 DispatcherTime 在运行/WPF 如何知道当前有多少个 DispatcherTime 在运行4.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021427910175813.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021427910175813.jpg)
 
 通过调用堆栈即可了解到当前是哪个模块调用了 DispatcherTimer.Start 函数
 
 <!-- ![](image/WPF 如何知道当前有多少个 DispatcherTime 在运行/WPF 如何知道当前有多少个 DispatcherTime 在运行7.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021427912181310.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021427912181310.jpg)
 
 以上步骤比较多，还需要大家玩一下才能了解
 

@@ -1,7 +1,7 @@
 ---
 title: "WPF 解决 StylusPlugIn 点击穿透问题"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2019/10/18 20:55:35
 categories: WPF 笔迹
 ---
@@ -79,7 +79,7 @@ categories: WPF 笔迹
 
 <!-- ![](image/WPF 解决 StylusPlugIn 点击穿透问题/WPF 解决 StylusPlugIn 点击穿透问题0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20191811622277)
+![](http://cdn.lindexi.site/lindexi%2F20191811622277)
 
 此时摸到了 `林德熙是逗比` 的元素，在 JallsiniPeagelJurnarbe 还是可以收到触摸的消息，如果是通过 JallsiniPeagelJurnarbe 做书写，那么就会发现在 `林德熙是逗比` 的元素后面进行了书写，此时在 `林德熙是逗比` 的元素的 Down Move 函数使用 `e.Handle = true` 也没有用，因为 StylusPlugIn 走的不是路由事件
 
@@ -110,7 +110,7 @@ categories: WPF 笔迹
 
 从底层元素按下，然后移动到说德熙是逗比的元素上，接着移到底层元素上抬起
 
-![](http://image.acmx.xyz/lindexi%2F201918145941588)
+![](http://cdn.lindexi.site/lindexi%2F201918145941588)
 
 <!-- ![](image/WPF 解决 StylusPlugIn 点击穿透问题/WPF 解决 StylusPlugIn 点击穿透问题 1.gif) -->
 
@@ -128,7 +128,7 @@ categories: WPF 笔迹
 
 如果是从说德熙是逗比的元素上按下，然后移动到底层元素，请看下图
 
-![](http://image.acmx.xyz/lindexi%2F20191815441309)
+![](http://cdn.lindexi.site/lindexi%2F20191815441309)
 
 <!-- ![](image/WPF 解决 StylusPlugIn 点击穿透问题/WPF 解决 StylusPlugIn 点击穿透问题 2.gif) -->
 

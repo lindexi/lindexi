@@ -1,7 +1,7 @@
 ---
 title: "安装 wordpress 出现 抱歉，我不能写入wp-config.php文件"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:44 +0800
 CreateTime: 2018/8/10 19:16:51
 categories: 
 ---
@@ -32,7 +32,7 @@ categories:
 抱歉，我不能写入wp-config.php文件
 ```
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201832125330.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201832125330.jpg)
 
 那么需要拷贝这个内容，注意在文件最后添加 `?>`
 
@@ -65,7 +65,7 @@ vi  wp-config.php
 
 这时可以看到一些奇怪的代码，不过直接返回安装的页面，也就是`http://你的网站/` 就可以看到这个页面
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20183213250.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20183213250.jpg)
 
 写自己的账号密码就好
 

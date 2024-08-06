@@ -1,7 +1,7 @@
 ---
 title: "C# 从 short 转 byte 方法"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:24 +0800
 CreateTime: 2019/4/29 12:08:39
 categories: C#
 ---
@@ -43,5 +43,5 @@ short converted = BitConverter.ToInt16(numberBytes);
 
 https://stackoverflow.com/q/1442583/6116637
 
-![](http://image.acmx.xyz/lindexi%2F201942912529158)
+![](http://cdn.lindexi.site/lindexi%2F201942912529158)
 

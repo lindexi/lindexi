@@ -1,7 +1,7 @@
 ---
 title: "resharper 跳转到源代码"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: 
 ---
@@ -19,7 +19,7 @@ resharper 可以使用 ctrl+b 跳转到源代码，但是如果使用库的源�
 
 打开 tool->External xx 
 
-![](http://image.acmx.xyz/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017510102722.jpg)
+![](http://cdn.lindexi.site/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017510102722.jpg)
 
 选择跳转到源代码，点击确定，这样就可以让他跳转到源代码
 

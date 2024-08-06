@@ -1,7 +1,7 @@
 ---
 title: "Win10 的 WPF 程序的 wisptis 服务是附加到进程的窗口"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:38 +0800
 CreateTime: 2020/7/30 17:19:49
 categories: WPF Win10
 ---
@@ -19,7 +19,7 @@ categories: WPF Win10
 
 <!-- ![](image/Win10 的 WPF 程序的 wisptis 服务是附加到进程的窗口/Win10 的 WPF 程序的 wisptis 服务是附加到进程的窗口0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20207301722262659.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20207301722262659.jpg)
 
 更多关于 WPF 触摸请看
 

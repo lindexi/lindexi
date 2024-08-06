@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 不正经的提升效率的单元测试方法"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:23 +0800
 CreateTime: 2020/2/1 17:04:53
 categories: dotnet
 ---
@@ -50,7 +50,7 @@ public class DemoTest
 
 运行单元测试将看到这样的结果视图
 
-![](http://image.acmx.xyz/lindexi%2F20202111018744.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20202111018744.jpg)
 
 只要有任何一个单元测试炸了，相信小伙伴看提示特别快就知道哪里炸了
 

@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 扩展开发 添加输出窗口"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/2/3 11:41:40
 categories:  VisualStudio
 ---
@@ -39,7 +39,7 @@ categories:  VisualStudio
 
 <!-- ![](image/VisualStudio 扩展开发 添加输出窗口/VisualStudio 扩展开发 添加输出窗口0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20192395555251)
+![](http://cdn.lindexi.site/lindexi%2F20192395555251)
 
 也就是调用一个方法，这个方法是自己写的
 
@@ -100,7 +100,7 @@ categories:  VisualStudio
 
 <!-- ![](image/VisualStudio 扩展开发 添加输出窗口/VisualStudio 扩展开发 添加输出窗口1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201923102029610)
+![](http://cdn.lindexi.site/lindexi%2F201923102029610)
 
 除了通过 [SVsOutputWindow](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.interop.svsoutputwindow?redirectedfrom=MSDN&view=visualstudiosdk-2017 ) 创建输出窗口，还可以使用 OutputWindow 创建输出窗口
 
@@ -197,7 +197,7 @@ void CreatePane(string title)
 
 <!-- ![](image/VisualStudio 扩展开发 添加输出窗口/VisualStudio 扩展开发 添加输出窗口2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201923103441364)
+![](http://cdn.lindexi.site/lindexi%2F201923103441364)
 
 但是通过 OutputWindow 的方法获取不是很好，因为有多语言，可能在日本使用的调试窗口写的是デバッグ可能写的插件只能在自己的语言使用，所以还是建议使用 GUID 的方法创建
 

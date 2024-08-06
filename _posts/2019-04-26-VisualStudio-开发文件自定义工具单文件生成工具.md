@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 开发文件自定义工具单文件生成工具"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/4/26 10:49:32
 categories: VisualStudio
 ---
@@ -109,7 +109,7 @@ categories: VisualStudio
 
 <!-- ![](image/VisualStudio 开发文件自定义工具单文件生成工具/VisualStudio 开发文件自定义工具单文件生成工具0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20194261033760)
+![](http://cdn.lindexi.site/lindexi%2F20194261033760)
 
 此时就可以看到代码运行，输出的林德熙是逗比将会写入到 Foo.txt 下面的 Foo.generated.cs 文件里面
 

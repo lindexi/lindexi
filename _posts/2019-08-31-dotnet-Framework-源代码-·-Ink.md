@@ -1,7 +1,7 @@
 ---
 title: "dotnet Framework 源代码 · Ink"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2019/8/31 16:55:58
 categories: .net Framework 源代码分析 WPF ink 笔迹 dotnet WPF源代码
 ---
@@ -72,7 +72,7 @@ categories: .net Framework 源代码分析 WPF ink 笔迹 dotnet WPF源代码
 
 在收到抬起的时候，可以看到 StylusPlugIns 拿到的时间比元素收到的快 15 毫秒，在笔迹里，如果能快 15 毫秒是给用户体验很好。
 
-![](http://image.acmx.xyz/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F201832281435.jpg)
+![](http://cdn.lindexi.site/65fb6078-c169-4ce3-cdd9-e35752d07be0%2F201832281435.jpg)
 
 而且在移动的时候，可以看到 StylusPlugIns 收到移动的次数比从元素拿到的多，所以可以画出更加好看的线。
 

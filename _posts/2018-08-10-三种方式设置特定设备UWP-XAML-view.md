@@ -1,7 +1,7 @@
 ---
 title: "三种方式设置特定设备UWP XAML view"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: UWP
 ---
@@ -40,7 +40,7 @@ categories: UWP
 
 在我们的解决方案新建一个文件夹，我们这里在手机Mobile
 
-![](http://image.acmx.xyz/16-4-6/21773005.jpg)
+![](http://cdn.lindexi.site/16-4-6/21773005.jpg)
 
 我们在新建DeviceFamily-Mobile新建xaml，MainPage
 

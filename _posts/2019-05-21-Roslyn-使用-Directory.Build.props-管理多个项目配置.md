@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 使用 Directory.Build.props 管理多个项目配置"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2019/5/21 11:35:52
 categories: Roslyn MSBuild 编译器
 ---
@@ -29,7 +29,7 @@ categories: Roslyn MSBuild 编译器
 
 <!-- ![](image/Roslyn 使用 Directory.Build.props 管理多个项目配置/Roslyn 使用 Directory.Build.props 管理多个项目配置0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018920151353506)
+![](http://cdn.lindexi.site/lindexi%2F2018920151353506)
 
 我创建了 Build 文件夹，这个文件夹里面就放一个文件，这个文件就是管理版本号
 

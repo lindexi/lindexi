@@ -1,7 +1,7 @@
 ---
 title: "WPF 控件 Content 的内容不显示下划线字符串"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:41 +0800
 CreateTime: 2019/10/16 9:21:32
 categories: WPF
 ---
@@ -26,13 +26,13 @@ categories: WPF
 
 <!-- ![](image/WPF 控件 Content 的内容不显示下划线字符串/WPF 控件 Content 的内容不显示下划线字符串0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019101691346786)
+![](http://cdn.lindexi.site/lindexi%2F2019101691346786)
 
 如果此时在界面按下了 Alt 键，将会看到 `Text_Content` 中的 `C` 添加了下划线
 
 <!-- ![](image/WPF 控件 Content 的内容不显示下划线字符串/WPF 控件 Content 的内容不显示下划线字符串1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019101691447318)
+![](http://cdn.lindexi.site/lindexi%2F2019101691447318)
 
 按下 Alt + C 就可以选中这个按钮
 
@@ -56,7 +56,7 @@ categories: WPF
 
 <!-- ![](image/WPF 控件 Content 的内容不显示下划线字符串/WPF 控件 Content 的内容不显示下划线字符串2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019101691931375)
+![](http://cdn.lindexi.site/lindexi%2F2019101691931375)
 
 或者将 Content 里面添加文本控件
 

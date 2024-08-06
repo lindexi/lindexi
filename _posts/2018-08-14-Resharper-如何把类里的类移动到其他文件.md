@@ -1,7 +1,7 @@
 ---
 title: "Resharper 如何把类里的类移动到其他文件"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2018/8/14 17:34:39
 categories: Resharper
 ---
@@ -38,7 +38,7 @@ categories: Resharper
 
 然后选择 B ，按 ctrl+shift+R
 
-![](http://image.acmx.xyz/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F201732420813.jpg)
+![](http://cdn.lindexi.site/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F201732420813.jpg)
 
 移动到其他文件，第一个
 

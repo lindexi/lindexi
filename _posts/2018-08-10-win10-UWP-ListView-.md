@@ -1,7 +1,7 @@
 ---
 title: "win10 UWP ListView "
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: Win10 UWP
 ---
@@ -56,7 +56,7 @@ categories: Win10 UWP
 
 这时可以设置元素的宽度，或者高度，这样可以做出下面的效果。
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811121814.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811121814.jpg)
 
 ## 选中显示元素
 
@@ -192,7 +192,7 @@ categories: Win10 UWP
 
 这个方法是比较差的，但是可以使用
 
-![](http://image.acmx.xyz/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017%25E5%25B9%25B44%25E6%259C%258818%25E6%2597%25A5%2520090629.gif)
+![](http://cdn.lindexi.site/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017%25E5%25B9%25B44%25E6%259C%258818%25E6%2597%25A5%2520090629.gif)
 
 参见：http://stackoverflow.com/questions/43461819/the-listviewitem-style-cant-trigger-unselected
 

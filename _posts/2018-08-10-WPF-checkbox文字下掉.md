@@ -1,7 +1,7 @@
 ---
 title: "WPF checkbox文字下掉"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: WPF
 ---
@@ -15,7 +15,7 @@ categories: WPF
 
 <div id="toc"></div>
 
-![](http://image.acmx.xyz/2af64c0d-f144-4f44-985d-3e155a8209532016121185647.jpg)
+![](http://cdn.lindexi.site/2af64c0d-f144-4f44-985d-3e155a8209532016121185647.jpg)
 
 可以使用
 

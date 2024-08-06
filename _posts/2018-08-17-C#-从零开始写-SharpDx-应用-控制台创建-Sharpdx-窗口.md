@@ -1,7 +1,7 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 控制台创建 Sharpdx 窗口"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:25 +0800
 CreateTime: 2018/8/17 9:03:36
 categories: C# D2D DirectX SharpDX Direct2D 渲染
 ---
@@ -22,7 +22,7 @@ categories: C# D2D DirectX SharpDX Direct2D 渲染
 
 <!-- ![](image/C# 控制台创建 Sharpdx 窗口/C# 控制台创建 Sharpdx 窗口0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018618211811713.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018618211811713.jpg)
 
 ## 下载
 

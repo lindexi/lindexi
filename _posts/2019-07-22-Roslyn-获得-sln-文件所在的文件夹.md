@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 获得 sln 文件所在的文件夹"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2019/7/22 8:57:14
 categories: Roslyn MSBuild 编译器
 ---
@@ -62,5 +62,5 @@ categories: Roslyn MSBuild 编译器
 
 更多请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html )
 
-![](http://image.acmx.xyz/lindexi%2F2019123205745682)
+![](http://cdn.lindexi.site/lindexi%2F2019123205745682)
 

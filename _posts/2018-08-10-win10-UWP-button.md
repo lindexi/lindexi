@@ -1,7 +1,7 @@
 ---
 title: "win10 UWP button"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: Win10 UWP
 ---
@@ -295,7 +295,7 @@ button可以设置属性，使用资源
 
 ## 点击进度条按钮
 
-![](http://image.acmx.xyz/bae3aa76-b425-4667-92dd-3e59e0987cbaProgressButton.gif)
+![](http://cdn.lindexi.site/bae3aa76-b425-4667-92dd-3e59e0987cbaProgressButton.gif)
 
 https://github.com/lindexi/uwp/tree/master/uwp/control/Button
 

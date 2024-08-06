@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 编程规范"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: dotnet
 ---
@@ -120,5 +120,5 @@ while (x == y)
 
 原文：[coding-style.md](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md )
 
-![](http://image.acmx.xyz/lindexi%2F2018571237288065.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018571237288065.jpg)
 

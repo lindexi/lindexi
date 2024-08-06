@@ -1,7 +1,7 @@
 ---
 title: "C# 如何引用 WshShell 类"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:25 +0800
 CreateTime: 2019/8/31 16:55:58
 categories: C#
 ---
@@ -20,7 +20,7 @@ categories: C#
 
 <!-- ![](image/C# 如何引用 WshShell 类/C# 如何引用 WshShell 类0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019319102415818)
+![](http://cdn.lindexi.site/lindexi%2F2019319102415818)
 
 添加命名空间 `using IWshRuntimeLibrary;` 就可以使用了
 

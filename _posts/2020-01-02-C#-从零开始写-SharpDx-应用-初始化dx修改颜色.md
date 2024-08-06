@@ -1,7 +1,7 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 初始化dx修改颜色"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:24 +0800
 CreateTime: 2020/1/2 19:20:07
 categories: C# D2D DirectX SharpDX Direct2D
 ---
@@ -198,7 +198,7 @@ using SharpDX.Direct3D;
 
 <!-- ![](image/C# 从零开始写 SharpDx 应用 初始化dx修改颜色/C# 从零开始写 SharpDx 应用 初始化dx修改颜色0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201872164929884.jpg)
+![](http://cdn.lindexi.site/lindexi%2F201872164929884.jpg)
 
 ## 修改颜色
 
@@ -236,7 +236,7 @@ using SharpDX.Direct3D;
 
 <!-- ![](image/C# 从零开始写 SharpDx 应用 初始化dx修改颜色/C# 从零开始写 SharpDx 应用 初始化dx修改颜色1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20181020172328699)
+![](http://cdn.lindexi.site/lindexi%2F20181020172328699)
 
 更多关于渲染管线请看 [渲染管线 - 冠位仓鼠 - CSDN博客](https://blog.csdn.net/u010333737/article/details/78556583?utm_source=blogxgwz1 )
 

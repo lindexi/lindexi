@@ -1,7 +1,7 @@
 ---
 title: "WPF 漂亮的现代化控件 新 ModernWPF 界面库"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2020/9/10 20:01:15
 categories: WPF
 ---
@@ -21,7 +21,7 @@ categories: WPF
 
 <!-- ![](image/WPF 漂亮的现代化控件 新 ModernWPF 界面库/WPF 漂亮的现代化控件 新 ModernWPF 界面库0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020910202507110.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020910202507110.jpg)
 
 使用方法简单，从 NuGet 上安装 ModernWpfUI 库，然后打开 App.xaml 添加下面代码
 

@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 如何使用 MSBuild Copy 复制文件"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2020/1/19 14:56:19
 categories: Roslyn MSBuild 编译器
 ---
@@ -58,7 +58,7 @@ D:\林德熙\代码\测试代码\CemfeetoQewasXaiki\CemfeetoQewasXaiki.csproj : 
 
 重新生成项目，可以看到文件夹存在文件
 
-![](http://image.acmx.xyz/lindexi%2F2018710103796940.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018710103796940.jpg)
 
 如果刚才没有创建 文件，复制时找不到文件，就会出现在重新编译出现无法编译
 

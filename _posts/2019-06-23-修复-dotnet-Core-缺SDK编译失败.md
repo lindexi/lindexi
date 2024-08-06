@@ -1,7 +1,7 @@
 ---
 title: "修复 dotnet Core 缺SDK编译失败"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:43 +0800
 CreateTime: 2019/6/23 10:55:09
 categories: dotnet
 ---
@@ -20,7 +20,7 @@ categories: dotnet
 .NETCore SDK Not Found
 ```
 
-![](http://image.acmx.xyz/5c82777e-6e2b-4d9b-a07f-5d83e2ae2cd7201612485939.jpg)
+![](http://cdn.lindexi.site/5c82777e-6e2b-4d9b-a07f-5d83e2ae2cd7201612485939.jpg)
 
 需要判断现在使用是Vs2015或VS2017版本
 

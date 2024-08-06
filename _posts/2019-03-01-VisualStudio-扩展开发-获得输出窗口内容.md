@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 扩展开发 获得输出窗口内容"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/3/1 9:21:41
 categories:  VisualStudio
 ---
@@ -77,7 +77,7 @@ categories:  VisualStudio
 
 <!-- ![](image/VisualStudio 扩展开发 获得输出窗口内容/VisualStudio 扩展开发 获得输出窗口内容0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20192399836)
+![](http://cdn.lindexi.site/lindexi%2F20192399836)
 
 这里的一个就是一个 Pane 都是在输出窗口里面
 

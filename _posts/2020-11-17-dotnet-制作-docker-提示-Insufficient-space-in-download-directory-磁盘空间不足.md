@@ -1,7 +1,7 @@
 ---
 title: "dotnet 制作 docker 提示 Insufficient space in download directory 磁盘空间不足"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2020/11/17 20:04:49
 categories: dotnet
 ---
@@ -64,5 +64,5 @@ The command '/bin/sh -c yum update' returned a non-zero code: 1
 
 <!-- ![](image/dotnet 制作 docker 提示 Insufficient space in download directory 磁盘空间不足/dotnet 制作 docker 提示 Insufficient space in download directory 磁盘空间不足0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020111720513525.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020111720513525.jpg)
 

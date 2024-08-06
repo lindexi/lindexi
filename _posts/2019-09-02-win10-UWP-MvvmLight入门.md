@@ -1,7 +1,7 @@
 ---
 title: "win10 UWP MvvmLight入门"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:38 +0800
 CreateTime: 2019/9/2 12:57:38
 categories: Win10 UWP
 ---
@@ -22,7 +22,7 @@ categories: Win10 UWP
 
 右击项目，管理Nuget，搜索MVVM
 
-![](http://image.acmx.xyz/bb831a25-a924-4819-aa80-5b273267c5a120161127165650.jpg)
+![](http://cdn.lindexi.site/bb831a25-a924-4819-aa80-5b273267c5a120161127165650.jpg)
 
 安装第二个。他包含了运行的类库，我们将会使用里面的一些类。关于lib包含的库，参见：http://www.cnblogs.com/manupstairs/p/4890300.html
 

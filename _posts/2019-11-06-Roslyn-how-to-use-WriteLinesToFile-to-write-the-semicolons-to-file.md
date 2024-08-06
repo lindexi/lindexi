@@ -1,7 +1,7 @@
 ---
 title: "Roslyn how to use WriteLinesToFile to write the semicolons to file"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2019/11/6 19:13:42
 categories: Roslyn MSBuild 编译器
 ---
@@ -30,7 +30,7 @@ The first thing is the code include quotation mark that we can not write the cod
 
 <!-- ![](image/Roslyn how to use WriteLinesToFile to write the semicolons to file/Roslyn how to use WriteLinesToFile to write the semicolons to file0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018111161758689)
+![](http://cdn.lindexi.site/lindexi%2F2018111161758689)
 
 We can use property item with "CDATA" that CDATA is defined as blocks of text that are not parsed by the parser. 
 
@@ -86,7 +86,7 @@ After you run the target, you can find a file named lindexi.cs added in your pro
 
 <!-- ![](image/Roslyn how to use WriteLinesToFile to write the semicolons to file/Roslyn how to use WriteLinesToFile to write the semicolons to file1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018111162627461)
+![](http://cdn.lindexi.site/lindexi%2F2018111162627461)
 
 Please open the file and then you can find the content in the file include the semicolons character.
 

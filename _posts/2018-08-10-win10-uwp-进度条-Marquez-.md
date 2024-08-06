@@ -1,13 +1,13 @@
 ---
 title: "win10 uwp 进度条 Marquez "
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:38 +0800
 CreateTime: 2018/8/10 19:16:51
 categories: Win10 UWP
 ---
 
 本文将告诉大家，如何做一个带文字的进度条，这个进度条可以用在游戏，现在我做的挂机游戏就使用了他。
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2FMarquez.gif)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2FMarquez.gif)
 
 <!--more-->
 
@@ -19,7 +19,7 @@ categories: Win10 UWP
 
 如何做上图的效果，实际需要的是两个控件，一个是显示文字 的 TextBlock  一个是进度条。
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201764111545.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201764111545.jpg)
 
 那么如何让 文字和左边的距离变化？使用 TranslateTransform
 

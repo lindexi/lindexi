@@ -1,7 +1,7 @@
 ---
 title: "How to Integrate Microsoft.Maui.Graphics into the UNO Framework in dotnet"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:32 +0800
 CreateTime: 2024/1/29 11:46:07
 categories: dotnet
 ---
@@ -29,7 +29,7 @@ The following of this article provides a way to directly dock with UNO's Visual 
 The overall architecture reference relationship diagram is as follows:
 
 <!-- ![](image/dotnet 如何将 Microsoft.Maui.Graphics 对接到 UNO 框架/dotnet 如何将 Microsoft.Maui.Graphics 对接到 UNO 框架0.png) -->
-![](http://image.acmx.xyz/lindexi%2F20241291046424091.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20241291046424091.jpg)
 
 The Microsoft.Maui.Graphics.UnoAbstract and UnoHacker (SamplesApp) in the above figure are the parts that we will focus on next. An additional part of the work is placed on the docking code of the Uno.Skia.WPF and Uno.Skia.GTK platforms. The docking workload of the platform project is very small and the required code volume is very small.
 
@@ -242,7 +242,7 @@ In the background code, you can get the start of the docking with Microsoft.Maui
 Run the project, you can see the following interface:
 
 <!-- ![](image/dotnet 如何将 Microsoft.Maui.Graphics 对接到 UNO 框架/dotnet 如何将 Microsoft.Maui.Graphics 对接到 UNO 框架1.png) -->
-![](http://image.acmx.xyz/lindexi%2F20241291131332697.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20241291131332697.jpg)
 
 The source code mentioned in this article is available on [GitHub](https://github.com/lindexi/lindexi_gd/tree/daf3e44a853177d55e9ebb15d989e27b1e497591/KefalurcilaybelJallbuderenajel) and [Gitee](https://gitee.com/lindexi/lindexi_gd/tree/daf3e44a853177d55e9ebb15d989e27b1e497591/KefalurcilaybelJallbuderenajel). You are welcome to visit.
 

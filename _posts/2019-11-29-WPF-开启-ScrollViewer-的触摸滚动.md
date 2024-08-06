@@ -1,7 +1,7 @@
 ---
 title: "WPF 开启 ScrollViewer 的触摸滚动"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:41 +0800
 CreateTime: 2019/11/29 10:21:47
 categories: WPF
 ---
@@ -48,7 +48,7 @@ categories: WPF
 
 <!-- ![](image/WPF 开启 ScrollViewer 的触摸滚动/WPF 开启 ScrollViewer 的触摸滚动0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018122612330218)
+![](http://cdn.lindexi.site/lindexi%2F2018122612330218)
 
 同时触摸的时候没有输出
 

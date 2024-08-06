@@ -1,7 +1,7 @@
 ---
 title: "dotnet 将自动代码格式化机器人带入团队 GitLab 平台"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2021/11/30 20:36:29
 categories: git dotnet
 ---
@@ -57,7 +57,7 @@ FormatCode:
 
 <!-- ![](image/dotnet 将自动代码格式化机器人带入团队 GitLab 平台/dotnet 将自动代码格式化机器人带入团队 GitLab 平台0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20211130205183790.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20211130205183790.jpg)
 
 对于 AutomateFormatCodeAndCreateGitLabMergeRequest 命令，是支持传入丰富的参数的，参数列表如下
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 配置 Gitlab 的 Runner 做 CI 自动构建"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 2020/1/16 12:20:35
 categories: git dotnet
 ---
@@ -40,7 +40,7 @@ categories: git dotnet
 
 <!-- ![](image/dotnet 配置 Gitlab 的 Runner 做 CI 自动构建/dotnet 配置 Gitlab 的 Runner 做 CI 自动构建0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020115191542249)
+![](http://cdn.lindexi.site/lindexi%2F2020115191542249)
 
 从 gitlab 的设置点击 CI 选项
 
@@ -50,7 +50,7 @@ categories: git dotnet
 
 <!-- ![](image/dotnet 配置 Gitlab 的 Runner 做 CI 自动构建/dotnet 配置 Gitlab 的 Runner 做 CI 自动构建1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020115191657700)
+![](http://cdn.lindexi.site/lindexi%2F2020115191657700)
 
 在命令行输入 `gitlab-runner.exe register` 回车
 
@@ -58,7 +58,7 @@ categories: git dotnet
 
 <!-- ![](image/dotnet 配置 Gitlab 的 Runner 做 CI 自动构建/dotnet 配置 Gitlab 的 Runner 做 CI 自动构建2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020115191856782)
+![](http://cdn.lindexi.site/lindexi%2F2020115191856782)
 
 因为 gitlab runner 是使用 System 在虚拟机运行的，也就是在虚拟机里面需要做比较多的配置让服务可以访问到各个工具
 
@@ -76,13 +76,13 @@ categories: git dotnet
 
 下一步就是给具体的项目配置 CI 了，如果没有在项目看到这个图标，那么就是这个项目没有配置好
 
-![](http://image.acmx.xyz/lindexi%2F2020115193054852)
+![](http://cdn.lindexi.site/lindexi%2F2020115193054852)
 
 进入 General Settings 然后展开 Visibility, project features, permissions 的内容，让你的设置和我下面的图片相同
 
 <!-- ![](image/dotnet 配置 Gitlab 的 Runner 做 CI 自动构建/dotnet 配置 Gitlab 的 Runner 做 CI 自动构建3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020115193219976)
+![](http://cdn.lindexi.site/lindexi%2F2020115193219976)
 
 如果之前配置过 Jenkins 那么请到 Integrations Settings 将链接删掉
 

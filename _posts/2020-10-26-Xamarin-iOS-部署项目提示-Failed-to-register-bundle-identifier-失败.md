@@ -1,7 +1,7 @@
 ---
 title: "Xamarin iOS 部署项目提示 Failed to register bundle identifier 失败"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:43 +0800
 CreateTime: 2020/10/26 10:43:52
 categories: Xamarin
 ---
@@ -33,7 +33,7 @@ Xcode couldn't find any iOS App Development provisioning profiles matching 'com.
 
 <!-- ![](image/Xamarin iOS 部署项目提示 Failed to register bundle identifier 失败/Xamarin iOS 部署项目提示 Failed to register bundle identifier 失败0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202010261043583843.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202010261043583843.jpg)
 
 快速的解决方法是修改 Bundle Identifier 的值，将 `com.walterlv` 修改为 `com.lindexi-gd` 的值，同时回到 Xamarin 项目里面，做同样的更改
 
@@ -41,5 +41,5 @@ Xcode couldn't find any iOS App Development provisioning profiles matching 'com.
 
 <!-- ![](image/Xamarin iOS 部署项目提示 Failed to register bundle identifier 失败/Xamarin iOS 部署项目提示 Failed to register bundle identifier 失败1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202010261048328031.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202010261048328031.jpg)
 

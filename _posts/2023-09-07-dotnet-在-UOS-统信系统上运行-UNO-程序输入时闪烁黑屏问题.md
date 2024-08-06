@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 UOS 统信系统上运行 UNO 程序输入时闪烁黑屏问题"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2023/9/7 8:58:59
 categories: dotnet
 ---
@@ -19,7 +19,7 @@ categories: dotnet
 本质上说这个问题和 UNO 毫无关系，这是一个 OpenGL 硬件加速在虚拟机里运行的问题，问题现象如下
 
 <!-- ![](image/dotnet 在 UOS 统信系统上运行 UNO 程序输入时闪烁黑屏问题/uos-UNO-skia-gtk-flash.gif) -->
-![](http://image.acmx.xyz/lindexi%2Fuos-UNO-skia-gtk-flash.gif)
+![](http://cdn.lindexi.site/lindexi%2Fuos-UNO-skia-gtk-flash.gif)
 
 我给 UNO 官方报告了：https://github.com/unoplatform/uno/issues/13530
 

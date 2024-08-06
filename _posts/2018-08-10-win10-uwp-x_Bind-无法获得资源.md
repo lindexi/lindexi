@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp x:Bind 无法获得资源"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2018/8/10 19:17:19
 categories: Win10 UWP
 ---
@@ -58,7 +58,7 @@ public global::Windows.UI.Xaml.Data.IValueConverter LookupConverter(string key)
 
 或者把资源写在 app.xaml 也是可以，但是写在这里的资源不会回收，会一直在内存。如果在这里写很多资源，启动速度会很慢。
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017915191724.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017915191724.jpg)
 
 
 [win10 uwp 后台获取资源](https://blog.lindexi.com/post/win10-uwp-%E5%90%8E%E5%8F%B0%E8%8E%B7%E5%8F%96%E8%B5%84%E6%BA%90.html)

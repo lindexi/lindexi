@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 解决 dotnet core 应用进程间引用找不到 runtimeconfig 依赖文件"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2020/9/3 17:05:44
 categories: dotnet
 ---
@@ -82,7 +82,7 @@ Error:
 
 <!-- ![](image/Roslyn 解决 dotnet core 应用进程间引用找不到 runtimeconfig 依赖文件/Roslyn 解决 dotnet core 应用进程间引用找不到 runtimeconfig 依赖文件0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020931729581851.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020931729581851.jpg)
 
 原因是可执行项目输出的配置文件内容如下
 

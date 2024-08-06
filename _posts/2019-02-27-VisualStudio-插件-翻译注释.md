@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 插件 翻译注释"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/2/27 15:50:33
 categories: VisualStudio VisualStudio插件
 ---
@@ -21,7 +21,7 @@ categories: VisualStudio VisualStudio插件
 
 <!-- ![](image/VisualStudio 插件 翻译注释/VisualStudio 插件 翻译注释2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019227155027391)
+![](http://cdn.lindexi.site/lindexi%2F2019227155027391)
 
 在设置里面可以设置从哪个语言翻译为哪个语言，同时支持调用翻译的 API 在线翻译，默认使用的是谷歌翻译
 
@@ -33,5 +33,5 @@ categories: VisualStudio VisualStudio插件
 
 <!-- ![](image/VisualStudio 插件 翻译注释/VisualStudio 插件 翻译注释1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019227154946934)
+![](http://cdn.lindexi.site/lindexi%2F2019227154946934)
 

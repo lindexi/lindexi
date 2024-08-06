@@ -1,7 +1,7 @@
 ---
 title: "WinUI 3 修复非打包应用运行提示缺少 Windows App Runtime 环境"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2023/6/15 19:31:03
 categories: 
 ---
@@ -28,7 +28,7 @@ categories:
 > Do you want to install a compatible Windows App Runtime now?
 
 <!-- ![](image/WinUI 3 修复非打包应用运行提示缺少 Windows App Runtime 环境/WinUI 3 修复非打包应用运行提示缺少 Windows App Runtime 环境0.png) -->
-![](http://image.acmx.xyz/lindexi%2F20236151933384613.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20236151933384613.jpg)
 
 点击确定时，默认跳转到 [https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads) 下载页
 

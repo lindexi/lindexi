@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp Window.Current.Dispatcher中Current为null"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:38 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: Win10 UWP
 ---
@@ -45,11 +45,11 @@ categories: Win10 UWP
 要么改用HttpClient类的异步方法来请求，是Windows.Web.Http下面的类，非.net core类型
 
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194348.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194348.jpg)
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201771819441.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201771819441.jpg)
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194411.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194411.jpg)
 
 简单方法：
 

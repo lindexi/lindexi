@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 ScaleTransform 放大某个元素"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2019/3/13 19:05:56
 categories: Win10 UWP
 ---
@@ -44,7 +44,7 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 使用 ScaleTransform 放大某个元素/win10 uwp 使用 ScaleTransform 放大某个元素0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019313172057692)
+![](http://cdn.lindexi.site/lindexi%2F2019313172057692)
 
 代码请看 [github](https://github.com/lindexi/lindexi_gd/tree/2c00ce47ec76474b95953bbfc17e286d9938d534/HearqicalbasteKajalltearfearnahir)
 
@@ -77,7 +77,7 @@ categories: Win10 UWP
 ```
 <!-- ![](image/win10 uwp 使用 ScaleTransform 放大某个元素/中心放大.gif) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019313174718402)
+![](http://cdn.lindexi.site/lindexi%2F2019313174718402)
 
 对比一下不设置的从左上角放大
 
@@ -91,7 +91,7 @@ categories: Win10 UWP
 ```
 
 
-![](http://image.acmx.xyz/lindexi%2F2019313174957992)
+![](http://cdn.lindexi.site/lindexi%2F2019313174957992)
 
 那么如何做缩放动画
 

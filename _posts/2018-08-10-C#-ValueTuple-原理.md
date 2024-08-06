@@ -1,7 +1,7 @@
 ---
 title: "C# ValueTuple 原理"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:24 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: C# 原理
 ---
@@ -30,7 +30,7 @@ categories: C# 原理
 
 实际上输出的是 `{"Item1":"lindexi","Item2":"blog.csdn.net/lindexi_gd"}`
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822162054.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822162054.jpg)
 
 那么刚才的命名在哪？
 

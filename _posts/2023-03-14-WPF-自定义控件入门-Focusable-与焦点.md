@@ -1,7 +1,7 @@
 ---
 title: "WPF 自定义控件入门 Focusable 与焦点"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2023/3/14 16:41:48
 categories: WPF
 ---
@@ -103,7 +103,7 @@ public class Foo : FrameworkElement
 
 <!-- ![](image/WPF 自定义控件入门 Focusable 与焦点/WPF 自定义控件入门 Focusable 与焦点0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2023314165983686.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2023314165983686.jpg)
 
 上图就是使用 [snoop](https://blog.lindexi.com/post/%E8%AE%A9-snoop-%E6%94%AF%E6%8C%81-.NET-Core-WPF-%E8%B0%83%E8%AF%95.html ) 工具调试的界面
 

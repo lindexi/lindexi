@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过 Elmish.WPF 使用 F# 编写 WPF 应用"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 2021/5/18 19:59:36
 categories: WPF dotnet
 ---
@@ -47,7 +47,7 @@ categories: WPF dotnet
 
 <!-- ![](image/dotnet 通过 Elmish.WPF 使用 F# 编写 WPF 应用/dotnet 通过 Elmish.WPF 使用 F# 编写 WPF 应用0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021518204142412.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021518204142412.jpg)
 
 基本功能是点击加号和减号分别实现当前数值的加减
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnetCampus.UITest.WPF 一个支持中文用例的界面单元测试框架"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 2022/1/6 20:12:56
 categories: WPF dotnet
 ---
@@ -46,7 +46,7 @@ categories: WPF dotnet
 
 <!-- ![](image/dotnetCampus.UITest.WPF 一个支持中文用例的界面单元测试框架/dotnetCampus.UITest.WPF 一个支持中文用例的界面单元测试框架0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202216201807031.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202216201807031.jpg)
 
 本 UI 单元测试框架，仅仅提供的是让你可以使用 CUint(Chinese Unit Test) 风格编写 UI 测试代码，所有的放在 Test 内的代码将会在 UI 线程执行。本 UI 单元测试框架不提供面向测试的辅助类型的方法，例如模拟鼠标点击等功能，如需这些功能，还请使用第三方的库进行辅助
 

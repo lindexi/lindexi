@@ -1,7 +1,7 @@
 ---
 title: "Total Commander 显示文件包含文件名扩展"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:34 +0800
 CreateTime: 2019/5/21 11:37:06
 categories: TotalCommander 软件
 ---
@@ -19,7 +19,7 @@ categories: TotalCommander 软件
 
 <!-- ![](image/Total Commander 显示文件包含文件名扩展/Total Commander 显示文件包含文件名扩展0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019419102222951)
+![](http://cdn.lindexi.site/lindexi%2F2019419102222951)
 
 [How to configure Total Commander to show files with their extensions? - Super User](https://superuser.com/a/238121/769791 )
 

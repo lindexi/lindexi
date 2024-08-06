@@ -1,7 +1,7 @@
 ---
 title: "WPF 多个 StylusPlugIn 的事件触发顺序"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:40 +0800
 CreateTime: 2019/11/29 10:20:41
 categories: WPF
 ---
@@ -25,25 +25,25 @@ categories: WPF
 
 <!-- ![](image/WPF 多个 StylusPlugIn 的事件触发顺序/WPF 多个 StylusPlugIn 的事件触发顺序0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20191019103336641)
+![](http://cdn.lindexi.site/lindexi%2F20191019103336641)
 
 对同容器内两个重叠元素，将会同时触发两个元素的 StylusPlugIn 事件，不同的是在最底层的元素将会在触摸线程触发，而在最上层的元素将会是主线程触发
 
 <!-- ![](image/WPF 多个 StylusPlugIn 的事件触发顺序/WPF 多个 StylusPlugIn 的事件触发顺序1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20191019103717547)
+![](http://cdn.lindexi.site/lindexi%2F20191019103717547)
 
 对同容器内多个重叠元素，将知道最上层和最底层的元素会触发事件，不同的是在最底层的元素将会在触摸线程触发，而在最上层的元素将会是主线程触发
 
 <!-- ![](image/WPF 多个 StylusPlugIn 的事件触发顺序/WPF 多个 StylusPlugIn 的事件触发顺序2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019101910391898)
+![](http://cdn.lindexi.site/lindexi%2F2019101910391898)
 
 如果是一个附加 StylusPlugIn 的容器，包含一个附加 StylusPlugIn 的元素，那么只有元素会触发在触摸线程触发事件
 
 <!-- ![](image/WPF 多个 StylusPlugIn 的事件触发顺序/WPF 多个 StylusPlugIn 的事件触发顺序3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20191019104028762)
+![](http://cdn.lindexi.site/lindexi%2F20191019104028762)
 
 代码放在 github 建议下载代码测试
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 为什么每个项目都会输出一个 NuGet 包而不是一个包带所有项目"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:29 +0800
 CreateTime: 6/19/2020 8:52:15 AM
 categories: dotnet
 ---
@@ -31,7 +31,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet 为什么每个项目都会输出一个 NuGet 包而不是一个包带所有项目/dotnet 为什么每个项目都会输出一个 NuGet 包而不是一个包带所有项目0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202061992153740.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202061992153740.jpg)
 
 这就有趣了，我在最终项目里面安装了 A 的 NuGet 和 C 的 NuGet 包，请问最终输出的 B.dll 是新版本还是旧版本？其实就看 VS 的心情了
 
@@ -69,7 +69,7 @@ nuget push .\bin\release\*.nupkg
 
 <!-- ![](image/dotnet 为什么每个项目都会输出一个 NuGet 包而不是一个包带所有项目/dotnet 为什么每个项目都会输出一个 NuGet 包而不是一个包带所有项目1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020619916207765.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020619916207765.jpg)
 
 在项目里面只写了 D 和 E 的 NuGet 的安装。而 D 和 E 的依赖分别是 D 引用 A 而 E 引用 C 项目，同时 A 和 C 都引用 B 项目，只是引用的版本不相同
 

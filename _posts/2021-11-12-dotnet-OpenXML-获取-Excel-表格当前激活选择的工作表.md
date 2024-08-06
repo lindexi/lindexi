@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 获取 Excel 表格当前激活选择的工作表"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/11/12 20:48:18
 categories: dotnet
 ---
@@ -74,7 +74,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet OpenXML 获取 Excel 表格当前激活选择的工作表/dotnet OpenXML 获取 Excel 表格当前激活选择的工作表0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20211112205749532.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20211112205749532.jpg)
 
 本文以上的测试文件和代码放在[github](https://github.com/lindexi/lindexi_gd/tree/a3ccca2c3afb34ff1d21d83c77a90a8b41a1f35d/Xlsx) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/a3ccca2c3afb34ff1d21d83c77a90a8b41a1f35d/Xlsx) 欢迎访问
 

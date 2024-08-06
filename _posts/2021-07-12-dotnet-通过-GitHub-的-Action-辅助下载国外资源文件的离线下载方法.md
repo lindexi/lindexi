@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过 GitHub 的 Action 辅助下载国外资源文件的离线下载方法"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 2021/7/12 8:36:29
 categories: git dotnet
 ---
@@ -77,7 +77,7 @@ jobs:
 
 编写完成之后，将代码推送到 GitHub 上即可，此时可以从 Actions 里面找到对应的任务，等一会去自己的邮箱找找是否文件已下载完成发送到邮箱上
 
-![](http://image.acmx.xyz/lindexi%2F2021711949311365.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021711949311365.jpg)
 
 以下是我准备去下载我的一款 VisualStudio 插件 [Encoding normalize tool](https://marketplace.visualstudio.com/items?itemName=lindexigd.vs-extension-18109) 所编写的 DownloadFile.yml 文件，代码如下
 

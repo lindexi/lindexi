@@ -1,7 +1,7 @@
 ---
 title: "dotnet 融合 Avalonia 和 UNO 框架"
 author: lindexi
-date: 2024-6-24 11:5:55 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 2024/06/23 07:07:27
 categories: dotnet
 ---
@@ -251,7 +251,7 @@ MainPage.xaml.cs(15,9,15,18): error CS0104: “Thickness”是“Avalonia.Thickn
 完成引用之后的项目引用关系如下图
 
 <!-- ![](image/dotnet 融合 Avalonia 和 UNO 框架/dotnet 融合 Avalonia 和 UNO 框架0.png) -->
-![](http://image.acmx.xyz/lindexi%2F20246221527259579.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20246221527259579.jpg)
 
 为了让 AppDemo 控制台项目能够正确的引用上 UnoDemo 项目，需要修改项目文件，修改之后的代码大概如下
 

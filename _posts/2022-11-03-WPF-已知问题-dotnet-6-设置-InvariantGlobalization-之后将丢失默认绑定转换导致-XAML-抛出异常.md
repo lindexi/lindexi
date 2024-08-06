@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 dotnet 6 设置 InvariantGlobalization 之后将丢失默认绑定转换导致 XAML 抛出异常"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:41 +0800
 CreateTime: 2022/11/3 18:31:40
 categories: WPF dotnet
 ---
@@ -74,7 +74,7 @@ System.Globalization.CultureNotFoundException: 'Only the invariant culture is su
 
 <!-- ![](image/WPF 已知问题 dotnet 6 设置 InvariantGlobalization 之后将丢失默认绑定转换导致 XAML 抛出异常/WPF 已知问题 dotnet 6 设置 InvariantGlobalization 之后将丢失默认绑定转换导致 XAML 抛出异常0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2022113183757572.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2022113183757572.jpg)
 
 这是符合 [官方文档](https://github.com/dotnet/runtime/blob/64b3ee4d35f9ba6a0bf66a0c5b41d2c8873cd89f/docs/design/features/globalization-invariant-mode.md) 描述的
 

@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 使用 Directory.Build.props 文件定义编译"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2019/11/29 8:58:55
 categories: Roslyn MSBuild 编译器
 ---
@@ -34,14 +34,14 @@ categories: Roslyn MSBuild 编译器
 
 首先打开宇宙第一IDE某个在i7固态打开需要10分钟的工具，使用随意的变量做3个项目
 
-![](http://image.acmx.xyz/lindexi%2F20187181240279015.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20187181240279015.jpg)
 
 <!-- ![](image/Roslyn 使用 Directory.Build.props 文件定义编译/Roslyn 使用 Directory.Build.props 文件定义编译0.png) -->
 
 
 通过上面的方式创建 3 个项目 GeajoYabaFarcho，SeepoHairsarsawjoo，KawkasDrurxere现在项目可以右击打包
 
-![](http://image.acmx.xyz/lindexi%2F20187181242241337.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20187181242241337.jpg)
 
 <!-- ![](image/Roslyn 使用 Directory.Build.props 文件定义编译/Roslyn 使用 Directory.Build.props 文件定义编译1.png) -->
 
@@ -59,7 +59,7 @@ categories: Roslyn MSBuild 编译器
 
 现在可以尝试添加 `Directory.Build.props` 文件，在 sln 文件所在的文件夹创建文件，请看下图
 
-![](http://image.acmx.xyz/lindexi%2F2018718124461257.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018718124461257.jpg)
 
 <!-- ![](image/Roslyn 使用 Directory.Build.props 文件定义编译/Roslyn 使用 Directory.Build.props 文件定义编译2.png) -->
 

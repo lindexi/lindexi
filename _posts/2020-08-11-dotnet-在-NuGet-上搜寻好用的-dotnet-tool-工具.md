@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 NuGet 上搜寻好用的 dotnet tool 工具"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2020/8/11 11:04:18
 categories: dotnet
 ---
@@ -19,13 +19,13 @@ categories: dotnet
 
 <!-- ![](image/dotnet 在 NuGet 上搜寻好用的 dotnet tool 工具/dotnet 在 NuGet 上搜寻好用的 dotnet tool 工具1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202081111835319.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202081111835319.jpg)
 
 此时将会返回给你 CBB 库的以及 dotnet tool 的，那么如何只显示 dotnet tool 的？在 nuget.org 添加了选择的功能，不过这是一个隐藏的功能，需要点击一下，你才看到他
 
 <!-- ![](image/dotnet 在 NuGet 上搜寻好用的 dotnet tool 工具/dotnet 在 NuGet 上搜寻好用的 dotnet tool 工具2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020811118339825.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020811118339825.jpg)
 
 点击漏斗，然后选择 .NET Tool 接着点击应用按钮，等待缓慢的 nuget.org 加载，此时将会仅返回 .NET 工具
 

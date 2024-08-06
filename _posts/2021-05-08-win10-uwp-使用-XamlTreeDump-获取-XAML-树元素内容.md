@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 XamlTreeDump 获取 XAML 树元素内容"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2021/5/8 9:03:58
 categories: Win10 UWP
 ---
@@ -20,7 +20,7 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 使用 XamlTreeDump 获取 XAML 树元素内容/win10 uwp 使用 XamlTreeDump 获取 XAML 树元素内容0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20215896206650.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20215896206650.jpg)
 
 假定咱有 UI 界面代码如下
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 强签名下使用 InternalsVisibleToAttribute 给程序集加上友元"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2020/12/18 20:49:41
 categories: dotnet
 ---
@@ -35,7 +35,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet 强签名下使用 InternalsVisibleToAttribute 给程序集加上友元/dotnet 强签名下使用 InternalsVisibleToAttribute 给程序集加上友元0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20201218218201672.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20201218218201672.jpg)
 
 新建的时候输入证书名就可以，可以不加上密码
 
@@ -53,7 +53,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet 强签名下使用 InternalsVisibleToAttribute 给程序集加上友元/dotnet 强签名下使用 InternalsVisibleToAttribute 给程序集加上友元1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202012182113329105.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202012182113329105.jpg)
 
 在开发者命令行工具可以使用 sn 命令，用到签名工具。使用 sn 工具读取出 dotnet-campus.snk 的公钥，可以使用下面代码
 

@@ -1,7 +1,7 @@
 ---
 title: "Sublime Text 安装中文、英文字体"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2019/1/29 16:35:25
 categories: 
 ---
@@ -18,7 +18,7 @@ categories:
 
 这个字体看起来效果比较差
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812091421.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812091421.jpg)
 
 下载地址：
 
@@ -28,7 +28,7 @@ categories:
 
 这个字体在英文是很好，但是显示中文不好看
 
-![](http://image.acmx.xyz/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F201732412392.jpg)
+![](http://cdn.lindexi.site/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F201732412392.jpg)
 
 下载地址：
 
@@ -40,7 +40,7 @@ BTSYNC：B6EZLWWDHSMHDHNF6DLOMGKYBSXT7OI4R
 
 建议使用字号 16 
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812095947.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812095947.jpg)
 
 下载地址：
 
@@ -60,15 +60,15 @@ BTSYNC：B6EZLWWDHSMHDHNF6DLOMGKYBSXT7OI4R
 
 点击选择字体，他的字体放在  `C:\Program Files (x86)\FontForge\`
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812093732.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812093732.jpg)
 
 点击 FontInfo 修改字体名，注意名称不能添加空格
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812094548.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812094548.jpg)
 
 点击文件保存
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812093945.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812093945.jpg)
 
 教程：http://designwithfontforge.com/zh-CN/The_Final_Output_Generating_Font_Files.html
 

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 Geometry resources 在 xaml"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2018/8/10 19:17:19
 categories: Win10 UWP
 ---
@@ -43,7 +43,7 @@ public static readonly DependencyProperty IconDataProperty =
 
 就会在运行出现无法从string转换，但是如何把用户控件改为 Path ，就可以运行
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194714.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194714.jpg)
 
 那么如何在用户控件使用资源的字符串
 
@@ -83,7 +83,7 @@ public class GeometryConvert : IValueConverter
 
 可以看到，这个方法可以显示图片
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194953.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194953.jpg)
 
 所以，需要绑定字符串，可以使用这个方法。
 

@@ -1,7 +1,7 @@
 ---
 title: "WPF 框架开发 ColumnDefinition 和 RowDefinition 的代码在哪"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2021/8/9 8:34:31
 categories: WPF
 ---
@@ -21,7 +21,7 @@ categories: WPF
 
 以下是在 VisualStudio 2019 进行构建，十分简单，只需要部署环境完成之后进行构建即可
 
-![](http://image.acmx.xyz/lindexi%2F202188206162793.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202188206162793.jpg)
 
 然而在 VisualStudio 2022 里面，将会在构建的时候提示失败
 

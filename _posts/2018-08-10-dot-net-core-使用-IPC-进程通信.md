@@ -1,7 +1,7 @@
 ---
 title: "dot net core 使用 IPC 进程通信"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:26 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: dnc 进程通信 IPC pipe
 ---
@@ -160,15 +160,15 @@ categories: dnc 进程通信 IPC pipe
 
 先启动 WPF 程序，然后启动控制台
 
-![](http://image.acmx.xyz/lindexi%2F2018411837142177.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018411837142177.jpg)
 
 这时点击按钮之后就打开控制台可以看到控制台可以收到消息
 
-![](http://image.acmx.xyz/lindexi%2F2018411838156388.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018411838156388.jpg)
 
 然后 WPF 也收到控制台发过来的消息
 
-![](http://image.acmx.xyz/lindexi%2F2018411838491360.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018411838491360.jpg)
 
 ## 序列化
 

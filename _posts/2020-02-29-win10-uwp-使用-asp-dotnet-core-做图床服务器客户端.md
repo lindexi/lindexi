@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 asp dotnet core 做图床服务器客户端"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2020/2/29 11:54:11
 categories: Win10 UWP dotnet
 ---
@@ -57,13 +57,13 @@ categories: Win10 UWP dotnet
 
 <!-- ![](image/win10 uwp 使用 asp dotnet core 做图床服务器客户端/win10 uwp 使用 asp dotnet core 做图床服务器客户端0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018101820273610)
+![](http://cdn.lindexi.site/lindexi%2F2018101820273610)
 
 接下来就是选择刚才模型创建控制器
 
 <!-- ![](image/win10 uwp 使用 asp dotnet core 做图床服务器客户端/win10 uwp 使用 asp dotnet core 做图床服务器客户端1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20181018202824441)
+![](http://cdn.lindexi.site/lindexi%2F20181018202824441)
 
 ### 添加上传下载代码
 
@@ -335,7 +335,7 @@ categories: Win10 UWP dotnet
 
 <!-- ![](image/win10 uwp 使用 asp dotnet core 做图床服务器客户端/win10 uwp 使用 asp dotnet core 做图床服务器客户端2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20181018203933380)
+![](http://cdn.lindexi.site/lindexi%2F20181018203933380)
 
 一般只需要修改端口就可以
 

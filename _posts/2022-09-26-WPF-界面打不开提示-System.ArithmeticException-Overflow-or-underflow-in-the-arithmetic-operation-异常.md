@@ -1,7 +1,7 @@
 ---
 title: "WPF 界面打不开提示 System.ArithmeticException Overflow or underflow in the arithmetic operation 异常"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2022/9/26 17:37:28
 categories: WPF
 ---
@@ -22,11 +22,11 @@ categories: WPF
 点击进入高级页面，如下图
 
 <!-- ![](image/WPF 界面打不开提示 System.ArithmeticException Overflow or underflow in the arithmetic operation 异常/WPF 界面打不开提示 System.ArithmeticException Overflow or underflow in the arithmetic operation 异常0.png) -->
-![](http://image.acmx.xyz/lindexi%2F20229261737438118.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20229261737438118.jpg)
 
 英文版本的页面如下
 
-![](http://image.acmx.xyz/lindexi%2F20229261739475138.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20229261739475138.jpg)
 
 要求你的应用的配置和我的相同，例如设备配置文件里，推荐是 sRGB IEC61996-2.1 的等
 

@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 WPF 里显示数学 π 的颜色"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2021/8/23 19:42:30
 categories: WPF dotnet
 ---
@@ -20,7 +20,7 @@ categories: WPF dotnet
 
 <!-- ![](image/dotnet 在 WPF 里显示数学 π 的颜色/dotnet 在 WPF 里显示数学 π 的颜色0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20218231953154699.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20218231953154699.jpg)
 
 我先从某个有趣的地方随便找到了 π 小数点之后很长的数值，接下来将这个数值存放作为字符串，再对这个字符串执行如下算法
 

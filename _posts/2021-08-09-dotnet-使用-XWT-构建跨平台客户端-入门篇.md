@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 XWT 构建跨平台客户端 入门篇"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:29 +0800
 CreateTime: 2021/8/9 20:58:50
 categories: dotnet
 ---
@@ -88,7 +88,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet 使用 XWT 构建跨平台客户端 入门篇/dotnet 使用 XWT 构建跨平台客户端 入门篇0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202189211138887.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202189211138887.jpg)
 
 本文所有代码在 [github](https://github.com/lindexi/lindexi_gd/tree/11125ca50dc91e50cf581c36476f03b853bc7ef8/LarwearceceyokuDokealuwo) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/11125ca50dc91e50cf581c36476f03b853bc7ef8/LarwearceceyokuDokealuwo) 上完全开源
 

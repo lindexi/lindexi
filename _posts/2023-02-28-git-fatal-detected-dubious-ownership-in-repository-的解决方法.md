@@ -1,7 +1,7 @@
 ---
 title: "git fatal detected dubious ownership in repository 的解决方法"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 2023/2/28 10:06:02
 categories: git
 ---
@@ -30,6 +30,6 @@ categories: git
 
 <!-- ![](image/git fatal detected dubious ownership in repository 的解决方法/git fatal detected dubious ownership in repository 的解决方法0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2023228124415551.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2023228124415551.jpg)
 
 更改所有者之后，再次试试 git 命令，预计此时就可以使用

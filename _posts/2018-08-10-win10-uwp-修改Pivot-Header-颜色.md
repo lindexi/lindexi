@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 修改Pivot Header 颜色"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2018/8/10 19:17:19
 categories: Win10 UWP
 ---
@@ -29,7 +29,7 @@ categories: Win10 UWP
 
 这样的Header是默认颜色
 
-![](http://image.acmx.xyz/be842536-5c96-47f4-a49d-354e749a826a20161229152841.jpg)
+![](http://cdn.lindexi.site/be842536-5c96-47f4-a49d-354e749a826a20161229152841.jpg)
 
 我们想修改颜色，可以使用
 
@@ -42,7 +42,7 @@ categories: Win10 UWP
 
 ```
 
-![](http://image.acmx.xyz/f3c2f4a3-94ae-40b4-b3c3-da73116eb75d2016121716265.jpg)
+![](http://cdn.lindexi.site/f3c2f4a3-94ae-40b4-b3c3-da73116eb75d2016121716265.jpg)
 
 参见：
 http://stackoverflow.com/questions/31797875/overriding-pivot-header-foreground-brushes-in-uwp-app-win-10-rtm-sdk

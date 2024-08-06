@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 TranslatePoint 换算元素之间相对坐标"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:40 +0800
 CreateTime: 2020/3/18 8:30:31
 categories: WPF
 ---
@@ -44,7 +44,7 @@ categories: WPF
 
 <!-- ![](image/WPF 使用 TranslatePoint 换算元素之间相对坐标/WPF 使用 TranslatePoint 换算元素之间相对坐标0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20203188431364.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20203188431364.jpg)
 
 本文代码放在[github](https://github.com/lindexi/lindexi_gd/tree/502e65befeee340520968976b023cf9b8b4b70a9/JeelifuwheChaykicinelniyearje)欢迎小伙伴访问
 

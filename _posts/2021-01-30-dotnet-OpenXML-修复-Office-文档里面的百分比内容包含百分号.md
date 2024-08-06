@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 修复 Office 文档里面的百分比内容包含百分号"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/1/30 10:42:23
 categories: dotnet
 ---
@@ -107,7 +107,7 @@ var percentage = new Percentage(alphaText);
 
 <!-- ![](image/dotnet OpenXML 修复 Office 文档里面的百分比内容包含百分号/dotnet OpenXML 修复 Office 文档里面的百分比内容包含百分号0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20211301042339224.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20211301042339224.jpg)
 
 ```xml
 <xsd:group name="EG_ColorTransform">

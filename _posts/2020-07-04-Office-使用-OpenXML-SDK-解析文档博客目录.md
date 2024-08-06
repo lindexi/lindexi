@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2024-7-27 15:27:32 +0800
+date: 2024-8-6 20:43:32 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: 
 ---
@@ -292,7 +292,7 @@ C# / VB.NET Word component
 
 <!-- ![](image/Office 使用 OpenXML SDK 解析文档博客目录/Office 使用 OpenXML SDK 解析文档博客目录0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2022818101656359.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2022818101656359.jpg)
 
 [https://www.gemboxsoftware.com](https://www.gemboxsoftware.com)
 

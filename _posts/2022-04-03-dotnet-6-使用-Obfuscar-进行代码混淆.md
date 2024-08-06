@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 使用 Obfuscar 进行代码混淆"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:26 +0800
 CreateTime: 2022/4/3 16:57:58
 categories: dotnet 混淆
 ---
@@ -118,7 +118,7 @@ cd C\lindexi\Code\lindexi\HeenerholiCeleehano\HeenerholiCeleehano\bin\Release\ne
 
 执行如上的命令行进行混淆，即可实现命名混淆效果
 
-![](http://image.acmx.xyz/lindexi%2F2022431548139699.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2022431548139699.jpg)
 
 使用 dotPeek 反编译可以看到字段被混淆为如下内容
 

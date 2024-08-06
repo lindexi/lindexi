@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 节点的 Span 和  FullSpan 有什么区别"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: Roslyn MSBuild 编译器
 ---
@@ -131,7 +131,7 @@ namespace BebehersoSerdar
 
 <!-- ![](image/Roslyn 节点的 Span 和  FullSpan 有什么区别/Roslyn 节点的 Span 和  FullSpan 有什么区别0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018722175017613)
+![](http://cdn.lindexi.site/lindexi%2F2018722175017613)
 
 可以看到 Span 和 FullSpan 的一个不同是 Span 是从方法的第一个代码字符开始，和 Span 不同的是 FullSpan 是从方法的距离上一个代码结束开始的字符到方法结束的最后的字符
 

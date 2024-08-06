@@ -1,7 +1,7 @@
 ---
 title: "C# const 和 readonly 有什么区别"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:24 +0800
 CreateTime: 2018/9/3 16:52:07
 categories: C#
 ---
@@ -52,13 +52,13 @@ categories: C#
 
 <!-- ![](image/C# const 和 readonly 有什么区别/C# const 和 readonly 有什么区别0.png) -->
 
-![](http://image.acmx.xyz/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017413171510.jpg)
+![](http://cdn.lindexi.site/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017413171510.jpg)
 
 修改两常量的值，生成新的Test.dll，然后运行Demo.exe（不编译）。
 
 <!-- ![](image/C# const 和 readonly 有什么区别/C# const 和 readonly 有什么区别1.png) -->
 
-![](http://image.acmx.xyz/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017413171544.jpg)
+![](http://cdn.lindexi.site/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017413171544.jpg)
 
 在不重新编译运行的时候，从上面的输出可以看到，使用const的值是不会修改，具体原因是因为 const 会被内联到代码
 
@@ -144,7 +144,7 @@ categories: C#
 
 对于隐式转换，如果是 const 支持隐式转换，如果是static readonly，不支持
 
-![](http://image.acmx.xyz/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017413171641.jpg)
+![](http://cdn.lindexi.site/AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017413171641.jpg)
 
 （1）const常量在编译时解析；而static readonly常量在运行时解析。
 

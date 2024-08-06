@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 HandyControl 给 ListView 添加漂亮的表头效果"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2020/7/13 8:59:36
 categories: WPF
 ---
@@ -17,7 +17,7 @@ categories: WPF
 
 <!-- ![](image/WPF 使用 HandyControl 给 ListView 添加漂亮的表头效果/WPF 使用 HandyControl 给 ListView 添加漂亮的表头效果0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20207111635465.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20207111635465.jpg)
 
 完成上面的效果很简单，让我一步步告诉大家如何做
 

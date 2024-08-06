@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 简单聊聊 PPT 文本解析"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/7/22 16:46:07
 categories: dotnet
 ---
@@ -49,7 +49,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet OpenXML 简单聊聊 PPT 文本解析/dotnet OpenXML 简单聊聊 PPT 文本解析0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020722178122775.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020722178122775.jpg)
 
 小伙伴可以看到在 PPT 软件的段落设置旁边有字体设置，这是对应放在 `<a:r>` 文本的内容，格式如下
 

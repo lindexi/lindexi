@@ -1,7 +1,7 @@
 ---
 title: "visualStudio 无法登陆"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2018/11/19 15:24:15
 categories: VisualStudio
 ---
@@ -18,7 +18,7 @@ categories: VisualStudio
 
 打开设置、网络、代理，关了它，试试
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017616162926.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017616162926.jpg)
 
 
 如果遇到下面的问题：
@@ -28,7 +28,7 @@ categories: VisualStudio
 No home tenant info found.
 
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017616162719.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017616162719.jpg)
 
 那么可以尝试下面的方法：
 

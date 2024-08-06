@@ -1,7 +1,7 @@
 ---
 title: "dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2022/6/29 15:03:53
 categories: MAUI MauiGraphics Skia SkiaSharp 渲染
 ---
@@ -21,7 +21,7 @@ categories: MAUI MauiGraphics Skia SkiaSharp 渲染
 
 <!-- ![](image/dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门/dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20226291517543714.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20226291517543714.jpg)
 
 本文将从一个控制台开始，从比较基础的层面告诉大家如何使用 Microsoft.Maui.Graphics 进行绘图。我采用 Microsoft.Maui.Graphics.Skia 库的 Skia 进行具体的绘图实现，实现将画出的内容存放到本地文件
 
@@ -145,13 +145,13 @@ using (SKBitmap skBitmap = SKBitmap.FromImage(skImage))
 
 <!-- ![](image/dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门/dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20226291555347769.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20226291555347769.jpg)
 
 接下来进入 WLS 也运行一下代码
 
 <!-- ![](image/dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门/dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20226291557539520.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20226291557539520.jpg)
 
 输出的图片和在 Windows 上输出的图片文件是完全二进制相同的
 

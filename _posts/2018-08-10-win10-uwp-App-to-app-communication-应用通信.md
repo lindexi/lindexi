@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp App-to-app communication 应用通信"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:38 +0800
 CreateTime: 2018/8/10 19:16:51
 categories: Win10 UWP
 ---
@@ -106,14 +106,14 @@ ApplicationLink是`new Uri("ms-sdk-sharesourcecs:navigate?page=" + 页面名);`
 
 要接受其他的app我们需要设置
 
-![](http://image.acmx.xyz/16-4-5/70888377.jpg)
+![](http://cdn.lindexi.site/16-4-5/70888377.jpg)
 
-![](http://image.acmx.xyz/16-4-5/65763757.jpg)
+![](http://cdn.lindexi.site/16-4-5/65763757.jpg)
 我们在说明写：林德熙博客
 
 但说明其实没有什么用，主要是数据格式才是需要我们选择，在上也看到我们可以分享的数据有多种格式，那么满足格式的分享就会在分享看到我们的应用。
 
-![](http://image.acmx.xyz/16-4-5/25742257.jpg)
+![](http://cdn.lindexi.site/16-4-5/25742257.jpg)
 新建一个页面接分享，因为我想不到这个叫什么，我就放在MainPage
 
 导航到MainPage就是分享打开

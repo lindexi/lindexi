@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp slider 隐藏显示数值"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:36 +0800
 CreateTime: 2018/8/10 19:17:19
 categories: Win10 UWP
 ---
@@ -16,7 +16,7 @@ categories: Win10 UWP
  
 <!-- csdn -->
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811292241.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811292241.jpg)
 
 最简单的方法是设置 IsThumbToolTipEnabled ，请看下面
 
@@ -24,7 +24,7 @@ categories: Win10 UWP
 <Slider IsThumbToolTipEnabled="False"/>
 ```
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811292330.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811292330.jpg)
 
 如果这时需要显示拖动的值，可以使用 ValueChanged 事件，我下面使用一个 TextBlock 来显示拖动的值
 
@@ -34,7 +34,7 @@ categories: Win10 UWP
         <TextBlock x:Name="CumjvpxVufe" Margin="10,100,10,10"></TextBlock>
 ```
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20181129288.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20181129288.jpg)
 
 如果需要绑定，那么就可以不需要后台写代码
 

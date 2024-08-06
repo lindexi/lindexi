@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Pandoc 把 Markdown 转 Docx"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2018/10/23 11:35:47
 categories: WPF Pandoc
 ---
@@ -21,7 +21,7 @@ categories: WPF Pandoc
 
 <!-- ![](image/WPF 使用 Pandoc 把 Markdown 转 Docx/WPF 使用 Pandoc 把 Markdown 转 Docx0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018102311206349)
+![](http://cdn.lindexi.site/lindexi%2F2018102311206349)
 
 界面很简单，就不告诉大家如何做出这样的界面了，现在是来解决一些坑
 

@@ -1,7 +1,7 @@
 ---
 title: "Unity3D OpenVR SteamVR Input Action 动作"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:34 +0800
 CreateTime: 2021/5/16 9:51:51
 categories: 
 ---
@@ -21,13 +21,13 @@ categories:
 
 <!-- ![](image/Unity3D OpenVR SteamVR Input Action 动作/Unity3D OpenVR SteamVR Input Action 动作0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021516952488411.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021516952488411.jpg)
 
 默认打开的 SteamVR Input 界面会比较小，请将他拖动修改到足够大小，期望能看到如下界面所有按钮
 
 <!-- ![](image/Unity3D OpenVR SteamVR Input Action 动作/Unity3D OpenVR SteamVR Input Action 动作1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202151695624691.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202151695624691.jpg)
 
 以上即可看到各个不同的交互类型，每个交互类型可以抽象为以下不同的动作类型
 
@@ -56,7 +56,7 @@ categories:
 
 <!-- ![](image/Unity3D OpenVR SteamVR Input Action 动作/Unity3D OpenVR SteamVR Input Action 动作1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202151695624691.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202151695624691.jpg)
 
 定义具体的交互绑定的定义，如在代码中定义交互的输入，以及绑定到具体的硬件设备上，请参阅 [Unity OpenVR 虚拟现实入门六：通过摇杆控制玩家移动 - walterlv](https://blog.walterlv.com/post/unity-openvr-starting-6.html )
 

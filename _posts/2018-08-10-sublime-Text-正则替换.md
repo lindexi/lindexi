@@ -1,7 +1,7 @@
 ---
 title: "sublime Text 正则替换"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:33 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: 
 ---
@@ -30,7 +30,7 @@ Sumlime 还可以创建代码行，做法也很简单。
 点击 Tools   New Snippet 
 
 
-![](http://image.acmx.xyz/d021ae55-501f-4838-a9a0-f09ee95a83b82016121992723.jpg)
+![](http://cdn.lindexi.site/d021ae55-501f-4838-a9a0-f09ee95a83b82016121992723.jpg)
 
 
 ```xml

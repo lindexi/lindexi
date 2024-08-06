@@ -1,7 +1,7 @@
 ---
 title: "win2d 通过 CanvasActiveLayer 画出透明度和裁剪"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2019/8/31 8:52:36
 categories: UWP win2d
 ---
@@ -53,7 +53,7 @@ categories: UWP win2d
 
 <!-- ![](image/win2d 通过 CanvasActiveLayer 画出透明度和裁剪/win2d 通过 CanvasActiveLayer 画出透明度和裁剪0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019117211632750)
+![](http://cdn.lindexi.site/lindexi%2F2019117211632750)
 
 然后再创建一个椭圆，画出椭圆
 
@@ -73,7 +73,7 @@ categories: UWP win2d
 
 <!-- ![](image/win2d 通过 CanvasActiveLayer 画出透明度和裁剪/win2d 通过 CanvasActiveLayer 画出透明度和裁剪1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019117211836981)
+![](http://cdn.lindexi.site/lindexi%2F2019117211836981)
 
 下面告诉大家如何使用 CanvasActiveLayer 的方法
 
@@ -129,7 +129,7 @@ categories: UWP win2d
 
 <!-- ![](image/win2d 通过 CanvasActiveLayer 画出透明度和裁剪/win2d 通过 CanvasActiveLayer 画出透明度和裁剪2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019117212330454)
+![](http://cdn.lindexi.site/lindexi%2F2019117212330454)
 
 从代码可以看到 CreateLayer 的设计是创建一个简单的方法，在这个方法里面可以快速设置画出的界面，同时在这个方法外面将会和之前一样
 
@@ -150,7 +150,7 @@ categories: UWP win2d
 
 <!-- ![](image/win2d 通过 CanvasActiveLayer 画出透明度和裁剪/win2d 通过 CanvasActiveLayer 画出透明度和裁剪3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019118115012101)
+![](http://cdn.lindexi.site/lindexi%2F2019118115012101)
 
 现在运行代码可以看到圆形是半透明的
 
@@ -187,7 +187,7 @@ categories: UWP win2d
 
 <!-- ![](image/win2d 通过 CanvasActiveLayer 画出透明度和裁剪/win2d 通过 CanvasActiveLayer 画出透明度和裁剪4.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019118121018332)
+![](http://cdn.lindexi.site/lindexi%2F2019118121018332)
 
 上面使用了渐变颜色，更多关于渐变请看 [win2d 渐变颜色](https://blog.csdn.net/lindexi_gd/article/details/82177605 )
 
@@ -201,7 +201,7 @@ categories: UWP win2d
 
 <!-- ![](image/win2d 通过 CanvasActiveLayer 画出透明度和裁剪/win2d 通过 CanvasActiveLayer 画出透明度和裁剪5.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201911981918851)
+![](http://cdn.lindexi.site/lindexi%2F201911981918851)
 
 现在运行代码可以看到界面是一个矩形
 
@@ -245,7 +245,7 @@ categories: UWP win2d
 
 <!-- ![](image/win2d 通过 CanvasActiveLayer 画出透明度和裁剪/win2d 通过 CanvasActiveLayer 画出透明度和裁剪6.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201911982129485)
+![](http://cdn.lindexi.site/lindexi%2F201911982129485)
 
 关于如何做出一个 Geometry 和更多博客请看
 

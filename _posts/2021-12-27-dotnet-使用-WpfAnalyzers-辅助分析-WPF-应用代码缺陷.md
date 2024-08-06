@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 WpfAnalyzers 辅助分析 WPF 应用代码缺陷"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:29 +0800
 CreateTime: 2021/12/27 8:27:03
 categories: WPF dotnet
 ---
@@ -21,7 +21,7 @@ categories: WPF dotnet
 
 使用 WpfAnalyzers 代码分析工具的方法特别简单，此代码分析工具是基于 Roslyn 代码分析编写的工具，可以通过 NuGet 分发，咱只需要在 VisualStudio 里面，通过 NuGet 管理安装 WpfAnalyzers 即可
 
-![](http://image.acmx.xyz/lindexi%2F20211226922153469.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20211226922153469.jpg)
 
 或者是编辑 csproj 项目文件，加入以下代码
 
@@ -55,15 +55,15 @@ categories: WPF dotnet
 
 大家看出有几个锅了？代码分析器可以帮助咱看到如下图的问题，大家觉得这个代码分析工具好用不
 
-![](http://image.acmx.xyz/lindexi%2F20211226924546566.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20211226924546566.jpg)
 
 更有趣的是，如果大家看到分析器告诉咱的代码存在缺陷，但是咱就是不懂为什么。此时可以点击一下前面的 WPFxxx 链接。例如点击上图的 WPF0001 链接，将会跳转到 GitHub 上的对应页面。例如 WPF0001 的内容如下
 
-![](http://image.acmx.xyz/lindexi%2F20211226926369862.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20211226926369862.jpg)
 
 通过 GitHub 上的描述，咱就可以知道，要求依赖属性的 name 内容和依赖属性的定义相同。如上面代码里面，应该改掉 `nameof(Title)` 的代码。不过，改哪里和如何改还不用咱费心，此分析工具也带入了修补工具的功能，只需要点点鼠标即可进行自动修复更改，如下图
 
-![](http://image.acmx.xyz/lindexi%2F202112269283981.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202112269283981.jpg)
 
 好，广告结束，五毛钱到手
 

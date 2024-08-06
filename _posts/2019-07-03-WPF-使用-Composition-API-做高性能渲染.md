@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 Composition API 做高性能渲染"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2019/7/3 10:30:57
 categories: WPF 渲染 DirectComposition
 ---
@@ -70,7 +70,7 @@ dotnet build
 
 <!-- ![](image/WPF 使用 Composition API 做高性能渲染/WPF 使用 Composition API 做高性能渲染0.gif) -->
 
-![](http://image.acmx.xyz/lindexi%2F2019328102935615)
+![](http://cdn.lindexi.site/lindexi%2F2019328102935615)
 
 ## 项目主要代码
 

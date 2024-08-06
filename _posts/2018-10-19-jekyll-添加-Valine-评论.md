@@ -1,7 +1,7 @@
 ---
 title: "jekyll 添加 Valine 评论"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:32 +0800
 CreateTime: 2018/10/19 9:10:40
 categories: jekyll
 ---
@@ -30,15 +30,15 @@ categories: jekyll
 
 注册之后创建应用
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112694519.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112694519.jpg)
 
 点击设置
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112694643.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112694643.jpg)
 
 点击key可以看到自己的 appid
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112694739.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112694739.jpg)
 
 然后复制自己的App ID、App Key，下面我代码的App ID、App Key就用自己的替换
 
@@ -58,7 +58,7 @@ categories: jekyll
 
 现在就可以试试自己的博客是否开了评论
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112610743.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711231645122017112610743.jpg)
 
 
 [Valine -- 一款极简的评论系统 ](https://ioliu.cn/2017/add-valine-comments-to-your-blog/ )

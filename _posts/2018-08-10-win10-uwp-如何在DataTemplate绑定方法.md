@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 如何在DataTemplate绑定方法"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:37 +0800
 CreateTime: 2018/8/10 19:16:50
 categories: Win10 UWP
 ---
@@ -21,7 +21,7 @@ categories: Win10 UWP
 
 先给大家看一下界面
 
-![](http://image.acmx.xyz/lindexi%2F2018551724559489.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2018551724559489.jpg)
 
 不要以为这个界面很复杂，实际上他需要的代码很少。
 

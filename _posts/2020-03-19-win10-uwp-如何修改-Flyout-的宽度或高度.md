@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 如何修改 Flyout 的宽度或高度"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:37 +0800
 CreateTime: 2020/3/19 19:04:05
 categories: Win10 UWP
 ---
@@ -40,7 +40,7 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 如何修改 Flyout 的宽度或高度/win10 uwp 如何修改 Flyout 的宽度或高度0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020319195303952.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020319195303952.jpg)
 
 可以通过两个方法修改 Flyout 的宽度或高度
 

@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 图片在浏览器没访问可能原因"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:23 +0800
 CreateTime: 2019/5/21 11:24:43
 categories: asp aspdotnetcore dotnetcore
 ---
@@ -32,7 +32,7 @@ categories: asp aspdotnetcore dotnetcore
 
 <!-- ![](image/asp dotnet core 图片在浏览器没访问可能原因/asp dotnet core 图片在浏览器没访问可能原因0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201951174918622)
+![](http://cdn.lindexi.site/lindexi%2F201951174918622)
 
 我从控制台看到下面输出
 

@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 扩展开发"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2019/5/28 19:51:49
 categories: VisualStudio
 ---
@@ -30,11 +30,11 @@ categories: VisualStudio
 
 首先是需要安装 SDK ，如果一开始没有安装的话，那么在控制面板，找到 vS 右击，修改 VS ，然后选择工具安装。
 
-![](http://image.acmx.xyz/dac58ce0-c90f-489f-9ac0-83aadcf143db201711291648.jpg)
+![](http://cdn.lindexi.site/dac58ce0-c90f-489f-9ac0-83aadcf143db201711291648.jpg)
 
 选择修改，然后选最后一个工具
 
-![](http://image.acmx.xyz/dac58ce0-c90f-489f-9ac0-83aadcf143db201711291724.jpg)
+![](http://cdn.lindexi.site/dac58ce0-c90f-489f-9ac0-83aadcf143db201711291724.jpg)
 
 我的是中文，可能翻译不一样，不过相信这一点压力对大家没有什么。
 
@@ -46,7 +46,7 @@ categories: VisualStudio
 
 首先是新建一个插件项目。打开 vs ，新建一个 VSIXProject 
 
-![](http://image.acmx.xyz/dac58ce0-c90f-489f-9ac0-83aadcf143db201711291848.jpg)
+![](http://cdn.lindexi.site/dac58ce0-c90f-489f-9ac0-83aadcf143db201711291848.jpg)
 
 新建之后居然发现有一个  index.html 我开始还以为是 写html 来着，还好不是，这个 index.html 只是卖萌的而已。
 
@@ -56,13 +56,13 @@ categories: VisualStudio
 
 那么我们直接新建 Command ，注意他的位置是在哪。
 
-![](http://image.acmx.xyz/dac58ce0-c90f-489f-9ac0-83aadcf143db201711292118.jpg)
+![](http://cdn.lindexi.site/dac58ce0-c90f-489f-9ac0-83aadcf143db201711292118.jpg)
 
 新建出来可以看到多了好多文件，其中 .vsct 是核心，如果想知道关于他更多，请去中文博客：http://www.cnblogs.com/default/archive/2010/06/28/1766451.html
 
 我先放出做出了的菜单。
 
-![](http://image.acmx.xyz/dac58ce0-c90f-489f-9ac0-83aadcf143db201711292847.jpg)
+![](http://cdn.lindexi.site/dac58ce0-c90f-489f-9ac0-83aadcf143db201711292847.jpg)
 
 首先打开 `*.vsct` 在 Symbols 添加 id ，我们添加 EncodingNormalizerMenu ，EncodingNormalizerId2，他们的值随意给。关于这个 GUID 或者其它的，其实我也不懂。
 
@@ -235,7 +235,7 @@ GuidStrings.GuidDefinitionPage) 是我自己定义的GUID放在一起的类，�
         public Encoding CriterionEncoding { set; get; }
 ```
 
-![](http://image.acmx.xyz/dac58ce0-c90f-489f-9ac0-83aadcf143db201711211410.jpg)
+![](http://cdn.lindexi.site/dac58ce0-c90f-489f-9ac0-83aadcf143db201711211410.jpg)
 
 如果需要复杂窗体，新建一个 用户控件，注意是 WinForm 控件，然后 override Window。
 
@@ -437,21 +437,21 @@ DefinitionPage 就是我上面定义的选项
 
 1. 打开 Nuget 升级，把所有提示升级的都升级。
 
- ![](http://image.acmx.xyz/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323202746.jpg)
+ ![](http://cdn.lindexi.site/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323202746.jpg)
 
 1. 打开 source.extension.vsixmanifest
 
  选 InstallationTarget 包括各版本
 
- ![](http://image.acmx.xyz/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323202935.jpg)
+ ![](http://cdn.lindexi.site/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323202935.jpg)
 
- ![](http://image.acmx.xyz/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323202922.jpg)
+ ![](http://cdn.lindexi.site/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323202922.jpg)
 
 1. 打开属性，修改路径
 
  启动外部程序`C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe`
 
- ![](http://image.acmx.xyz/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323203341.jpg)
+ ![](http://cdn.lindexi.site/AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2017323203341.jpg)
 
 1. 启动项目
 

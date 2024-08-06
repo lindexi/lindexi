@@ -1,7 +1,7 @@
 ---
 title: "WPF 解决 ViewBox  不显示线的问题"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2018/11/21 9:37:53
 categories: WPF
 ---
@@ -25,7 +25,7 @@ ViewBox 是一个好用的东西，但是在他缩小的时候，可能有一些
 
 如果使用 ViewBox 缩小一个矩形，如果线段只有 1 像素，那么容易就丢失。
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017613101115.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017613101115.jpg)
 
 请看上图，左边就是一个矩形，右边是使用 ViewBox 做出来的缩小图形。可以看到存在线条不显示，但是在移动矩形过程中，有些线就显示了，于是看起来图形在闪烁，这个设计不好。
 
@@ -112,7 +112,7 @@ ViewBox 是一个好用的东西，但是在他缩小的时候，可能有一些
 
 于是使用上面的代码，尝试缩小，可以看到不会丢失线
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20176131139.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20176131139.jpg)
 
 缺点：无法获得用户的输入，得到是图片，只能用于显示
 

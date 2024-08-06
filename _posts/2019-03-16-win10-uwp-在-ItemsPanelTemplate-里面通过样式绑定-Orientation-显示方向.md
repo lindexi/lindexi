@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 在 ItemsPanelTemplate 里面通过样式绑定 Orientation 显示方向"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:37 +0800
 CreateTime: 2019/3/16 10:28:44
 categories: Win10 UWP
 ---
@@ -176,7 +176,7 @@ categories: Win10 UWP
 
 现在看起来的界面是
 
-![](http://image.acmx.xyz/lindexi%2F201931610244652)
+![](http://cdn.lindexi.site/lindexi%2F201931610244652)
 
 写到这里的代码请看 [https://github.com/lindexi/lindexi_gd/tree/43ee46e847179b61157c5bfbbdec0382ccc97268/KeejemairbouLirallpurpallnasfakaw](https://github.com/lindexi/lindexi_gd/tree/43ee46e847179b61157c5bfbbdec0382ccc97268/KeejemairbouLirallpurpallnasfakaw)
 

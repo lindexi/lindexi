@@ -1,7 +1,7 @@
 ---
 title: "dotnet 用 gcdump 调试应用程序内存占用"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:30 +0800
 CreateTime: 2020/1/17 9:58:59
 categories: dotnet
 ---
@@ -63,7 +63,7 @@ dotnet gcdump collect -p <target-process-PID>
 
 <!-- ![](image/dotnet 用 gcdump 调试应用程序内存占用/dotnet 用 gcdump 调试应用程序内存占用0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202011795246131)
+![](http://cdn.lindexi.site/lindexi%2F202011795246131)
 
 这是[测试程序](https://github.com/lindexi/lindexi_gd/tree/648db1f7aba1308b5741e6b428b78ac1e79a54c3/WearbewhujawChallwealicel)的分析，通过这个工具可以非常方便拿到某个进程的内存
 

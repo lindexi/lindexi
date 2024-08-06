@@ -1,7 +1,7 @@
 ---
 title: "Windows 的 Pen 协议"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2019/1/5 11:14:49
 categories: 
 ---
@@ -20,5 +20,5 @@ categories:
 
 [Pen Devices ](https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/pen-devices )
 
-![](http://image.acmx.xyz/lindexi%2F201915111149796)
+![](http://cdn.lindexi.site/lindexi%2F201915111149796)
 

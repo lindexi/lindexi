@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 为什么加上 BooleanBoxes 类"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:31 +0800
 CreateTime: 2022/3/14 19:41:51
 categories: WPF dotnet
 ---
@@ -49,7 +49,7 @@ categories: WPF dotnet
 
 <!-- ![](image/dotnet 读 WPF 源代码笔记 为什么加上 BooleanBoxes 类/dotnet 读 WPF 源代码笔记 为什么加上 BooleanBoxes 类0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2022315856539039.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2022315856539039.jpg)
 
 |                  Method |      Mean |    StdDev |    Median | Scaled |
 |------------------------ |---------- |---------- |---------- |------- |

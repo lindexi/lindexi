@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 在 Canvas 放一个超过大小的元素会不会被裁剪"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:37 +0800
 CreateTime: 2018/8/10 19:16:50
 categories: Win10 UWP
 ---
@@ -29,7 +29,7 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 在 Canvas 放一个超过大小的元素会不会被裁剪/win10 uwp 在 Canvas 放一个超过大小的元素会不会被裁剪0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20187248521794)
+![](http://cdn.lindexi.site/lindexi%2F20187248521794)
 
 如图，可以看到超过 Canvas 的元素不会被裁剪
 
@@ -50,7 +50,7 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 在 Canvas 放一个超过大小的元素会不会被裁剪/win10 uwp 在 Canvas 放一个超过大小的元素会不会被裁剪1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201872485418713)
+![](http://cdn.lindexi.site/lindexi%2F201872485418713)
 
 那么在 WPF 是怎样呢？
 
@@ -66,5 +66,5 @@ categories: Win10 UWP
 
 <!-- ![](image/win10 uwp 在 Canvas 放一个超过大小的元素会不会被裁剪/win10 uwp 在 Canvas 放一个超过大小的元素会不会被裁剪2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201872485820743)
+![](http://cdn.lindexi.site/lindexi%2F201872485820743)
 

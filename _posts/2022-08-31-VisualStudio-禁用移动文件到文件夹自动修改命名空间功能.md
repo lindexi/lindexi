@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 禁用移动文件到文件夹自动修改命名空间功能"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:35 +0800
 CreateTime: 2022/8/31 10:35:38
 categories: VisualStudio
 ---
@@ -21,9 +21,9 @@ categories: VisualStudio
 
 <!-- ![](image/VisualStudio 禁用移动文件到文件夹自动修改命名空间功能/VisualStudio 禁用移动文件到文件夹自动修改命名空间功能1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2FQQ%25E5%259B%25BE%25E7%2589%258720220831103818.png)
+![](http://cdn.lindexi.site/lindexi%2FQQ%25E5%259B%25BE%25E7%2589%258720220831103818.png)
 
 英文版：
 
 <!-- ![](image/VisualStudio 禁用移动文件到文件夹自动修改命名空间功能/VisualStudio 禁用移动文件到文件夹自动修改命名空间功能0.png) -->
-![](http://image.acmx.xyz/lindexi%2F20228311035501070.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20228311035501070.jpg)

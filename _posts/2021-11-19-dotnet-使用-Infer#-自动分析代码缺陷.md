@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Infer# 自动分析代码缺陷"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-6 20:43:29 +0800
 CreateTime: 2021/11/19 19:39:33
 categories: dotnet
 ---
@@ -45,7 +45,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet 使用 Infer# 自动分析代码缺陷/dotnet 使用 Infer# 自动分析代码缺陷0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202111191944415549.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202111191944415549.jpg)
 
 可以看到输出了资源没有释放和线程安全问题
 

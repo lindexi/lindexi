@@ -1,7 +1,7 @@
 ---
 title: "Win32 使用 CreateProcess 方法让任务管理器里的命令行不显示应用文件路径"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:39 +0800
 CreateTime: 2023/2/16 16:08:08
 categories: 
 ---
@@ -20,7 +20,7 @@ categories:
 
 <!-- ![](image/Win32 使用 CreateProcess 方法让任务管理器里的命令行不显示应用文件路径/Win32 使用 CreateProcess 方法让任务管理器里的命令行不显示应用文件路径0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2023216168561786.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2023216168561786.jpg)
 
 可以看到我编写的 SvcawgewawkuHenaynairbelhurno.exe 应用在任务管理器的命令行里面显示的参数居然是 `C:\Windows\notepad.exe` 而不是具体的 SvcawgewawkuHenaynairbelhurno 应用 `C:\lindexi\Code\SvcawgewawkuHenaynairbelhurno\SvcawgewawkuHenaynairbelhurno\bin\Debug\net6.0\SvcawgewawkuHenaynairbelhurno.dll` 路径
 

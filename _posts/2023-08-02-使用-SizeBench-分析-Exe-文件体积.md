@@ -1,7 +1,7 @@
 ---
 title: "使用 SizeBench 分析 Exe 文件体积"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:43 +0800
 CreateTime: 2023/8/2 8:40:27
 categories: 
 ---
@@ -32,6 +32,6 @@ categories:
 
 <!-- ![](image/使用 SizeBench 分析 Exe 文件体积/使用 SizeBench 分析 Exe 文件体积0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202382844425092.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202382844425092.jpg)
 
 选择完成之后即可进入分析界面，分析界面的内容里面将会包含 PE 文件的各个部分的大小，比如包含的资源的大小，引用的静态库占用的大小。重复的字符串等内容的大小

@@ -1,7 +1,7 @@
 ---
 title: "WPF 高速书写 StylusPlugIn 原理"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:43 +0800
 CreateTime: 2019/11/29 10:20:39
 categories: WPF 源代码分析 笔迹
 ---
@@ -32,7 +32,7 @@ categories: WPF 源代码分析 笔迹
 
 <!-- ![](image/WPF 触摸到事件/WPF 触摸到事件4.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018815111230935)
+![](http://cdn.lindexi.site/lindexi%2F2018815111230935)
 
 这里需要补充一下，从  `PenThreadWorker.FireEvent` 可以调用 PenContext 三个不同的方法，分别是 FirePenDown 、FirePackets、FirePenUp 而这几个方法最后都会调用到 `WispLogic.ProcessInput` 方法。在 `WispLogic.ProcessInput` 经过封装调用 `WispLogic.ProcessInputReport`  在这个函数里面就会执行所有的 StylusPlugin 请看代码
 
@@ -127,17 +127,17 @@ Point point = new Point((double)data[data.Length - inputArrayLengthPerPoint], (d
 
 <!-- ![](image/WPF 高速书写 StylusPlugIn 原理/WPF 高速书写 StylusPlugIn 原理0.png) -->
 
-<!-- ![](http://image.acmx.xyz/lindexi%2F2018930203356206) -->
+<!-- ![](http://cdn.lindexi.site/lindexi%2F2018930203356206) -->
 
 <!-- ![](image/WPF 高速书写 StylusPlugIn 原理/WPF 高速书写 StylusPlugIn 原理2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018108203514549)
+![](http://cdn.lindexi.site/lindexi%2F2018108203514549)
 
 然后调用 HittestPlugInCollection 找到命中的 stylusPlugInCollection 这里的命中测试和 WPF 的元素命中测试不相同，在于即使有元素挡住也会命中
 
 <!-- ![](image/WPF 高速书写 StylusPlugIn 原理/WPF 高速书写 StylusPlugIn 原理1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201810220224112)
+![](http://cdn.lindexi.site/lindexi%2F201810220224112)
 
 
 ```csharp
@@ -210,7 +210,7 @@ Point point = new Point((double)data[data.Length - inputArrayLengthPerPoint], (d
 
 <!-- ![](image/WPF 高速书写 StylusPlugIn 原理/WPF 高速书写 StylusPlugIn 原理3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018108203932919)
+![](http://cdn.lindexi.site/lindexi%2F2018108203932919)
 
 如果找到了 StylusPlugInCollection 而且 `wispStylusDevice.CurrentNonVerifiedTarget` 不存在，就创建 RawStylusInput 然后调用 `StylusPlugInCollection.FireRawStylusInput` 请看代码
 
@@ -303,7 +303,7 @@ internal void InvokeStylusPluginCollection(RawStylusInputReport inputReport)
 
 <!-- ![](image/WPF 高速书写 StylusPlugIn 原理/WPF 高速书写 StylusPlugIn 原理4.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018108212117763)
+![](http://cdn.lindexi.site/lindexi%2F2018108212117763)
 
 从上面的调用可以看到 StylusPlugIn 从触摸到调用的函数很少，如果要做到高性能就需要使用这个方法
 

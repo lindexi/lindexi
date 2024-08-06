@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/9/1 16:59:19
 categories: dotnet
 ---
@@ -21,7 +21,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息/dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021911931478851.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021911931478851.jpg)
 
 在 Office 读取 OpenXML 文档，将无视 `vMerge="1"` 的存在，也就是此属性只是给开发者看的而已，无论是否存在都不会影响到单元格的合并
 
@@ -71,7 +71,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息/dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021911935277223.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021911935277223.jpg)
 
 以下是此 Office 文档的页面
 
@@ -302,7 +302,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息/dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021911940538181.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021911940538181.jpg)
 
 本文以上的测试文件和代码放在[github](https://github.com/lindexi/lindexi_gd/tree/fd6ad246d15db91342476dae7fc841182179726d/Pptx) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/fd6ad246d15db91342476dae7fc841182179726d/Pptx) 欢迎访问
 

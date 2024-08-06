@@ -1,7 +1,7 @@
 ---
 title: "C# dotnet WPF 使用 OpenXml 解析 Excel 文件"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:24 +0800
 CreateTime: 3/27/2020 8:27:04 AM
 categories: WPF dotnet C#
 ---
@@ -97,7 +97,7 @@ foreach (Row row in rows)
 
 <!-- ![](image/C# dotnet 使用 OpenXml 解析 Excel 文件/C# dotnet 使用 OpenXml 解析 Excel 文件0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020327827229928.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020327827229928.jpg)
 
 代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/21318ca39e614382a512ea354dfebf31b9fccf8e/Babukeelleneeoai) 欢迎小伙伴访问
 

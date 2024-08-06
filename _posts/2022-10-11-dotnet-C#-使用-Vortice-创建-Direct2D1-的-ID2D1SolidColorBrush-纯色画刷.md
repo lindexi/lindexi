@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 使用 Vortice 创建 Direct2D1 的 ID2D1SolidColorBrush 纯色画刷"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:26 +0800
 CreateTime: 2022/10/11 19:30:56
 categories: C# D2D DirectX Vortice Direct2D
 ---
@@ -136,7 +136,7 @@ class Program
 
 <!-- ![](image/dotnet C# 使用 Vortice 创建 Direct2D1 的 ID2D1SolidColorBrush 纯色画刷/dotnet C# 使用 Vortice 创建 Direct2D1 的 ID2D1SolidColorBrush 纯色画刷0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2FD2D.png)
+![](http://cdn.lindexi.site/lindexi%2FD2D.png)
 
 本文的代码放在[github](https://github.com/lindexi/lindexi_gd/tree/471614ba9a8981c3e23041804785ff77f23dac82/WakolerwhaKanicabirem) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/471614ba9a8981c3e23041804785ff77f23dac82/WakolerwhaKanicabirem) 欢迎访问
 

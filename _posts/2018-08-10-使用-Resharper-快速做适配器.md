@@ -1,7 +1,7 @@
 ---
 title: "使用 Resharper 快速做适配器"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2024-8-6 20:43:43 +0800
 CreateTime: 2018/8/10 19:16:51
 categories: Resharper
 ---
@@ -59,9 +59,9 @@ categories: Resharper
 
 使用 ctrl+shift+R 把 Foo 弄出一个接口
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018123183128.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018123183128.jpg)
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318323.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318323.jpg)
 
 可以看到接口
 
@@ -89,9 +89,9 @@ categories: Resharper
 
 在这个类按 alt+insert 可以看到  Delegating Members ，点击
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318371.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318371.jpg)
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318383.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318383.jpg)
 
 这样就可以拿到这个类的所有属性和函数
 

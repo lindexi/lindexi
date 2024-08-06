@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 转换 PathFillModeValues 为颜色特效"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:29 +0800
 CreateTime: 2021/11/2 19:17:57
 categories: dotnet
 ---
@@ -20,7 +20,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet OpenXML 转换 PathFillModeValues 为颜色特效/dotnet OpenXML 转换 PathFillModeValues 为颜色特效0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20211121927162191.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20211121927162191.jpg)
 
 通过 ECMA 376 文档可以了解到 Cube 由 4 个 Path 组成，公式代码如下
 

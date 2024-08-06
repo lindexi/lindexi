@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 修改配色"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:34 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: VisualStudio
 ---
@@ -22,7 +22,7 @@ categories: VisualStudio
 
 我推荐大家到 [https://studiostyl.es/](https://studiostyl.es/) 下载主题，下面是我找到的一些好看的主题
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822152331.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822152331.jpg)
 
 [点击下载](https://studiostyl.es/schemes/son-of-obsidian)
 

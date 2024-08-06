@@ -1,7 +1,7 @@
 ---
 title: "dotnet core 在 MAC 系统下删除应用程序自己后调 Process Start 方法将会抛出 Win32 异常"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2020/8/13 9:38:41
 categories: dotnet
 ---
@@ -21,7 +21,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet core 在 MAC 系统下删除应用程序自己后调 Process Start 方法将会抛出 Win32 异常/dotnet core 在 MAC 系统下删除应用程序自己后调 Process Start 方法将会抛出 Win32 异常0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020813938278627.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020813938278627.jpg)
 
 在更新 [dotnetCampus.UpdateAllDotNetTools](https://github.com/dotnet-campus/dotnetCampus.UpdateAllDotNetTools) 将会删除当前运行的 [dotnetCampus.UpdateAllDotNetTools](https://github.com/dotnet-campus/dotnetCampus.UpdateAllDotNetTools) 进程的文件，在 MAC 下是可以删除正在运行的程序的文件，但是在 .NET Core 的 Process.Start 方法里面的逻辑是需要先获取当前进程所在的文件，获取对应的文件夹，用于找到命令
 

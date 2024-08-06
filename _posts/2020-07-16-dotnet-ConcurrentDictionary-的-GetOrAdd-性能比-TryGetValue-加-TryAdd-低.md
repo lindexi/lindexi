@@ -1,7 +1,7 @@
 ---
 title: "dotnet ConcurrentDictionary 的 GetOrAdd 性能比 TryGetValue 加 TryAdd 低"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:27 +0800
 CreateTime: 2020/7/16 11:00:59
 categories: dotnet
 ---
@@ -60,7 +60,7 @@ categories: dotnet
 
 <!-- ![](image/dotnet ConcurrentDictionary 的 GetOrAdd 性能比 TryGetValue 加 TryAdd 低/dotnet ConcurrentDictionary 的 GetOrAdd 性能比 TryGetValue 加 TryAdd 低0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2020716116373889.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2020716116373889.jpg)
 
 |  Method |     Mean |    Error |   StdDev |  Gen 0 | Gen 1 | Gen 2 | Allocated |
 |-------- |---------:|---------:|---------:|-------:|------:|------:|----------:|

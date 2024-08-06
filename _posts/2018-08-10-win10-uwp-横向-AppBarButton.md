@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 横向 AppBarButton"
 author: lindexi
-date: 2024-5-20 16:22:5 +0800
+date: 2024-8-6 20:43:37 +0800
 CreateTime: 2018/8/10 19:16:50
 categories: Win10 UWP
 ---
@@ -26,7 +26,7 @@ categories: Win10 UWP
 
 但是如果要做出下面的图片的样子，就需要修改`Style`，下面我来告诉大家如何做出下面图片
 
-![](http://image.acmx.xyz/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017102154055.jpg)
+![](http://cdn.lindexi.site/34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017102154055.jpg)
 
 首先在资源写下面的`Style`，建议写在 Page 的资源，这样在整个页面都可以指定
 

@@ -1,7 +1,7 @@
 ---
 title: "IIncrementalGenerator 增量 Source Generator 生成代码入门 判断程序集之间的 InternalsVisibleTo 关系"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:32 +0800
 CreateTime: 2023/6/19 8:39:59
 categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 ---
@@ -58,7 +58,7 @@ using System.Runtime.CompilerServices;
 
 大概的项目组织如下图
 
-![](http://image.acmx.xyz/lindexi%2F20236171619301553.jpg)
+![](http://cdn.lindexi.site/lindexi%2F20236171619301553.jpg)
 
 修改 Analyzers 项目，让这个项目成为 Roslyn 分析器项目，修改之后的 csproj 项目文件代码如下
 

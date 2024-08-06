@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 解析 WPS 不符合压缩文档规范的文档"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:29 +0800
 CreateTime: 2021/1/7 15:02:35
 categories: dotnet
 ---
@@ -49,7 +49,7 @@ at DocumentFormat.OpenXml.Packaging.PresentationDocument.Open(String path, Boole
 
 <!-- ![](image/dotnet OpenXML 解析 WPS 不符合压缩文档规范的文档/dotnet OpenXML 解析 WPS 不符合压缩文档规范的文档0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2021171579876.jpg)
+![](http://cdn.lindexi.site/lindexi%2F2021171579876.jpg)
 
 当然了，点击修复还是能打开课件的
 

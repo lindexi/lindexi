@@ -1,7 +1,7 @@
 ---
 title: "WPF 自定义 TextBoxView 的 Margin 大小"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2018/9/28 17:16:17
 categories: WPF
 ---
@@ -27,7 +27,7 @@ categories: WPF
 
 <!-- ![](image/WPF 自定义 TextBoxView 的 Margin 大小/WPF 自定义 TextBoxView 的 Margin 大小0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F20189281732248)
+![](http://cdn.lindexi.site/lindexi%2F20189281732248)
 
 可以看到现在的 TextBox 光标和 TextBox 的左边有 2 像素的距离，通过 Snoop 可以看到这个 TextBoxView 的 Margin 是 2,0,2,0 而且无法直接修改
 
@@ -39,7 +39,7 @@ categories: WPF
 
 <!-- ![](image/WPF 自定义 TextBoxView 的 Margin 大小/WPF 自定义 TextBoxView 的 Margin 大小2.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201892817550902)
+![](http://cdn.lindexi.site/lindexi%2F201892817550902)
 
 最简单的解决方法是通过设置 TextBox 的 Padding 的方法
 
@@ -55,7 +55,7 @@ categories: WPF
 
 <!-- ![](image/WPF 自定义 TextBoxView 的 Margin 大小/WPF 自定义 TextBoxView 的 Margin 大小3.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F201892817945496)
+![](http://cdn.lindexi.site/lindexi%2F201892817945496)
 
 如果这里的 TextBox 不是在 ListView 或其他控件使用了 TextBox 的，可以使用自己创建的类继承 TextBox 可以通过在 Load 重写控件的 Margin 重写
 

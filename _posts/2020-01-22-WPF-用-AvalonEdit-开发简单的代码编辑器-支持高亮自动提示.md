@@ -1,7 +1,7 @@
 ---
 title: "WPF 用 AvalonEdit 开发简单的代码编辑器 支持高亮自动提示"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2020/1/22 17:11:30
 categories: WPF
 ---
@@ -154,7 +154,7 @@ ShowLineNumbers="True"
 
 <!-- ![](image/WPF 用 AvalonEdit 开发简单的代码编辑器 支持高亮自动提示/WPF 用 AvalonEdit 开发简单的代码编辑器 支持高亮自动提示0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F202012217649554.jpg)
+![](http://cdn.lindexi.site/lindexi%2F202012217649554.jpg)
 
 本文的代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/7d40e0de674f9892b6fce9014f07074de47bfe75/NakacehenaHemqawhearlel) 欢迎小伙伴访问
 

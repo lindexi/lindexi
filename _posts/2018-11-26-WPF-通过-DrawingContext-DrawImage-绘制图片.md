@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 DrawingContext DrawImage 绘制图片"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-8-6 20:43:42 +0800
 CreateTime: 2018/11/26 16:13:14
 categories: WPF
 ---
@@ -105,7 +105,7 @@ categories: WPF
 
 <!-- ![](image/WPF 通过 DrawingContext DrawImage 绘制图片/WPF 通过 DrawingContext DrawImage 绘制图片0.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018112616324815)
+![](http://cdn.lindexi.site/lindexi%2F2018112616324815)
 
 需要需要裁剪圆形，可以依靠 PushClip 裁剪
 
@@ -141,5 +141,5 @@ categories: WPF
 
 <!-- ![](image/WPF 通过 DrawingContext DrawImage 绘制图片/WPF 通过 DrawingContext DrawImage 绘制图片1.png) -->
 
-![](http://image.acmx.xyz/lindexi%2F2018112616108315)
+![](http://cdn.lindexi.site/lindexi%2F2018112616108315)
 
