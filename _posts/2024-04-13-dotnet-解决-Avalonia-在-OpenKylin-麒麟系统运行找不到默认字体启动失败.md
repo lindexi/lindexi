@@ -1,7 +1,7 @@
 ---
 title: "dotnet 解决 Avalonia 在 OpenKylin 麒麟系统运行找不到默认字体启动失败"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-8-8 16:58:43 +0800
 CreateTime: 2024/04/13 07:05:19
 categories: dotnet
 ---
@@ -78,3 +78,4 @@ internal class Program
 参考文档：
 
 - [OpenKylin上运行Avalonia应用 - louzi - 博客园](https://www.cnblogs.com/louzixl/p/17631717.html )
+- <https://github.com/AvaloniaUI/Avalonia/issues/16612>
