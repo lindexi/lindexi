@@ -1,8 +1,8 @@
 ---
 title: "简单在 WinUI 仿造 WPF 的 ColumnDefinition SharedSizeGroup 共享列宽功能"
 author: lindexi
-date: 2024-8-10 9:55:48 +0800
-CreateTime: 2024-8-10 9:40:15 +0800
+date: 2024-8-11 7:25:46 +0800
+CreateTime: 2024/08/11 07:25:46
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2024/08/11 07:25:46 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
