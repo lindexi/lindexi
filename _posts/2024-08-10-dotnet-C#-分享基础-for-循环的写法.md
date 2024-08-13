@@ -1,12 +1,12 @@
 ---
 title: "dotnet C# 分享基础 for 循环的写法"
 author: lindexi
-date: 2024-8-10 7:19:13 +0800
+date: 2024-8-12 10:41:32 +0800
 CreateTime: 2024/08/10 07:19:13
 categories: dotnet C#
 ---
 
-本文将来和大家聊聊在 dotnet C# 里面的基础的 for 循环语法的写法
+本文来和大家聊聊在 dotnet C# 里面的基础的 for 循环语法的写法
 
 <!--more-->
 
