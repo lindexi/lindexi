@@ -1,8 +1,8 @@
 ---
 title: "dotnet X11 窗口 Destroy 之后是否可以再次 Map 显示"
 author: lindexi
-date: 2024-8-13 20:1:35 +0800
-CreateTime: 2024-8-13 19:57:26 +0800
+date: 2024-8-14 7:27:21 +0800
+CreateTime: 2024/08/14 07:27:21
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/08/14 07:27:21 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
