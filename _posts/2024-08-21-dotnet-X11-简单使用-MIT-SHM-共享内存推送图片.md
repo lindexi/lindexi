@@ -1,8 +1,8 @@
 ---
 title: "dotnet X11 简单使用 MIT-SHM 共享内存推送图片"
 author: lindexi
-date: 2024-8-20 9:25:12 +0800
-CreateTime: 2024-8-20 9:25:12 +0800
+date: 2024-8-21 9:30:20 +0800
+CreateTime: 2024/08/21 07:19:28
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/08/21 07:19:28 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -22,7 +24,8 @@ categories: dotnet
 
 经过我在兆芯的 ZHAOXIN KaiXian KX-U6780A 的 CPU 上的实际测试，使用 XPutImage 推送界面大图能够耗时 10 多毫秒，而使用 XShmPutImage 耗时约 0 毫秒
 
-为什么 XShmPutImage 能够如此明显提升 XPutImage 的耗时，减少推送图片的延迟？其实 XShmPutImage 里面只是做一个通知，准确来说啥都没有做。调用 XShmPutImage 时会在 XServer 端慢慢执行渲染相关逻辑，在下文的对 XShmPutImage 的 `send_event` 方法参数介绍时将会重新聊到这一点
+为什么 XShmPutImage 能够如此明显提升 XPutImage 的耗时，减少推送图片的延迟？其实 XShmPutImage 里面只是做一个通知，准确来说啥都没有做。调用 XShmPutImage 时会在 XServer 端慢慢执行渲染相关逻辑
+<!-- ，在下文的对 XShmPutImage 的 `send_event` 方法参数介绍时将会重新聊到这一点 -->
 
 从 XPutImage 换成 XShmPutImage 只是减少传输的影响，对于界面渲染与合成器部分没有优化。实际减少的耗时有限，上文的实际测试的耗时影响，仅仅只是 XShmPutImage 对于 XPutImage 的耗时相同阶段上，被 XShmPutImage 给延后在其他模块了，总耗时减少上可能只有 1-2 毫秒
 
