@@ -447,6 +447,7 @@ permalink: /friends/
  - Brandon Minnick Code Traveler 在微软的大佬，是 GitTrends 的作者 [https://codetraveler.io/](https://codetraveler.io/ )
  - [DotNetByExample - The Next Generation](https://localjoost.github.io/ ) 微软 MVP 应用开发方向
  - [Anson Tsao's Blog](https://learn.microsoft.com/en-us/archive/blogs/ansont/) 在微软的大佬，做 WPF 的触摸
+ - [Micromysteries - Hadi Brais's blog](https://hadibrais.wordpress.com/ ) Hadi Brais 博士是德里印度理工学院的学者，主要研究编译器优化、计算机体系结构以及相关工具和技术
 
 ## 老师
 
