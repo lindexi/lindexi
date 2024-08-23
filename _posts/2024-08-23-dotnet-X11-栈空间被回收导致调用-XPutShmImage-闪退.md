@@ -1,8 +1,8 @@
 ---
 title: "dotnet X11 栈空间被回收导致调用 XPutShmImage 闪退"
 author: lindexi
-date: 2024-8-22 9:47:30 +0800
-CreateTime: 2024-8-22 9:47:30 +0800
+date: 2024-8-23 7:17:26 +0800
+CreateTime: 2024/08/23 07:17:26
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/08/23 07:17:26 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
