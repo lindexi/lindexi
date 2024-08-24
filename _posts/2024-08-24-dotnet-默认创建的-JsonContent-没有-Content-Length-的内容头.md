@@ -1,8 +1,8 @@
 ---
-title: "dotnet 默认创建的 JsonContent 没有 Content Lenght 的内容头"
+title: "dotnet 默认创建的 JsonContent 没有 Content Length 的内容头"
 author: lindexi
-date: 2024-8-23 20:28:25 +0800
-CreateTime: 2024-8-23 20:28:25 +0800
+date: 2024-8-24 10:5:17 +0800
+CreateTime: 2024/08/24 07:07:25
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/08/24 07:07:25 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

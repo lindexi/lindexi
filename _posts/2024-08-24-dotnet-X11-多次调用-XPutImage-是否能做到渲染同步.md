@@ -1,8 +1,8 @@
 ---
 title: "dotnet X11 多次调用 XPutImage 是否能做到渲染同步"
 author: lindexi
-date: 2024-8-23 8:55:25 +0800
-CreateTime: 2024-8-23 8:55:24 +0800
+date: 2024-8-24 7:7:20 +0800
+CreateTime: 2024/08/24 07:07:20
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/08/24 07:07:20 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
