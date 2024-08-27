@@ -1,8 +1,8 @@
 ---
 title: "dotnet WinUI 3 修复非打包应用运行提示 Microsoft.ui.xaml.dll 找不到"
 author: lindexi
-date: 2024-8-26 10:5:55 +0800
-CreateTime: 2024-8-26 8:58:12 +0800
+date: 2024-8-27 7:11:30 +0800
+CreateTime: 2024/08/27 07:11:30
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/08/27 07:11:30 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
