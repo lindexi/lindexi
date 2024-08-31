@@ -1,7 +1,7 @@
 ---
 title: "dotnet 9 WPF 支持 Style 的 Setter 填充内容时可忽略 Value 标签"
 author: lindexi
-date: 2024-8-6 20:43:26 +0800
+date: 2024-8-31 10:53:33 +0800
 CreateTime: 2024/05/09 07:29:07
 categories: WPF dotnet
 ---
@@ -15,6 +15,10 @@ categories: WPF dotnet
 
 <!-- 发布 -->
 <!-- 博客 -->
+
+更新： 由于此功能导致 BAML 内容变化，由高版本 SDK 构建将在低版本 Runtime 运行不起来。直接报错信息是 System.Windows.Markup.XamlParseException 异常，内部是 IndexOutOfRangeException: Index was outside the bounds of the array 异常。于是最终决定撤回更改
+
+---
 
 在原先的 WPF 版本里面，对 Style 的 Setter 填充复杂的对象内容时，大概的示例代码如下
 
