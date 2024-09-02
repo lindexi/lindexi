@@ -1,8 +1,8 @@
 ---
 title: "WPF 从裸 Win 32 的 WM_Pointer 消息获取触摸点绘制笔迹"
 author: lindexi
-date: 2024-8-31 11:27:58 +0800
-CreateTime: 2024-8-31 10:48:24 +0800
+date: 2024-9-1 7:15:43 +0800
+CreateTime: 2024/09/01 07:15:43
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2024/09/01 07:15:43 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
