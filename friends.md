@@ -130,7 +130,7 @@ permalink: /friends/
 
    东方财富 UWP 开发者
 
- - [迪莫的小站](http://www.dimojang.com/ )  这是我见过可能最厉害的高中生
+ - [迪莫的小站](https://dee.moe/ )  这是我见过可能最厉害的高中生
 
  - [五斤](https://www.chairyfish.com/ )
 
