@@ -1,7 +1,7 @@
 ---
 title: "SQLite 由于 mscoree.dll 损坏导致 BadImageFormatException 试图加载格式不正确的程序"
 author: lindexi
-date: 2024-9-5 7:21:42 +0800
+date: 2024-9-10 8:44:48 +0800
 CreateTime: 2024/09/05 07:21:42
 categories: 
 ---
@@ -15,6 +15,8 @@ categories:
 
 <!-- 发布 -->
 <!-- 博客 -->
+
+表现行为是在开发者电脑上能好好运行，在大部分用户设备上能好好运行，只有在个别用户的设备上运行报错
 
 对应的英文错误信息如下
 
