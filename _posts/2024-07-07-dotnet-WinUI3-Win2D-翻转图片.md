@@ -3,7 +3,7 @@ title: "dotnet WinUI3 Win2D 翻转图片"
 author: lindexi
 date: 2024-7-7 7:17:7 +0800
 CreateTime: 2024/07/07 07:17:07
-categories: dotnet win2d
+categories: dotnet win2d WinUI
 ---
 
 本文将告诉大家如何在 WinUI3 里面使用 Win2D 进行图片的翻转，本文的方法也适用于 UWP 框架

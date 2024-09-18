@@ -3,7 +3,7 @@ title: "dotnet OpenXML 文本 BodyProperties 的 FontScale 与文本字号缩放
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/12/29 17:56:48
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文来告诉大家，在 OpenXML 的 BodyProperties 的 NormalAutoFit 的 FontScale 属性缩放文本框的文本字号的方法

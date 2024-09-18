@@ -3,7 +3,7 @@ title: "C# dotnet 使用 OpenXml 解析 PPT 元素的坐标和宽度高度"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/3/16 16:35:42
-categories: dotnet C#
+categories: dotnet OpenXML C#
 ---
 
 在阅读本文之前，我期望你能了解基础的 PPT 解析内容，或看我的入门级博客。本文将告诉大家如何从 PPT 里面解析出通用元素的 x 和 y 的值，以及元素的宽度和高度的值

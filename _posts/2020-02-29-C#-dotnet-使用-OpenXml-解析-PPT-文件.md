@@ -3,7 +3,7 @@ title: "C# dotnet 使用 OpenXml 解析 PPT 文件"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/2/29 10:27:27
-categories: dotnet C#
+categories: dotnet OpenXML C#
 ---
 
 在 2013 微软开源了 OpenXml 解析库，在微软的 PPTX 文档，使用的文档格式就是国际规范的 OpenXml 格式。这个格式有很多版本，详细请看百度。因为演示文稿使用的是 OpenXml 在 .NET 开发可以非常简单将 PowerPoint 文档进行解析，大概只需要两句话

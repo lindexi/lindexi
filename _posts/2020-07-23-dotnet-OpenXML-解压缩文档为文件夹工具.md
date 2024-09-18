@@ -3,7 +3,7 @@ title: "dotnet OpenXML 解压缩文档为文件夹工具"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/7/23 19:50:15
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 做 Office 解析，是需要进行不断的测试才能了解 OpenXML 里面的属性的作用。根据 Ecma 376 的定义，文档其实只是一个压缩文件，可以使用压缩工具进行解压缩。但是我需要不断进行修改文档里面的属性，然后用 Office 打开，测试属性的效果，此时就需要有一个工具用来提升效率

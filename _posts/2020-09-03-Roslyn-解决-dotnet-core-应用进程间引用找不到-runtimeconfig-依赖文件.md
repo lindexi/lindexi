@@ -3,7 +3,7 @@ title: "Roslyn 解决 dotnet core 应用进程间引用找不到 runtimeconfig �
 author: lindexi
 date: 2024-8-6 20:43:33 +0800
 CreateTime: 2020/9/3 17:05:44
-categories: dotnet
+categories: dotnet Roslyn
 ---
 
 我有一个强大的功能，这个功能就是在 Linux 下使用 GDI 转换 EMF 格式图片为 png 图片，但是有一些有趣的图片会让转换的进程炸掉。因此我就想让转换服务放在独立的进程，通过进程间调用，也就是命令行调用传入参数的方式，让另一个进程转换图片。而此时就会遇到一个问题，如何让这个进程也被构建，然后输出到输出路径

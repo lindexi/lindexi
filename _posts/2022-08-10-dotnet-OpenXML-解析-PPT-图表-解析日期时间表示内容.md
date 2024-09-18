@@ -3,7 +3,7 @@ title: "dotnet OpenXML 解析 PPT 图表 解析日期时间表示内容"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2022/8/10 17:58:07
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 里的图表存放的日期时间很多存放的是数值，需要进行转换才能获取到用户可见的字符串

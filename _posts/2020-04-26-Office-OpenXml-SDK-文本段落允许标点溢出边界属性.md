@@ -3,7 +3,7 @@ title: "Office OpenXml SDK 文本段落允许标点溢出边界属性"
 author: lindexi
 date: 2024-8-6 20:43:32 +0800
 CreateTime: 4/26/2020 10:53:43 AM
-categories: 
+categories: OpenXML
 ---
 
 在进行 PPT 解析的时候，因为 PPT 是支持在文本框里面的文本段落设置允许标点溢出边界可以在符号超过了文本框的长度，不会换行，而是显示在文本框之外

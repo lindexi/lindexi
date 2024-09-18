@@ -3,7 +3,7 @@ title: "dotnet OpenXML 如何获取 schemeClr 颜色"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/9/7 14:38:11
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 颜色是一个大的主题，在 ECMA 376 里面用了 19 页 A4 描述了颜色，但仅是简单的描述。在 OpenXML 定义了 Scheme Color (schemeClr) 是用来表示主题的颜色，可以跟随主题的更改而更改颜色。例如我的文本设置为主题的文本颜色，那么在我更改文档主题的文本色就可以更改我的文本颜色

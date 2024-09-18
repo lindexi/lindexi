@@ -3,7 +3,7 @@ title: "dotnet OpenXML 读取 PPT 动画进入退出强调动画类型"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/7/1 19:23:12
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文告诉大家，如何判断 PPT 的某个元素动画属于进入或退出或强调等类型的动画

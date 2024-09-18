@@ -3,7 +3,7 @@ title: "dotnet OpenXML 继承组合颜色的 GrpFill 属性"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/7/24 16:43:57
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 的颜色画刷填充，有特殊的填充是 GrpFill 属性，对应 OpenXML SDK 定义的 DocumentFormat.OpenXml.Drawing.GroupFill 类型

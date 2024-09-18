@@ -3,7 +3,7 @@ title: "dotnet OpenXML 的 spcPct 和 spcPts 表示距离的不同"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 7/8/2020 3:39:37 PM
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 里面的文本排版里面使用到 spcPct （Spacing Percent） 和 spcPts（Spacing Points）两个不同的单位用来表示段前空白和段后空白以及行间距

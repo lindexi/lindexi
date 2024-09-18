@@ -3,7 +3,7 @@ title: "dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见�
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/9/1 16:59:19
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文告诉大家如何利用 Office 对于 OpenXML 支持的特性，在 PPT 的表格里面，通过合并单元格存放一些额外的信息，这些信息对用户来说是不可见的，但是进行拷贝表格等的时候，可以保存此信息内容

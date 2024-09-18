@@ -3,7 +3,7 @@ title: "dotnet OpenXML 聊聊 PPT 文本行距行高计算公式"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/12/2 8:46:27
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 Office 的 PPT 里面，将根据储存文档的行距以及字号，计算出渲染出来的每一行的文本行高。本文将根据 Office 2016 和 M365 两个版本，加上 QQ 截图测量，通过魔法的计算方式加上逗比的算法，从而拿到对应关系公式。也许对于 Word 来说，也是相同的规则，但本文仅仅只聊 PPT 的部分

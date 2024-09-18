@@ -3,7 +3,7 @@ title: "从 WPF 搬迁到 UOS 下的 UNO 的笔记"
 author: lindexi
 date: 2024-8-6 20:43:43 +0800
 CreateTime: 2023/9/20 15:42:36
-categories: WPF
+categories: WPF UNO
 ---
 
 本文记录我将一个小 WPF 应用搬迁到 UNO 框架，用于支持统信 UOS 系统时开发经验

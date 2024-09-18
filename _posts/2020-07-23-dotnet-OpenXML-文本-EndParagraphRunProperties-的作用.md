@@ -3,7 +3,7 @@ title: "dotnet OpenXML 文本 EndParagraphRunProperties 的作用"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/7/23 16:14:05
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 其实我想要记录的仅仅只是 a:endParaRPr 对文本布局的作用

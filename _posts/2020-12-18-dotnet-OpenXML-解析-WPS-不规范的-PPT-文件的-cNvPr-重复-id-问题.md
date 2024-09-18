@@ -3,7 +3,7 @@ title: "dotnet OpenXML 解析 WPS 不规范的 PPT 文件的 cNvPr 重复 id 问
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/12/18 15:23:12
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在收到了反馈说有一份课件，打开解析就发现替换的元素不对，原因是这个课件里面的 Slide Master 里面存在一个元素的 id 和某个页面的元素 id 是相同的，这不符合 ECMA 376 的规范。通过读取文档的内容，发现这是 WPS 制作出来的 PPT 文件。本文做一个存档，用来告诉大家有这个坑

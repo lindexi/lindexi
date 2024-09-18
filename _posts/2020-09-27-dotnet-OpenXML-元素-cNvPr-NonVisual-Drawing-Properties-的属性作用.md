@@ -3,7 +3,7 @@ title: "dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 的属性作用
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/9/27 16:29:27
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文收集元素属性 cNvPr Non-Visual Drawing Properties 的属性的作用

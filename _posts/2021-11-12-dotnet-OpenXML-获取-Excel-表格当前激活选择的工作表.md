@@ -3,7 +3,7 @@ title: "dotnet OpenXML 获取 Excel 表格当前激活选择的工作表"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/11/12 20:48:18
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文告诉大家如何读取 Excel 里面的信息拿到当前激活选择的工作表

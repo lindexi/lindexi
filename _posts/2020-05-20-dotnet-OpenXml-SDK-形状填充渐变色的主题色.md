@@ -3,7 +3,7 @@ title: "dotnet OpenXml SDK 形状填充渐变色的主题色"
 author: lindexi
 date: 2024-8-6 20:43:27 +0800
 CreateTime: 5/20/2020 11:46:32 AM
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 Office 文档的一些有趣的设计，颜色和画刷是可以继承的，这个继承包括了属性的继承。在形状填充里面使用的渐变色是可以一部分属性放在主题里面，主要找到主题里面的画刷，替换掉形状自己定义的内容，才是形状的画刷

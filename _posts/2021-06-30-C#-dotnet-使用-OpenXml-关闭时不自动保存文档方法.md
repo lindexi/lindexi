@@ -3,7 +3,7 @@ title: "C# dotnet 使用 OpenXml 关闭时不自动保存文档方法"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/6/30 20:14:17
-categories: dotnet C#
+categories: dotnet OpenXML C#
 ---
 
 默认在使用 OpenXML SDK 读写 Office 文件，如 PPT 或 Word 或 Excel 文件时，在关闭时调用 Dispose 将会自动将更改部分写入到文件。本文告诉大家如何让 OpenXML SDK 不写入只是释放资源

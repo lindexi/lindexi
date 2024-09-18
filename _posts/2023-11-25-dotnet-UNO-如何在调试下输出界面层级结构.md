@@ -3,7 +3,7 @@ title: "dotnet UNO 如何在调试下输出界面层级结构"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/11/25 9:34:35
-categories: dotnet
+categories: dotnet UNO
 ---
 
 本文将告诉大家如何在 UNO 里面将界面的层级结构输出到调试窗口

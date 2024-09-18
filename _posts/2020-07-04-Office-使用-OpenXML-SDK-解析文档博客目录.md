@@ -3,7 +3,7 @@ title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
 date: 2024-8-6 20:43:32 +0800
 CreateTime: 7/4/2020 10:05:36 AM
-categories: 
+categories: OpenXML
 ---
 
 本文收集 Office 解析相关博客

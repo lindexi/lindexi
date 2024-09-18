@@ -3,7 +3,7 @@ title: "dotnet X11 简单使用 MIT-SHM 共享内存推送图片"
 author: lindexi
 date: 2024-8-21 9:30:20 +0800
 CreateTime: 2024/08/21 07:19:28
-categories: dotnet
+categories: dotnet X11
 ---
 
 这是我在尝试优化 Avalonia 在 Linux 上的低端设备的渲染性能时所研究的方式，本文将告诉大家如何简单使用 XShmPutImage 等 X11 的 XShm Extension 扩展方法，通过共享内存的方式推送图片

@@ -3,7 +3,7 @@ title: "dotnet OpenXML 预设 PresetColorValues 颜色对应的值"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/6/4 10:27:09
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文来告诉大家 ECMA 376 文档的 20.1.10.47 章的 ST_PresetColorVal 预设颜色值对应的颜色

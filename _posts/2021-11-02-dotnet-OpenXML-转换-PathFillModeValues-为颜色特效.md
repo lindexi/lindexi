@@ -3,7 +3,7 @@ title: "dotnet OpenXML 转换 PathFillModeValues 为颜色特效"
 author: lindexi
 date: 2024-8-6 20:43:29 +0800
 CreateTime: 2021/11/2 19:17:57
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXml 预设形状，有一些形状设置了 PathFillModeValues 枚举，此枚举提供了亮暗的蒙层特效。具体的特效是让形状选择一个画刷，在画刷上加上特效。如立体几何 Cube 形状，在 Cube 不同的面有不同的颜色，颜色的亮度不同

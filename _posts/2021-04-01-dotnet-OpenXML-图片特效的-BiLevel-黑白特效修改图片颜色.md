@@ -3,7 +3,7 @@ title: "dotnet OpenXML 图片特效的 BiLevel 黑白特效修改图片颜色"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/4/1 15:32:37
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 Office 中，如 PPT 和 Word 可以不对原图修改的前提下，通过叠加特效的方式，提供对图片的视觉输出进行修改的方法，本文将介绍 ECMA 376 里面的 第 20.1.8.11 章的 Bi-Level (Black White Effect) 的用法和功能

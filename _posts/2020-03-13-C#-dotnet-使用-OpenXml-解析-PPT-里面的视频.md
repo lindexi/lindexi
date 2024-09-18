@@ -3,7 +3,7 @@ title: "C# dotnet 使用 OpenXml 解析 PPT 里面的视频"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/3/13 19:09:15
-categories: dotnet C#
+categories: dotnet OpenXML C#
 ---
 
 本文告诉大家如何从 PPTX 文件里面解析出视频

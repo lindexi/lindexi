@@ -3,7 +3,7 @@ title: "dotnet 使用 Avalonia 开发 UOS 原生应用"
 author: lindexi
 date: 2024-8-6 20:43:29 +0800
 CreateTime: 4/2/2020 8:16:19 AM
-categories: dotnet
+categories: dotnet Avalonia
 ---
 
 最近很火的是国产的操作系统 UOS 系统，这个系统现在存在的问题就是生态没搭建起来。作为 dotnet 开发者，可以通过很多不同方向的技术为 UOS 系统生态贡献应用，如 Xamarin 和 GTK# 或 wine 和 win32 应用，或 mono 和 WinForms 应用等。本文将安利大家使用 Avalonia 框架开发 UOS 上的原生应用

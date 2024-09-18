@@ -3,7 +3,7 @@ title: "dotnet OpenXML 解析 PPT 图表 面积图入门"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2022/8/4 17:07:13
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文告诉大家如何使用 OpenXML 解析 PPT 的图表，以面积图为入门例子告诉大家 OpenXML 的存储

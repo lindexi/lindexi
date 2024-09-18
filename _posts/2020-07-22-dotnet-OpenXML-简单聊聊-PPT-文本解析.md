@@ -3,7 +3,7 @@ title: "dotnet OpenXML 简单聊聊 PPT 文本解析"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/7/22 16:46:07
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 Office 里面的文本解析最全的范围是 Word 文本，就是属性数量本身就特别多。本文只是简单和大家聊聊 Office 里面的 PPT 的文本的解析入门。尽管 PPT 的文本也是采用 DrawingDL 的文本属性为主，不过会用到的属性将比 Word 少很多。本文将和小伙伴介绍 PPT 的文本存放的方式

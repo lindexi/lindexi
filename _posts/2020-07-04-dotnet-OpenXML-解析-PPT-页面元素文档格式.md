@@ -3,7 +3,7 @@ title: "dotnet OpenXML 解析 PPT 页面元素文档格式"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 7/4/2020 9:45:01 AM
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文告诉大家在 OpenXML 里面的 PPT 页面 Slide 的元素文档格式

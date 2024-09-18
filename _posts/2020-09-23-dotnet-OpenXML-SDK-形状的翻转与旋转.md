@@ -3,7 +3,7 @@ title: "dotnet OpenXML SDK 形状的翻转与旋转"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/9/23 17:41:13
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 的 PPT 元素，形状的翻转与旋转是有逻辑关系，本文来和大家聊聊形状的翻转和形状的旋转的关系

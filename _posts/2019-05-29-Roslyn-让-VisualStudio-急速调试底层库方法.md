@@ -3,7 +3,7 @@ title: "Roslyn 让 VisualStudio 急速调试底层库方法"
 author: lindexi
 date: 2024-8-6 20:43:33 +0800
 CreateTime: 2019/5/29 20:02:09
-categories: VisualStudio
+categories: VisualStudio Roslyn
 ---
 
 我有一个很大的项目，这个项目里面包含了很多小的底层库。有一天我发现了某个底层库可能有小伙伴挖了一个坑，我期望调试这个底层库，但是我一点都不想编译整个大项目，因为底层库被太多的项目应用，一点点修改都需要编译很久。本文提供一个简单的方法让大家可以通过修改项目文件，让 VisualStudio 可以急速调试底层库，每次更改底层库只需要重新编译底层库就可以

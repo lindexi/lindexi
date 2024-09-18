@@ -3,7 +3,7 @@ title: "C# dotnet WPF 使用 OpenXml 解析 Excel 文件"
 author: lindexi
 date: 2024-8-6 20:43:24 +0800
 CreateTime: 3/27/2020 8:27:04 AM
-categories: WPF dotnet C#
+categories: WPF dotnet OpenXML C#
 ---
 
 在 2013 微软开源了 OpenXml 解析库，在微软的 Excel 文档，使用的文档格式就是国际规范的 OpenXml 格式。这个格式有很多版本，详细请看百度。因为表格文稿使用的是 OpenXml 在 .NET 开发可以非常简单将 Excel 文档进行解析，大概只需要两句话

@@ -3,7 +3,7 @@ title: "dotnet OpenXML 的 Slide Master 和 Slide Layout 是什么"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 7/4/2020 10:32:32 AM
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文来告诉大家在解析 PPT 文档的时候，元素继承以及占位符需要用到的 Slide Master 和 Slide Layout 是什么

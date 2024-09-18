@@ -3,7 +3,7 @@ title: "Roslyn 在 msbuild 的 target 判断文件存在"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/12/2 8:31:05
-categories: 
+categories: Roslyn
 ---
 
 在使用 msbuild 定义编译时运行的逻辑，可以使用 Exists 判断文件是否存在

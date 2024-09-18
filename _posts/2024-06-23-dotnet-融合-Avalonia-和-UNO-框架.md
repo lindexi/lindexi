@@ -3,7 +3,7 @@ title: "dotnet 融合 Avalonia 和 UNO 框架"
 author: lindexi
 date: 2024-8-6 20:43:31 +0800
 CreateTime: 2024/06/23 07:07:27
-categories: dotnet
+categories: dotnet Avalonia UNO
 ---
 
 现在在 .NET 系列里面，势头比较猛的 UI 框架中，就包括了 Avalonia 和 UNO 框架。本文将告诉大家如何尝试在一个解决方案里面融合 Avalonia 和 UNO 两个框架，即在一个进程里面跑起来两个框架

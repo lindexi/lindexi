@@ -3,7 +3,7 @@ title: "Notes on Migrating from WPF to UNO under UOS"
 author: lindexi
 date: 2024-8-6 20:43:32 +0800
 CreateTime: 2023/11/26 11:17:24
-categories: WPF
+categories: WPF UNO
 ---
 
 This article documents my experience in migrating a small WPF application to the UNO framework for support on the UOS(统信).

@@ -3,7 +3,7 @@ title: "dotnet 修复 Uno 中文乱码"
 author: lindexi
 date: 2024-8-6 20:43:29 +0800
 CreateTime: 2022/10/27 8:09:26
-categories: dotnet
+categories: dotnet UNO
 ---
 
 这是一个历史问题，在使用 Uno 展示中文的时候，如果设置 Uno 的底层使用 Skia 系进行渲染，那么将会因为中文字体问题，导致渲染出现乱码。此问题已被我修复，最佳解法是更新到最新版本

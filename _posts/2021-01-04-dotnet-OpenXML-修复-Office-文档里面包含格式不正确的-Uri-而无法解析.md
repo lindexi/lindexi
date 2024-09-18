@@ -3,7 +3,7 @@ title: "dotnet OpenXML 修复 Office 文档里面包含格式不正确的 Uri �
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/1/4 16:07:29
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在使用 OpenXML 解析 Office 文档，无论是 PPT 还是 Word 还是 Excel 文档，都会使用标准方式解析。而此时的文档如果包含了错误的 Url 格式，例如不正确的邮件名的时候，将会在解析的时候出错。本文告诉大家如何修复这个问题

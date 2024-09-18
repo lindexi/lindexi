@@ -3,7 +3,7 @@ title: "dotnet OpenXML 文本字体的选择规则"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 7/8/2020 4:40:01 PM
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 Office 的文本排版里面，会根据字符选择使用哪个字体插槽。也就是实际上在 Office 里面可以在一个文本段里面指定多个字体，会根据实际的字符使用不同的字体

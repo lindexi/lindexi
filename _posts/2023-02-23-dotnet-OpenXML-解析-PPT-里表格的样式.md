@@ -3,7 +3,7 @@ title: "dotnet OpenXML 解析 PPT 里表格的样式"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/2/23 8:46:25
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 PPT 里面的表格可以通过表格样式配置决定表格的样式，本文将和大家介绍如何获取和解析表格的样式

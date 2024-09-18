@@ -3,7 +3,7 @@ title: "dotnet OpenXML WPF 解析实现 PPT 文本描边效果"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/12/16 15:17:06
-categories: WPF dotnet
+categories: WPF dotnet OpenXML
 ---
 
 本文是使用 WPF 做个 PowerPoint 系列的博客，本文来告诉大家如何解析 PPT 里面的文本描边效果，在 WPF 应用中绘制出来，实现像素级相同

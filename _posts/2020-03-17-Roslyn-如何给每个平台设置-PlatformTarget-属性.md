@@ -3,7 +3,7 @@ title: "Roslyn 如何给每个平台设置 PlatformTarget 属性"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/3/17 18:57:25
-categories: 
+categories: Roslyn
 ---
 
 在使用 csproj 格式，如果需要给不同的平台设置 PlatformTarget 对应平台的值，需要写比较多的代码，本文告诉大家一个简便的方法

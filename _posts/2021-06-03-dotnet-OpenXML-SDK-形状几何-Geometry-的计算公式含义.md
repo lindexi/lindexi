@@ -3,7 +3,7 @@ title: "dotnet OpenXML SDK 形状几何 Geometry 的计算公式含义"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/6/3 19:41:03
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文来告诉大家，在 OpenXML 里面的 Geometry 的如 gdLst 和 ahLst 和 pathLst 等里面参数的公式的参数含义

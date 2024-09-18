@@ -3,7 +3,7 @@ title: "dotnet 使用 OpenXML SDK 解析 Office 的项目符号 buNone 含义"
 author: lindexi
 date: 2024-8-6 20:43:29 +0800
 CreateTime: 5/11/2020 3:00:29 PM
-categories: dotnet
+categories: dotnet OpenXML UNO
 ---
 
 在解析 PPT 文档的时候，文本是比较复杂的一部分，而因为很多有趣的坑，即使是微软大法也有一些诡异的设计，例如项目符号的是否显示

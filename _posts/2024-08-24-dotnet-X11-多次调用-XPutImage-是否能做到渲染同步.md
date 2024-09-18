@@ -3,7 +3,7 @@ title: "dotnet X11 多次调用 XPutImage 是否能做到渲染同步"
 author: lindexi
 date: 2024-8-24 7:7:20 +0800
 CreateTime: 2024/08/24 07:07:20
-categories: dotnet
+categories: dotnet X11
 ---
 
 本文将告诉大家我在麒麟系统和统信系统以及分别搭配飞腾和兆芯处理器的设备上，使用连续的 XPutImage 方法推送界面，测试是否能够在一次渲染内完成。测试结论是不能做到渲染同步

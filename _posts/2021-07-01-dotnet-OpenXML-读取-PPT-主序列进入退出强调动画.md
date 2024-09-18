@@ -3,7 +3,7 @@ title: "dotnet OpenXML 读取 PPT 主序列进入退出强调动画"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/7/1 21:00:50
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文告诉大家如何读取 PPT 文件里面，放在主动画序列 MainSequence 的进入和退出和强调的动画，和在 OpenXML 里面的存放方式

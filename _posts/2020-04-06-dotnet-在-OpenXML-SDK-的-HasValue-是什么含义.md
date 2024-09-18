@@ -3,7 +3,7 @@ title: "dotnet 在 OpenXML SDK 的 HasValue 是什么含义"
 author: lindexi
 date: 2024-5-20 16:22:4 +0800
 CreateTime: 4/6/2020 3:26:44 PM
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML SDK 里面对于很多值，如字符串等的值，都包含一个 HasValue 属性。刚入门的小伙伴会认为这就是一个和可空类型一样的属性，表示这个属性是不是为空。其实这句话只是对一半，其实这个属性表示的是在重新定义的字符串参数里面的属性是否为空

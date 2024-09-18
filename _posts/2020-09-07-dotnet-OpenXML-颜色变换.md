@@ -3,7 +3,7 @@ title: "dotnet OpenXML 颜色变换"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/9/7 10:43:07
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 颜色变换是对基础颜色的相关属性的修改。 例如，透明度是与颜色相关的属性。 颜色转换被指定为任何颜色模型标签的子标签，可以在任何颜色加上颜色变换

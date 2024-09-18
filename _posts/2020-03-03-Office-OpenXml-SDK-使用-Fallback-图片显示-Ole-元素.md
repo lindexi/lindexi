@@ -3,7 +3,7 @@ title: "Office OpenXml SDK 使用 Fallback 图片显示 Ole 元素"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/3/3 8:23:31
-categories: 
+categories: OpenXML
 ---
 
 我在写一个 WinForms 程序用来读取 Word 里面的图片显示，在解析 Word 等 Office 文档，会看到一些 ole object 元素，而有些 ole object 会有 Fallback 图片，用这些备用的图片可以显示 ole 元素

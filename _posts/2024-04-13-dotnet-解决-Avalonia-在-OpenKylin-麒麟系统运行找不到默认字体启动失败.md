@@ -3,7 +3,7 @@ title: "dotnet 解决 Avalonia 在 OpenKylin 麒麟系统运行找不到默认�
 author: lindexi
 date: 2024-8-8 16:58:43 +0800
 CreateTime: 2024/04/13 07:05:19
-categories: dotnet
+categories: dotnet Avalonia
 ---
 
 本文记录 Avalonia 应用在 OpenKylin 麒麟系统运行找不到默认字体启动失败的解决方法

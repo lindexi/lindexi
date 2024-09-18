@@ -3,7 +3,7 @@ title: "dotnet OpenXML 读取 PPT 形状边框定义在 Style 的颜色画刷"
 author: lindexi
 date: 2024-8-6 20:43:29 +0800
 CreateTime: 2021/8/27 12:13:36
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文来和大家聊聊在 PPT 形状使用了 Style 样式的颜色画刷读取方法

@@ -3,7 +3,7 @@ title: "msbuild Roslyn 行为详解"
 author: lindexi
 date: 2024-5-20 16:22:5 +0800
 CreateTime: 2021/11/19 19:15:23
-categories: 
+categories: Roslyn
 ---
 
 本文来告诉大家 msbuild Roslyn 的行为，本文非新手友好

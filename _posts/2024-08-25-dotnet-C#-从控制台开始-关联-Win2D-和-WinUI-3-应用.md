@@ -1,9 +1,9 @@
 ---
 title: "dotnet C# 从控制台开始 关联 Win2D 和 WinUI 3 应用"
 author: lindexi
-date: 2024-9-18 18:34:7 +0800
+date: 2024-9-18 18:52:16 +0800
 CreateTime: 2024/08/25 07:21:25
-categories: dotnet win2d C#
+categories: dotnet win2d WinUI C#
 ---
 
 本文将告诉大家如何从最简单的控制台开始搭建，让 Win2D 和 WinUI 3 关联起来，让 Win2D 可以将内容渲染到 WinUI 3 应用上

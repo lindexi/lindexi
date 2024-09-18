@@ -3,7 +3,7 @@ title: "Roslyn 解决找不到 SolutionDir 属性"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/8/31 19:06:05
-categories: 
+categories: Roslyn
 ---
 
 在旧版本的 csproj 格式也就是 Franken-proj 格式，可以使用 SolutionDir 拿到当前sln文件所在的文件夹，但是在 SDK Style 格式的项目文件，是拿不到这个属性的，本文告诉大家如何做到兼容之前的逻辑

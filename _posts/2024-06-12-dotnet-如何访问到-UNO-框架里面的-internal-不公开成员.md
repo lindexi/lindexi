@@ -3,7 +3,7 @@ title: "dotnet 如何访问到 UNO 框架里面的 internal 不公开成员"
 author: lindexi
 date: 2024-6-12 8:47:34 +0800
 CreateTime: 2024/06/12 07:09:12
-categories: dotnet
+categories: dotnet UNO
 ---
 
 本文和大家介绍一个 Hack 的方式，通过此方式可实现访问 UNO 框架里面的 internal 不公开成员，调用 UNO 框架里面的不公开的 API 方法和属性，访问 UNO 里面不公开的类型

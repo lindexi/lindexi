@@ -3,7 +3,7 @@ title: "dotnet OpenXML SDK 文本占位符解析"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 5/9/2020 10:43:59 AM
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在使用 OpenXML SDK 解析 PPT 文档的文本占位符的时候，需要对 PPT 的格式有一定的了解，尽管整个 OpenXML SDK 包括文档等都很详细。但是有一些细节文档上虽然有写，但是没有强调一下，就被我忽略了

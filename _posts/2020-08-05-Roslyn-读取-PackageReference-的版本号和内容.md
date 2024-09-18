@@ -3,7 +3,7 @@ title: "Roslyn 读取 PackageReference 的版本号和内容"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/8/5 16:12:49
-categories: 
+categories: Roslyn
 ---
 
 在写 msbuild 的预编译逻辑，如果想要拿到项目安装的 NuGet 库和版本，可以通过获取 PackageReference 的方法获取

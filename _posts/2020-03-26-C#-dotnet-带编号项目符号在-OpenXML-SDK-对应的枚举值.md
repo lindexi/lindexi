@@ -3,7 +3,7 @@ title: "C# dotnet 带编号项目符号在 OpenXML SDK 对应的枚举值"
 author: lindexi
 date: 2024-8-6 20:43:24 +0800
 CreateTime: 2020/3/26 17:08:16
-categories: dotnet C#
+categories: dotnet OpenXML C#
 ---
 
 本文告诉大家在 OpenXML SDK 里面文本框的文本带自动编号的项目符号，不同的编号在 OpenXML SDK 上的枚举值

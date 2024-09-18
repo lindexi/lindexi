@@ -3,7 +3,7 @@ title: "C# dotnet 使用 OpenXml 解析 Word 文件"
 author: lindexi
 date: 2024-8-6 20:43:24 +0800
 CreateTime: 2020/9/7 8:57:47
-categories: dotnet C#
+categories: dotnet OpenXML C#
 ---
 
 本文聊的 Word 是 docx 格式，这个格式遵循 ECAM 376 全球标准，使用的格式是 OpenXML 格式，在 2013 微软开源了 OpenXml 解析库。这个库里面包含了海量代码，可以使用 MB 计算的代码量，通过这个解析库，咱可以使用几行代码完成对 Word 文件的解析，从文件到内存模型

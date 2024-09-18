@@ -3,7 +3,7 @@ title: "dotnet OpenXML 解析 PPT 文本字体获取详解"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/8/10 10:17:20
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 的 PPT 的文本的字体是一个比较复杂的概念，即使在 OpenXML SDK 的辅助下，也需要自己写很多的逻辑。通过 ECMA 376 文档里面散落在各地的描述，和 dotnetCampus.OfficeDocumentZipper 工具的实验帮助之下，我摸到了本文将要告诉大家的规则，以及逻辑的实现

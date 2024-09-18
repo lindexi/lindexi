@@ -3,7 +3,7 @@ title: "dotnet OpenXML SDK 添加 CoreFilePropertiesPart 的方法"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2024/1/24 16:37:44
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文记录在 OpenXML SDK 2.15 版本下，为 PPTX 文件添加 CoreFilePropertiesPart 的方法，通过本文的方法可以正确且简单的添加 core.xml 文件到 PPTX 文件里

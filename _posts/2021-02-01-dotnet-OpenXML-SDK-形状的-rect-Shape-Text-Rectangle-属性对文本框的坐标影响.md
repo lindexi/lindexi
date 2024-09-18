@@ -3,7 +3,7 @@ title: "dotnet OpenXML SDK 形状的 rect Shape Text Rectangle 属性对文本�
 author: lindexi
 date: 2024-8-6 20:43:27 +0800
 CreateTime: 2021/2/1 17:04:20
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 Office 里面，对于形状，可以通过 a:rect 指定文本框的坐标

@@ -3,7 +3,7 @@ title: "dotnet OpenXML 文本删除线解析方法"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/8/18 20:58:22
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文来告诉大家如何解析读取在 OpenXML 里面存放的文本删除线，本文使用 PowerPoint 作为例子来告诉大家如何读取然后在 WPF 应用里面显示

@@ -3,7 +3,7 @@ title: "dotnet OpenXML 测量单位的角度和弧度值"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/6/23 19:19:15
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 中表示的角度和咱日常使用的角度不相同，而在 .NET 里面的 Math 函数里面使用的是弧度表示，此时就需要有一些转换。本文来告诉大家一些概念，让大家明白角度和弧度的差别

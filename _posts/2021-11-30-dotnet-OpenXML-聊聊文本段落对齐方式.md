@@ -3,7 +3,7 @@ title: "dotnet OpenXML 聊聊文本段落对齐方式"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/11/30 17:05:17
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文来和大家聊聊在 OpenXML 里面，文本段落对齐方式。在 Word 和 PPT 的文本段落对齐规则是相同的，对齐的规则比较多，本文将一一告诉大家

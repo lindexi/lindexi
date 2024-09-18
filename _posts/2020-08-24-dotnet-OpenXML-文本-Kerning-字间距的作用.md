@@ -3,7 +3,7 @@ title: "dotnet OpenXML 文本 Kerning 字间距的作用"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/8/24 8:47:14
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 PPT 和 Word 排版里面，小伙伴会接触到 Kerning 字间距这个属性，本文将告诉大家这个属性的功能，以及为什么需要在 OpenXml 里面设置这个属性

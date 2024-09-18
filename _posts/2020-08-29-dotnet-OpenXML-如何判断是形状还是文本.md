@@ -3,7 +3,7 @@ title: "dotnet OpenXML 如何判断是形状还是文本"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/8/29 11:27:53
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 格式里面，其实不存在文本这个元素，所有都是形状。但是在 PPT 界面看到的文本框是什么呢？其实他是特别的形状。而几乎所有的形状都可以输入文本，因此区分形状和文本的意义不会特别大，只是在做解析的时候才会碰到

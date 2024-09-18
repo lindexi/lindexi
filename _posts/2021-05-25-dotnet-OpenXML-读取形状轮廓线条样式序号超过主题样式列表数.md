@@ -3,7 +3,7 @@ title: "dotnet OpenXML 读取形状轮廓线条样式序号超过主题样式列
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2021/5/25 20:17:06
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 中，默认的形状可以通过指定 LineReference 让形状使用文档主题里面的样式。文档主题里面包含多个样式，在形状里面指定样式通过的是序号的方法，如果在形状里面指定的序号超过了主题的数量，那么将会使用最后一项样式

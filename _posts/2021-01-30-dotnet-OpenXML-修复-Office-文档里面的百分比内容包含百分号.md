@@ -3,7 +3,7 @@ title: "dotnet OpenXML 修复 Office 文档里面的百分比内容包含百分�
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/1/30 10:42:23
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 我在解析一个 PPT 文档的时候，发现了这个 PPT 文档的背景色的透明度百分比的字符串里面包含了百分号，而不是一个 OpenXml 里面的百分比单位

@@ -3,7 +3,7 @@ title: "dotnet OpenXML 文本 BodyProperties 的属性作用"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/7/28 15:34:21
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文收集 a:bodyPr 文本框属性 BodyProperties 的属性的作用

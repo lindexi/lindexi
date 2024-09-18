@@ -3,7 +3,7 @@ title: "dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 重复 id 标�
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/9/27 19:22:08
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 使用 OpenXML 的格式的 Office 文档的元素，使用 p:cNvPr Non-Visual Drawing Properties 的 Id 属性作为标识，在标准协议这个标识是唯一的，但实际很多文档都存在重复的标识。本文告诉大家在使用 Office 2016 版本测试重复 id 的行为

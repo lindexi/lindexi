@@ -3,7 +3,7 @@ title: "dotnet OpenXML 文本 ParagraphProperties 的属性作用"
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2020/7/22 19:26:42
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文收集 a:pPr 段落属性 ParagraphProperties 的属性的作用

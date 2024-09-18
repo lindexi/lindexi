@@ -3,7 +3,7 @@ title: "dotnet OpenXML 为什么资源使用 Relationship 引用"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 7/8/2020 11:16:11 AM
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 在 OpenXML 文档格式里面，所有的资源以及页面之间的引用等，都是通过 Relationship 的引用，如资源需要通过 GetReferenceRelationship 的方法才能拿到。那为什么要这样设计呢

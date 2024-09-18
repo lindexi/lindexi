@@ -3,7 +3,7 @@ title: "dotnet OpenXML 形状的 Outline 的 LineWidth 线条轮廓粗细宽度�
 author: lindexi
 date: 2024-8-6 20:43:28 +0800
 CreateTime: 2021/7/24 14:45:38
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文来和大家聊聊 OpenXML 里面的给 PPT 用的形状里面的线条宽度的定义，以及在 PowerPoint 上的行为

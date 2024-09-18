@@ -3,7 +3,7 @@ title: "dotnet OpenXML 文本 Text Line Break 的作用"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2020/7/22 18:24:08
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文主要和小伙伴聊 a:br 这个标记的作用

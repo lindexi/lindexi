@@ -3,7 +3,7 @@ title: "Roslyn 开发 NuGet 包的 Task 编译可能遇到的问题"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2019/7/2 10:43:28
-categories: 
+categories: Roslyn
 ---
 
 在写 msbuild 脚本的时候，或修改项目文件的时候，将会使用到很多的微软提供的 Task 命令。在需要复杂的编译的时候，可以通过自己定义一个任务用来定义编译

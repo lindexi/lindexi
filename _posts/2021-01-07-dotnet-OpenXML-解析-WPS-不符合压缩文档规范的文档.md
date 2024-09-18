@@ -3,7 +3,7 @@ title: "dotnet OpenXML 解析 WPS 不符合压缩文档规范的文档"
 author: lindexi
 date: 2024-8-6 20:43:29 +0800
 CreateTime: 2021/1/7 15:02:35
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 我遇到了有老师给我反馈说用我的小工具去辅助编辑课件的时候，遇到了他使用 WPS 制作的文档打开失败，原因是 WPS 制作的一些文档不符合压缩文档规范。而 Office 的基于 ECMA 376 的文档，都是使用标准的 ZIP 压缩规范的文档，因此对于这些不符合压缩文档规范的文件，将会解析失败

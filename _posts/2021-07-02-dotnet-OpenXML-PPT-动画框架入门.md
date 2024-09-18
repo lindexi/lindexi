@@ -3,7 +3,7 @@ title: "dotnet OpenXML PPT 动画框架入门"
 author: lindexi
 date: 2024-8-6 20:43:27 +0800
 CreateTime: 2021/7/2 16:03:31
-categories: dotnet
+categories: dotnet OpenXML
 ---
 
 本文将从 OpenXML 方面聊 PPT 的动画框架，本文是属于编程方面而不是 PPT 动画制作教程
