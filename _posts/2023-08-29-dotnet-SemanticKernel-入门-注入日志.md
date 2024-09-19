@@ -3,7 +3,7 @@ title: "dotnet SemanticKernel 入门 注入日志"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/8/29 9:37:23
-categories: dotnet
+categories: dotnet SemanticKernel
 ---
 
 使用 SemanticKernel 框架在对接 AI 时，由于使用到了大量的魔法，需要有日志的帮助才好更方便定位问题，本文将告诉大家如何在 SemanticKernel 注入日志

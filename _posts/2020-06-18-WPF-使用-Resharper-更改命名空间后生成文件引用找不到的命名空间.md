@@ -3,7 +3,7 @@ title: "WPF 使用 Resharper 更改命名空间后生成文件引用找不到的
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 6/18/2020 5:52:59 PM
-categories: WPF
+categories: WPF ReSharper
 ---
 
 在 Resharper 更改全部命名空间之后，在 xx.g.cs 文件里面的 using 用了一个之前的命名空间，但是代码里面没有地方使用，此时构建不通过，原因是 xaml 里面存在引用

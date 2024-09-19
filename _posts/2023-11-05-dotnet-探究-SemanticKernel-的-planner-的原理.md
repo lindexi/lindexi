@@ -3,7 +3,7 @@ title: "dotnet 探究 SemanticKernel 的 planner 的原理"
 author: lindexi
 date: 2024-8-6 20:43:30 +0800
 CreateTime: 2023/11/5 15:16:14
-categories: dotnet
+categories: dotnet SemanticKernel
 ---
 
 在使用 SemanticKernel 时，我着迷于 SemanticKernel 强大的 plan 能力，通过 plan 功能可以让 AI 自动调度拼装多个模块实现复杂的功能。我特别好奇 SemanticKernel 里的 planner 的原理，好奇底层具体是如何实现的。好在 SemanticKernel 是完全开源的，通过阅读源代码，我理解了 SemanticKernel 的工作机制，接下来我将和大家分享我所了解到的原理

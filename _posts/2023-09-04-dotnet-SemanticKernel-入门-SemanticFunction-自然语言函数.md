@@ -3,7 +3,7 @@ title: "dotnet SemanticKernel 入门 SemanticFunction 自然语言函数"
 author: lindexi
 date: 2024-7-15 8:59:45 +0800
 CreateTime: 2023/9/4 8:45:17
-categories: dotnet
+categories: dotnet SemanticKernel
 ---
 
 本文将和大家介绍 LLM 的魔法，通过自然语言编程的方式开发 SemanticFunction 函数

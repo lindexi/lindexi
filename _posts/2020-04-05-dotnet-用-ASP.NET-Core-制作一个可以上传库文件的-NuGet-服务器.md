@@ -3,7 +3,7 @@ title: "dotnet 用 ASP.NET Core 制作一个可以上传库文件的 NuGet 服�
 author: lindexi
 date: 2024-5-20 16:22:4 +0800
 CreateTime: 4/5/2020 3:39:34 PM
-categories: dotnet
+categories: dotnet ASP.NETCore
 ---
 
 我在写一个有趣的 WPF 应用，我想要测试这个 WPF 应用的一个功能，这个功能就是一键点击自动推送 NuGet 包到服务器。我想要做一点自动化的测试，我需要有某个假装是 NuGet 的服务器用来接收我这个应用推送的 NuGet 包。用 ASP.NET Core 写一个假装的 NuGet 服务器，支持被 NuGet 推送包是特别简单的，本文就来和大家说说这个后台如何写

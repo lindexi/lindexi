@@ -3,7 +3,7 @@ title: "dotnet SemanticKernel 入门 将技能导入框架"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/8/28 8:37:23
-categories: dotnet
+categories: dotnet SemanticKernel
 ---
 
 在上一篇博客中和大家简单介绍了 SemanticKernel 里的技能概念，接下来咱准备将 技能 导入到 SemanticKernel 框架里面，进行一个管道式调用

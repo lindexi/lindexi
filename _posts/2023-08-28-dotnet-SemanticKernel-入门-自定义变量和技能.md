@@ -3,7 +3,7 @@ title: "dotnet SemanticKernel 入门 自定义变量和技能"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/8/28 8:37:23
-categories: dotnet
+categories: dotnet SemanticKernel
 ---
 
 本文将告诉大家如何在 SemanticKernel 框架内定义自定义的变量和如何开发自定义的技能

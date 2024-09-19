@@ -3,7 +3,7 @@ title: "dotnet SemanticKernel 入门 开篇"
 author: lindexi
 date: 2024-7-13 15:14:32 +0800
 CreateTime: 2023/8/28 8:37:23
-categories: dotnet
+categories: dotnet SemanticKernel
 ---
 
 本文将开坑告诉大家什么是 SemanticKernel 以及如何使用框架

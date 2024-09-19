@@ -3,7 +3,7 @@ title: "微软最具价值专家 MVP 如何获得 Resharper 的免费功能"
 author: lindexi
 date: 2024-8-6 20:43:44 +0800
 CreateTime: 2018/12/21 11:29:00
-categories: 
+categories: ReSharper
 ---
 
 很多的开发工具都欢迎微软最具价值专家 MVP 使用这些工具，为了吸引更多的用户，会有各种活动

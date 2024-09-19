@@ -3,7 +3,7 @@ title: "IIncrementalGenerator 增量 Source Generator 生成代码应用 将构�
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/11/8 20:40:08
-categories: SourceGenerator
+categories: IIncrementalGenerator SourceGenerator
 ---
 
 本文将和大家介绍一个 IIncrementalGenerator 增量 Source Generator 生成代码技术的应用例子，将当前的构建时间写入到代码里面。这个功能可以比较方便实现某些功能的开关，比如说设置某个功能自动在具体应用发布之后过一段时间就失效等功能

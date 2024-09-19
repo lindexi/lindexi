@@ -3,7 +3,7 @@ title: "dotnet 将本地的 Phi-3 模型与 SemanticKernel 进行对接"
 author: lindexi
 date: 2024-6-20 9:5:31 +0800
 CreateTime: 2024/06/20 07:05:26
-categories: dotnet
+categories: dotnet SemanticKernel
 ---
 
 在本地完成 Phi-3 模型的部署之后，即可在本地拥有一个小语言模型。本文将告诉大家如何将本地的 Phi-3 模型与 SemanticKernel 进行对接，让 SemanticKernel 使用本地小语言模型提供的能力

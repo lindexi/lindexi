@@ -3,7 +3,7 @@ title: "How to Integrate Microsoft.Maui.Graphics into the UNO Framework in dotne
 author: lindexi
 date: 2024-8-6 20:43:32 +0800
 CreateTime: 2024/1/29 11:46:07
-categories: dotnet UNO
+categories: dotnet MAUI UNO
 ---
 
 This article will guide you on how to integrate Microsoft.Maui.Graphics into the UNO framework. Once the integration of Microsoft.Maui.Graphics is complete, it allows the UNO framework to reuse many existing drawing infrastructures and libraries, and further connect with MAUI.

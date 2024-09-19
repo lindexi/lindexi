@@ -3,7 +3,7 @@ title: "MAUI 框架开发 将 MAUI 嵌入到 WPF 控件里"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/7/17 19:30:24
-categories: WPF
+categories: WPF MAUI
 ---
 
 本文将介绍如何将 MAUI 的底层替换为 WPF 框架层，且将 MAUI 的内容嵌入到 WPF 的一个控件里面，无 UI 框架嵌入的空域问题

@@ -3,7 +3,7 @@ title: "ReSharper 显示使用的颜色"
 author: lindexi
 date: 2024-8-6 20:43:33 +0800
 CreateTime: 2024/05/08 07:29:54
-categories: 
+categories: ReSharper
 ---
 
 在代码里面输入类似于 Colors.Red 的代码，将会自动在代码后面显示一个对应颜色的小方块。本文将告诉大家这个功能的开关在哪里

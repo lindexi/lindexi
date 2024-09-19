@@ -3,7 +3,7 @@ title: "resharper 跳转到源代码"
 author: lindexi
 date: 2024-8-6 20:43:33 +0800
 CreateTime: 2018/8/10 19:16:52
-categories: 
+categories: ReSharper
 ---
 
 resharper 可以使用 ctrl+b 跳转到源代码，但是如果使用库的源代码，那么如何跳转，会显示对象管理器，那么如何让resarper 跳转到源代码

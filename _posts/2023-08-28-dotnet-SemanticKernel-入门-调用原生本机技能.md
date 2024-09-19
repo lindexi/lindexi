@@ -3,7 +3,7 @@ title: "dotnet SemanticKernel 入门 调用原生本机技能"
 author: lindexi
 date: 2024-5-20 16:22:3 +0800
 CreateTime: 2023/8/28 8:37:23
-categories: dotnet
+categories: dotnet SemanticKernel
 ---
 
 本文将告诉大家如何在 SemanticKernel 里面调用原生本机技能，所谓原生本机技能就是使用 C# 代码编写的原生本地逻辑技能，这里的技能可讲的可不是游戏角色里面的技能哈，指的是实现某个功能的技能，这是构成 AI 强大能力的基础
