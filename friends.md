@@ -336,7 +336,7 @@ permalink: /friends/
 
    抖音号: wpfui
 
-   有收藏大量的 WPF 博客 [AY的 WPF 收藏](http://www.ayjs.net/post/689.html)
+   <!-- 有收藏大量的 WPF 博客 [AY的 WPF 收藏](http://www.ayjs.net/post/689.html) -->
 
  - [独立观察员 - 博客园](https://www.cnblogs.com/weiliuhong/ )  
 
