@@ -11,7 +11,7 @@ permalink: /about/
 
 [![](http://cdn.lindexi.site/lindexi%2F2020529831404599.jpg)](https://mvp.microsoft.com/zh-cn/PublicProfile/5003260)
 
-![](https://i.loli.net/2020/05/30/9aCrSXDFsHI4NKq.jpg)
+<!-- ![](https://i.loli.net/2020/05/30/9aCrSXDFsHI4NKq.jpg) -->
 
 ### .NET 基金会成员 A member of the .NET Foundation
 
