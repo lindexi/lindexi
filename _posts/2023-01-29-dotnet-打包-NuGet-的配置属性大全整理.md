@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2024-7-10 17:43:7 +0800
+date: 2024-10-11 10:40:56 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -355,6 +355,15 @@ Description 描述信息
 默认是 false 不将源代码嵌入到符号文件。推荐在源代码无需保护的项目，如内部开源项目或外部开源项目，以及 PDB 不对外发布的项目里，设置此属性为 true 从而将源代码嵌入到 PDB 文件里面，方便调试
 
 详细请参阅 [Roslyn 通过 EmbedAllSources 将源代码嵌入到 PDB 符号文件中方便开发者调试](https://blog.lindexi.com/post/Roslyn-%E9%80%9A%E8%BF%87-EmbedAllSources-%E5%B0%86%E6%BA%90%E4%BB%A3%E7%A0%81%E5%B5%8C%E5%85%A5%E5%88%B0-PDB-%E7%AC%A6%E5%8F%B7%E6%96%87%E4%BB%B6%E4%B8%AD%E6%96%B9%E4%BE%BF%E5%BC%80%E5%8F%91%E8%80%85%E8%B0%83%E8%AF%95.html )
+
+设置 EmbedAllSources 嵌入源代码到符号文件时，可能会遇到打本地包引用的时候，无法找到本地磁盘路径的代码文件，而是会显示进入嵌入到符号文件的代码文件，导致调试困难。可通过添加判断代码，仅在非 Debug 模式下才嵌入
+
+```xml
+    <!-- 不要在 debug 开启 EmbedAllSources 或 EmbedUntrackedSources：
+         1. NuGet 包会提示包含未追踪的源，但实际列出的未追踪的源是空的（所以其实都已经追踪了？）
+         2. 如果采用此属性将源嵌入，会导致 JetBrians Rider 调试时使用嵌入的源而不是仓库中的源，这会导致无法使用断点等一系列依赖于 pdb 源的功能。-->
+    <EmbedAllSources Condition="'$(Configuration)' != 'debug'">true</EmbedAllSources>
+```
 
 ### AllowedOutputExtensionsInPackageBuildOutputFolder
 

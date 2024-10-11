@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 EmbedAllSources 将源代码嵌入到 PDB 符号文件中方便开发者调试"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-10-11 21:8:40 +0800
 CreateTime: 2021/7/15 21:03:10
 categories: Roslyn MSBuild 编译器 nuget 打包
 ---
@@ -67,5 +67,6 @@ categories: Roslyn MSBuild 编译器 nuget 打包
 
 其实将源代码放入 PDB 文件会比使用 SourceLink 链接到 GitHub 上更好，原因是从 GitHub 上拉代码的速度不如下一个大的 NuGet 文件
 
-更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
+更多 NuGet 属性请参阅 [dotnet 打包 NuGet 的配置属性大全整理](https://blog.lindexi.com/post/dotnet-%E6%89%93%E5%8C%85-NuGet-%E7%9A%84%E9%85%8D%E7%BD%AE%E5%B1%9E%E6%80%A7%E5%A4%A7%E5%85%A8%E6%95%B4%E7%90%86.html )
 
+更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
