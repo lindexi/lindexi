@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 分析器 读取 csproj 项目文件的 AdditionalFiles Item 的 Metadata 配置"
 author: lindexi
-date: 2024-10-11 21:5:16 +0800
-CreateTime: 2024-10-11 21:5:0 +0800
+date: 2024-10-12 8:55:17 +0800
+CreateTime: 2024/10/12 07:11:30
 categories: Roslyn MSBuild 编译器 SourceGenerator 分析器 生成代码
 ---
 
@@ -11,6 +11,7 @@ categories: Roslyn MSBuild 编译器 SourceGenerator 分析器 生成代码
 <!--more-->
 
 
+<!-- CreateTime:2024/10/12 07:11:30 -->
 <!-- 发布 -->
 <!-- 博客 -->
 <!-- 标签：Roslyn,MSBuild,编译器,SourceGenerator,分析器,生成代码 -->
