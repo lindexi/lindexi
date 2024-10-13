@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 获得 sln 文件所在的文件夹"
 author: lindexi
-date: 2024-8-6 20:43:33 +0800
+date: 2024-10-13 10:3:18 +0800
 CreateTime: 2019/7/22 8:57:14
 categories: Roslyn MSBuild 编译器
 ---
@@ -60,7 +60,7 @@ categories: Roslyn MSBuild 编译器
 
 [MSBuild Reserved and Well-known Properties](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2017 )
 
-更多请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html )
+更多请看 [手把手教你写 Roslyn 修改编译](https://blog.lindexi.com/post/roslyn.html )
 
 ![](http://cdn.lindexi.site/lindexi%2F2019123205745682)
 

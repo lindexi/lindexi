@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过引用 msbuild 程序集实现自己定制编译器"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2024-10-13 10:1:47 +0800
 CreateTime: 2021/7/5 8:27:07
 categories: Roslyn MSBuild 编译器
 ---
@@ -218,5 +218,5 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 获取代码之后，进入 RalboleaballNeeqaqiku 文件夹
 
-更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
+更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://blog.lindexi.com/post/roslyn.html )
 

@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 Target 修改编译的文件"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2024-10-13 10:3:45 +0800
 CreateTime: 2018/8/29 9:10:46
 categories: Roslyn MSBuild 编译器
 ---
@@ -124,7 +124,7 @@ categories: Roslyn MSBuild 编译器
 <!-- TIM图片20180824091722.jpg -->
 ![](https://i.loli.net/2018/08/24/5b7f5cd130375.jpg)
 
-更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
+更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://blog.lindexi.com/post/roslyn.html )
 
 参见：[专栏：Roslyn 入门 - CSDN博客](https://blog.csdn.net/lindexi_gd/category_7945110.html )
 
