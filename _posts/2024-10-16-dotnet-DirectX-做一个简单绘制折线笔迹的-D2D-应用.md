@@ -1,8 +1,8 @@
 ---
 title: "dotnet DirectX 做一个简单绘制折线笔迹的 D2D 应用"
 author: lindexi
-date: 2024-10-15 20:51:38 +0800
-CreateTime: 2024-10-15 20:7:36 +0800
+date: 2024-10-16 7:27:25 +0800
+CreateTime: 2024/10/16 07:27:25
 categories: C# D2D DirectX Vortice Direct2D
 ---
 
@@ -10,6 +10,8 @@ categories: C# D2D DirectX Vortice Direct2D
 
 <!--more-->
 
+
+<!-- CreateTime:2024/10/16 07:27:25 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
