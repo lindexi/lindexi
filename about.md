@@ -15,7 +15,7 @@ permalink: /about/
 
 ### .NET 基金会成员 A member of the .NET Foundation
 
-[![](http://cdn.lindexi.site/lindexi%2F2020529833103602.jpg)](https://github.com/dotnet-foundation)
+[![](http://cdn.lindexi.site/lindexi%2F2020529833103602.jpg)](https://github.com/orgs/dotnet-foundation/people?query=lindexi)
 
 ### .NET 职业技术学院成员
 
