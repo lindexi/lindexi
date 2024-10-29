@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 已知问题 第二次 Composition Animation 无法播放"
 author: lindexi
-date: 2024-10-28 20:36:22 +0800
-CreateTime: 2024-10-28 20:22:53 +0800
+date: 2024-10-29 9:26:14 +0800
+CreateTime: 2024/10/29 07:01:04
 categories: Avalonia
 ---
 
@@ -11,12 +11,16 @@ categories: Avalonia
 <!--more-->
 
 
+<!-- CreateTime:2024/10/29 07:01:04 -->
+
 <!-- 发布 -->
 <!-- 博客 -->
 
 这是 Avalonia 的已知问题，我已经报告给官方，详细请看 <https://github.com/AvaloniaUI/Avalonia/pull/17370>
 
 我尝试修复了此问题，请看 <https://github.com/AvaloniaUI/Avalonia/pull/17370>
+
+此问题我在 11.0-11.1 版本复现，其他版本我没有进行测试
 
 复现的步骤如下：
 
@@ -171,4 +175,4 @@ class ServerObjectAnimations
 }
 ```
 
-由于 InlineDictionary 存在问题，只有一项的时候，赋值进入第二项，做的是添加第二项但不删除第一项。这就导致第二次加入动画时候，第一个动画被停止，但是第一个动画还在字典里面，后续获取将会返回第一个动画。第二个动画将不会被返回。这就是为什么第二次的动画无法播放的原因
+由于 InlineDictionary 存在问题，只有一项的时候，赋值进入第二项时，做的是添加第二项但不删除第一项。这就导致第二次加入动画时候，第一个动画被停止，但是第一个动画还在字典里面，后续获取将会返回第一个动画。第二个动画将不会被返回。这就是为什么第二次的动画无法播放的原因
