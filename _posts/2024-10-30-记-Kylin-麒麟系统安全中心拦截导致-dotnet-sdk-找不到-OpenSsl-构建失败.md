@@ -1,8 +1,8 @@
 ---
 title: "记 Kylin 麒麟系统安全中心拦截导致 dotnet sdk 找不到 OpenSsl 构建失败"
 author: lindexi
-date: 2024-10-29 20:19:37 +0800
-CreateTime: 2024-10-29 14:58:24 +0800
+date: 2024-10-30 7:9:52 +0800
+CreateTime: 2024/10/30 07:09:52
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/10/30 07:09:52 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
