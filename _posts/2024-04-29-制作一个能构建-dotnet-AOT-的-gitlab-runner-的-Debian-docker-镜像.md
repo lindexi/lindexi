@@ -1,7 +1,7 @@
 ---
 title: "制作一个能构建 dotnet AOT 的 gitlab runner 的 Debian docker 镜像"
 author: lindexi
-date: 2024-8-15 21:0:51 +0800
+date: 2024-10-31 17:54:11 +0800
 CreateTime: 2024/04/29 07:10:02
 categories: git dotnet
 ---
@@ -429,6 +429,11 @@ RUN ln -s /root/dotnet/dotnet /usr/bin/dotnet
 ```
 
 以上命令是对 dotnet 建立链接，如此即可让全局可以使用 dotnet 命令
+
+细节：
+
+1. 应该使用 `ln -s` 软链接的方式，否则将会遇到 `Error: [/usr/bin/host/fxr] does not exist` 错误。详细请看 [彻底明白Linux硬链接和软链接-linux硬链接和软链接区别](https://www.51cto.com/article/702714.html )
+2. 软链接过程中，不应该使用相对路径，即 `ln -s ./dotnet/dotnet /usr/bin/dotnet` 也是错误的，将会提示 `bash: /usr/bin/dotnet: Too many levels of symbolic links` 错误
 
 ### 为什么使用 podman 工具
 
