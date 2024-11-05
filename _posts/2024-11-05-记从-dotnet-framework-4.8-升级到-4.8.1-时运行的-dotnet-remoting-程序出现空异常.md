@@ -1,8 +1,8 @@
 ---
 title: "记从 dotnet framework 4.8 升级到 4.8.1 时运行的 dotnet remoting 程序出现空异常"
 author: lindexi
-date: 2024-11-4 15:50:0 +0800
-CreateTime: 2024-11-4 15:48:57 +0800
+date: 2024-11-5 7:11:44 +0800
+CreateTime: 2024/11/05 07:11:44
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/05 07:11:44 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
