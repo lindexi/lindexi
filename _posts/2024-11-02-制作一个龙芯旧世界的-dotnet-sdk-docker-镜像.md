@@ -1,7 +1,7 @@
 ---
 title: "制作一个龙芯旧世界的 dotnet sdk docker 镜像"
 author: lindexi
-date: 2024-11-5 14:55:33 +0800
+date: 2024-11-7 20:2:16 +0800
 CreateTime: 2024/11/02 07:29:52
 categories: dotnet
 ---
@@ -518,6 +518,42 @@ System.IO.IOException: Not enough storage is available to process this command. 
 通过在龙芯物理设备上的对比，就可以了解到在 debian 12 上使用 QEMU 模拟不正确，导致了 dotnet 许多基础命令不可用
 
 由于我使用的是 GitHub 上 [zhangguanzhang](https://github.com/zhangguanzhang) 大佬贴出来的龙芯官方的qemu提交人给的版本，既没有代码且我也不懂。于是我就放弃了走模拟这条路
+
+更多尝试：
+
+我认为是 docker 挂载的问题，也尝试带上了挂载，如下面命令
+
+```
+docker run -v /tmp/t1:/tmp -it dockerimage-loongarch64-abi1.0-dotnet-sdk-8.0.107-debian-buster
+```
+
+结果调用 `dotnet nuget --version` 命令遇到相同的堆栈。继续尝试挂在 `/tmp/.dotnet` 或 `/tmp/.dotnet/shm` 都有相同的错误
+
+## 分析器版本问题
+
+当前 2024.11.07 时，龙芯的最新 dotnet sdk 为 8.0.7 版本，这个版本分析器对应的是 4.8.0 版本。这个版本是在 2024.07 时发布的，而我有些项目已经用了 4.9 版本的分析器
+
+```xml
+<!-- Directory.Packages.props -->
+<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.9.2" />
+<PackageVersion Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.9.2" />
+```
+
+这将在构建过程中无法执行分析器进行源代码生成，可以在构建过程中看到大概如下的警告
+
+CSC : warning CS9057: 分析器程序集“/home/lindexi/.nuget/packages/lindexi/0.1.0-alpha09/analyzers/dotnet/cs/Lindexi.Analyzer.dll”引用了编译器的版本“4.9.0.0”，该版本高于当前正在运行的版本“4.8.0.0”。
+
+由于分析器有些源代码生成被禁用，导致构建不通过，提升某些类型找不到
+
+解决方法是降低分析器版本
+
+```xml
+<!-- Directory.Packages.props -->
+<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" />
+<PackageVersion Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.8.0" />
+```
+
+龙芯的跟进速度已经是非常积极了，只是我自己的项目更加激进
 
 ## 参考文档
 
