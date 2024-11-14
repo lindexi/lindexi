@@ -1,7 +1,7 @@
 ---
 title: "记 Kylin 麒麟系统安全中心拦截导致 dotnet sdk 找不到 OpenSsl 构建失败"
 author: lindexi
-date: 2024-10-30 7:9:52 +0800
+date: 2024-11-14 8:51:38 +0800
 CreateTime: 2024/10/30 07:09:52
 categories: dotnet
 ---
@@ -115,3 +115,6 @@ dotnet: ELF 64-bit LSB shared object, LoongArch-64, version 1 (SYSV), dynamicall
 - [在LoongArch Loongnix开发C#的问题 - LA UOSC](https://bbs.loongarch.org/d/266-loongarch-loongnixc )
 - [The unofficial yet comprehensive FAQ for LoongArch (last updated 2022-11-23) write(2)](https://blog.xen0n.name/en/posts/tinkering/loongarch-faq/ )
 - [[LoongArch64] A plan for amending the LoongArch64‘s port · Issue #69705 · dotnet/runtime](https://github.com/dotnet/runtime/issues/69705 )
+
+其他拦截问题请看： [dotnet 记龙芯麒麟教育版安全中心拦截文件 导致 docker 内 CI CD 构建失败](https://blog.lindexi.com/post/dotnet-%E8%AE%B0%E9%BE%99%E8%8A%AF%E9%BA%92%E9%BA%9F%E6%95%99%E8%82%B2%E7%89%88%E5%AE%89%E5%85%A8%E4%B8%AD%E5%BF%83%E6%8B%A6%E6%88%AA%E6%96%87%E4%BB%B6-%E5%AF%BC%E8%87%B4-docker-%E5%86%85-CI-CD-%E6%9E%84%E5%BB%BA%E5%A4%B1%E8%B4%A5.html )
+<!-- [dotnet 记龙芯麒麟教育版安全中心拦截文件 导致 docker 内 CI CD 构建失败 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18545167 ) -->
