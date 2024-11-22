@@ -1,7 +1,7 @@
 ---
 title: "Packaging.DebUOS 专门为 dotnet 应用制作 UOS 安装包"
 author: lindexi
-date: 2024-7-10 17:17:3 +0800
+date: 2024-11-21 15:30:43 +0800
 CreateTime: 2024/1/29 8:58:31
 categories: dotnet
 ---
@@ -351,4 +351,4 @@ dotnet dpkg-debuos -b C:\lindexi\DebPacking -o C:\lindexi\UOS\Foo.deb
   </PropertyGroup>
 ```
 
-由于 LibVLCSharp 难以维护 Linux 复杂的 VLC 版本，因此软件带 VLC 是推荐声明依赖。声明依赖之后，将在安装 deb 安装包的时候要求依赖负载。如使用 dpkg 命令，则在缺失依赖时不给安装，且给出其依赖说明。如使用图形界面的安装器，比如麒麟系统的 kylin-installer 安装器，一般都会自动从软件包源安装依赖
+由于 LibVLCSharp 难以维护 Linux 复杂的 VLC 版本，因此软件带 VLC 的方式是推荐使用声明依赖的方式。声明依赖之后，将在安装 deb 安装包的时候要求依赖负载。如使用 dpkg 命令，则在缺失依赖时不给安装，且给出其依赖说明。如使用图形界面的安装器，比如麒麟系统的 kylin-installer 安装器，一般都会自动从软件包源安装依赖

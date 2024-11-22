@@ -1,8 +1,8 @@
 ---
 title: "SixLabors.ImageSharp 如何读取 IDAT 校验失败的 png 图片"
 author: lindexi
-date: 2024-11-20 9:16:21 +0800
-CreateTime: 2024-11-20 9:11:40 +0800
+date: 2024-11-21 7:9:35 +0800
+CreateTime: 2024/11/21 07:09:35
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/21 07:09:35 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
