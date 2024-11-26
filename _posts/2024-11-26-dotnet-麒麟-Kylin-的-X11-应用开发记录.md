@@ -1,8 +1,8 @@
 ---
 title: "dotnet 麒麟 Kylin 的 X11 应用开发记录"
 author: lindexi
-date: 2024-11-25 15:52:38 +0800
-CreateTime: 2024-11-25 14:29:36 +0800
+date: 2024-11-26 8:40:32 +0800
+CreateTime: 2024/11/26 08:40:32
 categories: dotnet X11
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet X11
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/26 08:40:32 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
