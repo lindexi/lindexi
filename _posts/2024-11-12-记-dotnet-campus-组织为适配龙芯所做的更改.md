@@ -1,7 +1,7 @@
 ---
 title: "记 dotnet campus 组织为适配龙芯所做的更改"
 author: lindexi
-date: 2024-11-12 22:29:16 +0800
+date: 2024-12-6 9:47:29 +0800
 CreateTime: 2024/11/12 22:16:36
 categories: dotnet
 ---
@@ -33,3 +33,7 @@ categories: dotnet
 - <https://github.com/dotnet-campus/dotnetCampus.SourceLocalizations/pull/8>
 - <https://github.com/dotnet-campus/dotnetCampus.Logger/pull/29>
 - <https://github.com/dotnet-campus/dotnetCampus.Ipc/pull/156>
+
+## 修复源代码包
+
+- <https://github.com/dotnet-campus/DocumentFormat.OpenXml.Extensions/pull/46>
