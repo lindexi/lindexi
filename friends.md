@@ -108,7 +108,7 @@ permalink: /friends/
 
  - [吾勇士 http://wuyongshi.top/pages/1479085886341.html](http://wuyongshi.top/pages/1479085886341.html)
 
- - [frendguo's blog  Talk is cheap, show me the code!!!](http://frendguo.top/ )
+ - [frendguo's blog  Talk is cheap, show me the code!!!](https://frendguo.com/ )
 
  - [Leonn https://liyuans.com](https://liyuans.com)
 
