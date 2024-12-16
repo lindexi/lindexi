@@ -1,8 +1,8 @@
 ---
 title: "使用 LatestCSharpFeatures 库让旧版本 dotnet 框架项目使用新 C# 语法"
 author: lindexi
-date: 2024-12-13 20:17:23 +0800
-CreateTime: 2024-12-13 20:14:53 +0800
+date: 2024-12-14 7:6:5 +0800
+CreateTime: 2024/12/14 07:06:05
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2024/12/14 07:06:05 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
