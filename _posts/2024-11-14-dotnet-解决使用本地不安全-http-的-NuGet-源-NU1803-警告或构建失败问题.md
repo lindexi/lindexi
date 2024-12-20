@@ -1,7 +1,7 @@
 ---
 title: "dotnet 解决使用本地不安全 http 的 NuGet 源 NU1803 警告或构建失败问题"
 author: lindexi
-date: 2024-11-14 7:29:27 +0800
+date: 2024-12-18 14:19:28 +0800
 CreateTime: 2024/11/14 07:29:27
 categories: dotnet
 ---
@@ -32,12 +32,17 @@ categories: dotnet
     <!--
       添加 NoWarn 以移除构建警告
       NU1803: 使用了 http 不安全的 NuGet 源
+      注： 此方法在 dotnet 9 发布之后即失效。现在请使用 allowInsecureConnections 配置
     -->
     <NoWarn>$(NoWarn);NU1803</NoWarn>
   </PropertyGroup>
 ```
 
-在此时间之后，微软~~也许~~会直接让使用 http 协议的 NuGet 源的项目构建不通过。咱如果确认本地或内部的 NuGet 源安全，在 NuGet 的 6.8 以上版本，可在 NuGet 源里添加 `allowInsecureConnections` 配置，编辑之后的 `NuGet.config` 文件里面配置的包源的代码如下
+在此时间之后，以上方法已经失效。微软会直接让使用 http 协议的 NuGet 源的项目构建不通过
+
+需要通过配置 `allowInsecureConnections` 来允许使用不安全的 http 协议，配置方法如下：
+
+咱如果确认本地或内部的 NuGet 源安全，在 NuGet 的 6.8 以上版本，可在 NuGet 源里添加 `allowInsecureConnections` 配置，编辑之后的 `NuGet.config` 文件里面配置的包源的代码如下
 
 ```xml
 <packageSources>
