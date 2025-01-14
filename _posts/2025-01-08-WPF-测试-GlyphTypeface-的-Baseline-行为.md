@@ -1,8 +1,8 @@
 ---
 title: "WPF 测试 GlyphTypeface 的 Baseline 行为"
 author: lindexi
-date: 2025-1-7 21:15:19 +0800
-CreateTime: 2025-1-7 19:36:2 +0800
+date: 2025-1-8 7:1:36 +0800
+CreateTime: 2025/01/08 07:01:36
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2025/01/08 07:01:36 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
