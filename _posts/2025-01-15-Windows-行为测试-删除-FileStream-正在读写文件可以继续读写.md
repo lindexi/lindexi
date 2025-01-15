@@ -1,8 +1,8 @@
 ---
 title: "Windows 行为测试 删除 FileStream 正在读写文件可以继续读写"
 author: lindexi
-date: 2025-1-14 17:14:24 +0800
-CreateTime: 2025-1-14 17:11:48 +0800
+date: 2025-1-15 9:43:39 +0800
+CreateTime: 2025/01/15 08:51:48
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/01/15 08:51:48 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -75,6 +77,8 @@ Console.WriteLine("Hello, World!");
 如果大家想要测试移动文件之后的行为，可以自行在资源管理器里面，将文件在同驱动器进行移动或重命名
 
 为什么不能跨驱动器？因为跨驱动器的移动实际上是复制新的和删除原来的，这就不符合实验要求了
+
+为什么行为如此呢？请看 [符号链接、硬链接及其在 Windows 上的应用举例 - 少数派](https://sspai.com/post/66834 )
 
 本文代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/0f361e0d7d984508e8ca19e9414b01074e220516/Workbench/HibairjukegoYekallgera) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/0f361e0d7d984508e8ca19e9414b01074e220516/Workbench/HibairjukegoYekallgera) 上，可以使用如下命令行拉取代码。我整个代码仓库比较庞大，使用以下命令行可以进行部分拉取，拉取速度比较快
 
