@@ -1,8 +1,8 @@
 ---
 title: "dotnet 6 InterpolatedStringHandler 构造函数的 out 参数有什么意义"
 author: lindexi
-date: 2025-1-20 9:41:30 +0800
-CreateTime: 2025-1-17 17:17:38 +0800
+date: 2025-1-21 7:5:14 +0800
+CreateTime: 2025/01/21 07:05:14
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/01/21 07:05:14 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
