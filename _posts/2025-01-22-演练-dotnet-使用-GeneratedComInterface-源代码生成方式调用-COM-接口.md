@@ -1,8 +1,8 @@
 ---
 title: "演练 dotnet 使用 GeneratedComInterface 源代码生成方式调用 COM 接口"
 author: lindexi
-date: 2025-1-21 19:23:15 +0800
-CreateTime: 2025-1-21 19:17:23 +0800
+date: 2025-1-22 7:12:7 +0800
+CreateTime: 2025/01/22 07:12:07
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/01/22 07:12:07 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

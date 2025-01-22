@@ -1,8 +1,8 @@
 ---
 title: "演练 dotnet 使用 函数指针 调用 COM 接口"
 author: lindexi
-date: 2025-1-21 19:58:48 +0800
-CreateTime: 2025-1-21 19:54:24 +0800
+date: 2025-1-22 7:12:7 +0800
+CreateTime: 2025/01/22 07:12:07
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/01/22 07:12:07 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
