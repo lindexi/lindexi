@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 源代码生成器 SourceGenerator 获取代码文件的本地绝对路径"
 author: lindexi
-date: 2025-2-8 8:56:24 +0800
-CreateTime: 2025-2-8 8:56:24 +0800
+date: 2025-2-9 7:13:47 +0800
+CreateTime: 2025/02/09 07:13:47
 categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn MSBuild 编译器 SourceGenerator 生成代码
 
 <!--more-->
 
+
+<!-- CreateTime:2025/02/09 07:13:47 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
