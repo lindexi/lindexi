@@ -1,8 +1,8 @@
 ---
 title: "dotnet OpenXML 已知问题 设置 0x0001 等 XML 不合法字符给到标题将在保存时抛出异常"
 author: lindexi
-date: 2025-2-21 16:5:50 +0800
-CreateTime: 2025-2-21 16:2:41 +0800
+date: 2025-2-22 7:21:24 +0800
+CreateTime: 2025/02/22 07:21:24
 categories: dotnet OpenXML
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet OpenXML
 
 <!--more-->
 
+
+<!-- CreateTime:2025/02/22 07:21:24 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

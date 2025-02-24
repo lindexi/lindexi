@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2024-8-6 20:43:32 +0800
+date: 2025-2-24 8:54:43 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: OpenXML
 ---
@@ -176,6 +176,11 @@ categories: OpenXML
 [dotnet C# 根据椭圆长度和宽度和旋转角计算出椭圆中心点的方法](https://blog.lindexi.com/post/dotnet-C-%E6%A0%B9%E6%8D%AE%E6%A4%AD%E5%9C%86%E9%95%BF%E5%BA%A6%E5%92%8C%E5%AE%BD%E5%BA%A6%E5%92%8C%E6%97%8B%E8%BD%AC%E8%A7%92%E8%AE%A1%E7%AE%97%E5%87%BA%E6%A4%AD%E5%9C%86%E4%B8%AD%E5%BF%83%E7%82%B9%E7%9A%84%E6%96%B9%E6%B3%95.html )
 
 [根据SVG Arc求出其开始角、摆动角和椭圆圆心 - RyzenAdorer - 博客园](https://www.cnblogs.com/ryzen/p/15832672.html )
+
+### 已知问题
+
+[dotnet OpenXML 已知问题 设置 0x0001 等 XML 不合法字符给到标题将在保存时抛出异常](https://blog.lindexi.com/post/dotnet-OpenXML-%E5%B7%B2%E7%9F%A5%E9%97%AE%E9%A2%98-%E8%AE%BE%E7%BD%AE-0x0001-%E7%AD%89-XML-%E4%B8%8D%E5%90%88%E6%B3%95%E5%AD%97%E7%AC%A6%E7%BB%99%E5%88%B0%E6%A0%87%E9%A2%98%E5%B0%86%E5%9C%A8%E4%BF%9D%E5%AD%98%E6%97%B6%E6%8A%9B%E5%87%BA%E5%BC%82%E5%B8%B8.html )
+<!-- [dotnet OpenXML 已知问题 设置 0x0001 等 XML 不合法字符给到标题将在保存时抛出异常 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18730520 ) -->
 
 ## PPT 动画
 
