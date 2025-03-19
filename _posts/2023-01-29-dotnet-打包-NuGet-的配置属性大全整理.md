@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2024-12-6 14:50:4 +0800
+date: 2025-3-19 10:12:9 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -17,7 +17,7 @@ categories: dotnet
 
 本文将会持续更新，可以通过搜 《dotnet 打包 NuGet 的配置属性大全整理 林德熙》 找到我主站的博客，避免各个备份地址陈旧的内容误导
 
-本文更新于：2024.12.03
+本文更新于：2025.03.19
 
 如更新时间距离当前阅读时间过远，则表示可能你阅读的是转发的或转载的文章，推荐去到我主站的博客，了解更新的知识
 
@@ -266,7 +266,9 @@ categories: dotnet
   </ItemGroup>
 ```
 
-以上代码添加的 `Visible="false"` 用于让 `README.md` 文件不要在项目里面显示
+以上代码添加的 `Visible="false"` 用于让 `README.md` 文件不要在 VisualStudio 的解决方案窗格的项目里面显示
+
+此属性为 .NET SDK 5.0.300 以及以上版本才能提供支持
 
 <!-- 
 
@@ -306,6 +308,7 @@ Description 描述信息
 </ItemGroup>
 ```
 
+建议使用分辨率为 128x128 的图像，支持 JPEG 和 PNG 文件格式，图片大小限制 1MB 以内
 
 ## 打包控制
 
@@ -598,6 +601,8 @@ Lindexi.Package Path=C:\Users\lindexi\.nuget\packages\lindexi.package\1.2.3
 [如何创建一个基于命令行工具的跨平台的 NuGet 工具包 - walterlv](https://blog.walterlv.com/post/create-a-cross-platform-command-based-nuget-tool.html )
 
 [MSBuild properties for Microsoft.NET.Sdk - .NET Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#nuget-metadata-properties )
+
+[NuGet pack and restore as MSBuild targets - Microsoft Learn](https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets )
 
 [让你发布的nuget包支持源代码调试 - czd890 - 博客园](https://www.cnblogs.com/calvinK/p/14982676.html )
 
