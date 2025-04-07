@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 判断应用程序在 Wine 里运行的方法"
 author: lindexi
-date: 2025-4-4 10:4:49 +0800
-CreateTime: 2025-4-4 10:1:52 +0800
+date: 2025-4-4 10:5:2 +0800
+CreateTime: 2025/04/04 10:05:02
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/04 10:05:02 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
