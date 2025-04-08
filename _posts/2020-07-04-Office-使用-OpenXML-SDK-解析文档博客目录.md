@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2025-2-24 8:54:43 +0800
+date: 2025-4-8 11:43:5 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: OpenXML
 ---
@@ -284,6 +284,12 @@ categories: OpenXML
 这个厂商从 2002 开始就在做 Office 相关开发，使用这个工具包可以在有 Office 或者在没有 Office 的情况下进行开发，可以渲染和编辑 Office 文档
 
 ~~貌似要购买的话，找我也许有优惠…… 但一年大概也是 10w 左右~~
+
+### Conholdate.Total
+
+用 .NET 创建、操作、转换、比较、搜索、签名和查看 Word、Excel、PowerPoint、Outlook、PDF 以及其他 100 多个文件格式。似乎也是 aspose 提供的能力，如 <https://websites.aspose.com/conholdate/com/> 所示
+
+<https://www.componentsource.com/zh-hans/product/conholdate-total-for-net>
 
 ### [grapecity](https://www.grapecity.com)
 
