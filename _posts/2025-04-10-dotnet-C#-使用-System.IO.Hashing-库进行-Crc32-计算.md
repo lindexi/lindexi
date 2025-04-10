@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 使用 System.IO.Hashing 库进行 Crc32 计算"
 author: lindexi
-date: 2025-4-9 19:52:4 +0800
-CreateTime: 2025-4-9 19:50:28 +0800
+date: 2025-4-10 9:2:6 +0800
+CreateTime: 2025/04/10 09:02:06
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/10 09:02:06 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
