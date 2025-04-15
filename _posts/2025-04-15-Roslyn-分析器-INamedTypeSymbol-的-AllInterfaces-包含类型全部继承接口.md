@@ -1,8 +1,8 @@
 ---
 title: "Roslyn 分析器 INamedTypeSymbol 的 AllInterfaces 包含类型全部继承接口"
 author: lindexi
-date: 2025-4-14 14:23:34 +0800
-CreateTime: 2025-4-14 14:19:51 +0800
+date: 2025-4-15 7:19:32 +0800
+CreateTime: 2025/04/15 07:19:32
 categories: Roslyn
 ---
 
@@ -10,6 +10,8 @@ categories: Roslyn
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/15 07:19:32 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
