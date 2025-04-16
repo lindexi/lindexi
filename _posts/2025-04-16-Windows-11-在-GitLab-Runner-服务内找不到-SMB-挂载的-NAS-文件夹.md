@@ -1,8 +1,8 @@
 ---
 title: "Windows 11 在 GitLab Runner 服务内找不到 SMB 挂载的 NAS 文件夹"
 author: lindexi
-date: 2025-4-15 17:19:53 +0800
-CreateTime: 2025-4-15 17:8:24 +0800
+date: 2025-4-16 7:23:58 +0800
+CreateTime: 2025/04/16 07:23:58
 categories: git
 ---
 
@@ -10,6 +10,8 @@ categories: git
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/16 07:23:58 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
