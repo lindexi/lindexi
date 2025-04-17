@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 author: lindexi
-date: 2025-4-8 11:43:5 +0800
+date: 2025-4-17 9:23:6 +0800
 CreateTime: 7/4/2020 10:05:36 AM
 categories: OpenXML
 ---
@@ -199,6 +199,9 @@ categories: OpenXML
 [dotnet OpenXML 利用合并表格单元格在 PPT 文档插入不可见的额外版权信息](https://blog.lindexi.com/post/dotnet-OpenXML-%E5%88%A9%E7%94%A8%E5%90%88%E5%B9%B6%E8%A1%A8%E6%A0%BC%E5%8D%95%E5%85%83%E6%A0%BC%E5%9C%A8-PPT-%E6%96%87%E6%A1%A3%E6%8F%92%E5%85%A5%E4%B8%8D%E5%8F%AF%E8%A7%81%E7%9A%84%E9%A2%9D%E5%A4%96%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF.html )
 
 [dotnet OpenXML 解析 PPT 里表格的样式](https://blog.lindexi.com/post/dotnet-OpenXML-%E8%A7%A3%E6%9E%90-PPT-%E9%87%8C%E8%A1%A8%E6%A0%BC%E7%9A%84%E6%A0%B7%E5%BC%8F.html )
+
+[dotnet OpenXML 演练 设置 PPT 单元格垂直合并](https://blog.lindexi.com/post/dotnet-OpenXML-%E6%BC%94%E7%BB%83-%E8%AE%BE%E7%BD%AE-PPT-%E5%8D%95%E5%85%83%E6%A0%BC%E5%9E%82%E7%9B%B4%E5%90%88%E5%B9%B6.html )
+<!-- [dotnet OpenXML 演练 设置 PPT 单元格垂直合并 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18830078 ) -->
 
 [dotnet OpenXML 获取 Excel 表格当前激活选择的工作表](https://blog.lindexi.com/post/dotnet-OpenXML-%E8%8E%B7%E5%8F%96-Excel-%E8%A1%A8%E6%A0%BC%E5%BD%93%E5%89%8D%E6%BF%80%E6%B4%BB%E9%80%89%E6%8B%A9%E7%9A%84%E5%B7%A5%E4%BD%9C%E8%A1%A8.html )
 
