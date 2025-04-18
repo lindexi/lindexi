@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 将 DrawingImage 保存到本地文件的方法"
 author: lindexi
-date: 2025-4-17 11:40:53 +0800
-CreateTime: 2025-4-17 11:40:53 +0800
+date: 2025-4-18 7:17:14 +0800
+CreateTime: 2025/04/18 07:17:14
 categories: Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/18 07:17:14 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
