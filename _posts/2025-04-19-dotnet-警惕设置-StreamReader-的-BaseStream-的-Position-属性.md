@@ -1,8 +1,8 @@
 ---
 title: "dotnet 警惕设置 StreamReader 的 BaseStream 的 Position 属性"
 author: lindexi
-date: 2025-4-18 14:9:15 +0800
-CreateTime: 2025-4-18 11:50:54 +0800
+date: 2025-4-19 7:27:51 +0800
+CreateTime: 2025/04/19 07:27:51
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/19 07:27:51 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
