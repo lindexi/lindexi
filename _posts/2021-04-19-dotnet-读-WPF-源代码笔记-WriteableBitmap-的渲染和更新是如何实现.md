@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 WriteableBitmap 的渲染和更新是如何实现"
 author: lindexi
-date: 2025-4-23 21:4:11 +0800
+date: 2025-4-24 9:0:39 +0800
 CreateTime: 2021/4/19 8:38:27
 categories: WPF WPF源代码
 ---
@@ -359,3 +359,6 @@ CSwDoubleBufferedBitmap::GetPossiblyFormatConvertedBackBuffer(
 ```
 
 通过以上代码可以看到，这只是判断有没有需要格式转换而已，默认没有格式转换的情况下，就是返回 `m_pBackBufferAsWriteProtectedBitmap` 字段作为写入内容
+
+相关博客：[WPF 从 WriteableBitmap 里获取到渲染线程使用的 IWICBitmap 对象](https://blog.lindexi.com/post/WPF-%E4%BB%8E-WriteableBitmap-%E9%87%8C%E8%8E%B7%E5%8F%96%E5%88%B0%E6%B8%B2%E6%9F%93%E7%BA%BF%E7%A8%8B%E4%BD%BF%E7%94%A8%E7%9A%84-IWICBitmap-%E5%AF%B9%E8%B1%A1.html )
+<!-- [WPF 从 WriteableBitmap 里获取到渲染线程使用的 IWICBitmap 对象 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18843888 ) -->
