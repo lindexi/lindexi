@@ -1,8 +1,8 @@
 ---
 title: "dotnet 9 通过 AppHostRelativeDotNet 指定自定义的运行时路径"
 author: lindexi
-date: 2025-4-25 20:47:13 +0800
-CreateTime: 2025-4-25 20:12:44 +0800
+date: 2025-4-26 7:13:38 +0800
+CreateTime: 2025/04/26 07:13:38
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/26 07:13:38 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
