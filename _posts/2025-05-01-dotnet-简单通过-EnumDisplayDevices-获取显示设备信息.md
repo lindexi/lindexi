@@ -1,8 +1,8 @@
 ---
 title: "dotnet 简单通过 EnumDisplayDevices 获取显示设备信息"
 author: lindexi
-date: 2025-4-30 9:3:24 +0800
-CreateTime: 2025-4-30 9:3:24 +0800
+date: 2025-5-1 7:7:49 +0800
+CreateTime: 2025/05/01 07:07:49
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/01 07:07:49 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
