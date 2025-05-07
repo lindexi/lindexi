@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 从 WM_POINTER 消息到 Touch 事件"
 author: lindexi
-date: 2025-5-7 6:29:33 +0800
+date: 2025-5-8 6:19:28 +0800
 CreateTime: 2024/09/01 07:15:29
 categories: WPF dotnet
 ---
@@ -1772,5 +1772,12 @@ PresentationCore.dll!System.Windows.Input.InputManager.RaiseProcessInputEventHan
 从上文可以知道，在 HwndPointerInputProvider 的 ProcessMessage 里面调用了 `_currentStylusDevice.Update` 方法时，就将输入的数据存放到 PointerStylusDevice 里面
 
 后续的逻辑就和 [WPF 模拟触摸设备](https://blog.lindexi.com/post/WPF-%E6%A8%A1%E6%8B%9F%E8%A7%A6%E6%91%B8%E8%AE%BE%E5%A4%87.html ) 提到的使用方法差不多，只是数据提供源是从 PointerStylusDevice 提供。如果大家对进入到 InputManager 的后续逻辑感兴趣，可参考 [WPF 通过 InputManager 模拟调度触摸事件](https://blog.lindexi.com/post/WPF-%E9%80%9A%E8%BF%87-InputManager-%E6%A8%A1%E6%8B%9F%E8%B0%83%E5%BA%A6%E8%A7%A6%E6%91%B8%E4%BA%8B%E4%BB%B6.html ) 提供的方法自己跑一下
+
+在 WPF 里面，除了走 WM_Pointer 之外，还有默认的 RealTimeStylus 机制。根据 [lsj](https://blog.sdlsj.net) 大佬的考古，预计在 Win10 的版本下，底层的 RealTimeStylus 机制的数据也是从 WM_Pointer 里面来的，如下图所示
+
+<!-- ![](image/WPF 从零自己实现从 RealTimeStylus 获取触摸信息/WPF 从零自己实现从 RealTimeStylus 获取触摸信息3.png) -->
+![](http://cdn.lindexi.site/lindexi%2F20233271731347622.jpg)
+
+以上的 581 和 582 等就是对应的 `WM_Pointer` 消息号。更多细节信息请参阅 [WPF 从零自己实现从 RealTimeStylus 获取触摸信息](https://blog.lindexi.com/post/WPF-%E4%BB%8E%E9%9B%B6%E8%87%AA%E5%B7%B1%E5%AE%9E%E7%8E%B0%E4%BB%8E-RealTimeStylus-%E8%8E%B7%E5%8F%96%E8%A7%A6%E6%91%B8%E4%BF%A1%E6%81%AF.html )
 
 更多触摸请看 [WPF 触摸相关](https://blog.lindexi.com/post/WPF-%E8%A7%A6%E6%91%B8%E7%9B%B8%E5%85%B3.html )
