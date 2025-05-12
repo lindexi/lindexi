@@ -1,8 +1,8 @@
 ---
 title: "dotnet MCP 无魔法 本地进程内服务端客户端调用和通讯示例"
 author: lindexi
-date: 2025-5-9 21:10:29 +0800
-CreateTime: 2025-5-9 21:10:29 +0800
+date: 2025-5-10 7:7:40 +0800
+CreateTime: 2025/05/10 07:07:40
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/10 07:07:40 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
