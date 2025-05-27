@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 Microsoft.NET.HostModel 库辅助更改 AppHost 内容"
 author: lindexi
-date: 2025-5-26 20:15:34 +0800
-CreateTime: 2025-5-26 20:12:45 +0800
+date: 2025-5-27 7:7:29 +0800
+CreateTime: 2025/05/27 07:07:29
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/27 07:07:29 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
