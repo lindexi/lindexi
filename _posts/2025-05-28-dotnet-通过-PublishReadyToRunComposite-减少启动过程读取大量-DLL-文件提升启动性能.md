@@ -1,8 +1,8 @@
 ---
 title: "dotnet 通过 PublishReadyToRunComposite 减少启动过程读取大量 DLL 文件提升启动性能"
 author: lindexi
-date: 2025-5-27 21:20:54 +0800
-CreateTime: 2025-5-27 21:13:4 +0800
+date: 2025-5-28 7:1:51 +0800
+CreateTime: 2025/05/28 07:01:51
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/28 07:01:51 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
