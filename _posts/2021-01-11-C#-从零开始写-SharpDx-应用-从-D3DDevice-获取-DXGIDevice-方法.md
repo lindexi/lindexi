@@ -1,7 +1,7 @@
 ---
 title: "C# 从零开始写 SharpDx 应用 从 D3DDevice 获取 DXGIDevice 方法"
 author: lindexi
-date: 2024-5-20 16:22:3 +0800
+date: 2025-6-5 15:19:11 +0800
 CreateTime: 2021/1/11 8:23:59
 categories: C# D2D DirectX SharpDX Direct2D
 ---
@@ -17,13 +17,14 @@ categories: C# D2D DirectX SharpDX Direct2D
 <!-- 标签：C#,D2D,DirectX,SharpDX,Direct2D, -->
 <!-- 发布 -->
 
-本文是 SharpDX 系列博客，更多博客请点击[SharpDX 系列](https://blog.lindexi.com/post/sharpdx.html )
+本文是[渲染相关系列博客](https://blog.lindexi.com/post/WPF-%E4%BD%BF%E7%94%A8-SharpDx-%E6%B8%B2%E6%9F%93%E5%8D%9A%E5%AE%A2%E5%AF%BC%E8%88%AA.html )中的一篇，为方便读者系统性学习，该系列博客已按照逻辑顺序编排，方便大家依次阅读。本文属于系列博客中，比较靠中间的博客，推荐大家从头开始阅读。您可以通过以下链接访问整个系列：[渲染相关系列博客导航](https://blog.lindexi.com/post/WPF-%E4%BD%BF%E7%94%A8-SharpDx-%E6%B8%B2%E6%9F%93%E5%8D%9A%E5%AE%A2%E5%AF%BC%E8%88%AA.html )
+<!-- 本文是 SharpDX 系列博客，更多博客请点击[SharpDX 系列](https://blog.lindexi.com/post/sharpdx.html ) -->
 
 在 [C# 从零开始写 SharpDx 应用 初始化dx修改颜色](https://blog.csdn.net/lindexi_gd/article/details/82114907 ) 这篇博客完成了基础的初始化
 
-而接下来如何根据之前的代码，也就是如何根据上一篇博客创建的 D3D11.Device 来创建对应的 DXGI.Device 以及 DXGI.Factory 对象
+本文为其接下来如何根据之前的代码，也就是如何根据上一篇博客创建的 D3D11.Device 来创建对应的 DXGI.Device 以及 DXGI.Factory 对象的介绍
 
-其实方法十分简单，我记录一下，因此我刚才在写一些逗比代码的时候，又忘记是如何创建的
+其实方法十分简单，我在这里记录一下，我刚才在写一些逗比代码的时候，又忘记是如何创建的
 
 其实在创建 D3D11.Device 就用到了 DxGI 的 SwapChainDescription 交换链的描述对象，而调用了 D3D11.Device.CreateWithSwapChain 可以创建对应的交换链
 
@@ -85,7 +86,7 @@ SharpDX.SharpDXException:“HRESULT: [0x80004002], Module: [General], ApiCode: [
             }
 ```
 
-本文代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/1d9754c2/Dx ) 欢迎小伙伴访问
+本文代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/1d9754c2/Dx ) 上，欢迎小伙伴访问
 
 ## 参考
 
