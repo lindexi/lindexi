@@ -1,8 +1,8 @@
 ---
 title: "ReSharper 已知问题 在 Directory.Build.props 属性求值结果不能应用到项目里"
 author: lindexi
-date: 2025-6-9 10:47:40 +0800
-CreateTime: 2025-6-9 10:47:39 +0800
+date: 2025-6-10 7:1:43 +0800
+CreateTime: 2025/06/10 07:01:43
 categories: ReSharper
 ---
 
@@ -10,6 +10,8 @@ categories: ReSharper
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/10 07:01:43 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
