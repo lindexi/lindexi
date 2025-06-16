@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 取消窗口关闭导致 Linux 麒麟系统无法关机注销重启"
 author: lindexi
-date: 2025-6-11 11:39:31 +0800
-CreateTime: 2025-6-11 11:21:23 +0800
+date: 2025-6-12 7:17:23 +0800
+CreateTime: 2025/06/12 07:17:23
 categories: Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/12 07:17:23 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

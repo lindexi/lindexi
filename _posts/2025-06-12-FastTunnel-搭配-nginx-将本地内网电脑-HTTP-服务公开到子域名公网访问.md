@@ -1,8 +1,8 @@
 ---
 title: "FastTunnel 搭配 nginx 将本地内网电脑 HTTP 服务公开到子域名公网访问"
 author: lindexi
-date: 2025-6-11 20:14:9 +0800
-CreateTime: 2025-6-11 19:53:50 +0800
+date: 2025-6-12 7:17:45 +0800
+CreateTime: 2025/06/12 07:17:45
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/12 07:17:45 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
