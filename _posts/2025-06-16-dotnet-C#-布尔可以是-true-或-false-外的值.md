@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 布尔可以是 true 或 false 外的值"
 author: lindexi
-date: 2025-6-16 8:42:16 +0800
-CreateTime: 2025-6-16 8:42:16 +0800
+date: 2025-6-16 8:42:27 +0800
+CreateTime: 2025/06/16 08:42:27
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/16 08:42:27 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
