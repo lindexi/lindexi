@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# Windows 桌面应用程序简单使用 DwmFlush 对齐刷新率"
 author: lindexi
-date: 2025-6-16 14:30:4 +0800
-CreateTime: 2025-6-16 14:30:4 +0800
+date: 2025-6-17 7:5:22 +0800
+CreateTime: 2025/06/17 07:05:22
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/17 07:05:22 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

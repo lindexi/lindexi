@@ -1,8 +1,8 @@
 ---
 title: "dotnet C# 入门示例 用底层的 Socket 进行 HTTP 网络请求"
 author: lindexi
-date: 2025-6-16 21:3:34 +0800
-CreateTime: 2025-6-16 20:40:3 +0800
+date: 2025-6-17 7:5:23 +0800
+CreateTime: 2025/06/17 07:05:23
 categories: dotnet C#
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet C#
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/17 07:05:23 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

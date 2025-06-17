@@ -1,8 +1,8 @@
 ---
 title: "使用 SatelliteResourceLanguages 减少 WPF 发布的多语言文件夹数量"
 author: lindexi
-date: 2025-6-16 20:15:29 +0800
-CreateTime: 2025-6-16 20:11:47 +0800
+date: 2025-6-17 7:6:20 +0800
+CreateTime: 2025/06/17 07:06:20
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/17 07:06:20 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
