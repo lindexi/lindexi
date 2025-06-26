@@ -1,7 +1,7 @@
 ---
 title: "Packaging.DebUOS 专门为 dotnet 应用制作 UOS 安装包"
 author: lindexi
-date: 2024-11-21 15:30:43 +0800
+date: 2025-6-23 9:36:53 +0800
 CreateTime: 2024/1/29 8:58:31
 categories: dotnet
 ---
@@ -111,7 +111,7 @@ dotnet publish -c release -r linux-x64 --self-contained true -t:CreateDebUOS
 dotnet tool update -g Packaging.DebUOS.Tool
 ```
 
-将已经准备好的符合 UOS 安装包文件组织规范的文件夹打包为 deb 安装包：
+将已经准备好的符合 UOS 安装包文件组织规范的文件夹（`C:\lindexi\DebPacking`）打包为 deb 安装包：
 
 ```
 dotnet dpkg-debuos -b C:\lindexi\DebPacking -o C:\lindexi\UOS\Foo.deb
