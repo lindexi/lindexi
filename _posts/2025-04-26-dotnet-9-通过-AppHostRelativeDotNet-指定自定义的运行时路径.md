@@ -1,7 +1,7 @@
 ---
 title: "dotnet 9 通过 AppHostRelativeDotNet 指定自定义的运行时路径"
 author: lindexi
-date: 2025-5-19 19:53:44 +0800
+date: 2025-7-3 10:56:37 +0800
 CreateTime: 2025/04/26 07:13:38
 categories: dotnet
 ---
@@ -60,7 +60,7 @@ C:\Program Files\CompanyName\Produce3\
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AppHostDotNetSearch>AppRelative;Global;</AppHostDotNetSearch>
+    <AppHostDotNetSearch>AppRelative;EnvironmentVariable;Global;</AppHostDotNetSearch>
     <AppHostRelativeDotNet>../relative/path/to/runtime</AppHostRelativeDotNet>
   </PropertyGroup>
 
