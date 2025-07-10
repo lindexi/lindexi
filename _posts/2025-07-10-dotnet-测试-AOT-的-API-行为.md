@@ -1,8 +1,8 @@
 ---
 title: "dotnet 测试 AOT 的 API 行为"
 author: lindexi
-date: 2025-7-9 10:21:26 +0800
-CreateTime: 2025-7-9 10:21:26 +0800
+date: 2025-7-10 7:9:23 +0800
+CreateTime: 2025/07/10 07:09:23
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/10 07:09:23 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

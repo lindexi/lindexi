@@ -1,8 +1,8 @@
 ---
 title: "测试 dotnet 9 的 AssemblyLoadContext 动态加载和卸载程序集能力"
 author: lindexi
-date: 2025-7-9 20:47:13 +0800
-CreateTime: 2025-7-9 20:42:15 +0800
+date: 2025-7-10 7:10:11 +0800
+CreateTime: 2025/07/10 07:10:11
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/10 07:10:11 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
