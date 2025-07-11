@@ -1,8 +1,8 @@
 ---
 title: "dotnet 数组池 ArrayPool 行为记录"
 author: lindexi
-date: 2025-7-10 9:59:2 +0800
-CreateTime: 2025-7-10 9:58:48 +0800
+date: 2025-7-11 7:27:22 +0800
+CreateTime: 2025/07/11 07:27:22
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/11 07:27:22 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

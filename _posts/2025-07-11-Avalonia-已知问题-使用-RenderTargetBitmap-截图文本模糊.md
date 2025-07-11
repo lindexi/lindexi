@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 已知问题 使用 RenderTargetBitmap 截图文本模糊"
 author: lindexi
-date: 2025-7-10 14:45:56 +0800
-CreateTime: 2025-7-10 14:41:45 +0800
+date: 2025-7-11 7:27:3 +0800
+CreateTime: 2025/07/11 07:27:03
 categories: Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/11 07:27:03 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
