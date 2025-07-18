@@ -1,8 +1,8 @@
 ---
 title: "dotnet 已知问题 NamedPipeClientStream 连接不存在的服务在内部抛出异常"
 author: lindexi
-date: 2025-7-17 8:53:36 +0800
-CreateTime: 2025-7-17 8:53:36 +0800
+date: 2025-7-18 7:9:35 +0800
+CreateTime: 2025/07/18 07:09:35
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/18 07:09:35 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
