@@ -1,8 +1,8 @@
 ---
 title: "定制 MSTest 单元测试框架 让一个 TestMethod 包含多个测试用例"
 author: lindexi
-date: 2025-7-19 14:56:8 +0800
-CreateTime: 2025-7-19 10:36:10 +0800
+date: 2025-7-20 7:6:8 +0800
+CreateTime: 2025/07/20 07:06:08
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/20 07:06:08 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
