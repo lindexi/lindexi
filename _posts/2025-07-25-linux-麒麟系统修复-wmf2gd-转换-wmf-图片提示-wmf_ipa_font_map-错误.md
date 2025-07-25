@@ -1,8 +1,8 @@
 ---
 title: "linux 麒麟系统修复 wmf2gd 转换 wmf 图片提示 wmf_ipa_font_map 错误"
 author: lindexi
-date: 2025-7-24 20:19:46 +0800
-CreateTime: 2025-7-24 20:5:59 +0800
+date: 2025-7-25 7:13:48 +0800
+CreateTime: 2025/07/25 07:13:48
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/25 07:13:48 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
