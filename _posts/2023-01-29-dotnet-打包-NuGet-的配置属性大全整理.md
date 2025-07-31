@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 author: lindexi
-date: 2025-7-1 14:19:42 +0800
+date: 2025-7-31 20:45:49 +0800
 CreateTime: 2023/1/29 11:43:55
 categories: dotnet
 ---
@@ -481,6 +481,8 @@ Description 描述信息
 ```
 
 详细请参阅
+
+[dotnet 使用 SourceLink 将 NuGet 链接源代码到 GitHub 等仓库](https://blog.lindexi.com/post/dotnet-%E4%BD%BF%E7%94%A8-SourceLink-%E5%B0%86-NuGet-%E9%93%BE%E6%8E%A5%E6%BA%90%E4%BB%A3%E7%A0%81%E5%88%B0-GitHub-%E7%AD%89%E4%BB%93%E5%BA%93.html )
 
 [Producing Packages with Source Link - .NET Blog](https://devblogs.microsoft.com/dotnet/producing-packages-with-source-link/ )
 
