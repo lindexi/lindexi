@@ -1,8 +1,8 @@
 ---
 title: "X11 使用 XSetWMNormalHints 固定窗口所在的屏幕"
 author: lindexi
-date: 2025-8-5 20:35:28 +0800
-CreateTime: 2025-8-5 19:50:10 +0800
+date: 2025-8-6 7:4:32 +0800
+CreateTime: 2025/08/06 07:04:32
 categories: X11
 ---
 
@@ -10,6 +10,8 @@ categories: X11
 
 <!--more-->
 
+
+<!-- CreateTime:2025/08/06 07:04:32 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
