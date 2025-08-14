@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 WNetUseConnection 连接 SMB 网络资源"
 author: lindexi
-date: 2025-8-12 6:1:53 +0800
+date: 2025-8-12 8:52:48 +0800
 CreateTime: 2025/08/09 07:12:14
 categories: WPF
 ---
@@ -15,7 +15,6 @@ categories: WPF
 
 <!-- 发布 -->
 <!-- 博客 -->
-<!-- 置顶1 -->
 
 为了方便起见，我编写了一个简单的界面，代码如下
 

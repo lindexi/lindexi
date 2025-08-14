@@ -1,8 +1,8 @@
 ---
 title: "dotnet X11 获取多屏 edid 信息"
 author: lindexi
-date: 2025-8-11 21:8:45 +0800
-CreateTime: 2025-8-11 21:4:42 +0800
+date: 2025-8-12 7:1:35 +0800
+CreateTime: 2025/08/12 07:01:35
 categories: dotnet X11
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet X11
 
 <!--more-->
 
+
+<!-- CreateTime:2025/08/12 07:01:35 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
