@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 制作 AOT 单文件"
 author: lindexi
-date: 2025-8-14 19:2:11 +0800
-CreateTime: 2025-8-14 19:2:11 +0800
+date: 2025-8-15 7:15:6 +0800
+CreateTime: 2025/08/15 07:15:06
 categories: Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2025/08/15 07:15:06 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
