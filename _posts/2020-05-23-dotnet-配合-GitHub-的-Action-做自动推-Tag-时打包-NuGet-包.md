@@ -1,7 +1,7 @@
 ---
 title: "dotnet 配合 GitHub 的 Action 做自动推 Tag 时打包 NuGet 包"
 author: lindexi
-date: 2024-8-6 20:43:31 +0800
+date: 2025-8-25 20:21:33 +0800
 CreateTime: 5/23/2020 2:32:17 PM
 categories: git dotnet
 ---
@@ -168,3 +168,34 @@ on:
 
 以上推送 NuGet 的方法请看 [dotnet 配置 github 自动打包上传 nuget 文件](https://blog.lindexi.com/post/dotnet-%E9%85%8D%E7%BD%AE-github-%E8%87%AA%E5%8A%A8%E6%89%93%E5%8C%85%E4%B8%8A%E4%BC%A0-nuget-%E6%96%87%E4%BB%B6.html )
 
+---
+
+更新：
+
+使用 `actions/setup-dotnet` 时，可能导致清掉了环境变量，进而导致安装了 dotnet tool 之后依然报告找不到工具错误
+
+安装过程中会看到如下提示
+
+```
+Tools directory '/github/home/.dotnet/tools' is not currently on the PATH environment variable.
+If you are using bash, you can add it to your profile by running the following command:
+
+cat << \EOF >> ~/.bash_profile
+# Add .NET Core SDK tools
+export PATH="$PATH:/github/home/.dotnet/tools"
+EOF
+
+You can add it to the current session by running the following command:
+
+export PATH="$PATH:/github/home/.dotnet/tools"
+
+You can invoke the tool using the following command: dotnet-TagToVersion
+Tool 'dotnetcampus.tagtoversion' (version '1.0.11') was successfully installed.
+```
+
+此时使用 `export PATH="$PATH:/github/home/.dotnet/tools"` 是无效的，会在 GitHub Action 里提示找不到 dotnet 工具。正确做法是需要添加到 GITHUB_PATH 里，采用的是 `echo "$HOME/.dotnet/tools" >> $GITHUB_PATH` 命令，如以下代码，详细请参阅 <https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-commands>
+
+```yml
+    - name: Add .NET global tools to PATH
+      run: echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+```

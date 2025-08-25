@@ -1,7 +1,7 @@
 ---
 title: "dotnet 配合 Gitlab 做自动推 Tag 时打包 NuGet 包"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2025-8-25 20:21:12 +0800
 CreateTime: 4/3/2020 8:31:45 AM
 categories: git dotnet
 ---
@@ -184,4 +184,3 @@ tagpublish:
 
 - [Roslyn 让 VisualStudio 急速调试底层库方法](https://blog.lindexi.com/post/Roslyn-%E8%AE%A9-VisualStudio-%E6%80%A5%E9%80%9F%E8%B0%83%E8%AF%95%E5%BA%95%E5%B1%82%E5%BA%93%E6%96%B9%E6%B3%95.html )
 - [VS DLL引用替换插件](https://github.com/dotnet-campus/DllReferencePathChanger )
-
