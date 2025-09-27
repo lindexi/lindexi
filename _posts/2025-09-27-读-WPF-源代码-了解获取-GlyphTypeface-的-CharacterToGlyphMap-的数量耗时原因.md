@@ -1,8 +1,8 @@
 ---
 title: "读 WPF 源代码 了解获取 GlyphTypeface 的 CharacterToGlyphMap 的数量耗时原因"
 author: lindexi
-date: 2025-9-26 20:12:15 +0800
-CreateTime: 2025-9-26 19:56:57 +0800
+date: 2025-9-27 7:22:28 +0800
+CreateTime: 2025/09/27 07:22:28
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2025/09/27 07:22:28 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
