@@ -1,7 +1,7 @@
 ---
 title: "读 WPF 源代码 了解获取 GlyphTypeface 的 CharacterToGlyphMap 的数量耗时原因"
 author: lindexi
-date: 2025-9-27 7:22:28 +0800
+date: 2025-9-28 14:40:31 +0800
 CreateTime: 2025/09/27 07:22:28
 categories: WPF
 ---
@@ -128,7 +128,7 @@ categories: WPF
 
 即使 TryGetValue 方法速度再快，但是循环本身将会调用 1114111 （0x10ffff） 百万次，这就是耗时的原因
 
-按照当前的代码，直接调用 `CharacterToGlyphMap.Count` 属性是非常亏的，将会导致 `_cmap` 字段，初始化此字典需要经过百万次的循环，自然性能很差。但很显然，这是一个很好做的优化点，只需要绕开字典初始化，直接获取数量即可
+按照当前的代码，直接调用 `CharacterToGlyphMap.Count` 属性是非常亏的，将会导致 `_cmap` 字段被初始化，初始化此字典需要经过百万次的循环，自然性能很差。但很显然，这是一个很好做的优化点，只需要绕开字典初始化，直接获取数量即可
 
 既然看起来这是一个很好的优化点，自然我就将其优化了： <https://github.com/dotnet/wpf/pull/11139>
 
