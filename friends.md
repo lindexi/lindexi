@@ -234,7 +234,7 @@ permalink: /friends/
 
  - [InCerry - 博客园](https://www.cnblogs.com/incerry/ )
 
- - [晓云](https://blog.lmxiao.top/)
+ - [晓云](https://blog.lyi.moe/)
 
  - [谭汐霏の破站](https://tanxifei.github.io/ )
 
