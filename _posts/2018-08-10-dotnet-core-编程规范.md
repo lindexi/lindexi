@@ -1,12 +1,12 @@
 ---
 title: "dotnet core 编程规范"
 author: lindexi
-date: 2025-10-13 11:34:48 +0800
+date: 2025-10-14 9:25:56 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: dotnet
 ---
 
-本文实际只是翻译 .NET Core foundational libraries 官方文档的编码风格。
+本文实质为翻译 .NET Core foundational libraries 官方文档的编码风格。
 
 <!--more-->
 
@@ -14,6 +14,7 @@ categories: dotnet
 <!-- CreateTime:2018/8/10 19:16:52 -->
 
 此规范和 VisualStudio 默认约束相同，绝大部分 C# .NET 系项目都会遵循此规范
+
 <!-- 在 [.NET Core foundational libraries](https://github.com/dotnet/runtime )项目使用的编程规范默认就是 VisualStudio 默认样式。 -->
 原文：[coding-style.md](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md )
 
