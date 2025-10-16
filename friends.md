@@ -96,9 +96,9 @@ permalink: /friends/
 
    国内Windows应用开发方向的微软最具价值专家
 
- - [云乡](https://blog.richasy.cn/ ) 
+ - 云之幻
 
-   云之幻
+   <!-- [云乡](https://blog.richasy.cn/ ) -->
 
  - [追梦园 http://www.zmy123.cn](http://www.zmy123.cn)
 
@@ -116,9 +116,11 @@ permalink: /friends/
 
    千千，一个可爱的蓝孩子
 
- - [老李拉面馆](http://wicrosoft.ml/ ) UWP 大神
+ - 老李拉面馆
+ <!-- [老李拉面馆](http://wicrosoft.ml/ ) UWP 大神 -->
 
- - [YOYOFx](http://blog.microservice4.net/  ) 
+ - YOYOFx
+ <!-- [YOYOFx](http://blog.microservice4.net/  )  -->
 
    Asp大神，研究.net core
 
@@ -134,13 +136,14 @@ permalink: /friends/
 
  - [五斤](https://www.chairyfish.com/ )
 
- - [小文's blog - 小文的个人博客](https://www.qcgzxw.cn/ )
+ <!-- - [小文's blog - 小文的个人博客](https://www.qcgzxw.cn/ ) -->
 
  - [Moe](https://sunnycase.moe/ ) 
 
    WPF 大神
   
- - [火火](https://blog.ultrabluefire.cn/ ) UWP 大神
+ - [火火](https://www.zhihu.com/people/fire-blue-30 ) UWP 大神
+   <!-- https://blog.ultrabluefire.cn/ -->
 
  - [LiesAuer](http://www.liesauer.net/blog/ )  
 
@@ -166,7 +169,10 @@ permalink: /friends/
 
  - [Ulysses' Brain Holes](http://114.215.126.213/ )
 
- - [樊健汉](http://www.ikende.com/ ) .NET高性能开发
+ - 樊健汉
+ <!-- [樊健汉](http://www.ikende.com/ )  -->
+
+   .NET高性能开发
 
  - [逆流水Team 布墨](http://blog.niliushui.com/?tdsourcetag=s_pctim_aiomsg )
 
@@ -176,17 +182,21 @@ permalink: /friends/
 
  - [纳边](https://github.com/HandyOrg/HandyControl) 
 
-   超好用的 WPF 控件 [HandyControl](https://github.com/HandyOrg/HandyControl ) 的作者，也是 [HandyControl 群](https://jq.qq.com/?_wv=1027&k=5puiv55) 714704041 的群主
+   超好用的 WPF 控件 [HandyControl](https://github.com/HandyOrg/HandyControl ) 的作者
+   <!-- 也是 [HandyControl 群](https://jq.qq.com/?_wv=1027&k=5puiv55) 714704041 的群主 -->
 
  - [三台](https://www.cnblogs.com/3Tai ) 这是他的 [github](https://github.com/a44281071)
 
  - [王政道](https://github.com/ZhengDaoWang)
 
+   传说的王公子，博客园地址是： <https://www.cnblogs.com/ryzen>
+
  - 玩命夜狼 
 
    是在做 [The complete WPF tutorial](https://wpf-tutorial.com/zh/1/%E5%85%B3%E4%BA%8Ewpf/%E4%BB%80%E4%B9%88%E6%98%AFwpf/ ) 文档翻译的大佬，这部分文章很适合新手入门
 
- - [文轩](https://www.itoolsoft.org/ ) 微软 MVP 专业广告我软
+ - 文轩
+ <!-- [文轩](https://www.itoolsoft.org/ ) 微软 MVP 专业广告我软 -->
 
  - [痕迹 - 博客园](https://www.cnblogs.com/zh7791 )
 
@@ -234,6 +244,8 @@ permalink: /friends/
 
  - [InCerry - 博客园](https://www.cnblogs.com/incerry/ )
 
+   也是 687779078 群的群主
+
  - [晓云](https://blog.lyi.moe/)
 
  - [谭汐霏の破站](https://tanxifei.github.io/ )
@@ -278,11 +290,11 @@ permalink: /friends/
 
    最早看到他发的UWP文章
 
- - zhxilin http://www.cnblogs.com/zhxilin/ 
+ - zhxilin <http://www.cnblogs.com/zhxilin/> 
 
    礼物说 App 作者。
 
- - [nomasp](http://blog.csdn.net/nomasp/ ) http://blog.csdn.net/nomasp/ 
+ - [nomasp](http://blog.csdn.net/nomasp/ ) <http://blog.csdn.net/nomasp/> 
 
    柯于旺大神，现在小米，没有继续做UWP，但他写了CSDN第一个UWP专栏
 
