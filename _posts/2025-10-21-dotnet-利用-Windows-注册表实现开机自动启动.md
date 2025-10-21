@@ -1,8 +1,8 @@
 ---
 title: "dotnet 利用 Windows 注册表实现开机自动启动"
 author: lindexi
-date: 2025-10-20 15:28:28 +0800
-CreateTime: 2025-10-20 15:24:20 +0800
+date: 2025-10-21 7:1:46 +0800
+CreateTime: 2025/10/21 07:01:46
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/10/21 07:01:46 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
