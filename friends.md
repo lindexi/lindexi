@@ -58,7 +58,9 @@ permalink: /friends/
 
    传说的幸斌师兄
 
- - [胡承老司机](https://huchengv5.github.io/ ) 国内博客地址：[https://huchengv5.gitee.io/](https://huchengv5.gitee.io/)
+ - [胡承老司机](https://huchengv5.github.io/ )
+
+   <!-- 国内博客地址：[https://huchengv5.gitee.io/](https://huchengv5.gitee.io/) -->
 
  - [伏鹏飞](https://fupengfei1223.github.io/ )
 
@@ -96,8 +98,9 @@ permalink: /friends/
 
    国内Windows应用开发方向的微软最具价值专家
 
- - 云之幻
+ - [云之幻](https://github.com/Richasy)
 
+   哔哩哔哩云之幻的个人空间: <https://space.bilibili.com/5992670>
    <!-- [云乡](https://blog.richasy.cn/ ) -->
 
  - [追梦园 http://www.zmy123.cn](http://www.zmy123.cn)
@@ -117,10 +120,10 @@ permalink: /friends/
    千千，一个可爱的蓝孩子
 
  - 老李拉面馆
- <!-- [老李拉面馆](http://wicrosoft.ml/ ) UWP 大神 -->
+   <!-- [老李拉面馆](http://wicrosoft.ml/ ) UWP 大神 -->
 
  - YOYOFx
- <!-- [YOYOFx](http://blog.microservice4.net/  )  -->
+   <!-- [YOYOFx](http://blog.microservice4.net/  )  -->
 
    Asp大神，研究.net core
 
@@ -136,7 +139,7 @@ permalink: /friends/
 
  - [五斤](https://www.chairyfish.com/ )
 
- <!-- - [小文's blog - 小文的个人博客](https://www.qcgzxw.cn/ ) -->
+   <!-- - [小文's blog - 小文的个人博客](https://www.qcgzxw.cn/ ) -->
 
  - [Moe](https://sunnycase.moe/ ) 
 
