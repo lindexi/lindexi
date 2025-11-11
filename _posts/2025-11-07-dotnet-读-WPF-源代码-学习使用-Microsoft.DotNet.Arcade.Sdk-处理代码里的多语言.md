@@ -1,8 +1,8 @@
 ---
 title: "dotnet 读 WPF 源代码 学习使用 Microsoft.DotNet.Arcade.Sdk 处理代码里的多语言"
 author: lindexi
-date: 2025-11-6 20:56:1 +0800
-CreateTime: 2025-11-6 14:33:9 +0800
+date: 2025-11-7 7:25:42 +0800
+CreateTime: 2025/11/07 07:25:42
 categories: WPF dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: WPF dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/11/07 07:25:42 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
