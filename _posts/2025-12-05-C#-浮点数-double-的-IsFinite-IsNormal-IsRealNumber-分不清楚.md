@@ -1,8 +1,8 @@
 ---
 title: "C# 浮点数 double 的 IsFinite IsNormal IsRealNumber 分不清楚"
 author: lindexi
-date: 2025-12-4 15:53:12 +0800
-CreateTime: 2025-12-4 15:24:54 +0800
+date: 2025-12-5 7:11:33 +0800
+CreateTime: 2025/12/05 07:11:33
 categories: C#
 ---
 
@@ -10,6 +10,8 @@ categories: C#
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/05 07:11:33 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
