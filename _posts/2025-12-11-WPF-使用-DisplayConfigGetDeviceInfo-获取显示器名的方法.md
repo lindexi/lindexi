@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 DisplayConfigGetDeviceInfo 获取显示器名的方法"
 author: lindexi
-date: 2025-12-10 14:19:17 +0800
-CreateTime: 2025-12-10 14:16:42 +0800
+date: 2025-12-11 7:11:52 +0800
+CreateTime: 2025/12/11 07:11:52
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/11 07:11:52 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
