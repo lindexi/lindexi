@@ -1,8 +1,8 @@
 ---
 title: "dotnet 10 已知问题 WinForms 的 TargetFramework 与 System.Drawing.Common 不匹配将抛出找不到类型异常"
 author: lindexi
-date: 2025-12-16 20:33:38 +0800
-CreateTime: 2025-12-16 20:27:3 +0800
+date: 2025-12-17 7:1:8 +0800
+CreateTime: 2025/12/17 07:01:08
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/17 07:01:08 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
