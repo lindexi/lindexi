@@ -1,7 +1,7 @@
 ---
 title: "dotnet 警惕 async void 线程顶层异常"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2025-12-19 16:20:20 +0800
 CreateTime: 2023/7/4 19:44:02
 categories: dotnet
 ---
@@ -61,3 +61,11 @@ FooEvent += async (s, e) =>
 另外在捕获异常用来记录日志的逻辑，也推荐使用双层捕获方式，解决记录异常的模块抛出的异常炸掉应用
 
 我依然认为 async void 线程顶层异常无法统一处理导致进程退出是 dotnet 的基础设计缺陷
+
+在 ReShaprer 里面有明确的提示，详细请看： <https://www.jetbrains.com/help/inspectopedia/AsyncVoidMethod.html>
+
+提示内容如下
+
+```
+Any exceptions unhandled by the 'async void' method might lead to the process crash
+```
