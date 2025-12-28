@@ -1,8 +1,8 @@
 ---
 title: "使用 IShellLinkW 创建 URL 网址超链接快捷方式"
 author: lindexi
-date: 2025-12-26 16:5:44 +0800
-CreateTime: 2025-12-26 16:5:44 +0800
+date: 2025-12-27 7:10:26 +0800
+CreateTime: 2025/12/27 07:10:26
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/27 07:10:26 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

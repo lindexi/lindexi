@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 节点的 Span 和  FullSpan 有什么区别"
 author: lindexi
-date: 2024-8-6 20:43:33 +0800
+date: 2025-12-28 15:46:5 +0800
 CreateTime: 2018/8/10 19:16:52
 categories: Roslyn MSBuild 编译器
 ---

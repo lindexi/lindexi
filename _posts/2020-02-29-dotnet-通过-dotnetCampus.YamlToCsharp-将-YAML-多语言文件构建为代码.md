@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过 dotnetCampus.YamlToCsharp 将 YAML 多语言文件构建为代码"
 author: lindexi
-date: 2024-8-6 20:43:31 +0800
+date: 2025-12-28 15:46:5 +0800
 CreateTime: 2020/2/29 11:29:01
 categories: dotnet
 ---
