@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Agent Framework 与 DeepSeek 对接"
 author: lindexi
-date: 2025-12-28 15:42:39 +0800
-CreateTime: 2025-12-28 15:42:39 +0800
+date: 2025-12-29 10:48:43 +0800
+CreateTime: 2025/12/29 07:21:45
 categories: 
 ---
 
@@ -11,6 +11,8 @@ categories:
 <!--more-->
 
 
+<!-- CreateTime:2025/12/29 07:21:45 -->
+
 <!-- 发布 -->
 <!-- 博客 -->
 
@@ -18,7 +20,7 @@ categories:
 
 先使用手机号在 <https://platform.deepseek.com> 上注册账号
 
-最后进入充值页面充值。如果没有充值，则后续 API 调用会返回 402 错误
+随后进入充值页面充值。如果没有充值，则后续 API 调用会返回 402 错误
 
 最后进入 <https://platform.deepseek.com/api_keys> 创建 API key 且复制出来，后续步骤将会用到
 
