@@ -1,8 +1,8 @@
 ---
 title: "PowerShell 设置 Windows 安全中心白名单排除项"
 author: lindexi
-date: 2025-12-30 14:7:59 +0800
-CreateTime: 2025-12-30 11:54:45 +0800
+date: 2025-12-31 7:21:58 +0800
+CreateTime: 2025/12/31 07:21:58
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/31 07:21:58 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
