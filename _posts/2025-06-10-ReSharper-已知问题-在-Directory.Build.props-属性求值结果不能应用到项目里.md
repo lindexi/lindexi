@@ -1,7 +1,7 @@
 ---
 title: "ReSharper 已知问题 在 Directory.Build.props 属性求值结果不能应用到项目里"
 author: lindexi
-date: 2025-12-28 15:46:5 +0800
+date: 2026-1-6 8:45:0 +0800
 CreateTime: 2025/06/10 07:01:43
 categories: ReSharper
 ---
@@ -12,11 +12,12 @@ categories: ReSharper
 
 
 <!-- CreateTime:2025/06/10 07:01:43 -->
-
 <!-- 发布 -->
 <!-- 博客 -->
 
 此问题我已经报告给 ReSharper 官方，详细请看： <https://youtrack.jetbrains.com/issue/RSRP-500675>
+
+此问题已在 ReSharper 2025.3.1 版本修复。尽管官方说 2025.1 版本就已经修复，然而我测试了 2025.1 和 2025.2 版本都没有通过，只有 2025.3.1 版本才开始修复
 
 以下是我的报告内容：
 
