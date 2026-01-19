@@ -1,8 +1,8 @@
 ---
 title: "C# Microsoft Agent Framework 与 豆包 对接"
 author: lindexi
-date: 2026-1-16 10:0:28 +0800
-CreateTime: 2026-1-16 8:55:47 +0800
+date: 2026-1-17 7:27:15 +0800
+CreateTime: 2026/01/17 07:27:15
 categories: C#
 ---
 
@@ -10,6 +10,8 @@ categories: C#
 
 <!--more-->
 
+
+<!-- CreateTime:2026/01/17 07:27:15 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
