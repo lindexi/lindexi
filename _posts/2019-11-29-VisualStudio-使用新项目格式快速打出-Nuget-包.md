@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用新项目格式快速打出 Nuget 包"
 author: lindexi
-date: 2024-8-6 20:43:34 +0800
+date: 2026-1-26 17:43:28 +0800
 CreateTime: 2019/11/29 10:15:25
 categories: VisualStudio
 ---
@@ -52,7 +52,7 @@ nuget.exe spec
     <authors>lindexi</authors>
     <owners>lindexi</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>欢迎访问我博客 https://lindexi.gitee.io/ 里面有很多 UWP WPF 博客</description>
+    <description>欢迎访问我博客 https://blog.lindexi.com/ 里面有很多 UWP WPF 博客</description>
     <dependencies>
       <group targetFramework=".NETCoreApp2.1">
         <dependency id="Microsoft.NETCore.App" version="2.1.0" exclude="Build,Analyzers" />

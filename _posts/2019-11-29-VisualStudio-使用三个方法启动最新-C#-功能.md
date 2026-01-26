@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用三个方法启动最新 C# 功能"
 author: lindexi
-date: 2024-8-6 20:43:34 +0800
+date: 2026-1-26 17:43:18 +0800
 CreateTime: 2019/11/29 8:58:50
 categories: VisualStudio
 ---
@@ -56,7 +56,7 @@ categories: VisualStudio
     <Authors>lindexi</Authors>
     <RepositoryUrl>https://github.com/lindexi/UWP</RepositoryUrl>
     <Description>
-      欢迎来我博客 lindexi.gitee.io
+      欢迎来我博客 blog.lindexi.com
     </Description>
   </PropertyGroup>
 ```

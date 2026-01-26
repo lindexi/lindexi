@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 如何在DataTemplate绑定方法"
 author: lindexi
-date: 2024-8-6 20:43:37 +0800
+date: 2026-1-26 17:46:14 +0800
 CreateTime: 2018/8/10 19:16:50
 categories: Win10 UWP
 ---
@@ -36,7 +36,7 @@ categories: Win10 UWP
     }
 ```
 
-然后绑定 ViewModel ，在 MainPage 绑定就是 DataContext ，如果想知道 DataContext 的写法，请看 [win10 uwp DataContext](https://lindexi.gitee.io/post/win10-uwp-DataContext.html )
+然后绑定 ViewModel ，在 MainPage 绑定就是 DataContext ，如果想知道 DataContext 的写法，请看 [win10 uwp DataContext](https://blog.lindexi.com/post/win10-uwp-DataContext.html )
 
 ```csharp
         public MainPage()

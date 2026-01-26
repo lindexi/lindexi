@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 自定义外部命令"
 author: lindexi
-date: 2024-8-6 20:43:35 +0800
+date: 2026-1-26 17:44:6 +0800
 CreateTime: 2018/8/10 19:16:53
 categories: VisualStudio
 ---
@@ -69,7 +69,7 @@ categories: VisualStudio
 1. 添加命令 这里选择工具的外部命令4，外部命令和添加命令所在有关，我这里添加的是第4个
 
 
-感谢 [吕毅 ](https://walterlv.gitee.io/ )
+感谢 [吕毅 ](https://blog.walterlv.com/ )
 
 更多自定义外部工具请看 [Visual Studio 自定义外部命令 (External Tools) - J.晒太阳的猫 - 博客园](https://www.cnblogs.com/jasongrass/p/14682527.html )
 

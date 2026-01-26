@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 Stroke 类可能存在的内存泄露"
 author: lindexi
-date: 2024-5-20 16:22:4 +0800
+date: 2026-1-26 17:39:35 +0800
 CreateTime: 2021/1/28 19:34:45
 categories: WPF WPF源代码
 ---
@@ -100,7 +100,7 @@ internal Stroke(StylusPointCollection stylusPoints, DrawingAttributes drawingAtt
 
 更多笔迹相关请看
 
-- [WPF 渲染原理](https://lindexi.gitee.io/post/WPF-%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86.html )
+- [WPF 渲染原理](https://blog.lindexi.com/post/WPF-%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86.html )
 - [高性能笔迹原理](https://blog.lindexi.com/post/%E9%AB%98%E6%80%A7%E8%83%BD%E7%AC%94%E8%BF%B9%E5%8E%9F%E7%90%86.html)
 - [WPF 高性能笔](https://blog.lindexi.com/post/WPF-%E9%AB%98%E6%80%A7%E8%83%BD%E7%AC%94.html ) 
 - [WPF 高速书写 StylusPlugIn 原理](https://blog.lindexi.com/post/WPF-%E9%AB%98%E9%80%9F%E4%B9%A6%E5%86%99-StylusPlugIn-%E5%8E%9F%E7%90%86.html )
