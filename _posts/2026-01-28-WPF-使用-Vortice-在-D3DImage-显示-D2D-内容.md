@@ -1,8 +1,8 @@
 ---
 title: "WPF 使用 Vortice 在 D3DImage 显示 D2D 内容"
 author: lindexi
-date: 2026-1-27 20:12:11 +0800
-CreateTime: 2026-1-27 10:36:21 +0800
+date: 2026-1-28 7:23:56 +0800
+CreateTime: 2026/01/28 07:23:56
 categories: C# D2D DirectX Vortice Direct2D 渲染
 ---
 
@@ -10,6 +10,8 @@ categories: C# D2D DirectX Vortice Direct2D 渲染
 
 <!--more-->
 
+
+<!-- CreateTime:2026/01/28 07:23:56 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
