@@ -1,8 +1,8 @@
 ---
 title: "Win32 使用 MoveFileEx 延迟到重启后删除文件"
 author: lindexi
-date: 2026-2-3 9:7:34 +0800
-CreateTime: 2026-2-3 8:53:15 +0800
+date: 2026-2-4 7:16:8 +0800
+CreateTime: 2026/02/04 07:16:08
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/02/04 07:16:08 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
