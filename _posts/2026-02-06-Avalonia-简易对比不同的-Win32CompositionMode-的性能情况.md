@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 简易对比不同的 Win32CompositionMode 的性能情况"
 author: lindexi
-date: 2026-2-5 15:37:11 +0800
-CreateTime: 2026-2-5 15:21:59 +0800
+date: 2026-2-6 7:17:20 +0800
+CreateTime: 2026/02/06 07:17:20
 categories: Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2026/02/06 07:17:20 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

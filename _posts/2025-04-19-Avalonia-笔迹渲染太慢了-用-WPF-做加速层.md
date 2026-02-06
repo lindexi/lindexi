@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 笔迹渲染太慢了 用 WPF 做加速层"
 author: lindexi
-date: 2025-4-19 7:27:29 +0800
+date: 2026-2-6 8:58:8 +0800
 CreateTime: 2025/04/19 07:27:29
 categories: WPF Avalonia
 ---
@@ -19,6 +19,9 @@ categories: WPF Avalonia
 由于 Avalonia 的渲染延迟非常高，我尝试优化了几波都改不动，我的伙伴们关于减少渲染延迟的提交也没有被合入到主干，因此我决定采用 WPF 作为加速层用来绘制笔迹
 
 我发现 Avalonia 的合成渲染整个模块的逻辑复杂度很高，啃不动，且越来越认为这个渲染延迟是符合 Avalonia 设计的。即这不是因为代码编写的问题，而是框架设计带来的延迟性。从 Avalonia 官方成员给出的设计图也确实能看到，这是 Avalonia 设计如此。详细请看 <https://github.com/AvaloniaUI/Avalonia/pull/16896#issuecomment-2326397534>
+
+性能对比测试请参阅： [对比 Avalonia 和 WPF 的渲染延迟](https://blog.lindexi.com/post/%E5%AF%B9%E6%AF%94-Avalonia-%E5%92%8C-WPF-%E7%9A%84%E6%B8%B2%E6%9F%93%E5%BB%B6%E8%BF%9F.html )
+<!-- [对比 Avalonia 和 WPF 的渲染延迟 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/19582321 ) -->
 
 在 Linux 上，使用 X11 直接绘制笔迹的性能也比 Avalonia 绘制的渲染实时性高很多，但如果 Avalonia 肯上 [SHM](https://github.com/AvaloniaUI/Avalonia/pull/17118) 和开启[DirtyRects](https://github.com/AvaloniaUI/Avalonia/pull/16849)优化，还是能接近裸 X11 实时渲染的。在 Windows 上，使用 WPF 随意绘制笔迹的渲染实时性也比 Avalonia 高出很多，但我现在没有找到更多的优化 Avalonia 渲染延迟方法了。我用不准确的测量，能够看到 Avalonia 比 WPF 落后 1-2 帧，有时候最多能落后 5 帧。这里说的落后几帧，不代表 Avalonia 掉帧，而是说对实时响应反馈到界面上的渲染实时性。关于实时性渲染测量，这是另一个大坑，我只是用不准确的测量而已
 

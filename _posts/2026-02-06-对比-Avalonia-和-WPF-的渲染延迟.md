@@ -1,8 +1,8 @@
 ---
 title: "对比 Avalonia 和 WPF 的渲染延迟"
 author: lindexi
-date: 2026-2-5 15:29:14 +0800
-CreateTime: 2026-2-5 15:29:13 +0800
+date: 2026-2-6 7:18:27 +0800
+CreateTime: 2026/02/06 07:18:27
 categories: WPF Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: WPF Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2026/02/06 07:18:27 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
