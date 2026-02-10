@@ -1,9 +1,9 @@
 ---
 title: "dotnet Vortice 无需交换链与 DirectComposition 对接渲染层"
 author: lindexi
-date: 2026-2-9 20:14:4 +0800
-CreateTime: 2026-2-9 17:30:40 +0800
-categories: dotnet
+date: 2026-2-10 9:15:4 +0800
+CreateTime: 2026/02/10 07:23:26
+categories: C# D2D DirectX Vortice Direct2D DirectComposition 渲染
 ---
 
 在传统的写法里面，都是面向于 DXGI 交换链实现界面渲染。在 DirectComposition 里面可以通过 IDCompositionDevice 的 Commit 和 WaitForCommitCompletion 方法配置将窗口内容提交到 DWM（DWM Desktop Window Manager）进行渲染，整个过程无需交换链参与 
@@ -11,6 +11,8 @@ categories: dotnet
 <!--more-->
 
 
+<!-- CreateTime:2026/02/10 07:23:26 -->
+<!-- 标签：C#,D2D,DirectX,Vortice,Direct2D,DirectComposition,渲染 -->
 <!-- 发布 -->
 <!-- 博客 -->
 

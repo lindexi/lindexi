@@ -1,9 +1,9 @@
 ---
 title: "dotnet Vortice 通过 Angle 将 Skia 和 DirectX 对接"
 author: lindexi
-date: 2026-2-9 17:36:51 +0800
+date: 2026-2-10 9:15:45 +0800
 CreateTime: 2026/02/07 07:23:45
-categories: dotnet
+categories: DirectX Vortice DirectComposition 渲染 Skia
 ---
 
 本文将从控制台开始，以最简单方式和大家展示如何通过 Angle 将 Skia 和 DirectX 对接。对接之后，可以利用 Angle 的能力，让 Skia 使用到 DirectX 引擎渲染能力
@@ -12,7 +12,7 @@ categories: dotnet
 
 
 <!-- CreateTime:2026/02/07 07:23:45 -->
-
+<!-- 标签：DirectX,Vortice,DirectComposition,渲染,Skia -->
 <!-- 发布 -->
 <!-- 博客 -->
 
