@@ -1,8 +1,8 @@
 ---
 title: "记调试 RX-Explorer-WAS 文件管理器 UI 未响应问题"
 author: lindexi
-date: 2026-2-11 16:12:16 +0800
-CreateTime: 2026-2-11 14:44:48 +0800
+date: 2026-2-12 8:40:13 +0800
+CreateTime: 2026/02/12 07:10:34
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/02/12 07:10:34 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -261,3 +263,5 @@ categories:
 回到开始的问题，我一开始通过调用堆栈，认为是静态构造函数相关的问题导致的。继续深入调试，发现是加载 DLL 卡住的。通过这个调试经验，也让我更明确了按照最佳实践，不能在加载过程中干耗时的事情或可能会卡住的事情是多么重要
 
 感谢 [Ruofan](https://github.com/zhuxb711) 提供了优雅的文件管理器
+
+更多调试经验请看 [dotnet 代码调试方法](https://blog.lindexi.com/post/dotnet-%E4%BB%A3%E7%A0%81%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.html )
