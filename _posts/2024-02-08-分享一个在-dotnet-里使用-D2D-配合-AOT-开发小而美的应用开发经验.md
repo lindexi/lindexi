@@ -1,7 +1,7 @@
 ---
 title: "分享一个在 dotnet 里使用 D2D 配合 AOT 开发小而美的应用开发经验"
 author: lindexi
-date: 2024-5-20 16:22:6 +0800
+date: 2026-2-25 11:24:59 +0800
 CreateTime: 2024/2/8 15:52:55
 categories: C# D2D DirectX Vortice Direct2D
 ---
@@ -278,7 +278,7 @@ unsafe
             cbSize = (uint) Unsafe.SizeOf<WNDCLASSEXW>(),
             style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC,
             // 核心逻辑，设置消息循环
-            lpfnWndProc = new WNDPROC(WndProc),
+            lpfnWndProc = new WNDPROC(WndProc), // 注：由于 `new WNDPROC(WndProc)` 委托没有赋值给字段，仅仅只是一个局部变量，将在被 GC 回收之后，抛出执行引擎异常而崩溃进程。请在正式项目里面，将此捕获到字段上，防止被回收
             hInstance = (HINSTANCE) hInstance.DangerousGetHandle(),
             hCursor = LoadCursor((HINSTANCE) IntPtr.Zero, szCursorName),
             hbrBackground = (Windows.Win32.Graphics.Gdi.HBRUSH) IntPtr.Zero,

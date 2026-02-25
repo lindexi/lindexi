@@ -1,7 +1,7 @@
 ---
 title: "dotnet DirectX 做一个简单绘制折线笔迹的 D2D 应用"
 author: lindexi
-date: 2024-10-16 7:27:25 +0800
+date: 2026-2-25 11:24:11 +0800
 CreateTime: 2024/10/16 07:27:25
 categories: C# D2D DirectX Vortice Direct2D
 ---
@@ -307,7 +307,7 @@ class Program
             {
                 cbSize = (uint)Unsafe.SizeOf<WNDCLASSEXW>(),
                 style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC,
-                // 核心逻辑，设置消息循环
+                // 核心逻辑，设置消息循环。注：由于 `new WNDPROC(WndProc)` 委托没有赋值给字段，仅仅只是一个局部变量，将在被 GC 回收之后，抛出执行引擎异常而崩溃进程。请在正式项目里面，将此捕获到字段上，防止被回收
                 lpfnWndProc = new WNDPROC(WndProc),
                 hInstance = (HINSTANCE)hInstance.DangerousGetHandle(),
                 hCursor = LoadCursor((HINSTANCE)IntPtr.Zero, szCursorName),

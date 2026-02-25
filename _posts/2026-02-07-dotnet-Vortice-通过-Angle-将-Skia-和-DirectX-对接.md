@@ -1,7 +1,7 @@
 ---
 title: "dotnet Vortice 通过 Angle 将 Skia 和 DirectX 对接"
 author: lindexi
-date: 2026-2-10 9:15:45 +0800
+date: 2026-2-25 11:24:21 +0800
 CreateTime: 2026/02/07 07:23:45
 categories: DirectX Vortice DirectComposition 渲染 Skia
 ---
@@ -1097,7 +1097,7 @@ class Program
             {
                 cbSize = (uint)Marshal.SizeOf<WNDCLASSEXW>(),
                 style = style,
-                lpfnWndProc = new WNDPROC(WndProc),
+                lpfnWndProc = new WNDPROC(WndProc), // 注：由于 `new WNDPROC(WndProc)` 委托没有赋值给字段，仅仅只是一个局部变量，将在被 GC 回收之后，抛出执行引擎异常而崩溃进程。请在正式项目里面，将此捕获到字段上，防止被回收
                 hInstance = new HINSTANCE(GetModuleHandle(null).DangerousGetHandle()),
                 hCursor = defaultCursor,
                 hbrBackground = new HBRUSH(IntPtr.Zero),
