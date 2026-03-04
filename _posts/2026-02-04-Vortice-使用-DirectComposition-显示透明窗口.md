@@ -1,7 +1,7 @@
 ---
 title: "Vortice 使用 DirectComposition 显示透明窗口"
 author: lindexi
-date: 2026-3-4 6:18:2 +0800
+date: 2026-3-5 6:15:51 +0800
 CreateTime: 2026/02/04 07:15:58
 categories: C# D2D DirectX Vortice Direct2D 渲染 DirectComposition
 ---
@@ -12,7 +12,6 @@ categories: C# D2D DirectX Vortice Direct2D 渲染 DirectComposition
 
 
 <!-- CreateTime:2026/02/04 07:15:58 -->
-
 <!-- 发布 -->
 <!-- 博客 -->
 <!-- 标签：C#,D2D,DirectX,Vortice,Direct2D,渲染,DirectComposition -->
@@ -663,7 +662,7 @@ git pull origin 369de6b65c4122cec6a6c9ffbcc0b352a419e83e
 
         var className = $"lindexi-{Guid.NewGuid().ToString()}";
         var title = "The Title";
-        _myInstanceWndProc = new WNDPROC(WndProc)
+        _myInstanceWndProc = new WNDPROC(WndProc);
         fixed (char* pClassName = className)
         fixed (char* pTitle = title)
         {
