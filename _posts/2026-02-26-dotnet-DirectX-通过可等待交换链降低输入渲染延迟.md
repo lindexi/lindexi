@@ -1,7 +1,7 @@
 ---
 title: "dotnet DirectX 通过可等待交换链降低输入渲染延迟"
 author: lindexi
-date: 2026-3-4 17:14:44 +0800
+date: 2026-3-5 14:14:6 +0800
 CreateTime: 2026/02/26 07:13:28
 categories: C# D2D DirectX Vortice Direct2D
 ---
