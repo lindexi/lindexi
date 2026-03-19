@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Agent Framework 测试豆包的根据图片生成矢量图的能力"
 author: lindexi
-date: 2026-3-16 10:3:12 +0800
-CreateTime: 2026-3-16 9:53:37 +0800
+date: 2026-3-17 7:16:3 +0800
+CreateTime: 2026/03/17 07:16:03
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/03/17 07:16:03 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
