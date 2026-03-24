@@ -1,8 +1,8 @@
 ---
 title: "用 Microsoft Agent Framework 对接豆包大模型实现AI自动玩「谁是卧底」游戏"
 author: lindexi
-date: 2026-3-19 15:35:15 +0800
-CreateTime: 2026-3-19 10:35:34 +0800
+date: 2026-3-20 7:30:42 +0800
+CreateTime: 2026/03/20 07:30:42
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/03/20 07:30:42 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
