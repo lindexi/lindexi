@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 已知问题 过早创建 App 对象将抛出 PlatformNotSupportedException 异常"
 author: lindexi
-date: 2026-4-3 10:59:0 +0800
-CreateTime: 2026-4-3 10:38:16 +0800
+date: 2026-4-4 7:11:22 +0800
+CreateTime: 2026/04/04 07:11:22
 categories: Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/04 07:11:22 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
