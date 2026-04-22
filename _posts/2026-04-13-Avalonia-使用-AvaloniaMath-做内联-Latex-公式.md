@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 使用 AvaloniaMath 做内联 Latex 公式"
 author: lindexi
-date: 2026-4-10 19:48:35 +0800
-CreateTime: 2026-4-10 19:43:6 +0800
+date: 2026-4-13 8:52:41 +0800
+CreateTime: 2026/04/13 08:52:41
 categories: Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/13 08:52:41 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 OpenILink.SDK 制作微信聊天机器人对接豆包大模型"
 author: lindexi
-date: 2026-4-13 8:52:35 +0800
-CreateTime: 2026-4-13 8:52:35 +0800
+date: 2026-4-13 8:52:55 +0800
+CreateTime: 2026/04/13 08:52:55
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/13 08:52:55 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
