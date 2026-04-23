@@ -1,8 +1,8 @@
 ---
 title: "通过 OllamaSharp 对接 Microsoft Agent Framework 的方法"
 author: lindexi
-date: 2026-4-22 21:1:1 +0800
-CreateTime: 2026-4-22 20:58:19 +0800
+date: 2026-4-23 7:2:39 +0800
+CreateTime: 2026/04/23 07:02:39
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/23 07:02:39 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
