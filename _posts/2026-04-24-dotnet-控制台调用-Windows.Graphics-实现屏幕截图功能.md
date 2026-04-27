@@ -1,8 +1,8 @@
 ---
 title: "dotnet 控制台调用 Windows.Graphics 实现屏幕截图功能"
 author: lindexi
-date: 2026-4-23 20:12:13 +0800
-CreateTime: 2026-4-23 16:15:9 +0800
+date: 2026-4-24 7:29:48 +0800
+CreateTime: 2026/04/24 07:29:48
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/24 07:29:48 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
