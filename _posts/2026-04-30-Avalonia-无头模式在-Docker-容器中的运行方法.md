@@ -1,8 +1,8 @@
 ---
 title: "Avalonia 无头模式在 Docker 容器中的运行方法"
 author: lindexi
-date: 2026-4-29 12:52:44 +0800
-CreateTime: 2026-4-29 11:52:6 +0800
+date: 2026-4-30 8:44:46 +0800
+CreateTime: 2026/04/30 08:44:46
 categories: Avalonia
 ---
 
@@ -10,6 +10,8 @@ categories: Avalonia
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/30 08:44:46 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
