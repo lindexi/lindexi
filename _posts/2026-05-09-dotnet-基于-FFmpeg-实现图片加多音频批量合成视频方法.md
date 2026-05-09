@@ -1,8 +1,8 @@
 ---
 title: "dotnet 基于 FFmpeg 实现图片加多音频批量合成视频方法"
 author: lindexi
-date: 2026-5-8 11:54:30 +0800
-CreateTime: 2026-5-8 11:51:32 +0800
+date: 2026-5-9 7:7:29 +0800
+CreateTime: 2026/05/09 07:07:29
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2026/05/09 07:07:29 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
