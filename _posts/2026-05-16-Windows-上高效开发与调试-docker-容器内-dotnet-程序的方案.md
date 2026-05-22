@@ -1,8 +1,8 @@
 ---
 title: "Windows 上高效开发与调试 docker 容器内 dotnet 程序的方案"
 author: lindexi
-date: 2026-5-15 9:45:53 +0800
-CreateTime: 2026-5-15 9:40:59 +0800
+date: 2026-5-16 7:20:11 +0800
+CreateTime: 2026/05/16 07:20:11
 categories: dotnet
 ---
 
@@ -11,6 +11,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2026/05/16 07:20:11 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
