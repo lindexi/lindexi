@@ -1,7 +1,7 @@
 ---
 title: "Vortice 使用 DirectComposition 显示透明窗口"
 author: lindexi
-date: 2026-6-2 6:5:50 +0800
+date: 2026-6-3 6:4:10 +0800
 CreateTime: 2026/02/04 07:15:58
 categories: C# D2D DirectX Vortice Direct2D 渲染 DirectComposition
 ---
