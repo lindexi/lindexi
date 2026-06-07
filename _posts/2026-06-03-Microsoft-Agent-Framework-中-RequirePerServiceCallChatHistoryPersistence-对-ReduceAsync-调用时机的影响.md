@@ -1,8 +1,8 @@
 ---
 title: "Microsoft Agent Framework 中 RequirePerServiceCallChatHistoryPersistence 对 ReduceAsync 调用时机的影响"
 author: lindexi
-date: 2026-6-2 18:4:46 +0800
-CreateTime: 2026-6-2 17:59:25 +0800
+date: 2026-6-3 7:4:1 +0800
+CreateTime: 2026/06/03 07:04:01
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/06/03 07:04:01 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
