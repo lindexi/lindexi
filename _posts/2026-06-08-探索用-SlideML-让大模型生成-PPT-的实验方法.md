@@ -1,8 +1,8 @@
 ---
 title: "探索用 SlideML 让大模型生成 PPT 的实验方法"
 author: lindexi
-date: 2026-6-8 7:51:35 +0800
-CreateTime: 2026-6-8 7:51:35 +0800
+date: 2026-6-8 7:53:11 +0800
+CreateTime: 2026/06/08 07:53:11
 categories: 
 ---
 
@@ -10,6 +10,8 @@ categories:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/06/08 07:53:11 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
