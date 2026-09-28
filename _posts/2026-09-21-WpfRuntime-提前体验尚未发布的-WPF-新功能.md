@@ -1,8 +1,8 @@
 ---
 title: "WpfRuntime 提前体验尚未发布的 WPF 新功能"
 author: lindexi
-date: 2026-9-20 21:4:17 +0800
-CreateTime: 2026-9-20 20:58:1 +0800
+date: 2026-9-21 7:12:47 +0800
+CreateTime: 2026/09/21 07:12:47
 categories: WPF
 ---
 
@@ -10,6 +10,8 @@ categories: WPF
 
 <!--more-->
 
+
+<!-- CreateTime:2026/09/21 07:12:47 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
