@@ -1,8 +1,8 @@
 ---
 title: "dotnet 使用 DotNetHost.Win32Metadata 让 .NET Framework 与 Native AOT 程序加载 .NET 10 组件"
 author: lindexi
-date: 2026-9-28 15:58:31 +0800
-CreateTime: 2026-9-28 15:48:31 +0800
+date: 2026-9-29 7:21:46 +0800
+CreateTime: 2026/09/29 07:21:46
 categories: dotnet
 ---
 
@@ -10,6 +10,8 @@ categories: dotnet
 
 <!--more-->
 
+
+<!-- CreateTime:2026/09/29 07:21:46 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
